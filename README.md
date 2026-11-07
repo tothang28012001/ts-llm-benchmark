@@ -60,6 +60,16 @@ python -m bench.analyze
 python -m report.content              # rebuild the report
 ```
 
+### Quick demo (about one minute)
+
+Re-runs every stage on one project (L01, about 1,000 lines of code) into `demo/raw/` without
+touching the committed results, so the output can be compared with `results/raw/L01/`.
+It needs `work/repos/L01`, which a full `bench.run` clones.
+
+```powershell
+$env:BENCH_RAW = "$PWD\demoaw"; python -m bench.run --only L01 --force --jobs 1 --mutate-minutes 5
+```
+
 ## Dataset
 
 `dataset/repos.csv` freezes the 24 repositories (12 per group) and the exact commit each was analysed at.

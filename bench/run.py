@@ -39,7 +39,7 @@ from bench.authorship import local_history_share
 ROOT = Path(__file__).resolve().parents[1]
 DATASET = ROOT / "dataset" / "repos.csv"
 REPOS = ROOT / "work" / "repos"
-RAW = ROOT / "results" / "raw"
+RAW = Path(os.environ.get("BENCH_RAW", ROOT / "results" / "raw"))  # override for demo / scratch runs
 IMAGE = "ts-llm-bench:1"
 
 EXCLUDED_DIRS = {"node_modules", "dist", "build", "out", "coverage", ".next", ".nuxt", ".git",
