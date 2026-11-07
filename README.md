@@ -93,5 +93,5 @@ dataset/    candidates, screening decisions, final frozen dataset
 results/    raw per-repository artefacts, metrics.csv, group_stats.csv, figures/
 ```
 
-Full StrykerJS HTML/JSON reports (`results/raw/*/mutation-*.json`, ~56 MB) are not committed because they
+Full StrykerJS JSON reports (`results/raw/*/mutation-*.json`, ~56 MB) are not committed because they
 embed copies of the analysed projects' source; `stryker.json` in each folder keeps the scores.
