@@ -1,0 +1,144 @@
+[03:47:03] H01: fetch Lucifier129/bistate @ 334a53654e
+[03:47:03] H03: fetch helios1138/graphql-typed-client @ 0bdd5736fc
+[03:47:03] H06: fetch microsoft/vscode-chrome-debug-core @ d50a8fec5f
+[03:47:05] H01: loc prod=532 test=1591
+[03:47:05] H03: loc prod=1612 test=837
+[03:47:05] H06: loc prod=6518 test=3551
+[03:47:07] H01: lint exit=0
+[03:47:08] H03: lint exit=0
+[03:47:08] H01: dup ok=True
+[03:47:08] H01: install (npm, lock=none)
+[03:47:08] H03: dup ok=True
+[03:47:08] H03: install (yarn, lock=yarn.lock)
+[03:47:10] H06: lint exit=0
+[03:47:11] H06: dup ok=True
+[03:47:11] H06: install (npm, lock=package-lock.json)
+[03:47:16] H03: install ok=True level=0
+[03:47:18] H03: tsc errors=0
+[03:47:26] H06: install ok=True level=0
+[03:47:28] H06: tsc errors=0
+[03:47:30] H06: test passed=True
+[03:47:30] H06: mutation testing
+[03:47:32] H03: test passed=True
+[03:47:32] H03: mutation testing
+[03:47:52] H01: install ok=True level=0
+[03:47:53] H03: mutation status=failed score=None
+[03:47:55] H01: tsc errors=0
+[03:47:55] H03: DONE
+[03:47:55] H08: fetch monicahq/old_mobile_app @ c2579cb341
+[03:47:59] H01: test passed=True
+[03:47:59] H01: mutation testing
+[03:48:01] H08: loc prod=6208 test=6497
+[03:48:16] H08: lint exit=0
+[03:48:19] H08: dup ok=True
+[03:48:19] H08: install (yarn, lock=yarn.lock)
+[03:48:40] H08: install ok=True level=0
+[03:48:44] H08: tsc errors=0
+[03:49:27] H08: test passed=True
+[03:49:27] H08: mutation testing
+[03:49:37] H08: mutation status=failed score=None
+[03:49:40] H08: DONE
+[03:49:40] H12: fetch samuelmeuli/mini-diary @ 8d2058548a
+[03:49:46] H12: loc prod=5987 test=94
+[03:49:52] H12: lint exit=0
+[03:49:55] H12: dup ok=True
+[03:49:55] H12: install (yarn, lock=yarn.lock)
+[03:50:23] H12: install ok=True level=0
+[03:50:29] H12: tsc errors=0
+[03:50:41] H12: test passed=True
+[03:50:41] H12: mutation testing
+[03:52:58] H06: mutation status=ok score=0.056133056133056136
+[03:52:59] H06: DONE
+[03:52:59] L01: fetch tamaratran/fast-jev-compaction @ e3f262a7f4
+[03:53:05] L01: loc prod=1069 test=528
+[03:53:10] L01: lint exit=0
+[03:53:11] L01: dup ok=True
+[03:53:11] L01: install (npm, lock=package-lock.json)
+[03:53:15] L01: install ok=True level=0
+[03:53:18] L01: tsc errors=0
+[03:53:21] L01: test passed=True
+[03:53:21] L01: mutation testing
+[03:53:58] L01: mutation status=ok score=0.5277777777777778
+[03:53:59] L02: fetch UfoMiao/zcf @ 3806d0606f
+[03:53:59] L01: DONE
+[03:54:12] L02: loc prod=11064 test=8734
+[03:54:30] L02: lint exit=0
+[03:54:34] L02: dup ok=True
+[03:54:34] L02: install (pnpm, lock=pnpm-lock.yaml)
+[03:54:53] L02: install ok=True level=0
+[03:55:06] L02: tsc errors=0
+[03:56:03] L02: test passed=True
+[03:56:03] L02: mutation testing
+[03:58:59] L02: mutation status=ok score=0.7446808510638298
+[03:59:02] L02: DONE
+[03:59:02] L04: fetch agent-era/devteam @ 62605eb9aa
+[03:59:14] L04: loc prod=14016 test=14157
+[03:59:39] L04: lint exit=0
+[03:59:45] L04: dup ok=True
+[03:59:45] L04: install (npm, lock=package-lock.json)
+[04:00:01] L04: install ok=True level=0
+[04:00:09] L04: tsc errors=0
+[04:00:36] L04: test passed=True
+[04:00:36] L04: mutation testing
+[04:06:11] H12: mutation status=ok score=0.15469613259668508
+[04:06:17] H12: DONE
+[04:06:17] L08: fetch Sqcows/forgejo-mcp @ 5564cb0aab
+[04:06:22] L08: loc prod=10246 test=3654
+[04:06:30] L08: lint exit=0
+[04:06:31] L08: dup ok=True
+[04:06:31] L08: install (npm, lock=package-lock.json)
+[04:06:39] L08: install ok=True level=0
+[04:06:45] L08: tsc errors=0
+[04:06:50] L08: test passed=True
+[04:06:50] L08: mutation testing
+[04:11:58] H01: mutation status=ok score=0.7154929577464789
+[04:12:03] H01: DONE
+[04:12:03] L09: fetch roboco-io/roboco-cli @ 7e8071e3f0
+[04:12:07] L09: loc prod=2395 test=1307
+[04:12:13] L09: lint exit=0
+[04:12:15] L09: dup ok=True
+[04:12:15] L09: install (npm, lock=package-lock.json)
+[04:12:27] L09: install ok=True level=0
+[04:12:31] L09: tsc errors=0
+[04:12:33] L09: test passed=True
+[04:12:33] L09: mutation testing
+[04:14:14] L09: mutation status=ok score=0.3752711496746204
+[04:14:15] L09: DONE
+[04:14:15] L10: fetch menagerai/menagerai @ f016ca7301
+[04:14:25] L10: loc prod=4747 test=3496
+[04:14:35] L10: lint exit=0
+[04:14:37] L10: dup ok=True
+[04:14:37] L10: install (npm, lock=package-lock.json)
+[04:14:37] L08: mutation status=ok score=0.24328147100424327
+[04:14:38] L08: DONE
+[04:14:38] L11: fetch andrisasuke/podlogs @ c70bd05774
+[04:14:41] L10: install ok=True level=0
+[04:14:43] L11: loc prod=3416 test=286
+[04:14:44] L10: tsc errors=0
+[04:14:46] L11: lint exit=0
+[04:14:47] L11: dup ok=True
+[04:14:47] L11: install (npm, lock=package-lock.json)
+[04:14:49] L10: test passed=True
+[04:14:49] L10: mutation testing
+[04:14:55] L11: install ok=True level=0
+[04:14:59] L11: tsc errors=3
+[04:15:04] L11: test passed=True
+[04:15:04] L11: mutation testing
+[04:17:30] L10: mutation status=ok score=0.8326612903225806
+[04:17:31] L10: DONE
+[04:17:31] L12: fetch cjy20040604-hub/eyes-training @ 3a7cb07e40
+[04:17:38] L12: loc prod=15232 test=6758
+[04:17:59] L12: lint exit=0
+[04:18:03] L12: dup ok=True
+[04:18:03] L12: install (npm, lock=package-lock.json)
+[04:18:13] L12: install ok=True level=0
+[04:18:30] L12: tsc errors=0
+[04:18:53] L12: test passed=True
+[04:18:53] L12: mutation testing
+[04:19:06] L11: mutation status=ok score=0.4246575342465753
+[04:19:08] L11: DONE
+[04:20:02] L12: mutation status=ok score=0.0900735294117647
+[04:20:04] L12: DONE
+[04:25:50] L04: mutation status=timeout score=None
+[04:25:53] L04: DONE
+failures: none

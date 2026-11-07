@@ -1,0 +1,70 @@
+
+> menagerai@0.3.2 test
+> vitest run
+
+[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.12 [39m[90m/work[39m
+
+[90mstderr[2m | test/usage.test.ts[2m > [22m[2mrecordUsage — dedup + idempotent upsert[2m > [22m[2mnever throws and retries after a failed write
+[22m[39musage write failed Error: boom
+    at [90m/work/[39mtest/usage.test.ts:181:39
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:302:11
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:1903:26
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2323:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2272:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2956:64
+
+ [32m✓[39m test/usage.test.ts [2m([22m[2m30 tests[22m[2m)[22m[32m 50[2mms[22m[39m
+ [32m✓[39m test/llm.test.ts [2m([22m[2m26 tests[22m[2m)[22m[32m 74[2mms[22m[39m
+ [32m✓[39m test/sqlite-store.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 62[2mms[22m[39m
+[90mstderr[2m | test/admin-route.test.ts[2m > [22m[2muser profile edit — Logto name sync (push)[2m > [22m[2mstill saves locally and warns when the Logto push fails
+[22m[39midp name sync failed Error: boom
+    at [90m/work/[39mtest/admin-route.test.ts:492:40
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:302:11
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:1903:26
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2323:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2272:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2956:64
+
+ [32m✓[39m test/admin-route.test.ts [2m([22m[2m44 tests[22m[2m)[22m[33m 333[2mms[22m[39m
+ [32m✓[39m test/app-groups.test.ts [2m([22m[2m44 tests[22m[2m)[22m[33m 382[2mms[22m[39m
+ [32m✓[39m test/views-render.test.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 129[2mms[22m[39m
+ [32m✓[39m test/util.test.ts [2m([22m[2m26 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m test/gateway-route.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 91[2mms[22m[39m
+ [32m✓[39m test/admin-logic.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m test/decide.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m test/i18n.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m test/gateway-logic.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m test/demo-auth-route.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 69[2mms[22m[39m
+ [32m✓[39m test/api-keys.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m test/portal-route.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+ [32m✓[39m test/cache.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m test/middleware-auth.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32m✓[39m test/demo-reset.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32m✓[39m test/demo-seed.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m test/qs-security.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m test/startup-checks.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 54[2mms[22m[39m
+ [32m✓[39m test/gateway-listener.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 39[2mms[22m[39m
+ [32m✓[39m test/provider-config.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m test/audit-context.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m test/idp.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m test/rules.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m test/demo-startup.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m test/bootstrap-demo-seed.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m28 passed[39m[22m[90m (28)[39m
+[2m      Tests [22m [1m[32m365 passed[39m[22m[90m (365)[39m
+[2m   Start at [22m 12:14:45
+[2m   Duration [22m 4.45s[2m (transform 1.48s, setup 255ms, import 6.51s, tests 1.47s, environment 3ms)[22m
+

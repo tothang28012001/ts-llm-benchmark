@@ -1,0 +1,86 @@
+{
+  "repo_id": "L05",
+  "group": "llm",
+  "full_name": "mcollina/githuman",
+  "stars": "258",
+  "created_at": "2025-12-30",
+  "pin": "f88b67a224ebdd4f3c942dea1dff7f83c38befcc",
+  "fetch": {
+    "sha": "f88b67a224ebdd4f3c942dea1dff7f83c38befcc",
+    "commit_date": "2026-04-12T18:44:09+02:00",
+    "first_commit_date": "2025-12-30T18:45:11Z",
+    "commits_to_pin": 153,
+    "ai_commits_to_pin": 127,
+    "ai_commit_share": 0.8301,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 99,
+    "test_files": 63,
+    "skipped": 4,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 99,
+      "lines": 17435,
+      "code": 14211,
+      "comment": 1205,
+      "blank": 2048
+    },
+    "test": {
+      "files": 63,
+      "lines": 13049,
+      "code": 9951,
+      "comment": 746,
+      "blank": 2362
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 13.4
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 4.287
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 66
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 15.1
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

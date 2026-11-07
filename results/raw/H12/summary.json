@@ -1,0 +1,123 @@
+{
+  "repo_id": "H12",
+  "group": "human",
+  "full_name": "samuelmeuli/mini-diary",
+  "stars": "1088",
+  "created_at": "2018-07-17",
+  "pin": "8d2058548a0c07e5381afc6e66259176d4762863",
+  "fetch": {
+    "sha": "8d2058548a0c07e5381afc6e66259176d4762863",
+    "commit_date": "2020-05-29T15:08:39+02:00",
+    "first_commit_date": "2018-07-17T19:42:26+02:00",
+    "commits_to_pin": 461,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 128,
+    "test_files": 6,
+    "skipped": 3,
+    "pm": "yarn",
+    "lockfile": "yarn.lock"
+  },
+  "loc": {
+    "prod": {
+      "files": 128,
+      "lines": 7887,
+      "code": 5987,
+      "comment": 751,
+      "blank": 1178
+    },
+    "test": {
+      "files": 6,
+      "lines": 120,
+      "code": 94,
+      "comment": 9,
+      "blank": 17
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack yarn install --frozen-lockfile --ignore-engines --network-timeout 600000",
+        "exit": 0,
+        "seconds": 23.7
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 3.977
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 138
+  },
+  "test": {
+    "cmd": "corepack yarn test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 13.9
+  },
+  "mutation": {
+    "sample_files": [
+      "src/renderer/store/file/actionCreators.ts",
+      "src/renderer/components/overlays/overlay-hoc/OverlayContainer.tsx",
+      "src/renderer/utils/native-theme.ts",
+      "src/renderer/components/overlays/pref-overlay/first-day-of-week-pref/FirstDayOfWeekPref.tsx"
+    ],
+    "sample_lines": 452,
+    "framework_versions": {
+      "vitest": null,
+      "jest": "26.0.1",
+      "mocha": null
+    },
+    "runner": "command",
+    "status": "ok",
+    "disable_type_checks": "sample",
+    "coverage_analysis": "off",
+    "counts": {
+      "Survived": 181
+    },
+    "mutants_valid": 181,
+    "mutation_score": 0,
+    "mutation_score_covered": 0,
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 13.741,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "sample",
+        "cov": "off",
+        "exit": 0,
+        "seconds": 802.177,
+        "timed_out": false
+      }
+    ]
+  }
+}

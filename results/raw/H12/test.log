@@ -1,0 +1,17 @@
+yarn run v1.22.22
+$ run-s test:*
+$ jest
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+PASS test/import.test.ts
+PASS test/export.test.ts
+
+Test Suites: 2 passed, 2 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        3.569 s
+Ran all test suites.
+$ tsc --noEmit && tsc --project ./website --noEmit
+Done in 13.17s.

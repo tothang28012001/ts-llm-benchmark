@@ -1,0 +1,17 @@
+
+> bistate@1.3.2 test
+> jest
+
+PASS test/createStore.test.ts
+PASS test/createBistate.test.ts
+PASS test/useComputed.test.tsx
+PASS test/view.test.tsx
+PASS test/useBireducer.test.tsx
+PASS test/useBinding.test.tsx
+PASS test/useBistate.test.tsx
+
+Test Suites: 7 passed, 7 total
+Tests:       57 passed, 57 total
+Snapshots:   0 total
+Time:        5.477s, estimated 8s
+Ran all test suites.

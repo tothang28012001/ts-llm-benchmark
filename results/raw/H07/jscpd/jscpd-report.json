@@ -1,0 +1,2589 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T10:44:45.481Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/index.ts": {
+            "lines": 93,
+            "tokens": 968,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/styles/index.ts": {
+            "lines": 11,
+            "tokens": 60,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/store/index.ts": {
+            "lines": 43,
+            "tokens": 256,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/request.ts": {
+            "lines": 119,
+            "tokens": 868,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/crypto.ts": {
+            "lines": 66,
+            "tokens": 570,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/api.ts": {
+            "lines": 567,
+            "tokens": 3748,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/search.ts": {
+            "lines": 55,
+            "tokens": 388,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/recommend.ts": {
+            "lines": 136,
+            "tokens": 995,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/playlist.ts": {
+            "lines": 214,
+            "tokens": 1495,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/player.ts": {
+            "lines": 266,
+            "tokens": 2394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/personal.ts": {
+            "lines": 122,
+            "tokens": 933,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/index.ts": {
+            "lines": 147,
+            "tokens": 1152,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/download.ts": {
+            "lines": 163,
+            "tokens": 1556,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/common.ts": {
+            "lines": 163,
+            "tokens": 1281,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/comment.ts": {
+            "lines": 92,
+            "tokens": 592,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/artist.ts": {
+            "lines": 157,
+            "tokens": 1060,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sagas/album.ts": {
+            "lines": 64,
+            "tokens": 448,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/routers/index.ts": {
+            "lines": 110,
+            "tokens": 641,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/user.ts": {
+            "lines": 21,
+            "tokens": 123,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/ui.ts": {
+            "lines": 149,
+            "tokens": 876,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/search.ts": {
+            "lines": 74,
+            "tokens": 755,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/playlist.ts": {
+            "lines": 52,
+            "tokens": 330,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/player.ts": {
+            "lines": 202,
+            "tokens": 1413,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/personal.ts": {
+            "lines": 47,
+            "tokens": 282,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/index.ts": {
+            "lines": 29,
+            "tokens": 166,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/home.ts": {
+            "lines": 30,
+            "tokens": 177,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/download.ts": {
+            "lines": 88,
+            "tokens": 658,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/detail.ts": {
+            "lines": 70,
+            "tokens": 408,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/comment.ts": {
+            "lines": 55,
+            "tokens": 305,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/artist.ts": {
+            "lines": 181,
+            "tokens": 1146,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reducers/album.ts": {
+            "lines": 45,
+            "tokens": 281,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/interfaces/index.ts": {
+            "lines": 105,
+            "tokens": 800,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/icon.ts": {
+            "lines": 21,
+            "tokens": 132,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/actions/index.ts": {
+            "lines": 161,
+            "tokens": 1281,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3918,
+          "tokens": 28538,
+          "sources": 34,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/routers/routers.tsx": {
+            "lines": 26,
+            "tokens": 429,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/song.tsx": {
+            "lines": 32,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/playlist.tsx": {
+            "lines": 35,
+            "tokens": 250,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/artist.tsx": {
+            "lines": 35,
+            "tokens": 253,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/album.tsx": {
+            "lines": 39,
+            "tokens": 294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/UserPage.tsx": {
+            "lines": 82,
+            "tokens": 774,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ToplistPage.tsx": {
+            "lines": 2,
+            "tokens": 29,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/SearchScene.tsx": {
+            "lines": 52,
+            "tokens": 453,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/RecommendPage.tsx": {
+            "lines": 103,
+            "tokens": 995,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 50,
+            "duplicatedTokens": 447,
+            "percentage": 48.54,
+            "percentageTokens": 44.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/PlaylistDetailScene.tsx": {
+            "lines": 146,
+            "tokens": 1395,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 203,
+            "percentage": 6.16,
+            "percentageTokens": 14.55,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/PlayerContainer.tsx": {
+            "lines": 194,
+            "tokens": 2319,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/PersonalPlaylistScene.tsx": {
+            "lines": 66,
+            "tokens": 482,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/LyricContainer.tsx": {
+            "lines": 14,
+            "tokens": 177,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/LoginScene.tsx": {
+            "lines": 39,
+            "tokens": 270,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/HomeScene.tsx": {
+            "lines": 18,
+            "tokens": 167,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/HomePlaylistsPage.tsx": {
+            "lines": 45,
+            "tokens": 331,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/HistoryPlaylistScene.tsx": {
+            "lines": 87,
+            "tokens": 705,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 86,
+            "duplicatedTokens": 705,
+            "percentage": 98.85,
+            "percentageTokens": 100,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/FavoriteArtistScene.tsx": {
+            "lines": 18,
+            "tokens": 119,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/DownloadingScene.tsx": {
+            "lines": 33,
+            "tokens": 204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/DownloadPlaylistScene.tsx": {
+            "lines": 87,
+            "tokens": 705,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 86,
+            "duplicatedTokens": 705,
+            "percentage": 98.85,
+            "percentageTokens": 100,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/DailyRecommend.tsx": {
+            "lines": 69,
+            "tokens": 595,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 50,
+            "duplicatedTokens": 447,
+            "percentage": 72.46,
+            "percentageTokens": 75.13,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/CreatePlaylistScene.tsx": {
+            "lines": 18,
+            "tokens": 145,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/CommentScene.tsx": {
+            "lines": 156,
+            "tokens": 1415,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistsScene.tsx": {
+            "lines": 34,
+            "tokens": 244,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistTracksPage.tsx": {
+            "lines": 24,
+            "tokens": 138,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistDetailScene.tsx": {
+            "lines": 156,
+            "tokens": 1457,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistDescription.tsx": {
+            "lines": 53,
+            "tokens": 502,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistAlbumsPage.tsx": {
+            "lines": 53,
+            "tokens": 369,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/AlbumsScene.tsx": {
+            "lines": 61,
+            "tokens": 445,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/AlbumDetailScene.tsx": {
+            "lines": 161,
+            "tokens": 1662,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 203,
+            "percentage": 5.59,
+            "percentageTokens": 12.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/toast.tsx": {
+            "lines": 12,
+            "tokens": 191,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/player.tsx": {
+            "lines": 15,
+            "tokens": 115,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/navbar.tsx": {
+            "lines": 24,
+            "tokens": 345,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/listitem.tsx": {
+            "lines": 48,
+            "tokens": 507,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/list.tsx": {
+            "lines": 1,
+            "tokens": 11,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/grid.tsx": {
+            "lines": 20,
+            "tokens": 257,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/base.tsx": {
+            "lines": 58,
+            "tokens": 470,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/TrackList.tsx": {
+            "lines": 87,
+            "tokens": 802,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/TrackActionSheet.tsx": {
+            "lines": 65,
+            "tokens": 536,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ToastContainer.tsx": {
+            "lines": 6,
+            "tokens": 51,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Slider.tsx": {
+            "lines": 254,
+            "tokens": 2237,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PopupContainer.tsx": {
+            "lines": 7,
+            "tokens": 75,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PlaylistPopup.tsx": {
+            "lines": 134,
+            "tokens": 1347,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Lyric.tsx": {
+            "lines": 47,
+            "tokens": 408,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HomeTabBar.tsx": {
+            "lines": 48,
+            "tokens": 391,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DownloadingItem.tsx": {
+            "lines": 41,
+            "tokens": 385,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DownloadBall.tsx": {
+            "lines": 21,
+            "tokens": 220,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DetailModal.tsx": {
+            "lines": 18,
+            "tokens": 225,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CollectActionSheet.tsx": {
+            "lines": 51,
+            "tokens": 424,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BlurImage.tsx": {
+            "lines": 3,
+            "tokens": 19,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BatchOpsModal.tsx": {
+            "lines": 98,
+            "tokens": 974,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2997,
+          "tokens": 27538,
+          "sources": 52,
+          "clones": 3,
+          "duplicatedLines": 145,
+          "duplicatedTokens": 1355,
+          "percentage": 4.84,
+          "percentageTokens": 4.92,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/routers/routers.tsx": {
+            "lines": 65,
+            "tokens": 712,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/song.tsx": {
+            "lines": 99,
+            "tokens": 701,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/playlist.tsx": {
+            "lines": 101,
+            "tokens": 730,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/artist.tsx": {
+            "lines": 104,
+            "tokens": 755,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 107,
+            "percentage": 13.46,
+            "percentageTokens": 14.17,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/search/album.tsx": {
+            "lines": 104,
+            "tokens": 759,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 107,
+            "percentage": 13.46,
+            "percentageTokens": 14.1,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/UserPage.tsx": {
+            "lines": 208,
+            "tokens": 1586,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ToplistPage.tsx": {
+            "lines": 51,
+            "tokens": 336,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/SiblingsContainer.tsx": {
+            "lines": 20,
+            "tokens": 113,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/SearchScene.tsx": {
+            "lines": 123,
+            "tokens": 948,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/RecommendPage.tsx": {
+            "lines": 243,
+            "tokens": 2074,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 83,
+            "duplicatedTokens": 885,
+            "percentage": 34.16,
+            "percentageTokens": 42.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/PlaylistDetailScene.tsx": {
+            "lines": 367,
+            "tokens": 2887,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 105,
+            "duplicatedTokens": 652,
+            "percentage": 28.61,
+            "percentageTokens": 22.58,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/PlayerContainer.tsx": {
+            "lines": 562,
+            "tokens": 5062,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/PersonalPlaylistScene.tsx": {
+            "lines": 142,
+            "tokens": 1002,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 105,
+            "percentage": 7.75,
+            "percentageTokens": 10.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/LyricContainer.tsx": {
+            "lines": 151,
+            "tokens": 1184,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/LoginScene.tsx": {
+            "lines": 142,
+            "tokens": 987,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/HomeScene.tsx": {
+            "lines": 62,
+            "tokens": 445,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/HomePlaylistsPage.tsx": {
+            "lines": 103,
+            "tokens": 776,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 23,
+            "duplicatedTokens": 171,
+            "percentage": 22.33,
+            "percentageTokens": 22.04,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/HistoryPlaylistScene.tsx": {
+            "lines": 196,
+            "tokens": 1554,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 154,
+            "duplicatedTokens": 1409,
+            "percentage": 78.57,
+            "percentageTokens": 90.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/FavoriteArtistScene.tsx": {
+            "lines": 100,
+            "tokens": 666,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 25,
+            "duplicatedTokens": 198,
+            "percentage": 25,
+            "percentageTokens": 29.73,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/DownloadingScene.tsx": {
+            "lines": 129,
+            "tokens": 836,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/DownloadPlaylistScene.tsx": {
+            "lines": 198,
+            "tokens": 1557,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 170,
+            "duplicatedTokens": 1630,
+            "percentage": 85.86,
+            "percentageTokens": 104.69,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/DailyRecommend.tsx": {
+            "lines": 171,
+            "tokens": 1346,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 101,
+            "duplicatedTokens": 974,
+            "percentage": 59.06,
+            "percentageTokens": 72.36,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/CreatePlaylistScene.tsx": {
+            "lines": 84,
+            "tokens": 585,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/CommentScene.tsx": {
+            "lines": 301,
+            "tokens": 2459,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 105,
+            "percentage": 3.65,
+            "percentageTokens": 4.27,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistsScene.tsx": {
+            "lines": 120,
+            "tokens": 810,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 73,
+            "duplicatedTokens": 555,
+            "percentage": 60.83,
+            "percentageTokens": 68.52,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistTracksPage.tsx": {
+            "lines": 91,
+            "tokens": 607,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistDetailScene.tsx": {
+            "lines": 353,
+            "tokens": 2644,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 115,
+            "percentage": 3.12,
+            "percentageTokens": 4.35,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistDescription.tsx": {
+            "lines": 161,
+            "tokens": 1235,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/ArtistAlbumsPage.tsx": {
+            "lines": 122,
+            "tokens": 878,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 21,
+            "duplicatedTokens": 151,
+            "percentage": 17.21,
+            "percentageTokens": 17.2,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/AlbumsScene.tsx": {
+            "lines": 123,
+            "tokens": 832,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 46,
+            "duplicatedTokens": 337,
+            "percentage": 37.4,
+            "percentageTokens": 40.5,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/containers/AlbumDetailScene.tsx": {
+            "lines": 367,
+            "tokens": 3094,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 116,
+            "duplicatedTokens": 767,
+            "percentage": 31.61,
+            "percentageTokens": 24.79,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/toast.tsx": {
+            "lines": 205,
+            "tokens": 1452,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/player.tsx": {
+            "lines": 118,
+            "tokens": 854,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/navbar.tsx": {
+            "lines": 117,
+            "tokens": 955,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/listitem.tsx": {
+            "lines": 154,
+            "tokens": 1162,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/list.tsx": {
+            "lines": 26,
+            "tokens": 169,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/grid.tsx": {
+            "lines": 90,
+            "tokens": 740,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/base.tsx": {
+            "lines": 163,
+            "tokens": 1120,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/audio.tsx": {
+            "lines": 121,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/TrackList.tsx": {
+            "lines": 194,
+            "tokens": 1635,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 28,
+            "duplicatedTokens": 308,
+            "percentage": 14.43,
+            "percentageTokens": 18.84,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/TrackActionSheet.tsx": {
+            "lines": 184,
+            "tokens": 1276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ToastContainer.tsx": {
+            "lines": 40,
+            "tokens": 307,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Slider.tsx": {
+            "lines": 434,
+            "tokens": 3475,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PopupContainer.tsx": {
+            "lines": 68,
+            "tokens": 469,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PlaylistPopup.tsx": {
+            "lines": 303,
+            "tokens": 2477,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ParallaxScroll.tsx": {
+            "lines": 95,
+            "tokens": 649,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Lyric.tsx": {
+            "lines": 176,
+            "tokens": 1324,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HomeTabBar.tsx": {
+            "lines": 215,
+            "tokens": 1698,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DownloadingItem.tsx": {
+            "lines": 89,
+            "tokens": 725,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DownloadBall.tsx": {
+            "lines": 135,
+            "tokens": 1110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DetailModal.tsx": {
+            "lines": 120,
+            "tokens": 873,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CollectActionSheet.tsx": {
+            "lines": 160,
+            "tokens": 1102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BlurImage.tsx": {
+            "lines": 49,
+            "tokens": 287,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BatchOpsModal.tsx": {
+            "lines": 259,
+            "tokens": 2081,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app.tsx": {
+            "lines": 14,
+            "tokens": 96,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 8692,
+          "tokens": 66418,
+          "sources": 55,
+          "clones": 20,
+          "duplicatedLines": 503,
+          "duplicatedTokens": 4288,
+          "percentage": 5.79,
+          "percentageTokens": 6.46,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 15607,
+      "tokens": 122494,
+      "sources": 141,
+      "clones": 23,
+      "duplicatedLines": 648,
+      "duplicatedTokens": 5643,
+      "percentage": 4.15,
+      "percentageTokens": 4.61,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": "import * as React from 'react'\nimport {\n  ListView,\n  ActivityIndicator,\n  View,\n  ListViewDataSource\n} from 'react-native'\nimport { connect, Dispatch } from 'react-redux'\nimport { ISearchState, ILoadingProps } from '../../interfaces'\nimport ListItem from '../../components/listitem'\nimport * as actions from '../../actions'\nimport Router from '../../routers'\n\ninterface IProps extends ILoadingProps {\n  albums",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/containers/search/album.tsx",
+        "start": 1,
+        "end": 15,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 15,
+          "column": 9,
+          "position": 107
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/search/artist.tsx",
+        "start": 1,
+        "end": 15,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 15,
+          "column": 10,
+          "position": 107
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 22,
+      "fragment": ") {\n    super(props)\n    this.ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id})\n  }\n\n  componentWillReceiveProps (nextProps: IProps) {\n    if (!isEqual(nextProps.playing, this.props.playing)) {\n      this.ds = this.ds.cloneWithRows([])\n    }\n  }\n\n  renderTrack = (playing, isPlaylist: boolean) => {\n    return (track: ITrack, _, rowId) => {\n      const index = Number(rowId)\n      const isPlaying = playing.index === index && isPlaylist\n      const artistName = get(track, 'artists[0].name', null)\n      const albumName = get(track, 'album.name', '')\n      const subTitle = artistName ?\n        `${artistName} - ${albumName}` :\n        albumName\n      const colorStyle = isPlaying && { color: Color.main }\n      return <",
+      "tokens": 268,
+      "firstFile": {
+        "name": "src/containers/HistoryPlaylistScene.tsx",
+        "start": 33,
+        "end": 54,
+        "startLoc": {
+          "line": 33,
+          "column": 29,
+          "position": 241
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 15,
+          "position": 509
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/RecommendPage.tsx",
+        "start": 43,
+        "end": 64,
+        "startLoc": {
+          "line": 43,
+          "column": 26,
+          "position": 322
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 15,
+          "position": 590
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 87,
+      "fragment": "={track.name}\n          containerStyle={{ paddingVertical: 0, paddingRight: 0 }}\n          picURI={track.album.picUrl + '?param=75y75'}\n          subTitle={subTitle}\n          textContainer={{ paddingVertical: 10 }}\n          picStyle={{ width: 40, height: 40}}\n          titleStyle={[{ fontSize: 15 }, colorStyle]}\n          subTitleStyle={colorStyle}\n          onPress={!isPlaying ? this.listItemOnPress(index) : undefined}\n          renderRight={\n            <TouchableWithoutFeedback\n              onPress={this.moreIconOnPress(track)}\n            >\n              <View style={{flexDirection: 'row', paddingRight: 10}}>\n                {isPlaying && <View style={{ justifyContent: 'center' }}>\n                  <Ionic size={22} name='md-volume-up' color={Color.main} style={{ paddingLeft: 10 }}/>\n                </View>}\n                <View style={{ justifyContent: 'center' }}>\n                  <Ionic size={22} name='ios-more' color='#777' style={{ paddingLeft: 10 }}/>\n                </View>\n              </View>\n            </TouchableWithoutFeedback>\n          }\n          key={track.id}\n        />\n      </SwipeAction>\n    }\n  }\n\n  listItemOnPress = (id: number) => () => {\n    this.props.play(id, this.props.tracks)\n  }\n\n  delete = (id: number) => () => {\n    this.props.delete(id)\n  }\n\n  moreIconOnPress = (track: ITrack) => () => {\n    this.props.popup(track)\n  }\n\n  clear = () => {\n    Alert.alert(\n      '',\n      '确定清空所有吗？',\n      [{\n        text: '取消'\n      }, {\n        text: '确定',\n        onPress: () => this.props.clear()\n      }]\n    )\n  }\n\n  render () {\n    const {\n      tracks,\n      playing,\n      isPlaylist\n    } = this.props\n    if (tracks) {\n      this.ds = this.ds.cloneWithRows(tracks)\n    }\n\n    const rightConfig = {\n      text: '清空',\n      onPress: () => {\n        this.clear()\n      }\n    }\n\n    return (\n      <View style={{flex: 1}}>\n        <Navbar\n          title='我的离线'\n          textColor='#333'\n          hideBorder={false}\n          rightConfig={rightConfig}\n        />\n        <ListView\n          enableEmptySections={true}\n          removeClippedSubviews={true}\n          scrollRenderAheadDistance={120}\n          initialListSize={20}\n          dataSource={this.ds}\n          renderRow={this.renderTrack(playing, isPlaylist)}\n          showsVerticalScrollIndicator={true}",
+      "tokens": 705,
+      "firstFile": {
+        "name": "src/containers/DownloadPlaylistScene.tsx",
+        "start": 64,
+        "end": 150,
+        "startLoc": {
+          "line": 64,
+          "column": 16,
+          "position": 593
+        },
+        "endLoc": {
+          "line": 150,
+          "column": 46,
+          "position": 1298
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/HistoryPlaylistScene.tsx",
+        "start": 64,
+        "end": 150,
+        "startLoc": {
+          "line": 64,
+          "column": 16,
+          "position": 594
+        },
+        "endLoc": {
+          "line": 150,
+          "column": 46,
+          "position": 1299
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 19,
+      "fragment": "import * as React from 'react'\nimport { ITrack } from '../services/api'\nimport {\n  ListView,\n  TouchableWithoutFeedback,\n  View,\n  Alert,\n  ListViewDataSource\n} from 'react-native'\nimport Navbar from '../components/navbar'\nimport ListItem from '../components/listitem'\nimport { get, isEqual } from 'lodash'\nimport { Color } from '../styles'\nimport Ionic from 'react-native-vector-icons/Ionicons'\nimport { connect } from 'react-redux'\nimport {\n  popupTrackActionSheet,\n  playTrackAction,\n  clearDownloadAction",
+      "tokens": 129,
+      "firstFile": {
+        "name": "src/containers/DownloadPlaylistScene.tsx",
+        "start": 1,
+        "end": 19,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 19,
+          "column": 22,
+          "position": 129
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/HistoryPlaylistScene.tsx",
+        "start": 1,
+        "end": 19,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 19,
+          "column": 19,
+          "position": 129
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 26,
+      "fragment": "\n} from '../actions'\nimport SwipeAction from 'antd-mobile/lib/swipe-action'\nimport { IPlaylistProps } from '../interfaces'\n\ninterface IProps extends IPlaylistProps {\n  delete: (id: number) => Redux.Action,\n  clear: () => Redux.Action\n}\n\nclass Playlist extends React.Component<IProps, any> {\n  private ds: ListViewDataSource\n\n  constructor (props: IProps) {\n    super(props)\n    this.ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id})\n  }\n\n  componentWillReceiveProps (nextProps: IProps) {\n    if (!isEqual(nextProps.playing, this.props.playing)) {\n      this.ds = this.ds.cloneWithRows([])\n    }\n  }\n\n  renderTrack = (playing, isPlaylist: boolean) => {\n    return (track: ITrack, _sectionId",
+      "tokens": 246,
+      "firstFile": {
+        "name": "src/containers/DownloadPlaylistScene.tsx",
+        "start": 20,
+        "end": 45,
+        "startLoc": {
+          "line": 20,
+          "column": 22,
+          "position": 134
+        },
+        "endLoc": {
+          "line": 45,
+          "column": 38,
+          "position": 380
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/HistoryPlaylistScene.tsx",
+        "start": 20,
+        "end": 55,
+        "startLoc": {
+          "line": 20,
+          "column": 22,
+          "position": 134
+        },
+        "endLoc": {
+          "line": 55,
+          "column": 29,
+          "position": 461
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": ", rowId) => {\n      const index = Number(rowId)\n      const isPlaying = playing.index === index && isPlaylist\n      const artistName = get(track, 'artists[0].name', null)\n      const albumName = get(track, 'album.name', '')\n      const subTitle = artistName ?\n        `${artistName} - ${albumName}` :\n        albumName\n      const colorStyle = isPlaying && { color: Color.main }\n      return <SwipeAction\n        autoClose={true}\n        style={{ backgroundColor: 'white' }}\n        right={[{\n          text: '删除',\n          onPress: this.delete(track",
+      "tokens": 174,
+      "firstFile": {
+        "name": "src/containers/DownloadPlaylistScene.tsx",
+        "start": 45,
+        "end": 59,
+        "startLoc": {
+          "line": 45,
+          "column": 38,
+          "position": 381
+        },
+        "endLoc": {
+          "line": 59,
+          "column": 37,
+          "position": 555
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/RecommendPage.tsx",
+        "start": 55,
+        "end": 59,
+        "startLoc": {
+          "line": 55,
+          "column": 29,
+          "position": 462
+        },
+        "endLoc": {
+          "line": 59,
+          "column": 38,
+          "position": 555
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 80,
+      "fragment": "),\n          style: { backgroundColor: 'rgb(244, 51, 60)', color: 'white' }\n        }]}\n      >\n        <ListItem\n          title={track.name}\n          containerStyle={{ paddingVertical: 0, paddingRight: 0 }}\n          picURI={track.album.picUrl + '?param=75y75'}\n          subTitle={subTitle}\n          textContainer={{ paddingVertical: 10 }}\n          picStyle={{ width: 40, height: 40}}\n          titleStyle={[{ fontSize: 15 }, colorStyle]}\n          subTitleStyle={colorStyle}\n          onPress={!isPlaying ? this.listItemOnPress(index) : undefined}\n          renderRight={\n            <TouchableWithoutFeedback\n              onPress={this.moreIconOnPress(track)}\n            >\n              <View style={{flexDirection: 'row', paddingRight: 10}}>\n                {isPlaying && <View style={{ justifyContent: 'center' }}>\n                  <Ionic size={22} name='md-volume-up' color={Color.main} style={{ paddingLeft: 10 }}/>\n                </View>}\n                <View style={{ justifyContent: 'center' }}>\n                  <Ionic size={22} name='ios-more' color='#777' style={{ paddingLeft: 10 }}/>\n                </View>\n              </View>\n            </TouchableWithoutFeedback>\n          }\n          key={track.id}\n        />\n      </SwipeAction>\n    }\n  }\n\n  listItemOnPress = (id: number) => () => {\n    this.props.play(id, this.props.tracks)\n  }\n\n  delete = (id: number) => () => {\n    this.props.delete(id)\n  }\n\n  moreIconOnPress = (track: ITrack) => () => {\n    this.props.popup(track)\n  }\n\n  clear = () => {\n    Alert.alert(\n      '',\n      '确定清空所有吗？',\n      [{\n        text: '取消'\n      }, {\n        text: '确定',\n        onPress: () => this.props.clear()\n      }]\n    )\n  }\n\n  render () {\n    const {\n      tracks,\n      playing,\n      isPlaylist\n    } = this.props\n    if (tracks) {\n      this.ds = this.ds.cloneWithRows(tracks)\n    }\n\n    const rightConfig = {\n      text: '清空',\n      onPress: () => {\n        this.clear()\n      }\n    }\n\n    return (\n      <View style={{flex: 1}}>\n        <Navbar\n          title='我的离线",
+      "tokens": 664,
+      "firstFile": {
+        "name": "src/containers/DownloadPlaylistScene.tsx",
+        "start": 59,
+        "end": 138,
+        "startLoc": {
+          "line": 59,
+          "column": 40,
+          "position": 558
+        },
+        "endLoc": {
+          "line": 138,
+          "column": 22,
+          "position": 1222
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/HistoryPlaylistScene.tsx",
+        "start": 59,
+        "end": 138,
+        "startLoc": {
+          "line": 59,
+          "column": 45,
+          "position": 559
+        },
+        "endLoc": {
+          "line": 138,
+          "column": 22,
+          "position": 1223
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 51,
+      "fragment": "}\n        textContainer={{ paddingVertical: 10 }}\n        picStyle={{ width: 40, height: 40}}\n        titleStyle={[{ fontSize: 15 }, colorStyle]}\n        subTitleStyle={colorStyle}\n        onPress={!isPlaying ? this.listItemOnPress(index) : undefined}\n        renderRight={\n          <TouchableWithoutFeedback\n            onPress={this.moreIconOnPress(track)}\n          >\n            <View style={{flexDirection: 'row', paddingRight: 10}}>\n              {isPlaying && <View style={{ justifyContent: 'center' }}>\n                <Ionic size={22} name='md-volume-up' color={Color.main} style={{ paddingLeft: 10 }}/>\n              </View>}\n              <View style={{ justifyContent: 'center' }}>\n                <Ionic size={22} name='ios-more' color='#777' style={{ paddingLeft: 10 }}/>\n              </View>\n            </View>\n          </TouchableWithoutFeedback>\n        }\n        key={track.id}\n      />\n    }\n  }\n\n  listItemOnPress = (id: number) => () => {\n    this.props.play(id, this.props.tracks)\n  }\n\n  moreIconOnPress = (track: ITrack) => () => {\n    this.props.popup(track)\n  }\n\n  sync = () => {\n    this.props.sync()\n  }\n\n  render () {\n    const {\n      tracks,\n      playing,\n      isPlaylist,\n      isLoading,\n      sync\n    } = this.props\n    if (tracks) {\n      this.ds = this.ds.cloneWithRows(tracks)\n    }\n\n    return (\n      <View style={{",
+      "tokens": 447,
+      "firstFile": {
+        "name": "src/containers/DailyRecommend.tsx",
+        "start": 59,
+        "end": 109,
+        "startLoc": {
+          "line": 59,
+          "column": 27,
+          "position": 546
+        },
+        "endLoc": {
+          "line": 109,
+          "column": 21,
+          "position": 993
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/RecommendPage.tsx",
+        "start": 69,
+        "end": 111,
+        "startLoc": {
+          "line": 69,
+          "column": 23,
+          "position": 641
+        },
+        "endLoc": {
+          "line": 111,
+          "column": 49,
+          "position": 1057
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 12,
+      "fragment": ": () => Redux.Action\n}\n\nclass Playlist extends React.Component<IProps, any> {\n  private ds: ListViewDataSource\n\n  constructor (props: IProps) {\n    super(props)\n    this.ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id})\n  }\n\n  componentDidMount",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/containers/DailyRecommend.tsx",
+        "start": 24,
+        "end": 35,
+        "startLoc": {
+          "line": 24,
+          "column": 7,
+          "position": 165
+        },
+        "endLoc": {
+          "line": 35,
+          "column": 20,
+          "position": 267
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/HistoryPlaylistScene.tsx",
+        "start": 27,
+        "end": 38,
+        "startLoc": {
+          "line": 27,
+          "column": 8,
+          "position": 192
+        },
+        "endLoc": {
+          "line": 38,
+          "column": 28,
+          "position": 294
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 25,
+      "fragment": ")\n  }\n\n  componentWillReceiveProps (nextProps: IProps) {\n    if (!isEqual(nextProps.playing, this.props.playing)) {\n      this.ds = this.ds.cloneWithRows([])\n    }\n  }\n\n  renderTrack = (playing, isPlaylist: boolean) => {\n    return (track: ITrack, _sectionId, rowId) => {\n      const index = Number(rowId)\n      const isPlaying = playing.index === index && isPlaylist\n      const artistName = get(track, 'artists[0].name', null)\n      const albumName = get(track, 'album.name', '')\n      const subTitle = artistName ?\n        `${artistName} - ${albumName}` :\n        albumName\n      const colorStyle = isPlaying && { color: Color.main }\n      return <ListItem\n        title={track.name}\n        containerStyle={{ paddingVertical: 0, paddingRight: 0 }}\n        picURI={track.album.picUrl + '?param=75y75'}\n        subTitle={subTitle}\n        textContainer",
+      "tokens": 269,
+      "firstFile": {
+        "name": "src/containers/DailyRecommend.tsx",
+        "start": 36,
+        "end": 60,
+        "startLoc": {
+          "line": 36,
+          "column": 15,
+          "position": 279
+        },
+        "endLoc": {
+          "line": 60,
+          "column": 22,
+          "position": 548
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/DownloadPlaylistScene.tsx",
+        "start": 35,
+        "end": 69,
+        "startLoc": {
+          "line": 35,
+          "column": 83,
+          "position": 287
+        },
+        "endLoc": {
+          "line": 69,
+          "column": 17,
+          "position": 637
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 34,
+      "fragment": "\n        textContainer={{ paddingVertical: 10 }}\n        picStyle={{ width: 40, height: 40}}\n        titleStyle={[{ fontSize: 15 }, colorStyle]}\n        subTitleStyle={colorStyle}\n        onPress={!isPlaying ? this.listItemOnPress(index) : undefined}\n        renderRight={\n          <TouchableWithoutFeedback\n            onPress={this.moreIconOnPress(track)}\n          >\n            <View style={{flexDirection: 'row', paddingRight: 10}}>\n              {isPlaying && <View style={{ justifyContent: 'center' }}>\n                <Ionic size={22} name='md-volume-up' color={Color.main} style={{ paddingLeft: 10 }}/>\n              </View>}\n              <View style={{ justifyContent: 'center' }}>\n                <Ionic size={22} name='ios-more' color='#777' style={{ paddingLeft: 10 }}/>\n              </View>\n            </View>\n          </TouchableWithoutFeedback>\n        }\n        key={track.id}\n      />\n    }\n  }\n\n  listItemOnPress = (id: number) => () => {\n    this.props.play(id, this.props.tracks)\n  }\n\n  moreIconOnPress = (track: ITrack) => () => {\n    this.props.popup(track)\n  }\n\n  sync",
+      "tokens": 340,
+      "firstFile": {
+        "name": "src/containers/DailyRecommend.tsx",
+        "start": 59,
+        "end": 92,
+        "startLoc": {
+          "line": 59,
+          "column": 28,
+          "position": 547
+        },
+        "endLoc": {
+          "line": 92,
+          "column": 7,
+          "position": 887
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/RecommendPage.tsx",
+        "start": 69,
+        "end": 102,
+        "startLoc": {
+          "line": 69,
+          "column": 24,
+          "position": 642
+        },
+        "endLoc": {
+          "line": 102,
+          "column": 15,
+          "position": 982
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": "})\n    },\n    popup (track: ITrack) {\n      return dispatch(popupTrackActionSheet(track))\n    },\n    play (index: number, tracks: ITrack[]) {\n      return dispatch(playTrackAction({\n        playing: {\n          index,\n          pid: 'daily'\n        },\n        playlist: tracks\n      }))\n    }\n  })\n)(Playlist",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/containers/DailyRecommend.tsx",
+        "start": 155,
+        "end": 170,
+        "startLoc": {
+          "line": 155,
+          "column": 46,
+          "position": 1241
+        },
+        "endLoc": {
+          "line": 170,
+          "column": 11,
+          "position": 1344
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/RecommendPage.tsx",
+        "start": 207,
+        "end": 222,
+        "startLoc": {
+          "line": 207,
+          "column": 46,
+          "position": 1816
+        },
+        "endLoc": {
+          "line": 222,
+          "column": 17,
+          "position": 1919
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 12,
+      "fragment": " extends React.Component<IProps, any> {\n  private ds: ListViewDataSource\n\n  constructor (props: IProps) {\n    super(props)\n    this.ds = new ListView.DataSource({\n      rowHasChanged: (r1, r2) => r1 !== r2,\n      sectionHeaderHasChanged: (s1, s2) => s1 !== s2\n    })\n  }\n\n  componentDidMount",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/containers/CommentScene.tsx",
+        "start": 45,
+        "end": 56,
+        "startLoc": {
+          "line": 45,
+          "column": 15,
+          "position": 342
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 20,
+          "position": 447
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/PersonalPlaylistScene.tsx",
+        "start": 23,
+        "end": 34,
+        "startLoc": {
+          "line": 23,
+          "column": 22,
+          "position": 164
+        },
+        "endLoc": {
+          "line": 34,
+          "column": 17,
+          "position": 269
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 26,
+      "fragment": ",\n  RefreshControl,\n  ListViewDataSource\n} from 'react-native'\nimport ListItem from '../components/listitem'\nimport Navbar from '../components/navbar'\nimport { connect } from 'react-redux'\nimport Router from '../routers'\n\ninterface IProps extends IInfiList {\n  artists: IArtist[]\n}\n\nclass Artists extends React.Component<IProps, any> {\n  private ds: ListViewDataSource\n\n  constructor (props) {\n    super(props)\n    this.ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id})\n  }\n\n  renderAlbum = (artist: IArtist) => {\n    return (\n      <ListItem\n        title={artist.name}\n        picURI={artist.img1v1Url}",
+      "tokens": 198,
+      "firstFile": {
+        "name": "src/containers/ArtistsScene.tsx",
+        "start": 7,
+        "end": 32,
+        "startLoc": {
+          "line": 7,
+          "column": 20,
+          "position": 50
+        },
+        "endLoc": {
+          "line": 32,
+          "column": 34,
+          "position": 248
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/FavoriteArtistScene.tsx",
+        "start": 6,
+        "end": 31,
+        "startLoc": {
+          "line": 6,
+          "column": 7,
+          "position": 46
+        },
+        "endLoc": {
+          "line": 31,
+          "column": 34,
+          "position": 244
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 24,
+      "fragment": "\n  }\n\n  onEndReached = () => {\n    if (!this.props.isRefreshing) {\n      this.props.syncMore()\n    }\n  }\n\n  renderFooter = () => {\n    return this.props.isLoading ?\n      <ActivityIndicator animating={true} style={{marginTop: 10}}/> :\n      <View />\n  }\n\n  refresh = () => {\n    this.props.refresh()\n  }\n\n  render () {\n    const {\n      isRefreshing\n    } = this.props\n    this.ds = this.ds.cloneWithRows(this.props.artists",
+      "tokens": 171,
+      "firstFile": {
+        "name": "src/containers/ArtistsScene.tsx",
+        "start": 44,
+        "end": 67,
+        "startLoc": {
+          "line": 44,
+          "column": 6,
+          "position": 337
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 55,
+          "position": 508
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/HomePlaylistsPage.tsx",
+        "start": 44,
+        "end": 67,
+        "startLoc": {
+          "line": 44,
+          "column": 6,
+          "position": 355
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 57,
+          "position": 526
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 22,
+      "fragment": "\n  }\n\n  renderAlbum = (album: IAlbum) => {\n    return (\n      <ListItem\n        title={album.name}\n        picURI={album.picUrl}\n        subTitle={album.artist.name}\n        key={album.id}\n        onPress={this.toAlbumDetail(album)}\n      />\n    )\n  }\n\n  toAlbumDetail = (album: IAlbum) => () => {\n    Router.toAlbumDetail({ route: album })\n  }\n\n  componentDidMount () {\n    if (!this.props.albums.length) {\n      this.refresh",
+      "tokens": 151,
+      "firstFile": {
+        "name": "src/containers/AlbumsScene.tsx",
+        "start": 25,
+        "end": 46,
+        "startLoc": {
+          "line": 25,
+          "column": 84,
+          "position": 202
+        },
+        "endLoc": {
+          "line": 46,
+          "column": 19,
+          "position": 353
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/ArtistAlbumsPage.tsx",
+        "start": 44,
+        "end": 65,
+        "startLoc": {
+          "line": 44,
+          "column": 37,
+          "position": 325
+        },
+        "endLoc": {
+          "line": 65,
+          "column": 17,
+          "position": 479
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 26,
+      "fragment": ".length) {\n      this.refresh()\n    }\n  }\n\n  onEndReached = () => {\n    if (!this.props.isRefreshing) {\n      this.props.syncMore()\n    }\n  }\n\n  renderFooter = () => {\n    return this.props.isLoading ?\n      <ActivityIndicator animating={true} style={{marginTop: 10}}/> :\n      <View />\n  }\n\n  refresh = () => {\n    this.props.refresh()\n  }\n\n  render () {\n    const {\n      isRefreshing\n    } = this.props\n    this.ds = this.ds.cloneWithRows(this.props.albums",
+      "tokens": 186,
+      "firstFile": {
+        "name": "src/containers/AlbumsScene.tsx",
+        "start": 45,
+        "end": 70,
+        "startLoc": {
+          "line": 45,
+          "column": 27,
+          "position": 344
+        },
+        "endLoc": {
+          "line": 70,
+          "column": 54,
+          "position": 530
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/ArtistsScene.tsx",
+        "start": 42,
+        "end": 67,
+        "startLoc": {
+          "line": 42,
+          "column": 28,
+          "position": 322
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 57,
+          "position": 526
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 10,
+      "fragment": "]}>\n          <View style={{ flexDirection: 'row'}}>\n            <Image source={{uri}} style={styles.headerPic}/>\n            <View style={{ flex: 1, marginLeft: 14 }}>\n              <Text style={[styles.white, { fontSize: 16 }]}>{album.name}</Text>\n              <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 12 }}>\n                <Image source={{uri: avatarUrl}} style={{ width: 25, height: 25, borderRadius: 12.5 }}/>\n                <Text style={[styles.white, { marginLeft: 5 }]}>{artist.name}</Text>\n              </View>\n              <Text style={[",
+      "tokens": 203,
+      "firstFile": {
+        "name": "src/containers/AlbumDetailScene.tsx",
+        "start": 126,
+        "end": 135,
+        "startLoc": {
+          "line": 126,
+          "column": 58,
+          "position": 1085
+        },
+        "endLoc": {
+          "line": 135,
+          "column": 29,
+          "position": 1288
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/PlaylistDetailScene.tsx",
+        "start": 135,
+        "end": 164,
+        "startLoc": {
+          "line": 135,
+          "column": 65,
+          "position": 1037
+        },
+        "endLoc": {
+          "line": 164,
+          "column": 21,
+          "position": 1346
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 18,
+      "fragment": " }))}\n        </View>\n        <View style={styles.btnContainer}>\n          {this.renderBtn('download', this.downloadTrack)}\n        </View>\n      </View>\n    )\n  }\n\n  downloadTrack = () => {\n    Alert.alert(\n      '',\n      '确定下载全部吗？',\n      [{\n        text: '取消'\n      }, {\n        text: '确定',\n        onPress: () => this.props.download(this.props.album",
+      "tokens": 124,
+      "firstFile": {
+        "name": "src/containers/AlbumDetailScene.tsx",
+        "start": 168,
+        "end": 185,
+        "startLoc": {
+          "line": 168,
+          "column": 80,
+          "position": 1645
+        },
+        "endLoc": {
+          "line": 185,
+          "column": 60,
+          "position": 1769
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/PlaylistDetailScene.tsx",
+        "start": 174,
+        "end": 191,
+        "startLoc": {
+          "line": 174,
+          "column": 83,
+          "position": 1530
+        },
+        "endLoc": {
+          "line": 191,
+          "column": 63,
+          "position": 1654
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 12,
+      "fragment": "\n    const transform = [\n      {\n        translateY: scrollY.interpolate({\n          inputRange: [-HEADER_HEIGHT, 0, HEADER_HEIGHT, HEADER_HEIGHT],\n          outputRange: [HEADER_HEIGHT / 2, 0, -HEADER_HEIGHT / 3, -HEADER_HEIGHT / 3]\n        })\n      },\n      {\n        scale: scrollY.interpolate({\n          inputRange: [-HEADER_HEIGHT, 0, HEADER_HEIGHT],\n          outputRange: [2",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/containers/AlbumDetailScene.tsx",
+        "start": 202,
+        "end": 213,
+        "startLoc": {
+          "line": 202,
+          "column": 48,
+          "position": 1916
+        },
+        "endLoc": {
+          "line": 213,
+          "column": 26,
+          "position": 2031
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/ArtistDetailScene.tsx",
+        "start": 234,
+        "end": 245,
+        "startLoc": {
+          "line": 234,
+          "column": 60,
+          "position": 1842
+        },
+        "endLoc": {
+          "line": 245,
+          "column": 29,
+          "position": 1957
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 89,
+      "fragment": "\n            renderScrollComponent={this.renderScrollComponent}\n          />\n        </View>\n      </Animated.View>\n    )\n  }\n\n  renderScrollComponent = (props: ScrollViewProperties) => {\n    return (\n      <ParallaxScroll\n        {...props}\n        onScroll={props.onScroll}\n        ref={this.mapScrollComponentToRef}\n      />\n    )\n  }\n\n  mapScrollComponentToRef = (component: any) => {\n    this.scrollComponent = component\n  }\n\n}\n\nconst styles = {\n  headerContainer: {\n    position: 'absolute',\n    left: 0,\n    top: 0,\n    right: 0,\n    bottom: 0,\n    paddingTop: Navbar.HEIGHT + 10,\n    backgroundColor: 'rgba(0 ,0 , 0, .1)'\n  } as ViewStyle,\n  header: {\n    paddingHorizontal: 16,\n    flexDirection: 'column'\n  } as ViewStyle,\n  playlistContainer: {\n    position: 'absolute',\n    left: 0,\n    top: Navbar.HEIGHT + HEADER_HEIGHT,\n    right: 0,\n    bottom: 0\n  } as ViewStyle,\n  headerPic: {\n    width: 120,\n    height: 120\n  },\n  blur: {\n    position: 'absolute',\n    top: 0,\n    left: 0,\n    right: 0,\n    width,\n    height: width\n  },\n  bg: {\n    width,\n    height: width,\n    resizeMode: 'cover'\n  },\n  white: {\n    color: 'white'\n  } as TextStyle,\n  navbar: {\n    backgroundColor: 'transparent',\n    position: 'absolute',\n    top: 0,\n    width\n  } as ViewStyle,\n  btnContainer: {\n    flex: 1,\n    flexDirection: 'row',\n    alignItems: 'center',\n    justifyContent: 'center'\n  } as ViewStyle,\n  btn: {\n    width: 30,\n    height: 30,\n    justifyContent: 'center',\n    alignItems: 'center'\n  } as ViewStyle\n}\n\nfunction mapStateToProps (\n  {\n    details: {\n      albums",
+      "tokens": 528,
+      "firstFile": {
+        "name": "src/containers/AlbumDetailScene.tsx",
+        "start": 240,
+        "end": 328,
+        "startLoc": {
+          "line": 240,
+          "column": 29,
+          "position": 2306
+        },
+        "endLoc": {
+          "line": 328,
+          "column": 13,
+          "position": 2834
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/PlaylistDetailScene.tsx",
+        "start": 237,
+        "end": 325,
+        "startLoc": {
+          "line": 237,
+          "column": 28,
+          "position": 2091
+        },
+        "endLoc": {
+          "line": 325,
+          "column": 15,
+          "position": 2619
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 19,
+      "fragment": "\n  private ds: ListViewDataSource\n\n  constructor (props: IProps) {\n    super(props)\n    this.ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id})\n  }\n\n  componentDidMount () {\n    this.sync()\n  }\n\n  componentWillReceiveProps (nextProps: IProps) {\n    if (!isEqual(nextProps.playing, this.props.playing)) {\n      this.ds = this.ds.cloneWithRows([])\n    }\n  }\n\n  renderTrack = (playing, isPlaylist: boolean,",
+      "tokens": 160,
+      "firstFile": {
+        "name": "src/components/TrackList.tsx",
+        "start": 40,
+        "end": 58,
+        "startLoc": {
+          "line": 40,
+          "column": 4,
+          "position": 310
+        },
+        "endLoc": {
+          "line": 58,
+          "column": 47,
+          "position": 470
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/DailyRecommend.tsx",
+        "start": 27,
+        "end": 45,
+        "startLoc": {
+          "line": 27,
+          "column": 54,
+          "position": 196
+        },
+        "endLoc": {
+          "line": 45,
+          "column": 47,
+          "position": 356
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": ": boolean) => {\n    return (track: ITrack, _sectionId, rowId) => {\n      const index = Number(rowId)\n      const isPlaying = playing.index === index && isPlaylist\n      const artistName = get(track, 'artists[0].name', null)\n      const albumName = get(track, 'album.name', '')\n      const subTitle = artistName ?\n        `${artistName} - ${albumName}` :\n        albumName\n      const colorStyle = isPlaying && { color: Color.main }\n      return (",
+      "tokens": 148,
+      "firstFile": {
+        "name": "src/components/TrackList.tsx",
+        "start": 58,
+        "end": 68,
+        "startLoc": {
+          "line": 58,
+          "column": 57,
+          "position": 473
+        },
+        "endLoc": {
+          "line": 68,
+          "column": 15,
+          "position": 621
+        }
+      },
+      "secondFile": {
+        "name": "src/containers/DownloadPlaylistScene.tsx",
+        "start": 44,
+        "end": 64,
+        "startLoc": {
+          "line": 44,
+          "column": 37,
+          "position": 361
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 15,
+          "position": 590
+        }
+      }
+    }
+  ]
+}

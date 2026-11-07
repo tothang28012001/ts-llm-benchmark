@@ -1,0 +1,119 @@
+{
+  "repo_id": "H01",
+  "group": "human",
+  "full_name": "Lucifier129/bistate",
+  "stars": "122",
+  "created_at": "2019-08-05",
+  "pin": "334a53654e2a89355d16639e8c94c5e6232452a7",
+  "fetch": {
+    "sha": "334a53654e2a89355d16639e8c94c5e6232452a7",
+    "commit_date": "2020-07-24T11:26:11+08:00",
+    "first_commit_date": "2019-08-05T16:44:15+08:00",
+    "commits_to_pin": 56,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 13,
+    "test_files": 7,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 13,
+      "lines": 685,
+      "code": 532,
+      "comment": 18,
+      "blank": 135
+    },
+    "test": {
+      "files": 7,
+      "lines": 2080,
+      "code": 1591,
+      "comment": 37,
+      "blank": 452
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 0,
+        "seconds": 64.7
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.9.10",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 3.389
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 13
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 8.0
+  },
+  "mutation": {
+    "sample_files": [
+      "src/react/useBinding.ts",
+      "src/react/useBistate.ts",
+      "src/react/useMutate.ts",
+      "src/util.ts",
+      "src/react/useComputed.ts",
+      "src/createBistate.ts"
+    ],
+    "sample_lines": 519,
+    "framework_versions": {
+      "vitest": null,
+      "jest": "23.6.0",
+      "mocha": null
+    },
+    "runner": "command",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "off",
+    "counts": {
+      "Killed": 251,
+      "Survived": 101,
+      "Timeout": 3
+    },
+    "mutants_valid": 355,
+    "mutation_score": 0.7154929577464789,
+    "mutation_score_covered": 0.7154929577464789,
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 0,
+        "seconds": 2601.062,
+        "timed_out": false
+      }
+    ]
+  }
+}

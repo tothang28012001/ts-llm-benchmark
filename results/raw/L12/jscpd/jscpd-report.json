@@ -1,0 +1,2013 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T12:18:00.183Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "src/ui/index.tsx": {
+            "lines": 175,
+            "tokens": 1466,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sync/AccountPage.tsx": {
+            "lines": 331,
+            "tokens": 3523,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/VrComfortCard.tsx": {
+            "lines": 12,
+            "tokens": 148,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/TrainingViews.tsx": {
+            "lines": 271,
+            "tokens": 3019,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/TrainingShell.tsx": {
+            "lines": 161,
+            "tokens": 1541,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/TrainingCanvas.tsx": {
+            "lines": 2,
+            "tokens": 14,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/SymptomCheckForm.tsx": {
+            "lines": 61,
+            "tokens": 521,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/StopButton.tsx": {
+            "lines": 5,
+            "tokens": 30,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/RedFlagScreen.tsx": {
+            "lines": 65,
+            "tokens": 675,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/ErgonomicsCard.tsx": {
+            "lines": 21,
+            "tokens": 217,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/DisclaimerScreen.tsx": {
+            "lines": 62,
+            "tokens": 652,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/video/VideoSetup.tsx": {
+            "lines": 85,
+            "tokens": 842,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/RecapTeaser.tsx": {
+            "lines": 2,
+            "tokens": 13,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/Lab.tsx": {
+            "lines": 125,
+            "tokens": 1597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/InsightCard.tsx": {
+            "lines": 173,
+            "tokens": 2041,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/charts.tsx": {
+            "lines": 298,
+            "tokens": 4247,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/TrendsSection.tsx": {
+            "lines": 68,
+            "tokens": 538,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/SettingsSections.tsx": {
+            "lines": 199,
+            "tokens": 1967,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/SettingsPage.tsx": {
+            "lines": 280,
+            "tokens": 2592,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/ReportProblem.tsx": {
+            "lines": 77,
+            "tokens": 751,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/Report.tsx": {
+            "lines": 252,
+            "tokens": 2720,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/RedFlagPage.tsx": {
+            "lines": 13,
+            "tokens": 97,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/OverviewCards.tsx": {
+            "lines": 79,
+            "tokens": 864,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/Overview.tsx": {
+            "lines": 344,
+            "tokens": 4327,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/ModuleView.tsx": {
+            "lines": 111,
+            "tokens": 1179,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/History.tsx": {
+            "lines": 81,
+            "tokens": 1014,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/Diagnostics.tsx": {
+            "lines": 27,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/ConsistencySection.tsx": {
+            "lines": 19,
+            "tokens": 229,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/Wizard.tsx": {
+            "lines": 380,
+            "tokens": 4075,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 357,
+            "percentage": 10.26,
+            "percentageTokens": 8.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/QuickStart.tsx": {
+            "lines": 120,
+            "tokens": 1195,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/PrismInputForm.tsx": {
+            "lines": 67,
+            "tokens": 688,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/PpiCardCalibration.tsx": {
+            "lines": 22,
+            "tokens": 220,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/CalibCanvas.tsx": {
+            "lines": 3,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assessment/WeeklyCheck.tsx": {
+            "lines": 275,
+            "tokens": 3148,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 357,
+            "percentage": 14.18,
+            "percentageTokens": 11.34,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assessment/CheckTrends.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 177,
+            "tokens": 1849,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4444,
+          "tokens": 48330,
+          "sources": 36,
+          "clones": 1,
+          "duplicatedLines": 39,
+          "duplicatedTokens": 357,
+          "percentage": 0.88,
+          "percentageTokens": 0.74,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/ui/index.tsx": {
+            "lines": 211,
+            "tokens": 1781,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sync/AccountPage.tsx": {
+            "lines": 382,
+            "tokens": 3868,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/VrComfortCard.tsx": {
+            "lines": 29,
+            "tokens": 271,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/TrainingViews.tsx": {
+            "lines": 299,
+            "tokens": 3306,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/TrainingShell.tsx": {
+            "lines": 569,
+            "tokens": 6153,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/TrainingCanvas.tsx": {
+            "lines": 515,
+            "tokens": 6100,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/SymptomCheckForm.tsx": {
+            "lines": 128,
+            "tokens": 1158,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/StopButton.tsx": {
+            "lines": 35,
+            "tokens": 304,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/RedFlagScreen.tsx": {
+            "lines": 87,
+            "tokens": 853,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/ErgonomicsCard.tsx": {
+            "lines": 41,
+            "tokens": 365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/DisclaimerScreen.tsx": {
+            "lines": 85,
+            "tokens": 887,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/video/VideoSetup.tsx": {
+            "lines": 166,
+            "tokens": 1691,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/RecapTeaser.tsx": {
+            "lines": 69,
+            "tokens": 716,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/Lab.tsx": {
+            "lines": 315,
+            "tokens": 3977,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/InsightCard.tsx": {
+            "lines": 219,
+            "tokens": 2545,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/charts.tsx": {
+            "lines": 390,
+            "tokens": 5264,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/TrendsSection.tsx": {
+            "lines": 111,
+            "tokens": 987,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/SettingsSections.tsx": {
+            "lines": 260,
+            "tokens": 2697,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/SettingsPage.tsx": {
+            "lines": 359,
+            "tokens": 3496,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/ReportProblem.tsx": {
+            "lines": 129,
+            "tokens": 1269,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/Report.tsx": {
+            "lines": 404,
+            "tokens": 4677,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/RedFlagPage.tsx": {
+            "lines": 30,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/OverviewCards.tsx": {
+            "lines": 120,
+            "tokens": 1316,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/Overview.tsx": {
+            "lines": 433,
+            "tokens": 5284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/ModuleView.tsx": {
+            "lines": 190,
+            "tokens": 2070,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/History.tsx": {
+            "lines": 118,
+            "tokens": 1511,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/Diagnostics.tsx": {
+            "lines": 59,
+            "tokens": 596,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/ConsistencySection.tsx": {
+            "lines": 94,
+            "tokens": 1171,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/Wizard.tsx": {
+            "lines": 609,
+            "tokens": 6850,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 115,
+            "percentage": 1.64,
+            "percentageTokens": 1.68,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/QuickStart.tsx": {
+            "lines": 260,
+            "tokens": 2812,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/PrismInputForm.tsx": {
+            "lines": 121,
+            "tokens": 1165,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/PpiCardCalibration.tsx": {
+            "lines": 76,
+            "tokens": 777,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/CalibCanvas.tsx": {
+            "lines": 61,
+            "tokens": 638,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assessment/WeeklyCheck.tsx": {
+            "lines": 573,
+            "tokens": 6938,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 115,
+            "percentage": 1.75,
+            "percentageTokens": 1.66,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assessment/CheckTrends.tsx": {
+            "lines": 126,
+            "tokens": 1372,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 30,
+            "tokens": 270,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 254,
+            "tokens": 2886,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 7957,
+          "tokens": 88283,
+          "sources": 37,
+          "clones": 1,
+          "duplicatedLines": 10,
+          "duplicatedTokens": 115,
+          "percentage": 0.13,
+          "percentageTokens": 0.13,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "typescript": {
+        "sources": {
+          "src/sync/supabase.ts": {
+            "lines": 120,
+            "tokens": 1233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sync/service.ts": {
+            "lines": 12,
+            "tokens": 148,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sync/merge.ts": {
+            "lines": 92,
+            "tokens": 1167,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sync/engine.ts": {
+            "lines": 213,
+            "tokens": 2120,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sync/config.ts": {
+            "lines": 37,
+            "tokens": 274,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/symptomRules.ts": {
+            "lines": 78,
+            "tokens": 569,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/sessionMachine.ts": {
+            "lines": 119,
+            "tokens": 1394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/session.ts": {
+            "lines": 146,
+            "tokens": 1350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/gating.ts": {
+            "lines": 111,
+            "tokens": 1129,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/safety/caps.ts": {
+            "lines": 54,
+            "tokens": 599,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/video/scenes.ts": {
+            "lines": 211,
+            "tokens": 3057,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/video/index.ts": {
+            "lines": 287,
+            "tokens": 3377,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/reading/index.ts": {
+            "lines": 291,
+            "tokens": 3418,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 38,
+            "duplicatedTokens": 435,
+            "percentage": 13.06,
+            "percentageTokens": 12.73,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/l5/index.ts": {
+            "lines": 292,
+            "tokens": 3337,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/l4/index.ts": {
+            "lines": 195,
+            "tokens": 2055,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/l3/index.ts": {
+            "lines": 294,
+            "tokens": 3495,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 25,
+            "duplicatedTokens": 281,
+            "percentage": 8.5,
+            "percentageTokens": 8.04,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/l2/index.ts": {
+            "lines": 299,
+            "tokens": 3146,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/l1/index.ts": {
+            "lines": 284,
+            "tokens": 3168,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 412,
+            "percentage": 13.73,
+            "percentageTokens": 13.01,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/brock/index.ts": {
+            "lines": 245,
+            "tokens": 2814,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/types.ts": {
+            "lines": 133,
+            "tokens": 956,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/registry.ts": {
+            "lines": 30,
+            "tokens": 289,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/common.ts": {
+            "lines": 183,
+            "tokens": 2399,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 166,
+            "percentage": 5.46,
+            "percentageTokens": 6.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/adaptive.ts": {
+            "lines": 198,
+            "tokens": 2158,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/useWeeklyFacts.ts": {
+            "lines": 14,
+            "tokens": 179,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/template.ts": {
+            "lines": 52,
+            "tokens": 585,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/prompt.ts": {
+            "lines": 88,
+            "tokens": 707,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/pipeline.ts": {
+            "lines": 187,
+            "tokens": 2067,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/onDevice.ts": {
+            "lines": 143,
+            "tokens": 1586,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/guardrails.ts": {
+            "lines": 285,
+            "tokens": 3236,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/facts.ts": {
+            "lines": 200,
+            "tokens": 2303,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/insights/evalCases.ts": {
+            "lines": 369,
+            "tokens": 3410,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/i18n/index.ts": {
+            "lines": 58,
+            "tokens": 513,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/xr.ts": {
+            "lines": 362,
+            "tokens": 4049,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/types.ts": {
+            "lines": 58,
+            "tokens": 533,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/index.ts": {
+            "lines": 26,
+            "tokens": 244,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/WebglAnaglyphBackend.ts": {
+            "lines": 205,
+            "tokens": 2219,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/SbsRenderer.ts": {
+            "lines": 64,
+            "tokens": 796,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 149,
+            "percentage": 18.75,
+            "percentageTokens": 18.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/EyeLayer.ts": {
+            "lines": 50,
+            "tokens": 427,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/Canvas2dAnaglyphBackend.ts": {
+            "lines": 96,
+            "tokens": 1198,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 149,
+            "percentage": 12.5,
+            "percentageTokens": 12.44,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/renderer/AnaglyphRenderer.ts": {
+            "lines": 40,
+            "tokens": 388,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/vergence.ts": {
+            "lines": 146,
+            "tokens": 1540,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/units.ts": {
+            "lines": 148,
+            "tokens": 1360,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/transitionGuard.ts": {
+            "lines": 56,
+            "tokens": 555,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/staircase.ts": {
+            "lines": 108,
+            "tokens": 1085,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/rds.ts": {
+            "lines": 111,
+            "tokens": 1241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/random.ts": {
+            "lines": 12,
+            "tokens": 173,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 166,
+            "percentage": 83.33,
+            "percentageTokens": 95.95,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/frameLoop.ts": {
+            "lines": 88,
+            "tokens": 727,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/flashDetector.ts": {
+            "lines": 250,
+            "tokens": 2466,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/catchTrials.ts": {
+            "lines": 143,
+            "tokens": 1281,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/affine.ts": {
+            "lines": 68,
+            "tokens": 905,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/migrations/index.ts": {
+            "lines": 48,
+            "tokens": 624,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/util.ts": {
+            "lines": 35,
+            "tokens": 465,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/settingsStore.ts": {
+            "lines": 122,
+            "tokens": 1672,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/schema.ts": {
+            "lines": 368,
+            "tokens": 3987,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/sanitize.ts": {
+            "lines": 19,
+            "tokens": 210,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/ics.ts": {
+            "lines": 105,
+            "tokens": 1246,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/hooks.ts": {
+            "lines": 91,
+            "tokens": 1039,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/goals.ts": {
+            "lines": 74,
+            "tokens": 842,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/exportImport.ts": {
+            "lines": 257,
+            "tokens": 2670,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/errorReport.ts": {
+            "lines": 56,
+            "tokens": 661,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/errorLog.ts": {
+            "lines": 143,
+            "tokens": 1392,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/db.ts": {
+            "lines": 89,
+            "tokens": 899,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/crypto.ts": {
+            "lines": 184,
+            "tokens": 1887,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/consistency.ts": {
+            "lines": 117,
+            "tokens": 1265,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/backup.ts": {
+            "lines": 138,
+            "tokens": 1511,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dashboard/trends.ts": {
+            "lines": 145,
+            "tokens": 2029,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/calibration/stimuli.ts": {
+            "lines": 158,
+            "tokens": 1906,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assessment/checkLogic.ts": {
+            "lines": 236,
+            "tokens": 2893,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 9736,
+          "tokens": 106623,
+          "sources": 68,
+          "clones": 5,
+          "duplicatedLines": 73,
+          "duplicatedTokens": 879,
+          "percentage": 0.75,
+          "percentageTokens": 0.82,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 22137,
+      "tokens": 243236,
+      "sources": 141,
+      "clones": 7,
+      "duplicatedLines": 122,
+      "duplicatedTokens": 1351,
+      "percentage": 0.55,
+      "percentageTokens": 0.56,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "\n\nconst intensity: IntensityMap = {\n  metric: 'dominantContrastRatio',\n  unit: '',\n  valueForTier(tier: IntensityTier, calibration: CalibrationProfile): number {\n    const b = calibration.contrastBalance.balanceRatio;\n    if (tier === 'low') return round2(b);\n    if (tier === 'medium') return round2(b + (1 - b) * 0.25);\n    return round2(b + (1 - b) * 0.5);\n  },\n  bounds: (calibration) => ({\n",
+      "tokens": 152,
+      "firstFile": {
+        "name": "src/modules/l3/index.ts",
+        "start": 26,
+        "end": 38,
+        "startLoc": {
+          "line": 26,
+          "column": 4,
+          "position": 113
+        },
+        "endLoc": {
+          "line": 38,
+          "column": 1,
+          "position": 265
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/reading/index.ts",
+        "start": 30,
+        "end": 41,
+        "startLoc": {
+          "line": 30,
+          "column": 57,
+          "position": 139
+        },
+        "endLoc": {
+          "line": 41,
+          "column": 31,
+          "position": 291
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 27,
+      "fragment": ";\n\nconst intensity: IntensityMap = {\n  metric: 'dominantContrastRatio',\n  unit: '',\n  valueForTier(tier: IntensityTier, calibration: CalibrationProfile): number {\n    const b = calibration.contrastBalance.balanceRatio;\n    if (tier === 'low') return round2(b);\n    if (tier === 'medium') return round2(b + (1 - b) * 0.25);\n    return round2(b + (1 - b) * 0.5);\n  },\n  bounds: (calibration) => ({\n    min: 0.05,\n    max: Math.min(1, calibration.contrastBalance.balanceRatio + 0.6),\n  }),\n  maxStepPerSession: 0.05,\n  stepBack: 0.1,\n  harderDirection: 1,\n  requiresClinician: false,\n  format: (v) => `${Math.round(v * 100)}%`,\n};\n\nfunction round2(v: number): number {\n  return Math.round(v * 100) / 100;\n}\n\nexport",
+      "tokens": 283,
+      "firstFile": {
+        "name": "src/modules/l1/index.ts",
+        "start": 37,
+        "end": 63,
+        "startLoc": {
+          "line": 37,
+          "column": 34,
+          "position": 143
+        },
+        "endLoc": {
+          "line": 63,
+          "column": 7,
+          "position": 426
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/reading/index.ts",
+        "start": 30,
+        "end": 52,
+        "startLoc": {
+          "line": 30,
+          "column": 56,
+          "position": 138
+        },
+        "endLoc": {
+          "line": 52,
+          "column": 10,
+          "position": 395
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ";\n  }\n\n  renderOverrides(base: RenderOptions): RenderOptions {\n    const dominant = this.ctx.calibration.contrastBalance.dominantEye;\n    const weak = dominant === 'right' ? 'left' : 'right';\n    return {\n      ...base,\n      contrast: { ...base.contrast, [dominant]: this.ctx.intensityValue, [weak]: 1 },\n    };\n  }\n\n  probe(): Record<string, ProbePoint> {\n    return",
+      "tokens": 129,
+      "firstFile": {
+        "name": "src/modules/l1/index.ts",
+        "start": 215,
+        "end": 228,
+        "startLoc": {
+          "line": 215,
+          "column": 76,
+          "position": 2469
+        },
+        "endLoc": {
+          "line": 228,
+          "column": 11,
+          "position": 2598
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/l3/index.ts",
+        "start": 207,
+        "end": 220,
+        "startLoc": {
+          "line": 207,
+          "column": 22,
+          "position": 2491
+        },
+        "endLoc": {
+          "line": 220,
+          "column": 10,
+          "position": 2620
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ";\n    this.resize(width, height, dpr);\n  }\n\n  resize(width: number, height: number, dpr: number): void {\n    this.width = width;\n    this.height = height;\n    this.dpr = dpr;\n    if (this.out) {\n      this.out.width = Math.max(1, Math.round(width * dpr));\n      this.out.height = Math.max(1, Math.round(height * dpr));\n    }\n    ",
+      "tokens": 149,
+      "firstFile": {
+        "name": "src/engine/renderer/Canvas2dAnaglyphBackend.ts",
+        "start": 31,
+        "end": 43,
+        "startLoc": {
+          "line": 31,
+          "column": 22,
+          "position": 288
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 5,
+          "position": 437
+        }
+      },
+      "secondFile": {
+        "name": "src/engine/renderer/SbsRenderer.ts",
+        "start": 20,
+        "end": 32,
+        "startLoc": {
+          "line": 20,
+          "column": 39,
+          "position": 195
+        },
+        "endLoc": {
+          "line": 32,
+          "column": 3,
+          "position": 344
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "(seed: number): () => number {\n  let a = seed >>> 0;\n  return () => {\n    a = (a + 0x6d2b79f5) >>> 0;\n    let t = a;\n    t = Math.imul(t ^ (t >>> 15), t | 1);\n    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);\n    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;\n  };\n}\n",
+      "tokens": 166,
+      "firstFile": {
+        "name": "src/engine/random.ts",
+        "start": 2,
+        "end": 12,
+        "startLoc": {
+          "line": 2,
+          "column": 27,
+          "position": 7
+        },
+        "endLoc": {
+          "line": 12,
+          "column": 1,
+          "position": 173
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/common.ts",
+        "start": 173,
+        "end": 183,
+        "startLoc": {
+          "line": 173,
+          "column": 29,
+          "position": 2233
+        },
+        "endLoc": {
+          "line": 183,
+          "column": 1,
+          "position": 2399
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 40,
+      "fragment": "}\n            testId=\"check-worth-canvas\"\n          />\n          <Field label={t('calibration.worth.question')}>\n            <Segmented\n              value={dotsSeen ?? 0}\n              onChange={(v) => {\n                setDotsSeen(v);\n                setAlternating(false);\n              }}\n              label={t('calibration.worth.question')}\n              options={[2, 3, 4, 5].map((n) => ({ value: n, label: String(n) }))}\n            />\n          </Field>\n          <label className=\"row\">\n            <input type=\"checkbox\" checked={alternating} onChange={(e) => setAlternating(e.target.checked)} />\n            <span>{t('calibration.worth.alternating')}</span>\n          </label>\n          <div className=\"row\">\n            <Button\n              variant=\"primary\"\n              disabled={dotsSeen === null && !alternating}\n              data-testid=\"check-next\"\n              onClick={() => {\n                setWorth({\n                  dotsSeen: dotsSeen ?? 0,\n                  alternating,\n                  result: worthFourDotResult(dotsSeen, alternating, calibration.channels),\n                });\n                setStep('align');\n              }}\n            >\n              {t('common.next')}\n            </Button>\n          </div>\n        </Card>\n      ) : null}\n\n      {step === 'align' && alignOptions ? (\n        <Card title={t",
+      "tokens": 357,
+      "firstFile": {
+        "name": "src/assessment/WeeklyCheck.tsx",
+        "start": 360,
+        "end": 399,
+        "startLoc": {
+          "line": 360,
+          "column": 50,
+          "position": 4416
+        },
+        "endLoc": {
+          "line": 399,
+          "column": 23,
+          "position": 4773
+        }
+      },
+      "secondFile": {
+        "name": "src/calibration/Wizard.tsx",
+        "start": 383,
+        "end": 401,
+        "startLoc": {
+          "line": 383,
+          "column": 65,
+          "position": 4343
+        },
+        "endLoc": {
+          "line": 401,
+          "column": 31,
+          "position": 4556
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": "\n      const moves: Record<string, [number, number]> = {\n        ArrowLeft: [-1, 0],\n        ArrowRight: [1, 0],\n        ArrowUp: [0, -1],\n        ArrowDown: [0, 1],\n      };\n      const m = moves[e.key];\n      if (!m) return;\n      e.preventDefault();\n      const px",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/assessment/WeeklyCheck.tsx",
+        "start": 168,
+        "end": 178,
+        "startLoc": {
+          "line": 168,
+          "column": 42,
+          "position": 2215
+        },
+        "endLoc": {
+          "line": 178,
+          "column": 15,
+          "position": 2330
+        }
+      },
+      "secondFile": {
+        "name": "src/calibration/Wizard.tsx",
+        "start": 200,
+        "end": 210,
+        "startLoc": {
+          "line": 200,
+          "column": 106,
+          "position": 2431
+        },
+        "endLoc": {
+          "line": 210,
+          "column": 19,
+          "position": 2546
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+
+> roboco@0.1.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv4.1.2 [39m[90m/work[39m
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mappends roboco context to existing CLAUDE.md
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mappends roboco context to existing CLAUDE.md
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mcreates fresh settings when none exist
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mappends roboco context to existing CLAUDE.md
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mappends roboco context to existing CLAUDE.md
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mcreates fresh settings when none exist
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mcreates fresh settings when none exist
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mcreates fresh settings when none exist
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .claude/settings.json with hooks for TypeScript
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing permissions and adds ROBOCO defaults
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .claude/settings.json with hooks for TypeScript
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing permissions and adds ROBOCO defaults
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .claude/settings.json with hooks for TypeScript
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .claude/settings.json with hooks for TypeScript
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing permissions and adds ROBOCO defaults
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing permissions and adds ROBOCO defaults
+[22m[39m✓ Created: .roboco/config.json
+
+- Installing claude-toolbox bundle...
+✔ claude-toolbox bundle install complete
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates Python hooks for Python projects
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox[2m > [22m[2minstalls the bundle and writes settings.json
+[22m[39m✓ claude-toolbox: Installed 7/7 plugins. Teammates: run `roboco install` to enable.
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates Python hooks for Python projects
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox[2m > [22m[2minstalls the bundle and writes settings.json
+[22m[39m✓ Configuration updated.
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mdoes not duplicate permissions on re-run
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates Python hooks for Python projects
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates Python hooks for Python projects
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mdoes not duplicate permissions on re-run
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mdoes not duplicate permissions on re-run
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mdoes not duplicate permissions on re-run
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+- Installing claude-toolbox bundle...
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ Created: .claude/settings.json
+
+✔ claude-toolbox bundle install complete
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ Created: docs/vibe-coding/01-intent.md
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox[2m > [22m[2mmarks toolbox enabled in .roboco/config.json
+[22m[39m✓ claude-toolbox: Installed 7/7 plugins. Teammates: run `roboco install` to enable.
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ Created: docs/vibe-coding/02-requirements.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ Created: docs/vibe-coding/03-research.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ Created: docs/vibe-coding/04-plan.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ Created: docs/vibe-coding/05-implement.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates process docs when selected
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox[2m > [22m[2mmarks toolbox enabled in .roboco/config.json
+[22m[39m✓ Configuration updated.
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates CI/CD with pre-commit hook when selected
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing hooks and adds ROBOCO hooks
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates CI/CD with pre-commit hook when selected
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing hooks and adds ROBOCO hooks
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+- Installing claude-toolbox bundle...
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates CI/CD with pre-commit hook when selected
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing hooks and adds ROBOCO hooks
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves existing hooks and adds ROBOCO hooks
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates CI/CD with pre-commit hook when selected
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates CI/CD with pre-commit hook when selected
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox[2m > [22m[2mreports failure cleanly when installToolbox returns result.success === false
+[22m[39m⚠ claude-toolbox: marketplace add failed. Run manually: claude plugin marketplace add jaeyeom/claude-toolbox
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox[2m > [22m[2mreports failure cleanly when installToolbox returns result.success === false
+[22m[39m⚠ claude-toolbox: Marketplace add failed — settings.json written, install skipped
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox[2m > [22m[2mreports failure cleanly when installToolbox returns result.success === false
+[22m[39m✓ Configuration updated.
+
+⚠ claude-toolbox bundle install partially complete
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves user config keys ROBOCO does not manage
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates CI/CD with pre-commit hook when selected
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves user config keys ROBOCO does not manage
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves user config keys ROBOCO does not manage
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/settings-merge.test.ts[2m > [22m[2msettings.json merge[2m > [22m[2mpreserves user config keys ROBOCO does not manage
+[22m[39m✓ Created: .roboco/config.json
+
+- Installing toolbox:next-action...
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .roboco/config.json
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+✔ toolbox:next-action installed
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox:<plugin>[2m > [22m[2minstalls a single non-overlapping plugin
+[22m[39m✓ claude-toolbox:next-action: Installed
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .roboco/config.json
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .roboco/config.json
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mgenerates .roboco/config.json
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+ [32m✓[39m tests/unit/settings-merge.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 81[2mms[22m[39m
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39mℹ ROBOCO context already present in CLAUDE.md — skipping
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator[2m > [22m[2mdoes not duplicate roboco context on re-run
+[22m[39m⚠ Skipped (exists): .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips husky pre-commit when override is set
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips husky pre-commit when override is set
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips husky pre-commit when override is set
+[22m[39m✓ Created: .claude/settings.json
+
+- Installing toolbox:not-a-real-plugin...
+✖ toolbox:not-a-real-plugin install failed
+- Installing toolbox:gabyx-githooks-setup...
+✔ toolbox:gabyx-githooks-setup installed
+[90mstderr[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox:<plugin>[2m > [22m[2mrejects unknown plugin name
+[22m[39m✗ claude-toolbox:not-a-real-plugin: Unknown plugin: not-a-real-plugin
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips husky pre-commit when override is set
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips husky pre-commit when override is set
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mwrites husky pre-commit when override is absent
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mwrites husky pre-commit when override is absent
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mwrites husky pre-commit when override is absent
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox:<overlap-plugin>[2m > [22m[2mrecords skipGeneratorOutputs override when user accepts drop-replace
+[22m[39m✓ claude-toolbox:gabyx-githooks-setup: Installed
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mwrites husky pre-commit when override is absent
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mwrites husky pre-commit when override is absent
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mwrites husky pre-commit when override is absent
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox:<overlap-plugin>[2m > [22m[2mdoes not record override when user declines drop-replace
+[22m[39m⚠ Both will coexist — manual cleanup may be needed.
+
+[90mstdout[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox:<overlap-plugin>[2m > [22m[2mdoes not record override when user declines drop-replace
+[22m[39m✓ claude-toolbox:gabyx-githooks-setup: Installed
+
+- Installing toolbox:gabyx-githooks-setup...
+✔ toolbox:gabyx-githooks-setup installed
+- Installing toolbox:gabyx-githooks-setup...
+✖ Install of toolbox:gabyx-githooks-setup failed
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips ci-workflow when override is set
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips ci-workflow when override is set
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips ci-workflow when override is set
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstderr[2m | tests/unit/toolbox-add.test.ts[2m > [22m[2mroboco add toolbox:<overlap-plugin>[2m > [22m[2mdoes not record override if writeProjectSettings throws
+[22m[39m✗ toolbox:gabyx-githooks-setup: EEXIST: file already exists, mkdir '/tmp/roboco-add-utmyur/.claude'
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips ci-workflow when override is set
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips ci-workflow when override is set
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips claude deny list entries when override is set
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+ [32m✓[39m tests/unit/toolbox-add.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 110[2mms[22m[39m
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips claude deny list entries when override is set
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips claude deny list entries when override is set
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips claude deny list entries when override is set
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips <roboco> block in CLAUDE.md when override is set
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips <roboco> block in CLAUDE.md when override is set
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/generator.test.ts[2m > [22m[2mgenerator skipGeneratorOutputs[2m > [22m[2mskips <roboco> block in CLAUDE.md when override is set
+[22m[39m✓ Created: .roboco/config.json
+
+ [32m✓[39m tests/unit/generator.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 158[2mms[22m[39m
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer - auto mode[2m > [22m[2mreturns valid InterviewResult with omc always true
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer - auto mode[2m > [22m[2menables processDocs and cicd in auto mode
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer - auto mode[2m > [22m[2menables github MCP when remote is github.com
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer - auto mode[2m > [22m[2menables context7 when languages detected
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer - auto mode[2m > [22m[2menables harness for React projects
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer - auto mode[2m > [22m[2mdisables harness for non-web projects
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer - auto mode[2m > [22m[2mmarks result as autoGenerated
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/unit/interviewer.test.ts[2m > [22m[2minterviewer toolbox integration[2m > [22m[2mautoInterview defaults toolbox to true
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+ [32m✓[39m tests/unit/interviewer.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: docs/vibe-coding/01-intent.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: docs/vibe-coding/02-requirements.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: docs/vibe-coding/03-research.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: docs/vibe-coding/04-plan.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: docs/vibe-coding/05-implement.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mfull pipeline produces valid ROBOCO setup
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: docs/vibe-coding/01-intent.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: docs/vibe-coding/02-requirements.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: docs/vibe-coding/03-research.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: docs/vibe-coding/04-plan.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: docs/vibe-coding/05-implement.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline with full options generates all artifacts
+[22m[39m✓ Created: .roboco/config.json
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: docs/vibe-coding/01-intent.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: docs/vibe-coding/02-requirements.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: docs/vibe-coding/03-research.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: docs/vibe-coding/04-plan.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: docs/vibe-coding/05-implement.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline handles Python project correctly
+[22m[39m✓ Created: .roboco/config.json
+
+ [32m✓[39m tests/unit/analyzer.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 198[2mms[22m[39m
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/unit/toolbox-install.test.ts[2m > [22m[2minstallToolbox[2m > [22m[2mskips plugin installs when marketplace add fails
+[22m[39m⚠ claude-toolbox: marketplace add failed. Run manually: claude plugin marketplace add jaeyeom/claude-toolbox
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: docs/vibe-coding/01-intent.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: docs/vibe-coding/02-requirements.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: docs/vibe-coding/03-research.md
+
+[90mstdout[2m | tests/unit/toolbox-install.test.ts[2m > [22m[2minstallToolbox[2m > [22m[2mcontinues installing remaining plugins when one install fails
+[22m[39m⚠ claude-toolbox: install of next-action failed
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: docs/vibe-coding/04-plan.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: docs/vibe-coding/05-implement.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline preserves existing CLAUDE.md and appends roboco context
+[22m[39m✓ Created: .roboco/config.json
+
+ [32m✓[39m tests/unit/toolbox-install.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39mℹ Auto mode: generating optimal setup based on analysis...
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39mℹ CLAUDE.md already exists — skipping claude /init
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ ROBOCO context appended to CLAUDE.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: .claude/settings.json
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: docs/vibe-coding/01-intent.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: docs/vibe-coding/02-requirements.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: docs/vibe-coding/03-research.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: docs/vibe-coding/04-plan.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: docs/vibe-coding/05-implement.md
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: .github/workflows/vibe-coding-check.yml
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: .husky/pre-commit
+
+[90mstdout[2m | tests/integration/init-pipeline.test.ts[2m > [22m[2minit pipeline (analyze → interview → generate)[2m > [22m[2mpipeline merges with existing .claude/ settings
+[22m[39m✓ Created: .roboco/config.json
+
+ [32m✓[39m tests/integration/init-pipeline.test.ts [2m([22m[2m5 tests[22m[2m)[22m[33m 314[2mms[22m[39m
+ [32m✓[39m tests/unit/toolbox-bundles.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m tests/unit/logger.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/git.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 95[2mms[22m[39m
+ [32m✓[39m tests/unit/fs-utils.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m11 passed[39m[22m[90m (11)[39m
+[2m      Tests [22m [1m[32m87 passed[39m[22m[90m (87)[39m
+[2m   Start at [22m 12:12:31
+[2m   Duration [22m 1.58s[2m (transform 563ms, setup 0ms, import 1.28s, tests 1.03s, environment 1ms)[22m
+

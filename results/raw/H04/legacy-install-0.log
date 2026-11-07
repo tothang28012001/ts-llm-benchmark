@@ -1,0 +1,17 @@
+npm notice This endpoint is being retired. Use the bulk advisory endpoint instead. See the following docs for more info: https://api-docs.npmjs.com/#tag/Audit
+
+> unix-dgram@2.0.3 install /work/node_modules/unix-dgram
+> node-gyp rebuild
+
+make: Entering directory '/work/node_modules/unix-dgram/build'
+  CXX(target) Release/obj.target/unix_dgram/src/unix_dgram.o
+  SOLINK_MODULE(target) Release/obj.target/unix_dgram.node
+  COPY Release/unix_dgram.node
+make: Leaving directory '/work/node_modules/unix-dgram/build'
+npm WARN lifecycle openfin@0.0.1~postinstall: cannot run in wd openfin@0.0.1 grunt (wd=/work)
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@0.3.8 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@0.3.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 761 packages from 1311 contributors and audited 762 packages in 38.847s
+found 315 vulnerabilities (12 low, 82 moderate, 180 high, 41 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details

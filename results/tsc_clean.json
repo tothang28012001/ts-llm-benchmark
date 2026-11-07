@@ -1,0 +1,13 @@
+{
+  "table": {
+    "true": {
+      "human": 7,
+      "llm": 10
+    },
+    "false": {
+      "human": 5,
+      "llm": 2
+    }
+  },
+  "fisher_p": 0.3707
+}

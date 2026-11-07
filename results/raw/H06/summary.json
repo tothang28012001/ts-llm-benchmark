@@ -1,0 +1,113 @@
+{
+  "repo_id": "H06",
+  "group": "human",
+  "full_name": "microsoft/vscode-chrome-debug-core",
+  "stars": "158",
+  "created_at": "2016-04-12",
+  "pin": "d50a8fec5f649782b1d93a7edccae0715d7f9c66",
+  "fetch": {
+    "sha": "d50a8fec5f649782b1d93a7edccae0715d7f9c66",
+    "commit_date": "2020-08-23T08:34:42-07:00",
+    "first_commit_date": "2015-08-09T13:25:34-07:00",
+    "commits_to_pin": 1922,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 40,
+    "test_files": 20,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 40,
+      "lines": 9350,
+      "code": 6518,
+      "comment": 1447,
+      "blank": 1422
+    },
+    "test": {
+      "files": 20,
+      "lines": 4536,
+      "code": 3551,
+      "comment": 207,
+      "blank": 782
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 17.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "2.7.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 2.327
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 57
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 1.7
+  },
+  "mutation": {
+    "sample_files": [
+      "src/utils.ts"
+    ],
+    "sample_lines": 695,
+    "framework_versions": {
+      "vitest": null,
+      "jest": null,
+      "mocha": "5.2.0"
+    },
+    "runner": "command",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "off",
+    "counts": {
+      "Survived": 468,
+      "Killed": 13
+    },
+    "mutants_valid": 481,
+    "mutation_score": 0.02702702702702703,
+    "mutation_score_covered": 0.02702702702702703,
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 0,
+        "seconds": 252.27,
+        "timed_out": false
+      }
+    ]
+  }
+}

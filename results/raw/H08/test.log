@@ -1,0 +1,112 @@
+yarn run v1.22.22
+$ jest
+PASS src/redux/activities/__tests__/operations.spec.ts (13.913s)
+PASS src/redux/reminders/__tests__/operations.spec.ts (14.77s)
+PASS src/api/__tests__/notes.spec.ts (14.824s)
+PASS src/redux/notes/__tests__/reducer.spec.ts (14.606s)
+PASS src/redux/contacts/__tests__/operations.spec.ts (14.321s)
+PASS src/redux/notes/__tests__/operations.spec.ts (15.197s)
+PASS src/redux/tasks/__tests__/operations.spec.ts
+PASS src/redux/gifts/__tests__/operations.spec.ts
+PASS src/redux/calls/__tests__/operations.spec.ts
+PASS src/redux/debts/__tests__/operations.spec.ts
+PASS src/redux/activities/__tests__/reducer.spec.ts
+PASS src/utils/__tests__/contacts.spec.ts (16.466s)
+PASS src/pages/Auth/Login/form/__tests__/LoginFormContainer.spec.ts (10.699s)
+PASS src/pages/Entities/Notes/List/__tests__/NotesListScreen.spec.ts (10.864s)
+PASS src/pages/Entities/Reminders/List/__tests__/RemindersListScreen.spec.ts (11.466s)
+PASS src/pages/Entities/Activities/List/__tests__/ActivitiesListScreen.spec.ts (11.771s)
+PASS src/redux/reminders/__tests__/reducer.spec.ts
+PASS src/pages/Entities/Debts/List/__tests__/DebtsListScreen.spec.ts
+PASS src/pages/Entities/Gifts/List/__tests__/GiftsListScreen.spec.ts
+PASS src/pages/Entities/Tasks/List/__tests__/TasksListScreen.spec.ts
+PASS src/redux/tasks/__tests__/reducer.spec.ts
+PASS src/redux/calls/__tests__/reducer.spec.ts
+PASS src/pages/Entities/Calls/List/__tests__/CallsListScreen.spec.ts
+PASS src/redux/gifts/__tests__/reducer.spec.ts
+PASS src/redux/debts/__tests__/reducer.spec.ts
+PASS src/pages/Entities/Notes/Upsert/__tests__/NoteUpsertScreen.spec.tsx
+PASS src/pages/Entities/Notes/Upsert/__tests__/NoteUpsert.spec.tsx (5.133s)
+PASS src/redux/user/__tests__/operations.spec.ts
+PASS src/redux/notes/__tests__/actions.spec.ts
+PASS src/components/form/ContactChooser/__tests__/ContactChooser.spec.tsx
+PASS src/pages/Entities/Gifts/List/__tests__/GiftsList.spec.tsx (20.928s)
+PASS src/containers/Contacts/__tests__/Contacts.spec.tsx (6.353s)
+PASS src/pages/Entities/Calls/List/__tests__/CallsList.spec.tsx (35.862s)
+PASS src/pages/Entities/Tasks/List/__tests__/TasksList.spec.tsx (19.912s)
+PASS src/pages/Entities/Debts/List/__tests__/DebtsList.spec.tsx (20.663s)
+PASS src/pages/Entities/Reminders/List/__tests__/RemindersList.spec.tsx (35.978s)
+PASS src/pages/Entities/Activities/List/__tests__/ActivitiesList.spec.tsx (35.994s)
+PASS src/redux/contacts/__tests__/actions.spec.ts
+PASS src/components/Button/__tests__/Button.android.spec.tsx
+PASS src/pages/Auth/Login/__tests__/Login.spec.tsx (7.01s)
+PASS src/redux/beta/__tests__/operations.spec.ts
+PASS src/redux/activities/__tests__/actions.spec.ts
+PASS src/redux/beta/__tests__/reducers.spec.ts
+PASS src/pages/Settings/__tests__/SettingsScreen.spec.ts
+PASS src/pages/Contact/ContactActivityRow/__tests__/ContactActivityRow.spec.tsx
+PASS src/pages/Settings/__tests__/Settings.spec.tsx (7.092s)
+PASS src/components/Button/__tests__/Button.ios.spec.tsx
+PASS src/api/__tests__/activities.spec.ts
+PASS src/pages/Entities/Notes/List/__tests__/NotesList.spec.tsx (37.099s)
+PASS src/pages/Auth/Login/__tests__/LoginScreen.spec.ts
+PASS src/api/__tests__/tasks.spec.ts
+PASS src/api/__tests__/debts.spec.ts
+PASS src/components/Touchable/__tests__/Touchable.spec.tsx
+PASS src/api/__tests__/reminder.spec.ts
+PASS src/components/form/TextInput/__tests__/TextInput.spec.tsx
+PASS src/api/__tests__/gifts.spec.ts
+PASS src/api/__tests__/calls.spec.ts
+PASS src/redux/calls/__tests__/actions.spec.ts
+PASS src/api/__tests__/user.spec.ts
+PASS src/redux/reminders/__tests__/actions.spec.ts
+PASS src/redux/gifts/__tests__/actions.spec.ts
+PASS src/api/__tests__/contacts.spec.ts
+PASS src/redux/debts/__tests__/actions.spec.ts
+PASS src/components/ContactListItem/__tests__/ContactListItem.spec.tsx
+PASS src/components/ContactAvatar/__tests__/ContactAvatar.spec.tsx
+PASS src/redux/tasks/__tests__/actions.spec.ts
+PASS src/components/form/FormListItem/__tests__/FormListItem.spec.tsx
+PASS src/components/ListItem/__tests__/ListItem.spec.tsx
+PASS src/containers/Contacts/Navbar/__tests__/Navbar.ios.spec.tsx
+PASS src/components/Back/__tests__/Back.android.spec.tsx
+PASS src/components/BottomNav/__tests__/BottomNav.spec.tsx
+PASS src/components/Back/__tests__/Back.ios.spec.tsx
+PASS src/components/form/Switch/__tests__/Switch.spec.tsx
+PASS src/components/Navbar/__tests__/Navbar.android.spec.tsx
+PASS src/utils/__tests__/gifts.spec.ts
+PASS src/components/EmptyActivity/__tests__/EmptyActivity.spec.tsx
+PASS src/components/LastTwoYearsStatistics/__tests__/LastTwoYearsStatistics.spec.tsx
+PASS src/components/Checkbox/__tests__/Checkbox.ios.spec.tsx
+PASS src/components/Checkbox/__tests__/Checkbox.android.spec.tsx
+PASS src/components/Navbar/__tests__/Navbar.ios.spec.tsx
+PASS src/redux/user/__tests__/reducer.spec.ts
+PASS src/redux/beta/__tests__/actions.spec.ts
+PASS src/components/Navbar/__tests__/index.android.spec.ts
+PASS src/redux/user/__tests__/actions.spec.ts
+PASS src/components/Checkbox/__tests__/index.android.spec.ts
+PASS src/components/Back/__tests__/index.android.spec.ts
+PASS src/components/Button/__tests__/index.ios.spec.ts
+PASS src/components/Checkbox/__tests__/index.ios.spec.ts
+PASS src/components/Navbar/__tests__/index.ios.spec.ts
+PASS src/components/Button/__tests__/index.android.spec.ts
+PASS src/components/Back/__tests__/index.ios.spec.ts
+PASS src/components/form/TextInput/__tests__/TextInput.styles.android.spec.ts
+PASS src/components/Tabbar/__tests__/Tabbar.android.spec.tsx
+PASS src/components/Tabbar/__tests__/Tabbar.ios.spec.tsx
+PASS src/components/Navbar/back/__tests__/NavbarIOSBack.spec.tsx
+PASS src/pages/Contact/ContactInfos/__tests__/Contact.spec.tsx
+PASS src/App.spec.tsx
+PASS src/components/form/TextInput/__tests__/TextInput.styles.ios.spec.ts
+PASS src/pages/Contact/ContactInfos/__tests__/Meet.spec.tsx
+PASS src/pages/Contact/ContactInfos/__tests__/Relationships.spec.tsx
+PASS src/pages/Contact/ContactInfos/__tests__/ContactInfos.spec.tsx
+PASS src/pages/Auth/Launch/__tests__/Launch.spec.tsx
+PASS src/pages/Contact/__tests__/Contact.spec.tsx
+
+Test Suites: 103 passed, 103 total
+Tests:       397 passed, 397 total
+Snapshots:   131 passed, 131 total
+Time:        46.124s
+Ran all test suites.
+Done in 47.63s.

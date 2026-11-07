@@ -1,0 +1,109 @@
+{
+  "repo_id": "H02",
+  "group": "human",
+  "full_name": "ionic-team/ionic-app-scripts",
+  "stars": "602",
+  "created_at": "2016-09-09",
+  "pin": "972fdeccefbb493dae85302216f108839ff25cd6",
+  "fetch": {
+    "sha": "972fdeccefbb493dae85302216f108839ff25cd6",
+    "commit_date": "2020-04-30T15:55:19-04:00",
+    "first_commit_date": "2016-09-08T22:51:58-05:00",
+    "commits_to_pin": 977,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 81,
+    "test_files": 29,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 81,
+      "lines": 11179,
+      "code": 8653,
+      "comment": 620,
+      "blank": 1922
+    },
+    "test": {
+      "files": 29,
+      "lines": 7274,
+      "code": 5929,
+      "comment": 161,
+      "blank": 1184
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 2,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 1,
+        "seconds": 29.9
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 1,
+        "seconds": 18.3
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 0,
+        "seconds": 12.6
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "2.4.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 136,
+        "seconds": 2.235
+      }
+    ],
+    "errors_total": 136,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 136,
+    "global_errors": 0,
+    "by_code": {
+      "TS1005": 130,
+      "TS1128": 3,
+      "TS1109": 1,
+      "TS1160": 1,
+      "TS1084": 1
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 112
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 8.8
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "14",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": true,
+    "exit": 0,
+    "seconds": 21.2
+  }
+}

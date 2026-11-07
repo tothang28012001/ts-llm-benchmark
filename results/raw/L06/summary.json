@@ -1,0 +1,89 @@
+{
+  "repo_id": "L06",
+  "group": "llm",
+  "full_name": "maksutovic/joycraft",
+  "stars": "15",
+  "created_at": "2026-03-23",
+  "pin": "92146bba135b7a4e978f3bb2840ce788cc2b54c5",
+  "fetch": {
+    "sha": "92146bba135b7a4e978f3bb2840ce788cc2b54c5",
+    "commit_date": "2026-11-03T16:08:53-08:00",
+    "first_commit_date": "2026-03-23T11:34:04-07:00",
+    "commits_to_pin": 595,
+    "ai_commits_to_pin": 389,
+    "ai_commit_share": 0.6538,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 53,
+    "test_files": 158,
+    "skipped": 4,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 53,
+      "lines": 10481,
+      "code": 8527,
+      "comment": 1002,
+      "blank": 955
+    },
+    "test": {
+      "files": 158,
+      "lines": 23382,
+      "code": 19438,
+      "comment": 1102,
+      "blank": 2856
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 0,
+        "seconds": 5.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 4,
+        "seconds": 4.663
+      }
+    ],
+    "errors_total": 4,
+    "errors_in_project_files": 4,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2307": 2,
+      "TS2345": 2
+    },
+    "files_with_errors": 2,
+    "timed_out": false,
+    "project_files_checked": 66
+  },
+  "test": {
+    "cmd": "corepack pnpm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 53.6
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

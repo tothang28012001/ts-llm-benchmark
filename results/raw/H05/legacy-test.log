@@ -1,0 +1,154 @@
+
+> COVIDTracker@0.0.1 test /work
+> jest
+
+FAIL e2e/firstTest.spec.js
+  Example
+    ✕ should have welcome screen (4 ms)
+    ✕ should show hello screen after tap (1 ms)
+    ✕ should show world screen after tap (1 ms)
+
+  ● Example › should have welcome screen
+
+    ReferenceError: device is not defined
+
+    [0m [90m 1 |[39m describe([32m'Example'[39m[33m,[39m () [33m=>[39m {
+     [90m 2 |[39m   beforeEach([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 3 |[39m     [36mawait[39m device[33m.[39mreloadReactNative()[33m;[39m
+     [90m   |[39m           [31m[1m^[22m[39m
+     [90m 4 |[39m   })[33m;[39m
+     [90m 5 |[39m
+     [90m 6 |[39m   it([32m'should have welcome screen'[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m
+
+      at e2e/firstTest.spec.js:3:11
+      at node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+      at Generator.<anonymous> (node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+      at Generator.next (node_modules/@babel/runtime/helpers/regeneratorDefine.js:11:21)
+      at n (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:6:19)
+      at node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:27:9
+      at tryCallTwo (node_modules/react-native/node_modules/promise/lib/core.js:45:5)
+      at doResolve (node_modules/react-native/node_modules/promise/lib/core.js:200:13)
+      at new Promise (node_modules/react-native/node_modules/promise/lib/core.js:66:3)
+      at f (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:26:14)
+
+  ● Example › should have welcome screen
+
+    ReferenceError: element is not defined
+
+    [0m [90m 4 |[39m   })[33m;[39m
+     [90m 5 |[39m
+    [31m[1m>[22m[39m[90m 6 |[39m   it([32m'should have welcome screen'[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m   |[39m                                    [31m[1m^[22m[39m
+     [90m 7 |[39m     [36mawait[39m expect(element(by[33m.[39mid([32m'welcome'[39m)))[33m.[39mtoBeVisible()[33m;[39m
+     [90m 8 |[39m   })[33m;[39m
+     [90m 9 |[39m[0m
+
+      at e2e/firstTest.spec.js:6:36
+      at node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+      at Generator.<anonymous> (node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+      at Generator.next (node_modules/@babel/runtime/helpers/regeneratorDefine.js:11:21)
+      at n (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:6:19)
+      at node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:27:9
+      at tryCallTwo (node_modules/react-native/node_modules/promise/lib/core.js:45:5)
+      at doResolve (node_modules/react-native/node_modules/promise/lib/core.js:200:13)
+      at new Promise (node_modules/react-native/node_modules/promise/lib/core.js:66:3)
+      at f (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:26:14)
+
+  ● Example › should show hello screen after tap
+
+    ReferenceError: device is not defined
+
+    [0m [90m 1 |[39m describe([32m'Example'[39m[33m,[39m () [33m=>[39m {
+     [90m 2 |[39m   beforeEach([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 3 |[39m     [36mawait[39m device[33m.[39mreloadReactNative()[33m;[39m
+     [90m   |[39m           [31m[1m^[22m[39m
+     [90m 4 |[39m   })[33m;[39m
+     [90m 5 |[39m
+     [90m 6 |[39m   it([32m'should have welcome screen'[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m
+
+      at e2e/firstTest.spec.js:3:11
+      at node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+      at Generator.<anonymous> (node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+      at Generator.next (node_modules/@babel/runtime/helpers/regeneratorDefine.js:11:21)
+      at n (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:6:19)
+      at node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:27:9
+      at tryCallTwo (node_modules/react-native/node_modules/promise/lib/core.js:45:5)
+      at doResolve (node_modules/react-native/node_modules/promise/lib/core.js:200:13)
+      at new Promise (node_modules/react-native/node_modules/promise/lib/core.js:66:3)
+      at f (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:26:14)
+
+  ● Example › should show hello screen after tap
+
+    ReferenceError: element is not defined
+
+    [0m [90m  8 |[39m   })[33m;[39m
+     [90m  9 |[39m
+    [31m[1m>[22m[39m[90m 10 |[39m   it([32m'should show hello screen after tap'[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m    |[39m                                            [31m[1m^[22m[39m
+     [90m 11 |[39m     [36mawait[39m element(by[33m.[39mid([32m'hello_button'[39m))[33m.[39mtap()[33m;[39m
+     [90m 12 |[39m     [36mawait[39m expect(element(by[33m.[39mtext([32m'Hello!!!'[39m)))[33m.[39mtoBeVisible()[33m;[39m
+     [90m 13 |[39m   })[33m;[39m[0m
+
+      at e2e/firstTest.spec.js:10:44
+      at node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+      at Generator.<anonymous> (node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+      at Generator.next (node_modules/@babel/runtime/helpers/regeneratorDefine.js:11:21)
+      at n (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:6:19)
+      at node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:27:9
+      at tryCallTwo (node_modules/react-native/node_modules/promise/lib/core.js:45:5)
+      at doResolve (node_modules/react-native/node_modules/promise/lib/core.js:200:13)
+      at new Promise (node_modules/react-native/node_modules/promise/lib/core.js:66:3)
+      at f (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:26:14)
+
+  ● Example › should show world screen after tap
+
+    ReferenceError: device is not defined
+
+    [0m [90m 1 |[39m describe([32m'Example'[39m[33m,[39m () [33m=>[39m {
+     [90m 2 |[39m   beforeEach([36masync[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 3 |[39m     [36mawait[39m device[33m.[39mreloadReactNative()[33m;[39m
+     [90m   |[39m           [31m[1m^[22m[39m
+     [90m 4 |[39m   })[33m;[39m
+     [90m 5 |[39m
+     [90m 6 |[39m   it([32m'should have welcome screen'[39m[33m,[39m [36masync[39m () [33m=>[39m {[0m
+
+      at e2e/firstTest.spec.js:3:11
+      at node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+      at Generator.<anonymous> (node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+      at Generator.next (node_modules/@babel/runtime/helpers/regeneratorDefine.js:11:21)
+      at n (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:6:19)
+      at node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:27:9
+      at tryCallTwo (node_modules/react-native/node_modules/promise/lib/core.js:45:5)
+      at doResolve (node_modules/react-native/node_modules/promise/lib/core.js:200:13)
+      at new Promise (node_modules/react-native/node_modules/promise/lib/core.js:66:3)
+      at f (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:26:14)
+
+  ● Example › should show world screen after tap
+
+    ReferenceError: element is not defined
+
+    [0m [90m 13 |[39m   })[33m;[39m
+     [90m 14 |[39m
+    [31m[1m>[22m[39m[90m 15 |[39m   it([32m'should show world screen after tap'[39m[33m,[39m [36masync[39m () [33m=>[39m {
+     [90m    |[39m                                            [31m[1m^[22m[39m
+     [90m 16 |[39m     [36mawait[39m element(by[33m.[39mid([32m'world_button'[39m))[33m.[39mtap()[33m;[39m
+     [90m 17 |[39m     [36mawait[39m expect(element(by[33m.[39mtext([32m'World!!!'[39m)))[33m.[39mtoBeVisible()[33m;[39m
+     [90m 18 |[39m   })[33m;[39m[0m
+
+      at e2e/firstTest.spec.js:15:44
+      at node_modules/@babel/runtime/helpers/regeneratorRuntime.js:52:18
+      at Generator.<anonymous> (node_modules/@babel/runtime/helpers/regenerator.js:52:51)
+      at Generator.next (node_modules/@babel/runtime/helpers/regeneratorDefine.js:11:21)
+      at n (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:6:19)
+      at node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:27:9
+      at tryCallTwo (node_modules/react-native/node_modules/promise/lib/core.js:45:5)
+      at doResolve (node_modules/react-native/node_modules/promise/lib/core.js:200:13)
+      at new Promise (node_modules/react-native/node_modules/promise/lib/core.js:66:3)
+      at f (node_modules/@babel/runtime/helpers/regeneratorAsyncIterator.js:26:14)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 3 total
+Snapshots:   0 total
+Time:        2.681 s
+Ran all test suites.
+npm ERR! Test failed.  See above for more details.

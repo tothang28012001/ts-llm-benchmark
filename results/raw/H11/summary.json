@@ -1,0 +1,93 @@
+{
+  "repo_id": "H11",
+  "group": "human",
+  "full_name": "hastic-zzz/hastic-grafana-app",
+  "stars": "177",
+  "created_at": "2018-05-21",
+  "pin": "15af4f35cc971da740a76ee143414e9056f0543a",
+  "fetch": {
+    "sha": "15af4f35cc971da740a76ee143414e9056f0543a",
+    "commit_date": "2020-12-26T17:03:44+01:00",
+    "first_commit_date": "2018-05-21T17:41:34+03:00",
+    "commits_to_pin": 386,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 34,
+    "test_files": 7,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 34,
+      "lines": 5200,
+      "code": 4251,
+      "comment": 179,
+      "blank": 772
+    },
+    "test": {
+      "files": 7,
+      "lines": 168,
+      "code": 139,
+      "comment": 2,
+      "blank": 27
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 0,
+        "seconds": 35.8
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "2.9.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 1,
+        "errors": 0,
+        "seconds": 2.98
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 0
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 3.7
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "14",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 6.9
+  }
+}

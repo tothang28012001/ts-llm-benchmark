@@ -1,0 +1,127 @@
+
+> nxplorerjs-microservice@1.11.21 test /work
+> cross-env NODE_ENV=test node build.js && npm run lint && jest --forceExit --config unit.config.json --detectOpenHandles
+
+(node:130) Warning: Accessing non-existent property 'cat' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:130) Warning: Accessing non-existent property 'cd' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'chmod' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'cp' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'dirs' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'pushd' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'popd' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'echo' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'tempdir' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'pwd' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'exec' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'ls' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'find' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'grep' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'head' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'ln' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'mkdir' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'rm' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'mv' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'sed' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'set' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'sort' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'tail' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'test' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'to' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'toEnd' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'touch' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'uniq' of module exports inside circular dependency
+(node:130) Warning: Accessing non-existent property 'which' of module exports inside circular dependency
+
+> nxplorerjs-microservice@1.11.21 lint /work
+> npm run tslint -- -o reports/lint_issues.json -t json --force "server/**/*.ts" 
+
+
+> nxplorerjs-microservice@1.11.21 tslint /work
+> tslint "-o" "reports/lint_issues.json" "-t" "json" "--force" "server/**/*.ts"
+
+ts-jest[config] (WARN) TypeScript diagnostics (customize using `[jest-config].globals.ts-jest.diagnostics` option):
+[94mmessage[0m[90m TS151001: [0mIf you have issues related to imports, you should consider setting `esModuleInterop` to `true` in your TypeScript configuration file (usually `tsconfig.json`). See https://blogs.msdn.microsoft.com/typescript/2018/01/31/announcing-typescript-2-7/#easier-ecmascript-module-interoperability for more information.
+PASS server/api/services/product-service.spec.ts (7.891s)
+FAIL server/graphql/setupSchema.spec.ts
+  ● Example Service Tests › should be returning a starwars people result for "Luke Skywalker" 
+
+    TypeError: Cannot read property 'name' of null
+
+      60 |         result => {
+      61 |           const { people } = result.data;
+    > 62 |           expect(people.name).toEqual(expectedValue);
+         |                         ^
+      63 |           done();
+      64 |         },
+      65 |         error => {
+
+      at server/graphql/setupSchema.spec.ts:62:25
+
+{"level":30,"time":1794052876079,"pid":172,"hostname":"04357a2bcf5f","data":{"0":{"uri":"http://jsonplaceholder.typicode.com/posts/1","method":"GET"}},"v":1}
+PASS server/api/services/examples-service.spec.ts
+PASS server/routes.spec.ts
+{"level":30,"time":1794052879661,"pid":172,"hostname":"04357a2bcf5f","data":{"0":"[Logger Middleware]","1":{"url":"/examples"},"2":{}},"v":1}
+FAIL server/api/services/starwars-service.spec.ts
+  ● Starwars Service Tests › can get person of id 1 with homeworld as Tatooine 
+
+    TypeError: Cannot read property 'name' of undefined
+
+      18 |       starWarsService.getPeopleById(1).subscribe(
+      19 |         (results: People) => {
+    > 20 |           expect(results.name).toEqual('Luke Skywalker');
+         |                          ^
+      21 |           expect(results.homeworld.name).toEqual('Tatooine');
+      22 |           done();
+      23 |         },
+
+      at SafeSubscriber._next (server/api/services/starwars-service.spec.ts:20:26)
+      at SafeSubscriber.Object.<anonymous>.SafeSubscriber.__tryOrUnsub (node_modules/rxjs/src/internal/Subscriber.ts:265:10)
+      at SafeSubscriber.Object.<anonymous>.SafeSubscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:207:14)
+      at Subscriber.Object.<anonymous>.Subscriber._next (node_modules/rxjs/src/internal/Subscriber.ts:139:22)
+      at Subscriber.Object.<anonymous>.Subscriber.next (node_modules/rxjs/src/internal/Subscriber.ts:99:12)
+      at AsyncSubject.Object.<anonymous>.Subject.next (node_modules/rxjs/src/internal/Subject.ts:70:17)
+      at AsyncSubject.Object.<anonymous>.AsyncSubject.complete (node_modules/rxjs/src/internal/AsyncSubject.ts:45:17)
+      at SafeSubscriber._error (server/api/services/starwars.service.ts:57:25)
+      at SafeSubscriber.Object.<anonymous>.SafeSubscriber.__tryOrUnsub (node_modules/rxjs/src/internal/Subscriber.ts:265:10)
+      at SafeSubscriber.Object.<anonymous>.SafeSubscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:220:16)
+      at Subscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:143:22)
+      at Subscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:113:12)
+      at Object.error (node_modules/rxjs/src/internal/observable/forkJoin.ts:189:34)
+      at SafeSubscriber.Object.<anonymous>.SafeSubscriber.__tryOrUnsub (node_modules/rxjs/src/internal/Subscriber.ts:265:10)
+      at SafeSubscriber.Object.<anonymous>.SafeSubscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:220:16)
+      at Subscriber.Object.<anonymous>.Subscriber._error (node_modules/rxjs/src/internal/Subscriber.ts:143:22)
+      at Subscriber.Object.<anonymous>.Subscriber.error (node_modules/rxjs/src/internal/Subscriber.ts:113:12)
+      at node_modules/rxjs/src/internal/util/subscribeToPromise.ts:12:30
+      at tryCatcher (node_modules/bluebird/js/release/util.js:16:23)
+      at Promise._settlePromiseFromHandler (node_modules/bluebird/js/release/promise.js:547:31)
+      at Promise._settlePromise (node_modules/bluebird/js/release/promise.js:604:18)
+      at Promise._settlePromise0 (node_modules/bluebird/js/release/promise.js:649:10)
+
+{"level":30,"time":1794052880851,"pid":172,"hostname":"04357a2bcf5f","data":{"0":"http://swapi.co/api/people/1","1":{"name":"StatusCodeError","statusCode":403,"message":"403 - {\"code\":403,\"message\":\"Forbidden\",\"contextId\":\"e8o2b9wL/a46Ssnzl\",\"description\":\"\",\"timestamp\":\"Sat, 07 Nov 2026 12:01:21 UTC\",\"referenceSquarespace\":false}","error":{"code":403,"message":"Forbidden","contextId":"e8o2b9wL/a46Ssnzl","description":"","timestamp":"Sat, 07 Nov 2026 12:01:21 UTC","referenceSquarespace":false},"options":{"method":"GET","uri":"http://swapi.co/api/planets/1","resolveWithFullResponse":true,"json":true,"time":true,"timeout":"10000","simple":true,"transform2xxOnly":false},"response":{"statusCode":403,"body":{"code":403,"message":"Forbidden","contextId":"e8o2b9wL/a46Ssnzl","description":"","timestamp":"Sat, 07 Nov 2026 12:01:21 UTC","referenceSquarespace":false},"headers":{"connection":"close","content-type":"application/json","server":"Squarespace","x-contextid":"e8o2b9wL/a46Ssnzl","x-sqsp-edge":"true","date":"Sat, 07 Nov 2026 12:01:21 GMT","content-length":"157"},"request":{"uri":{"protocol":"http:","slashes":true,"auth":null,"host":"swapi.co","port":80,"hostname":"swapi.co","hash":null,"search":null,"query":null,"pathname":"/api/planets/1","path":"/api/planets/1","href":"http://swapi.co/api/planets/1"},"method":"GET","headers":{"accept":"application/json"}}}}},"v":1}
+{"level":30,"time":1794052880852,"pid":172,"hostname":"04357a2bcf5f","data":{"0":"http://swapi.co/api/planets/1","1":{"name":"StatusCodeError","statusCode":403,"message":"403 - {\"code\":403,\"message\":\"Forbidden\",\"contextId\":\"e8o2b9wL/a46Ssnzl\",\"description\":\"\",\"timestamp\":\"Sat, 07 Nov 2026 12:01:21 UTC\",\"referenceSquarespace\":false}","error":{"code":403,"message":"Forbidden","contextId":"e8o2b9wL/a46Ssnzl","description":"","timestamp":"Sat, 07 Nov 2026 12:01:21 UTC","referenceSquarespace":false},"options":{"method":"GET","uri":"http://swapi.co/api/planets/1","resolveWithFullResponse":true,"json":true,"time":true,"timeout":"10000","simple":true,"transform2xxOnly":false},"response":{"statusCode":403,"body":{"code":403,"message":"Forbidden","contextId":"e8o2b9wL/a46Ssnzl","description":"","timestamp":"Sat, 07 Nov 2026 12:01:21 UTC","referenceSquarespace":false},"headers":{"connection":"close","content-type":"application/json","server":"Squarespace","x-contextid":"e8o2b9wL/a46Ssnzl","x-sqsp-edge":"true","date":"Sat, 07 Nov 2026 12:01:21 GMT","content-length":"157"},"request":{"uri":{"protocol":"http:","slashes":true,"auth":null,"host":"swapi.co","port":80,"hostname":"swapi.co","hash":null,"search":null,"query":null,"pathname":"/api/planets/1","path":"/api/planets/1","href":"http://swapi.co/api/planets/1"},"method":"GET","headers":{"accept":"application/json"}}}}},"v":1}
+PASS server/api/services/user-service.spec.ts
+PASS server/api/services/response-builder.spec.ts
+
+Test Suites: 2 failed, 5 passed, 7 total
+Tests:       2 failed, 17 passed, 19 total
+Snapshots:   0 total
+Time:        19.626s
+Ran all test suites.
+
+Jest has detected the following 1 open handle potentially keeping Jest from exiting:
+
+  ●  TCPSERVERWRAP
+
+       8 | const app = new Server(exApp).getServer().build();
+       9 | 
+    > 10 | app.listen(process.env.PORT);
+         |     ^
+      11 | 
+      12 | describe('nxplorerjs-microservice: routes spec', () => {
+      13 |   it('should get 200 response from home page', done => {
+
+      at Function.listen (node_modules/express/lib/application.js:618:24)
+      at Object.<anonymous> (server/routes.spec.ts:10:5)
+
+npm ERR! Test failed.  See above for more details.

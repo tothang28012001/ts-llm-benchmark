@@ -1,0 +1,23 @@
+yarn run v1.22.22
+$ jest
+PASS src/client/getFieldFromPath.test.ts (9.976s)
+PASS src/client/chain.test.ts (10.253s)
+PASS src/render/common/comment.test.ts (10.576s)
+PASS src/render/typeMap/index.test.ts (11.439s)
+PASS src/render/common/RenderContext.test.ts
+PASS src/render/schema/renderSchema.test.ts (11.275s)
+PASS src/render/common/renderTyping.test.ts (11.469s)
+PASS src/client/applyTypeMapperToResponse.test.ts (11.439s)
+PASS src/client/linkTypeMap.test.ts (11.46s)
+PASS src/client/applyTypeMapperToVariable.test.ts (11.843s)
+PASS src/client/requestToGql.test.ts (12.122s)
+PASS src/render/requestTypes/index.test.ts
+PASS src/render/chain/index.test.ts
+PASS src/render/responseTypes/index.test.ts (12.373s)
+
+Test Suites: 14 passed, 14 total
+Tests:       48 passed, 48 total
+Snapshots:   0 total
+Time:        13.01s
+Ran all test suites.
+Done in 13.78s.

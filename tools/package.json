@@ -1,0 +1,15 @@
+{
+  "name": "ts-llm-benchmark-tools",
+  "private": true,
+  "description": "Pinned analysis toolchain used uniformly across every benchmarked repository",
+  "type": "module",
+  "dependencies": {
+    "@eslint/js": "9.39.5",
+    "eslint": "9.39.5",
+    "eslint-plugin-sonarjs": "3.0.7",
+    "globals": "17.14.0",
+    "jscpd": "4.3.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1"
+  }
+}

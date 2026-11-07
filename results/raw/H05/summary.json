@@ -1,0 +1,105 @@
+{
+  "repo_id": "H05",
+  "group": "human",
+  "full_name": "HSEIreland/covid-tracker-app",
+  "stars": "524",
+  "created_at": "2020-04-15",
+  "pin": "522ff2bc16304d5995b5d94fb88ede1fd7ca0f6c",
+  "fetch": {
+    "sha": "522ff2bc16304d5995b5d94fb88ede1fd7ca0f6c",
+    "commit_date": "2020-10-01T11:00:16+01:00",
+    "first_commit_date": "2020-06-27T15:20:46+01:00",
+    "commits_to_pin": 4,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 105,
+    "test_files": 0,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 105,
+      "lines": 18236,
+      "code": 17044,
+      "comment": 31,
+      "blank": 1165
+    },
+    "test": {
+      "files": 0,
+      "lines": 0,
+      "code": 0,
+      "comment": 0,
+      "blank": 0
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 1,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 1,
+        "seconds": 2.8
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 0,
+        "seconds": 41.9
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "4.9.5",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 50,
+        "seconds": 16.313
+      }
+    ],
+    "errors_total": 50,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 50,
+    "global_errors": 0,
+    "by_code": {
+      "TS1139": 2,
+      "TS1005": 26,
+      "TS1109": 9,
+      "TS1128": 7,
+      "TS1434": 4,
+      "TS1068": 2
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 118
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 3.2
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "14",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 4.7
+  }
+}

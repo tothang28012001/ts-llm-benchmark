@@ -1,0 +1,361 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T12:12:14.539Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/prompt.ts": {
+            "lines": 19,
+            "tokens": 227,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/logger.ts": {
+            "lines": 38,
+            "tokens": 391,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/git.ts": {
+            "lines": 36,
+            "tokens": 384,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/fs.ts": {
+            "lines": 35,
+            "tokens": 372,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/interview.ts": {
+            "lines": 23,
+            "tokens": 135,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/index.ts": {
+            "lines": 14,
+            "tokens": 93,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/config.ts": {
+            "lines": 34,
+            "tokens": 221,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/analysis.ts": {
+            "lines": 49,
+            "tokens": 341,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 95,
+            "tokens": 746,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/toolbox-bundles.ts": {
+            "lines": 102,
+            "tokens": 854,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/interviewer.ts": {
+            "lines": 211,
+            "tokens": 1867,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/installer.ts": {
+            "lines": 271,
+            "tokens": 2468,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 214,
+            "percentage": 5.9,
+            "percentageTokens": 8.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/generator.ts": {
+            "lines": 397,
+            "tokens": 3255,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/analyzer.ts": {
+            "lines": 208,
+            "tokens": 2365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/validate.ts": {
+            "lines": 147,
+            "tokens": 1374,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/update.ts": {
+            "lines": 57,
+            "tokens": 580,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/sync.ts": {
+            "lines": 74,
+            "tokens": 688,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/status.ts": {
+            "lines": 126,
+            "tokens": 1329,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/install.ts": {
+            "lines": 35,
+            "tokens": 353,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/init.ts": {
+            "lines": 88,
+            "tokens": 806,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/doctor.ts": {
+            "lines": 91,
+            "tokens": 912,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/config.ts": {
+            "lines": 99,
+            "tokens": 1056,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/audit.ts": {
+            "lines": 435,
+            "tokens": 1154,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/commands/add.ts": {
+            "lines": 149,
+            "tokens": 1665,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2833,
+          "tokens": 23636,
+          "sources": 24,
+          "clones": 1,
+          "duplicatedLines": 8,
+          "duplicatedTokens": 107,
+          "percentage": 0.28,
+          "percentageTokens": 0.45,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2833,
+      "tokens": 23636,
+      "sources": 24,
+      "clones": 1,
+      "duplicatedLines": 8,
+      "duplicatedTokens": 107,
+      "percentage": 0.28,
+      "percentageTokens": 0.45,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ", name, '--', ...command.split(' ')];\n    await execa('claude', args, { timeout: 30000 });\n    return { tool: name, success: true, message: 'MCP server configured' };\n  } catch {\n    return { tool: name, success: false, message: 'Configuration failed' };\n  }\n}\n\nasync function installOpenSpec",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/core/installer.ts",
+        "start": 94,
+        "end": 102,
+        "startLoc": {
+          "line": 94,
+          "column": 31,
+          "position": 873
+        },
+        "endLoc": {
+          "line": 102,
+          "column": 31,
+          "position": 980
+        }
+      },
+      "secondFile": {
+        "name": "src/core/installer.ts",
+        "start": 84,
+        "end": 92,
+        "startLoc": {
+          "line": 84,
+          "column": 60,
+          "position": 727
+        },
+        "endLoc": {
+          "line": 92,
+          "column": 32,
+          "position": 834
+        }
+      }
+    }
+  ]
+}

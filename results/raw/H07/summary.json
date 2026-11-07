@@ -1,0 +1,104 @@
+{
+  "repo_id": "H07",
+  "group": "human",
+  "full_name": "yuche/gouqi",
+  "stars": "493",
+  "created_at": "2016-09-09",
+  "pin": "8317833958e9a13d7a5098e2c6a390a69d053b6d",
+  "fetch": {
+    "sha": "8317833958e9a13d7a5098e2c6a390a69d053b6d",
+    "commit_date": "2017-06-13T15:25:30+08:00",
+    "first_commit_date": "2016-09-10T03:19:13+08:00",
+    "commits_to_pin": 194,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 89,
+    "test_files": 25,
+    "skipped": 0,
+    "pm": "yarn",
+    "lockfile": "yarn.lock"
+  },
+  "loc": {
+    "prod": {
+      "files": 89,
+      "lines": 12610,
+      "code": 11064,
+      "comment": 238,
+      "blank": 1324
+    },
+    "test": {
+      "files": 25,
+      "lines": 4095,
+      "code": 3779,
+      "comment": 14,
+      "blank": 302
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": false,
+    "level": null,
+    "attempts": [
+      {
+        "cmd": "corepack yarn install --frozen-lockfile --ignore-engines --network-timeout 600000",
+        "exit": 1,
+        "seconds": 4.4
+      },
+      {
+        "cmd": "corepack yarn install --ignore-engines --network-timeout 600000",
+        "exit": 1,
+        "seconds": 2.5
+      },
+      {
+        "cmd": "corepack yarn install --ignore-engines --ignore-scripts --network-timeout 600000",
+        "exit": 1,
+        "seconds": 3.3
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 722,
+        "seconds": 3.855
+      }
+    ],
+    "errors_total": 722,
+    "errors_in_project_files": 722,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2307": 254,
+      "TS2503": 75,
+      "TS2339": 360,
+      "TS2322": 23,
+      "TS1013": 1,
+      "TS6133": 3,
+      "TS2580": 6
+    },
+    "files_with_errors": 87,
+    "timed_out": false,
+    "project_files_checked": 89
+  },
+  "test": {
+    "passed": false,
+    "skipped": "install failed"
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "8",
+    "why": "pin-date era",
+    "status": "install-failed"
+  }
+}

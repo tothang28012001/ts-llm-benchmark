@@ -1,0 +1,15 @@
+
+> fast-jev-compaction@0.2.0 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90m/work[39m
+
+ [32m✓[39m tests/hook.test.ts [2m([22m[2m6 tests[22m[2m)[22m[90m 30[2mms[22m[39m
+ [32m✓[39m tests/fast-jev-compaction.test.ts [2m([22m[2m23 tests[22m[2m)[22m[90m 105[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[32m29 passed[39m[22m[90m (29)[39m
+[2m   Start at [22m 11:53:19
+[2m   Duration [22m 1.20s[2m (transform 500ms, setup 0ms, collect 780ms, tests 135ms, environment 1ms, prepare 378ms)[22m
+

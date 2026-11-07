@@ -1,0 +1,116 @@
+{
+  "repo_id": "L08",
+  "group": "llm",
+  "full_name": "Sqcows/forgejo-mcp",
+  "stars": "15",
+  "created_at": "2026-02-23",
+  "pin": "5564cb0aab7148f6ebdf4a4877e50004b3ca2d48",
+  "fetch": {
+    "sha": "5564cb0aab7148f6ebdf4a4877e50004b3ca2d48",
+    "commit_date": "2026-10-15T08:23:22Z",
+    "first_commit_date": "2026-02-23T14:22:38Z",
+    "commits_to_pin": 19,
+    "ai_commits_to_pin": 18,
+    "ai_commit_share": 0.9474,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 17,
+    "test_files": 14,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 17,
+      "lines": 11644,
+      "code": 10246,
+      "comment": 710,
+      "blank": 688
+    },
+    "test": {
+      "files": 14,
+      "lines": 4459,
+      "code": 3654,
+      "comment": 29,
+      "blank": 778
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 8.1
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 5.389
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 17
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 5.3
+  },
+  "mutation": {
+    "sample_files": [
+      "src/tools/packages.ts",
+      "src/tools/issues.ts"
+    ],
+    "sample_lines": 1572,
+    "framework_versions": {
+      "vitest": "4.1.11",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "counts": {
+      "NoCoverage": 70,
+      "Ignored": 40,
+      "Killed": 172,
+      "Survived": 465
+    },
+    "mutants_valid": 707,
+    "mutation_score": 0.24328147100424327,
+    "mutation_score_covered": 0.27001569858712715,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "exit": 0,
+        "seconds": 465.341,
+        "timed_out": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+{"prod": ["hooks/fast-jev.ts", "src/client.ts", "src/compact.ts", "src/index.ts", "src/messages.ts", "src/request.ts", "src/state.ts", "src/types.ts"], "test": ["tests/fast-jev-compaction.test.ts", "tests/hook.test.ts"], "skipped": 1, "pm": "npm", "lockfile": "package-lock.json", "yarn_berry": false}

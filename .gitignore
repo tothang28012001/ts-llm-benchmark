@@ -1,0 +1,8 @@
+work/
+results/raw/*/install-*.log
+__pycache__/
+*.pyc
+tools/node_modules/
+.stryker-tmp/
+# full StrykerJS reports embed copies of the analysed projects' source; the per-repo stryker.json summary is kept
+results/raw/*/mutation-*.json

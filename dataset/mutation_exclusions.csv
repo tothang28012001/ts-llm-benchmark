@@ -1,0 +1,2 @@
+repo_id,reason
+H06,"test script runs mocha on precompiled JavaScript in out/; mutating the TypeScript sources never reaches the code under test"

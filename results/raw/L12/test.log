@@ -1,0 +1,201 @@
+
+> eyes-training@0.5.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/work[39m
+
+ [32m✓[39m tests/unit/phase2.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 96[2mms[22m[39m
+ [32m✓[39m tests/unit/v3Modules.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 131[2mms[22m[39m
+ [32m✓[39m tests/unit/insights.test.ts [2m([22m[2m72 tests[22m[2m)[22m[32m 161[2mms[22m[39m
+ [32m✓[39m tests/unit/dataSafety.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 83[2mms[22m[39m
+ [32m✓[39m tests/unit/sync.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 168[2mms[22m[39m
+ [32m✓[39m tests/unit/trainingModules.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+[90mstderr[2m | tests/component/pages.test.tsx[2m > [22m[2mSettings[2m > [22m[2mswitches the interface to Chinese, loading the strings on demand
+[22m[39mAn update to BackupSection inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to RemindersSection inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to Diagnostics inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to SettingsPage inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m tests/component/pages.test.tsx [2m([22m[2m11 tests[22m[2m)[22m[33m 1349[2mms[22m[39m
+ [32m✓[39m tests/component/v4.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 879[2mms[22m[39m
+     [33m[2m✓[22m[39m saves a quick profile from three answers and goes straight to the first session [33m 326[2mms[22m[39m
+     [33m[2m✓[22m[39m with a project: sign in, set a sync passphrase, encrypt and upload [33m 427[2mms[22m[39m
+[90mstderr[2m | tests/component/insights.test.tsx[2m > [22m[2mweekly recap card[2m > [22m[2mis switched off in a week with double vision, without asking the model
+[22m[39mAn update to InsightCard inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | tests/component/insights.test.tsx[2m > [22m[2mweekly recap card[2m > [22m[2masks for more sessions first
+[22m[39mAn update to InsightCard inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m tests/unit/sessionMachine.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m tests/component/insights.test.tsx [2m([22m[2m11 tests[22m[2m)[22m[33m 326[2mms[22m[39m
+ [32m✓[39m tests/component/TrainingShell.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 922[2mms[22m[39m
+ [32m✓[39m tests/unit/progression.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32m✓[39m tests/unit/v4.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 48[2mms[22m[39m
+ [32m✓[39m tests/unit/session.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 82[2mms[22m[39m
+ [32m✓[39m tests/unit/flashDetector.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 154[2mms[22m[39m
+ [32m✓[39m tests/component/v3Settings.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 2545[2mms[22m[39m
+     [33m[2m✓[22m[39m encrypted export needs matching passphrases of 8+ characters [33m 595[2mms[22m[39m
+     [33m[2m✓[22m[39m imports an encrypted backup after asking for its passphrase [33m 1273[2mms[22m[39m
+ [32m✓[39m tests/component/TrainingViews.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 370[2mms[22m[39m
+ [32m✓[39m tests/component/VideoSetup.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 2403[2mms[22m[39m
+     [33m[2m✓[22m[39m accepts a direct https video link but not plain http [33m 683[2mms[22m[39m
+     [33m[2m✓[22m[39m never processes YouTube or Bilibili: they are refused as training sources [33m 740[2mms[22m[39m
+     [33m[2m✓[22m[39m offers streaming sites only as plain viewing in a new tab, without referrer [33m 309[2mms[22m[39m
+[90mstderr[2m | tests/component/WeeklyCheck.test.tsx[2m > [22m[2mweekly check[2m > [22m[2mruns all four measurements and saves one assessment with its symptom checks
+[22m[39mAn update to WeeklyCheck inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to WeeklyCheck inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | tests/component/WeeklyCheck.test.tsx[2m > [22m[2mweekly check[2m > [22m[2mruns all four measurements and saves one assessment with its symptom checks
+[22m[39mAn update to WeeklyCheck inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m tests/component/TrainingShellVr.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 766[2mms[22m[39m
+     [33m[2m✓[22m[39m asks for the comfort notice once; VR sessions never exceed 10 minutes [33m 380[2mms[22m[39m
+[90mstderr[2m | tests/component/WeeklyCheck.test.tsx[2m > [22m[2mweekly check[2m > [22m[2mSTOP keeps what was measured and records a stopped check
+[22m[39mAn update to WeeklyCheck inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to WeeklyCheck inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | tests/component/WeeklyCheck.test.tsx[2m > [22m[2mweekly check[2m > [22m[2mSTOP keeps what was measured and records a stopped check
+[22m[39mAn update to WeeklyCheck inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m tests/component/WeeklyCheck.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 1699[2mms[22m[39m
+     [33m[2m✓[22m[39m runs all four measurements and saves one assessment with its symptom checks [33m 1208[2mms[22m[39m
+ [32m✓[39m tests/unit/persistence.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 104[2mms[22m[39m
+ [32m✓[39m tests/unit/gating.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 39[2mms[22m[39m
+ [32m✓[39m tests/unit/renderer.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 45[2mms[22m[39m
+ [32m✓[39m tests/unit/goalsAndReminders.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32m✓[39m tests/unit/adaptive.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m tests/unit/errorLog.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 315[2mms[22m[39m
+ [32m✓[39m tests/unit/stimuli.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m tests/unit/units.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m tests/unit/symptomRules.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m tests/component/charts.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 465[2mms[22m[39m
+     [33m[2m✓[22m[39m a line chart draws one marker per value, labels its series and has a data table [33m 318[2mms[22m[39m
+ [32m✓[39m tests/unit/caps.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/unit/i18n.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32m✓[39m tests/unit/staircase.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m tests/unit/affine.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m tests/unit/transitionGuard.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m tests/component/SymptomCheck.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 304[2mms[22m[39m
+ [32m✓[39m tests/component/Disclaimer.test.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 313[2mms[22m[39m
+     [33m[2m✓[22m[39m requires every acknowledgement before accepting [33m 310[2mms[22m[39m
+ [32m✓[39m tests/component/StopButton.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 68[2mms[22m[39m
+ [32m✓[39m tests/component/App.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 1606[2mms[22m[39m
+     [33m[2m✓[22m[39m loads the page at #/settings on demand [33m 340[2mms[22m[39m
+     [33m[2m✓[22m[39m loads the page at #/history on demand [33m 325[2mms[22m[39m
+     [33m[2m✓[22m[39m loads the page at #/report on demand [33m 325[2mms[22m[39m
+     [33m[2m✓[22m[39m loads the page at #/calibration on demand [33m 321[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m39 passed[39m[22m[90m (39)[39m
+[2m      Tests [22m [1m[32m395 passed[39m[22m[90m (395)[39m
+[2m   Start at [22m 12:18:31
+[2m   Duration [22m 22.17s[2m (transform 3.32s, setup 8.70s, import 7.68s, tests 15.62s, environment 23.67s)[22m
+

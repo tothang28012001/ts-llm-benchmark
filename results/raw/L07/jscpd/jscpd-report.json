@@ -1,0 +1,1393 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T10:52:59.581Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/web-scanner/index.ts": {
+            "lines": 230,
+            "tokens": 3548,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/web-scanner/checks.ts": {
+            "lines": 164,
+            "tokens": 3041,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/version.ts": {
+            "lines": 17,
+            "tokens": 142,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/patterns.ts": {
+            "lines": 271,
+            "tokens": 2355,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/middleware-matcher.ts": {
+            "lines": 307,
+            "tokens": 3918,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/frameworks.ts": {
+            "lines": 65,
+            "tokens": 457,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/file-walker.ts": {
+            "lines": 370,
+            "tokens": 2811,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/ast.ts": {
+            "lines": 320,
+            "tokens": 2888,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 262,
+            "percentage": 4.38,
+            "percentageTokens": 9.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/verbose-error-response.ts": {
+            "lines": 49,
+            "tokens": 475,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 28,
+            "duplicatedTokens": 333,
+            "percentage": 57.14,
+            "percentageTokens": 70.11,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/use-client-overuse.ts": {
+            "lines": 74,
+            "tokens": 455,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/unsafe-html.ts": {
+            "lines": 202,
+            "tokens": 2096,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/unsafe-file-upload.ts": {
+            "lines": 72,
+            "tokens": 535,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 108,
+            "percentage": 12.5,
+            "percentageTokens": 20.19,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/unhandled-promise.ts": {
+            "lines": 103,
+            "tokens": 898,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/supabase-missing-rls.ts": {
+            "lines": 80,
+            "tokens": 762,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/stale-fallback.ts": {
+            "lines": 58,
+            "tokens": 592,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 114,
+            "percentage": 15.52,
+            "percentageTokens": 19.26,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/ssrf-risk.ts": {
+            "lines": 146,
+            "tokens": 1159,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 122,
+            "percentage": 7.53,
+            "percentageTokens": 10.53,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/sql-injection.ts": {
+            "lines": 94,
+            "tokens": 787,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/shallow-catch.ts": {
+            "lines": 193,
+            "tokens": 2019,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 204,
+            "percentage": 10.36,
+            "percentageTokens": 10.1,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/server-component-fetch-self.ts": {
+            "lines": 58,
+            "tokens": 487,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 102,
+            "percentage": 13.79,
+            "percentageTokens": 20.94,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/server-action-auth.ts": {
+            "lines": 814,
+            "tokens": 538,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/secrets.ts": {
+            "lines": 94,
+            "tokens": 982,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/redirect-in-try-catch.ts": {
+            "lines": 111,
+            "tokens": 1276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/rate-limiting.ts": {
+            "lines": 74,
+            "tokens": 493,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/placeholder-content.ts": {
+            "lines": 57,
+            "tokens": 611,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 38,
+            "duplicatedTokens": 477,
+            "percentage": 66.67,
+            "percentageTokens": 78.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/phantom-dependency.ts": {
+            "lines": 114,
+            "tokens": 1085,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/path-traversal.ts": {
+            "lines": 160,
+            "tokens": 1494,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/open-redirect.ts": {
+            "lines": 159,
+            "tokens": 1393,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 106,
+            "percentage": 9.43,
+            "percentageTokens": 7.61,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/no-unbounded-query.ts": {
+            "lines": 83,
+            "tokens": 784,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 19,
+            "duplicatedTokens": 216,
+            "percentage": 22.89,
+            "percentageTokens": 27.55,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/no-sync-fs.ts": {
+            "lines": 47,
+            "tokens": 472,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 103,
+            "percentage": 17.02,
+            "percentageTokens": 21.82,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/no-n-plus-one.ts": {
+            "lines": 85,
+            "tokens": 773,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/no-dynamic-import-loop.ts": {
+            "lines": 45,
+            "tokens": 403,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/next-server-action-validation.ts": {
+            "lines": 59,
+            "tokens": 470,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/next-public-sensitive.ts": {
+            "lines": 49,
+            "tokens": 448,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/missing-webhook-verification.ts": {
+            "lines": 57,
+            "tokens": 524,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/missing-useeffect-cleanup.ts": {
+            "lines": 95,
+            "tokens": 820,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/missing-transaction.ts": {
+            "lines": 140,
+            "tokens": 1372,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/missing-revalidation.ts": {
+            "lines": 63,
+            "tokens": 489,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/missing-loading-state.ts": {
+            "lines": 56,
+            "tokens": 456,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/missing-error-boundary.ts": {
+            "lines": 38,
+            "tokens": 306,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/missing-abort-controller.ts": {
+            "lines": 72,
+            "tokens": 646,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/leaked-env-in-logs.ts": {
+            "lines": 99,
+            "tokens": 939,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 55,
+            "duplicatedTokens": 562,
+            "percentage": 55.56,
+            "percentageTokens": 59.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/jwt-no-expiry.ts": {
+            "lines": 120,
+            "tokens": 1111,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/insecure-random.ts": {
+            "lines": 47,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 23,
+            "duplicatedTokens": 279,
+            "percentage": 48.94,
+            "percentageTokens": 62.84,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/insecure-cookie.ts": {
+            "lines": 69,
+            "tokens": 617,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 178,
+            "percentage": 21.74,
+            "percentageTokens": 28.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/input-validation.ts": {
+            "lines": 69,
+            "tokens": 537,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/index.ts": {
+            "lines": 114,
+            "tokens": 877,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/hydration-mismatch.ts": {
+            "lines": 103,
+            "tokens": 940,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/hallucinated-imports.ts": {
+            "lines": 134,
+            "tokens": 1232,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/hallucinated-api.ts": {
+            "lines": 75,
+            "tokens": 772,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/eval-injection.ts": {
+            "lines": 50,
+            "tokens": 463,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 23,
+            "duplicatedTokens": 301,
+            "percentage": 46,
+            "percentageTokens": 65.01,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/error-handling.ts": {
+            "lines": 49,
+            "tokens": 438,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/env-fallback-secret.ts": {
+            "lines": 75,
+            "tokens": 676,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 128,
+            "percentage": 14.67,
+            "percentageTokens": 18.93,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/env-exposure.ts": {
+            "lines": 82,
+            "tokens": 645,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/deprecated-oauth-flow.ts": {
+            "lines": 42,
+            "tokens": 371,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 157,
+            "percentage": 28.57,
+            "percentageTokens": 42.32,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/dead-exports.ts": {
+            "lines": 518,
+            "tokens": 2820,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/cors-config.ts": {
+            "lines": 96,
+            "tokens": 869,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/comprehension-debt.ts": {
+            "lines": 122,
+            "tokens": 1070,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/codebase-consistency.ts": {
+            "lines": 170,
+            "tokens": 1843,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/client-side-auth-only.ts": {
+            "lines": 67,
+            "tokens": 560,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/auth-checks.ts": {
+            "lines": 351,
+            "tokens": 4407,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/rules/ai-smells.ts": {
+            "lines": 134,
+            "tokens": 1032,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types.ts": {
+            "lines": 78,
+            "tokens": 533,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/scorer.ts": {
+            "lines": 87,
+            "tokens": 837,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/scanner.ts": {
+            "lines": 72,
+            "tokens": 679,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reporter.ts": {
+            "lines": 305,
+            "tokens": 3363,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/mcp.ts": {
+            "lines": 270,
+            "tokens": 2976,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 21,
+            "tokens": 136,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli.ts": {
+            "lines": 220,
+            "tokens": 1884,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 8984,
+          "tokens": 78331,
+          "sources": 68,
+          "clones": 15,
+          "duplicatedLines": 159,
+          "duplicatedTokens": 1876,
+          "percentage": 1.77,
+          "percentageTokens": 2.39,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 8984,
+      "tokens": 78331,
+      "sources": 68,
+      "clones": 15,
+      "duplicatedLines": 159,
+      "duplicatedTokens": 1876,
+      "percentage": 1.77,
+      "percentageTokens": 2.39,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "\n  for (const key of Object.keys(node)) {\n    if (key === 'start' || key === 'end' || key === 'loc' || key === 'type') continue\n    const val = (node as any)[key]\n    if (Array.isArray(val)) {\n      for (const item of val) {\n        if (item && typeof item === 'object' && item.type) {\n          if",
+      "tokens": 131,
+      "firstFile": {
+        "name": "src/utils/ast.ts",
+        "start": 303,
+        "end": 310,
+        "startLoc": {
+          "line": 303,
+          "column": 43,
+          "position": 2664
+        },
+        "endLoc": {
+          "line": 310,
+          "column": 13,
+          "position": 2795
+        }
+      },
+      "secondFile": {
+        "name": "src/utils/ast.ts",
+        "start": 77,
+        "end": 84,
+        "startLoc": {
+          "line": 77,
+          "column": 1,
+          "position": 519
+        },
+        "endLoc": {
+          "line": 84,
+          "column": 18,
+          "position": 650
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ",\n  category: 'security',\n  severity: 'warning',\n  fileExtensions: ['ts', 'tsx', 'js', 'jsx'],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n    if (!isApiRoute(file.relativePath) && !/['\"]use server['\"]/.test(file.content)) return []\n\n    const hasUpload",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/rules/unsafe-file-upload.ts",
+        "start": 37,
+        "end": 46,
+        "startLoc": {
+          "line": 37,
+          "column": 78,
+          "position": 192
+        },
+        "endLoc": {
+          "line": 46,
+          "column": 20,
+          "position": 300
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/verbose-error-response.ts",
+        "start": 12,
+        "end": 21,
+        "startLoc": {
+          "line": 12,
+          "column": 101,
+          "position": 119
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 19,
+          "position": 227
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ",\n  category: 'security',\n  severity: 'warning',\n  fileExtensions: ['ts', 'tsx', 'js', 'jsx'],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n    if (!isApiRoute(file.relativePath) && !/['\"]use server['\"]/.test(file.content)) return []\n\n    const findings: Finding[] = []\n\n    // AST path: per-call arg checking, no file-wide escape hatch for direct user input",
+      "tokens": 122,
+      "firstFile": {
+        "name": "src/rules/ssrf-risk.ts",
+        "start": 37,
+        "end": 48,
+        "startLoc": {
+          "line": 37,
+          "column": 133,
+          "position": 241
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 88,
+          "position": 363
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/verbose-error-response.ts",
+        "start": 12,
+        "end": 23,
+        "startLoc": {
+          "line": 12,
+          "column": 101,
+          "position": 119
+        },
+        "endLoc": {
+          "line": 23,
+          "column": 8,
+          "position": 241
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      for (const {",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/rules/placeholder-content.ts",
+        "start": 28,
+        "end": 36,
+        "startLoc": {
+          "line": 28,
+          "column": 19,
+          "position": 366
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 19,
+          "position": 468
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/server-component-fetch-self.ts",
+        "start": 29,
+        "end": 37,
+        "startLoc": {
+          "line": 29,
+          "column": 31,
+          "position": 251
+        },
+        "endLoc": {
+          "line": 37,
+          "column": 25,
+          "position": 353
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ")) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      for (const { pattern, label",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/rules/placeholder-content.ts",
+        "start": 28,
+        "end": 36,
+        "startLoc": {
+          "line": 28,
+          "column": 37,
+          "position": 370
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 34,
+          "position": 473
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/verbose-error-response.ts",
+        "start": 19,
+        "end": 27,
+        "startLoc": {
+          "line": 19,
+          "column": 82,
+          "position": 215
+        },
+        "endLoc": {
+          "line": 27,
+          "column": 32,
+          "position": 318
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ",\n  severity: 'warning',\n  fileExtensions: ['ts', 'tsx', 'js', 'jsx'],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n    if (isScriptFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/rules/no-unbounded-query.ts",
+        "start": 8,
+        "end": 18,
+        "startLoc": {
+          "line": 8,
+          "column": 26,
+          "position": 81
+        },
+        "endLoc": {
+          "line": 18,
+          "column": 8,
+          "position": 183
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/shallow-catch.ts",
+        "start": 122,
+        "end": 132,
+        "startLoc": {
+          "line": 122,
+          "column": 26,
+          "position": 1181
+        },
+        "endLoc": {
+          "line": 132,
+          "column": 44,
+          "position": 1283
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "(file.relativePath)) return []\n    if (isScriptFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      // findMany() with no arguments — always unbounded",
+      "tokens": 114,
+      "firstFile": {
+        "name": "src/rules/no-unbounded-query.ts",
+        "start": 13,
+        "end": 22,
+        "startLoc": {
+          "line": 13,
+          "column": 19,
+          "position": 136
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 57,
+          "position": 250
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/stale-fallback.ts",
+        "start": 25,
+        "end": 34,
+        "startLoc": {
+          "line": 25,
+          "column": 21,
+          "position": 321
+        },
+        "endLoc": {
+          "line": 34,
+          "column": 90,
+          "position": 435
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ",\n  severity: 'warning',\n  fileExtensions: ['ts', 'tsx', 'js', 'jsx'],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n    if (isScriptFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    // AST path: walk call args for MemberExpression (skip string literals)",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/rules/leaked-env-in-logs.ts",
+        "start": 14,
+        "end": 24,
+        "startLoc": {
+          "line": 14,
+          "column": 23,
+          "position": 153
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 76,
+          "position": 255
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/shallow-catch.ts",
+        "start": 122,
+        "end": 132,
+        "startLoc": {
+          "line": 122,
+          "column": 26,
+          "position": 1181
+        },
+        "endLoc": {
+          "line": 132,
+          "column": 44,
+          "position": 1283
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ",\n            })\n          }\n        })\n        return findings\n      } catch {\n        // AST walk failed, fall through to regex\n      }\n    }\n\n    // Regex fallback\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      const",
+      "tokens": 106,
+      "firstFile": {
+        "name": "src/rules/leaked-env-in-logs.ts",
+        "start": 66,
+        "end": 81,
+        "startLoc": {
+          "line": 66,
+          "column": 95,
+          "position": 715
+        },
+        "endLoc": {
+          "line": 81,
+          "column": 12,
+          "position": 821
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/open-redirect.ts",
+        "start": 104,
+        "end": 119,
+        "startLoc": {
+          "line": 104,
+          "column": 87,
+          "position": 990
+        },
+        "endLoc": {
+          "line": 119,
+          "column": 10,
+          "position": 1096
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ",\n  category: 'security',\n  severity: 'warning',\n  fileExtensions: ['ts', 'tsx', 'js', 'jsx'],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n    if (isScriptFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      const",
+      "tokens": 176,
+      "firstFile": {
+        "name": "src/rules/insecure-random.ts",
+        "start": 10,
+        "end": 25,
+        "startLoc": {
+          "line": 10,
+          "column": 83,
+          "position": 91
+        },
+        "endLoc": {
+          "line": 25,
+          "column": 12,
+          "position": 267
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/leaked-env-in-logs.ts",
+        "start": 13,
+        "end": 34,
+        "startLoc": {
+          "line": 13,
+          "column": 90,
+          "position": 146
+        },
+        "endLoc": {
+          "line": 34,
+          "column": 90,
+          "position": 435
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      const match = MATH_RANDOM",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/rules/insecure-random.ts",
+        "start": 17,
+        "end": 25,
+        "startLoc": {
+          "line": 17,
+          "column": 21,
+          "position": 170
+        },
+        "endLoc": {
+          "line": 25,
+          "column": 32,
+          "position": 273
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/no-sync-fs.ts",
+        "start": 18,
+        "end": 26,
+        "startLoc": {
+          "line": 18,
+          "column": 34,
+          "position": 187
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 36,
+          "position": 290
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ",\n  category: 'security',\n  severity: 'warning',\n  fileExtensions: ['ts', 'tsx', 'js', 'jsx'],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n    if (isScriptFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      const isCookieSet",
+      "tokens": 178,
+      "firstFile": {
+        "name": "src/rules/insecure-cookie.ts",
+        "start": 22,
+        "end": 37,
+        "startLoc": {
+          "line": 22,
+          "column": 93,
+          "position": 131
+        },
+        "endLoc": {
+          "line": 37,
+          "column": 24,
+          "position": 309
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/leaked-env-in-logs.ts",
+        "start": 13,
+        "end": 25,
+        "startLoc": {
+          "line": 13,
+          "column": 90,
+          "position": 146
+        },
+        "endLoc": {
+          "line": 25,
+          "column": 18,
+          "position": 269
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      for (const { pattern, msg } of EVAL_PATTERNS",
+      "tokens": 144,
+      "firstFile": {
+        "name": "src/rules/eval-injection.ts",
+        "start": 18,
+        "end": 29,
+        "startLoc": {
+          "line": 18,
+          "column": 58,
+          "position": 189
+        },
+        "endLoc": {
+          "line": 29,
+          "column": 51,
+          "position": 333
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/placeholder-content.ts",
+        "start": 25,
+        "end": 27,
+        "startLoc": {
+          "line": 25,
+          "column": 44,
+          "position": 335
+        },
+        "endLoc": {
+          "line": 27,
+          "column": 57,
+          "position": 324
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      const",
+      "tokens": 128,
+      "firstFile": {
+        "name": "src/rules/env-fallback-secret.ts",
+        "start": 16,
+        "end": 27,
+        "startLoc": {
+          "line": 16,
+          "column": 58,
+          "position": 187
+        },
+        "endLoc": {
+          "line": 27,
+          "column": 12,
+          "position": 315
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/placeholder-content.ts",
+        "start": 25,
+        "end": 36,
+        "startLoc": {
+          "line": 25,
+          "column": 44,
+          "position": 335
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 10,
+          "position": 463
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ",\n  fileExtensions: ['ts', 'tsx', 'js', 'jsx', 'mjs', 'cjs'],\n\n  check(file: FileContext, _project: ProjectContext): Finding[] {\n    if (isTestFile(file.relativePath)) return []\n\n    const findings: Finding[] = []\n\n    for (let i = 0; i < file.lines.length; i++) {\n      if (isCommentLine(file.lines, i, file.commentMap)) continue\n      const line = file.lines[i]\n\n      const match = IMPLICIT_GRANT",
+      "tokens": 157,
+      "firstFile": {
+        "name": "src/rules/deprecated-oauth-flow.ts",
+        "start": 12,
+        "end": 24,
+        "startLoc": {
+          "line": 12,
+          "column": 22,
+          "position": 102
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 35,
+          "position": 259
+        }
+      },
+      "secondFile": {
+        "name": "src/rules/eval-injection.ts",
+        "start": 17,
+        "end": 26,
+        "startLoc": {
+          "line": 17,
+          "column": 23,
+          "position": 166
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 36,
+          "position": 290
+        }
+      }
+    }
+  ]
+}

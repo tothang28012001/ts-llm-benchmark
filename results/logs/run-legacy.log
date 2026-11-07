@@ -1,0 +1,14 @@
+[03:53:16] H02: era-matched test re-run
+[03:55:04] H02: node 14 (pin-date era): ok passed=True
+[03:55:04] H04: era-matched test re-run
+[03:56:19] H04: node 12 (pin-date era): ok passed=False
+[03:56:19] H05: era-matched test re-run
+[03:59:20] H05: node 14 (pin-date era): ok passed=False
+[03:59:20] H07: era-matched test re-run
+[04:00:03] H07: node 8 (pin-date era): install-failed passed=None
+[04:00:03] H09: era-matched test re-run
+[04:01:24] H09: node 14 (pin-date era): ok passed=False
+[04:01:24] H10: era-matched test re-run
+[04:03:24] H10: node 8 (pin-date era): install-failed passed=None
+[04:03:24] H11: era-matched test re-run
+[04:05:25] H11: node 14 (pin-date era): ok passed=False

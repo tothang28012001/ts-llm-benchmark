@@ -1,0 +1,120 @@
+{
+  "repo_id": "L02",
+  "group": "llm",
+  "full_name": "UfoMiao/zcf",
+  "stars": "6071",
+  "created_at": "2025-07-30",
+  "pin": "3806d0606f4c832da255b25809f47c36f3841245",
+  "fetch": {
+    "sha": "3806d0606f4c832da255b25809f47c36f3841245",
+    "commit_date": "2026-10-29T21:54:47+08:00",
+    "first_commit_date": "2025-08-01T22:16:34+08:00",
+    "commits_to_pin": 595,
+    "ai_commits_to_pin": 160,
+    "ai_commit_share": 0.2689,
+    "ai_agents": [
+      "claude-code",
+      "codex",
+      "cursor"
+    ]
+  },
+  "inventory": {
+    "prod_files": 91,
+    "test_files": 35,
+    "skipped": 5,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 91,
+      "lines": 13549,
+      "code": 11064,
+      "comment": 1409,
+      "blank": 1076
+    },
+    "test": {
+      "files": 35,
+      "lines": 9895,
+      "code": 8734,
+      "comment": 304,
+      "blank": 857
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 0,
+        "seconds": 19.3
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 12.311
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 130
+  },
+  "test": {
+    "cmd": "corepack pnpm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 56.2
+  },
+  "mutation": {
+    "sample_files": [
+      "packages/web/src/components/ui/collapsible.tsx",
+      "packages/core/src/schema/config.ts",
+      "packages/core/src/plan/types.ts",
+      "packages/cli/src/tui/run.tsx"
+    ],
+    "sample_lines": 411,
+    "framework_versions": {
+      "vitest": "5.0.5",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "counts": {
+      "NoCoverage": 4,
+      "Ignored": 61,
+      "Killed": 70,
+      "Survived": 20
+    },
+    "mutants_valid": 94,
+    "mutation_score": 0.7446808510638298,
+    "mutation_score_covered": 0.7777777777777778,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "exit": 0,
+        "seconds": 174.867,
+        "timed_out": false
+      }
+    ]
+  }
+}

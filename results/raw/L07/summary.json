@@ -1,0 +1,86 @@
+{
+  "repo_id": "L07",
+  "group": "llm",
+  "full_name": "prodlint/prodlint",
+  "stars": "15",
+  "created_at": "2026-02-16",
+  "pin": "af2a8491187f27f841acb37f99c800874a3738d3",
+  "fetch": {
+    "sha": "af2a8491187f27f841acb37f99c800874a3738d3",
+    "commit_date": "2026-11-01T19:40:52-05:00",
+    "first_commit_date": "2026-02-15T20:00:38-05:00",
+    "commits_to_pin": 115,
+    "ai_commits_to_pin": 113,
+    "ai_commit_share": 0.9826,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 68,
+    "test_files": 65,
+    "skipped": 2,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 68,
+      "lines": 8984,
+      "code": 7156,
+      "comment": 817,
+      "blank": 1060
+    },
+    "test": {
+      "files": 65,
+      "lines": 11016,
+      "code": 9359,
+      "comment": 390,
+      "blank": 1275
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 4.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 3.518
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 68
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 11.9
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

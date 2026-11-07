@@ -1,0 +1,2281 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T12:56:08.599Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/pagination.ts": {
+            "lines": 48,
+            "tokens": 343,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/markdown/types.ts": {
+            "lines": 22,
+            "tokens": 231,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/markdown/themes.ts": {
+            "lines": 206,
+            "tokens": 1598,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/markdown/render.ts": {
+            "lines": 270,
+            "tokens": 3015,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/markdown/inline.ts": {
+            "lines": 132,
+            "tokens": 1472,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/markdown/diffPrepass.ts": {
+            "lines": 107,
+            "tokens": 1006,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/markdown/blockContext.ts": {
+            "lines": 105,
+            "tokens": 490,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/diff/types.ts": {
+            "lines": 34,
+            "tokens": 294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/diff/loadDiff.ts": {
+            "lines": 137,
+            "tokens": 1840,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/diff/formatCommentsAsPrompt.ts": {
+            "lines": 46,
+            "tokens": 551,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/diff/convertToSideBySide.ts": {
+            "lines": 66,
+            "tokens": 860,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/viewport.ts": {
+            "lines": 213,
+            "tokens": 1552,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/validation.ts": {
+            "lines": 32,
+            "tokens": 298,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/trackerCardStatus.ts": {
+            "lines": 45,
+            "tokens": 347,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/timing.ts": {
+            "lines": 74,
+            "tokens": 607,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/throttle.ts": {
+            "lines": 47,
+            "tokens": 438,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/logger.ts": {
+            "lines": 138,
+            "tokens": 1332,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/lineWrapper.ts": {
+            "lines": 62,
+            "tokens": 461,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/layout.ts": {
+            "lines": 74,
+            "tokens": 586,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/lastTrackerProject.ts": {
+            "lines": 26,
+            "tokens": 249,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/languageMapping.ts": {
+            "lines": 110,
+            "tokens": 959,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/intervals.ts": {
+            "lines": 29,
+            "tokens": 253,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/gitHelpers.ts": {
+            "lines": 36,
+            "tokens": 409,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/formatting.ts": {
+            "lines": 149,
+            "tokens": 1920,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/fileSystem.ts": {
+            "lines": 81,
+            "tokens": 796,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/diffLineIndex.ts": {
+            "lines": 56,
+            "tokens": 790,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/concurrency.ts": {
+            "lines": 27,
+            "tokens": 298,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/commandExecutor.ts": {
+            "lines": 162,
+            "tokens": 1736,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/shared/utils/aiSessionMemory.ts": {
+            "lines": 42,
+            "tokens": 427,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/versionTypes.ts": {
+            "lines": 9,
+            "tokens": 46,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/WorkspaceService.ts": {
+            "lines": 116,
+            "tokens": 1138,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/VersionCheckService.ts": {
+            "lines": 162,
+            "tokens": 1707,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/TmuxService.ts": {
+            "lines": 358,
+            "tokens": 3665,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/PRStatusCacheService.ts": {
+            "lines": 356,
+            "tokens": 2618,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/MemoryMonitorService.ts": {
+            "lines": 114,
+            "tokens": 1029,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/GitService.ts": {
+            "lines": 593,
+            "tokens": 6913,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 210,
+            "percentage": 3.37,
+            "percentageTokens": 3.04,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/GitHubService.ts": {
+            "lines": 285,
+            "tokens": 3270,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 42,
+            "duplicatedTokens": 434,
+            "percentage": 14.74,
+            "percentageTokens": 13.27,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/CommentStoreManager.ts": {
+            "lines": 34,
+            "tokens": 283,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/AIToolService.ts": {
+            "lines": 217,
+            "tokens": 1768,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/runningChips.ts": {
+            "lines": 17,
+            "tokens": 200,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/prChip.ts": {
+            "lines": 23,
+            "tokens": 241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useTerminalDimensions.ts": {
+            "lines": 43,
+            "tokens": 378,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePagination.ts": {
+            "lines": 33,
+            "tokens": 215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useMarkdownTheme.ts": {
+            "lines": 13,
+            "tokens": 105,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useKeyboardShortcuts.ts": {
+            "lines": 184,
+            "tokens": 1975,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/core-types.ts": {
+            "lines": 7,
+            "tokens": 72,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cores/WorktreeStatus.ts": {
+            "lines": 113,
+            "tokens": 1493,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cores/WorktreeCore.ts": {
+            "lines": 629,
+            "tokens": 9208,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 103,
+            "percentage": 1.11,
+            "percentageTokens": 1.12,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cores/RalphCore.ts": {
+            "lines": 354,
+            "tokens": 3330,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cores/GitHubCore.ts": {
+            "lines": 248,
+            "tokens": 3367,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 103,
+            "percentage": 2.82,
+            "percentageTokens": 3.06,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/hooks/useDiffNavigation.ts": {
+            "lines": 225,
+            "tokens": 2668,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/hooks/useDiffComments.ts": {
+            "lines": 246,
+            "tokens": 2971,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/hooks/useHighlightPriority.ts": {
+            "lines": 8,
+            "tokens": 108,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/hooks/useColumnWidths.ts": {
+            "lines": 55,
+            "tokens": 429,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/utils.ts": {
+            "lines": 63,
+            "tokens": 717,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/highlight.ts": {
+            "lines": 103,
+            "tokens": 1191,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/bin/devteam.ts": {
+            "lines": 32,
+            "tokens": 241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models.ts": {
+            "lines": 278,
+            "tokens": 2688,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 5,
+            "tokens": 63,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/constants.ts": {
+            "lines": 419,
+            "tokens": 2860,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config.ts": {
+            "lines": 43,
+            "tokens": 259,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli.ts": {
+            "lines": 50,
+            "tokens": 303,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 8011,
+          "tokens": 82677,
+          "sources": 62,
+          "clones": 3,
+          "duplicatedLines": 38,
+          "duplicatedTokens": 425,
+          "percentage": 0.47,
+          "percentageTokens": 0.51,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/screens/WorktreeListScreen.tsx": {
+            "lines": 10,
+            "tokens": 57,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/TrackerStagesScreen.tsx": {
+            "lines": 140,
+            "tokens": 1510,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/TrackerProposalScreen.tsx": {
+            "lines": 18,
+            "tokens": 239,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/TrackerItemScreen.tsx": {
+            "lines": 155,
+            "tokens": 1959,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/CreateFeatureScreen.tsx": {
+            "lines": 6,
+            "tokens": 47,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/ArchiveConfirmScreen.tsx": {
+            "lines": 33,
+            "tokens": 443,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/WorktreeContext.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/UIContext.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/InputFocusContext.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/GitHubContext.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/markdown/MarkdownView.tsx": {
+            "lines": 3,
+            "tokens": 45,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/markdown/MarkdownRowView.tsx": {
+            "lines": 9,
+            "tokens": 87,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/mdRowHelpers.tsx": {
+            "lines": 14,
+            "tokens": 106,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/UnifiedDiffRows.tsx": {
+            "lines": 49,
+            "tokens": 558,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/SideBySideDiffRows.tsx": {
+            "lines": 26,
+            "tokens": 350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/WorktreeRow.tsx": {
+            "lines": 91,
+            "tokens": 1035,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/WorkspaceGroupRow.tsx": {
+            "lines": 26,
+            "tokens": 469,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/TableHeader.tsx": {
+            "lines": 7,
+            "tokens": 68,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/SessionCell.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/PaginationFooter.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/EmptyState.tsx": {
+            "lines": 15,
+            "tokens": 155,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView.tsx": {
+            "lines": 75,
+            "tokens": 682,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/DiffView.tsx": {
+            "lines": 103,
+            "tokens": 829,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/UnsubmittedCommentsDialog.tsx": {
+            "lines": 10,
+            "tokens": 166,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/TrackerProjectPickerDialog.tsx": {
+            "lines": 67,
+            "tokens": 930,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/SettingsDialog.tsx": {
+            "lines": 175,
+            "tokens": 2273,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/SessionWaitingDialog.tsx": {
+            "lines": 14,
+            "tokens": 241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/ProjectPickerDialog.tsx": {
+            "lines": 6,
+            "tokens": 96,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/ProgressDialog.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/NoProjectsDialog.tsx": {
+            "lines": 20,
+            "tokens": 245,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/InfoDialog.tsx": {
+            "lines": 5,
+            "tokens": 83,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/HelpOverlay.tsx": {
+            "lines": 1,
+            "tokens": 32,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/FileTreeOverlay.tsx": {
+            "lines": 28,
+            "tokens": 335,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/CreateFeatureDialog.tsx": {
+            "lines": 19,
+            "tokens": 199,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/ConfirmDialog.tsx": {
+            "lines": 2,
+            "tokens": 35,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/CommentInputDialog.tsx": {
+            "lines": 22,
+            "tokens": 217,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/BranchPickerDialog.tsx": {
+            "lines": 89,
+            "tokens": 1350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/AIToolDialog.tsx": {
+            "lines": 5,
+            "tokens": 44,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/StatusChip.tsx": {
+            "lines": 30,
+            "tokens": 365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/LoadingScreen.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/FullScreen.tsx": {
+            "lines": 1,
+            "tokens": 11,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/AnnotatedText.tsx": {
+            "lines": 9,
+            "tokens": 122,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 339,
+            "tokens": 2908,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1630,
+          "tokens": 18315,
+          "sources": 43,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/screens/WorktreeListScreen.tsx": {
+            "lines": 293,
+            "tokens": 2558,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/TrackerStagesScreen.tsx": {
+            "lines": 542,
+            "tokens": 6996,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/TrackerProposalScreen.tsx": {
+            "lines": 93,
+            "tokens": 1009,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/TrackerItemScreen.tsx": {
+            "lines": 383,
+            "tokens": 4300,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/CreateFeatureScreen.tsx": {
+            "lines": 107,
+            "tokens": 933,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/screens/ArchiveConfirmScreen.tsx": {
+            "lines": 114,
+            "tokens": 1183,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/WorktreeContext.tsx": {
+            "lines": 282,
+            "tokens": 3890,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/UIContext.tsx": {
+            "lines": 378,
+            "tokens": 3982,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/InputFocusContext.tsx": {
+            "lines": 50,
+            "tokens": 430,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/GitHubContext.tsx": {
+            "lines": 95,
+            "tokens": 1189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/markdown/MarkdownView.tsx": {
+            "lines": 32,
+            "tokens": 272,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/markdown/MarkdownRowView.tsx": {
+            "lines": 41,
+            "tokens": 294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/mdRowHelpers.tsx": {
+            "lines": 69,
+            "tokens": 641,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/UnifiedDiffRows.tsx": {
+            "lines": 126,
+            "tokens": 1476,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/diff/SideBySideDiffRows.tsx": {
+            "lines": 157,
+            "tokens": 1816,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/WorktreeRow.tsx": {
+            "lines": 269,
+            "tokens": 3258,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 35,
+            "duplicatedTokens": 462,
+            "percentage": 13.01,
+            "percentageTokens": 14.18,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/WorkspaceGroupRow.tsx": {
+            "lines": 160,
+            "tokens": 2261,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 35,
+            "duplicatedTokens": 462,
+            "percentage": 21.88,
+            "percentageTokens": 20.43,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/TableHeader.tsx": {
+            "lines": 41,
+            "tokens": 483,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/SessionCell.tsx": {
+            "lines": 28,
+            "tokens": 459,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/PromptView.tsx": {
+            "lines": 21,
+            "tokens": 203,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/PaginationFooter.tsx": {
+            "lines": 26,
+            "tokens": 193,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/MessageView.tsx": {
+            "lines": 16,
+            "tokens": 127,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/EmptyState.tsx": {
+            "lines": 39,
+            "tokens": 324,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView.tsx": {
+            "lines": 170,
+            "tokens": 1656,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/DiffView.tsx": {
+            "lines": 301,
+            "tokens": 3284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/UnsubmittedCommentsDialog.tsx": {
+            "lines": 33,
+            "tokens": 408,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/TrackerProjectPickerDialog.tsx": {
+            "lines": 157,
+            "tokens": 2070,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/SettingsDialog.tsx": {
+            "lines": 357,
+            "tokens": 4419,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/SessionWaitingDialog.tsx": {
+            "lines": 46,
+            "tokens": 511,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/ProjectPickerDialog.tsx": {
+            "lines": 90,
+            "tokens": 989,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 108,
+            "percentage": 14.44,
+            "percentageTokens": 10.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/ProgressDialog.tsx": {
+            "lines": 22,
+            "tokens": 223,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/NoProjectsDialog.tsx": {
+            "lines": 46,
+            "tokens": 466,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/InfoDialog.tsx": {
+            "lines": 27,
+            "tokens": 310,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/HelpOverlay.tsx": {
+            "lines": 25,
+            "tokens": 285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/FileTreeOverlay.tsx": {
+            "lines": 130,
+            "tokens": 1639,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/CreateFeatureDialog.tsx": {
+            "lines": 193,
+            "tokens": 2273,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/ConfirmDialog.tsx": {
+            "lines": 28,
+            "tokens": 322,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/CommentInputDialog.tsx": {
+            "lines": 79,
+            "tokens": 701,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/BranchPickerDialog.tsx": {
+            "lines": 250,
+            "tokens": 3252,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 108,
+            "percentage": 5.2,
+            "percentageTokens": 3.32,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/AIToolDialog.tsx": {
+            "lines": 72,
+            "tokens": 753,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/StatusChip.tsx": {
+            "lines": 67,
+            "tokens": 750,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/LoadingScreen.tsx": {
+            "lines": 12,
+            "tokens": 88,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/FullScreen.tsx": {
+            "lines": 47,
+            "tokens": 528,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/AnnotatedText.tsx": {
+            "lines": 38,
+            "tokens": 403,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/bootstrap.tsx": {
+            "lines": 39,
+            "tokens": 496,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 702,
+            "tokens": 6191,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 6293,
+          "tokens": 70294,
+          "sources": 46,
+          "clones": 4,
+          "duplicatedLines": 48,
+          "duplicatedTokens": 570,
+          "percentage": 0.76,
+          "percentageTokens": 0.81,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "css": {
+        "sources": {
+          "src/screens/TrackerStagesScreen.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/views/MainView/EmptyState.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/UnsubmittedCommentsDialog.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/TrackerProjectPickerDialog.tsx": {
+            "lines": 32,
+            "tokens": 439,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/SettingsDialog.tsx": {
+            "lines": 48,
+            "tokens": 741,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/SessionWaitingDialog.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/ProgressDialog.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/NoProjectsDialog.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/InfoDialog.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/FileTreeOverlay.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/dialogs/CommentInputDialog.tsx": {
+            "lines": 11,
+            "tokens": 140,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 99,
+          "tokens": 1344,
+          "sources": 11,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 16033,
+      "tokens": 172630,
+      "sources": 162,
+      "clones": 7,
+      "duplicatedLines": 86,
+      "duplicatedTokens": 995,
+      "percentage": 0.54,
+      "percentageTokens": 0.58,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": " {\n    const result: Record<string, PRStatus> = {};\n    const projectGroups = this.groupWorktreesByProject(worktrees);\n    \n    for (const [project, group] of Object.entries(projectGroups)) {\n      if (!group.length) continue;\n      \n      const repoPath = group[0].path;\n      \n      try {\n        // Get branch mapping first to know which branches to filter for\n        const pathToBranch = await",
+      "tokens": 112,
+      "firstFile": {
+        "name": "src/services/GitHubService.ts",
+        "start": 164,
+        "end": 175,
+        "startLoc": {
+          "line": 164,
+          "column": 173,
+          "position": 1930
+        },
+        "endLoc": {
+          "line": 175,
+          "column": 35,
+          "position": 2042
+        }
+      },
+      "secondFile": {
+        "name": "src/services/GitHubService.ts",
+        "start": 132,
+        "end": 143,
+        "startLoc": {
+          "line": 132,
+          "column": 153,
+          "position": 1607
+        },
+        "endLoc": {
+          "line": 143,
+          "column": 34,
+          "position": 1719
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 21,
+      "fragment": "\n    const pathToBranch: Record<string, string> = {};\n    let currentPath: string | null = null;\n    \n    if (wtInfo) {\n      for (const line of wtInfo.trim().split('\\n')) {\n        if (line.startsWith('worktree ')) {\n          currentPath = line.slice(9).trim();\n        } else if (line.startsWith('branch ') && currentPath) {\n          let branch = line.slice(7).trim();\n          if (branch.startsWith('refs/heads/')) branch = branch.slice(11);\n          pathToBranch[currentPath] = branch;\n          currentPath = null;\n        }\n      }\n    }\n    \n    return pathToBranch;\n  }\n\n  private",
+      "tokens": 210,
+      "firstFile": {
+        "name": "src/services/GitHubService.ts",
+        "start": 255,
+        "end": 275,
+        "startLoc": {
+          "line": 255,
+          "column": 70,
+          "position": 2921
+        },
+        "endLoc": {
+          "line": 275,
+          "column": 10,
+          "position": 3131
+        }
+      },
+      "secondFile": {
+        "name": "src/services/GitService.ts",
+        "start": 412,
+        "end": 432,
+        "startLoc": {
+          "line": 412,
+          "column": 96,
+          "position": 4983
+        },
+        "endLoc": {
+          "line": 432,
+          "column": 8,
+          "position": 5193
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ");\n  }\n\n  // CoreBase\n  get(): Readonly<State> { return this.state; }\n  subscribe(fn: (s: Readonly<State>) => void): () => void { this.listeners.add(fn); return () => this.listeners.delete(fn); }\n  start(): void {\n    // Auto-refresh visible PRs",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/cores/GitHubCore.ts",
+        "start": 69,
+        "end": 76,
+        "startLoc": {
+          "line": 69,
+          "column": 5,
+          "position": 942
+        },
+        "endLoc": {
+          "line": 76,
+          "column": 32,
+          "position": 1045
+        }
+      },
+      "secondFile": {
+        "name": "src/cores/WorktreeCore.ts",
+        "start": 69,
+        "end": 76,
+        "startLoc": {
+          "line": 69,
+          "column": 52,
+          "position": 1101
+        },
+        "endLoc": {
+          "line": 76,
+          "column": 10,
+          "position": 1204
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": ";\n\n  const formatCellText = (text: string, width: number, justify: 'flex-start' | 'center' | 'flex-end'): string => {\n    const raw = (text ?? '').trim();\n    let visible = raw;\n    if (stringDisplayWidth(visible) > width) {\n      visible = visible.slice(0, Math.max(0, width));\n    }\n    const pad = Math.max(0, width - stringDisplayWidth(visible));\n    if (justify === 'flex-end') return",
+      "tokens": 154,
+      "firstFile": {
+        "name": "src/components/views/MainView/WorkspaceGroupRow.tsx",
+        "start": 39,
+        "end": 48,
+        "startLoc": {
+          "line": 39,
+          "column": 95,
+          "position": 556
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 39,
+          "position": 710
+        }
+      },
+      "secondFile": {
+        "name": "src/components/views/MainView/WorktreeRow.tsx",
+        "start": 132,
+        "end": 141,
+        "startLoc": {
+          "line": 132,
+          "column": 4,
+          "position": 1649
+        },
+        "endLoc": {
+          "line": 141,
+          "column": 34,
+          "position": 1803
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 13,
+      "fragment": "const right = pad - left;\n      return ' '.repeat(left) + visible + ' '.repeat(right);\n    }\n    return visible + ' '.repeat(pad);\n  };\n\n  const renderProjectFeatureCell = (text: string, width: number, justify: 'flex-start' | 'center' | 'flex-end') => {\n    const raw = (text ?? '').trim();\n    let visible = raw;\n    if (stringDisplayWidth(visible) > width) {\n      visible = visible.slice(0, Math.max(0, width));\n    }\n    ",
+      "tokens": 172,
+      "firstFile": {
+        "name": "src/components/views/MainView/WorkspaceGroupRow.tsx",
+        "start": 50,
+        "end": 62,
+        "startLoc": {
+          "line": 50,
+          "column": 41,
+          "position": 756
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 5,
+          "position": 928
+        }
+      },
+      "secondFile": {
+        "name": "src/components/views/MainView/WorktreeRow.tsx",
+        "start": 146,
+        "end": 159,
+        "startLoc": {
+          "line": 146,
+          "column": 7,
+          "position": 1856
+        },
+        "endLoc": {
+          "line": 159,
+          "column": 1,
+          "position": 2028
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": "\n                ? renderProjectFeatureCell(cell.text, cell.width, cell.justify)\n                : formatCellText(cell.text, cell.width, cell.justify)}\n            </Text>\n          );\n        }\n        return (\n          <Box key={idx} width={cell.width} justifyContent={cell.justify} marginRight={idx < cells.length - 1 ? 1 : 0}>\n            {cellContent}\n          </Box>\n        );\n      })}\n    </Box>\n  );\n},",
+      "tokens": 136,
+      "firstFile": {
+        "name": "src/components/views/MainView/WorkspaceGroupRow.tsx",
+        "start": 120,
+        "end": 134,
+        "startLoc": {
+          "line": 120,
+          "column": 25,
+          "position": 1765
+        },
+        "endLoc": {
+          "line": 134,
+          "column": 3,
+          "position": 1901
+        }
+      },
+      "secondFile": {
+        "name": "src/components/views/MainView/WorktreeRow.tsx",
+        "start": 252,
+        "end": 266,
+        "startLoc": {
+          "line": 252,
+          "column": 53,
+          "position": 3118
+        },
+        "endLoc": {
+          "line": 266,
+          "column": 3,
+          "position": 3246
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 14,
+      "fragment": ");\n      return;\n    }\n    \n    // Navigation keys\n    if (key.downArrow) {\n      setSelected((s) => Math.min(filtered.length - 1, s + 1));\n      return;\n    }\n    if (key.upArrow) {\n      setSelected((s) => Math.max(0, s - 1));\n      return;\n    }\n    if",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/components/dialogs/BranchPickerDialog.tsx",
+        "start": 54,
+        "end": 67,
+        "startLoc": {
+          "line": 54,
+          "column": 17,
+          "position": 663
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 7,
+          "position": 771
+        }
+      },
+      "secondFile": {
+        "name": "src/components/dialogs/ProjectPickerDialog.tsx",
+        "start": 32,
+        "end": 46,
+        "startLoc": {
+          "line": 32,
+          "column": 30,
+          "position": 445
+        },
+        "endLoc": {
+          "line": 46,
+          "column": 1,
+          "position": 553
+        }
+      }
+    }
+  ]
+}

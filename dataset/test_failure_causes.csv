@@ -1,0 +1,12 @@
+repo_id,cause_category,evidence
+H02,environment drift,"node-sass binary unsupported on Node 22 (6 suites fail to load); all tests pass on Node 14"
+H04,genuine failure,"test script runs a build first; tsc reports TS2307/TS2538 in project files on Node 22 and Node 12"
+H05,environment (device-only),"only suite is a Detox end-to-end test (ReferenceError: device is not defined); needs a mobile device"
+H07,dependency rot,"dependency sc-domain@1.0.1 returns 404 from the npm registry (unpublished); cannot install on any Node"
+H09,external service,"2 tests call http://swapi.co, which now answers 403 Forbidden; 17 of 19 tests pass"
+H10,dependency rot,"lockfile git dependency can no longer be fetched (git exit 128) on Node 22 or Node 8"
+H11,genuine failure,"both suites crash on 'Cannot assign to read only property asyncIterator' on Node 22 and Node 14"
+L03,environment (system binary),"2 tests spawn ffmpeg, which is not installed in the container; 42 of 44 tests pass"
+L05,genuine failure,"8 failing node:test subtests in .gitignore pattern handling; 364 of 372 pass"
+L06,genuine failure,"8 failing assertions across 26 test files (e.g. expected function to throw); 3359 of 3367 pass"
+L07,genuine failure,"8 failing CLI tests (e.g. --help output missing --sarif flag); 1076 of 1084 pass"

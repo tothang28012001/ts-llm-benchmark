@@ -1,0 +1,28 @@
+
+> @ric_/forgejo-mcp@0.3.1 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/work[39m
+
+ [32m✓[39m src/__tests__/client.test.ts [2m([22m[2m49 tests[22m[2m)[22m[32m 231[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/admin.test.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 201[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/repository.test.ts [2m([22m[2m33 tests[22m[2m)[22m[32m 291[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/users.test.ts [2m([22m[2m31 tests[22m[2m)[22m[32m 170[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/issues.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 180[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/actions.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 228[2mms[22m[39m
+ [32m✓[39m src/__tests__/config.test.ts [2m([22m[2m44 tests[22m[2m)[22m[32m 56[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/organizations.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 172[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/pullrequests.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 129[2mms[22m[39m
+ [32m✓[39m src/__tests__/server.test.ts [2m([22m[2m25 tests[22m[2m)[22m[33m 772[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/repo-settings.test.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 184[2mms[22m[39m
+ [32m✓[39m src/__tests__/tools/packages.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 21[2mms[22m[39m
+ [32m✓[39m src/__tests__/compact.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m src/__tests__/path-safety.test.ts [2m([22m[2m1 test[22m[2m)[22m[33m 450[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps every tool on its own endpoint whatever its string parameters contain [33m 449[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m14 passed[39m[22m[90m (14)[39m
+[2m      Tests [22m [1m[32m347 passed[39m[22m[90m (347)[39m
+[2m   Start at [22m 12:06:46
+[2m   Duration [22m 4.28s[2m (transform 1.14s, setup 0ms, import 4.76s, tests 3.10s, environment 3ms)[22m
+

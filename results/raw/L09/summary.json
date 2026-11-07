@@ -1,0 +1,116 @@
+{
+  "repo_id": "L09",
+  "group": "llm",
+  "full_name": "roboco-io/roboco-cli",
+  "stars": "13",
+  "created_at": "2026-04-04",
+  "pin": "7e8071e3f06e58ea8f5a8371c3af7d372fb685b4",
+  "fetch": {
+    "sha": "7e8071e3f06e58ea8f5a8371c3af7d372fb685b4",
+    "commit_date": "2026-05-06T20:34:54-07:00",
+    "first_commit_date": "2026-04-04T11:30:31+09:00",
+    "commits_to_pin": 53,
+    "ai_commits_to_pin": 31,
+    "ai_commit_share": 0.5849,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 24,
+    "test_files": 12,
+    "skipped": 3,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 24,
+      "lines": 2833,
+      "code": 2395,
+      "comment": 94,
+      "blank": 348
+    },
+    "test": {
+      "files": 12,
+      "lines": 1527,
+      "code": 1307,
+      "comment": 19,
+      "blank": 204
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 12.6
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "6.0.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 2.71
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 24
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 2.4
+  },
+  "mutation": {
+    "sample_files": [
+      "src/core/analyzer.ts",
+      "src/utils/fs.ts",
+      "src/core/installer.ts"
+    ],
+    "sample_lines": 514,
+    "framework_versions": {
+      "vitest": "4.1.2",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "counts": {
+      "NoCoverage": 152,
+      "Killed": 173,
+      "Survived": 136
+    },
+    "mutants_valid": 461,
+    "mutation_score": 0.3752711496746204,
+    "mutation_score_covered": 0.5598705501618123,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "exit": 0,
+        "seconds": 98.477,
+        "timed_out": false
+      }
+    ]
+  }
+}

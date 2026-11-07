@@ -1,0 +1,9 @@
+[04:25:23] H03: fetch helios1138/graphql-typed-client @ 0bdd5736fc
+[04:25:25] H03: loc prod=1361 test=1088
+[04:25:28] H03: lint exit=0
+[04:25:28] H03: dup ok=True
+[04:25:28] H03: install (yarn, lock=yarn.lock)
+[04:25:39] H03: install ok=True level=0
+[04:25:44] H03: tsc errors=0
+[04:25:57] H03: test passed=True
+[04:25:57] H03: mutation testing

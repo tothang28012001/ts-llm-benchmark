@@ -1,0 +1,3657 @@
+
+> githuman@0.9.0 test
+> npm run test:server && npm run test:cli && npm run test:web
+
+
+> githuman@0.9.0 test:server
+> node --test 'tests/server/**/*.test.ts'
+
+TAP version 13
+# (node:185) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: app
+    # Subtest: health endpoint
+        # Subtest: without auth token (localhost default)
+            # Subtest: should return status ok
+            ok 1 - should return status ok
+              ---
+              duration_ms: 221.463018
+              type: 'test'
+              ...
+            # Subtest: should indicate auth is not required
+            ok 2 - should indicate auth is not required
+              ---
+              duration_ms: 2.1445
+              type: 'test'
+              ...
+            1..2
+        ok 1 - without auth token (localhost default)
+          ---
+          duration_ms: 436.976037
+          type: 'suite'
+          ...
+        # Subtest: with explicit token
+            # Subtest: should indicate auth is required
+            ok 1 - should indicate auth is required
+              ---
+              duration_ms: 160.422317
+              type: 'test'
+              ...
+            1..1
+        ok 2 - with explicit token
+          ---
+          duration_ms: 209.418877
+          type: 'suite'
+          ...
+        1..2
+    ok 1 - health endpoint
+      ---
+      duration_ms: 646.92666
+      type: 'suite'
+      ...
+    # Subtest: config decorator
+        # Subtest: should expose config on app instance
+        ok 1 - should expose config on app instance
+          ---
+          duration_ms: 166.281979
+          type: 'test'
+          ...
+        1..1
+    ok 2 - config decorator
+      ---
+      duration_ms: 166.480586
+      type: 'suite'
+      ...
+    # Subtest: CORS
+        # Subtest: should include CORS headers
+        ok 1 - should include CORS headers
+          ---
+          duration_ms: 128.167346
+          type: 'test'
+          ...
+        1..1
+    ok 3 - CORS
+      ---
+      duration_ms: 194.171977
+      type: 'suite'
+      ...
+    # Subtest: verbose option
+        # Subtest: should build app with verbose option
+        ok 1 - should build app with verbose option
+          ---
+          duration_ms: 203.897223
+          type: 'test'
+          ...
+        1..1
+    ok 4 - verbose option
+      ---
+      duration_ms: 204.148971
+      type: 'suite'
+      ...
+    # Subtest: static app assets
+        # Subtest: should serve built JavaScript assets instead of index.html
+        not ok 1 - should serve built JavaScript assets instead of index.html
+          ---
+          duration_ms: 0.625331
+          type: 'test'
+          location: '/work/tests/server/app.test.ts:138:5'
+          failureType: 'testCodeFailure'
+          error: "ENOENT: no such file or directory, open '/work/dist/web/index.html'"
+          code: 'ENOENT'
+          stack: |-
+            readFileSync (node:fs:440:20)
+            TestContext.<anonymous> (file:///work/tests/server/app.test.ts:140:25)
+            Test.runInAsyncScope (node:async_hooks:214:14)
+            Test.run (node:internal/test_runner/test:1047:25)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:1442:7)
+            async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)
+          ...
+        # Subtest: should return 404 for missing asset paths
+        ok 2 - should return 404 for missing asset paths
+          ---
+          duration_ms: 103.934338
+          type: 'test'
+          ...
+        1..2
+    not ok 5 - static app assets
+      ---
+      duration_ms: 154.091171
+      type: 'suite'
+      location: '/work/tests/server/app.test.ts:126:3'
+      failureType: 'subtestsFailed'
+      error: '1 subtest failed'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: HTTPS configuration
+        # Subtest: should build app without HTTPS when https is false
+        ok 1 - should build app without HTTPS when https is false
+          ---
+          duration_ms: 160.480262
+          type: 'test'
+          ...
+        # Subtest: should expose https setting in config
+        ok 2 - should expose https setting in config
+          ---
+          duration_ms: 9.791417
+          type: 'test'
+          ...
+        1..2
+    ok 6 - HTTPS configuration
+      ---
+      duration_ms: 170.545745
+      type: 'suite'
+      ...
+    1..6
+not ok 1 - app
+  ---
+  duration_ms: 1537.681729
+  type: 'suite'
+  location: '/work/tests/server/app.test.ts:10:1'
+  failureType: 'subtestsFailed'
+  error: '1 subtest failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+# Subtest: config
+    # Subtest: createConfig
+        # Subtest: should use default values with no auth token
+        ok 1 - should use default values with no auth token
+          ---
+          duration_ms: 6.359015
+          type: 'test'
+          ...
+        # Subtest: should allow overriding port
+        ok 2 - should allow overriding port
+          ---
+          duration_ms: 7.205113
+          type: 'test'
+          ...
+        # Subtest: should allow overriding host
+        ok 3 - should allow overriding host
+          ---
+          duration_ms: 4.220703
+          type: 'test'
+          ...
+        # Subtest: should allow setting auth token with minimum length
+        ok 4 - should allow setting auth token with minimum length
+          ---
+          duration_ms: 4.127539
+          type: 'test'
+          ...
+        # Subtest: should reject auth token shorter than 32 characters
+        ok 5 - should reject auth token shorter than 32 characters
+          ---
+          duration_ms: 4.058706
+          type: 'test'
+          ...
+        # Subtest: should allow overriding repository path
+        ok 6 - should allow overriding repository path
+          ---
+          duration_ms: 3.136487
+          type: 'test'
+          ...
+        # Subtest: should allow overriding db path
+        ok 7 - should allow overriding db path
+          ---
+          duration_ms: 3.113071
+          type: 'test'
+          ...
+        # Subtest: should allow enabling https
+        ok 8 - should allow enabling https
+          ---
+          duration_ms: 3.174337
+          type: 'test'
+          ...
+        # Subtest: should allow setting TLS certificate and key
+        ok 9 - should allow setting TLS certificate and key
+          ---
+          duration_ms: 3.197215
+          type: 'test'
+          ...
+        # Subtest: with GITHUMAN_TOKEN env var
+            # Subtest: should use token from environment
+            ok 1 - should use token from environment
+              ---
+              duration_ms: 3.148061
+              type: 'test'
+              ...
+            # Subtest: should prefer explicit token over env var
+            ok 2 - should prefer explicit token over env var
+              ---
+              duration_ms: 6.016867
+              type: 'test'
+              ...
+            1..2
+        ok 10 - with GITHUMAN_TOKEN env var
+          ---
+          duration_ms: 9.744897
+          type: 'suite'
+          ...
+        # Subtest: with short GITHUMAN_TOKEN env var
+            # Subtest: should reject short token from environment
+            ok 1 - should reject short token from environment
+              ---
+              duration_ms: 7.727742
+              type: 'test'
+              ...
+            1..1
+        ok 11 - with short GITHUMAN_TOKEN env var
+          ---
+          duration_ms: 8.182185
+          type: 'suite'
+          ...
+        1..11
+    ok 1 - createConfig
+      ---
+      duration_ms: 58.294179
+      type: 'suite'
+      ...
+    1..1
+ok 2 - config
+  ---
+  duration_ms: 58.797684
+  type: 'suite'
+  ...
+# (node:192) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: migrations
+    # Subtest: should start with version 0
+    ok 1 - should start with version 0
+      ---
+      duration_ms: 1.114068
+      type: 'test'
+      ...
+    # Subtest: should apply all migrations
+    ok 2 - should apply all migrations
+      ---
+      duration_ms: 2.082492
+      type: 'test'
+      ...
+    # Subtest: should create reviews table
+    ok 3 - should create reviews table
+      ---
+      duration_ms: 0.326921
+      type: 'test'
+      ...
+    # Subtest: should create comments table
+    ok 4 - should create comments table
+      ---
+      duration_ms: 0.208374
+      type: 'test'
+      ...
+    # Subtest: should have correct reviews columns
+    ok 5 - should have correct reviews columns
+      ---
+      duration_ms: 0.295247
+      type: 'test'
+      ...
+    # Subtest: should have correct comments columns
+    ok 6 - should have correct comments columns
+      ---
+      duration_ms: 0.192615
+      type: 'test'
+      ...
+    # Subtest: should be idempotent (running twice has no effect)
+    ok 7 - should be idempotent (running twice has no effect)
+      ---
+      duration_ms: 0.254388
+      type: 'test'
+      ...
+    # Subtest: should enforce foreign key constraints
+    ok 8 - should enforce foreign key constraints
+      ---
+      duration_ms: 0.534222
+      type: 'test'
+      ...
+    # Subtest: should cascade delete comments when review is deleted
+    ok 9 - should cascade delete comments when review is deleted
+      ---
+      duration_ms: 0.923038
+      type: 'test'
+      ...
+    1..9
+ok 3 - migrations
+  ---
+  duration_ms: 8.758237
+  type: 'suite'
+  ...
+# Subtest: auth plugin
+    # Subtest: when auth is disabled (testing only)
+        # Subtest: should set authEnabled to false
+        ok 1 - should set authEnabled to false
+          ---
+          duration_ms: 0.439621
+          type: 'test'
+          ...
+        # Subtest: should allow requests without auth header
+        ok 2 - should allow requests without auth header
+          ---
+          duration_ms: 8.795953
+          type: 'test'
+          ...
+        1..2
+    ok 1 - when auth is disabled (testing only)
+      ---
+      duration_ms: 117.682112
+      type: 'suite'
+      ...
+    # Subtest: when auth is enabled
+        # Subtest: positive auth tests
+            # Subtest: should set authEnabled to true
+            ok 1 - should set authEnabled to true
+              ---
+              duration_ms: 0.403296
+              type: 'test'
+              ...
+            # Subtest: should allow requests with correct token
+            ok 2 - should allow requests with correct token
+              ---
+              duration_ms: 1.960616
+              type: 'test'
+              ...
+            # Subtest: should skip auth for /api/health endpoint
+            ok 3 - should skip auth for /api/health endpoint
+              ---
+              duration_ms: 0.986719
+              type: 'test'
+              ...
+            # Subtest: should skip auth for non-api routes
+            ok 4 - should skip auth for non-api routes
+              ---
+              duration_ms: 0.597362
+              type: 'test'
+              ...
+            # Subtest: should allow requests with token in query parameter
+            ok 5 - should allow requests with token in query parameter
+              ---
+              duration_ms: 0.946093
+              type: 'test'
+              ...
+            # Subtest: should prefer valid header token over invalid query token
+            ok 6 - should prefer valid header token over invalid query token
+              ---
+              duration_ms: 0.996307
+              type: 'test'
+              ...
+            1..6
+        ok 1 - positive auth tests
+          ---
+          duration_ms: 13.275769
+          type: 'suite'
+          ...
+        # Subtest: failed auth tests
+            # Subtest: should reject requests without auth header
+            ok 1 - should reject requests without auth header
+              ---
+              duration_ms: 3.594128
+              type: 'test'
+              ...
+            # Subtest: should reject requests with invalid auth header format
+            ok 2 - should reject requests with invalid auth header format
+              ---
+              duration_ms: 3.08449
+              type: 'test'
+              ...
+            # Subtest: should reject requests with wrong token
+            ok 3 - should reject requests with wrong token
+              ---
+              duration_ms: 5.143925
+              type: 'test'
+              ...
+            # Subtest: should reject requests with wrong token in query parameter
+            ok 4 - should reject requests with wrong token in query parameter
+              ---
+              duration_ms: 3.780917
+              type: 'test'
+              ...
+            1..4
+        ok 2 - failed auth tests
+          ---
+          duration_ms: 15.837438
+          type: 'suite'
+          ...
+        1..2
+    ok 2 - when auth is enabled
+      ---
+      duration_ms: 29.314413
+      type: 'suite'
+      ...
+    # Subtest: brute force protection
+        # Subtest: should return 429 after multiple failed attempts
+        ok 1 - should return 429 after multiple failed attempts
+          ---
+          duration_ms: 14.73027
+          type: 'test'
+          ...
+        # Subtest: should include Retry-After header in 429 response
+        ok 2 - should include Retry-After header in 429 response
+          ---
+          duration_ms: 11.983833
+          type: 'test'
+          ...
+        # Subtest: should clear rate limit on successful auth
+        ok 3 - should clear rate limit on successful auth
+          ---
+          duration_ms: 15.458412
+          type: 'test'
+          ...
+        1..3
+    ok 3 - brute force protection
+      ---
+      duration_ms: 42.454521
+      type: 'suite'
+      ...
+    1..3
+ok 4 - auth plugin
+  ---
+  duration_ms: 190.234511
+  type: 'suite'
+  ...
+# (node:237) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: CommentRepository
+    # Subtest: create
+        # Subtest: should create a comment and return it
+        ok 1 - should create a comment and return it
+          ---
+          duration_ms: 3.711925
+          type: 'test'
+          ...
+        # Subtest: should create a file-level comment with null line number
+        ok 2 - should create a file-level comment with null line number
+          ---
+          duration_ms: 2.112072
+          type: 'test'
+          ...
+        # Subtest: should create a comment with a suggestion
+        ok 3 - should create a comment with a suggestion
+          ---
+          duration_ms: 2.523089
+          type: 'test'
+          ...
+        1..3
+    ok 1 - create
+      ---
+      duration_ms: 9.307435
+      type: 'suite'
+      ...
+    # Subtest: findById
+        # Subtest: should return a comment by id
+        ok 1 - should return a comment by id
+          ---
+          duration_ms: 2.142685
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent id
+        ok 2 - should return null for non-existent id
+          ---
+          duration_ms: 1.255689
+          type: 'test'
+          ...
+        1..2
+    ok 2 - findById
+      ---
+      duration_ms: 3.643084
+      type: 'suite'
+      ...
+    # Subtest: findByReview
+        # Subtest: should return all comments for a review
+        ok 1 - should return all comments for a review
+          ---
+          duration_ms: 1.343126
+          type: 'test'
+          ...
+        # Subtest: should return empty array for review with no comments
+        ok 2 - should return empty array for review with no comments
+          ---
+          duration_ms: 1.41532
+          type: 'test'
+          ...
+        1..2
+    ok 3 - findByReview
+      ---
+      duration_ms: 2.955025
+      type: 'suite'
+      ...
+    # Subtest: findByFile
+        # Subtest: should return comments for a specific file
+        ok 1 - should return comments for a specific file
+          ---
+          duration_ms: 1.903711
+          type: 'test'
+          ...
+        1..1
+    ok 4 - findByFile
+      ---
+      duration_ms: 1.984877
+      type: 'suite'
+      ...
+    # Subtest: update
+        # Subtest: should update comment content
+        ok 1 - should update comment content
+          ---
+          duration_ms: 2.944824
+          type: 'test'
+          ...
+        # Subtest: should update suggestion
+        ok 2 - should update suggestion
+          ---
+          duration_ms: 7.583853
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent id
+        ok 3 - should return null for non-existent id
+          ---
+          duration_ms: 2.054696
+          type: 'test'
+          ...
+        1..3
+    ok 5 - update
+      ---
+      duration_ms: 12.763756
+      type: 'suite'
+      ...
+    # Subtest: setResolved
+        # Subtest: should mark comment as resolved
+        ok 1 - should mark comment as resolved
+          ---
+          duration_ms: 2.323001
+          type: 'test'
+          ...
+        # Subtest: should mark comment as unresolved
+        ok 2 - should mark comment as unresolved
+          ---
+          duration_ms: 4.966156
+          type: 'test'
+          ...
+        1..2
+    ok 6 - setResolved
+      ---
+      duration_ms: 7.709228
+      type: 'suite'
+      ...
+    # Subtest: delete
+        # Subtest: should delete a comment
+        ok 1 - should delete a comment
+          ---
+          duration_ms: 2.26603
+          type: 'test'
+          ...
+        # Subtest: should return false for non-existent id
+        ok 2 - should return false for non-existent id
+          ---
+          duration_ms: 2.012305
+          type: 'test'
+          ...
+        1..2
+    ok 7 - delete
+      ---
+      duration_ms: 4.436876
+      type: 'suite'
+      ...
+    # Subtest: deleteByReview
+        # Subtest: should delete all comments for a review
+        ok 1 - should delete all comments for a review
+          ---
+          duration_ms: 2.245211
+          type: 'test'
+          ...
+        1..1
+    ok 8 - deleteByReview
+      ---
+      duration_ms: 2.374884
+      type: 'suite'
+      ...
+    # Subtest: countByReview
+        # Subtest: should count comments for a review
+        ok 1 - should count comments for a review
+          ---
+          duration_ms: 2.191068
+          type: 'test'
+          ...
+        1..1
+    ok 9 - countByReview
+      ---
+      duration_ms: 2.376852
+      type: 'suite'
+      ...
+    # Subtest: countUnresolvedByReview
+        # Subtest: should count only unresolved comments
+        ok 1 - should count only unresolved comments
+          ---
+          duration_ms: 4.078633
+          type: 'test'
+          ...
+        1..1
+    ok 10 - countUnresolvedByReview
+      ---
+      duration_ms: 4.226176
+      type: 'suite'
+      ...
+    1..10
+ok 5 - CommentRepository
+  ---
+  duration_ms: 55.053107
+  type: 'suite'
+  ...
+# (node:246) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: ReviewFileRepository
+    # Subtest: create
+        # Subtest: should create a file and return it
+        ok 1 - should create a file and return it
+          ---
+          duration_ms: 2.336316
+          type: 'test'
+          ...
+        # Subtest: should create a renamed file with oldPath
+        ok 2 - should create a renamed file with oldPath
+          ---
+          duration_ms: 2.057488
+          type: 'test'
+          ...
+        # Subtest: should create a file without hunks data
+        ok 3 - should create a file without hunks data
+          ---
+          duration_ms: 1.209168
+          type: 'test'
+          ...
+        1..3
+    ok 1 - create
+      ---
+      duration_ms: 6.109695
+      type: 'suite'
+      ...
+    # Subtest: createBulk
+        # Subtest: should create multiple files in a transaction
+        ok 1 - should create multiple files in a transaction
+          ---
+          duration_ms: 1.466847
+          type: 'test'
+          ...
+        # Subtest: should handle empty array
+        ok 2 - should handle empty array
+          ---
+          duration_ms: 1.832007
+          type: 'test'
+          ...
+        # Subtest: should rollback on error
+        ok 3 - should rollback on error
+          ---
+          duration_ms: 1.997675
+          type: 'test'
+          ...
+        1..3
+    ok 2 - createBulk
+      ---
+      duration_ms: 5.657283
+      type: 'suite'
+      ...
+    # Subtest: findByReview
+        # Subtest: should return all files for a review
+        ok 1 - should return all files for a review
+          ---
+          duration_ms: 1.761737
+          type: 'test'
+          ...
+        # Subtest: should return metadata without hunks
+        ok 2 - should return metadata without hunks
+          ---
+          duration_ms: 1.835531
+          type: 'test'
+          ...
+        # Subtest: should return files ordered by path
+        ok 3 - should return files ordered by path
+          ---
+          duration_ms: 2.421896
+          type: 'test'
+          ...
+        # Subtest: should return empty array for review with no files
+        ok 4 - should return empty array for review with no files
+          ---
+          duration_ms: 2.037482
+          type: 'test'
+          ...
+        1..4
+    ok 3 - findByReview
+      ---
+      duration_ms: 8.453795
+      type: 'suite'
+      ...
+    # Subtest: findByReviewAndPath
+        # Subtest: should return correct file with hunks
+        ok 1 - should return correct file with hunks
+          ---
+          duration_ms: 2.04757
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent path
+        ok 2 - should return null for non-existent path
+          ---
+          duration_ms: 1.901961
+          type: 'test'
+          ...
+        # Subtest: should return null for wrong review id
+        ok 3 - should return null for wrong review id
+          ---
+          duration_ms: 1.939415
+          type: 'test'
+          ...
+        1..3
+    ok 4 - findByReviewAndPath
+      ---
+      duration_ms: 6.086175
+      type: 'suite'
+      ...
+    # Subtest: deleteByReview
+        # Subtest: should delete all files for a review
+        ok 1 - should delete all files for a review
+          ---
+          duration_ms: 2.135806
+          type: 'test'
+          ...
+        # Subtest: should return 0 when no files to delete
+        ok 2 - should return 0 when no files to delete
+          ---
+          duration_ms: 1.953609
+          type: 'test'
+          ...
+        1..2
+    ok 5 - deleteByReview
+      ---
+      duration_ms: 4.235251
+      type: 'suite'
+      ...
+    # Subtest: cascade delete
+        # Subtest: should delete files when review is deleted
+        ok 1 - should delete files when review is deleted
+          ---
+          duration_ms: 7.404876
+          type: 'test'
+          ...
+        1..1
+    ok 6 - cascade delete
+      ---
+      duration_ms: 7.546577
+      type: 'suite'
+      ...
+    # Subtest: unique constraint
+        # Subtest: should enforce unique constraint on review_id and file_path
+        ok 1 - should enforce unique constraint on review_id and file_path
+          ---
+          duration_ms: 2.367884
+          type: 'test'
+          ...
+        1..1
+    ok 7 - unique constraint
+      ---
+      duration_ms: 2.48521
+      type: 'suite'
+      ...
+    # Subtest: countByReview
+        # Subtest: should return correct count
+        ok 1 - should return correct count
+          ---
+          duration_ms: 2.668566
+          type: 'test'
+          ...
+        # Subtest: should return 0 for review with no files
+        ok 2 - should return 0 for review with no files
+          ---
+          duration_ms: 1.979743
+          type: 'test'
+          ...
+        1..2
+    ok 8 - countByReview
+      ---
+      duration_ms: 4.791928
+      type: 'suite'
+      ...
+    # Subtest: static parseHunks
+        # Subtest: should parse valid JSON hunks
+        ok 1 - should parse valid JSON hunks
+          ---
+          duration_ms: 4.448772
+          type: 'test'
+          ...
+        # Subtest: should return empty array for null
+        ok 2 - should return empty array for null
+          ---
+          duration_ms: 7.136122
+          type: 'test'
+          ...
+        # Subtest: should return empty array for invalid JSON
+        ok 3 - should return empty array for invalid JSON
+          ---
+          duration_ms: 2.132575
+          type: 'test'
+          ...
+        1..3
+    ok 9 - static parseHunks
+      ---
+      duration_ms: 13.924895
+      type: 'suite'
+      ...
+    # Subtest: static serializeHunks
+        # Subtest: should serialize hunks to JSON
+        ok 1 - should serialize hunks to JSON
+          ---
+          duration_ms: 2.193419
+          type: 'test'
+          ...
+        1..1
+    ok 10 - static serializeHunks
+      ---
+      duration_ms: 2.347748
+      type: 'suite'
+      ...
+    1..10
+ok 6 - ReviewFileRepository
+  ---
+  duration_ms: 64.201698
+  type: 'suite'
+  ...
+# (node:259) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: ReviewRepository
+    # Subtest: create
+        # Subtest: should create a review and return it
+        ok 1 - should create a review and return it
+          ---
+          duration_ms: 2.510237
+          type: 'test'
+          ...
+        # Subtest: should create a review from branch comparison
+        ok 2 - should create a review from branch comparison
+          ---
+          duration_ms: 1.235085
+          type: 'test'
+          ...
+        # Subtest: should create a review from commits
+        ok 3 - should create a review from commits
+          ---
+          duration_ms: 2.352301
+          type: 'test'
+          ...
+        1..3
+    ok 1 - create
+      ---
+      duration_ms: 6.813281
+      type: 'suite'
+      ...
+    # Subtest: findById
+        # Subtest: should return a review by id
+        ok 1 - should return a review by id
+          ---
+          duration_ms: 1.425686
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent id
+        ok 2 - should return null for non-existent id
+          ---
+          duration_ms: 2.755785
+          type: 'test'
+          ...
+        1..2
+    ok 2 - findById
+      ---
+      duration_ms: 4.456103
+      type: 'suite'
+      ...
+    # Subtest: findAll
+        # Subtest: should return empty array when no reviews exist
+        ok 1 - should return empty array when no reviews exist
+          ---
+          duration_ms: 1.928867
+          type: 'test'
+          ...
+        # Subtest: should return all reviews
+        ok 2 - should return all reviews
+          ---
+          duration_ms: 6.340686
+          type: 'test'
+          ...
+        # Subtest: should filter by status
+        ok 3 - should filter by status
+          ---
+          duration_ms: 2.205255
+          type: 'test'
+          ...
+        # Subtest: should filter by repository path
+        ok 4 - should filter by repository path
+          ---
+          duration_ms: 2.214633
+          type: 'test'
+          ...
+        # Subtest: should filter by source type
+        ok 5 - should filter by source type
+          ---
+          duration_ms: 3.001943
+          type: 'test'
+          ...
+        # Subtest: should paginate results
+        ok 6 - should paginate results
+          ---
+          duration_ms: 13.568191
+          type: 'test'
+          ...
+        1..6
+    ok 3 - findAll
+      ---
+      duration_ms: 29.935722
+      type: 'suite'
+      ...
+    # Subtest: update
+        # Subtest: should update review status
+        ok 1 - should update review status
+          ---
+          duration_ms: 2.094265
+          type: 'test'
+          ...
+        # Subtest: should update to changes_requested status
+        ok 2 - should update to changes_requested status
+          ---
+          duration_ms: 2.063483
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent id
+        ok 3 - should return null for non-existent id
+          ---
+          duration_ms: 4.075877
+          type: 'test'
+          ...
+        1..3
+    ok 4 - update
+      ---
+      duration_ms: 8.442005
+      type: 'suite'
+      ...
+    # Subtest: delete
+        # Subtest: should delete a review
+        ok 1 - should delete a review
+          ---
+          duration_ms: 1.95947
+          type: 'test'
+          ...
+        # Subtest: should return false for non-existent id
+        ok 2 - should return false for non-existent id
+          ---
+          duration_ms: 1.206196
+          type: 'test'
+          ...
+        1..2
+    ok 5 - delete
+      ---
+      duration_ms: 3.281541
+      type: 'suite'
+      ...
+    # Subtest: countByStatus
+        # Subtest: should count reviews by status
+        ok 1 - should count reviews by status
+          ---
+          duration_ms: 2.173593
+          type: 'test'
+          ...
+        1..1
+    ok 6 - countByStatus
+      ---
+      duration_ms: 2.23526
+      type: 'suite'
+      ...
+    # Subtest: countAll
+        # Subtest: should count all reviews
+        ok 1 - should count all reviews
+          ---
+          duration_ms: 1.078064
+          type: 'test'
+          ...
+        1..1
+    ok 7 - countAll
+      ---
+      duration_ms: 1.138541
+      type: 'suite'
+      ...
+    1..7
+ok 7 - ReviewRepository
+  ---
+  duration_ms: 57.162262
+  type: 'suite'
+  ...
+# (node:266) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: TodoRepository
+    # Subtest: create
+        # Subtest: should create a todo and return it
+        ok 1 - should create a todo and return it
+          ---
+          duration_ms: 16.109928
+          type: 'test'
+          ...
+        # Subtest: should create a todo linked to a review
+        ok 2 - should create a todo linked to a review
+          ---
+          duration_ms: 3.620805
+          type: 'test'
+          ...
+        # Subtest: should create a completed todo
+        ok 3 - should create a completed todo
+          ---
+          duration_ms: 10.083197
+          type: 'test'
+          ...
+        1..3
+    ok 1 - create
+      ---
+      duration_ms: 30.907847
+      type: 'suite'
+      ...
+    # Subtest: findById
+        # Subtest: should return a todo by id
+        ok 1 - should return a todo by id
+          ---
+          duration_ms: 1.50069
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent id
+        ok 2 - should return null for non-existent id
+          ---
+          duration_ms: 5.678461
+          type: 'test'
+          ...
+        1..2
+    ok 2 - findById
+      ---
+      duration_ms: 7.411931
+      type: 'suite'
+      ...
+    # Subtest: findAll
+        # Subtest: should return all todos
+        ok 1 - should return all todos
+          ---
+          duration_ms: 2.363937
+          type: 'test'
+          ...
+        # Subtest: should return empty array when no todos exist
+        ok 2 - should return empty array when no todos exist
+          ---
+          duration_ms: 2.060209
+          type: 'test'
+          ...
+        # Subtest: should return pending todos first
+        ok 3 - should return pending todos first
+          ---
+          duration_ms: 1.5522
+          type: 'test'
+          ...
+        1..3
+    ok 3 - findAll
+      ---
+      duration_ms: 6.288449
+      type: 'suite'
+      ...
+    # Subtest: findByReview
+        # Subtest: should return todos for a specific review
+        ok 1 - should return todos for a specific review
+          ---
+          duration_ms: 2.191674
+          type: 'test'
+          ...
+        1..1
+    ok 4 - findByReview
+      ---
+      duration_ms: 2.27838
+      type: 'suite'
+      ...
+    # Subtest: findByCompleted
+        # Subtest: should return only completed todos
+        ok 1 - should return only completed todos
+          ---
+          duration_ms: 1.84655
+          type: 'test'
+          ...
+        # Subtest: should return only pending todos
+        ok 2 - should return only pending todos
+          ---
+          duration_ms: 2.036184
+          type: 'test'
+          ...
+        1..2
+    ok 5 - findByCompleted
+      ---
+      duration_ms: 3.993849
+      type: 'suite'
+      ...
+    # Subtest: update
+        # Subtest: should update todo content
+        ok 1 - should update todo content
+          ---
+          duration_ms: 2.505707
+          type: 'test'
+          ...
+        # Subtest: should update completed status
+        ok 2 - should update completed status
+          ---
+          duration_ms: 2.393838
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent id
+        ok 3 - should return null for non-existent id
+          ---
+          duration_ms: 1.466363
+          type: 'test'
+          ...
+        1..3
+    ok 6 - update
+      ---
+      duration_ms: 7.505973
+      type: 'suite'
+      ...
+    # Subtest: toggle
+        # Subtest: should toggle pending to completed
+        ok 1 - should toggle pending to completed
+          ---
+          duration_ms: 1.485101
+          type: 'test'
+          ...
+        # Subtest: should toggle completed to pending
+        ok 2 - should toggle completed to pending
+          ---
+          duration_ms: 1.237069
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent id
+        ok 3 - should return null for non-existent id
+          ---
+          duration_ms: 1.284527
+          type: 'test'
+          ...
+        1..3
+    ok 7 - toggle
+      ---
+      duration_ms: 4.162093
+      type: 'suite'
+      ...
+    # Subtest: delete
+        # Subtest: should delete a todo
+        ok 1 - should delete a todo
+          ---
+          duration_ms: 1.678422
+          type: 'test'
+          ...
+        # Subtest: should return false for non-existent id
+        ok 2 - should return false for non-existent id
+          ---
+          duration_ms: 1.597982
+          type: 'test'
+          ...
+        1..2
+    ok 8 - delete
+      ---
+      duration_ms: 3.392706
+      type: 'suite'
+      ...
+    # Subtest: deleteCompleted
+        # Subtest: should delete all completed todos
+        ok 1 - should delete all completed todos
+          ---
+          duration_ms: 1.76206
+          type: 'test'
+          ...
+        1..1
+    ok 9 - deleteCompleted
+      ---
+      duration_ms: 1.833051
+      type: 'suite'
+      ...
+    # Subtest: deleteByReview
+        # Subtest: should delete all todos for a review
+        ok 1 - should delete all todos for a review
+          ---
+          duration_ms: 1.530931
+          type: 'test'
+          ...
+        1..1
+    ok 10 - deleteByReview
+      ---
+      duration_ms: 1.618063
+      type: 'suite'
+      ...
+    # Subtest: count methods
+        # Subtest: should count all todos
+        ok 1 - should count all todos
+          ---
+          duration_ms: 1.409899
+          type: 'test'
+          ...
+        # Subtest: should count completed todos
+        ok 2 - should count completed todos
+          ---
+          duration_ms: 1.810171
+          type: 'test'
+          ...
+        # Subtest: should count pending todos
+        ok 3 - should count pending todos
+          ---
+          duration_ms: 2.413356
+          type: 'test'
+          ...
+        1..3
+    ok 11 - count methods
+      ---
+      duration_ms: 5.797153
+      type: 'suite'
+      ...
+    # Subtest: cascade delete on review deletion
+        # Subtest: should delete todos when review is deleted
+        ok 1 - should delete todos when review is deleted
+          ---
+          duration_ms: 1.524861
+          type: 'test'
+          ...
+        1..1
+    ok 12 - cascade delete on review deletion
+      ---
+      duration_ms: 1.58588
+      type: 'suite'
+      ...
+    # Subtest: position
+        # Subtest: should assign incremental positions to new todos
+        ok 1 - should assign incremental positions to new todos
+          ---
+          duration_ms: 1.47795
+          type: 'test'
+          ...
+        # Subtest: should return todos ordered by position
+        ok 2 - should return todos ordered by position
+          ---
+          duration_ms: 1.580579
+          type: 'test'
+          ...
+        1..2
+    ok 13 - position
+      ---
+      duration_ms: 3.165243
+      type: 'suite'
+      ...
+    # Subtest: reorder
+        # Subtest: should reorder todos by updating positions
+        ok 1 - should reorder todos by updating positions
+          ---
+          duration_ms: 2.229349
+          type: 'test'
+          ...
+        # Subtest: should return 0 when no IDs match
+        ok 2 - should return 0 when no IDs match
+          ---
+          duration_ms: 1.611645
+          type: 'test'
+          ...
+        1..2
+    ok 14 - reorder
+      ---
+      duration_ms: 3.969692
+      type: 'suite'
+      ...
+    # Subtest: move
+        # Subtest: should move a todo to a new position
+        ok 1 - should move a todo to a new position
+          ---
+          duration_ms: 1.571573
+          type: 'test'
+          ...
+        # Subtest: should move a todo to the end
+        ok 2 - should move a todo to the end
+          ---
+          duration_ms: 1.447709
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent todo
+        ok 3 - should return null for non-existent todo
+          ---
+          duration_ms: 4.167864
+          type: 'test'
+          ...
+        1..3
+    ok 15 - move
+      ---
+      duration_ms: 7.343033
+      type: 'suite'
+      ...
+    1..15
+ok 8 - TodoRepository
+  ---
+  duration_ms: 93.820412
+  type: 'suite'
+  ...
+# (node:273) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: ask routes
+    # Subtest: creates an ask session
+    ok 1 - creates an ask session
+      ---
+      duration_ms: 218.649658
+      type: 'test'
+      ...
+    # Subtest: returns details with feedback counts
+    ok 2 - returns details with feedback counts
+      ---
+      duration_ms: 51.991284
+      type: 'test'
+      ...
+    # Subtest: marks an ask session ready for agent and returns collected feedback
+    ok 3 - marks an ask session ready for agent and returns collected feedback
+      ---
+      duration_ms: 76.805057
+      type: 'test'
+      ...
+    # Subtest: ignores older todos that were only updated during an unscoped ask session
+    ok 4 - ignores older todos that were only updated during an unscoped ask session
+      ---
+      duration_ms: 66.979335
+      type: 'test'
+      ...
+    # Subtest: cancels an ask session
+    ok 5 - cancels an ask session
+      ---
+      duration_ms: 21.263577
+      type: 'test'
+      ...
+    1..5
+ok 9 - ask routes
+  ---
+  duration_ms: 785.370153
+  type: 'suite'
+  ...
+# (node:282) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: comment routes
+    # Subtest: GET /api/reviews/:reviewId/comments
+        # Subtest: should return empty array when no comments exist
+        ok 1 - should return empty array when no comments exist
+          ---
+          duration_ms: 441.886998
+          type: 'test'
+          ...
+        # Subtest: should return comments for a review
+        ok 2 - should return comments for a review
+          ---
+          duration_ms: 257.238845
+          type: 'test'
+          ...
+        # Subtest: should filter comments by file path
+        ok 3 - should filter comments by file path
+          ---
+          duration_ms: 217.214661
+          type: 'test'
+          ...
+        1..3
+    ok 1 - GET /api/reviews/:reviewId/comments
+      ---
+      duration_ms: 918.317551
+      type: 'suite'
+      ...
+    # Subtest: POST /api/reviews/:reviewId/comments
+        # Subtest: should create a comment
+        ok 1 - should create a comment
+          ---
+          duration_ms: 201.6617
+          type: 'test'
+          ...
+        # Subtest: should create a comment with suggestion
+        ok 2 - should create a comment with suggestion
+          ---
+          duration_ms: 186.438189
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent review
+        ok 3 - should return 404 for non-existent review
+          ---
+          duration_ms: 181.196143
+          type: 'test'
+          ...
+        1..3
+    ok 2 - POST /api/reviews/:reviewId/comments
+      ---
+      duration_ms: 570.712885
+      type: 'suite'
+      ...
+    # Subtest: GET /api/reviews/:reviewId/comments/stats
+        # Subtest: should return comment statistics
+        ok 1 - should return comment statistics
+          ---
+          duration_ms: 138.406716
+          type: 'test'
+          ...
+        1..1
+    ok 3 - GET /api/reviews/:reviewId/comments/stats
+      ---
+      duration_ms: 139.985727
+      type: 'suite'
+      ...
+    # Subtest: GET /api/comments/:id
+        # Subtest: should return a comment by ID
+        ok 1 - should return a comment by ID
+          ---
+          duration_ms: 174.080196
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent comment
+        ok 2 - should return 404 for non-existent comment
+          ---
+          duration_ms: 154.494318
+          type: 'test'
+          ...
+        1..2
+    ok 4 - GET /api/comments/:id
+      ---
+      duration_ms: 328.93923
+      type: 'suite'
+      ...
+    # Subtest: PATCH /api/comments/:id
+        # Subtest: should update comment content
+        ok 1 - should update comment content
+          ---
+          duration_ms: 273.661764
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent comment
+        ok 2 - should return 404 for non-existent comment
+          ---
+          duration_ms: 187.328213
+          type: 'test'
+          ...
+        1..2
+    ok 5 - PATCH /api/comments/:id
+      ---
+      duration_ms: 461.30068
+      type: 'suite'
+      ...
+    # Subtest: DELETE /api/comments/:id
+        # Subtest: should delete a comment
+        ok 1 - should delete a comment
+          ---
+          duration_ms: 198.360593
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent comment
+        ok 2 - should return 404 for non-existent comment
+          ---
+          duration_ms: 192.989855
+          type: 'test'
+          ...
+        1..2
+    ok 6 - DELETE /api/comments/:id
+      ---
+      duration_ms: 391.587405
+      type: 'suite'
+      ...
+    # Subtest: POST /api/comments/:id/resolve
+        # Subtest: should mark comment as resolved
+        ok 1 - should mark comment as resolved
+          ---
+          duration_ms: 139.05628
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent comment
+        ok 2 - should return 404 for non-existent comment
+          ---
+          duration_ms: 235.537528
+          type: 'test'
+          ...
+        1..2
+    ok 7 - POST /api/comments/:id/resolve
+      ---
+      duration_ms: 374.985243
+      type: 'suite'
+      ...
+    # Subtest: POST /api/comments/:id/unresolve
+        # Subtest: should mark comment as unresolved
+        ok 1 - should mark comment as unresolved
+          ---
+          duration_ms: 212.647787
+          type: 'test'
+          ...
+        1..1
+    ok 8 - POST /api/comments/:id/unresolve
+      ---
+      duration_ms: 212.918827
+      type: 'suite'
+      ...
+    1..8
+ok 10 - comment routes
+  ---
+  duration_ms: 3407.431362
+  type: 'suite'
+  ...
+# (node:328) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: diff routes
+    # Subtest: GET /api/info
+        # Subtest: should return repository info
+        not ok 1 - should return repository info
+          ---
+          duration_ms: 208.946792
+          type: 'test'
+          location: '/work/tests/server/routes/diff.test.ts:29:5'
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            
+            400 !== 200
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 200
+          actual: 400
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (file:///work/tests/server/routes/diff.test.ts:36:14)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Test.run (node:internal/test_runner/test:1054:7)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:1442:7)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:1442:7)
+            async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+          ...
+        # Subtest: should return the correct repository name
+        not ok 2 - should return the correct repository name
+          ---
+          duration_ms: 7.396589
+          type: 'test'
+          location: '/work/tests/server/routes/diff.test.ts:48:5'
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            + actual - expected
+            
+            + undefined
+            - 'work'
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 'work'
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (file:///work/tests/server/routes/diff.test.ts:57:14)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Test.run (node:internal/test_runner/test:1054:7)
+            async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)
+          ...
+        1..2
+    not ok 1 - GET /api/info
+      ---
+      duration_ms: 217.378147
+      type: 'suite'
+      location: '/work/tests/server/routes/diff.test.ts:28:3'
+      failureType: 'subtestsFailed'
+      error: '2 subtests failed'
+      code: 'ERR_TEST_FAILURE'
+      stack: |-
+        async Promise.all (index 0)
+      ...
+    # Subtest: GET /api/diff/files
+        # Subtest: should return files array and hasStagedChanges flag
+        not ok 1 - should return files array and hasStagedChanges flag
+          ---
+          duration_ms: 7.219021
+          type: 'test'
+          location: '/work/tests/server/routes/diff.test.ts:62:5'
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            
+            400 !== 200
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 200
+          actual: 400
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (file:///work/tests/server/routes/diff.test.ts:69:14)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Test.run (node:internal/test_runner/test:1054:7)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:1442:7)
+            async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)
+          ...
+        1..1
+    not ok 2 - GET /api/diff/files
+      ---
+      duration_ms: 7.481164
+      type: 'suite'
+      location: '/work/tests/server/routes/diff.test.ts:61:3'
+      failureType: 'subtestsFailed'
+      error: '1 subtest failed'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: GET /api/diff/staged
+        # Subtest: should return diff data structure
+        not ok 1 - should return diff data structure
+          ---
+          duration_ms: 9.547847
+          type: 'test'
+          location: '/work/tests/server/routes/diff.test.ts:78:5'
+          failureType: 'testCodeFailure'
+          error: |-
+            Expected values to be strictly equal:
+            
+            400 !== 200
+            
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: 200
+          actual: 400
+          operator: 'strictEqual'
+          stack: |-
+            TestContext.<anonymous> (file:///work/tests/server/routes/diff.test.ts:85:14)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Test.run (node:internal/test_runner/test:1054:7)
+            async Promise.all (index 0)
+            async Suite.run (node:internal/test_runner/test:1442:7)
+            async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)
+          ...
+        # Subtest: should return empty files array when no staged changes
+        not ok 2 - should return empty files array when no staged changes
+          ---
+          duration_ms: 10.497732
+          type: 'test'
+          location: '/work/tests/server/routes/diff.test.ts:102:5'
+          failureType: 'testCodeFailure'
+          error: "Cannot read properties of undefined (reading 'totalFiles')"
+          code: 'ERR_TEST_FAILURE'
+          name: 'TypeError'
+          stack: |-
+            TestContext.<anonymous> (file:///work/tests/server/routes/diff.test.ts:112:46)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Test.run (node:internal/test_runner/test:1054:7)
+            async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)
+          ...
+        1..2
+    not ok 3 - GET /api/diff/staged
+      ---
+      duration_ms: 20.691265
+      type: 'suite'
+      location: '/work/tests/server/routes/diff.test.ts:77:3'
+      failureType: 'subtestsFailed'
+      error: '2 subtests failed'
+      code: 'ERR_TEST_FAILURE'
+      ...
+    # Subtest: with non-git directory
+        # Subtest: should return error for /api/info
+        ok 1 - should return error for /api/info
+          ---
+          duration_ms: 124.810708
+          type: 'test'
+          ...
+        # Subtest: should return error for /api/diff/files
+        ok 2 - should return error for /api/diff/files
+          ---
+          duration_ms: 27.143617
+          type: 'test'
+          ...
+        # Subtest: should return error for /api/diff/staged
+        ok 3 - should return error for /api/diff/staged
+          ---
+          duration_ms: 8.770691
+          type: 'test'
+          ...
+        1..3
+    ok 4 - with non-git directory
+      ---
+      duration_ms: 351.71446
+      type: 'suite'
+      ...
+    # Subtest: with git repo without commits
+        # Subtest: should return hasCommits: false for /api/info
+        ok 1 - should return hasCommits: false for /api/info
+          ---
+          duration_ms: 271.221154
+          type: 'test'
+          ...
+        # Subtest: should return NO_COMMITS error for /api/diff/staged
+        ok 2 - should return NO_COMMITS error for /api/diff/staged
+          ---
+          duration_ms: 20.208785
+          type: 'test'
+          ...
+        1..2
+    ok 5 - with git repo without commits
+      ---
+      duration_ms: 325.390703
+      type: 'suite'
+      ...
+    1..5
+not ok 11 - diff routes
+  ---
+  duration_ms: 1125.225606
+  type: 'suite'
+  location: '/work/tests/server/routes/diff.test.ts:12:1'
+  failureType: 'subtestsFailed'
+  error: '3 subtests failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+# (node:337) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: events routes
+    # Subtest: GET /api/events/clients
+        # Subtest: should return count of connected clients
+        ok 1 - should return count of connected clients
+          ---
+          duration_ms: 470.24397
+          type: 'test'
+          ...
+        1..1
+    ok 1 - GET /api/events/clients
+      ---
+      duration_ms: 471.275815
+      type: 'suite'
+      ...
+    # Subtest: POST /api/events/notify
+        # Subtest: should accept todos notification
+        ok 1 - should accept todos notification
+          ---
+          duration_ms: 192.18281
+          type: 'test'
+          ...
+        # Subtest: should accept reviews notification
+        ok 2 - should accept reviews notification
+          ---
+          duration_ms: 274.738265
+          type: 'test'
+          ...
+        # Subtest: should accept comments notification
+        ok 3 - should accept comments notification
+          ---
+          duration_ms: 179.397709
+          type: 'test'
+          ...
+        # Subtest: should accept asks notification
+        ok 4 - should accept asks notification
+          ---
+          duration_ms: 200.927686
+          type: 'test'
+          ...
+        # Subtest: should accept notification without action
+        ok 5 - should accept notification without action
+          ---
+          duration_ms: 170.826088
+          type: 'test'
+          ...
+        # Subtest: should reject invalid event type
+        ok 6 - should reject invalid event type
+          ---
+          duration_ms: 188.416501
+          type: 'test'
+          ...
+        # Subtest: should reject missing type
+        ok 7 - should reject missing type
+          ---
+          duration_ms: 213.874333
+          type: 'test'
+          ...
+        1..7
+    ok 2 - POST /api/events/notify
+      ---
+      duration_ms: 1421.399595
+      type: 'suite'
+      ...
+    # Subtest: server shutdown
+        # Subtest: should close cleanly without hanging
+        ok 1 - should close cleanly without hanging
+          ---
+          duration_ms: 506.600995
+          type: 'test'
+          ...
+        1..1
+    ok 3 - server shutdown
+      ---
+      duration_ms: 506.849969
+      type: 'suite'
+      ...
+    1..3
+ok 12 - events routes
+  ---
+  duration_ms: 2400.641499
+  type: 'suite'
+  ...
+# (node:414) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: git routes
+    # Subtest: GET /api/git/info
+        # Subtest: should return repository info
+        ok 1 - should return repository info
+          ---
+          duration_ms: 284.907189
+          type: 'test'
+          ...
+        1..1
+    ok 1 - GET /api/git/info
+      ---
+      duration_ms: 285.418397
+      type: 'suite'
+      ...
+    # Subtest: GET /api/git/staged
+        # Subtest: should return hasStagedChanges boolean
+        ok 1 - should return hasStagedChanges boolean
+          ---
+          duration_ms: 56.649537
+          type: 'test'
+          ...
+        1..1
+    ok 2 - GET /api/git/staged
+      ---
+      duration_ms: 56.95118
+      type: 'suite'
+      ...
+    # Subtest: GET /api/git/unstaged
+        # Subtest: should return hasUnstagedChanges and files array
+        ok 1 - should return hasUnstagedChanges and files array
+          ---
+          duration_ms: 16.555961
+          type: 'test'
+          ...
+        1..1
+    ok 3 - GET /api/git/unstaged
+      ---
+      duration_ms: 16.969647
+      type: 'suite'
+      ...
+    # Subtest: GET /api/git/branches
+        # Subtest: should return array of branches
+        ok 1 - should return array of branches
+          ---
+          duration_ms: 17.910914
+          type: 'test'
+          ...
+        1..1
+    ok 4 - GET /api/git/branches
+      ---
+      duration_ms: 18.566241
+      type: 'suite'
+      ...
+    # Subtest: GET /api/git/default-branch
+        # Subtest: should return the default branch
+        ok 1 - should return the default branch
+          ---
+          duration_ms: 18.887361
+          type: 'test'
+          ...
+        1..1
+    ok 5 - GET /api/git/default-branch
+      ---
+      duration_ms: 19.645682
+      type: 'suite'
+      ...
+    # Subtest: GET /api/git/commits
+        # Subtest: should return paginated commits response
+        ok 1 - should return paginated commits response
+          ---
+          duration_ms: 5.514913
+          type: 'test'
+          ...
+        # Subtest: should support limit and offset query parameters
+        ok 2 - should support limit and offset query parameters
+          ---
+          duration_ms: 6.253146
+          type: 'test'
+          ...
+        # Subtest: should support search query parameter
+        ok 3 - should support search query parameter
+          ---
+          duration_ms: 57.718677
+          type: 'test'
+          ...
+        1..3
+    ok 6 - GET /api/git/commits
+      ---
+      duration_ms: 70.123258
+      type: 'suite'
+      ...
+    # Subtest: GET /api/git/tree/:ref
+        # Subtest: should return file tree for HEAD
+        ok 1 - should return file tree for HEAD
+          ---
+          duration_ms: 14.946436
+          type: 'test'
+          ...
+        # Subtest: should return file tree for specific commit
+        ok 2 - should return file tree for specific commit
+          ---
+          duration_ms: 10.2218
+          type: 'test'
+          ...
+        # Subtest: should return 400 for invalid ref
+        ok 3 - should return 400 for invalid ref
+          ---
+          duration_ms: 4.648601
+          type: 'test'
+          ...
+        # Subtest: should include untracked files when includeWorkingDir=true
+        ok 4 - should include untracked files when includeWorkingDir=true
+          ---
+          duration_ms: 71.255721
+          type: 'test'
+          ...
+        # Subtest: should include staged new files when includeWorkingDir=true
+        ok 5 - should include staged new files when includeWorkingDir=true
+          ---
+          duration_ms: 95.010476
+          type: 'test'
+          ...
+        # Subtest: should not include new files when includeWorkingDir is not set
+        ok 6 - should not include new files when includeWorkingDir is not set
+          ---
+          duration_ms: 16.856399
+          type: 'test'
+          ...
+        1..6
+    ok 7 - GET /api/git/tree/:ref
+      ---
+      duration_ms: 213.745439
+      type: 'suite'
+      ...
+    # Subtest: GET /api/git/file/*
+        # Subtest: should return file content at HEAD
+        ok 1 - should return file content at HEAD
+          ---
+          duration_ms: 7.072167
+          type: 'test'
+          ...
+        # Subtest: should return file content at specific commit
+        ok 2 - should return file content at specific commit
+          ---
+          duration_ms: 11.791565
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent file
+        ok 3 - should return 404 for non-existent file
+          ---
+          duration_ms: 6.635353
+          type: 'test'
+          ...
+        # Subtest: should return error for invalid ref
+        ok 4 - should return error for invalid ref
+          ---
+          duration_ms: 9.02669
+          type: 'test'
+          ...
+        # Subtest: should include lineCount in response
+        ok 5 - should include lineCount in response
+          ---
+          duration_ms: 6.428283
+          type: 'test'
+          ...
+        1..5
+    ok 8 - GET /api/git/file/*
+      ---
+      duration_ms: 41.414131
+      type: 'suite'
+      ...
+    1..8
+ok 13 - git routes
+  ---
+  duration_ms: 940.641105
+  type: 'suite'
+  ...
+# Subtest: git staging routes
+    # Subtest: POST /api/git/stage
+        # Subtest: should stage specified files
+        ok 1 - should stage specified files
+          ---
+          duration_ms: 283.632189
+          type: 'test'
+          ...
+        # Subtest: should return error when no files specified
+        ok 2 - should return error when no files specified
+          ---
+          duration_ms: 2.648035
+          type: 'test'
+          ...
+        1..2
+    ok 1 - POST /api/git/stage
+      ---
+      duration_ms: 286.60701
+      type: 'suite'
+      ...
+    # Subtest: POST /api/git/unstage
+        # Subtest: should unstage specified files
+        ok 1 - should unstage specified files
+          ---
+          duration_ms: 66.920242
+          type: 'test'
+          ...
+        # Subtest: should return error when no files specified
+        ok 2 - should return error when no files specified
+          ---
+          duration_ms: 1.839218
+          type: 'test'
+          ...
+        1..2
+    ok 2 - POST /api/git/unstage
+      ---
+      duration_ms: 68.98667
+      type: 'suite'
+      ...
+    # Subtest: POST /api/git/stage-all
+        # Subtest: should stage all unstaged files
+        ok 1 - should stage all unstaged files
+          ---
+          duration_ms: 101.43128
+          type: 'test'
+          ...
+        1..1
+    ok 3 - POST /api/git/stage-all
+      ---
+      duration_ms: 101.629447
+      type: 'suite'
+      ...
+    1..3
+ok 14 - git staging routes
+  ---
+  duration_ms: 546.344219
+  type: 'suite'
+  ...
+# Subtest: GET /api/diff/unstaged
+    # Subtest: should return empty files when no unstaged changes
+    ok 1 - should return empty files when no unstaged changes
+      ---
+      duration_ms: 256.143112
+      type: 'test'
+      ...
+    # Subtest: should return diff data when there are unstaged changes
+    ok 2 - should return diff data when there are unstaged changes
+      ---
+      duration_ms: 87.907249
+      type: 'test'
+      ...
+    1..2
+ok 15 - GET /api/diff/unstaged
+  ---
+  duration_ms: 397.895688
+  type: 'suite'
+  ...
+# (node:432) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: review routes
+    # Subtest: GET /api/reviews
+        # Subtest: should return empty list initially
+        ok 1 - should return empty list initially
+          ---
+          duration_ms: 225.823952
+          type: 'test'
+          ...
+        # Subtest: should support pagination parameters
+        ok 2 - should support pagination parameters
+          ---
+          duration_ms: 2.44247
+          type: 'test'
+          ...
+        1..2
+    ok 1 - GET /api/reviews
+      ---
+      duration_ms: 229.015374
+      type: 'suite'
+      ...
+    # Subtest: POST /api/reviews
+        # Subtest: should return error when no staged changes
+        ok 1 - should return error when no staged changes
+          ---
+          duration_ms: 154.358201
+          type: 'test'
+          ...
+        # Subtest: should work with empty body (defaults to staged)
+        ok 2 - should work with empty body (defaults to staged)
+          ---
+          duration_ms: 153.373229
+          type: 'test'
+          ...
+        # Subtest: should allow specifying a base branch for branch reviews
+        ok 3 - should allow specifying a base branch for branch reviews
+          ---
+          duration_ms: 206.752101
+          type: 'test'
+          ...
+        1..3
+    ok 2 - POST /api/reviews
+      ---
+      duration_ms: 515.233581
+      type: 'suite'
+      ...
+    # Subtest: GET /api/reviews/:id
+        # Subtest: should return 404 for non-existent review
+        ok 1 - should return 404 for non-existent review
+          ---
+          duration_ms: 2.390106
+          type: 'test'
+          ...
+        1..1
+    ok 3 - GET /api/reviews/:id
+      ---
+      duration_ms: 3.610534
+      type: 'suite'
+      ...
+    # Subtest: PATCH /api/reviews/:id
+        # Subtest: should return 404 for non-existent review
+        ok 1 - should return 404 for non-existent review
+          ---
+          duration_ms: 3.781383
+          type: 'test'
+          ...
+        1..1
+    ok 4 - PATCH /api/reviews/:id
+      ---
+      duration_ms: 4.184591
+      type: 'suite'
+      ...
+    # Subtest: DELETE /api/reviews/:id
+        # Subtest: should return 404 for non-existent review
+        ok 1 - should return 404 for non-existent review
+          ---
+          duration_ms: 1.839086
+          type: 'test'
+          ...
+        # Subtest: should delete review without Content-Type header
+        ok 2 - should delete review without Content-Type header
+          ---
+          duration_ms: 3.9672
+          type: 'test'
+          ...
+        1..2
+    ok 5 - DELETE /api/reviews/:id
+      ---
+      duration_ms: 6.000208
+      type: 'suite'
+      ...
+    # Subtest: GET /api/reviews/stats
+        # Subtest: should return stats structure
+        ok 1 - should return stats structure
+          ---
+          duration_ms: 7.619746
+          type: 'test'
+          ...
+        # Subtest: should return zeros for fresh database
+        ok 2 - should return zeros for fresh database
+          ---
+          duration_ms: 1.5215
+          type: 'test'
+          ...
+        1..2
+    ok 6 - GET /api/reviews/stats
+      ---
+      duration_ms: 9.315828
+      type: 'suite'
+      ...
+    1..6
+ok 16 - review routes
+  ---
+  duration_ms: 1111.202841
+  type: 'suite'
+  ...
+# Subtest: review routes with staged changes
+    # Subtest: POST /api/reviews
+        # Subtest: should create a review from staged changes
+        ok 1 - should create a review from staged changes
+          ---
+          duration_ms: 258.815972
+          type: 'test'
+          ...
+        1..1
+    ok 1 - POST /api/reviews
+      ---
+      duration_ms: 258.984425
+      type: 'suite'
+      ...
+    # Subtest: review CRUD operations
+        # Subtest: should create a review and get it by ID
+        ok 1 - should create a review and get it by ID
+          ---
+          duration_ms: 101.839014
+          type: 'test'
+          ...
+        # Subtest: should update review status to approved
+        ok 2 - should update review status to approved
+          ---
+          duration_ms: 12.368963
+          type: 'test'
+          ...
+        # Subtest: should update review status to changes_requested
+        ok 3 - should update review status to changes_requested
+          ---
+          duration_ms: 5.903302
+          type: 'test'
+          ...
+        # Subtest: should export review as markdown
+        ok 4 - should export review as markdown
+          ---
+          duration_ms: 16.087096
+          type: 'test'
+          ...
+        # Subtest: should delete review
+        ok 5 - should delete review
+          ---
+          duration_ms: 37.52832
+          type: 'test'
+          ...
+        1..5
+    ok 2 - review CRUD operations
+      ---
+      duration_ms: 174.114496
+      type: 'suite'
+      ...
+    # Subtest: GET /api/reviews/:id/files/hunks
+        # Subtest: should return hunks for a file in a review
+        ok 1 - should return hunks for a file in a review
+          ---
+          duration_ms: 149.079643
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent review
+        ok 2 - should return 404 for non-existent review
+          ---
+          duration_ms: 8.55455
+          type: 'test'
+          ...
+        # Subtest: should return empty hunks for non-existent file
+        ok 3 - should return empty hunks for non-existent file
+          ---
+          duration_ms: 38.42415
+          type: 'test'
+          ...
+        # Subtest: should handle file paths with slashes
+        ok 4 - should handle file paths with slashes
+          ---
+          duration_ms: 1.928895
+          type: 'test'
+          ...
+        1..4
+    ok 3 - GET /api/reviews/:id/files/hunks
+      ---
+      duration_ms: 198.471384
+      type: 'suite'
+      ...
+    # Subtest: review filtering and pagination
+        # Subtest: should filter reviews by status
+        ok 1 - should filter reviews by status
+          ---
+          duration_ms: 383.509718
+          type: 'test'
+          ...
+        # Subtest: should paginate reviews
+        ok 2 - should paginate reviews
+          ---
+          duration_ms: 7.255542
+          type: 'test'
+          ...
+        1..2
+    ok 4 - review filtering and pagination
+      ---
+      duration_ms: 390.969346
+      type: 'suite'
+      ...
+    1..4
+ok 17 - review routes with staged changes
+  ---
+  duration_ms: 1200.999995
+  type: 'suite'
+  ...
+# Subtest: review routes with non-git directory
+    # Subtest: should return error when creating review in non-git directory
+    ok 1 - should return error when creating review in non-git directory
+      ---
+      duration_ms: 123.037358
+      type: 'test'
+      ...
+    1..1
+ok 18 - review routes with non-git directory
+  ---
+  duration_ms: 352.761418
+  type: 'suite'
+  ...
+# (node:456) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: todo routes
+    # Subtest: GET /api/todos
+        # Subtest: should return empty array when no todos exist
+        ok 1 - should return empty array when no todos exist
+          ---
+          duration_ms: 562.875264
+          type: 'test'
+          ...
+        # Subtest: should return all todos
+        ok 2 - should return all todos
+          ---
+          duration_ms: 196.510621
+          type: 'test'
+          ...
+        # Subtest: should filter by completed status
+        ok 3 - should filter by completed status
+          ---
+          duration_ms: 211.709102
+          type: 'test'
+          ...
+        # Subtest: should filter by review id
+        ok 4 - should filter by review id
+          ---
+          duration_ms: 168.637406
+          type: 'test'
+          ...
+        # Subtest: should paginate results
+        ok 5 - should paginate results
+          ---
+          duration_ms: 129.33092
+          type: 'test'
+          ...
+        1..5
+    ok 1 - GET /api/todos
+      ---
+      duration_ms: 1270.527825
+      type: 'suite'
+      ...
+    # Subtest: GET /api/todos/stats
+        # Subtest: should return todo statistics
+        ok 1 - should return todo statistics
+          ---
+          duration_ms: 174.610538
+          type: 'test'
+          ...
+        1..1
+    ok 2 - GET /api/todos/stats
+      ---
+      duration_ms: 174.792403
+      type: 'suite'
+      ...
+    # Subtest: POST /api/todos
+        # Subtest: should create a todo
+        ok 1 - should create a todo
+          ---
+          duration_ms: 259.456151
+          type: 'test'
+          ...
+        # Subtest: should create a todo linked to a review
+        ok 2 - should create a todo linked to a review
+          ---
+          duration_ms: 241.031666
+          type: 'test'
+          ...
+        1..2
+    ok 3 - POST /api/todos
+      ---
+      duration_ms: 501.024737
+      type: 'suite'
+      ...
+    # Subtest: GET /api/todos/:id
+        # Subtest: should return a specific todo
+        ok 1 - should return a specific todo
+          ---
+          duration_ms: 182.610074
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent todo
+        ok 2 - should return 404 for non-existent todo
+          ---
+          duration_ms: 162.412002
+          type: 'test'
+          ...
+        1..2
+    ok 4 - GET /api/todos/:id
+      ---
+      duration_ms: 346.358467
+      type: 'suite'
+      ...
+    # Subtest: PATCH /api/todos/:id
+        # Subtest: should update todo content
+        ok 1 - should update todo content
+          ---
+          duration_ms: 183.395671
+          type: 'test'
+          ...
+        # Subtest: should update todo completed status
+        ok 2 - should update todo completed status
+          ---
+          duration_ms: 174.995302
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent todo
+        ok 3 - should return 404 for non-existent todo
+          ---
+          duration_ms: 122.254679
+          type: 'test'
+          ...
+        1..3
+    ok 5 - PATCH /api/todos/:id
+      ---
+      duration_ms: 480.950293
+      type: 'suite'
+      ...
+    # Subtest: DELETE /api/todos/:id
+        # Subtest: should delete a todo
+        ok 1 - should delete a todo
+          ---
+          duration_ms: 181.409666
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent todo
+        ok 2 - should return 404 for non-existent todo
+          ---
+          duration_ms: 193.132772
+          type: 'test'
+          ...
+        1..2
+    ok 6 - DELETE /api/todos/:id
+      ---
+      duration_ms: 374.803927
+      type: 'suite'
+      ...
+    # Subtest: POST /api/todos/:id/toggle
+        # Subtest: should toggle pending to completed
+        ok 1 - should toggle pending to completed
+          ---
+          duration_ms: 210.829956
+          type: 'test'
+          ...
+        # Subtest: should toggle completed to pending
+        ok 2 - should toggle completed to pending
+          ---
+          duration_ms: 203.940773
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent todo
+        ok 3 - should return 404 for non-existent todo
+          ---
+          duration_ms: 194.409
+          type: 'test'
+          ...
+        1..3
+    ok 7 - POST /api/todos/:id/toggle
+      ---
+      duration_ms: 609.495882
+      type: 'suite'
+      ...
+    # Subtest: DELETE /api/todos/completed
+        # Subtest: should delete all completed todos
+        ok 1 - should delete all completed todos
+          ---
+          duration_ms: 191.136977
+          type: 'test'
+          ...
+        1..1
+    ok 8 - DELETE /api/todos/completed
+      ---
+      duration_ms: 191.375845
+      type: 'suite'
+      ...
+    # Subtest: POST /api/todos/reorder
+        # Subtest: should reorder todos by IDs
+        ok 1 - should reorder todos by IDs
+          ---
+          duration_ms: 214.843286
+          type: 'test'
+          ...
+        1..1
+    ok 9 - POST /api/todos/reorder
+      ---
+      duration_ms: 215.186956
+      type: 'suite'
+      ...
+    # Subtest: POST /api/todos/:id/move
+        # Subtest: should move a todo to a new position
+        ok 1 - should move a todo to a new position
+          ---
+          duration_ms: 207.325099
+          type: 'test'
+          ...
+        # Subtest: should return 404 for non-existent todo
+        ok 2 - should return 404 for non-existent todo
+          ---
+          duration_ms: 201.136331
+          type: 'test'
+          ...
+        1..2
+    ok 10 - POST /api/todos/:id/move
+      ---
+      duration_ms: 408.716453
+      type: 'suite'
+      ...
+    1..10
+ok 19 - todo routes
+  ---
+  duration_ms: 4574.794765
+  type: 'suite'
+  ...
+# (node:648) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: security tests
+    # Subtest: SQL injection prevention
+        # Subtest: should store SQL injection attempt as literal string in todo content
+        ok 1 - should store SQL injection attempt as literal string in todo content
+          ---
+          duration_ms: 482.765193
+          type: 'test'
+          ...
+        # Subtest: should handle SQL injection in query parameters safely
+        ok 2 - should handle SQL injection in query parameters safely
+          ---
+          duration_ms: 206.915387
+          type: 'test'
+          ...
+        # Subtest: should handle SQL injection in URL parameters safely
+        ok 3 - should handle SQL injection in URL parameters safely
+          ---
+          duration_ms: 169.909236
+          type: 'test'
+          ...
+        1..3
+    ok 1 - SQL injection prevention
+      ---
+      duration_ms: 860.591019
+      type: 'suite'
+      ...
+    # Subtest: input validation
+        # Subtest: should reject empty content in todo
+        ok 1 - should reject empty content in todo
+          ---
+          duration_ms: 161.378982
+          type: 'test'
+          ...
+        # Subtest: should reject null content in todo
+        ok 2 - should reject null content in todo
+          ---
+          duration_ms: 184.382175
+          type: 'test'
+          ...
+        # Subtest: should reject negative position in todo move
+        ok 3 - should reject negative position in todo move
+          ---
+          duration_ms: 243.640822
+          type: 'test'
+          ...
+        # Subtest: should handle very large position gracefully
+        ok 4 - should handle very large position gracefully
+          ---
+          duration_ms: 149.042666
+          type: 'test'
+          ...
+        1..4
+    ok 2 - input validation
+      ---
+      duration_ms: 739.196772
+      type: 'suite'
+      ...
+    # Subtest: XSS prevention
+        # Subtest: should store script tags as literal content (API does not escape, frontend should)
+        ok 1 - should store script tags as literal content (API does not escape, frontend should)
+          ---
+          duration_ms: 220.332678
+          type: 'test'
+          ...
+        1..1
+    ok 3 - XSS prevention
+      ---
+      duration_ms: 220.557239
+      type: 'suite'
+      ...
+    # Subtest: prototype pollution prevention
+        # Subtest: should reject __proto__ in JSON body
+        ok 1 - should reject __proto__ in JSON body
+          ---
+          duration_ms: 266.035857
+          type: 'test'
+          ...
+        # Subtest: should reject constructor pollution in JSON body
+        ok 2 - should reject constructor pollution in JSON body
+          ---
+          duration_ms: 262.178045
+          type: 'test'
+          ...
+        1..2
+    ok 4 - prototype pollution prevention
+      ---
+      duration_ms: 528.568433
+      type: 'suite'
+      ...
+    # Subtest: large payload handling
+        # Subtest: should handle large content without crashing
+        ok 1 - should handle large content without crashing
+          ---
+          duration_ms: 228.73174
+          type: 'test'
+          ...
+        # Subtest: should handle large array in reorder without crashing
+        ok 2 - should handle large array in reorder without crashing
+          ---
+          duration_ms: 221.963546
+          type: 'test'
+          ...
+        1..2
+    ok 5 - large payload handling
+      ---
+      duration_ms: 451.188827
+      type: 'suite'
+      ...
+    1..5
+ok 20 - security tests
+  ---
+  duration_ms: 2800.770747
+  type: 'suite'
+  ...
+# Subtest: schema validation tests
+    # Subtest: response schemas match actual data
+        # Subtest: GET /api/reviews should return valid schema
+        ok 1 - GET /api/reviews should return valid schema
+          ---
+          duration_ms: 194.825132
+          type: 'test'
+          ...
+        # Subtest: GET /api/git/commits should return valid schema
+        not ok 2 - GET /api/git/commits should return valid schema
+          ---
+          duration_ms: 204.159517
+          type: 'test'
+          location: '/work/tests/server/security.test.ts:224:5'
+          failureType: 'testCodeFailure'
+          error: 'Expected status < 500 but got 500: {"statusCode":500,"error":"Internal Server Error","message":"fatal: not a git repository (or any of the parent directories): .git\\n"}'
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: true
+          actual: false
+          operator: '=='
+          stack: |-
+            TestContext.<anonymous> (file:///work/tests/server/security.test.ts:232:14)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Test.run (node:internal/test_runner/test:1054:7)
+            async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)
+          ...
+        # Subtest: GET /api/git/branches should return valid schema
+        not ok 3 - GET /api/git/branches should return valid schema
+          ---
+          duration_ms: 167.749728
+          type: 'test'
+          location: '/work/tests/server/security.test.ts:235:5'
+          failureType: 'testCodeFailure'
+          error: 'Expected status < 500 but got 500: {"statusCode":500,"error":"Internal Server Error","message":"fatal: not a git repository (or any of the parent directories): .git\\n"}'
+          code: 'ERR_ASSERTION'
+          name: 'AssertionError'
+          expected: true
+          actual: false
+          operator: '=='
+          stack: |-
+            TestContext.<anonymous> (file:///work/tests/server/security.test.ts:243:14)
+            process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+            async Test.run (node:internal/test_runner/test:1054:7)
+            async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)
+          ...
+        1..3
+    not ok 1 - response schemas match actual data
+      ---
+      duration_ms: 567.23202
+      type: 'suite'
+      location: '/work/tests/server/security.test.ts:212:3'
+      failureType: 'subtestsFailed'
+      error: '2 subtests failed'
+      code: 'ERR_TEST_FAILURE'
+      stack: |-
+        async Promise.all (index 0)
+      ...
+    1..1
+not ok 21 - schema validation tests
+  ---
+  duration_ms: 567.43474
+  type: 'suite'
+  location: '/work/tests/server/security.test.ts:198:1'
+  failureType: 'subtestsFailed'
+  error: '1 subtest failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+# Subtest: diff.service
+    # Subtest: parseDiff
+        # Subtest: should return empty array for empty diff
+        ok 1 - should return empty array for empty diff
+          ---
+          duration_ms: 2.034943
+          type: 'test'
+          ...
+        # Subtest: should return empty array for whitespace-only diff
+        ok 2 - should return empty array for whitespace-only diff
+          ---
+          duration_ms: 0.413778
+          type: 'test'
+          ...
+        # Subtest: should parse a simple modified file diff
+        ok 3 - should parse a simple modified file diff
+          ---
+          duration_ms: 0.920112
+          type: 'test'
+          ...
+        # Subtest: should parse a new file diff
+        ok 4 - should parse a new file diff
+          ---
+          duration_ms: 0.387766
+          type: 'test'
+          ...
+        # Subtest: should parse a deleted file diff
+        ok 5 - should parse a deleted file diff
+          ---
+          duration_ms: 0.23716
+          type: 'test'
+          ...
+        # Subtest: should parse a renamed file diff
+        ok 6 - should parse a renamed file diff
+          ---
+          duration_ms: 0.236316
+          type: 'test'
+          ...
+        # Subtest: should parse multiple files diff
+        ok 7 - should parse multiple files diff
+          ---
+          duration_ms: 0.371597
+          type: 'test'
+          ...
+        # Subtest: should correctly track line numbers
+        ok 8 - should correctly track line numbers
+          ---
+          duration_ms: 0.254491
+          type: 'test'
+          ...
+        # Subtest: should parse multiple hunks
+        ok 9 - should parse multiple hunks
+          ---
+          duration_ms: 0.426662
+          type: 'test'
+          ...
+        1..9
+    ok 1 - parseDiff
+      ---
+      duration_ms: 6.603946
+      type: 'suite'
+      ...
+    # Subtest: getDiffSummary
+        # Subtest: should return zeros for empty files array
+        ok 1 - should return zeros for empty files array
+          ---
+          duration_ms: 0.480723
+          type: 'test'
+          ...
+        # Subtest: should calculate correct totals
+        ok 2 - should calculate correct totals
+          ---
+          duration_ms: 0.215401
+          type: 'test'
+          ...
+        1..2
+    ok 2 - getDiffSummary
+      ---
+      duration_ms: 2.536704
+      type: 'suite'
+      ...
+    1..2
+ok 22 - diff.service
+  ---
+  duration_ms: 9.825004
+  type: 'suite'
+  ...
+# (node:732) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: ExportService
+    # Subtest: exportToMarkdown
+        # Subtest: should return null for non-existent review
+        ok 1 - should return null for non-existent review
+          ---
+          duration_ms: 5.16556
+          type: 'test'
+          ...
+        # Subtest: should export a review without comments
+        ok 2 - should export a review without comments
+          ---
+          duration_ms: 17.030371
+          type: 'test'
+          ...
+        # Subtest: should export a review with comments
+        ok 3 - should export a review with comments
+          ---
+          duration_ms: 2.701143
+          type: 'test'
+          ...
+        # Subtest: should include resolved badge for resolved comments
+        ok 4 - should include resolved badge for resolved comments
+          ---
+          duration_ms: 4.731606
+          type: 'test'
+          ...
+        # Subtest: should include suggestion code blocks
+        ok 5 - should include suggestion code blocks
+          ---
+          duration_ms: 12.311163
+          type: 'test'
+          ...
+        # Subtest: should exclude resolved comments when includeResolved is false
+        ok 6 - should exclude resolved comments when includeResolved is false
+          ---
+          duration_ms: 8.220732
+          type: 'test'
+          ...
+        # Subtest: should include diff snippets by default
+        ok 7 - should include diff snippets by default
+          ---
+          duration_ms: 3.508302
+          type: 'test'
+          ...
+        # Subtest: should exclude diff snippets when includeDiffSnippets is false
+        ok 8 - should exclude diff snippets when includeDiffSnippets is false
+          ---
+          duration_ms: 3.547408
+          type: 'test'
+          ...
+        # Subtest: should show correct status badges
+        ok 9 - should show correct status badges
+          ---
+          duration_ms: 5.681271
+          type: 'test'
+          ...
+        # Subtest: should include file list with status icons
+        ok 10 - should include file list with status icons
+          ---
+          duration_ms: 3.408806
+          type: 'test'
+          ...
+        # Subtest: should show Source Branch and Target Branch for branch reviews
+        ok 11 - should show Source Branch and Target Branch for branch reviews
+          ---
+          duration_ms: 3.115133
+          type: 'test'
+          ...
+        # Subtest: should show Branch and Source for staged reviews
+        ok 12 - should show Branch and Source for staged reviews
+          ---
+          duration_ms: 6.518611
+          type: 'test'
+          ...
+        1..12
+    ok 1 - exportToMarkdown
+      ---
+      duration_ms: 77.595165
+      type: 'suite'
+      ...
+    1..1
+ok 23 - ExportService
+  ---
+  duration_ms: 80.029054
+  type: 'suite'
+  ...
+# (node:743) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: git.service
+    # Subtest: getCommits
+        # Subtest: should return an array of commits
+        ok 1 - should return an array of commits
+          ---
+          duration_ms: 123.691803
+          type: 'test'
+          ...
+        # Subtest: should return commits with required properties
+        ok 2 - should return commits with required properties
+          ---
+          duration_ms: 117.440312
+          type: 'test'
+          ...
+        # Subtest: should respect the limit parameter
+        ok 3 - should respect the limit parameter
+          ---
+          duration_ms: 151.916152
+          type: 'test'
+          ...
+        # Subtest: should return commits in order (newest first)
+        ok 4 - should return commits in order (newest first)
+          ---
+          duration_ms: 120.794377
+          type: 'test'
+          ...
+        # Subtest: should support offset for pagination
+        ok 5 - should support offset for pagination
+          ---
+          duration_ms: 114.407873
+          type: 'test'
+          ...
+        # Subtest: should indicate hasMore when there are more commits
+        ok 6 - should indicate hasMore when there are more commits
+          ---
+          duration_ms: 104.841771
+          type: 'test'
+          ...
+        1..6
+    ok 1 - getCommits
+      ---
+      duration_ms: 734.504141
+      type: 'suite'
+      ...
+    # Subtest: getCommitsDiff
+        # Subtest: should return empty string for empty commits array
+        ok 1 - should return empty string for empty commits array
+          ---
+          duration_ms: 96.96685
+          type: 'test'
+          ...
+        # Subtest: should return diff for a single commit
+        ok 2 - should return diff for a single commit
+          ---
+          duration_ms: 97.665511
+          type: 'test'
+          ...
+        # Subtest: should return combined diff for multiple commits
+        ok 3 - should return combined diff for multiple commits
+          ---
+          duration_ms: 94.142344
+          type: 'test'
+          ...
+        # Subtest: should handle commits in any order
+        ok 4 - should handle commits in any order
+          ---
+          duration_ms: 111.236339
+          type: 'test'
+          ...
+        1..4
+    ok 2 - getCommitsDiff
+      ---
+      duration_ms: 400.506014
+      type: 'suite'
+      ...
+    # Subtest: getCommitsFileDiff
+        # Subtest: should return empty string for empty commits array
+        ok 1 - should return empty string for empty commits array
+          ---
+          duration_ms: 47.349405
+          type: 'test'
+          ...
+        # Subtest: should return diff for a specific file in a commit
+        ok 2 - should return diff for a specific file in a commit
+          ---
+          duration_ms: 39.824185
+          type: 'test'
+          ...
+        # Subtest: should return empty string for non-existent file
+        ok 3 - should return empty string for non-existent file
+          ---
+          duration_ms: 87.775423
+          type: 'test'
+          ...
+        # Subtest: should combine diffs from multiple commits for same file
+        ok 4 - should combine diffs from multiple commits for same file
+          ---
+          duration_ms: 68.63797
+          type: 'test'
+          ...
+        1..4
+    ok 3 - getCommitsFileDiff
+      ---
+      duration_ms: 243.977034
+      type: 'suite'
+      ...
+    # Subtest: getBranchFileDiff
+        # Subtest: should return diff for a specific file in a selected branch against main
+        ok 1 - should return diff for a specific file in a selected branch against main
+          ---
+          duration_ms: 59.118236
+          type: 'test'
+          ...
+        # Subtest: should return empty string for file not changed in branch
+        ok 2 - should return empty string for file not changed in branch
+          ---
+          duration_ms: 130.47558
+          type: 'test'
+          ...
+        # Subtest: should return empty string for non-existent branch
+        ok 3 - should return empty string for non-existent branch
+          ---
+          duration_ms: 49.70497
+          type: 'test'
+          ...
+        1..3
+    ok 4 - getBranchFileDiff
+      ---
+      duration_ms: 239.615842
+      type: 'suite'
+      ...
+    # Subtest: getBranchDiffMetadata
+        # Subtest: should return file metadata without loading the full patch
+        ok 1 - should return file metadata without loading the full patch
+          ---
+          duration_ms: 99.376183
+          type: 'test'
+          ...
+        1..1
+    ok 5 - getBranchDiffMetadata
+      ---
+      duration_ms: 99.493898
+      type: 'suite'
+      ...
+    # Subtest: getDefaultBranch
+        # Subtest: should prefer authoritative remote HEAD over stale origin/HEAD
+        ok 1 - should prefer authoritative remote HEAD over stale origin/HEAD
+          ---
+          duration_ms: 27.216997
+          type: 'test'
+          ...
+        # Subtest: should prefer main when origin/HEAD is stale and master is an ancestor of main
+        ok 2 - should prefer main when origin/HEAD is stale and master is an ancestor of main
+          ---
+          duration_ms: 130.166292
+          type: 'test'
+          ...
+        1..2
+    ok 6 - getDefaultBranch
+      ---
+      duration_ms: 157.932291
+      type: 'suite'
+      ...
+    # Subtest: getBranches
+        # Subtest: should return an array of branches
+        ok 1 - should return an array of branches
+          ---
+          duration_ms: 34.385925
+          type: 'test'
+          ...
+        # Subtest: should have one current branch
+        ok 2 - should have one current branch
+          ---
+          duration_ms: 34.433249
+          type: 'test'
+          ...
+        # Subtest: should return branches with required properties
+        ok 3 - should return branches with required properties
+          ---
+          duration_ms: 56.489388
+          type: 'test'
+          ...
+        1..3
+    ok 7 - getBranches
+      ---
+      duration_ms: 125.613873
+      type: 'suite'
+      ...
+    # Subtest: isRepo
+        # Subtest: should return true for a git repository
+        ok 1 - should return true for a git repository
+          ---
+          duration_ms: 30.621426
+          type: 'test'
+          ...
+        # Subtest: should return false for a non-git directory
+        ok 2 - should return false for a non-git directory
+          ---
+          duration_ms: 3.342837
+          type: 'test'
+          ...
+        1..2
+    ok 8 - isRepo
+      ---
+      duration_ms: 34.174256
+      type: 'suite'
+      ...
+    # Subtest: hasCommits
+        # Subtest: should return true for a repository with commits
+        ok 1 - should return true for a repository with commits
+          ---
+          duration_ms: 64.457933
+          type: 'test'
+          ...
+        # Subtest: should return false for a non-git directory
+        ok 2 - should return false for a non-git directory
+          ---
+          duration_ms: 3.106298
+          type: 'test'
+          ...
+        1..2
+    ok 9 - hasCommits
+      ---
+      duration_ms: 67.824122
+      type: 'suite'
+      ...
+    # Subtest: getCurrentBranch
+        # Subtest: should return the current branch name
+        ok 1 - should return the current branch name
+          ---
+          duration_ms: 30.338303
+          type: 'test'
+          ...
+        1..1
+    ok 10 - getCurrentBranch
+      ---
+      duration_ms: 30.472225
+      type: 'suite'
+      ...
+    # Subtest: getUnstagedFiles
+        # Subtest: should return empty array when no unstaged changes
+        ok 1 - should return empty array when no unstaged changes
+          ---
+          duration_ms: 64.048472
+          type: 'test'
+          ...
+        # Subtest: should return modified files
+        ok 2 - should return modified files
+          ---
+          duration_ms: 32.459269
+          type: 'test'
+          ...
+        # Subtest: should return untracked files
+        ok 3 - should return untracked files
+          ---
+          duration_ms: 52.099965
+          type: 'test'
+          ...
+        1..3
+    ok 11 - getUnstagedFiles
+      ---
+      duration_ms: 148.873386
+      type: 'suite'
+      ...
+    # Subtest: hasUnstagedChanges
+        # Subtest: should return false when no unstaged changes
+        ok 1 - should return false when no unstaged changes
+          ---
+          duration_ms: 29.703304
+          type: 'test'
+          ...
+        # Subtest: should return true when there are modified files
+        ok 2 - should return true when there are modified files
+          ---
+          duration_ms: 29.696083
+          type: 'test'
+          ...
+        # Subtest: should return true when there are untracked files
+        ok 3 - should return true when there are untracked files
+          ---
+          duration_ms: 60.159781
+          type: 'test'
+          ...
+        1..3
+    ok 12 - hasUnstagedChanges
+      ---
+      duration_ms: 119.875813
+      type: 'suite'
+      ...
+    # Subtest: getUnstagedDiff
+        # Subtest: should return empty string when no unstaged changes
+        ok 1 - should return empty string when no unstaged changes
+          ---
+          duration_ms: 88.202446
+          type: 'test'
+          ...
+        # Subtest: should return diff for modified files
+        ok 2 - should return diff for modified files
+          ---
+          duration_ms: 32.113953
+          type: 'test'
+          ...
+        # Subtest: should include untracked files in diff
+        ok 3 - should include untracked files in diff
+          ---
+          duration_ms: 105.639163
+          type: 'test'
+          ...
+        1..3
+    ok 13 - getUnstagedDiff
+      ---
+      duration_ms: 226.283205
+      type: 'suite'
+      ...
+    # Subtest: stageFile
+        # Subtest: should stage a single file
+        ok 1 - should stage a single file
+          ---
+          duration_ms: 162.650645
+          type: 'test'
+          ...
+        1..1
+    ok 14 - stageFile
+      ---
+      duration_ms: 162.780642
+      type: 'suite'
+      ...
+    # Subtest: stageFiles
+        # Subtest: should stage multiple files
+        ok 1 - should stage multiple files
+          ---
+          duration_ms: 86.568918
+          type: 'test'
+          ...
+        # Subtest: should do nothing when passed empty array
+        ok 2 - should do nothing when passed empty array
+          ---
+          duration_ms: 83.758643
+          type: 'test'
+          ...
+        1..2
+    ok 15 - stageFiles
+      ---
+      duration_ms: 170.565337
+      type: 'suite'
+      ...
+    # Subtest: stageAll
+        # Subtest: should stage all changes including untracked files
+        ok 1 - should stage all changes including untracked files
+          ---
+          duration_ms: 161.782737
+          type: 'test'
+          ...
+        1..1
+    ok 16 - stageAll
+      ---
+      duration_ms: 162.03156
+      type: 'suite'
+      ...
+    # Subtest: unstageFile
+        # Subtest: should unstage a file
+        ok 1 - should unstage a file
+          ---
+          duration_ms: 209.428589
+          type: 'test'
+          ...
+        1..1
+    ok 17 - unstageFile
+      ---
+      duration_ms: 209.583013
+      type: 'suite'
+      ...
+    # Subtest: getFilesAtRef
+        # Subtest: should return all files at HEAD
+        ok 1 - should return all files at HEAD
+          ---
+          duration_ms: 52.586015
+          type: 'test'
+          ...
+        # Subtest: should return files at a specific commit SHA
+        ok 2 - should return files at a specific commit SHA
+          ---
+          duration_ms: 31.232582
+          type: 'test'
+          ...
+        # Subtest: should throw for invalid ref
+        ok 3 - should throw for invalid ref
+          ---
+          duration_ms: 24.108565
+          type: 'test'
+          ...
+        # Subtest: should return files from test repo
+        ok 4 - should return files from test repo
+          ---
+          duration_ms: 58.118224
+          type: 'test'
+          ...
+        1..4
+    ok 18 - getFilesAtRef
+      ---
+      duration_ms: 166.281956
+      type: 'suite'
+      ...
+    # Subtest: getWorkingDirectoryNewFiles
+        # Subtest: should return empty array when no new files
+        ok 1 - should return empty array when no new files
+          ---
+          duration_ms: 130.57786
+          type: 'test'
+          ...
+        # Subtest: should return untracked files
+        ok 2 - should return untracked files
+          ---
+          duration_ms: 106.399867
+          type: 'test'
+          ...
+        # Subtest: should return staged new files
+        ok 3 - should return staged new files
+          ---
+          duration_ms: 105.406938
+          type: 'test'
+          ...
+        # Subtest: should return both untracked and staged new files
+        ok 4 - should return both untracked and staged new files
+          ---
+          duration_ms: 53.508031
+          type: 'test'
+          ...
+        # Subtest: should not include modified files
+        ok 5 - should not include modified files
+          ---
+          duration_ms: 134.181532
+          type: 'test'
+          ...
+        # Subtest: should handle files in subdirectories
+        ok 6 - should handle files in subdirectories
+          ---
+          duration_ms: 110.87704
+          type: 'test'
+          ...
+        1..6
+    ok 19 - getWorkingDirectoryNewFiles
+      ---
+      duration_ms: 641.397506
+      type: 'suite'
+      ...
+    1..19
+ok 24 - git.service
+  ---
+  duration_ms: 4144.046573
+  type: 'suite'
+  ...
+# (node:786) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: ReviewService
+    # Subtest: create
+        # Subtest: should create a staged review with files in review_files table
+        ok 1 - should create a staged review with files in review_files table
+          ---
+          duration_ms: 162.57756
+          type: 'test'
+          ...
+        # Subtest: should create a commits review WITHOUT hunks stored
+        ok 2 - should create a commits review WITHOUT hunks stored
+          ---
+          duration_ms: 117.424571
+          type: 'test'
+          ...
+        # Subtest: should create a branch review WITHOUT hunks stored
+        ok 3 - should create a branch review WITHOUT hunks stored
+          ---
+          duration_ms: 150.178226
+          type: 'test'
+          ...
+        # Subtest: should create a branch review for a selected branch against main
+        ok 4 - should create a branch review for a selected branch against main
+          ---
+          duration_ms: 144.577916
+          type: 'test'
+          ...
+        # Subtest: should create a branch review against a selected base branch
+        ok 5 - should create a branch review against a selected base branch
+          ---
+          duration_ms: 152.028688
+          type: 'test'
+          ...
+        # Subtest: should create a branch review from metadata without loading the full patch
+        ok 6 - should create a branch review from metadata without loading the full patch
+          ---
+          duration_ms: 43.208093
+          type: 'test'
+          ...
+        # Subtest: should throw error when no staged changes
+        ok 7 - should throw error when no staged changes
+          ---
+          duration_ms: 142.054426
+          type: 'test'
+          ...
+        1..7
+    ok 1 - create
+      ---
+      duration_ms: 913.351208
+      type: 'suite'
+      ...
+    # Subtest: getById
+        # Subtest: should return files without hunks property
+        ok 1 - should return files without hunks property
+          ---
+          duration_ms: 131.492261
+          type: 'test'
+          ...
+        # Subtest: should return null for non-existent review
+        ok 2 - should return null for non-existent review
+          ---
+          duration_ms: 30.538972
+          type: 'test'
+          ...
+        1..2
+    ok 2 - getById
+      ---
+      duration_ms: 162.385726
+      type: 'suite'
+      ...
+    # Subtest: getFileHunks
+        # Subtest: should return hunks for staged review from database
+        ok 1 - should return hunks for staged review from database
+          ---
+          duration_ms: 130.999356
+          type: 'test'
+          ...
+        # Subtest: should regenerate hunks for committed review from git
+        ok 2 - should regenerate hunks for committed review from git
+          ---
+          duration_ms: 152.880155
+          type: 'test'
+          ...
+        # Subtest: should regenerate hunks for branch review from git
+        ok 3 - should regenerate hunks for branch review from git
+          ---
+          duration_ms: 160.652086
+          type: 'test'
+          ...
+        # Subtest: should return empty array for non-existent file
+        ok 4 - should return empty array for non-existent file
+          ---
+          duration_ms: 148.439146
+          type: 'test'
+          ...
+        # Subtest: should throw error for non-existent review
+        ok 5 - should throw error for non-existent review
+          ---
+          duration_ms: 27.48393
+          type: 'test'
+          ...
+        1..5
+    ok 3 - getFileHunks
+      ---
+      duration_ms: 620.852942
+      type: 'suite'
+      ...
+    # Subtest: backward compatibility
+        # Subtest: should handle legacy snapshot format with embedded files
+        ok 1 - should handle legacy snapshot format with embedded files
+          ---
+          duration_ms: 63.558792
+          type: 'test'
+          ...
+        # Subtest: should return hunks from legacy snapshot for staged reviews
+        ok 2 - should return hunks from legacy snapshot for staged reviews
+          ---
+          duration_ms: 27.765309
+          type: 'test'
+          ...
+        1..2
+    ok 4 - backward compatibility
+      ---
+      duration_ms: 91.473494
+      type: 'suite'
+      ...
+    # Subtest: delete
+        # Subtest: should delete review and its files
+        ok 1 - should delete review and its files
+          ---
+          duration_ms: 142.899456
+          type: 'test'
+          ...
+        1..1
+    ok 5 - delete
+      ---
+      duration_ms: 143.160458
+      type: 'suite'
+      ...
+    # Subtest: list
+        # Subtest: should return reviews with summary
+        ok 1 - should return reviews with summary
+          ---
+          duration_ms: 125.004483
+          type: 'test'
+          ...
+        1..1
+    ok 6 - list
+      ---
+      duration_ms: 125.320036
+      type: 'suite'
+      ...
+    1..6
+ok 25 - ReviewService
+  ---
+  duration_ms: 2057.824123
+  type: 'suite'
+  ...
+# Subtest: certificates
+    # Subtest: getGithumanDir
+        # Subtest: should return ~/.githuman path
+        ok 1 - should return ~/.githuman path
+          ---
+          duration_ms: 139.910783
+          type: 'test'
+          ...
+        1..1
+    ok 1 - getGithumanDir
+      ---
+      duration_ms: 140.588037
+      type: 'suite'
+      ...
+    # Subtest: getCertificatePaths
+        # Subtest: should return paths to cert.pem and key.pem
+        ok 1 - should return paths to cert.pem and key.pem
+          ---
+          duration_ms: 0.279946
+          type: 'test'
+          ...
+        1..1
+    ok 2 - getCertificatePaths
+      ---
+      duration_ms: 0.444564
+      type: 'suite'
+      ...
+    # Subtest: certificatesExist
+        # Subtest: should return false when no certificates exist
+        ok 1 - should return false when no certificates exist
+          ---
+          duration_ms: 0.458612
+          type: 'test'
+          ...
+        1..1
+    ok 3 - certificatesExist
+      ---
+      duration_ms: 0.600777
+      type: 'suite'
+      ...
+    # Subtest: generateSelfSignedCertificate
+        # Subtest: should generate valid PEM certificate and key
+        ok 1 - should generate valid PEM certificate and key
+          ---
+          duration_ms: 43.395554
+          type: 'test'
+          ...
+        1..1
+    ok 4 - generateSelfSignedCertificate
+      ---
+      duration_ms: 43.811131
+      type: 'suite'
+      ...
+    # Subtest: loadOrCreateCertificates
+        # Subtest: should create certificates if they do not exist
+        ok 1 - should create certificates if they do not exist
+          ---
+          duration_ms: 48.572435
+          type: 'test'
+          ...
+        # Subtest: should load existing certificates
+        ok 2 - should load existing certificates
+          ---
+          duration_ms: 0.452507
+          type: 'test'
+          ...
+        1..2
+    ok 5 - loadOrCreateCertificates
+      ---
+      duration_ms: 49.383473
+      type: 'suite'
+      ...
+    1..5
+ok 26 - certificates
+  ---
+  duration_ms: 237.946993
+  type: 'suite'
+  ...
+# Subtest: gitignore utils
+    # Subtest: findGitignoreFiles
+        # Subtest: should find root .gitignore
+        ok 1 - should find root .gitignore
+          ---
+          duration_ms: 6.871525
+          type: 'test'
+          ...
+        # Subtest: should find nested .gitignore files sorted by depth
+        ok 2 - should find nested .gitignore files sorted by depth
+          ---
+          duration_ms: 2.796744
+          type: 'test'
+          ...
+        # Subtest: should skip node_modules directory
+        ok 3 - should skip node_modules directory
+          ---
+          duration_ms: 1.370907
+          type: 'test'
+          ...
+        1..3
+    ok 1 - findGitignoreFiles
+      ---
+      duration_ms: 11.80475
+      type: 'suite'
+      ...
+    # Subtest: loadGitignore
+        # Subtest: should always ignore .git directory
+        ok 1 - should always ignore .git directory
+          ---
+          duration_ms: 3.395564
+          type: 'test'
+          ...
+        # Subtest: should load patterns from root .gitignore
+        ok 2 - should load patterns from root .gitignore
+          ---
+          duration_ms: 14.256031
+          type: 'test'
+          ...
+        # Subtest: should prefix patterns from nested .gitignore
+        ok 3 - should prefix patterns from nested .gitignore
+          ---
+          duration_ms: 13.403984
+          type: 'test'
+          ...
+        # Subtest: should handle rooted patterns in nested .gitignore
+        ok 4 - should handle rooted patterns in nested .gitignore
+          ---
+          duration_ms: 7.542848
+          type: 'test'
+          ...
+        # Subtest: should handle negation patterns in nested .gitignore
+        ok 5 - should handle negation patterns in nested .gitignore
+          ---
+          duration_ms: 5.185273
+          type: 'test'
+          ...
+        # Subtest: should skip comments and empty lines
+        ok 6 - should skip comments and empty lines
+          ---
+          duration_ms: 1.949717
+          type: 'test'
+          ...
+        1..6
+    ok 2 - loadGitignore
+      ---
+      duration_ms: 46.662767
+      type: 'suite'
+      ...
+    1..2
+ok 27 - gitignore utils
+  ---
+  duration_ms: 59.14516
+  type: 'suite'
+  ...
+1..27
+# tests 372
+# suites 173
+# pass 364
+# fail 8
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 14582.469646

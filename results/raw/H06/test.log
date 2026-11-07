@@ -1,0 +1,399 @@
+
+> vscode-chrome-debug-core@6.8.9 test
+> mocha --exit --recursive -u tdd ./out/test/
+
+5
+
+
+  ChromeDebugAdapter
+    attach()
+      ✓ Initialized event is fired after first scriptParsed event
+      ✓ if unsuccessful, the promise is rejected and an initialized event is not fired
+    setBreakpoints()
+      ✓ When setting one breakpoint, returns the correct result
+      ✓ When setting multiple breakpoints, returns the correct result
+      ✓ The adapter clears all previous breakpoints in a script before setting the new ones
+      ✓ The adapter handles removing a breakpoint
+      ✓ After a page refresh, clears the newly resolved breakpoints before adding new ones
+      ✓ returns the actual location specified by the runtime
+      ✓ setting breakpoints in a sourcemapped eval script handles the placeholder url
+      ✓ breakpoints in an unknown .ts script are resolved when the script is loaded
+      ✓ breakpoints in an unknown sourcemapped .js script are resolved when the script is loaded
+    Console.messageAdded
+      ✓ Fires an output event when a console message is added
+    Runtime.consoleAPICalled
+      ✓ Fires an output event when a console api is called
+    Debugger.scriptParsed
+      ✓ adds default url when missing
+      ✓ tests that sendLoadedSourceEvent will set the `reason` parameter based on our internal view of the events we sent to the client
+      ✓ tests that sendLoadedSourceEvent will set the `reason` parameter based on our internal view of the events we sent to the client even if fs.access takes unexpected times while blocking async (52ms)
+      ✓ When a page refreshes, finish sending the "new" source events, before sending the corresponding "removed" source event
+    evaluate()
+      ✓ calls Runtime.evaluate when not paused
+      ✓ calls Debugger.evaluateOnCallFrame when paused
+    Debugger.pause
+      ✓ returns the same sourceReferences for the same scripts
+    onExceptionThrown
+      ✓ passes through exception when no source mapping present
+      ✓ translates callstack to authored files via source mapping
+    break-on-load
+      ✓ is active when the parameter is specified and we are launching
+      ✓ is active when the parameter is specified and we are attaching
+
+  ChromeTargetDiscoveryStrategy
+    getChromeTargetWebSocketURL()
+      ✓ rejects promise if getting target list fails
+      ✓ rejects promise if server responds with not JSON
+      ✓ rejects promise if server responds with JSON that is not an array
+      ✓ respects the target filter
+      ✓ rejects promise if no matching targets
+      ✓ when no targets have webSocketDebuggerUrl, fails
+      ✓ ignores targets with no webSocketDebuggerUrl (as when chrome devtools is attached)
+      ✓ returns the first target when no target url pattern given
+      ✓ combines filters with a sensible precedence
+      ✓ modifies webSocketDebuggerUrl when target and web socket address differ
+      ✓ modifies webSocketDebuggerUrl when target and web socket port differ
+      ✓ ProtocolSchema return if the version is at least
+    removeTitleProperty
+      ✓ works
+
+  ChromeUtils
+    targetUrlToClientPath()
+      ✓ an empty string is returned for a missing url
+      ✓ an empty string is returned when the pathMapping is missing
+      ✓ a url without a path returns an empty string
+      ✓ multiple path parts are handled correctly
+      ✓ it searches the disk for a path that exists, built from the url
+      ✓ returns an empty string when it can't resolve a url
+      ✓ file:/// urls are returned canonicalized
+      ✓ uri encodings are fixed for file:/// paths
+      ✓ uri encodings are fixed in URLs
+    applyPathMappingsToTargetUrl()
+      ✓ an empty string is returned for a missing url
+      ✓ an empty string is returned for file: URLs
+      ✓ an empty string is returned for non-URLs
+      ✓ a url without a path returns an empty string
+      ✓ returns an empty string when it can't resolve a url
+      ✓ decodes uri-encoded characters
+      ✓ matches mappings with uri-encoded characters
+      ✓ resolves webroot-style mapping
+      ✓ resolves webroot-style mapping without trailing slash
+      ✓ resolves pathMapping for a particular file
+      ✓ return an empty string for url that has partially matching directory
+      ✓ return an empty string for file matching pathMapped directory
+      ✓ matches longer patterns first
+    remoteObjectToValue()
+      ✓ bool
+      ✓ string
+      ✓ number
+      ✓ array
+      ✓ regexp
+      ✓ symbol
+      ✓ function
+      ✓ undefined
+      ✓ null
+    getMatchingTargets()
+      ✓ returns exact match
+      ✓ ignores the url protocol
+      ✓ really ignores the url protocol
+      ✓ is case-insensitive
+      ✓ does not return substring fuzzy match as in pre 0.1.9
+      ✓ respects one wildcard
+      ✓ respects wildcards with query params
+      ✓ works with special chars
+      ✓ works with special chars + wildcard
+      ✓ matches an ending slash
+      ✓ works with file://
+      ✓ works with file:// + query params
+    compareVariableNames
+      ✓ numbers sorted numerically
+      ✓ string names before number names
+      ✓ string names ordered correctly
+    getEvaluateName
+      ✓ Returns the name when there's no parent eval name
+      ✓ Uses brackets for numbers
+      ✓ Uses dot notation when possible
+      ✓ Uses brackets with strings for all other cases
+    getUrlRegexForBreakOnLoad
+      when using case sensitive paths
+        ✓ Works with a base file path
+        ✓ Strips the nested file path
+        ✓ Works case sensitive
+        ✓ Escapes special characters
+      when using case insensitive paths
+        ✓ Works with a base file path
+        ✓ Strips the nested file path
+        ✓ Works case sensitive
+        ✓ Escapes special characters
+
+  ConsoleHelper
+    console.log()
+      ✓ simple log
+      ✓ basic format specifiers
+      ✓ numeric format specifiers correctly
+      ✓ unmatched format specifiers
+      ✓ null/undefined cases
+      ✓ handles %c patterns for color
+      ✓ handles empty %c patterns to reset color
+      ✓ handles %c patterns with font-weight
+      ✓ handles %c patterns with background
+      ✓ handles %c patterns with text-decoration
+      ✓ handles %c patterns with multiple attributes
+      ✓ starts with non-string
+      ✓ %O text types
+      ✓ empty strings
+      ✓ string and object
+      ✓ formatted strings and object
+      ✓ object formatted as num
+      ✓ object formatted as string
+      ✓ unimplemented console method
+      ✓ %O with object
+      ✓ text params recombined after object arg
+    console.assert()
+      ✓ Prints params and doesn't resolve format specifiers
+
+  CRDPMultiplexor
+    ✓ Channel is successfully added
+    ✓ Multiplexor message sent to underlying socket and response received.
+    ✓ Multiplexor message handles multiple channels
+    ✓ Multiplexor notification delivered to all channels
+    ✓ Notifications are delayed until domain is enabled
+
+  Variables
+    getArrayPreview()
+      ✓ empty array
+      ✓ one-item array
+      ✓ short array
+      ✓ too long array
+      ✓ complex array
+      ✓ long value array
+      ✓ gaps in array
+    getObjectPreview()
+      ✓ empty object
+      ✓ one-prop object
+      ✓ small object
+      ✓ too big object
+      ✓ complex object
+      ✓ long value object
+    createFunctionVariable()
+      ✓ not empty description
+      ✓ empty description
+    getRemoteObjectPreview_primitive()
+      ✓ number with description
+      ✓ number without description
+      ✓ boolean with description
+      ✓ string with description
+      ✓ undefined with description
+    isIndexedPropName()
+      ✓ true for positive integers
+      ✓ false for anything else
+
+  remoteMapper
+    ✓ mapRemoteClientToInternalPath - positive
+    ✓ mapRemoteClientToInternalPath - negative
+    ✓ mapInternalSourceToRemoteClient - positive
+
+  SourceMap
+    constructor
+      ✓ does not crash when sourceRoot is undefined
+    .sources
+      ✓ relative sources are made absolute
+      ✓ sources with absolute paths are used as-is
+      ✓ file:/// sources are exposed as absolute paths
+      ✓ sourceMapPathOverrides are respected
+    doesOriginateFrom
+      ✓ returns true for a source that it contains
+      ✓ returns false for a source that it does not contain
+    originalPositionFor
+      ✓ return statement
+      ✓ first line of a method
+      ✓ private field initializer
+      ✓ first line of file
+      ✓ last line of file
+      ✓ return null when there is no matching mapping
+    generatedPositionFor
+      ✓ return statement
+      ✓ first line of a method
+      ✓ private field initializer
+      ✓ first line of file
+      ✓ last line of file
+      ✓ returns the last mapping when there is no matching mapping
+
+  SourceMapFactory
+    getMapForGeneratedPath
+      ✓ resolves inlined base64-encoded sourcemap
+      ✓ resolves inlined URI-encoded sourcemap
+      ✓ returns null on malformed inline sourcemap
+      ✓ handles an absolute path to the sourcemap
+      ✓ handles a relative path next to the script
+      ✓ handles a relative path with a generated script url
+      ✓ looks for a map file next to the script
+
+  SourceMapUtils
+    getComputedSourceRoot()
+      ✓ handles file:/// sourceRoot
+      ✓ handles /src style sourceRoot
+      ✓ handles /src style without matching pathMapping
+      ✓ handles c:/src style without matching pathMapping
+      ✓ handles ../../src style sourceRoot
+      ✓ handles src style sourceRoot
+      ✓ handles runtime script not on disk
+      ✓ when no sourceRoot specified and runtime script is on disk, uses the runtime script dirname
+      ✓ when no sourceRoot specified and runtime script is not on disk, uses the runtime script dirname
+      ✓ no crash on debugadapter:// urls
+    applySourceMapPathOverrides
+      ✓ removes a matching webpack prefix
+      ✓ Adds ClientApp to the path in VisualStudio as a fallback to the ASP.NET Angular Template in 2.1
+      ✓ Does not add ClientApp to the path in VisualStudio as a fallback to the ASP.NET Angular Template in 2.1 when the original method finds a file
+      ✓ works using the laptop emoji
+      ✓ does nothing when no overrides match
+      ✓ resolves ..
+      ✓ does nothing when match but asterisks don't match
+      ✓ does nothing when match but too many asterisks
+      ✓ replaces an asterisk in the middle
+      ✓ replaces an asterisk at the beginning
+      ✓ allows some regex characters in the pattern
+      ✓ replaces correctly when asterisk on left but not right
+      ✓ the pattern is case-insensitive
+      ✓ works when multiple overrides provided
+      ✓ applies overrides in order by longest key first
+      ✓ is slash agnostic
+    resolveMapPath
+      ✓ works for a relative local path
+      ✓ works for a web relative path
+      ✓ works for a full url with local script
+      ✓ works for a full url with url script
+      ✓ works for a /path
+      ✓ applies pathMappings for /path and local path
+      ✓ works for /local path without valid pathMapping
+      ✓ works for c:/local path without valid pathMapping
+      ✓ works for a file:/// url
+      ✓ works for an eval script
+    getFullSourceEntry
+      ✓ works
+
+  SourceMaps
+    ✓ allMappedSources is case insensitive
+    ✓ getGeneratedPathFromAuthoredPath is case insensitive
+    ✓ mapToGenerated is case insensitive
+    ✓ mapToAuthored is case insensitive
+
+  telemetry
+    ✓ remaps exception keys
+
+  BaseSourceMapTransformer
+    setBreakpoints()
+      ✓ modifies the source and lines
+      ✓ doesn't do anything when sourcemaps are disabled
+      - if the source can't be mapped, waits until the runtime script is loaded
+      ✓ if the source maps to a merged file, includes the breakpoints in other files that map to the same file
+      setBreakpointsResponse()
+        ✓ modifies the response source and breakpoints
+        ✓ doesn't do anything when sourcemaps are disabled except remove the column
+        ✓ if the source maps to a merged file, filters breakpoint results from other files
+    stackTraceResponse()
+      ✓ modifies the response stackFrames
+      ✓ apply to mapped source when using internal remote url
+      ✓ doesn't clear the path when there are no sourcemaps
+      ✓ keeps the path when the file can't be sourcemapped if it's on disk
+      ✓ clears the name and leaves the path when it can't be sourcemapped and doesn't exist on disk
+
+  UrlPathTransformer
+    setBreakpoints()
+      ✓ resolves correctly when it can map the client script to the target script
+      ✓ doesn't modify the args when it can't map the client script to the target script
+      ✓ uses path as-is when it's a URL
+    scriptParsed
+      ✓ returns the client path when the file can be mapped
+      ✓ returns the given path when the file can't be mapped
+      ✓ ok with uncanonicalized paths
+    stackTraceResponse()
+      ✓ modifies the source path and clears sourceReference when the file can be mapped
+      ✓ doesn't modify the source path or clear the sourceReference when the file can't be mapped
+
+  Utils
+    getPlatform()
+      ✓ osx
+      ✓ win
+      ✓ linux
+      ✓ freebsd (default to Linux for anything unknown)
+    existsSync()
+      ✓ it returns false when statSync throws
+    reversedArr()
+      ✓ it does not modify the input array
+      ✓ it reverses the array
+    promiseTimeout()
+      ✓ when given a promise it fails if the promise never resolves
+      ✓ when given a promise it succeeds if the promise resolves
+      ✓ when not given a promise it resolves
+    retryAsync()
+      ✓ when the function passes, it resolves with the value
+      ✓ when the function fails, it rejects
+    canonicalizeUrl()
+      ✓ enforces path.sep slash
+      ✓ removes query params from url
+      ✓ strips trailing slash
+      ✓ paths with different cases get canonicalized to the same string when case insensitive
+    fileUrlToPath()
+      ✓ removes file:///
+      ✓ unescape when doing url -> path
+      ✓ ensures local path starts with / on OSX
+      ✓ force lowercase drive letter on Win to match VS Code
+      ✓ ignores non-file URLs
+      ✓ works for file urls that contain : elsewhere
+    forceForwardSlashes
+      ✓ works for c:/... cases
+      ✓ works for relative paths
+      ✓ fixes escaped forward slashes
+    fixDriveLetterAndSlashes
+      ✓ works for c:/... cases
+      ✓ works for file:/// cases
+      ✓ does not impact posix cases
+    isURL
+      ✓ returns true for URLs
+      ✓ returns false for not-URLs
+    lstrip
+      ✓ does what it says
+    pathToFileURL
+      ✓ converts windows-style paths
+      ✓ converts network path paths
+      ✓ converts unix-style paths
+      ✓ encodes as URI and forces forwards slash
+      ✓ normalizes
+    pathToRegex - case sensitive
+      ✓ works for a simple posix path
+      ✓ works for a simple windows path
+      ✓ works for a url
+      ✓ works for a posix file url
+      ✓ escapes the drive letter for a windows file url
+      ✓ space in path
+    pathToRegex - case insensitive
+      ✓ works for a simple posix path
+      ✓ works for a simple windows path
+      ✓ works for a url
+      ✓ works for a posix file url
+      ✓ escapes the drive letter for a windows file url
+    pathGlobToBlackboxedRegex
+      ✓ universal
+      ✓ url
+      ✓ path segment
+      ✓ file extension
+      ✓ escapes special chars except asterisk
+      ✓ slash-agnostic
+      ✓ **/ is optional but not too optional
+      ✓ .* in glob
+    makeRegexNotMatchPath/makeRegexMatchPath
+      ✓ simple path
+      ✓ still matches other path
+      ✓ longer path
+      ✓ case insensitive
+      ✓ path segment
+    firstLine
+      ✓ gets first line
+    fileUrlToNetworkPath
+      ✓ true for network paths
+
+
+  296 passing (1s)
+  1 pending
+

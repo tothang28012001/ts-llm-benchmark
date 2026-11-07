@@ -1,0 +1,1153 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T10:41:51.755Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/webpack/watch-memory-system.ts": {
+            "lines": 97,
+            "tokens": 1092,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/source-mapper.ts": {
+            "lines": 25,
+            "tokens": 286,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/loader.ts": {
+            "lines": 6,
+            "tokens": 53,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/loader-impl.ts": {
+            "lines": 52,
+            "tokens": 525,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/ionic-webpack-factory.ts": {
+            "lines": 16,
+            "tokens": 122,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/ionic-environment-plugin.ts": {
+            "lines": 120,
+            "tokens": 1237,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/common-chunks-plugins.ts": {
+            "lines": 16,
+            "tokens": 122,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/cache-loader.ts": {
+            "lines": 6,
+            "tokens": 53,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack/cache-loader-impl.ts": {
+            "lines": 27,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/virtual-file-utils.ts": {
+            "lines": 68,
+            "tokens": 801,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/typescript-utils.ts": {
+            "lines": 277,
+            "tokens": 3409,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/source-maps.ts": {
+            "lines": 51,
+            "tokens": 531,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/promisify.ts": {
+            "lines": 24,
+            "tokens": 633,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/open.ts": {
+            "lines": 60,
+            "tokens": 394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/network.ts": {
+            "lines": 39,
+            "tokens": 381,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/ionic-project.ts": {
+            "lines": 27,
+            "tokens": 221,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/interfaces.ts": {
+            "lines": 256,
+            "tokens": 1757,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/hybrid-file-system.ts": {
+            "lines": 159,
+            "tokens": 1458,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/hybrid-file-system-factory.ts": {
+            "lines": 13,
+            "tokens": 100,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/helpers.ts": {
+            "lines": 470,
+            "tokens": 4336,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/glob-util.ts": {
+            "lines": 219,
+            "tokens": 1838,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/file-cache.ts": {
+            "lines": 42,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/events.ts": {
+            "lines": 30,
+            "tokens": 230,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/errors.ts": {
+            "lines": 28,
+            "tokens": 201,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/cordova-config.ts": {
+            "lines": 56,
+            "tokens": 390,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/constants.ts": {
+            "lines": 147,
+            "tokens": 1416,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/config.ts": {
+            "lines": 636,
+            "tokens": 7763,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/clean-css-factory.ts": {
+            "lines": 15,
+            "tokens": 86,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/upgrade-scripts/add-default-ngmodules.ts": {
+            "lines": 63,
+            "tokens": 640,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/optimization/remove-unused-fonts.ts": {
+            "lines": 69,
+            "tokens": 599,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/logger/logger.ts": {
+            "lines": 312,
+            "tokens": 2763,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/logger/logger-typescript.ts": {
+            "lines": 113,
+            "tokens": 1063,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/logger/logger-tslint.ts": {
+            "lines": 91,
+            "tokens": 981,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 115,
+            "percentage": 15.38,
+            "percentageTokens": 11.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/logger/logger-sass.ts": {
+            "lines": 126,
+            "tokens": 1269,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 57,
+            "duplicatedTokens": 509,
+            "percentage": 45.24,
+            "percentageTokens": 40.11,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/logger/logger-runtime.ts": {
+            "lines": 148,
+            "tokens": 1373,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 43,
+            "duplicatedTokens": 394,
+            "percentage": 29.05,
+            "percentageTokens": 28.7,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/logger/logger-diagnostics.ts": {
+            "lines": 383,
+            "tokens": 3485,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lint/lint-utils.ts": {
+            "lines": 121,
+            "tokens": 1098,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lint/lint-factory.ts": {
+            "lines": 97,
+            "tokens": 501,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/highlight/highlight.ts": {
+            "lines": 928,
+            "tokens": 7405,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/generators/util.ts": {
+            "lines": 313,
+            "tokens": 3690,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/generators/constants.ts": {
+            "lines": 15,
+            "tokens": 133,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dev-server/serve-config.ts": {
+            "lines": 30,
+            "tokens": 246,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dev-server/notification-server.ts": {
+            "lines": 153,
+            "tokens": 1188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dev-server/live-reload.ts": {
+            "lines": 59,
+            "tokens": 537,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dev-server/lab.ts": {
+            "lines": 27,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dev-server/injector.ts": {
+            "lines": 45,
+            "tokens": 370,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/dev-server/http-server.ts": {
+            "lines": 172,
+            "tokens": 1634,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/deep-linking/util.ts": {
+            "lines": 628,
+            "tokens": 5763,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/ionic-global.ts": {
+            "lines": 43,
+            "tokens": 360,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/inject-scripts.ts": {
+            "lines": 56,
+            "tokens": 464,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/bundle-components.ts": {
+            "lines": 69,
+            "tokens": 576,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/worker-process.ts": {
+            "lines": 73,
+            "tokens": 649,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/worker-client.ts": {
+            "lines": 120,
+            "tokens": 1048,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/webpack.ts": {
+            "lines": 258,
+            "tokens": 2379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/watch.ts": {
+            "lines": 410,
+            "tokens": 3467,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/uglifyjs.ts": {
+            "lines": 87,
+            "tokens": 880,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/transpile.ts": {
+            "lines": 461,
+            "tokens": 3887,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/transpile-worker.ts": {
+            "lines": 35,
+            "tokens": 257,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/template.ts": {
+            "lines": 216,
+            "tokens": 2017,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/serve.ts": {
+            "lines": 177,
+            "tokens": 1722,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sass.ts": {
+            "lines": 482,
+            "tokens": 4058,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 30,
+            "duplicatedTokens": 202,
+            "percentage": 6.22,
+            "percentageTokens": 4.98,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/preprocess.ts": {
+            "lines": 39,
+            "tokens": 371,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/postprocess.ts": {
+            "lines": 54,
+            "tokens": 533,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ngc.ts": {
+            "lines": 68,
+            "tokens": 648,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/minify.ts": {
+            "lines": 43,
+            "tokens": 300,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lint.ts": {
+            "lines": 103,
+            "tokens": 990,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 52,
+            "tokens": 533,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/generators.ts": {
+            "lines": 65,
+            "tokens": 872,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/deep-linking.ts": {
+            "lines": 130,
+            "tokens": 1183,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/copy.ts": {
+            "lines": 309,
+            "tokens": 3321,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cleancss.ts": {
+            "lines": 64,
+            "tokens": 684,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/clean.ts": {
+            "lines": 23,
+            "tokens": 196,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/bundle.ts": {
+            "lines": 40,
+            "tokens": 341,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/build.ts": {
+            "lines": 331,
+            "tokens": 2608,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/aot/utils.ts": {
+            "lines": 147,
+            "tokens": 1740,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 24,
+            "duplicatedTokens": 428,
+            "percentage": 16.33,
+            "percentageTokens": 24.6,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/aot/compiler-host.ts": {
+            "lines": 105,
+            "tokens": 934,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/aot/compiler-host-factory.ts": {
+            "lines": 13,
+            "tokens": 110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/aot/aot-compiler.ts": {
+            "lines": 224,
+            "tokens": 2183,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 11172,
+          "tokens": 104372,
+          "sources": 78,
+          "clones": 5,
+          "duplicatedLines": 84,
+          "duplicatedTokens": 824,
+          "percentage": 0.75,
+          "percentageTokens": 0.79,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 11172,
+      "tokens": 104372,
+      "sources": 78,
+      "clones": 5,
+      "duplicatedLines": 84,
+      "duplicatedTokens": 824,
+      "percentage": 0.75,
+      "percentageTokens": 0.79,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": " errorLine.text.length; j++) {\n          if (STOP_CHARS.indexOf(errorLine.text.charAt(j)) > -1) {\n            break;\n          }\n          errorLine.errorLength++;\n        }\n\n        if (errorLine.errorLength === 0 && errorLine.errorCharStart > 0) {\n          errorLine.errorLength = 1;\n          errorLine.errorCharStart--;\n        }\n\n        d.lines.push(errorLine);\n\n",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/logger/logger-sass.ts",
+        "start": 63,
+        "end": 77,
+        "startLoc": {
+          "line": 63,
+          "column": 52,
+          "position": 648
+        },
+        "endLoc": {
+          "line": 77,
+          "column": 1,
+          "position": 763
+        }
+      },
+      "secondFile": {
+        "name": "src/logger/logger-tslint.ts",
+        "start": 48,
+        "end": 61,
+        "startLoc": {
+          "line": 48,
+          "column": 51,
+          "position": 613
+        },
+        "endLoc": {
+          "line": 61,
+          "column": 7,
+          "position": 728
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 25,
+      "fragment": "\n        }\n\n        d.lines.push(errorLine);\n\n        if (errorLine.lineIndex > 0) {\n          const previousLine: PrintLine = {\n            lineIndex: errorLine.lineIndex - 1,\n            lineNumber: errorLine.lineNumber - 1,\n            text: srcLines[errorLine.lineIndex - 1],\n            html: htmlLines[errorLine.lineIndex - 1],\n            errorCharStart: -1,\n            errorLength: -1\n          };\n\n          if (previousLine.html.indexOf('class=\"hljs') === -1) {\n            try {\n              previousLine.html = highlight(d.language, previousLine.text, true).value;\n            } catch (e) {}\n          }\n\n          d.lines.unshift(previousLine);\n        }\n\n        if (errorLine.lineIndex <",
+      "tokens": 212,
+      "firstFile": {
+        "name": "src/logger/logger-runtime.ts",
+        "start": 95,
+        "end": 119,
+        "startLoc": {
+          "line": 95,
+          "column": 25,
+          "position": 932
+        },
+        "endLoc": {
+          "line": 119,
+          "column": 34,
+          "position": 1144
+        }
+      },
+      "secondFile": {
+        "name": "src/logger/logger-sass.ts",
+        "start": 72,
+        "end": 96,
+        "startLoc": {
+          "line": 72,
+          "column": 38,
+          "position": 747
+        },
+        "endLoc": {
+          "line": 96,
+          "column": 34,
+          "position": 959
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": " < srcLines.length) {\n          const nextLine: PrintLine = {\n            lineIndex: errorLine.lineIndex + 1,\n            lineNumber: errorLine.lineNumber + 1,\n            text: srcLines[errorLine.lineIndex + 1],\n            html: htmlLines[errorLine.lineIndex + 1],\n            errorCharStart: -1,\n            errorLength: -1\n          };\n\n          if (nextLine.html.indexOf('class=\"hljs') === -1) {\n            try {\n              nextLine.html = highlight(d.language, nextLine.text, true).value;\n            } catch (e) {}\n          }\n\n          d.lines.push(nextLine);\n        }\n\n        ",
+      "tokens": 182,
+      "firstFile": {
+        "name": "src/logger/logger-runtime.ts",
+        "start": 119,
+        "end": 138,
+        "startLoc": {
+          "line": 119,
+          "column": 32,
+          "position": 1143
+        },
+        "endLoc": {
+          "line": 138,
+          "column": 9,
+          "position": 1325
+        }
+      },
+      "secondFile": {
+        "name": "src/logger/logger-sass.ts",
+        "start": 96,
+        "end": 115,
+        "startLoc": {
+          "line": 96,
+          "column": 36,
+          "position": 962
+        },
+        "endLoc": {
+          "line": 115,
+          "column": 7,
+          "position": 1144
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ");\n\n  return sassWorker(context, configFile)\n    .then(outFile => {\n      context.sassState = BuildState.SuccessfulBuild;\n      logger.finish();\n      return outFile;\n    })\n    .catch(err => {\n      context.sassState = BuildState.RequiresBuild;\n      throw logger.fail(err);\n    });\n}\n\n\nexport function sassWorker",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/sass.ts",
+        "start": 36,
+        "end": 51,
+        "startLoc": {
+          "line": 36,
+          "column": 42,
+          "position": 406
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 27,
+          "position": 507
+        }
+      },
+      "secondFile": {
+        "name": "src/sass.ts",
+        "start": 18,
+        "end": 33,
+        "startLoc": {
+          "line": 18,
+          "column": 35,
+          "position": 255
+        },
+        "endLoc": {
+          "line": 33,
+          "column": 27,
+          "position": 356
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "(filePath: string, fileContent: string) {\n  const sourceFile = getTypescriptSourceFile(filePath, fileContent, ScriptTarget.Latest, false);\n  const allCalls = findNodes(sourceFile, sourceFile, SyntaxKind.CallExpression, true) as CallExpression[];\n  const bootstraps = getBootstrapNodes(allCalls);\n  const calls: CallExpression[] = bootstraps.reduce((previous, access) => {\n      const expressions = findNodes(sourceFile, access, SyntaxKind.CallExpression, true) as CallExpression[];\n      return previous.concat(expressions);\n    }, [])\n    .filter((call: CallExpression) => {\n      return call.expression.kind === SyntaxKind.Identifier\n          && (call.expression as Identifier).text === 'platformBrowserDynamic';\n    });\n  return",
+      "tokens": 214,
+      "firstFile": {
+        "name": "src/aot/utils.ts",
+        "start": 63,
+        "end": 75,
+        "startLoc": {
+          "line": 63,
+          "column": 40,
+          "position": 677
+        },
+        "endLoc": {
+          "line": 75,
+          "column": 9,
+          "position": 891
+        }
+      },
+      "secondFile": {
+        "name": "src/aot/utils.ts",
+        "start": 44,
+        "end": 56,
+        "startLoc": {
+          "line": 44,
+          "column": 32,
+          "position": 404
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 6,
+          "position": 618
+        }
+      }
+    }
+  ]
+}

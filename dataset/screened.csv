@@ -1,0 +1,1237 @@
+full_name,group,eligible,reason,stars,created_at,ts_bytes,ts_share,commits,ai_commit_share_last100,ai_agents,has_tsconfig,test_runner,pin_commit,pin_date,workspaces
+eykrehbein/strest,human,False,TS size outside 40KB-1.5MB,1720,2018-09-08,38932,0.989,279,0.0,,True,jest,75409eda6a247c983fdde4dd524b632ec545975a,2020-03-14,False
+yuanqing/vdx,human,False,TS size outside 40KB-1.5MB,1659,2018-04-29,20398,0.824,172,0.0,,True,tap,9508c88f30ce51c848c6cb2ecf5974506a8973c1,2020-11-11,False
+fabiospampinato/cliflix,human,False,no test script; TS size outside 40KB-1.5MB,1494,2017-09-03,18920,0.995,103,0.0,,True,,0dc09b90acc570375b8dbf40278fe35c4f815ed4,2020-01-24,False
+prisma/prisma-client-js,human,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,1463,2019-05-10,143,1.0,1477,0.0,,False,,6f51f5f57dfe6b4bbfafbda428898ee813c2bb82,2020-11-11,False
+bamlab/react-native-make,human,False,TS size outside 40KB-1.5MB,757,2019-08-27,21117,0.969,106,0.0,,True,other,d0b07cb9b9547e2b84d8e38a0f44389a59281d60,2020-11-13,False
+ablestack/nestjs-bff,human,False,no root tsconfig; monorepo,666,2018-07-10,356517,0.998,341,0.0,,False,other,8d045fad2da7a4cf8a9f73c2bc42ee31cadaee49,2020-12-31,True
+TwanoO67/bootstraping-ngx-admin-lte,human,False,TS share < 60%; TS size outside 40KB-1.5MB,458,2016-02-28,17710,0.572,231,0.0,,True,other,2574936a02dfaf199bc05dc8dd92b2009ea4afda,2018-03-07,False
+bilive/bilive_client,human,False,no test script,448,2016-07-22,115323,0.941,302,0.0,,True,,2e08a994a9fc255fe2316bb31d8ddf8c905f66ac,2020-09-29,False
+pipiliang/docker-dashboard,human,True,,283,2017-04-28,46834,0.992,52,0.0,,True,mocha,5b106faa2be326c69e52944b0694428201b3529f,2020-11-28,False
+rangle/angular-ssr,human,True,,277,2017-01-22,204451,0.997,365,0.0,,True,jest,18a8e40a541b3cb840ae7dfaa0abf95e5fab1256,2018-03-16,False
+arkon/ng-click-outside,human,False,no test script; TS size outside 40KB-1.5MB,229,2016-06-15,5036,1.0,191,0.0,,True,,2bbae684ab7d2ba6753236bc34e45106681a399f,2020-12-11,False
+helios1138/graphql-typed-client,human,True,,212,2019-01-27,91512,0.984,100,0.0,,True,jest,0bdd5736fc071ae09131852038216738bceb7215,2020-01-23,False
+avatsaev/angular4-docker-example,human,False,TS size outside 40KB-1.5MB,207,2017-05-17,6443,0.729,18,0.0,,True,other,462bd1d9d047b8ff6e62f0aa929dbd3370101f9d,2018-06-07,False
+hzlshen/angular-cli-mvc,human,False,no root package.json; no root tsconfig; no test script,196,2017-10-01,146223,0.775,218,0.0,,False,,78e133cb4c4a9cdd616a420bef4d4fa3784da5e0,2019-04-08,False
+ethereumjs/ethereumjs-client,human,True,,191,2018-04-09,267168,0.99,401,0.0,,True,other,77814c80c195ef8b20f0c0528cbf3450c7350eda,2020-12-04,False
+angular-klingon/klingon,human,False,no root tsconfig; no test script; TS share < 60%,187,2017-07-23,41309,0.452,187,0.0,,False,,d7205b441f5fa7b9bce839fad60247bb3104b9e1,2020-11-22,False
+Nikhil22/angular-truffle-starter-dapp,human,False,TS size outside 40KB-1.5MB,179,2017-06-15,13142,0.616,64,0.0,,True,other,3ae4542b0b0733b5a189006d5424dc4c941ebd2c,2018-04-07,False
+remorses/actions-cli,human,False,TS size outside 40KB-1.5MB,172,2020-04-28,20299,0.947,146,0.0,,True,mocha,2e5d17c380e2a2f4042a68314f3e8c695634d29c,2020-10-10,False
+yarnaimo/vanilla-clipper,human,True,,161,2018-08-31,66943,0.905,97,0.0,,True,jest,fc6db6cbbc0e61fd7d0b8920d521d381dbf663c2,2020-11-04,False
+kumarabhirup/bulk-mail-cli,human,False,TS size outside 40KB-1.5MB,132,2018-10-29,18805,0.996,15,0.0,,True,other,2f204a7325456611fde747b2a1b4396b5e400bc5,2020-03-01,False
+angular-redux/example-app,human,False,TS size outside 40KB-1.5MB,121,2017-01-10,38450,0.85,43,0.0,,True,other,52eddcf6fb339928f5cf57f85a6075b3a79a4e56,2018-07-13,False
+designcourse/angular-seo,human,False,no test script; TS size outside 40KB-1.5MB,115,2017-05-18,11253,0.813,2,0.0,,True,,be20519195f42894ce2678d4ff7a7d93fd3c6d5d,2017-05-18,False
+niklashigi/devstats,human,False,TS size outside 40KB-1.5MB,114,2018-03-18,25924,0.998,65,0.0,,True,other,e0b782110983a9b8ba949228023f279d1b17c377,2020-01-02,False
+OlivierCC/sp-client-custom-fields,human,True,,112,2016-10-02,897116,0.795,100,0.0,,True,other,0f53db7a374434ffd0e75fb0c181869a31d2e51b,2017-06-29,False
+ClusterWS/ClusterWS-Client-JS,human,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,112,2017-07-05,13776,0.901,221,0.0,,False,,e749bc500cc3070e81684879b37f731c74834b51,2019-05-20,False
+jmurphzyo/Angular2OidcClient,human,False,no root tsconfig; TS size outside 40KB-1.5MB,110,2016-08-17,15559,0.695,45,0.0,,False,other,28a8b0be0a36b9b1df9cc291f41a87048d12a4b2,2017-06-09,False
+eykrehbein/cook,human,False,no test script; TS size outside 40KB-1.5MB,108,2019-12-28,13677,0.932,40,0.0,,True,,1518cc79da0ce168b95555aa7231a238e50a62f1,2019-12-30,False
+kpapadatos/efoodgr,human,True,,108,2016-08-08,41960,0.976,65,0.0,,True,mocha,d3dcb44e0c09ec68c330d207e419289a4d8e43e7,2019-11-04,False
+microsoft/PowerBI-Cli,human,False,no test script; TS size outside 40KB-1.5MB,105,2016-04-20,33560,0.977,83,0.0,,True,,abaac4fe8bf1bde97f04777e949421b81addf2ad,2017-10-08,False
+avatsaev/kawachat2-client,human,False,TS size outside 40KB-1.5MB,104,2017-06-07,20911,0.673,41,0.0,,True,other,fb87162592a35460555d48f34fb1c23b12306db9,2017-06-11,False
+GuillaumeSalles/typescript-to-cli,human,False,TS size outside 40KB-1.5MB,100,2018-09-17,28612,0.991,54,0.0,,True,jest,84d45b3860346573e0342aeb73bdc23fd474966e,2018-10-09,False
+beizhedenglong/rough-charts,human,False,no root tsconfig; no test script; monorepo,1547,2019-10-04,70224,0.943,64,0.0,,False,,74b0724d6b2befb58f3f36e133297f5c1a3f90f6,2020-11-03,True
+reiinakano/fast-style-transfer-deeplearnjs,human,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB,1351,2017-09-23,16303,0.398,45,0.0,,True,,bd3a0486e4ed4a02b0b4102a7f12a55e3c935d73,2018-11-29,False
+tensorflow/tfjs-node,human,False,no root package.json; no root tsconfig; no test script,1053,2018-02-12,202995,0.681,293,0.0,,False,,72723c36e6b7d4d83cd7f654d8feaaf1d8645eb1,2019-08-19,False
+andnp/SimplyTyped,human,True,,738,2017-12-07,57586,0.994,294,0.0,,True,ava,85fb9cdb7655ac921f38f6e21027dc27d76dcf80,2020-07-03,False
+fknop/angular-pipes,human,True,,722,2016-04-03,148726,0.994,256,0.0,,True,other,2eda33307361b3d7c9d8b5b2a2f494449b7a1337,2019-10-12,False
+almin/almin,human,False,no root tsconfig; monorepo,507,2016-04-21,384083,0.821,1149,0.0,,False,other,aa3a580c90006d5cab5d0f3c888a1f1b6d3e4e0f,2020-12-10,True
+Authman2/Mosaic,human,True,,384,2019-01-04,57866,1.0,300,0.0,,True,other,7901a018598b12bcdd94fc351de345956c556603,2020-05-28,False
+FinNLP/en-inflectors,human,True,,347,2017-01-02,186772,1.0,72,0.0,,True,mocha,1fafd5dfb7ef50ebc1962c3498f5488760118d8c,2017-05-05,False
+nickredmark/staart,human,False,no root tsconfig; no test script,313,2017-07-11,52190,1.0,153,0.0,,False,,3561ca17236a7a0bed48035edde67a6980dc681b,2019-03-19,False
+mysticatea/abort-controller,human,False,TS size outside 40KB-1.5MB,311,2017-09-29,10995,0.652,49,0.0,,True,mocha,a935d38e09eb95d6b633a8c42fcceec9969e7b05,2019-03-30,False
+jhipster/jhipster-vuejs,human,False,no root tsconfig; TS share < 60%,300,2018-08-16,321291,0.475,831,0.0,,False,mocha,4183e5d67b3e13bf41d4732c715c5815d30a00c5,2020-11-18,False
+nrwl/webpack-plugin-critical,human,False,TS size outside 40KB-1.5MB,295,2016-12-29,6078,0.78,12,0.0,,True,jasmine,5e6fb0167f79ed8c4d0fe0dd0dc928260bba2713,2017-04-02,False
+bterlson/strict-event-emitter-types,human,False,no test script; TS size outside 40KB-1.5MB,275,2018-03-03,10425,1.0,35,0.0,,True,,b653d2caba1970c206829a8cbaf679391328149a,2020-02-29,False
+vsfedorenko/ngx-fullpage,human,True,,271,2016-05-12,48073,0.716,229,0.0,,True,other,6b15088eb86cc49bda083bc05ab7e62082519b2d,2019-04-24,False
+concretesolutions/pareto.js,human,False,TS size outside 40KB-1.5MB,261,2016-03-07,9035,0.849,198,0.0,,True,jest,e93a73096bda10e0476bda0acfbd57ee73de8613,2017-05-19,False
+tomazy/xcell,human,False,no root tsconfig; no test script; monorepo; TS size outside 40KB-1.5MB,259,2018-01-21,31301,0.873,63,0.0,,False,,f1793c6b268882d0f915ef0c5b204b380eb83e56,2018-07-30,True
+LiskArchive/lisk-elements,human,True,,245,2016-01-11,962472,0.989,2414,0.0,,True,other,ecf1114006b46b28c443c7f8d6c71926c22f7c02,2018-12-20,False
+jlkiri/react-easy-flip,human,False,no test script; TS size outside 40KB-1.5MB,244,2019-10-22,22940,0.993,169,0.0,,True,,10f1f0976e2fe9031718a53029e7fbd26b623b9c,2020-12-14,False
+hamedbaatour/angularfire-lite,human,False,no test script; TS size outside 40KB-1.5MB,237,2017-10-29,37830,1.0,115,0.0,,True,,33968656764058078226cc0043b0673f94ed09d8,2020-05-23,False
+jxom/fannypack,human,False,no root tsconfig; monorepo,235,2018-09-19,579348,0.862,1016,0.0,,False,jest,a47619b7452a273233cf59c4cdb8ad6d1b6881a2,2020-08-27,True
+pkamenarsky/leerraum.js,human,False,no test script; TS size outside 40KB-1.5MB,232,2017-05-16,31374,0.692,5,0.0,,True,,ecdd3144eaa33cd199e92ddb5c0ef96e6a87fd5e,2018-04-09,False
+fivethree-team/ionic-4-components,human,False,no test script,223,2018-08-09,273418,0.687,727,0.0,,True,,1734af1089b4b20bd49f80a3bda5e00d30451c1b,2020-09-24,False
+sebholstein/tinystate,human,False,TS size outside 40KB-1.5MB,222,2018-03-04,11007,0.919,17,0.0,,True,jest,9d580ba7755599ea430cf8bdb768d680c32910c0,2019-01-20,False
+microsoft/clarity-js,human,True,,220,2017-05-01,237982,0.95,211,0.0,,True,jasmine,9ff9e12c06897ec93fd32ba7335bf36757a84b18,2020-01-09,False
+xf00f/web3x,human,False,no root package.json; no root tsconfig; no test script,213,2018-10-10,911898,0.977,142,0.0,,False,,2bcf3f8027021e75fdfba6a4fac4cc17735c247f,2019-11-25,False
+jamiebuilds/react-jeff,human,False,TS size outside 40KB-1.5MB,209,2019-03-13,16355,0.93,28,0.0,,True,ava,ef102012a02bb38d59f985e837d7982d36ed4b5e,2020-02-12,False
+gdnmobilelab/png-pong,human,False,no test script,209,2017-05-31,68707,1.0,16,0.0,,True,,4d25655e05e25e161cbfd807f3d2e4b7e1b9e949,2018-01-13,False
+trekhleb/angular-library-seed,human,False,TS size outside 40KB-1.5MB,201,2017-03-19,10302,0.838,224,0.0,,True,other,054c1a1f158c0167923494f95b55ba150f19da78,2017-10-11,False
+labs42io/itiriri,human,True,,178,2018-07-23,182995,0.999,297,0.0,,True,mocha,8ff1ffaa47d8940a7e821cbd80dc9c8972eb4e30,2020-06-02,False
+gigobyte/ui-stack,human,False,no test script; TS size outside 40KB-1.5MB,177,2017-10-25,26338,0.904,87,0.0,,True,,2b37367941dfc4251a8f54a0739cf5ccc24aaadc,2020-08-02,False
+g-plane/rize,human,True,,175,2018-02-19,160154,1.0,269,0.0,,True,jest,39ed5c6302d3bb078b3d2c11c134e6200cb38d88,2020-05-22,False
+machinomy/machinomy,human,False,monorepo,166,2016-11-02,328499,0.988,1250,0.0,,True,other,192c924c7cb228950e23fc5dd6958a903aff996f,2019-05-06,True
+Uniswap/solidity-lib,human,False,TS share < 60%; TS size outside 40KB-1.5MB,163,2020-04-20,37570,0.569,73,0.0,,True,mocha,c01640b0f0f1d8a85cba8de378cc48469fcfd9a6,2020-12-16,False
+bytedance/react-model,human,True,,160,2019-02-13,55035,0.9,298,0.0,,True,jest,434a93e4a55ceb2dd81d674a647d9009f807efaa,2020-09-24,False
+microsoft/vscode-chrome-debug-core,human,True,,158,2016-04-12,578090,0.991,1931,0.0,,True,mocha,d50a8fec5f649782b1d93a7edccae0715d7f9c66,2020-08-23,False
+pedaling/class101-ui,human,True,,156,2018-09-03,415554,0.986,963,0.0,,True,other,ecea480bd5c511b877a7c39991827f978010b674,2020-12-18,False
+formatjs/formatjs-old,human,False,monorepo,155,2019-05-13,469367,0.893,1308,0.0,,True,jest,d508962a57b9d4d82e3c3c40bf5b43547f1cc52d,2020-04-26,True
+src-zone/material,human,False,no root tsconfig; no test script,148,2017-11-06,782331,0.856,662,0.0,,False,,c1ac6c2bc15d2f9938c9aca3d796364b0d4ccc9d,2020-12-31,False
+Sambego/audio-effects,human,False,no test script; TS size outside 40KB-1.5MB,147,2016-01-15,30537,1.0,114,0.0,,True,,d5e8d537b5aab114eb384e294a4397a305ee1fd8,2017-03-15,False
+yohangz/ornamentum,human,False,no test script; TS share < 60%,145,2018-01-02,724619,0.536,1580,0.0,,True,,0fabf4e734ccb284c66fac26a97ae4c9d31dc8db,2020-01-02,False
+wechat-miniprogram/miniprogram-i18n,human,False,no root tsconfig,142,2018-12-12,77781,0.943,102,0.0,,False,jest,0664aa847cfbcd465d82aa165193f7ae6188235d,2020-10-16,False
+Nightapes/ngx-validators,human,True,,136,2016-05-10,122128,0.987,189,0.0,,True,other,b75c6af9f2dabc7e8e553d08815097904083ddfb,2020-04-21,False
+uport-project/uport-credentials,human,True,,134,2017-01-05,67940,0.992,673,0.0,,True,jest,c88050d41a90dacb9d2fa977f56222bab68ab90e,2020-12-31,False
+hoppinger/MonadicReact,human,False,no test script,127,2017-06-16,111587,0.934,165,0.0,,True,,1f846494caff33ccd64b89f59a254f231370c351,2018-12-04,False
+nraboy/ngx-cordova-oauth,human,False,no test script; TS size outside 40KB-1.5MB,126,2016-01-01,13603,0.762,44,0.0,,True,,b0d92d76a003d805ce90595a7dfbc44c92f7d802,2017-03-08,False
+codediodeio/ngrx-vs-ngxs,human,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,122,2018-04-08,32779,0.777,8,0.0,,False,,150eb7d1121ef5557396cfe52c277a15e377f23e,2018-09-06,False
+davidkpiano/nm8,human,False,TS size outside 40KB-1.5MB,122,2017-11-21,6069,1.0,23,0.0,,True,jest,75253b94f6a135932efda669bbef9a72fddc6013,2018-07-30,False
+Lucifier129/bistate,human,True,,122,2019-08-05,63398,1.0,58,0.0,,True,jest,334a53654e2a89355d16639e8c94c5e6232452a7,2020-07-24,False
+jhipster/ng-jhipster,human,True,,120,2016-12-25,196988,0.997,557,0.0,,True,jest,df86c2c50e8bc6c78b34ac7fe4491b7662a21c8a,2020-12-11,False
+5anthosh/fcal,human,True,,116,2019-10-01,191957,1.0,159,0.0,,True,jest,723305ea9d6f40d085e9a0b5b91ec21d567d5968,2020-10-23,False
+PowerShell/Phosphor,human,False,no root package.json; no root tsconfig; no test script,110,2016-06-03,142170,0.61,133,0.0,,False,,88c736ddb2ad4ce49f78b3119473f813f1f2665d,2017-05-11,False
+typeorm/typeorm-routing-controllers-extensions,human,False,no test script; TS size outside 40KB-1.5MB,108,2016-09-28,13741,1.0,20,0.0,,True,,318e84f0ede4eaf8be6dcc009a2c57370736b5a8,2018-04-19,False
+gund/ng-http-interceptor,human,True,,104,2016-09-30,53196,0.812,318,0.0,,True,other,c22f4db95a4883ee4822ab74eb24fda900cca4c2,2017-11-08,False
+SharePoint-NodeJS/Awesome-SharePoint-Node.js,human,False,no test script; TS size outside 40KB-1.5MB,100,2017-08-21,15079,1.0,46,0.0,,True,,0b388fc2c224a116342f881afce869e2581e2807,2018-10-26,False
+brookshi/Hitchhiker,human,False,no root package.json; no root tsconfig; no test script,2204,2016-09-26,1005366,0.813,931,0.0,,False,,318bc47d4041b32d0e2ffb1716be053abd28b456,2018-10-16,False
+szdc/tiktok-api,human,True,,1293,2018-06-01,60602,0.996,79,0.0,,True,mocha,7ee107c513965511f50e1fbeb716347f92549bad,2020-05-22,False
+angular/in-memory-web-api,human,True,,1163,2016-04-27,99942,0.872,112,0.0,,True,other,3886393a074972ebb931a673ff491c9b11b47213,2020-05-15,False
+joelgriffith/navalia,human,True,,977,2017-06-29,79316,0.998,234,0.0,,True,jest,901915fdf97a7f36a35fd70aede3aba7a2e73639,2018-07-24,False
+amazon-archives/aws-serverless-auth-reference-app,human,False,no root package.json; no root tsconfig; no test script; TS share < 60%,745,2016-10-31,155259,0.486,145,0.0,,False,,5aceba979c94da24974aca06d3734b6e1ba8498d,2019-06-21,False
+ownx/taro-kit,human,False,no test script; TS size outside 40KB-1.5MB,705,2018-09-25,10952,0.712,52,0.0,,True,,b466d6c5b8685ce5507d77d3995b4609383d78c3,2020-03-04,False
+kripod/react-hooks,human,False,monorepo,555,2019-06-14,55199,0.992,843,0.0,,True,jest,0a36228e43052a343e6976c72a9aa46e1a841995,2020-09-12,True
+toddmotto/angular-pizza-creator,human,False,TS share < 60%; TS size outside 40KB-1.5MB,449,2016-12-15,19690,0.475,22,0.0,,True,other,9dbda61c76f51baf0b8752b2c1ce3b2a5140162a,2020-04-03,False
+r-park/soundcloud-ngrx,human,True,,435,2016-08-03,240794,0.904,78,0.0,,True,ava,9effe62d6b8a0278cd2375f41c97a625fe68cb83,2017-07-02,False
+pilagod/js-tracker,human,True,,398,2016-09-28,187031,0.915,639,0.0,,True,mocha,20b8456857ba1ebd1f32118a26a50744b482ed7c,2018-03-16,False
+slorber/awesome-debounce-promise,human,False,TS size outside 40KB-1.5MB,392,2018-09-13,6797,0.907,30,0.0,,True,other,e2c107865201b8dc4e14cd36c74839e9a42bd560,2020-11-18,False
+ForbesLindesay/taxi-rank,human,True,,344,2017-05-27,49604,0.624,38,0.0,,True,jest,78702e9c008ab5683cb3df7e362ee40444964afd,2018-07-11,False
+rawrmaan/restyped,human,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,311,2017-10-05,48,1.0,65,0.0,,False,,cc488fd143139e04d03ed2ea58aedba7b3b5c82a,2018-08-02,False
+tensorflow/tfjs-layers,human,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,278,2018-02-26,1977681,0.985,513,0.0,,False,,0c6b1cae38a9677d3db464b2743f02185d713ba6,2019-08-19,False
+bradtraversy/deno-rest-api,human,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,267,2020-05-19,6620,1.0,8,0.0,,False,,0ce875b02826baf011e8ef1eb94bca2ecc6e7088,2020-06-03,False
+apgzs/cool-admin-api,human,False,TS size outside 40KB-1.5MB,263,2019-09-28,8336,1.0,18,0.0,,True,other,21ad225fd361ec5d6457b52837696af27869f5f4,2020-05-22,False
+hua1995116/google-translate-open-api,human,False,TS size outside 40KB-1.5MB,261,2019-08-10,12619,0.791,29,0.0,,True,mocha,0268e0a316c8dbfde43fdc8a85eadb070018784e,2020-11-17,False
+paroi-tech/direct-vuex,human,False,TS size outside 40KB-1.5MB,255,2019-10-12,17200,0.917,128,0.0,,True,jest,8aaa42913db093c05663b0c3f8f79dc55e4dbe01,2020-10-21,False
+tsukhu/nxplorerjs-microservice-starter,human,True,,237,2017-06-23,135070,0.969,745,0.0,,True,jest,3ce0d5291358bbdb6a4281bc87dd42522e8d2bf5,2020-02-03,False
+SimonHoiberg/Hue-Debugger-UI,human,False,TS share < 60%; TS size outside 40KB-1.5MB,214,2018-09-26,29649,0.553,36,0.0,,True,other,25ded1ab0e6b8ae808c32d9df7876818740e0927,2020-01-11,False
+Chabane/bigdata-playground,human,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,210,2017-12-12,33070,0.33,465,0.0,,False,,6838b5e33fefe81b7e1514c057dad5ebc48f4132,2019-02-01,False
+zaqqaz/ng2-rest-api,human,False,no root tsconfig; TS size outside 40KB-1.5MB,206,2016-04-02,14596,0.836,24,0.0,,False,other,5654b33f4784b542c4d4c5f49df07ec51acad0ca,2016-11-07,False
+nmanikiran/rest-api-node-typescript,human,False,no test script; TS size outside 40KB-1.5MB,200,2017-05-30,13571,1.0,30,0.0,,True,,9919e4b8faa1ba080dabcf9c453f34611a2da86f,2020-12-25,False
+trustwallet/trust-ray,human,True,,199,2017-10-17,204294,0.983,871,0.0,,True,mocha,b5cab433b336ac95c9e1e8199a396a77e9ac1a80,2019-04-01,False
+sentialx/electron-extensions,human,False,no test script,193,2019-05-14,56450,0.969,205,0.0,,True,,fe33745c1627997fd1f30d568a67bb022bd361f6,2020-07-16,False
+afertil/nest-chat-api,human,False,no test script; TS size outside 40KB-1.5MB,180,2018-01-20,24063,0.998,42,0.0,,True,,6ac7898b4f6ae91d1652d17c87eb17b89f20bf24,2018-10-25,False
+w3tecch/express-graphql-typescript-boilerplate,human,True,,179,2017-01-06,90703,0.917,206,0.0,,True,jasmine,28b2e84ee0063d6cc464a45bd05be2bc914b3a34,2018-11-11,False
+Gqlify/gqlify,human,False,monorepo,177,2018-10-15,316084,1.0,250,0.0,,True,mocha,2bfb08cc1512075033f3aff81611ec8c12c0b541,2019-03-24,True
+react-navigation/animated-switch,human,False,no test script; TS size outside 40KB-1.5MB,158,2019-04-06,5485,0.798,42,0.0,,True,,c9fbf8d364036e05a6ae1868e291aeb1ff6371ee,2020-02-24,False
+new-eden-social/new-eden-social,human,True,,152,2017-06-26,475326,0.832,329,0.0,,True,other,806cb3b8e11ead6b8d9eebb61776066a3cce8652,2019-09-23,False
+valotas/preact-context,human,False,TS size outside 40KB-1.5MB,150,2018-03-17,28851,0.798,103,0.0,,True,mocha,3b41d4853ea62c77e664d012ae4a11e3792543a5,2020-07-11,False
+mpetkov/ng2-finance,human,True,,142,2016-11-04,265881,0.895,367,0.0,,True,other,1ffb9a08cb5b17ff1c20bd1cc3cc17153275de63,2018-01-28,False
+MidoAhmed/nestjs-api-boilerplate,human,True,,140,2020-03-12,49170,0.97,110,0.0,,True,jest,7a9cceeed9cd8b652b56e1ee0c8b4a43ac6634ab,2020-04-22,False
+Adherentman/Typescript-wxApi.d.ts,human,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,138,2018-03-30,4990,1.0,161,0.0,,False,,19c7f2868339db2265466a2bce282637073a79c3,2019-08-27,False
+tomastrajan/ngx-model,human,False,TS size outside 40KB-1.5MB,134,2017-07-20,4482,1.0,54,0.0,,True,mocha,21d78c6625e4c363d5fceb0011087bed781533d0,2018-09-29,False
+jestersimpps/cryptotrader,human,False,no root package.json; no root tsconfig; no test script,129,2017-09-04,111420,0.812,53,0.0,,False,,57cf0f728d28ac46f6c7f0456789704f8385b6bf,2017-10-19,False
+asad-devx/deno-api-starter-oak,human,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,125,2020-05-29,24245,0.992,56,0.0,,False,,ab2ce18accd5a3a0675d40793bd0489240c440ad,2020-08-30,False
+mjhea0/typescript-node-api,human,False,TS size outside 40KB-1.5MB,124,2016-11-04,5721,0.908,23,0.0,,True,mocha,7233dbb13b9ee0062973b4488d22459898148155,2017-11-18,False
+XVincentX/vscode-apielements,human,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,121,2016-06-18,27757,0.999,286,0.0,,False,,5114e8f9437251dd1807de5948c044450d293fb5,2017-07-31,False
+theKashey/react-shallow-context,human,False,TS size outside 40KB-1.5MB,115,2018-10-04,6603,1.0,8,0.0,,True,other,f064df07fc7659c18e6e85edf5b5ba0c3c38ff1f,2019-05-04,False
+feredean/node-api-starter,human,True,,114,2019-07-25,81173,0.987,158,0.0,,True,jest,0b9cd4163be88f693cec45f6b8f75ef5a4f266eb,2020-12-01,False
+dragonman225/notionapi-agent,human,False,TS size outside 40KB-1.5MB,112,2019-05-27,13274,0.919,153,0.0,,True,other,b9164f861a6f40636b3ea237db8a33325348a270,2020-02-27,False
+aluisiora/node-routeros,human,True,,111,2017-10-23,62026,0.787,195,0.0,,True,mocha,0338cc062c21052a91aa24b2c9b91988ecfdaa31,2020-04-17,False
+xbl/raml-mocker,human,True,,111,2018-09-13,84395,0.83,248,0.0,,True,ava,e00d775a72ed42b1edb8cc1c2545367378bbee87,2020-09-06,False
+dalenguyen/serverless-rest-api,human,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,108,2018-06-28,6137,0.443,13,0.0,,False,,11cda60e513fe96996911d56f02fff297d52239a,2019-10-19,False
+jamesknelson/react-zen,human,True,,107,2019-10-25,42660,0.975,7,0.0,,True,jest,b18d59ece6a63e46bfe18cac27ecd691c2e11794,2019-10-26,False
+vue-styleguidist/vue-docgen-api,human,True,,105,2017-06-11,168298,0.89,195,0.0,,True,jest,96503d5d37ca8dd61a224cb23e937cad4e47f2f9,2019-03-06,False
+Arcaea-Infinity/BotArcAPIs-Memories,human,True,,105,2020-04-21,238725,0.999,479,0.0,,True,other,05fcbbeb5fe400c7aa616ad7e58131364d5cb56a,2020-12-17,False
+Innovic-io/angular-nestjs-rendering,human,False,no test script; TS size outside 40KB-1.5MB,105,2018-01-02,16094,0.797,18,0.0,,True,,2159b860a1cfd24674bb4162ef2c1f36058c184e,2018-04-18,False
+sentialx/multrin,human,False,no test script,2294,2018-08-19,101692,0.947,363,0.0,,True,,32e342dca5084931ee50eba6a06da13d9252aaea,2020-09-11,False
+youzan/zan-proxy,human,False,no test script; TS share < 60%,1825,2018-04-21,172220,0.593,89,0.0,,True,,d35dda17de5f04a0309c7bd17eb62cecc5b6b5d2,2020-01-06,False
+ngrx/example-app,human,True,,1351,2016-05-28,67441,0.962,84,0.0,,True,other,ee0f331bf808525e003efa264b5065964c7f942b,2017-07-31,False
+samuelmeuli/mini-diary,human,True,,1088,2018-07-17,240613,0.883,462,0.0,,True,jest,8d2058548a0c07e5381afc6e66259176d4762863,2020-05-29,False
+dancancro/great-big-example-application,human,False,TS share < 60%,926,2016-10-23,1145846,0.479,492,0.0,,True,other,fc757ea6e862194deabb1fbb039fd4c6ca230010,2018-01-14,False
+amazon-archives/aws-cognito-angular-quickstart,human,False,no root tsconfig; TS share < 60%,678,2016-06-07,52609,0.597,140,0.0,,False,other,79c29ec50ba920ee20de7bec7cd2d4aa451039ba,2020-04-17,False
+jelbourn/material2-app,human,False,no root tsconfig; TS share < 60%; TS size outside 40KB-1.5MB,642,2016-03-16,4701,0.363,29,0.0,,False,other,bc653a8eb6a4696356a05bf0474f49fe15126a1d,2016-11-10,False
+artsy/emission,human,False,TS size outside 40KB-1.5MB,616,2016-02-24,2067401,0.85,8272,0.0,,True,jest,51161b30107c2b2450fd0c46e954f02e999c3e4c,2020-03-03,False
+ionic-team/ionic-app-scripts,human,True,,602,2016-09-09,670642,0.891,977,0.0,,True,jest,972fdeccefbb493dae85302216f108839ff25cd6,2020-04-30,False
+emilioastarita/lyricfier,human,False,TS share < 60%; TS size outside 40KB-1.5MB,571,2016-08-18,35669,0.582,258,0.0,,True,mocha,aaf79aabee642dee3c269fbf0183fb42a9442a45,2018-10-29,False
+gilmarsquinelato/i18n-manager,human,False,no test script,564,2018-08-26,94623,0.655,752,0.0,,True,,aef398bf57fe5fb76e626f4d768049847b59ee28,2020-09-25,False
+HSEIreland/covid-tracker-app,human,True,,524,2020-04-15,611195,0.966,7,0.0,,True,jest,522ff2bc16304d5995b5d94fb88ede1fd7ca0f6c,2020-10-01,False
+aws-samples/aws-mobile-appsync-chat-starter-angular,human,True,,516,2018-01-09,44856,0.778,92,0.0,,True,other,626e40df392c88b8d43d843d31bec0118a262acf,2020-03-17,False
+amazon-archives/aws-full-stack-template,human,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,513,2018-11-16,28332,0.531,142,0.0,,False,,ac72318d8689203b1c3fa8c71f3fed16e90248c3,2020-09-04,False
+yuche/gouqi,human,True,,493,2016-09-09,393815,0.976,194,0.0,,True,jest,8317833958e9a13d7a5098e2c6a390a69d053b6d,2017-06-13,False
+react-navigation/navigation-ex,human,False,monorepo,491,2019-06-09,664938,0.973,900,0.0,,True,jest,5a9845ed0a29fc8b88bc7bfcb04d9ebfae9764e0,2020-02-07,True
+dot-cafe/beam.cafe,human,False,no test script,435,2020-04-18,164682,0.691,328,0.0,,True,,3d6fb938c894f04658a3ee82c209afcd293d66f0,2020-12-12,False
+Polymer/prpl-server,human,False,TS size outside 40KB-1.5MB,417,2017-05-04,39820,0.979,137,0.0,,True,mocha,49b4b49d87e446312bd88c11137ec9ab672ed7ca,2020-08-12,False
+syumai/dinatra,human,False,no root package.json; no root tsconfig; no test script,414,2018-11-30,50969,0.966,188,0.0,,False,,bdc15e54833196ce0282d34700a75860acef2246,2020-11-07,False
+m-inan/react-native-music-app,human,True,,308,2019-05-06,77547,0.816,192,0.0,,True,jest,925b6437cf91ec2c5ce73064ccd1f5024c8abb13,2020-12-29,False
+jayphelps/nofux,human,False,TS size outside 40KB-1.5MB,307,2016-05-19,342,1.0,6,0.0,,True,other,e9441419568a48c7459c68514f1143ecdd90184f,2019-05-10,False
+innFactory/create-react-app-material-typescript-redux,human,False,TS size outside 40KB-1.5MB,289,2018-01-28,24248,0.911,97,0.0,,True,other,f7d227cc40e29a4816ef8d77f3e5cf5ae32da053,2020-03-16,False
+hiroppy/ssr-sample,human,True,,282,2018-07-30,71080,0.905,500,0.0,,True,jest,50a7e35226ea083cf59a1896e507bf80bdae82e8,2020-04-11,False
+akserg/ng2-toasty,human,True,,280,2016-02-18,40377,0.823,107,0.0,,True,other,631ac12e7facac4d438837b65e2916db30bbd6e2,2017-06-13,False
+styfle/react-server-example-tsx,human,False,TS size outside 40KB-1.5MB,276,2016-06-11,16929,0.909,825,0.0,,True,tap,3c80f355d5a4a9909ccf06306833f24a97dae8c8,2020-12-03,False
+kelvin-mai/nest-commerce,human,False,TS size outside 40KB-1.5MB,271,2019-02-13,28669,0.977,36,0.0,,True,jest,68e1598bea1793b4aaca2d1ca9a6dd6f23749800,2019-05-20,False
+staltz/dat-installer,human,True,,270,2017-10-24,50891,0.794,85,0.0,,True,jest,10b4ceb5d2a73d8c53d5752561f1b9e82e1262a2,2018-09-26,False
+TeamMaestro/angular-native-seed,human,False,TS share < 60%; TS size outside 40KB-1.5MB,265,2017-04-20,25867,0.537,75,0.0,,True,other,8aae9264d295b68ad52f0294074d87f6a46e5538,2018-03-23,False
+piotrwitek/react-redux-typescript-realworld-app,human,False,TS size outside 40KB-1.5MB,252,2018-05-13,28195,0.915,36,0.0,,True,other,f92c56a612650dca9aafa47269c95565a7f27195,2019-11-01,False
+mmazzarolo/chrome-another-tab,human,True,,249,2018-12-09,45516,0.966,122,0.0,,True,other,bb0fd76beeba0912bf8c6f9e6001f5ee8082a8fc,2019-08-15,False
+superpowers/superpowers-app,human,False,no root tsconfig; no test script,247,2016-01-04,129937,0.807,271,0.0,,False,,4fc9777c338695ae1cc2cad937c9c5a7b5ed4284,2019-12-17,False
+aggarwalankush/ionic-mosum,human,False,no test script,244,2016-11-12,46924,0.658,129,0.0,,True,,caddea6ed32b095ddb0a91bffdf414fc6845233f,2020-10-01,False
+Annihil/revolut-emergency,human,False,no test script,242,2019-10-12,81326,0.983,28,0.0,,True,,985de0ce52546180bce190a03c13d86fc7d6e1fd,2020-08-19,False
+coffeeandcloud/angular-clean-architecture,human,False,TS size outside 40KB-1.5MB,236,2018-07-04,15104,0.839,35,0.0,,True,other,b0ac9c3c3989ce954c501523238383671d9f93b9,2018-09-04,False
+sunhaikuo/js-arouse-app,human,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,219,2018-01-23,6203,0.529,4,0.0,,False,,ba794ad9dd778b03e570b6ad5457fc2229e179e7,2018-01-23,False
+idea4good/GuiLitePreviewer,human,False,no test script; TS size outside 40KB-1.5MB,210,2019-06-03,6945,0.605,37,0.0,,True,,22e7a00a4e543de9c5fe1fd2312b88ef3c8dca83,2020-06-15,False
+samarthagarwal/wooionic3,human,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB,209,2017-04-08,37467,0.556,53,0.0,,True,,a5dc92188f1504143223fe2ce8424675e19fb96d,2018-05-27,False
+peter-mach/angular2-starter-kit,human,False,no test script,208,2016-03-10,52980,0.882,25,0.0,,True,,4a6498312e66f58022550565d7f0253fdc82b230,2016-12-29,False
+start-javascript/sb-admin-material,human,False,TS size outside 40KB-1.5MB,197,2018-05-09,33997,0.66,36,0.0,,True,other,e0577e0608b3d0a3cdc90cef7e5baea2399bb967,2020-12-05,False
+giacomocerquone/angular4-mean-starter,human,False,TS share < 60%; TS size outside 40KB-1.5MB,195,2016-04-10,11786,0.536,14,0.0,,True,other,ccad5ce688216330d0f28019cf691ffb61ef2bc8,2017-11-18,False
+harksys/HawkEye,human,False,no test script,186,2016-12-10,206293,0.758,514,0.0,,True,,77203dc40a14300887c58505707ae33955819b6d,2018-07-05,False
+slackapi/steno,human,False,no test script,186,2017-08-15,72407,0.999,107,0.0,,True,,8692c051e74ce4d2d670c2176f22a711c40379a3,2020-07-16,False
+ngrx/db,human,False,TS size outside 40KB-1.5MB,182,2016-01-06,15234,0.859,36,0.0,,True,jasmine,056b2792fe0d6295b5cf22650c27aa314ac279a9,2017-11-14,False
+react-native-training/create-xp-app,human,False,no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,180,2017-05-05,16044,0.584,34,0.0,,False,,52f373c840420a54018a71f282684477fd3fd9ae,2017-08-03,False
+ProtonMail/react-components,human,False,TS size outside 40KB-1.5MB,178,2019-02-12,2647626,0.91,3375,0.0,,True,jest,d2cc0e8f073f048c0c10c39610bbe20d2795afd6,2020-12-30,False
+hastic-zzz/hastic-grafana-app,human,True,,177,2018-05-21,154451,0.739,390,0.0,,True,jest,15af4f35cc971da740a76ee143414e9056f0543a,2020-12-26,False
+EddyVerbruggen/nativescript-pluginshowcase,human,False,no test script,174,2017-08-25,109510,0.639,217,0.0,,True,,ca8e702303822dabc61130c5eb9f4908cab80bc9,2020-06-18,False
+tsmean/tsmean,human,False,no test script,172,2017-04-02,150292,0.88,318,0.0,,True,,c5f178ace7ca1c435c2cbd748e0e6f17ca1aba0d,2020-04-29,False
+natixco/tabby,human,False,TS share < 60%,170,2020-01-18,50952,0.538,127,0.0,,True,mocha,361d34c7a92c2bd31f6f691dc1b484bde94193f0,2020-09-30,False
+maxime1992/pizza-sync,human,False,no root package.json; no root tsconfig; no test script,165,2017-01-31,143211,0.891,195,0.0,,False,,52cb2d0d87eba5ca38b92b4ffe6a6d8964f11ca3,2018-09-22,False
+bhaidar/nestjs-todo-app,human,False,no root package.json; no root tsconfig; no test script,164,2019-03-02,68956,0.886,40,0.0,,False,,9b9c01f4f0a9d05203f85bada4cd02ef9f5cd548,2019-08-15,False
+infinitered/ChainReactApp2019,human,True,,163,2018-04-03,200601,0.684,335,0.0,,True,jest,9dcc2a2b460f35607099c8f563048692f740ed80,2019-12-10,False
+aggarwalankush/ionic-push-base,human,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB,162,2016-07-21,4736,0.469,18,0.0,,True,,22d3695576450bbe41d8325b6d9e72cde9f21c72,2017-06-30,False
+webmaxru/pwatter,human,False,TS share < 60%; TS size outside 40KB-1.5MB,161,2017-08-26,20840,0.571,40,0.0,,True,other,2005aa80d60dbc859f671587a1fda28c1f1f7055,2018-11-22,False
+monicahq/old_mobile_app,human,True,,159,2018-01-07,389191,0.943,446,0.0,,True,jest,c2579cb341182d5fd745027bf523d51edd0a517b,2018-09-22,False
+tibdex/autorebase,human,True,,159,2018-07-06,57821,0.993,71,0.0,,True,jest,4de07e27937b3311bba661e816be7e379e54a5b9,2019-10-16,False
+MatthieuSegret/graphql-rails-blog,human,False,no root tsconfig; no test script; TS share < 60%,154,2016-11-11,65759,0.575,95,0.0,,False,,6423881bec223522f8af09cd4b18905ca20fef0f,2018-02-05,False
+sitepoint-editors/angular-todo-app,human,False,TS size outside 40KB-1.5MB,153,2017-03-14,19301,0.62,8,0.0,,True,other,7069b9be885821f2811f0fed8581a37e3b21f6c8,2017-05-06,False
+sebastianhaas/medical-appointment-scheduling,human,True,,152,2016-03-14,490037,0.792,2215,0.0,,True,other,d71077ff4044e80dcce916d5d579113437623f3d,2017-11-03,False
+googlearchive/appr-wrapper,human,False,no test script; TS size outside 40KB-1.5MB,151,2017-05-09,18642,0.777,39,0.0,,True,,329a45634989e52c722c8e0e942f42d6db327df3,2019-05-21,False
+loiane/angular2-crud-rest,human,False,TS size outside 40KB-1.5MB,145,2016-09-20,17011,0.701,21,0.0,,True,other,e83bcdb53fc063bd984c81466987ec0091cb6a86,2017-03-18,False
+skellock/typescript-with-electron-react-kit,human,True,,144,2017-07-15,52893,0.98,212,0.0,,True,jest,0acff6b0920d3b3a14ba2f1987a69f502c6c20a8,2018-03-19,False
+dfrankland/react-amphtml,human,True,,144,2016-03-26,67224,0.945,159,0.0,,True,jest,30bd69822753a7da8fc9b02e3c1160ae16975a88,2019-08-10,False
+aerian-studios/ignite-typescript-boilerplate,human,False,TS share < 60%,144,2017-10-21,46913,0.444,348,0.0,,True,jest,356ac6758859cb47b7b32f84bf0e72b2c77a60c5,2018-01-15,False
+snipcart/snipcart-nextjs,human,False,no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,140,2019-05-10,7135,0.554,12,0.0,,False,,0a8c9e7268fbf047103cfbc3de4d395bbf2c22e1,2020-01-06,False
+aboutlo/ether-swr,human,True,,137,2020-05-25,58988,0.996,81,0.0,,True,jest,29efee27b470812be13cccf58e25dadb21cd8ab7,2020-06-08,False
+airsecure/airsecure,human,False,TS size outside 40KB-1.5MB,134,2019-02-15,30258,0.826,97,0.0,,True,jest,a15a5b3b0b0c8f1d1c160341052a328985329f71,2019-03-30,False
+rajayogan/ionic3chat,human,False,no test script,133,2017-06-06,59964,0.693,20,0.0,,True,,dccdd5fc344adc27eaf34963cd98781223a7d826,2017-10-02,False
+sonnylazuardi/bibleify-mobile,human,False,TS share < 60%,132,2017-09-15,40246,0.421,54,0.0,,True,jest,cb5e4d6fcd9213af7979f269a71dab09534f6aa6,2019-02-01,False
+fluster-app/fluster-app,human,True,,128,2018-09-12,985213,0.731,341,0.0,,True,other,6374d7d8955202847570a18d6f8f8d49ba6e4c70,2020-08-15,False
+jussikinnula/angular-socket-io-chat,human,False,no test script; TS size outside 40KB-1.5MB,128,2016-02-24,32919,0.863,115,0.0,,True,,af105b2dc659ce72d3f7f576ac97f4581a424031,2017-07-21,False
+bencompton/framework7-react,human,True,,128,2016-10-15,191873,0.9,231,0.0,,True,other,16b5b1de18643f5984d374b2d2146c60a16d30f0,2018-07-20,False
+smartapant/ionic2-reddit-reader,human,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB,126,2016-12-02,6167,0.308,53,0.0,,True,,e243209152c1dd9e9130ef32cab2198df00862f5,2017-03-01,False
+angular-university/angular-firebase-app,human,True,,124,2016-10-02,63616,0.844,66,0.0,,True,other,c0dfacf8d96aecb42896763cd7ac6d7fc1d589c6,2019-10-14,False
+grandjs/grandjs,human,True,,124,2018-09-11,88029,0.99,187,0.0,,True,mocha,ac7808c34da364f5dd3246a9ca4d3fb8ec3545f5,2020-12-25,False
+ddellamico/ionic2-taxi-app,human,True,,121,2016-09-07,45867,0.609,19,0.0,,True,other,a0f81c59270a5126c3fb527334dfca614d32e027,2017-06-12,False
+sigoden/wechatpay,human,True,,120,2018-05-16,216019,0.999,39,0.0,,True,jest,0dc0afe46db764d03821961641d091973bc6ed6b,2019-06-10,False
+JP1016/Markdown-Electron,human,True,,117,2019-10-01,55489,0.649,23,0.0,,True,mocha,07edebb6a59a03012827ceb4a98ad79d654d1e7a,2019-10-04,False
+crazyfactory/ts-react-boilerplate,human,True,,116,2017-01-20,66341,0.759,745,0.0,,True,jest,8762a8d237a9ead26bda8d22545b56babc20f7cd,2020-12-14,False
+comerc/cra-ts-antd,human,False,TS share < 60%; TS size outside 40KB-1.5MB,113,2017-07-31,3414,0.531,14,0.0,,True,other,2b762694a7dfa66a43ae43934735c818c1b23cf7,2017-12-16,False
+zxj963577494/Ionic2-CNodeClub,human,False,no test script; TS share < 60%,112,2017-06-23,40235,0.585,21,0.0,,True,,692cee0f9ee0c9185fca790c43d54b045e793864,2017-09-11,False
+codediodeio/ngrx-fire,human,False,TS size outside 40KB-1.5MB,111,2017-08-28,19441,0.832,13,0.0,,True,other,9ca4ec470563eabd663b413aa59c2ba0b3b7ab4d,2017-09-08,False
+jlooper/angular-starter,human,True,,105,2016-10-17,46551,0.753,30,0.0,,True,other,b76aa75485e9222c1dc7f4ad8730b9e19582bcd6,2017-05-29,False
+patrick91-archive/Styled-Components-Typescript-Example,human,False,no test script; TS size outside 40KB-1.5MB,104,2016-12-26,2821,0.924,14,0.0,,True,,04e7dd82850d3bc116b7a1e13a662867d29b6216,2018-09-25,False
+HadoukenIO/core,human,True,,104,2017-05-03,629860,0.636,1155,0.0,,True,mocha,8115f904a3b5231d871dec3f03f1edb3745d533b,2019-10-17,False
+ionic-team/ionic-stencil-hn-app,human,False,no test script; TS size outside 40KB-1.5MB,102,2017-05-02,19458,0.78,116,0.0,,True,,9b8d2c6927c9b99b285fa2aa0599016eac9f9604,2018-03-22,False
+typesoft/container-ioc,human,False,TS size outside 40KB-1.5MB,101,2017-09-06,35852,0.96,262,0.0,,True,mocha,ac23a57e5c549bdb4b77687c12bf39fa58961a56,2018-02-25,False
+soates/Auto-Import,human,False,TS size outside 40KB-1.5MB,165,2016-07-18,28120,1.0,40,0.0,,True,other,bb6f075f36d520e2560505276ef7064ec1c7172f,2017-11-03,False
+sa4hnd/vibra-code,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,153,2026-03-06,18025582,0.345,7,0.0,,False,,,,False
+sudomichael/agentgraphed,llm,False,no test script; AI-attributed commit share < 50%,46,2026-06-06,468765,0.967,80,0.312,claude-code;copilot,True,,,,False
+Sqcows/forgejo-mcp,llm,True,,15,2026-02-23,514931,0.998,19,0.947,claude-code,True,vitest,,,False
+ayushjj/knowledge-graph,llm,False,TS share < 60%,15,2026-02-24,67210,0.405,98,0.929,claude-code,True,vitest,,,False
+dannystuart/carousel-standalone,llm,False,no test script; TS size outside 40KB-1.5MB,11,2026-04-17,28200,0.953,18,0.889,claude-code,True,,,,False
+drcollect/demolition-derby,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits,10,2026-09-29,878070,0.932,3,1.0,claude-code,False,,,,False
+flipace/claudit,llm,False,no root tsconfig; no test script; TS share < 60%,9,2025-12-22,269897,0.467,52,0.654,claude-code,False,,,,False
+cjy20040604-hub/eyes-training,llm,True,,8,2026-10-01,930055,0.964,25,1.0,claude-code,True,vitest,,,False
+lmanchu/iris-system,llm,False,no root tsconfig; no test script,6,2025-11-01,84787,0.979,61,0.951,claude-code,False,,,,False
+jarrodwatts/scuttlepay,llm,False,no test script,6,2026-02-12,253420,0.873,73,0.973,claude-code,True,,,,False
+reneodlt/civitas,llm,False,no root tsconfig; no test script; monorepo; TS size outside 40KB-1.5MB,6,2026-10-17,10275478,0.984,551,0.79,claude-code,False,,,,True
+dandacompany/phoneclaw,llm,False,< 10 commits,4,2026-02-18,131991,0.966,8,1.0,claude-code,True,vitest,,,False
+jackson-video-resources/defi-yield-optimizer-agent,llm,False,no root tsconfig; no test script; monorepo; < 10 commits,3,2026-03-30,134404,0.75,5,1.0,claude-code,False,,,,True
+mark02252/garnet-ai,llm,False,TS size outside 40KB-1.5MB,3,2026-03-16,2829822,0.97,681,0.54,claude-code,True,vitest,,,False
+carloslibardo/archer-wars,llm,False,no root tsconfig,3,2026-07-24,904262,0.754,294,0.76,claude-code,False,vitest,,,False
+az9713/cerebro,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%,3,2025-12-24,243207,0.472,14,0.929,claude-code,False,,,,False
+markherring/mark-interview-demo,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,3,2026-04-15,39182,0.725,23,0.087,claude-code,False,,,,False
+Caiozzo-Consulting/shopify-seo-audit,llm,False,no root tsconfig; no test script; monorepo,2,2026-09-04,278770,0.997,10,1.0,claude-code,False,,,,True
+AyyazTech/crm-claude-code,llm,False,no test script; < 10 commits,2,2026-05-31,82494,0.971,2,1.0,claude-code,True,,,,False
+OrionArchitekton/proctor,llm,True,,2,2026-06-07,154546,0.894,63,0.603,claude-code;gemini,True,vitest,,,False
+Emishonowayi/ratchet-scroll-gallery,llm,False,no test script; TS size outside 40KB-1.5MB,2,2026-05-19,36219,0.967,12,0.917,claude-code,True,,,,False
+pisan-labs/cache-miss-theater,llm,False,< 10 commits,2,2026-11-02,132946,0.921,7,1.0,claude-code,True,vitest,,,False
+Mason333xbt/sol-terminal,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,2,2026-10-01,29456,0.814,2,1.0,claude-code,True,,,,False
+pisan-labs/bombe-bench,llm,False,< 10 commits,2,2026-11-02,127145,0.923,7,1.0,claude-code,True,vitest,,,False
+pisan-labs/fork-count,llm,False,< 10 commits,2,2026-11-02,201024,0.959,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/accessibility-lens,llm,False,no root tsconfig; monorepo,2,2026-11-02,113520,0.69,43,0.884,claude-code,False,other,,,True
+pisan-labs/code-viva,llm,False,< 10 commits,2,2026-11-02,223842,0.865,5,1.0,claude-code,True,vitest,,,False
+baberparweez/Qwen-Qode,llm,False,AI-attributed commit share < 50%,1,2026-05-27,217896,0.965,24,0.0,,True,node --test,,,False
+andrewaarestad/personal-website,llm,True,,1,2025-11-01,410686,0.973,40,0.75,claude-code,True,other,,,False
+jiaochangyang/token-dashboard,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits; AI-attributed commit share < 50%,1,2026-01-21,101375,0.691,7,0.0,,False,,,,False
+ZohaibCodez/spec-driven-todo-ai,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,1,2025-12-12,291937,0.579,88,0.0,,False,,,,False
+MatthewRSouth/matthew-south-portfolio,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,1,2026-07-05,56192,0.449,14,0.0,,True,,,,False
+MatthewRSouth/kendrick-portolio,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,1,2026-06-11,72099,0.933,7,0.143,claude-code,True,,,,False
+MatthewRSouth/book-money-tracker,llm,True,,1,2026-03-22,176946,0.993,38,0.737,claude-code,True,vitest,,,False
+engelbertgm/Mise-en-place,llm,True,,1,2026-10-13,495264,1.0,65,0.615,claude-code,True,node --test,,,False
+starpia-forge/burndler,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; < 10 commits,1,2025-09-14,421120,0.519,2,0.5,claude-code,False,,,,False
+irisk/cycle-tracker,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits,1,2026-11-03,82431,0.943,2,1.0,claude-code,False,,,,False
+samuelmtz1/db-coach-app,llm,False,< 10 commits,1,2026-10-30,136046,0.981,8,0.75,claude-code,True,vitest,,,False
+jiordiviera/postforge,llm,False,AI-attributed commit share < 50%,1,2025-11-23,111993,0.953,24,0.042,claude-code,True,vitest,,,False
+irisk/fresh-breaks,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits,1,2026-11-03,108295,0.901,2,1.0,claude-code,False,,,,False
+irisk/helder,llm,False,no test script; < 10 commits,1,2026-11-06,92665,0.966,7,1.0,claude-code,True,,,,False
+jwtracy/5-3-1-program,llm,False,no test script; < 10 commits,1,2026-06-30,200244,0.935,6,1.0,claude-code,True,,,,False
+mrballistic/pi-day-birthday-finder,llm,True,,1,2026-03-14,79533,0.895,10,1.0,claude-code,True,vitest,,,False
+rdevarakond88/medrecord,llm,False,no test script,1,2026-02-19,992455,0.929,409,0.85,claude-code,True,,,,False
+arambarrid/yoga-diary,llm,False,AI-attributed commit share < 50%,1,2026-05-14,134042,0.976,29,0.103,claude-code,True,vitest,,,False
+jitangupta/content-board,llm,True,,1,2026-02-22,411075,0.984,31,0.645,claude-code,True,vitest,,,False
+peraponf/3D_Geomec,llm,False,no root tsconfig; no test script; TS share < 60%; < 10 commits,1,2026-03-29,106455,0.456,2,1.0,claude-code,False,,,,False
+aramvr/yandex-music-mcp,llm,False,TS share < 60%; < 10 commits,1,2026-07-29,68421,0.463,3,1.0,claude-code,True,node --test,,,False
+saltylvn/wellness-tracker,llm,True,,1,2026-10-05,446680,0.945,93,0.968,claude-code,True,vitest,,,False
+asingh101/ai-product-portfolio-app,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,1,2026-07-03,1075107,0.771,9,0.0,,True,,,,False
+OOspurs/sched-notify-demo,llm,False,< 10 commits,1,2026-04-30,147448,0.974,1,1.0,claude-code,True,vitest,,,False
+saltylvn/dialed-kitchen,llm,True,,1,2026-10-23,421212,0.817,35,0.943,claude-code,True,vitest,,,False
+gsmith0572-dot/truly-free-qr,llm,False,no test script,1,2026-04-08,972637,0.971,171,0.5,claude-code,True,,,,False
+viberific/Autora,llm,False,TS size outside 40KB-1.5MB,1,2026-09-19,9820340,0.909,1163,0.64,claude-code,True,other,,,False
+Untrochka/vocabulary_app,llm,False,< 10 commits; AI-attributed commit share < 50%,1,2026-08-22,231790,0.96,8,0.0,,True,vitest,,,False
+Mustafa-Hisham1/AI-QA-Engineering-Agent,llm,True,,1,2026-08-12,883598,1.0,19,0.526,claude-code,True,node --test,,,False
+pisan-labs/emoji-lingua,llm,True,,1,2026-11-02,466216,0.915,10,1.0,claude-code,True,vitest,,,False
+pisan-labs/cron-cartographer,llm,False,< 10 commits,1,2026-11-02,103360,0.93,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/gpu-parallel-puzzler,llm,False,< 10 commits,1,2026-11-02,120440,0.912,4,1.0,claude-code,True,vitest,,,False
+pisan-labs/migration-diff-narrator,llm,False,< 10 commits,1,2026-11-02,100337,0.942,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/lockstep-lab,llm,False,< 10 commits,1,2026-11-02,113196,0.92,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/heap-arena-replay,llm,False,< 10 commits,1,2026-11-02,162771,0.928,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/pluck-lab,llm,False,< 10 commits,1,2026-11-02,106610,0.927,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/poincare-paint,llm,False,< 10 commits,1,2026-11-02,109501,0.928,8,0.875,claude-code,True,vitest,,,False
+pisan-labs/mult-streak,llm,True,,1,2026-11-02,50014,0.795,10,0.9,claude-code,True,vitest,,,False
+ShuromiU/Cortex,llm,False,TS size outside 40KB-1.5MB,1,2026-08-08,2368653,0.906,130,0.89,claude-code,True,vitest,,,False
+pisan-labs/type-witness,llm,False,< 10 commits,1,2026-11-02,71089,0.907,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/state-space-atlas,llm,False,< 10 commits,1,2026-11-02,164113,0.95,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/diagram-layout-engine,llm,False,< 10 commits,1,2026-11-02,250982,0.933,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/elevator-algorithm-lab,llm,False,< 10 commits,1,2026-11-02,101967,0.929,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/tiny-brains-league,llm,False,< 10 commits,1,2026-11-02,121675,0.889,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/shortcut-sprint,llm,False,< 10 commits,1,2026-11-02,94653,0.936,7,1.0,claude-code;copilot,True,vitest,,,False
+pisan-labs/misrepresentation-preflight,llm,False,< 10 commits,1,2026-11-05,224899,0.964,1,1.0,claude-code,True,vitest,,,False
+pisan-labs/leap-second-lab,llm,False,< 10 commits,1,2026-11-02,102765,0.831,4,1.0,claude-code,True,vitest,,,False
+pisan-labs/har-detective,llm,False,< 10 commits,1,2026-11-02,94822,0.943,7,1.0,claude-code,True,vitest,,,False
+pisan-labs/assignment-stress-test,llm,False,< 10 commits,1,2026-11-02,144824,0.948,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/program-alarm-1202,llm,False,< 10 commits,1,2026-11-02,57446,0.863,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/prompt-shrink-ray,llm,False,< 10 commits,1,2026-11-02,53419,0.89,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/where-does-it-say,llm,False,< 10 commits,1,2026-11-02,136074,0.927,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/ui-diff-lens,llm,False,< 10 commits,1,2026-11-02,76799,0.929,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/letter-ledger,llm,False,< 10 commits,1,2026-11-02,182777,0.939,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/sound-sketchpad,llm,False,< 10 commits,1,2026-11-02,77960,0.931,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/outguess-me,llm,False,< 10 commits,1,2026-11-02,56666,0.86,7,1.0,claude-code,True,vitest,,,False
+pisan-labs/study-buddy-matchmaker,llm,False,< 10 commits,1,2026-11-02,70899,0.91,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/tamerlane-board,llm,False,< 10 commits,1,2026-11-02,127577,0.925,4,1.0,claude-code,True,vitest,,,False
+pisan-labs/reverse-minesweeper-studio,llm,False,< 10 commits,1,2026-11-02,77236,0.928,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/agent-blast-radius,llm,False,< 10 commits,1,2026-11-02,114272,0.931,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/schema-storyteller,llm,False,< 10 commits,1,2026-11-02,106667,0.937,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/student-journey-check,llm,False,< 10 commits,1,2026-11-03,167424,0.949,2,1.0,claude-code,True,vitest,,,False
+pisan-labs/code-review-gauntlet,llm,False,< 10 commits,1,2026-11-02,79923,0.9,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/data-structure-city,llm,False,< 10 commits,1,2026-11-02,108100,0.904,4,1.0,claude-code,True,vitest,,,False
+pisan-labs/pull-the-pin,llm,False,< 10 commits,1,2026-11-02,116713,0.926,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/summit-navigator,llm,False,< 10 commits,1,2026-11-02,44048,0.862,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/net-units,llm,False,< 10 commits,1,2026-11-02,102166,0.915,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/modulo-bias-microscope,llm,False,< 10 commits,1,2026-11-02,107286,0.918,4,1.0,claude-code,True,vitest,,,False
+pisan-labs/repo-weight-map,llm,False,< 10 commits,1,2026-11-02,113339,0.936,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/brocot-gear-finder,llm,False,< 10 commits,1,2026-11-02,65592,0.902,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/consent-leak-watch,llm,False,< 10 commits,1,2026-11-03,112545,0.944,3,1.0,claude-code,True,vitest,,,False
+pisan-labs/cipher-ladder,llm,False,< 10 commits,1,2026-11-02,149625,0.954,6,1.0,claude-code,True,vitest,,,False
+pisan-labs/accessibility-fleet-log,llm,False,< 10 commits,1,2026-11-05,171739,0.948,1,1.0,claude-code,True,vitest,,,False
+pisan-labs/sql-replay,llm,False,< 10 commits,1,2026-11-02,100077,0.937,5,1.0,claude-code,True,vitest,,,False
+pisan-labs/dossier-comment-reflector,llm,False,< 10 commits,1,2026-11-04,172622,0.948,1,1.0,claude-code,True,vitest,,,False
+pisan-labs/code-analogy-forge,llm,True,,1,2026-11-02,425043,0.982,11,1.0,claude-code,True,vitest,,,False
+pisan-labs/acr-draft,llm,False,< 10 commits,1,2026-11-03,166398,0.944,1,1.0,claude-code,True,vitest,,,False
+nikblanchet/docimp,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%,0,2025-10-12,1261063,0.504,111,0.74,claude-code,False,,,,False
+cgrotteland92/code-reviewer,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits,0,2026-04-21,31450,0.494,4,0.75,claude-code,False,,,,False
+devish6/claude-code-projects,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%,0,2026-05-24,1190199,0.492,274,0.91,claude-code,False,,,,False
+schuettemarkus/claudefolio,llm,False,no test script; < 10 commits,0,2026-05-09,70135,0.954,3,0.667,claude-code,True,,,,False
+jrcopeti/expense-tracker,llm,False,AI-attributed commit share < 50%,0,2026-08-06,193052,0.973,33,0.394,claude-code,True,vitest,,,False
+suhasathreya/personal-blog,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-02-13,28229,0.968,4,0.75,claude-code,True,,,,False
+nishkgp/claude_test,llm,False,no root tsconfig; no test script,0,2026-04-05,77777,0.992,11,0.818,claude-code,False,,,,False
+Christian-Pantoja/Blooming,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-03-03,31992,0.835,8,0.5,claude-code,True,,,,False
+mrwalker/cc-family-hub,llm,False,no test script,0,2026-04-16,81838,0.758,16,0.688,claude-code,True,,,,False
+blackice2090/claude-project,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-03-03,46014,0.829,6,0.333,claude-code,False,,,,False
+sysphcd/claude_code_treasure_game,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,0,2026-06-07,171285,0.592,12,0.167,claude-code,False,,,,False
+juanpinzon97/expense-tracker-ai-,llm,False,no test script; < 10 commits,0,2026-06-01,49249,0.978,1,1.0,claude-code,True,,,,False
+HellosPookman/ClaudeCodeTest,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; < 10 commits,0,2026-04-08,93975,0.452,4,1.0,claude-code,False,,,,False
+webkhushboo/claude-code,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-07-14,2964,0.739,2,0.5,claude-code,True,,,,False
+alexander-williamson/timer.bucks-poker.com,llm,False,no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,0,2026-02-28,25259,0.546,15,0.0,,False,,,,False
+charul-passey/movie-pitch-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,24646,0.835,5,0.2,claude-code,True,,,,False
+jasonfh12-sudo/untitled-interface,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-10-12,414824,0.972,1,0.0,,True,,,,False
+pbparthas/monetly,llm,False,no test script,0,2025-10-15,331400,0.863,35,0.914,claude-code,True,,,,False
+charul-passey/interchange-decoder,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,23123,0.826,9,0.0,,True,,,,False
+charul-passey/afford-this,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,32306,0.869,9,0.0,,True,,,,False
+charul-passey/home-reno-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,28336,0.854,6,0.167,claude-code,True,,,,False
+charul-passey/web-research-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,26657,0.846,6,0.167,claude-code,True,,,,False
+charul-passey/game-design-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,27422,0.849,6,0.167,claude-code,True,,,,False
+charul-passey/youtube-chat-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,26405,0.844,5,0.2,claude-code,True,,,,False
+charul-passey/chargeback-coach,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,25969,0.842,9,0.0,,True,,,,False
+Andres191200/mcp-chat-gemini,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-03-15,9794,0.765,1,0.0,,False,,,,False
+charul-passey/tally-counter,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-06-29,8161,0.924,1,1.0,claude-code,True,,,,False
+charul-passey/debt-payoff,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,29779,0.86,9,0.0,,True,,,,False
+charul-passey/bin-lookup,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,23753,0.83,9,0.0,,True,,,,False
+charul-passey/rewards-optimizer,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,26417,0.845,9,0.0,,True,,,,False
+charul-passey/payment-rails,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,24753,0.836,9,0.0,,True,,,,False
+abobisthebuilder1234-ship-it/claude-calendar-,llm,False,no test script; < 10 commits,0,2026-06-18,57747,0.931,6,0.667,claude-code,True,,,,False
+kitiish/todo-supabase,llm,False,no test script; AI-attributed commit share < 50%,0,2026-05-21,58345,0.996,19,0.0,,True,,,,False
+charul-passey/meme-maker-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,23276,0.827,6,0.0,,True,,,,False
+charul-passey/apr-calculator,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,24645,0.835,9,0.0,,True,,,,False
+charul-passey/subscription-audit,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,24583,0.835,9,0.0,,True,,,,False
+lgw7126/Claude-nhm-museum,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-06-12,32813,0.864,4,1.0,claude-code,True,,,,False
+MIKI-0210/ai-portfolio,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-26,26670,0.627,2,0.0,,True,,,,False
+yashdotso/personal-income-dashboard-claude,llm,False,no test script; < 10 commits,0,2026-02-11,88743,0.946,4,0.75,claude-code,True,,,,False
+jer11/se-ai-quiz-w01,llm,False,< 10 commits,0,2025-08-25,61928,0.913,1,1.0,claude-code,True,other,,,False
+charul-passey/billing-designer,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,24831,0.836,9,0.0,,True,,,,False
+charul-passey/pricing-analyzer,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,23069,0.826,9,0.0,,True,,,,False
+charul-passey/memory-chat-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,27061,0.848,4,0.0,,True,,,,False
+ankitam44/clipsave,llm,False,no test script,0,2026-07-09,137945,0.825,11,0.727,claude-code,True,,,,False
+charul-passey/image-qa-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-28,27554,0.85,6,0.167,claude-code,True,,,,False
+mameshini/habit-tracker,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-02-07,19772,0.734,2,0.0,,False,,,,False
+johnsebastian28-2026/lifestyle-furniture-website,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-03-17,11164,0.898,3,0.333,claude-code,True,,,,False
+Shay714/cyber-socialites,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-04-09,84657,0.978,1,0.0,,True,,,,False
+kolodii-ivan/kolod-code,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,0,2026-03-24,22689,0.6,28,0.214,claude-code,True,,,,False
+kanwia-ai/claude-code-projects,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2025-11-27,5054,0.759,6,0.0,,False,,,,False
+cHynekim/habit-tracker-claude,llm,False,< 10 commits,0,2026-10-17,196680,0.994,4,0.5,claude-code,True,other,,,False
+hokaj09-d/claude-code-lab-todo,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits,0,2026-04-04,8703,0.593,2,1.0,claude-code,True,,,,False
+HoZyne/AgentOrca,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%,0,2026-03-15,623683,0.544,74,1.0,claude-code,False,,,,False
+GeorgeVekios/FitnessTrackerProject,llm,False,no root tsconfig; no test script,0,2026-02-03,149547,0.965,19,0.947,claude-code,False,,,,False
+diklein/whim,llm,False,no test script; < 10 commits,0,2026-10-09,262389,0.895,9,1.0,claude-code,True,,,,False
+GabrielAustinHenton/AutoTradeApp,llm,True,,0,2026-01-22,375755,0.995,226,0.81,claude-code,True,vitest,,,False
+patelnital25/Claude-Prompt-Builder,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-06-15,93116,0.963,9,0.222,claude-code,True,,,,False
+12studio55/ClaudeCod_Practice_TODOapp,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-03-20,38275,0.955,3,0.667,claude-code,True,,,,False
+jgnesbitt32/ClaudeCodeTest,llm,False,no root package.json; no root tsconfig; no test script,0,2026-06-05,169242,0.624,31,1.0,claude-code,False,,,,False
+rauljuhkam/softwater-assist-claude,llm,False,< 10 commits,0,2026-11-05,76884,0.983,6,0.667,claude-code,True,vitest,,,False
+chrisrocco/slay-the-spire,llm,False,no root tsconfig; AI-attributed commit share < 50%,0,2026-03-02,786286,0.927,106,0.35,claude-code,False,other,,,False
+marinerg2002-prog/claude-todo-app,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-10-23,14232,0.935,2,0.5,claude-code,True,,,,False
+sushnith2022-art/uigen,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-03-09,247531,0.98,7,0.143,claude-code,True,vitest,,,False
+planometric-vic/Planometric-ai-rebuild,llm,False,no test script; < 10 commits,0,2025-11-05,79027,0.988,3,1.0,claude-code,True,,,,False
+sh-flake/particle-flow-field,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-03-16,23095,0.746,1,0.0,,True,,,,False
+lgw7126/Claude-rivr-hero,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits,0,2026-06-12,27406,0.472,3,1.0,claude-code,True,,,,False
+Michael-Abril/my-custom-app,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-17,5401,1.0,2,0.0,,True,,,,False
+Packiyalakshmikiruba/property-post-maker,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-08-31,45804,0.932,2,0.0,,True,,,,False
+mitchdmarino/Budget,llm,False,no root tsconfig; monorepo; AI-attributed commit share < 50%,0,2026-04-06,150391,0.92,24,0.042,claude-code,False,other,,,True
+leoniex1/market-prep-agent-teams,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-08-19,102170,0.864,4,0.0,,True,vitest,,,False
+mlawson3691/habit-tracker,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-06-12,82852,0.885,3,0.0,,True,,,,False
+TanakritEuro/AutomataLab,llm,False,< 10 commits,0,2026-09-04,105007,0.989,5,1.0,claude-code,True,vitest,,,False
+rosskukulinski/games.ross.dev,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,0,2026-03-01,1106292,0.46,91,0.495,claude-code,False,,,,False
+newbeenoob/myblog,llm,False,no test script; AI-attributed commit share < 50%,0,2026-03-01,191880,0.943,16,0.0,,True,,,,False
+jtpoltorak/noteflow,llm,False,no root tsconfig; no test script; monorepo,0,2026-02-25,690014,0.958,161,0.96,claude-code,False,,,,True
+leThrax/thrax-site,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-09-12,220780,0.947,8,0.0,,True,vitest,,,False
+hannah-ahn/creative-lab,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-02-22,3707,0.78,1,0.0,,True,,,,False
+minhfixhup/test-CRM,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-09-20,108112,0.984,3,0.0,,True,,,,False
+sid3github/aptask-mail,llm,True,,0,2026-05-18,270355,0.973,13,0.923,claude-code,True,vitest,,,False
+Maheshbsv/enterprise-it-helpdesk,llm,False,AI-attributed commit share < 50%,0,2026-08-07,85125,0.804,39,0.359,claude-code,True,vitest,,,False
+lgw7126/Claude-aethera-hero,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits,0,2026-06-12,8159,0.373,3,1.0,claude-code,True,,,,False
+tufansoprano/jitsdiary,llm,False,no test script,0,2026-02-26,189151,0.952,51,0.725,claude-code,True,,,,False
+ekaterinarn/job-tracker,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-11-04,33364,0.876,4,0.0,,True,,,,False
+codekittenmeow/marquee,llm,False,no test script; AI-attributed commit share < 50%,0,2026-05-14,195970,0.958,10,0.4,claude-code,True,,,,False
+apshuk21/claude-with-osttra,llm,False,TS size outside 40KB-1.5MB; < 10 commits,0,2026-05-16,35605,0.631,4,0.5,claude-code,True,vitest,,,False
+PaigeRattenberry/paige-rattenberry-site,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-08,600026,0.85,5,0.4,claude-code,True,vitest,,,False
+mikkometso/etafocus,llm,False,< 10 commits,0,2025-11-16,79570,0.936,5,0.6,claude-code,True,vitest,,,False
+lgw7126/Claude-orbis-nft,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits,0,2026-06-12,16858,0.443,3,1.0,claude-code,True,,,,False
+naledi-hopa/tech-projects,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,0,2026-08-04,230660,0.7,11,0.364,claude-code,False,,,,False
+willemsijbers/product-catalog,llm,False,no root tsconfig; no test script,0,2026-02-09,187994,0.726,29,1.0,claude-code,False,,,,False
+khoile3009/SimOP,llm,False,TS size outside 40KB-1.5MB,0,2026-02-12,2222220,0.998,83,0.904,claude-code,True,vitest,,,False
+martinkoopman/consultant-marketplace,llm,False,no test script; AI-attributed commit share < 50%,0,2026-05-24,44596,0.945,15,0.133,claude-code,True,,,,False
+tomganchos/habit-forge,llm,False,< 10 commits,0,2026-01-14,128042,0.815,8,1.0,claude-code,True,vitest,,,False
+jonmarcpatton/sow-generator,llm,False,no test script; AI-attributed commit share < 50%,0,2026-07-11,52169,0.9,11,0.182,claude-code,True,,,,False
+plaplanche/yt-digest-a0,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,0,2026-10-15,297863,0.683,37,0.486,claude-code,False,,,,False
+morluto/rea,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,439172,2026-04-14,55754559,0.907,6640,0.12,claude-code;cursor,True,vitest,,,False
+anthropics/claude-code,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,154844,2025-02-22,798265,0.975,966,0.12,claude-code,False,,,,False
+garrytan/gstack,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,140547,2026-03-11,41001766,0.911,1076,0.0,,True,other,,,False
+stablyai/orca,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,118098,2026-03-17,185589099,0.963,19761,0.01,copilot,True,vitest,,,False
+thedotmack/claude-mem,llm,False,TS size outside 40KB-1.5MB,114188,2025-08-31,20128836,0.611,3992,0.5,claude-code,True,other,,,False
+paperclipai/paperclip,llm,False,TS size outside 40KB-1.5MB,111843,2026-03-02,140959009,0.922,6867,0.63,claude-code;codex,True,vitest,,,False
+google-gemini/gemini-cli,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,108757,2025-04-17,22791771,0.973,6600,0.09,gemini,True,vitest,,,True
+nexu-io/open-design,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,106387,2026-04-28,80665962,0.718,3847,0.03,claude-code,False,,,,False
+Egonex-AI/Understand-Anything,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,91168,2026-03-15,1615153,0.591,873,0.07,claude-code;copilot;devin,True,vitest,,,False
+cheaper-inference/OmniRoute,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,85263,2026-02-13,101406140,0.947,12338,0.0,,True,vitest,,,True
+ruvnet/ruflo,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,81111,2025-06-02,37936333,0.841,10235,0.09,claude-code,True,vitest,,,True
+heygen-com/hyperframes,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,80266,2026-03-10,42803699,0.913,6893,0.28,claude-code,False,vitest,,,True
+colbymchenry/codegraph,llm,False,monorepo; TS size outside 40KB-1.5MB,76970,2026-01-18,19441389,0.889,1853,1.0,claude-code,True,vitest,,,True
+code-yeongyu/oh-my-openagent,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,70760,2025-12-03,49588921,0.826,28838,0.05,claude-code,True,bun test,,,True
+upstash/context7,llm,False,monorepo; AI-attributed commit share < 50%,64310,2025-03-26,1442094,0.981,1171,0.0,,True,other,,,True
+ChromeDevTools/chrome-devtools-mcp,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,54911,2025-09-11,2493554,0.977,1572,0.02,claude-code,True,other,,,False
+KeygraphHQ/shannon,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,51358,2025-09-27,2085759,0.95,322,0.16,claude-code,True,,,,False
+pingdotgg/t3code,llm,False,no root tsconfig; TS size outside 40KB-1.5MB,50341,2026-02-08,198431901,0.965,9682,0.57,claude-code,False,other,,,False
+tashfeenahmed/freellmapi,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,48584,2026-04-21,8198685,0.989,1055,0.32,claude-code,False,other,,,True
+abhigyanpatwari/GitNexus,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,48318,2025-08-02,40254725,0.904,2340,0.21,claude-code;cursor,False,,,,False
+Yeachan-Heo/oh-my-claudecode,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,40655,2026-01-09,18512842,0.596,6073,0.0,,True,vitest,,,False
+microsoft/playwright-mcp,llm,False,no root tsconfig; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,39290,2025-03-21,23542,0.521,613,0.01,copilot,False,other,,,False
+JCodesMore/ai-website-cloner-template,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,38773,2026-03-13,4553,0.338,80,0.1,claude-code,True,,,,False
+vercel-labs/skills,llm,False,AI-attributed commit share < 50%,38430,2026-01-14,1436413,0.999,647,0.05,claude-code;codex;cursor,True,vitest,,,False
+musistudio/claude-code-router,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,38030,2025-02-25,6491758,0.715,989,0.06,claude-code,True,other,,,True
+DayuanJiang/next-ai-draw-io,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,36763,2025-03-23,3425689,0.967,861,0.0,,True,vitest,,,False
+Twigpine/openclaude,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,34299,2026-04-01,32960201,0.989,1430,0.18,claude-code,True,other,,,False
+iOfficeAI/AionUi,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,34081,2025-08-07,10440760,0.949,6002,0.0,,True,vitest,,,True
+garrytan/gbrain,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,31603,2026-04-05,106892519,0.986,13445,0.0,,True,other,,,False
+nanocoai/nanoclaw,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,31089,2026-01-31,7727738,0.948,3068,0.08,claude-code,True,vitest,,,False
+tobi/qmd,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,30937,2025-12-08,2182051,0.898,784,0.04,claude-code,True,vitest,,,False
+TencentCloud/TencentDB-Agent-Memory,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,30602,2026-04-07,9986511,0.902,77,0.052,cursor,False,,,,False
+rohitg00/agentmemory,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,30182,2026-02-25,5954302,0.808,651,0.06,claude-code;devin,True,vitest,,,False
+simstudioai/sim,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,30060,2025-01-05,164214625,0.883,8927,0.03,claude-code,False,vitest,,,True
+QwenLM/qwen-code,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,29066,2025-06-26,164160385,0.767,12083,0.09,claude-code,True,vitest,,,True
+hypit-ai/hypit,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,28371,2026-07-29,6543460,0.962,1499,0.06,claude-code,True,other,,,False
+virattt/dexter,llm,False,AI-attributed commit share < 50%,27763,2025-10-14,905596,0.986,498,0.21,claude-code;cursor,True,jest,,,False
+yikart/AiToEarn,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,27402,2025-02-24,6974846,0.811,2651,0.09,claude-code,False,,,,False
+JimLiu/baoyu-skills,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,27367,2026-01-13,1892014,0.963,755,0.17,claude-code,False,other,,,True
+every-app/open-seo,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,26679,2026-02-27,7607169,0.938,1052,0.02,claude-code,True,vitest,,,False
+EveryInc/compound-engineering-plugin,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,25964,2025-10-09,4747653,0.652,1592,0.01,claude-code,True,other,,,False
+pascalorg/editor,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB,25372,2025-10-16,36428927,0.999,2218,0.89,claude-code;cursor,False,bun test,,,True
+different-ai/openwork,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,24434,2026-01-14,41787041,0.847,6784,0.01,cursor,False,,,,False
+coleam00/Archon,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,23851,2025-02-07,25470006,0.985,4288,0.01,claude-code,True,other,,,True
+walkinglabs/learn-harness-engineering,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,23510,2026-03-29,690218,0.826,267,0.09,claude-code;cursor,False,,,,False
+getpaseo/paseo,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,23358,2025-10-13,45607420,0.975,6392,0.07,claude-code;cursor;devin,True,other,,,True
+czlonkowski/n8n-mcp,llm,False,TS size outside 40KB-1.5MB,23225,2025-06-07,9424166,0.968,1353,0.8,claude-code,True,vitest,,,False
+claude-code-best/claude-code,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,23213,2026-03-31,24429647,0.998,836,0.09,claude-code,True,bun test,,,True
+NVIDIA/NemoClaw,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,22973,2026-03-15,67127547,0.947,6381,0.07,claude-code,False,vitest,,,False
+winfunc/opcode,llm,False,no test script; AI-attributed commit share < 50%,22431,2025-06-19,1361527,0.753,220,0.09,claude-code,True,,,,False
+snarktank/ralph,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,22133,2026-01-07,12571,0.629,20,0.05,claude-code,False,,,,False
+nashsu/llm_wiki,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,21442,2026-04-08,3585396,0.716,907,0.04,claude-code,True,vitest,,,False
+voyager-crew/voyager,llm,False,TS size outside 40KB-1.5MB,20559,2025-10-04,21422006,0.953,3422,1.0,claude-code,True,vitest,,,False
+refactoringhq/tolaria,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,20470,2026-02-14,17256353,0.694,4553,0.09,cursor,True,vitest,,,False
+danielmiessler/LifeOS,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,19747,2025-09-08,25884750,0.874,720,0.01,claude-code,False,,,,False
+lidge-jun/opencodex,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,18271,2026-06-18,91292147,0.966,13579,0.02,claude-code;devin,True,bun test,,,False
+rowboatlabs/rowboat,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,18147,2025-01-13,15311414,0.982,2844,0.19,claude-code;codex,False,,,,False
+langchain-ai/openwiki,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,17793,2026-06-22,4542732,0.962,520,0.07,claude-code,True,vitest,,,False
+Vincentwei1021/video-shotcraft,llm,False,no root tsconfig; TS share < 60%,17540,2026-07-19,372566,0.42,111,0.59,claude-code,False,vitest,,,False
+rmyndharis/OpenWA,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,16581,2026-02-02,20021101,0.89,7695,0.0,,True,jest,,,False
+ParadevAI/Paradev,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,16058,2025-10-21,33956198,0.848,5461,0.14,claude-code,False,other,,,True
+YishenTu/claudian,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,15930,2025-12-05,14310324,0.962,1577,0.02,claude-code,True,vitest,,,False
+yc-software/qm,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,15648,2026-07-29,21163517,0.923,1498,0.0,,True,other,,,False
+NanmiCoder/cc-haha,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,15343,2026-03-31,68717643,0.806,2484,0.03,claude-code,True,,,,False
+apify/apify-mcp-server,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,15124,2025-01-02,3639657,0.995,1416,0.46,claude-code;copilot,True,vitest,,,False
+millionco/react-doctor,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,15103,2026-02-13,31085596,0.989,1569,0.1,cursor,True,other,,,False
+mindfold-ai/Trellis,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,15103,2026-01-26,3077122,0.676,1368,0.13,claude-code;cursor,False,other,,,False
+AndyMik90/Aperant,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB,14596,2025-12-04,10829755,0.986,1106,0.7,claude-code,False,other,,,True
+siteboon/claudecodeui,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,14485,2025-06-25,6311570,0.957,898,0.19,claude-code,True,vitest,,,False
+browseros-ai/BrowserOS,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,14270,2025-05-18,7303148,0.388,4260,0.05,claude-code,False,,,,False
+OrchestratorInc/agent-orchestrator,llm,False,no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,14203,2026-02-13,25305150,0.49,3862,0.72,claude-code,False,,,,False
+XiaomiMiMo/MiMo-Code,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,13763,2026-06-10,12754661,0.953,1471,0.0,,True,other,,,True
+sirmalloc/ccstatusline,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,13543,2025-08-08,3845813,0.998,572,0.1,claude-code,True,,,,False
+tester-army/e2e,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,13417,2026-07-22,10912651,0.984,1101,0.13,claude-code,False,other,,,False
+zilliztech/claude-context,llm,False,no test script; AI-attributed commit share < 50%,12674,2025-06-06,551839,0.716,217,0.0,,True,,,,False
+hangwin/mcp-chrome,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,12537,2025-06-09,4565171,0.751,192,0.02,claude-code,False,,,,False
+AnmolSaini16/mapcn,llm,False,no test script; AI-attributed commit share < 50%,12370,2025-12-28,531093,0.987,149,0.34,claude-code,True,,,,False
+genspark-ai/genoffice,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,11875,2026-07-31,51853036,0.938,1245,0.17,claude-code,False,other,,,True
+getagentseal/codeburn,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,11720,2026-04-13,13297102,0.78,2651,0.0,,True,vitest,,,False
+cobusgreyling/loop-engineering,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,11715,2026-06-09,405738,0.54,633,0.0,,False,,,,False
+EKKOLearnAI/ekko-studio,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,11714,2026-04-11,12640289,0.711,1841,0.01,claude-code,True,vitest,,,False
+holaboss-ai/holaOS,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB,11433,2026-03-22,15799092,0.924,157,0.86,claude-code,False,other,,,True
+spinabot/brigade,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,11371,2026-06-19,16818079,0.985,640,0.0,,True,other,,,False
+trailhq/Trail-Code,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,11128,2026-07-03,8694326,0.99,704,0.2,claude-code,True,other,,,False
+Narcooo/inkos,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,11024,2026-03-12,4641899,0.992,1648,0.0,,True,other,,,False
+numman-ali/openskills,llm,False,AI-attributed commit share < 50%,10825,2025-10-26,86407,0.969,47,0.447,claude-code,True,vitest,,,False
+mobile-next/mobile-mcp,llm,False,AI-attributed commit share < 50%,10373,2025-03-28,262496,0.967,504,0.0,,True,other,,,False
+zhu1090093659/dsh-web,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,10190,2026-08-12,16442010,0.853,3869,0.0,,False,other,,,False
+lnkiai/m3e-canvas,llm,False,AI-attributed commit share < 50%,10186,2026-09-02,1430112,0.992,213,0.22,claude-code;copilot,True,vitest,,,False
+alvinunreal/oh-my-opencode-slim,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,10142,2026-01-15,10904720,0.997,3977,0.0,,True,bun test,,,False
+Tencent/BrowserSkill,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,10142,2026-06-22,6891907,0.643,1124,0.2,claude-code,False,,,,False
+pixel-agents-hq/pixel-agents,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,10098,2026-02-08,2552950,0.885,225,0.38,claude-code,True,other,,,True
+diet103/claude-code-infrastructure-showcase,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,10048,2025-10-30,80243,0.402,14,0.357,claude-code,False,,,,False
+backnotprop/plannotator,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9879,2025-12-28,52888600,0.951,6221,0.04,claude-code,False,bun test,,,True
+anthropics/claude-code-action,llm,False,AI-attributed commit share < 50%,9823,2025-05-19,980358,0.92,841,0.06,claude-code;cursor,True,bun test,,,False
+basketikun/infinite-canvas,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9801,2026-05-18,2286703,0.985,450,0.23,claude-code;cursor,False,,,,False
+ChinaSiro/claude-code-sourcemap,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,9737,2026-03-31,30333713,1.0,1,0.0,,False,,,,False
+KKKKhazix/AIHOT,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9714,2026-09-28,3846613,0.993,218,0.29,claude-code,False,node --test,,,True
+open-slide/open-slide,llm,False,no root tsconfig; TS size outside 40KB-1.5MB,9691,2026-04-26,4080762,0.968,697,0.52,claude-code,False,vitest,,,False
+open-pencil/open-pencil,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9677,2026-02-27,23190346,0.901,3578,0.0,,True,other,,,True
+crynta/terax-ai,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9443,2026-04-21,4823658,0.656,854,0.0,,True,vitest,,,False
+makecindy/cindy,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9438,2026-07-22,188814358,0.959,14323,0.01,claude-code,False,,,,False
+tryatlas/atlas,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9386,2026-05-14,13331609,0.524,2340,0.0,,True,vitest,,,False
+cloudflare/vinext,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9327,2026-02-24,25595565,0.986,2715,0.01,claude-code,True,vitest,,,False
+strands-agents/harness-sdk,llm,False,no root tsconfig; monorepo; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9069,2025-05-14,10562787,0.429,3253,0.0,,False,other,,,True
+Albert-Weasker/niubigeo,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8880,2026-09-03,2415776,0.932,54,0.0,,True,other,,,False
+freecodexyz/free-code,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8806,2026-03-31,30320555,1.0,53,0.396,claude-code,True,,,,False
+mvschwarz/openrig,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8711,2026-04-01,44646825,0.975,4944,0.0,,False,other,,,True
+google-labs-code/stitch-skills,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,8690,2026-01-16,135190,0.9,98,0.01,jules,False,,,,False
+cloudflare/agentic-inbox,llm,False,no test script; AI-attributed commit share < 50%,8618,2026-04-10,320671,0.998,11,0.0,,True,,,,False
+withastro/flue,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8617,2026-02-07,2726462,0.937,1136,0.07,claude-code,True,other,,,False
+FailproofAI/failproofai,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8199,2026-04-06,12001726,0.484,761,0.28,claude-code,True,vitest,,,False
+OpenCoworkAI/open-codesign,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8171,2026-04-18,6446588,0.942,834,0.27,claude-code;copilot;cursor,False,other,,,False
+tamaratran/fast-jev-compaction,llm,True,,7903,2026-09-17,64120,1.0,30,0.967,claude-code;devin,True,vitest,,,False
+ParthJadhav/app-store-screenshots,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,7832,2026-03-07,474632,0.853,90,0.433,claude-code,False,,,,False
+HenryNdubuaku/maths-cs-ai-compendium,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7697,2026-02-03,11900,0.461,80,0.0,,False,,,,False
+BuilderIO/agent-native,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7637,2026-03-12,233419444,0.868,8535,0.15,claude-code,False,vitest,,,False
+superdesigndev/superdesign,llm,False,AI-attributed commit share < 50%,7591,2025-06-20,573771,0.861,152,0.09,claude-code,True,other,,,False
+teamchong/pxpipe,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7581,2026-05-20,9576831,0.903,534,0.06,claude-code,True,vitest,,,False
+TraderAlice/OpenAlice,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7421,2026-02-18,17982653,0.851,4608,0.01,codex,True,vitest,,,False
+AgentDeskAI/browser-tools-mcp,llm,False,no root tsconfig; monorepo,7341,2025-02-10,767667,0.848,153,0.66,claude-code;cursor,False,vitest,,,True
+craft-ai-agents/craft-agents-oss,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7317,2026-01-19,15769186,0.974,118,0.0,,True,bun test,,,True
+BrowserMCP/mcp,llm,False,no root tsconfig; AI-attributed commit share < 50%,7305,2025-03-28,852981,0.996,28,0.0,,False,other,,,False
+MrLesk/Backlog.md,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7301,2025-06-04,5817438,0.963,1496,0.01,claude-code,True,bun test,,,False
+Done-0/fuck-u-code,llm,False,AI-attributed commit share < 50%,7295,2025-06-25,429344,0.991,33,0.0,,True,vitest,,,False
+tech-leads-club/agent-skills,llm,False,no root tsconfig; monorepo; TS share < 60%; AI-attributed commit share < 50%,7145,2026-01-19,1063974,0.504,1247,0.02,claude-code,False,jest,,,True
+ccch1mneyyy/dsh-TUI,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7123,2026-08-13,20061463,0.866,1822,0.04,claude-code,True,,,,False
+antvis/Infographic,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7075,2025-09-11,2197979,0.967,355,0.15,copilot;gemini,True,vitest,,,True
+internet-court/internet-court-skill,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits,7067,2026-06-16,413551,0.919,5,1.0,claude-code,False,,,,False
+open-multi-agent/open-multi-agent,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7047,2026-03-31,4942766,0.987,609,0.0,,False,other,,,True
+anthropics/sandbox-runtime,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7015,2025-10-20,4072167,0.998,890,0.07,claude-code,True,bun test,,,False
+elder-plinius/T3MP3ST,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6964,2026-07-02,2391176,0.658,204,0.08,claude-code;codex,True,vitest,,,False
+liliMozi/openhanako,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6865,2026-03-15,21776163,0.9,3471,0.0,,True,vitest,,,True
+SawyerHood/dev-browser,llm,False,AI-attributed commit share < 50%,6724,2025-12-02,644138,0.981,149,0.35,claude-code,True,bun test,,,False
+BlockRunAI/ClawRouter,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6653,2026-02-03,2622761,0.901,1227,0.0,,True,vitest,,,False
+getsentry/MobileBuildMCP,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6547,2025-03-09,4658970,0.904,1218,0.38,claude-code;codex;cursor,True,vitest,,,False
+op7418/CodePilot,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6518,2026-02-06,13835956,0.971,1478,0.0,,True,other,,,True
+remotion-dev/skills,llm,False,no test script; AI-attributed commit share < 50%,6515,2026-01-19,130723,0.714,95,0.0,,True,,,,False
+getopenscreen/openscreen,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6481,2026-03-14,9067367,0.462,3914,0.02,claude-code,True,vitest,,,False
+builderz-labs/mission-control,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6458,2026-02-13,4812629,0.946,542,0.05,cursor,True,vitest,,,False
+21st-dev/magic-mcp,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6408,2025-02-19,7425,0.962,86,0.047,claude-code,True,,,,False
+ThinkInAIXYZ/deepchat,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6383,2025-02-14,29981335,0.852,4527,0.01,cursor,True,vitest,,,False
+KunAgent/Kun,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6380,2026-05-21,75049920,0.934,4433,0.0,,True,vitest,,,True
+heilcheng/awesome-agent-skills,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,6349,2025-12-29,179323,0.661,144,0.09,claude-code,False,,,,False
+anhao/ai-pose-gallery-zh,llm,False,no test script; AI-attributed commit share < 50%,6315,2026-10-27,496947,0.789,82,0.049,claude-code,True,,,,False
+dontriskit/awesome-ai-system-prompts,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,6281,2025-03-05,82088,0.46,67,0.0,,False,,,,False
+epiral/bb-browser,llm,False,no root tsconfig; AI-attributed commit share < 50%,6261,2026-01-31,461147,0.835,269,0.31,claude-code,False,other,,,False
+brightdata/cli,llm,False,AI-attributed commit share < 50%,6216,2026-03-07,750928,0.992,148,0.03,claude-code,True,vitest,,,False
+generalaction/emdash,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,6210,2025-08-28,21147096,0.992,10638,0.0,,False,other,,,False
+nightly-labs/openbot,llm,False,monorepo; TS size outside 40KB-1.5MB,6150,2026-08-12,57190105,0.96,2980,0.99,claude-code,True,vitest,,,True
+UfoMiao/zcf,llm,True,,6071,2025-07-30,943719,0.992,595,0.74,claude-code,True,vitest,,,False
+fengshao1227/ccg-workflow,llm,False,TS share < 60%; AI-attributed commit share < 50%,5978,2026-01-04,595365,0.371,330,0.03,claude-code,True,vitest,,,False
+awslabs/aidlc-workflows,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5910,2025-11-13,41238516,0.998,2316,0.04,claude-code,True,,,,False
+amosblomqvist/learnharness,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5906,2026-10-16,5698425,0.937,1013,0.01,claude-code,True,other,,,False
+AmanVarshney01/create-better-t-stack,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5857,2025-02-10,3226950,0.729,1612,0.01,claude-code,True,other,,,True
+shader-effects-inc/shaders,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5856,2026-09-29,7150225,0.98,28,0.036,claude-code,True,other,,,True
+hieunc229/mailflare,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5802,2026-05-26,3406228,0.851,512,0.01,cursor,True,,,,False
+Tencent/teamai-cli,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5788,2026-04-27,28503543,0.996,1517,0.09,claude-code;cursor,True,vitest,,,False
+diffusionstudio/lottie,llm,False,no test script; AI-attributed commit share < 50%,5703,2026-06-04,117262,0.642,93,0.0,,True,,,,False
+humanlayer/skills,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,5645,2026-03-18,66137,1.0,32,0.219,claude-code,False,,,,False
+nyblnet/bento,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5640,2026-07-17,18732793,0.797,1253,0.0,,False,,,,False
+KnockOutEZ/wigolo,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5533,2026-04-12,8270919,0.952,2166,0.36,claude-code,True,vitest,,,False
+breferrari/obsidian-mind,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,5508,2026-02-28,1853507,0.989,287,0.82,claude-code,False,,,,False
+aipoch/open-science,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5484,2026-07-03,102897118,0.876,3481,0.04,claude-code,True,vitest,,,False
+zzsting88/relayAPI,llm,False,no root tsconfig; AI-attributed commit share < 50%,5459,2026-03-09,212780,0.96,243,0.01,codex,False,vitest,,,False
+breaking-brake/cc-wf-studio,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5452,2025-11-01,3813202,0.983,1066,0.35,claude-code,False,other,,,False
+Waishnav/devspace,llm,False,TS size outside 40KB-1.5MB,5419,2026-06-14,2010708,0.891,1260,0.76,claude-code;cursor,True,other,,,False
+mattpocock/dictionary-of-ai-coding,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5392,2026-05-01,4990,1.0,51,0.196,claude-code,False,,,,False
+tiann/hapi,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5372,2025-12-24,19510502,0.753,1787,0.21,claude-code;cursor,False,other,,,True
+DavidHDev/canvas-ui,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5353,2026-07-16,3516810,0.938,175,0.02,copilot,True,,,,False
+benjitaylor/agentation,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5307,2026-01-18,1559116,0.826,388,0.01,claude-code,False,,,,False
+callstack/agent-device,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5290,2026-01-30,33924646,0.92,3061,0.39,claude-code,True,vitest,,,False
+melgarafael/DeskcommCRM,llm,False,no test script; TS size outside 40KB-1.5MB,5240,2026-04-28,69037740,0.911,16593,0.5,claude-code,True,,,,False
+TestSprite/testsprite-cli,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5155,2026-06-11,5880431,0.999,142,0.14,claude-code;cursor,True,vitest,,,False
+openfilm/openfilm,llm,False,no root tsconfig; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5148,2026-10-04,6103954,0.489,236,0.36,claude-code,False,other,,,False
+guokaigdg/animal-island-ui,llm,False,AI-attributed commit share < 50%,5120,2026-04-12,1014397,0.815,335,0.0,,True,vitest,,,False
+openclaw/mcporter,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5106,2025-11-05,3013901,0.953,1024,0.0,,True,vitest,,,False
+qixing-jk/all-api-hub,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5050,2025-09-08,43728225,0.963,3448,0.0,,True,vitest,,,False
+OpenBMB/PilotDeck,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4982,2026-05-22,11080365,0.688,2591,0.0,,True,node --test,,,True
+omdsh-dev/DSH-better-sidebar,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4971,2026-08-07,7067418,0.947,1482,0.0,,True,vitest,,,False
+darrenhinde/OpenAgentsControl,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4967,2025-08-14,1839791,0.796,225,0.01,claude-code,False,other,,,True
+Pouzor/homelable,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4925,2026-03-06,2566742,0.534,1057,0.12,claude-code;cursor,False,,,,False
+liustack/modlens,llm,False,AI-attributed commit share < 50%,4831,2026-02-22,963750,0.806,492,0.0,,True,vitest,,,False
+eastlondoner/vibe-tools,llm,False,AI-attributed commit share < 50%,4817,2025-01-13,794202,0.968,240,0.01,claude-code,True,vitest,,,False
+inkeep/open-knowledge,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4805,2026-06-03,55391656,0.966,2935,0.0,,True,vitest,,,False
+NateBJones-Projects/OB1,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,4760,2026-03-11,1363350,0.455,719,0.31,claude-code,False,,,,False
+amantus-ai/vibetunnel,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4705,2025-06-15,4099510,0.501,2084,0.0,,False,,,,False
+Jakubantalik/Libraries.dev,llm,False,no root tsconfig; no test script; monorepo; TS share < 60%; TS size outside 40KB-1.5MB,4625,2026-04-12,3245676,0.48,702,0.94,claude-code,False,,,,True
+zhukunpenglinyutong/desktop-cc-gui,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4578,2026-02-03,7312881,0.576,6418,0.0,,True,vitest,,,False
+CaviraOSS/LongMemory,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4570,2025-10-19,1961725,0.976,396,0.17,claude-code,True,,,,False
+microsoft/flint-chart,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4550,2026-05-13,13003679,0.934,855,0.18,claude-code;copilot,False,other,,,True
+UditAkhourii/adhd,llm,False,AI-attributed commit share < 50%,4510,2026-05-25,53298,1.0,75,0.133,claude-code;copilot,True,other,,,False
+zenbu-labs/terminal-browser,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,4476,2026-07-06,1436543,0.486,324,0.0,,False,,,,False
+Tarquinen/opencode-dynamic-context-pruning,llm,False,monorepo; AI-attributed commit share < 50%,4473,2025-11-20,604214,0.746,1426,0.0,,True,other,,,True
+archestra-ai/archestra,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4434,2025-07-15,81868071,0.943,7985,0.07,claude-code,False,,,,False
+mixedbread-ai/mgrep,llm,False,AI-attributed commit share < 50%,4431,2025-11-06,122046,0.811,185,0.02,claude-code,True,other,,,False
+antvis/mcp-server-chart,llm,False,AI-attributed commit share < 50%,4415,2025-04-25,98827,0.984,112,0.13,claude-code;copilot;gemini,True,vitest,,,False
+ranxianglei/billion-context,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4363,2026-08-06,29163423,0.979,7995,0.0,,True,other,,,False
+cloudflare/vibesdk,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5463,2025-08-25,4708000,0.964,1139,0.0,,True,vitest,,,True
+liyupi/yupi-hot-monitor,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,727,2026-02-27,191580,0.819,10,0.0,,False,,,,False
+DeadWaveWave/demo2apk,llm,False,no root tsconfig; AI-attributed commit share < 50%,650,2025-11-27,470031,0.869,67,0.0,,False,other,,,False
+Awesome-AI-Pedia/Awesome-AI-Pedia,llm,False,no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,632,2026-08-03,3501,0.482,244,0.0,,False,,,,False
+ryantsai/KKTerm,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,509,2026-05-01,7302460,0.397,3585,0.01,claude-code,True,,,,False
+formulahendry/mcp-server-spec-driven-development,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,440,2025-07-28,3854,0.892,9,0.0,,True,,,,False
+maciej-trebacz/tower-of-time-game,llm,False,no test script; AI-attributed commit share < 50%,377,2025-07-04,403368,0.993,17,0.0,,True,,,,False
+hi0001234d/nexpath,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,359,2026-04-18,14683516,0.989,2520,0.42,claude-code,True,vitest,,,False
+ttommyth/interactive-mcp,llm,False,no test script; AI-attributed commit share < 50%,351,2025-04-25,77137,0.852,47,0.0,,True,,,,False
+nirholas/cryptocurrency.cv,llm,False,TS size outside 40KB-1.5MB,332,2026-01-02,13807569,0.891,1251,0.84,claude-code,True,vitest,,,False
+yagami-hue/Win-box,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,331,2026-09-17,4500627,0.749,8,0.0,,True,vitest,,,False
+agent-era/devteam,llm,True,,266,2025-08-26,1362286,0.942,313,0.54,claude-code,True,jest,,,False
+vibe-stack/ggez,llm,False,no root tsconfig; no test script; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,235,2026-03-09,4514025,0.98,255,0.0,,False,,,,True
+iblai/vibe,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,232,2026-03-27,577213,0.316,851,0.3,claude-code,False,,,,False
+bohd4nx/app-landing,llm,False,no test script; AI-attributed commit share < 50%,228,2025-02-19,60190,0.915,100,0.01,claude-code,True,,,,False
+weam-ai/weam,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,225,2025-06-27,3218404,0.576,414,0.0,,False,,,,False
+react-native-vibe-code/react-native-vibe-code-sdk,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,208,2026-01-05,3044791,0.886,253,0.8,claude-code,False,,,,False
+wasp-lang/vibe-coding-video,llm,False,no test script; AI-attributed commit share < 50%,191,2025-04-11,361877,0.981,18,0.0,,True,,,,False
+fatasia/DeepMonkey-Studio,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,172,2026-08-04,42491247,0.713,1767,0.0,,False,vitest,,,False
+handmux/handmux,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,168,2026-06-28,8278323,0.794,1788,0.0,,False,,,,False
+xuxinxi14/OrbitStart,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,164,2026-06-15,1015772,0.561,53,0.0,,True,,,,False
+luzhenqian/ai-coding-lab,llm,False,no root package.json; no root tsconfig; no test script,157,2026-03-06,1167193,0.802,65,0.785,claude-code,False,,,,False
+ShenSeanChen/launch-react-nextjs-tips,llm,False,no test script; AI-attributed commit share < 50%,138,2025-07-12,44734,0.844,11,0.0,,True,,,,False
+oinone/oinone-kunlun,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,135,2025-05-16,6088342,0.667,1540,0.0,,False,other,,,True
+liyupi/github-global,llm,False,no test script; AI-attributed commit share < 50%,131,2026-01-20,253568,0.796,20,0.05,cursor,True,,,,False
+khadgi-sujan/retune,llm,False,no root tsconfig; monorepo,129,2026-03-02,1348861,0.929,391,0.97,claude-code,False,vitest,,,True
+fufankeji/VibeCodingCourse_v1,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,126,2026-02-02,54080081,0.821,47,0.255,cursor,False,,,,False
+francize/agents-to-im,llm,False,AI-attributed commit share < 50%,118,2026-03-18,1000096,0.914,11,0.0,,True,node --test,,,False
+xxnuo/VibeGo,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,106,2026-01-10,2111190,0.469,378,0.0,,False,,,,False
+vincanger/envelope-budgeting-test,llm,False,no test script; AI-attributed commit share < 50%,102,2025-04-04,438635,0.984,25,0.0,,True,,,,False
+freshtechbro/Vibe-Coder-MCP,llm,False,TS size outside 40KB-1.5MB,102,2025-04-03,9461589,0.917,249,0.55,claude-code,True,vitest,,,False
+dylanebert/VibeGame,llm,False,AI-attributed commit share < 50%,93,2025-09-12,947179,0.982,31,0.0,,True,bun test,,,False
+chongdashu/phaserjs-oakwoods,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,86,2026-01-23,14249,0.625,1,0.0,,True,,,,False
+brightseth/proof-of-corn,llm,False,no root package.json; no root tsconfig; no test script,85,2026-01-22,628192,0.926,88,0.807,claude-code,False,,,,False
+citywill/pocket-stack,llm,False,no test script; monorepo; AI-attributed commit share < 50%,84,2025-12-19,412488,0.974,252,0.0,,True,,,,True
+zllovesuki/git-on-cloudflare,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,81,2025-09-07,1568750,0.989,134,0.0,,True,vitest,,,False
+nickqiaoo/chatcode,llm,False,no test script; TS share < 60%,77,2025-07-31,195680,0.581,14,0.786,claude-code,True,,,,False
+lijiaxing1997/AIPPT,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,77,2026-02-01,259755,0.983,17,0.0,,False,,,,False
+fufankeji/FuFan-VibeCodingCourse,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,71,2026-04-09,57899545,0.808,79,0.557,claude-code;cursor,False,,,,False
+zebbern/Devonz,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,66,2026-01-21,4127617,0.969,2230,0.12,copilot,True,vitest,,,False
+luckyyyyy/specc.sh,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,62,2026-03-10,414215,0.832,17,0.059,copilot,False,,,,False
+thibautrey/multivibe,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,61,2026-02-27,3671437,0.363,2391,0.0,,True,other,,,False
+vibe-stack/freed,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,61,2025-08-13,1535233,0.989,153,0.01,claude-code,True,,,,False
+Coolver/home-assistant-mcp,llm,False,AI-attributed commit share < 50%,58,2025-11-08,131305,0.991,138,0.0,,True,node --test,,,False
+parallized/maple,llm,False,no root tsconfig; no test script; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,58,2026-02-17,2224411,0.877,183,0.0,,False,,,,True
+brdweb/billmanager,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,55,2025-10-06,2749345,0.676,510,0.07,cursor,False,,,,False
+XCodingLab/XCoding,llm,False,no test script; AI-attributed commit share < 50%,55,2026-01-05,1287593,0.945,18,0.0,,True,,,,False
+growthxai/squeaks,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,55,2026-03-04,168772,0.979,3,0.0,,True,,,,False
+vibeforge1111/vibeship-idearalph,llm,False,TS share < 60%,53,2026-01-17,134527,0.459,171,0.85,claude-code,True,vitest,,,False
+supermarsx/sora-json-prompt-crafter,llm,False,AI-attributed commit share < 50%,49,2025-06-20,1054787,0.965,1255,0.0,,True,jest,,,False
+luisfer/ubon,llm,False,AI-attributed commit share < 50%,49,2025-08-23,633285,0.935,55,0.145,claude-code;cursor,True,jest,,,False
+JonnyBurger/vibe-coded-video,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,48,2026-01-19,23388,0.89,4,0.0,,True,,,,False
+tzz1021/panweb-parser,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,44,2026-08-15,700681,0.575,29,0.0,,True,,,,False
+WebDevPeterGriffin/The-VibeCode-Bible,llm,False,no test script; AI-attributed commit share < 50%,42,2026-03-29,474761,0.781,64,0.281,claude-code,True,,,,False
+liyupi/cbti-test,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,42,2026-04-13,97265,0.96,1,0.0,,True,,,,False
+Zuojiangtao/economic-public-opinion,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,41,2026-06-15,614087,0.974,52,0.019,copilot,False,,,,False
+karminski/vibe-poo,llm,False,< 10 commits; AI-attributed commit share < 50%,41,2025-08-13,65294,0.929,4,0.0,,True,jest,,,False
+tapascript/full-stack-vibe-to-prod,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,40,2026-04-27,91295,0.753,63,0.0,,False,,,,False
+R4YGULAR/prompt-buddy,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,37,2025-07-06,131967,0.595,35,0.029,claude-code,True,,,,False
+coffeefuelbump/youtube-thumbnail-editor,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,36,2025-10-24,20652,0.965,2,0.0,,True,,,,False
+longtail-labs/slide.code,llm,False,no root tsconfig; monorepo; AI-attributed commit share < 50%,34,2025-07-03,777591,0.768,46,0.0,,False,vitest,,,True
+mitsuhiko/minibb,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,34,2025-07-13,24968,0.384,15,0.0,,False,,,,False
+yerdaulet-damir/vibe-coding-rules,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; < 10 commits; AI-attributed commit share < 50%,34,2026-04-28,76041,0.374,6,0.0,,False,,,,False
+vibe-stack/vibe-human,llm,False,no test script; AI-attributed commit share < 50%,33,2026-05-03,1242936,0.99,149,0.17,copilot,True,,,,False
+fairyshine/OpenAgentHarness,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,33,2026-03-30,6673552,0.911,261,0.0,,True,vitest,,,False
+huiyeruzhou/codelark,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,33,2026-06-03,10369499,0.986,637,0.0,,True,other,,,False
+3mdistal/css-mcp-server,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,32,2025-04-04,13883,1.0,13,0.0,,True,,,,False
+freemank1224/vibe-word-master,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,32,2026-01-08,2200363,0.768,235,0.31,claude-code;copilot,True,other,,,False
+apvcode/Termux-Dev,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,32,2026-08-24,1770553,0.997,77,0.0,,True,vitest,,,False
+Cookiesukaze/allmem,llm,False,no test script; AI-attributed commit share < 50%,31,2026-03-15,278070,0.985,39,0.154,claude-code,True,,,,False
+wesbos/mathl33t,llm,False,no test script; AI-attributed commit share < 50%,31,2025-03-18,82491,0.831,16,0.0,,True,,,,False
+erweixin/Go-GenAI-Stack,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,31,2025-11-21,555624,0.515,113,0.0,,False,,,,False
+MyAppDesk/gitcito,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,30,2026-06-16,8789532,0.928,750,0.18,claude-code;cursor;devin,True,vitest,,,False
+l-margiela/olx-mcp,llm,False,AI-attributed commit share < 50%,29,2025-09-02,184730,0.938,44,0.0,,True,vitest,,,False
+DogeNet-LLC/omgvibe,llm,False,no test script; AI-attributed commit share < 50%,27,2025-09-16,80766,1.0,23,0.0,,True,,,,False
+Xxcool/smart-warehouse,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,27,2026-09-22,70133,0.552,41,0.0,,True,,,,False
+Krasilshchik3000/LiboLibo,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%,26,2026-04-25,172140,0.522,115,0.77,claude-code,False,,,,False
+Mr-Tieguigui/Vibe-Scholar,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; < 10 commits; AI-attributed commit share < 50%,26,2026-03-12,219027,0.504,8,0.0,,False,,,,False
+johnpolacek/vibecode.party.starter,llm,False,AI-attributed commit share < 50%,26,2025-04-01,408673,0.927,127,0.0,,True,other,,,False
+Shankar-105/knowl,llm,False,no test script; AI-attributed commit share < 50%,26,2026-03-16,323825,0.905,10,0.0,,True,,,,False
+AkaraChen/2code,llm,False,AI-attributed commit share < 50%,26,2026-02-10,1225883,0.682,724,0.18,claude-code;cursor,True,vitest,,,False
+zaizaizhao/dsh-branchmark,llm,False,no root tsconfig; monorepo; AI-attributed commit share < 50%,26,2026-08-30,481999,0.94,23,0.0,,False,vitest,,,True
+5throck/ai-workspace-standards,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,25,2026-05-22,13498592,0.742,3940,0.0,,True,other,,,False
+okotoki/aggregated-orderbooks,llm,False,no test script,24,2026-02-12,51525,1.0,42,0.952,claude-code,True,,,,False
+Ryrahul/type-faah,llm,False,no test script; AI-attributed commit share < 50%,24,2026-03-14,88494,0.929,65,0.0,,True,,,,False
+HynoR/NextShell,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,23,2026-02-20,2668315,0.938,274,0.47,claude-code,False,vitest,,,True
+vibeforge1111/vibeship-spawner,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%,23,2025-12-06,738465,0.585,399,0.99,claude-code,False,,,,False
+GurYN/vibe-motion,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,23,2026-01-24,222962,0.978,8,0.0,,True,,,,False
+msurguy/dot-printer-studio,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,22,2026-02-11,459480,0.922,5,0.0,,True,,,,False
+yfge/TalkReplay,llm,False,AI-attributed commit share < 50%,22,2025-10-01,403484,0.903,141,0.01,claude-code,True,vitest,,,False
+luguan1998/vibe-ide,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,21,2026-04-19,2681645,0.72,1569,0.07,claude-code,True,node --test,,,False
+githubnext/dodled-jump,llm,False,no test script; AI-attributed commit share < 50%,21,2025-06-12,96076,0.967,59,0.0,,True,,,,False
+The-Vibe-Company/vibe-drift-tracker,llm,False,AI-attributed commit share < 50%,21,2026-02-07,190328,0.989,99,0.101,claude-code,True,vitest,,,False
+Lanxing6480/dsh-galgame,llm,False,no root tsconfig; TS share < 60%; AI-attributed commit share < 50%,21,2026-08-14,123874,0.548,12,0.0,,False,other,,,False
+Devjosef/vibe-guard,llm,False,AI-attributed commit share < 50%,20,2025-05-28,1321211,0.84,223,0.0,,True,jest,,,False
+ketthub/clawUI,llm,False,no test script; AI-attributed commit share < 50%,20,2026-02-08,544010,0.772,15,0.067,claude-code,True,,,,False
+ammaarreshi/gemma-chat-public,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,19,2026-04-20,150423,0.955,8,0.0,,True,,,,False
+abhigyanpatwari/prowl,llm,False,no test script; AI-attributed commit share < 50%,17,2026-02-27,907156,0.97,50,0.0,,True,,,,False
+DoubtedSteam/OpenVibe,llm,False,no test script; AI-attributed commit share < 50%,17,2026-04-07,432798,0.996,318,0.01,claude-code,True,,,,False
+backblaze-b2-samples/vibe-coding-starter-kit,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,17,2026-02-12,389475,0.535,115,0.17,claude-code,False,,,,False
+fbzhong/claude-code-web,llm,False,no root package.json; no root tsconfig; no test script,17,2025-06-15,534024,0.914,102,0.82,claude-code,False,,,,False
+ProgrammerZamanNow/belajar-vibe-coding,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,16,2026-03-19,17378,1.0,21,0.0,,True,,,,False
+0xmeowmeow/meowsic-obsidian-plugin,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,16,2025-06-16,12758,0.488,2,0.0,,True,,,,False
+0xc00010ff/proq,llm,False,no test script; AI-attributed commit share < 50%,16,2026-02-16,1289846,0.942,1439,0.0,,True,,,,False
+verylabs/veryterm,llm,False,no test script,16,2026-02-06,144570,0.979,69,1.0,claude-code,True,,,,False
+mr1337robot/imgui-studio,llm,False,TS share < 60%; AI-attributed commit share < 50%,16,2026-07-10,262104,0.584,11,0.0,,True,vitest,,,False
+wesbos/finger-drums,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,15,2025-04-16,27210,0.638,1,0.0,,True,,,,False
+NguyenHuynhPhuVinh/MasterContext,llm,False,no test script; AI-attributed commit share < 50%,15,2025-09-21,400897,0.782,331,0.0,,True,,,,False
+kylemclaren/machines-ui,llm,False,no test script; AI-attributed commit share < 50%,15,2025-03-07,392635,0.982,101,0.0,,True,,,,False
+stevepeak/kyoto,llm,False,no root tsconfig; monorepo; AI-attributed commit share < 50%,15,2025-11-05,891902,0.961,837,0.0,,False,other,,,True
+mlemos/parker,llm,False,TS share < 60%,15,2026-08-04,779417,0.342,335,0.99,claude-code,True,vitest,,,False
+prodlint/prodlint,llm,True,,15,2026-02-16,820773,0.978,115,0.98,claude-code,True,vitest,,,False
+maksutovic/joycraft,llm,True,,15,2026-03-23,1442506,0.643,595,0.82,claude-code,True,vitest,,,False
+joeseesun/qiaomu-ui-learn,llm,False,< 10 commits; AI-attributed commit share < 50%,15,2026-10-06,179807,0.725,9,0.222,claude-code,True,other,,,False
+GBcui/DeepSite-OpenAI,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,15,2025-04-08,23395,0.746,77,0.0,,True,,,,False
+akseolabs-seo/LingYun-Vibe-Coding-Style-Generator,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,15,2025-12-20,56948,0.963,3,0.0,,True,,,,False
+enkhbold470/inky-gigachad,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,14,2025-11-08,15159,0.52,44,0.023,cursor,True,other,,,False
+alvinveroy/CodeCompass,llm,False,AI-attributed commit share < 50%,14,2025-05-06,644566,0.903,1546,0.0,,True,vitest,,,False
+roboco-io/roboco-cli,llm,True,,13,2026-04-04,143629,0.95,53,0.585,claude-code,True,vitest,,,False
+Wayne1145/yachiyo-claw,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,13,2026-07-17,6473562,0.815,79,0.076,claude-code,True,vitest,,,False
+Mijura/spektrum-sdk,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,13,2026-02-10,6078,1.0,16,0.0,,True,,,,False
+xiangjiaowei/m3e-canvas,llm,False,< 10 commits; AI-attributed commit share < 50%,13,2026-09-05,665457,0.994,6,0.0,,True,vitest,,,False
+brown-sussy/SigmaDev,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,13,2025-10-04,313273,0.718,4,0.0,,True,,,,False
+georgevaldes/DOM2Code,llm,False,TS share < 60%; < 10 commits; AI-attributed commit share < 50%,13,2025-03-17,53476,0.469,5,0.0,,True,mocha,,,False
+hot-dao/kit,llm,False,no test script; AI-attributed commit share < 50%,12,2025-11-20,515663,0.994,150,0.0,,True,,,,False
+Suzu1Dev/bell-pr,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,12,2026-10-20,8568117,0.907,1826,0.0,,True,other,,,False
+zhijiewong/viber,llm,False,AI-attributed commit share < 50%,12,2025-08-27,324435,0.853,50,0.12,claude-code,True,jest,,,False
+unknownking07/vibe-talent,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,12,2026-03-17,2695704,0.96,402,0.47,claude-code,True,vitest,,,False
+jitsecurity/public-vibe-coding-resources,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,12,2025-05-21,33521,0.965,6,0.0,,False,,,,False
+cleanlab/office-presence-dashboard,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,12,2025-05-20,18440,0.933,38,0.0,,True,jest,,,False
+onamfc/vibe-coder-prompt-builder,llm,False,< 10 commits; AI-attributed commit share < 50%,12,2025-11-03,137922,0.988,8,0.0,,True,vitest,,,False
+nandomoreirame/forja,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,12,2026-02-22,3054188,0.935,886,0.0,,False,other,,,False
+Ranteck/strong-mode,llm,False,monorepo; AI-attributed commit share < 50%,12,2026-02-07,227001,0.887,55,0.4,claude-code,True,vitest,,,True
+Swapnil-bo/portfolio-old,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,12,2026-02-22,32730,0.99,51,0.0,,True,,,,False
+YuMinHui825/omnibreak-skill,llm,False,TS share < 60%,12,2026-05-10,181632,0.555,44,0.932,claude-code,True,jest,,,False
+sso-ss/vibe-ship-it,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,12,2026-04-06,179005,0.897,28,0.0,,False,,,,False
+DaoFlow-dev/DaoFlow,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,12,2025-10-20,7966901,0.984,836,0.0,,True,other,,,True
+SuperYang006/MileStack,llm,False,AI-attributed commit share < 50%,12,2026-10-11,1272251,0.999,188,0.28,claude-code,True,vitest,,,False
+Dumebii/research-assistant,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,11,2025-06-19,300119,0.983,6,0.0,,True,,,,False
+altudev/hairfluencer,llm,False,no root tsconfig; no test script; monorepo; AI-attributed commit share < 50%,11,2025-09-20,246635,0.966,115,0.34,claude-code;copilot,False,,,,True
+menagerai/menagerai,llm,True,,11,2026-07-08,451510,0.807,67,0.507,claude-code,True,vitest,,,False
+arnnikislam/AI-folio,llm,False,no test script; AI-attributed commit share < 50%,11,2025-04-09,234424,0.968,15,0.0,,True,,,,False
+owlfy-ai/open-vibe-coding,llm,False,AI-attributed commit share < 50%,11,2026-06-29,543679,0.879,88,0.136,cursor,True,vitest,,,False
+BernhardJackiewicz/architect-to-product,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,11,2026-03-13,1748247,0.998,178,0.01,claude-code,True,vitest,,,False
+makoMakoGo/ASMR-Transformer,llm,False,AI-attributed commit share < 50%,11,2025-11-30,213526,0.974,120,0.09,claude-code,True,vitest,,,False
+kwkuh/chathermes,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,11,2026-05-03,1082902,0.97,31,0.0,,False,,,,False
+vibecodingdev/vibe-coding-fps-game,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,10,2025-07-23,1040680,0.569,88,0.0,,False,,,,False
+LinkedInLearning/fundamentals-of-vibe-coding-6060046,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,10,2025-04-08,69595,0.98,7,0.0,,True,,,,False
+kenny-stacks/stacks-starter,llm,False,no root tsconfig; no test script; monorepo; AI-attributed commit share < 50%,10,2026-01-28,61350,0.679,120,0.42,claude-code,False,,,,True
+KennieHarold/saa-reviewer,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,10,2026-01-14,71271,0.961,4,0.0,,True,,,,False
+mastra-ai/flashgenius,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,10,2025-04-24,23219,0.868,5,0.0,,True,,,,False
+YooLc/subcon,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,10,2025-12-20,251746,0.58,38,0.0,,False,,,,False
+dezuhan/Koge-Kanban,llm,False,no test script; AI-attributed commit share < 50%,10,2025-12-29,594248,0.874,51,0.0,,True,,,,False
+suraj-xd/cursor-learn,llm,False,no test script; AI-attributed commit share < 50%,10,2025-11-20,1040326,0.984,60,0.0,,True,,,,False
+assetCLI/assetCLI-init,llm,False,no test script; AI-attributed commit share < 50%,10,2025-01-05,520861,0.85,164,0.0,,True,,,,False
+fiftynotai/igris-ai,llm,False,no root tsconfig; no test script; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,10,2025-10-25,11078226,0.809,852,0.0,,False,,,,True
+Robertzu43/vibe-coders-league-platzi-2026,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,10,2026-03-13,428846,0.764,170,0.0,,False,,,,False
+jampez77/ScreenHarbour,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,10,2026-09-23,2343833,0.801,104,0.0,,True,other,,,False
+withvibe/withvibe,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,10,2026-05-16,2367526,0.972,57,0.316,claude-code,False,,,,False
+scipenai/scipen-studio,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,9,2026-02-03,4108030,0.875,166,0.28,claude-code,True,vitest,,,False
+MaggieAppleton/home-hunter,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,9,2025-09-22,308028,0.99,34,0.0,,False,,,,False
+crispyberry/slots,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB,9,2025-11-05,21604,0.471,24,0.5,claude-code,True,,,,False
+Slopdar/slopdar,llm,False,AI-attributed commit share < 50%,9,2026-06-30,546892,0.907,86,0.047,claude-code,True,other,,,False
+lwinmoe51/pisilist,llm,False,TS share < 60%; AI-attributed commit share < 50%,9,2026-06-20,277527,0.5,60,0.333,claude-code,True,jest,,,False
+andrisasuke/podlogs,llm,True,,9,2026-01-09,140726,0.689,11,0.727,claude-code,True,vitest,,,False
+Agile-Vibe-Coding/Manifesto,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8,2026-03-31,2596,1.0,13,0.385,claude-code,False,other,,,False
+vikramdotcom/vibe-coding,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,8,2025-06-06,209272,0.947,15,0.0,,False,,,,False
+codemogged/CodeCollab,llm,False,no test script; AI-attributed commit share < 50%,8,2026-04-30,1446721,0.672,66,0.0,,True,,,,False
+bity-labs/tstack,llm,False,no root tsconfig; AI-attributed commit share < 50%,8,2026-06-15,769060,0.976,95,0.0,,False,other,,,False
+imMamdouhaboammar/vibe-svgs,llm,False,TS share < 60%; AI-attributed commit share < 50%,8,2026-07-25,202163,0.547,202,0.0,,True,bun test,,,False
+cliangdev/specflux,llm,False,TS size outside 40KB-1.5MB,8,2025-11-22,1580941,0.953,415,0.84,claude-code,True,vitest,,,False
+superkf/cloudcost,llm,False,no test script; AI-attributed commit share < 50%,8,2026-03-01,154746,0.919,12,0.0,,True,,,,False
+yc-w-cn/vibe-coding,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,8,2025-12-09,37300,0.762,48,0.0,,True,,,,False
+wubin28/book-vibe-coding-in-action,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,8,2025-05-15,439781,0.977,34,0.0,,False,,,,False
+LWTlong/aida,llm,False,AI-attributed commit share < 50%,8,2026-03-11,189810,0.89,90,0.0,,True,node --test,,,False
+wenbochang888/mcp-identity-service,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,8,2025-12-12,20724,0.638,2,0.0,,True,other,,,False
+ProselyteCoding/aisnap-lingma,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,8,2025-08-11,199512,0.676,17,0.0,,False,,,,False
+angular-university/angular-ai-in-depth,llm,False,AI-attributed commit share < 50%,7,2026-04-10,52675,0.608,134,0.04,claude-code,True,vitest,,,False
+laguna821/achmage-markdown-renderer,llm,False,AI-attributed commit share < 50%,7,2026-03-25,585572,0.607,56,0.089,codex,True,vitest,,,False
+NamHyeongKeol/viz-vibe,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,7,2025-12-30,118324,0.413,131,0.11,claude-code,False,,,,False
+tjx666/caxri,llm,False,TS size outside 40KB-1.5MB,7,2026-08-04,47562891,0.995,2989,0.94,claude-code,True,vitest,,,False
+aj-archipelago/subvibe,llm,False,AI-attributed commit share < 50%,7,2025-02-05,237620,0.994,78,0.0,,True,jest,,,False
+Gitleonan/mdPlusPlus,llm,False,TS share < 60%; AI-attributed commit share < 50%,7,2026-06-17,255199,0.588,61,0.0,,True,vitest,,,False
+Huxpro/lynx-flappy-bird,llm,False,no test script; AI-attributed commit share < 50%,7,2026-03-10,79836,0.843,33,0.03,claude-code,True,,,,False
+Grazulex/backmark,llm,False,AI-attributed commit share < 50%,7,2025-10-22,399512,0.997,56,0.411,claude-code,True,vitest,,,False
+Mote-Software/the-resistance,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,7,2025-09-07,73398,0.946,39,0.487,claude-code,False,,,,False
+Govind9012/Vibekit,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,7,2026-06-27,19351,0.871,8,0.0,,True,,,,False
+jameingh/dida-clone,llm,False,no test script; AI-attributed commit share < 50%,7,2026-02-05,252289,0.846,74,0.0,,True,,,,False
+nianod/Intelligence-analyzer-engine,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,7,2026-03-31,95220,0.513,102,0.0,,False,,,,False
+rubenzarroca/sdd-plugin,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,7,2026-03-02,39086,0.966,26,0.962,claude-code,False,,,,False
+AswinAsok/versus-space,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,7,2025-12-13,463719,0.57,133,0.0,,True,,,,False
+linkzy/rustdesk-custom-web-client,llm,False,no root package.json; no root tsconfig; no test script,7,2026-05-14,79763,0.9,45,0.822,copilot,False,,,,False
+TopVitamin/Vita-Design-JXC-Prototype,llm,False,no test script; AI-attributed commit share < 50%,7,2026-04-03,996410,0.998,30,0.067,claude-code;cursor,True,,,,False
+ubershmekel/sitey,llm,False,no root tsconfig; no test script; monorepo; AI-attributed commit share < 50%,7,2026-03-05,570621,0.701,228,0.13,claude-code;copilot,False,,,,True
+HuJiawei-David/ContextCompressor,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,7,2026-04-18,32667,0.873,3,0.0,,True,,,,False
+HassanMalik-AI/Civic-Pulse,llm,False,no test script; AI-attributed commit share < 50%,7,2026-05-05,222312,0.98,11,0.0,,True,,,,False
+aio-bit/voice-typing-vibecoding,llm,False,< 10 commits; AI-attributed commit share < 50%,5,2026-04-21,195095,0.97,9,0.0,,True,vitest,,,False
+barisyild/airpsx-frontend,llm,False,no test script; AI-attributed commit share < 50%,4,2025-02-21,256040,0.65,39,0.0,,True,,,,False
+Othm1ne/appsecradar,llm,False,no root tsconfig; monorepo; < 10 commits; AI-attributed commit share < 50%,2,2026-10-21,58599,0.882,3,0.0,,False,other,,,True
+Ethiopian-Cursor-Community/InterviewPilot,llm,False,no test script; AI-attributed commit share < 50%,2,2026-05-17,403854,0.95,27,0.296,cursor,True,,,,False
+NotShowmaker/the-new-snap-game,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,1,2025-07-13,37789,0.932,1,0.0,,True,,,,False
+jakebo-githit/cursor-site,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,1,2025-05-11,369093,0.514,174,0.0,,True,,,,False
+amenedo/loopify,llm,False,no root tsconfig; no test script; monorepo; < 10 commits; AI-attributed commit share < 50%,1,2026-04-10,113938,0.985,8,0.0,,False,,,,True
+kaminono/echocast-workshop,llm,False,AI-attributed commit share < 50%,1,2025-08-17,466730,0.994,18,0.0,,True,vitest,,,False
+Randroids-Dojo/cursor-fullstack-bootstrap,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1,2025-06-14,7734,0.512,10,0.0,,False,,,,False
+Kiruthiyan/n8n_aivura,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits,1,2026-05-16,32327,0.494,1,1.0,cursor,False,,,,False
+eddmann/lego-f1-minifigure-scanner,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,1,2025-08-24,19772,0.877,2,0.0,,True,,,,False
+madebyaris/react-expo-using-cursor,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,1,2025-08-25,83877,1.0,4,0.0,,True,,,,False
+navinvarma/officedays,llm,False,AI-attributed commit share < 50%,1,2025-08-30,266972,0.98,13,0.308,claude-code,True,jest,,,False
+Fadi1505/autob2.0,llm,False,no test script; < 10 commits,0,2026-06-09,169254,0.896,2,1.0,cursor,True,,,,False
+slemus29/blogNextCursor,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-12-26,40640,0.868,4,0.0,,True,,,,False
+justinclark-dev/flashcard-app,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; < 10 commits; AI-attributed commit share < 50%,0,2025-12-15,279199,0.516,2,0.0,,False,,,,False
+thesmythgroup/smyth-tasks,llm,False,AI-attributed commit share < 50%,0,2025-10-22,70148,0.969,31,0.0,,True,jest,,,False
+vanoostrum/sleepy-baby-cursor-project,llm,False,< 10 commits,0,2026-09-23,71181,0.852,5,0.8,cursor,True,jest,,,False
+Dmust32/Cuttlefish,llm,False,no test script; AI-attributed commit share < 50%,0,2025-08-25,363760,0.96,23,0.0,,True,,,,False
+danLeBrown/peer-lingua-demo,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-01-24,69414,0.863,3,0.0,,True,,,,False
+BrettAlbright/PERN-stack-Template,llm,False,no root tsconfig; AI-attributed commit share < 50%,0,2026-03-05,57965,0.908,15,0.0,,False,other,,,False
+nezaj/bjj-notes,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,0,2025-06-20,24192,0.959,13,0.0,,True,,,,False
+Bleart-Racaj/seo-website-project,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-07-29,127843,0.727,9,0.0,,True,,,,False
+hapily04/Tasky,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-05-22,158010,0.886,3,0.0,,True,,,,False
+JVK0804/my-retro-portfolio,llm,False,AI-attributed commit share < 50%,0,2026-06-02,428963,0.94,360,0.38,cursor,True,vitest,,,False
+becca-bailey/node-wordle-clone,llm,False,no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2025-04-17,8027,0.537,4,0.0,,False,,,,False
+ZazenCloud/Retro-Projects,llm,False,no test script; AI-attributed commit share < 50%,0,2025-05-18,163843,0.628,17,0.0,,True,,,,False
+CarlosQ96/robotmaster,llm,False,no test script; AI-attributed commit share < 50%,0,2026-04-17,569990,0.802,10,0.3,claude-code,True,,,,False
+Johan-de-Beer/ghw-tip-calculator,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-10-11,2665,0.589,2,0.0,,True,,,,False
+lentyai2/cursor-ai-nextjs15,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-07-09,72075,0.936,1,0.0,,True,,,,False
+johnfig/habit-tracker,llm,False,no test script; AI-attributed commit share < 50%,0,2025-02-12,103408,0.938,20,0.0,,True,,,,False
+searleja/CallCenterGame,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2025-03-06,20482,0.924,4,0.0,,True,,,,False
+n4mlz/minus1chan,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2025-05-07,16192,0.944,1,0.0,,True,,,,False
+imann24/name-gen,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-07-02,17042,0.818,2,1.0,cursor,True,,,,False
+JanetArockya/cursor-landing-page,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-29,19068,0.914,1,0.0,,True,,,,False
+Sohaib-50/focustrack,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-10-13,17560,0.778,1,0.0,,True,,,,False
+Prakhar-code/Cursor-Portfolio,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2025-03-22,16327,0.837,6,0.0,,False,,,,False
+gabriel-jones/mars,llm,False,no test script; AI-attributed commit share < 50%,0,2025-03-04,784192,0.999,48,0.042,cursor,True,,,,False
+noahfren/ultrameme,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-11-02,121751,0.99,7,0.0,,True,,,,False
+mfparedesz/portfolio,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-06,3734,0.781,2,0.0,,True,,,,False
+Alpha-Mintamir/Cursor-Live-Competition,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-08-11,54759,0.944,4,0.0,,True,,,,False
+sohamthebuilder/good-news-vibe-coding,llm,False,no test script; AI-attributed commit share < 50%,0,2026-03-16,136226,0.986,10,0.0,,True,,,,False
+H-Bhardwaj/career-os-ai,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-04-09,130973,0.978,3,0.0,,True,,,,False
+scetiner/zustand-playground,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-01-08,170120,0.976,5,0.0,,True,,,,False
+xgrybvo6508-dot/discrete-tasks,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-08,521722,0.936,7,0.0,,True,vitest,,,False
+street1983nk/infranode-weather-starter,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-19,11820,0.959,2,0.0,,True,,,,False
+sohamthebuilder/voice-typing-vibe-coding,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-03-12,195095,0.97,9,0.0,,True,vitest,,,False
+sohamthebuilder/Inkwell-vibe-coding,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-03-08,189309,0.641,8,0.0,,True,vitest,,,False
+sinazzk/recruiter-pipeline-copilot,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2025-11-20,23008,0.985,3,0.0,,True,,,,False
+kthakkar81/kids-rewards-app,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-08-10,166837,0.965,4,0.0,,True,jest,,,False
+locodomo/drawguide,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-03-25,77461,0.958,6,0.0,,True,,,,False
+vixclotet/ElevenHacksxCursor-DessertDreamBaker,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-05-10,81994,0.973,9,0.222,cursor,True,,,,False
+GauravAjwani/Plora,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-18,395558,0.97,7,0.429,cursor,True,,,,False
+AreumAn/mood-diary,llm,False,no test script; AI-attributed commit share < 50%,0,2025-03-02,75775,0.885,17,0.0,,True,,,,False
+jbwp-eu/gql.book-store.com.pl,llm,False,no root tsconfig; AI-attributed commit share < 50%,0,2026-03-18,598824,0.962,26,0.0,,False,vitest,,,False
+dharmendra912/PairPizzazz-GenAI-App,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,0,2025-05-28,37096,0.51,22,0.0,,False,,,,False
+Shellishack/infinite-pokemon,llm,False,AI-attributed commit share < 50%,139,2026-09-14,692230,0.972,25,0.0,,True,other,,,False
+athleticcoder21/sidekick,llm,False,no root tsconfig; no test script; monorepo; < 10 commits; AI-attributed commit share < 50%,13,2026-01-23,99292,0.819,2,0.0,,False,,,,True
+SmartRoot7/clideck-mcp,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,3,2026-07-17,2417762,0.854,307,0.0,,True,vitest,,,False
+hackyguru/cyphershare,llm,False,no test script; AI-attributed commit share < 50%,2,2025-03-07,205622,0.967,57,0.0,,True,,,,False
+Luvata/New-Tab,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,2,2026-03-09,125007,0.791,4,0.0,,True,,,,False
+benjamin-nweke/evidence-desk,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,2,2026-09-21,33462,0.668,1,0.0,,True,vitest,,,False
+jmay823/Semantic-Anatomy,llm,False,no test script; AI-attributed commit share < 50%,2,2026-07-21,341374,0.776,10,0.0,,True,,,,False
+kutaaimaterial-byte/pose-studio,llm,False,AI-attributed commit share < 50%,1,2026-08-10,455918,0.683,83,0.0,,True,node --test,,,False
+lmriccardo/backupctl-ui,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,1,2026-02-02,66642,0.83,4,0.0,,True,,,,False
+bogi1203/richer,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,1,2026-05-06,1237247,0.926,8,0.0,,True,,,,False
+Randroids-Dojo/codex-fullstack-bootstrap,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1,2025-06-08,7846,0.508,27,0.0,,False,,,,False
+thefayth/f1ghtback,llm,False,AI-attributed commit share < 50%,1,2026-07-20,109991,0.679,12,0.0,,True,node --test,,,False
+OttObottr/semvod,llm,False,AI-attributed commit share < 50%,1,2026-11-02,144267,0.988,89,0.0,,True,other,,,False
+goubx/Quack-AI,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,1,2026-07-19,92225,0.482,18,0.0,,False,,,,False
+cmun2/codex-web-education,llm,False,AI-attributed commit share < 50%,1,2026-07-18,241501,0.885,29,0.0,,True,vitest,,,False
+sputhenofficial/claimjumper,llm,False,AI-attributed commit share < 50%,1,2026-07-16,73078,0.985,24,0.0,,True,vitest,,,False
+Paulo-Vitor-Lacuna/GymTrackr,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-05-24,61047,0.957,2,0.0,,True,other,,,False
+supermario81/codex-tusiger,llm,False,AI-attributed commit share < 50%,0,2026-05-16,181802,0.739,33,0.0,,True,vitest,,,False
+koladeg/expo-lingua,llm,False,no test script; AI-attributed commit share < 50%,0,2026-06-29,156693,0.815,27,0.0,,True,,,,False
+fangtichang/agent-forge,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,0,2026-06-30,281798,0.907,14,0.0,,False,,,,False
+414219liu-byte/fitpro-demo,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-03,70601,0.948,3,0.0,,True,,,,False
+Tonivecher/pasha-codex,llm,False,no test script; AI-attributed commit share < 50%,0,2026-05-25,87580,0.9,10,0.0,,True,,,,False
+Niepsujadam/player-hub-prototype,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-10-27,88047,0.988,7,0.0,,True,,,,False
+alekseydenisov1973-dotcom/flowershop-prototype,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-02-21,17770,0.985,8,0.0,,True,,,,False
+gonzsanc/astronomical-clock-demo,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-06-06,26131,0.362,5,0.0,,True,vitest,,,False
+dbladow-AR/canary-codex,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits,0,2026-02-04,54442,0.951,2,1.0,cursor,False,,,,False
+supblue-drk/deutsch-gym,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-30,88868,0.863,7,0.0,,True,vitest,,,False
+s07362022/toefl_ielts_codex_test,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; < 10 commits; AI-attributed commit share < 50%,0,2026-06-06,54836,0.338,4,0.0,,False,,,,False
+jackca3/novabrew-quiz,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-16,30727,0.491,4,0.0,,True,,,,False
+ania2-hub/novabrew-quiz,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-16,34663,0.738,1,0.0,,True,,,,False
+anthonyflasck-source/novabrew-quiz,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-16,20583,0.936,4,0.0,,True,,,,False
+sofiahill587/novabrew-quiz,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-16,26610,0.673,4,0.0,,True,,,,False
+tsyizlin/HackathonSuccessfulAppTwitterReview,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-05-25,189671,0.935,1,0.0,,True,,,,False
+aarosulonen/shoppaaja,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-08-11,30063,0.733,9,0.0,,True,vitest,,,False
+Procureallyai/flight-recorder,llm,False,no root tsconfig; AI-attributed commit share < 50%,0,2026-07-19,283019,0.753,62,0.0,,False,vitest,,,False
+dannydiaz04/finance-tracker-codex,llm,False,AI-attributed commit share < 50%,0,2026-03-27,822065,0.88,74,0.459,claude-code;cursor,True,other,,,False
+tsyizlin/HackathonSuccessfulAppTicTac,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2025-05-25,188375,0.934,1,0.0,,True,,,,False
+tsyizlin/HackathonSubmissionCandidate,llm,False,no test script; AI-attributed commit share < 50%,0,2025-05-25,190315,0.935,10,0.0,,True,,,,False
+flatpickles/plot-garden,llm,False,AI-attributed commit share < 50%,0,2026-02-16,256583,0.938,59,0.0,,True,vitest,,,False
+ellaingersoll/novabrew-quiz,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-16,24027,0.647,6,0.0,,True,,,,False
+Gaz-Hub/mystronium-platform,llm,False,no test script; AI-attributed commit share < 50%,0,2025-07-09,715890,0.972,34,0.0,,True,,,,False
+monteirok/mountmix-codex,llm,False,TS share < 60%; < 10 commits; AI-attributed commit share < 50%,0,2026-08-08,72080,0.529,2,0.0,,True,node --test,,,False
+cemwatcher2025/enforge-designs,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,0,2026-06-16,336447,0.566,126,0.0,,True,,,,False
+galmaru/compare-portfolio-codex,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-08,34898,0.693,6,0.0,,True,,,,False
+chrisohalloran/inspectionhub,llm,False,no root tsconfig; AI-attributed commit share < 50%,0,2026-07-16,1405916,0.629,13,0.077,cursor,False,vitest,,,False
+09muhsin/Shadow-Comp,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-18,272328,0.819,7,0.0,,True,vitest,,,False
+Ameyaminato/yasashii-call,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,25492,0.683,2,0.0,,True,node --test,,,False
+OrionArchitekton/signal2ship,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-24,37510,0.739,5,0.0,,True,vitest,,,False
+paolomulas/ajo-beach,llm,False,AI-attributed commit share < 50%,0,2026-07-15,96577,0.962,15,0.0,,True,vitest,,,False
+RaquazaCode/Two-Button-Trail-Duel-Light-Duel,llm,False,AI-attributed commit share < 50%,0,2026-02-03,157845,0.965,72,0.0,,True,vitest,,,False
+Nobuto11/faint-colors-build-week,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-18,145274,0.998,1,0.0,,True,,,,False
+kasiAIhub/kasi-move,llm,False,AI-attributed commit share < 50%,0,2026-10-15,787568,0.936,38,0.0,,True,vitest,,,False
+bbrainfuckk/qorx-zero-build-week,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-18,35868,0.676,6,0.0,,True,node --test,,,False
+HimAtcoding/tidewatch,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-08-29,70658,0.999,4,0.0,,True,vitest,,,False
+Nichole19999/TapIn,llm,False,AI-attributed commit share < 50%,0,2026-07-21,69545,0.853,30,0.0,,True,node --test,,,False
+Ramy888/race-control,llm,True,,0,2026-10-27,258076,0.774,12,1.0,claude-code,True,other,,,False
+mahmouddahiie-pixel/signalspace,llm,False,TS size outside 40KB-1.5MB; < 10 commits,0,2026-07-21,23105,0.915,4,1.0,codex,True,node --test,,,False
+Arun5768/releasedesk,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-16,130480,1.0,2,0.0,,True,other,,,False
+Engyassinsaeed/school-administration-showcase,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,930986,0.537,2,0.0,,False,,,,False
+Arham-Begani/fourth-wall,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-28,185230,0.767,7,0.0,,True,vitest,,,False
+maxdesign22/life7-living-formula,llm,False,no test script; AI-attributed commit share < 50%,0,2026-07-21,1200446,0.974,24,0.0,,True,,,,False
+jonahchlin/NextOne-Weekly,llm,False,AI-attributed commit share < 50%,0,2026-07-21,57430,0.684,12,0.417,codex,True,node --test,,,False
+RabbiNyarkoh/reusegrid-ai,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,21087,0.978,4,0.0,,True,,,,False
+RiyadMehdi7/Agens,llm,False,AI-attributed commit share < 50%,0,2026-10-03,304275,0.906,33,0.455,claude-code,True,other,,,False
+95Lab/minintapp,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,0,2026-09-24,1701817,0.934,116,0.0,,True,vitest,,,False
+kjs844-art/proxy-zero,llm,False,AI-attributed commit share < 50%,0,2026-08-23,624336,0.872,38,0.0,,True,vitest,,,False
+Sammsamy/vesseldelta,llm,False,TS share < 60%; AI-attributed commit share < 50%,0,2026-07-21,123708,0.445,16,0.0,,True,node --test,,,False
+johns25chen/memorygate-build-week-2026,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,27109,0.671,1,0.0,,True,vitest,,,False
+rehaancubess/chatdidit,llm,False,TS share < 60%; < 10 commits; AI-attributed commit share < 50%,0,2026-11-02,226285,0.575,6,0.0,,True,other,,,False
+rohitmulani63-ops/patchwitness,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-21,154369,0.865,8,0.0,,True,vitest,,,False
+wmcbtech30/pdf-live-viewer-browser,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-04-22,13652,0.889,2,0.0,,True,,,,False
+rainbowkiwi950/carecompass-kids,llm,False,monorepo; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,133800,0.999,8,0.0,,True,other,,,True
+zatoichi68/nuage-video-build-week,llm,False,AI-attributed commit share < 50%,0,2026-07-17,91760,0.923,52,0.0,,True,node --test,,,False
+basant-kumar/tictactoe,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-09-05,288461,0.75,6,0.167,claude-code,True,node --test,,,False
+KiraboKwach/silicon-savannah,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-09-18,519186,0.67,5,0.0,,True,node --test,,,False
+DanielMu-0/Cardly,llm,False,AI-attributed commit share < 50%,0,2026-07-21,116276,0.926,14,0.0,,True,node --test,,,False
+kmt9967/scopeguard-ai,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-18,64857,0.994,8,0.125,claude-code,True,vitest,,,False
+Vedant817/lore-boss,llm,False,AI-attributed commit share < 50%,0,2026-10-25,324601,0.777,50,0.08,claude-code,True,vitest,,,False
+JBCreator81/Kevaro-OS,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-19,84273,0.953,2,0.0,,True,node --test,,,False
+golffaloes-max/ai-cinema-continuity-director,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-19,26665,0.7,5,0.0,,True,node --test,,,False
+OnTheSpec/Our-Place,llm,False,AI-attributed commit share < 50%,0,2026-07-21,80437,0.75,14,0.071,codex,True,vitest,,,False
+Bradyac/launch-pad-lakebed,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-05-25,17041,1.0,6,0.0,,False,,,,False
+banjtheman/couchkin,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-30,715705,0.878,8,0.0,,True,vitest,,,False
+ShinDong-Soo/shadow-heist-v2,llm,False,no test script; AI-attributed commit share < 50%,0,2026-08-22,462170,0.962,18,0.278,cursor,True,,,,False
+itproanalysis/wealthcopy-openai-build-week,llm,False,AI-attributed commit share < 50%,0,2026-07-20,303362,0.819,26,0.0,,True,vitest,,,False
+nirvikpatel/minority-rules-twitch,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-11-02,86981,0.915,1,0.0,,True,vitest,,,False
+Mallllo/hushwake,llm,False,TS share < 60%; AI-attributed commit share < 50%,0,2026-08-06,152949,0.528,11,0.0,,True,vitest,,,False
+nileshsshirishkar/leadrescue-ai,llm,False,AI-attributed commit share < 50%,0,2026-07-19,128498,0.983,12,0.0,,True,vitest,,,False
+incomewriter0-dotcom/banglaverse-ai,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-18,11940,0.798,8,0.0,,True,node --test,,,False
+L0x3n/rapidcast,llm,False,AI-attributed commit share < 50%,0,2026-11-02,669021,0.878,12,0.0,,True,vitest,,,False
+mi-asahi-kyuu/dentbridge-ai,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-19,315811,0.966,3,0.0,,True,vitest,,,False
+amuse101/balloon-encore,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-16,109133,0.79,2,0.0,,True,,,,False
+akuma689/doro,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-17,45208,0.81,2,0.0,,True,,,,False
+NeilFoxAgency/creator-compass,llm,False,AI-attributed commit share < 50%,0,2026-07-16,312828,0.883,91,0.0,,True,vitest,,,False
+kathir-iTech/SignalStrip,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-28,114803,0.894,5,0.0,,True,vitest,,,False
+dasillyneko/little-tide,llm,False,TS share < 60%; < 10 commits; AI-attributed commit share < 50%,0,2026-11-02,107038,0.586,9,0.0,,True,node --test,,,False
+jonhs22/accesspatch-eu,llm,False,AI-attributed commit share < 50%,0,2026-07-21,252663,0.696,26,0.0,,True,vitest,,,False
+Virtemberger/family-sidekicks,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-20,339579,0.699,3,0.0,,True,vitest,,,False
+Thunder-13/crux,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,211160,0.936,1,0.0,,True,,,,False
+SeanRivardMorton/hostile-seating,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-11-01,31078,0.796,3,0.0,,True,other,,,False
+thefayth/story-arena-build-week,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,37333,0.712,1,0.0,,True,other,,,False
+BurlHunter/ZooQuest-Adventures,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-19,38632,0.986,2,0.0,,True,vitest,,,False
+Ryan-Keller/svg-sample-book,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,0,2026-07-18,828209,0.966,23,0.0,,False,,,,False
+irtaza65/lumpmap-3d,llm,True,,0,2026-07-21,350517,0.837,15,1.0,codex,True,vitest,,,False
+garciacalderon2198-bot/pintag-spatial-campaign-copilot,llm,False,AI-attributed commit share < 50%,0,2026-07-21,111413,0.715,11,0.0,,True,other,,,False
+Fyxod/MealMint,llm,False,AI-attributed commit share < 50%,0,2026-10-03,482528,0.925,29,0.0,,True,vitest,,,False
+rainingsnow0914tw-ship-it/time-sovereignty-2026,llm,False,AI-attributed commit share < 50%,0,2026-07-16,562333,0.983,46,0.0,,True,vitest,,,False
+wwdbsh/fictor,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,0,2026-08-10,3813914,0.964,146,0.0,,True,vitest,,,False
+fortemate/dicechess-twitch,llm,False,AI-attributed commit share < 50%,0,2026-10-24,363694,0.942,78,0.0,,True,node --test,,,False
+omerakben/certification-website,llm,False,< 10 commits,0,2026-05-16,189554,0.993,5,0.8,claude-code,True,vitest,,,False
+MinervaRose/airline-said-no,llm,False,AI-attributed commit share < 50%,0,2026-07-14,98006,0.689,13,0.0,,True,vitest,,,False
+q15109719195-jpg/zaojing-paper-cut-editor,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-17,74138,0.848,4,0.0,,True,,,,False
+yakultvitagen/lky-speaks,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-21,134651,0.606,1,0.0,,True,node --test,,,False
+lfeyao/gatherlist,llm,False,TS share < 60%; AI-attributed commit share < 50%,0,2026-10-21,243242,0.547,27,0.037,claude-code,True,node --test,,,False
+anishsharma1356/playable-moments,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-30,350207,0.746,6,0.0,,True,vitest,,,False
+Arun5768/scopio,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-31,389939,0.773,2,0.0,,True,node --test,,,False
+evleung/job-hunting-agent,llm,False,no test script; AI-attributed commit share < 50%,0,2026-07-04,143419,0.998,33,0.0,,True,,,,False
+Juka7/AuditGuard-DE,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,22725,0.502,1,0.0,,True,node --test,,,False
+safouha/gatekeeper-proof-engine,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,36519,0.656,5,0.0,,True,other,,,False
+jcastaneda89/tele-voice-agent,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-07-18,13309,1.0,6,0.0,,True,,,,False
+candytale55/05-master-ia-codex-to-do-app,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-01-27,11645,0.952,9,0.0,,True,,,,False
+candytale55/05-master-ia-tic-tac-toe,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-01-30,5465,0.839,6,0.0,,True,,,,False
+kingslayerthefourth-code/peerloop,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-30,67977,0.964,4,0.0,,True,vitest,,,False
+kyawzinIT99/PatchWitness,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-07-18,40913,0.651,4,0.0,,True,node --test,,,False
+iamyanbo/chaos-factory,llm,False,monorepo; AI-attributed commit share < 50%,0,2026-10-29,1230421,0.964,28,0.0,,True,vitest,,,True
+smkang-dev/Dayfolio-with-CODEX,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-09-06,328357,0.909,1,0.0,,True,other,,,False
+G-ojies/call-it,llm,False,TS size outside 40KB-1.5MB; < 10 commits,0,2026-10-29,24265,0.631,1,1.0,claude-code,True,vitest,,,False
+vickman787/mythweave,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-25,139085,0.644,2,0.0,,True,other,,,False
+thenugasivaraj/proving-ground,llm,True,,0,2026-07-18,67697,0.812,13,1.0,codex,True,node --test,,,False
+Rament-Li/our-ledger,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-10-02,261647,0.835,1,0.0,,True,node --test,,,False
+lkuczborski/AstraGallery,llm,False,no test script; AI-attributed commit share < 50%,0,2026-09-18,388324,0.743,12,0.0,,True,,,,False
+MohammedKhan68/flowlab,llm,False,monorepo; < 10 commits; AI-attributed commit share < 50%,0,2026-09-13,109276,0.861,3,0.0,,True,vitest,,,True
+mahesh0431/codex-spark-browser,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-03-26,70418,0.81,3,0.0,,True,,,,False
+Youssef123ya/orbit-lab-specs,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-10-30,3403340,0.983,5,0.0,,False,,,,False
+abhinv98/familiar,llm,False,no test script; TS share < 60%; < 10 commits; AI-attributed commit share < 50%,0,2026-07-21,172821,0.57,1,0.0,,True,,,,False
+Minghou-Lei/RightCleaner,llm,False,TS share < 60%; AI-attributed commit share < 50%,0,2026-04-18,115128,0.485,38,0.0,,True,vitest,,,False
+gangix/tankguard,llm,False,no test script; AI-attributed commit share < 50%,0,2026-07-17,67621,0.984,10,0.0,,True,,,,False
+Culaliya/one-more-control,llm,False,AI-attributed commit share < 50%,0,2026-07-17,277920,0.616,10,0.0,,True,vitest,,,False
+melnurx/barista-roast,llm,False,< 10 commits; AI-attributed commit share < 50%,0,2026-11-01,127000,0.66,7,0.0,,True,other,,,False
+zzy2002/he-da-shui,llm,False,AI-attributed commit share < 50%,0,2026-11-02,591083,0.884,17,0.0,,True,other,,,False
+xutianze007-svg/Hasselblad-503CX-Interactive-Web-Experience,llm,False,AI-attributed commit share < 50%,0,2026-09-02,46838,0.619,11,0.0,,True,node --test,,,False
+traworld/Design_Hunt_Codex,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-10,63768,0.782,1,0.0,,True,,,,False
+traworld/Codex_Game_Share,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-09,61809,0.776,1,0.0,,True,,,,False
+traworld/Codex_Game,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-08,53049,0.796,1,0.0,,True,,,,False
+haruiz/VibeCert,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-03-03,36240,0.427,2,0.0,,False,,,,False
+aimeetacchi/halloween-gloamwood-game-threeJS,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-10-19,33124,0.642,5,0.0,,True,,,,False
+chalke99/Mainstage,llm,False,no test script; AI-attributed commit share < 50%,0,2026-07-20,112247,0.871,13,0.0,,True,,,,False
+LongHuynh-vn/teach-your-past-self,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-07-14,150543,0.988,9,0.0,,True,,,,False
+scratchyone/voice-training-ui,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits; AI-attributed commit share < 50%,81,2026-06-23,113301,0.644,1,0.0,,False,,,,False
+e01-ai/starfall,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,72,2026-07-28,1877908,0.94,10,0.0,,True,vitest,,,False
+mlapeter/counterparts,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,7,2026-08-26,23243955,0.969,3966,0.0,,True,bun test,,,False
+FaureGalliard/vocal-teleprompter,llm,False,AI-attributed commit share < 50%,7,2026-10-31,393739,0.682,292,0.0,,True,vitest,,,False
+waLLxAck/kiln-homepage-designs,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits,6,2026-09-25,1993063,0.59,5,1.0,claude-code,True,,,,False
+benedictshegog/sidenote-markdown-editor,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%,1,2026-09-01,375065,0.46,58,0.5,claude-code,False,,,,False
+0xnicholasy/claude-mod-todo-list,llm,True,,1,2026-10-05,237570,1.0,58,0.966,claude-code,True,other,,,False
+u-na-gi/try-toon,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2025-10-27,11047,0.978,3,0.0,,True,,,,False
+silentbugs/claudestorm,llm,False,no root tsconfig; monorepo; AI-attributed commit share < 50%,0,2026-07-10,464641,0.927,117,0.27,claude-code,False,other,,,True
+emrickgarrett/OpenJapanese,llm,False,no test script,0,2026-02-08,628999,0.987,27,0.593,claude-code,True,,,,False
+cappallo/nbody,llm,False,AI-attributed commit share < 50%,0,2025-02-28,61125,0.733,14,0.0,,True,node --test,,,False
+graemecan/fourier-series,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-05-18,22258,0.58,2,0.0,,False,,,,False
+waritkung/Craps,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-05-20,180603,0.968,3,0.333,claude-code,True,,,,False
+Ocularitas/claude-from-the-mini,llm,False,no test script; TS size outside 40KB-1.5MB,0,2026-05-06,16804,0.93,12,0.583,claude-code,True,,,,False
+TristanDelcourt/typst-desktop,llm,False,no test script; TS share < 60%; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-03-14,17109,0.546,6,0.0,,True,,,,False
+graemecan/laplace2d,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,0,2026-05-18,18221,0.753,3,0.0,,True,,,,False
+jsserve-org/tokscale-merge,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits,0,2026-03-08,21150,0.993,6,0.5,claude-code,False,,,,False
+troberts-28/timthink,llm,False,no root tsconfig,0,2026-11-02,1056266,0.961,27,1.0,claude-code,False,vitest,,,False
+Tamlica/cooking-puzzles-mod,llm,False,no root package.json; no test script; < 10 commits,0,2026-10-06,41140,1.0,3,1.0,claude-code,True,,,,False
+DavidPivert/emdash-plugin-ai-alt-text,llm,True,,0,2026-09-29,87735,1.0,10,1.0,claude-code,True,vitest,,,False
+RaresPNet/kindle-digest,llm,False,AI-attributed commit share < 50%,0,2026-08-19,150717,1.0,11,0.0,,True,vitest,,,False
+Praisindo-Product/Praisindo-Slides-Generator,llm,False,no test script,0,2026-11-02,147127,0.928,14,1.0,claude-code,True,,,,False
+whatthebassett/project-life,llm,False,no test script; TS size outside 40KB-1.5MB,0,2026-09-26,1638384,0.714,14,0.929,claude-code,True,,,,False
+ledbetterljoshua/i-dont-know-what-i-want,llm,False,no test script,0,2025-10-02,262888,0.981,22,0.773,claude-code,True,,,,False
+burakTanBilgi/deck-shenanigans,llm,False,TS share < 60%; < 10 commits,0,2026-09-06,54521,0.543,3,0.667,claude-code,True,vitest,,,False
+zeroai-tech/manuscribe,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,0,2026-06-24,24741,0.884,12,0.0,,True,,,,False
+luvnft/asparagus,llm,False,AI-attributed commit share < 50%,0,2025-03-17,61556,0.948,10,0.0,,True,jest,,,False
+transilienceai/cisoalert,llm,False,no root package.json; no root tsconfig; no test script; < 10 commits,0,2026-07-06,120617,0.66,1,1.0,claude-code,False,,,,False
+Geanyl17/leftoff,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,0,2026-10-26,200744,0.868,1,0.0,,True,,,,False
+MYkosareva-dev/Notera-notes-app,llm,False,no test script,0,2026-08-18,207140,0.881,50,0.74,claude-code,True,,,,False
+paul80nd/forkast,llm,True,,0,2026-06-27,656154,0.653,223,0.78,claude-code,True,vitest,,,False
+paul80nd/tilth,llm,True,,0,2026-07-14,774849,0.932,166,0.79,claude-code,True,vitest,,,False
+shorres/Decksmith,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,0,2025-08-26,214817,0.748,152,0.04,claude-code,False,,,,False
+gianko/agent-quiz-app,llm,False,no root package.json; no root tsconfig; no test script,0,2026-04-24,76709,0.827,10,0.9,claude-code,False,,,,False
+DavidNyholm/spinwright,llm,True,,0,2026-10-20,792095,0.954,13,1.0,claude-code,True,vitest,,,False
+agentscope-ai/QwenPaw,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,37445,2026-02-24,37843562,0.49,2688,0.0,,False,,,,False
+vercel-labs/json-render,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,19178,2026-01-14,2786020,0.812,253,0.03,claude-code,False,vitest,,,True
+chatfire-AI/huobao-drama,llm,False,no root tsconfig; no test script; TS share < 60%,17096,2026-01-05,519620,0.448,423,0.84,claude-code,False,,,,False
+YouMind-OpenLab/awesome-gpt-image-2,llm,False,no test script; AI-attributed commit share < 50%,10253,2026-04-16,134722,1.0,422,0.0,,True,,,,False
+apache/maka,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5946,2026-05-27,56123542,0.922,5175,0.02,devin,False,other,,,True
+ATH-MaaS/ComfyUI-Copilot,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,5579,2025-02-14,656367,0.606,859,0.02,claude-code;cursor,False,,,,False
+wide-trace/open-higgsfield,llm,False,no test script; < 10 commits; AI-attributed commit share < 50%,5422,2026-08-26,218980,0.689,3,0.0,,True,,,,False
+TabularisDB/tabularis,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,5402,2026-01-26,10716613,0.681,2799,0.06,claude-code;cursor,False,vitest,,,False
+jina-ai/node-DeepResearch,llm,False,AI-attributed commit share < 50%,5242,2025-01-26,389093,0.989,571,0.0,,True,jest,,,False
+dmno-dev/varlock,llm,False,no test script; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4919,2025-04-11,5177301,0.737,849,0.01,claude-code,True,,,,True
+zgsm-ai/costrict,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4463,2025-04-10,15135509,0.987,6568,0.07,claude-code,True,other,,,False
+microsoft/AI-Engineering-Coach,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,4389,2026-05-06,4744544,0.935,301,0.49,copilot,True,vitest,,,False
+anymorph-ai/Claudable,llm,False,no test script; AI-attributed commit share < 50%,4057,2025-08-20,989545,0.958,99,0.182,claude-code;jules,True,,,,False
+AmintaCCCP/GithubStarsManager,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,3821,2025-06-29,6154444,0.815,1868,0.0,,True,vitest,,,False
+devdotfast/whiteboard,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,3461,2026-08-18,53416220,0.899,1127,0.01,claude-code,False,node --test,,,False
+AutoMaker-Org/automaker,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,3223,2025-12-07,11155963,0.972,2281,0.18,claude-code;copilot;cursor;gemini,False,vitest,,,True
+viperrcrypto/Siftly,llm,False,AI-attributed commit share < 50%,3087,2026-03-04,572355,0.971,97,0.237,claude-code,True,vitest,,,False
+alsk1992/CloddsBot,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,3079,2026-01-26,9850662,0.978,463,0.43,claude-code,True,node --test,,,False
+allweonedev/presentation-ai,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,3073,2025-03-24,4542423,0.963,121,0.0,,True,,,,False
+xiao-zaiyi/illa-helper,llm,False,no test script; AI-attributed commit share < 50%,2910,2025-06-15,527356,0.674,173,0.0,,True,,,,False
+cabinetai/cabinet,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,2892,2026-04-03,6208663,0.956,1309,0.22,claude-code;copilot,True,other,,,False
+kevinluosl/deepbot,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,2676,2026-01-30,2192624,0.939,484,0.0,,True,,,,False
+kunchenguid/axi,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,2283,2026-03-21,352078,0.903,195,0.2,claude-code;cursor,False,,,,False
+akdeb/ElatoAI,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,2109,2025-04-08,635545,0.659,439,0.0,,False,,,,False
+video-db/call.md,llm,False,AI-attributed commit share < 50%,2073,2026-02-25,1245863,0.986,96,0.031,claude-code,True,other,,,False
+YosemiteCrew/Yosemite-Crew,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,2023,2025-01-21,55042144,0.966,8629,0.0,,True,other,,,False
+ai-that-works/ai-that-works,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,2009,2025-04-02,1530026,0.265,521,0.08,claude-code,False,,,,False
+LingyiChen-AI/JadeAI,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,2007,2026-02-10,2831671,0.985,275,0.0,,True,vitest,,,False
+superagent-ai/vibekit,llm,False,monorepo; AI-attributed commit share < 50%,1868,2025-05-14,934488,0.803,661,0.02,claude-code,True,vitest,,,True
+andyhuo520/digital-human-koubo,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits,1853,2026-10-26,2597258,0.936,7,1.0,claude-code,False,,,,False
+NeoLabHQ/context-engineering-kit,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1806,2025-11-13,37374,0.64,410,0.01,claude-code,False,,,,False
+vercel-labs/coding-agent-template,llm,False,no test script; AI-attributed commit share < 50%,1798,2025-09-23,1250891,0.995,191,0.0,,True,,,,False
+x007xyz/flycut-caption,llm,False,AI-attributed commit share < 50%,1777,2025-09-22,740030,0.699,48,0.021,jules,True,node --test,,,False
+nextify-limited/libra,llm,False,no root tsconfig; no test script; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1702,2025-07-30,4592423,0.956,28,0.0,,False,,,,True
+lorryjovens-hub/claude-code-rust,llm,False,TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,1665,2026-03-31,30404624,0.974,1,0.0,,True,vitest,,,False
+activeloopai/hivemind,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1648,2026-04-03,6242066,0.983,2254,0.11,claude-code,True,vitest,,,False
+brave/brave-search-mcp-server,llm,False,AI-attributed commit share < 50%,1562,2025-06-12,215138,0.995,609,0.0,,True,other,,,False
+quemsah/awesome-claude-plugins,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1555,2025-10-30,1784637,0.901,546,0.0,,False,,,,False
+yamlresume/yamlresume,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1552,2025-04-09,2303968,0.988,500,0.01,claude-code,False,vitest,,,False
+Comfy-Org/workflow_templates,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,1449,2025-02-28,1051334,0.456,1203,0.1,claude-code;cursor,False,,,,False
+GreenSheep01201/claw-empire,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1446,2026-02-18,3801232,0.901,380,0.03,claude-code,True,vitest,,,False
+f/git-rewrite-commits,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,1420,2025-11-10,41472,0.508,76,0.039,copilot,True,,,,False
+tintinweb/pi-subagents,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1414,2026-03-05,2899085,0.997,335,0.01,cursor,True,vitest,,,False
+pixel-point/aval,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1407,2026-07-13,4959117,0.858,136,0.0,,True,vitest,,,True
+firecrawl/open-scouts,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1371,2025-11-28,1937846,0.956,59,0.136,claude-code,True,,,,False
+unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1335,2026-01-21,2741865,0.325,98,0.041,claude-code,False,,,,False
+libredb/libredb-studio,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1320,2025-12-23,70040048,0.98,2494,0.0,,True,bun test,,,False
+Agentshire/Agentshire,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1312,2026-03-19,1936689,0.9,58,0.0,,True,vitest,,,False
+datadrivenconstruction/OpenConstructionERP,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1295,2026-04-02,346740357,0.764,9136,0.0,,False,,,,False
+ryokun6/ryos,llm,False,TS size outside 40KB-1.5MB,1287,2025-01-28,17451244,0.836,6955,0.57,cursor,True,bun test,,,False
+legeling/awesome-codex-pet,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,1261,2026-05-03,552333,0.428,1094,0.0,,False,,,,False
+vercel-labs/workflow-builder-template,llm,False,no test script; AI-attributed commit share < 50%,1237,2025-11-03,1218500,0.994,395,0.0,,True,,,,False
+Chorus-AIDLC/Chorus,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1223,2026-02-04,11063726,0.722,1010,0.33,claude-code;codex,True,vitest,,,False
+AI-QL/tuui,llm,False,TS share < 60%; AI-attributed commit share < 50%,1159,2025-04-01,168429,0.535,313,0.0,,True,other,,,False
+boona13/image-extender,llm,False,no test script; < 10 commits,1118,2026-05-26,766674,0.99,5,0.8,cursor,True,,,,False
+stardustai/dataset-viewer,llm,False,no test script; monorepo; AI-attributed commit share < 50%,1106,2025-07-23,1023967,0.692,258,0.05,copilot,True,,,,True
+bubblelabai/BubbleLab,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1099,2025-10-02,8475295,0.991,655,0.37,claude-code,False,jest,,,False
+apify/mcpc,llm,False,TS size outside 40KB-1.5MB,1091,2025-12-09,1837032,0.79,824,0.85,claude-code,True,vitest,,,False
+NeuroAIHub/BrainPilot,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,1069,2026-06-13,4572606,0.807,693,0.0,,False,vitest,,,True
+J3n5en/EnsoAI,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,998,2025-12-22,3528740,0.984,993,0.3,claude-code,True,vitest,,,False
+davideast/stitch-mcp,llm,False,AI-attributed commit share < 50%,984,2026-01-15,797211,0.9,199,0.46,jules,True,vitest,,,False
+getsentry/toolkit,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,958,2025-03-29,18722886,0.98,2501,0.06,claude-code,False,vitest,,,False
+govind-codex/healthconnect,llm,False,no test script; AI-attributed commit share < 50%,957,2026-06-02,154055,0.96,21,0.0,,True,,,,False
+vercel-labs/ai-cli,llm,False,no root tsconfig; monorepo; AI-attributed commit share < 50%,943,2025-07-28,459235,0.861,276,0.0,,False,vitest,,,True
+thedaviddias/llms-txt-hub,llm,False,no root tsconfig; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,925,2025-02-20,2564673,0.571,1506,0.1,claude-code,False,other,,,False
+e2b-dev/surf,llm,False,no test script; AI-attributed commit share < 50%,876,2025-03-11,148583,0.948,70,0.043,devin,True,,,,False
+peakoss/anti-slop,llm,False,AI-attributed commit share < 50%,855,2026-02-09,70743,0.879,179,0.0,,True,other,,,False
+dpejoh/specter,llm,False,TS share < 60%; AI-attributed commit share < 50%,811,2026-05-05,590130,0.538,509,0.0,,True,vitest,,,False
+AnxForever/stylekit,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,779,2026-02-01,26392624,0.982,1369,0.0,,True,vitest,,,False
+mrslimslim/gpt-image-canvas,llm,False,no root tsconfig; no test script; AI-attributed commit share < 50%,740,2026-04-28,1234908,0.796,90,0.0,,False,,,,False
+AnthonyGress/lab-dash,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,731,2025-02-14,1854547,0.993,532,0.01,copilot,False,,,,False
+ChrisChen667788/wind-comic,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,706,2026-04-26,10333774,0.857,1250,0.44,claude-code,True,vitest,,,False
+DucPhamNgoc08/CodeVisualizer,llm,False,AI-attributed commit share < 50%,700,2025-11-07,602900,0.994,73,0.0,,True,other,,,False
+openstory-so/openstory,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,695,2025-08-28,16354214,0.998,4103,0.21,claude-code,True,vitest,,,True
+swamp-club/swamp,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,694,2026-01-28,53354265,0.991,3100,1.0,claude-code,False,,,,False
+firecrawl/cli,llm,False,AI-attributed commit share < 50%,678,2026-01-07,1269828,0.988,720,0.08,claude-code;cursor,True,vitest,,,False
+Qiuner/birdview,llm,False,TS share < 60%; AI-attributed commit share < 50%,675,2026-09-12,431392,0.538,136,0.0,,True,other,,,False
+mario-andreschak/FLUJO,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,673,2025-02-26,29445054,0.874,3065,0.02,claude-code,True,jest,,,True
+hustcc/mcp-mermaid,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,648,2025-05-20,24134,0.901,28,0.143,copilot,True,vitest,,,False
+arsh342/careercompass,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,636,2025-07-26,1625289,0.996,202,0.0,,True,,,,False
+instructa/viber3d,llm,False,no root tsconfig; no test script; monorepo; AI-attributed commit share < 50%,630,2025-02-28,64538,0.961,64,0.0,,False,,,,True
+criptogus/HermesOffice,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,624,2026-08-04,33724872,0.933,533,0.22,cursor;devin;jules,False,other,,,True
+ItusiAI/Open-Magiviz,llm,False,no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,609,2026-08-09,1981366,0.993,9,0.0,,True,,,,False
+krishn404/Git-Friend,llm,False,no test script; AI-attributed commit share < 50%,598,2025-04-04,497378,0.932,94,0.0,,True,,,,False
+24kchengYe/human-skill-tree,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,590,2026-03-07,1551697,0.955,36,0.75,claude-code,False,,,,False
+HoangNguyen0403/agent-skills-standard,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,583,2026-01-15,5996367,0.755,331,0.0,,True,other,,,False
+louislam/its-mytabs,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,580,2025-09-30,287192,0.644,98,0.061,copilot,False,,,,False
+vinilana/dotcontext,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,576,2025-06-19,2420044,0.966,483,0.06,claude-code;cursor,True,jest,,,False
+elmohq/elmo,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,574,2025-08-29,5824930,0.788,1292,0.01,claude-code,True,other,,,False
+smp46/pingvin-share-x,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,569,2025-09-16,2871526,0.998,1131,0.0,,False,,,,False
+qiaoshouqing/familytree,llm,False,no test script; AI-attributed commit share < 50%,562,2025-03-15,68155,0.966,33,0.182,claude-code,True,,,,False
+ai-driven-dev/framework,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,551,2026-02-06,6081362,0.866,1107,0.5,claude-code,False,,,,False
+ncounterspecialist/twick,llm,False,monorepo; AI-attributed commit share < 50%,546,2025-05-17,1348626,0.815,591,0.0,,True,other,,,True
+Nutlope/make-comics,llm,False,AI-attributed commit share < 50%,536,2025-12-22,390329,0.972,97,0.0,,True,node --test,,,False
+joelhooks/opencode-config,llm,False,no test script; AI-attributed commit share < 50%,530,2025-12-07,181502,1.0,59,0.0,,True,,,,False
+lullabyX/sone,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,527,2026-02-23,1868401,0.555,1261,0.0,,True,vitest,,,False
+ChenChenyaqi/learn-anything,llm,False,no root tsconfig; AI-attributed commit share < 50%,503,2026-05-24,453722,0.734,209,0.0,,False,vitest,,,False
+bunkeriot/BunkerM,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,497,2025-02-14,672417,0.499,113,0.0,,False,,,,False
+ankitvgupta/exo,llm,False,monorepo; TS size outside 40KB-1.5MB,494,2026-03-29,4352786,0.945,125,0.88,claude-code,True,other,,,True
+mintdotgg/mint-playground,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,479,2026-07-15,9926592,0.812,25,0.0,,False,,,,False
+nicobailon/pi-powerline-footer,llm,False,AI-attributed commit share < 50%,471,2026-01-10,702873,1.0,229,0.0,,True,other,,,False
+danilobatson/ai-trading-agent-gemini,llm,False,no test script; AI-attributed commit share < 50%,468,2025-06-12,72058,0.973,19,0.0,,True,,,,False
+Dicklesworthstone/cass_memory_system,llm,False,TS size outside 40KB-1.5MB,457,2025-12-07,4821794,0.993,1008,0.59,claude-code,True,bun test,,,False
+hyper-elements/hyper-elements,llm,False,no root tsconfig; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,430,2025-08-25,4270300,0.938,119,0.22,claude-code,False,other,,,False
+debba/gitdeck,llm,False,AI-attributed commit share < 50%,427,2026-04-29,825514,0.829,199,0.02,claude-code,True,vitest,,,False
+Alchemyst-ai/awesome-saas,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,420,2025-05-20,365303,0.851,752,0.0,,False,,,,False
+Dominic789654/awesome-deepseek-harness,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,420,2026-08-13,26902,0.594,688,0.01,claude-code,False,,,,False
+kingbootoshi/nano-banana-2-skill,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits,417,2026-02-24,21924,1.0,5,1.0,claude-code,False,,,,False
+OctagonAI/kalshi-trading-bot-cli,llm,False,TS size outside 40KB-1.5MB,413,2025-07-14,1701649,0.998,290,0.64,claude-code,True,bun test,,,False
+bnb-chain/example-hub,llm,False,no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,404,2025-03-12,103552,0.39,60,0.0,,False,,,,False
+p-e-w/waidrin,llm,False,no test script; AI-attributed commit share < 50%,394,2025-07-06,99841,0.995,36,0.0,,True,,,,False
+OpenSource03/harnss,llm,False,TS size outside 40KB-1.5MB,393,2026-02-19,3046399,0.989,171,0.78,claude-code;codex;copilot,True,vitest,,,False
+kitze/unclutter,llm,False,AI-attributed commit share < 50%,391,2026-09-17,70803,0.881,25,0.0,,True,other,,,False
+taruma/SceneFlow,llm,False,no test script; AI-attributed commit share < 50%,390,2026-04-01,737366,0.984,259,0.0,,True,,,,False
+qianshuixia/shrimpreel,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,388,2026-10-20,1573612,0.924,49,0.163,claude-code,True,vitest,,,False
+receptron/mulmoclaude,llm,False,monorepo; TS size outside 40KB-1.5MB,386,2026-03-29,15713165,0.885,10323,0.61,claude-code,True,other,,,True
+winterfx/ProWords,llm,False,no test script; AI-attributed commit share < 50%,385,2025-02-28,117251,0.971,37,0.0,,True,,,,False
+Charlies2001/C2C-coding-coach,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,378,2026-03-12,409158,0.554,73,0.178,claude-code,False,,,,False
+Lamatic/AgentKit,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,377,2025-10-01,14243596,0.92,2147,0.04,claude-code;copilot,False,,,,False
+adrianhajdin/roomify,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,375,2026-02-11,39381,0.635,21,0.0,,True,,,,False
+ben-vargas/ai-sdk-provider-claude-code,llm,False,AI-attributed commit share < 50%,372,2025-06-08,1021867,0.995,188,0.07,claude-code;codex;cursor,True,vitest,,,False
+Everless321/dYm,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,361,2026-01-27,1973016,0.902,279,0.32,cursor;devin,True,vitest,,,False
+WellApp-ai/Well,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,352,2025-04-04,265508,0.643,264,0.06,claude-code,False,,,,False
+coleam00/remote-agentic-coding-system,llm,False,< 10 commits; AI-attributed commit share < 50%,352,2025-11-29,160174,0.672,3,0.0,,True,jest,,,False
+KlaatAI/klaatcode,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,352,2026-07-17,1882637,0.996,102,0.01,cursor,True,,,,False
+Fanzzzd/repo-wizard,llm,False,no test script; AI-attributed commit share < 50%,337,2025-06-16,332439,0.741,291,0.0,,True,,,,False
+matrix-agent/awesome-agentic-world-modeling,llm,False,no test script; TS share < 60%; AI-attributed commit share < 50%,337,2026-04-24,68169,0.493,57,0.421,claude-code,True,,,,False
+arielshad/3d-asset-server,llm,False,AI-attributed commit share < 50%,333,2026-10-04,804177,0.839,167,0.36,claude-code,True,vitest,,,False
+vercel/vercel-plugin,llm,False,no root tsconfig; AI-attributed commit share < 50%,328,2026-03-04,1245960,0.783,562,0.06,claude-code,False,bun test,,,False
+modem-dev/slop-scan,llm,False,AI-attributed commit share < 50%,327,2026-04-05,409877,1.0,107,0.01,claude-code,True,bun test,,,False
+FrankChen021/datastoria,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,327,2025-11-11,3637362,0.985,504,0.02,copilot,True,vitest,,,False
+iuliandita/digarr,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,326,2026-03-17,8669649,0.99,1477,0.0,,True,vitest,,,False
+hoquanghai/Auto-Create-Video,llm,True,,323,2026-04-29,99747,0.733,34,0.765,claude-code,True,vitest,,,False
+WangQrkkk/PaperQuay,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,322,2026-04-27,2355793,0.823,54,0.0,,True,,,,False
+Talljack/echo-type,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,321,2026-02-26,4378662,0.914,259,0.0,,True,vitest,,,False
+danishashko/geo-aeo-tracker,llm,False,AI-attributed commit share < 50%,320,2026-02-14,610581,0.972,42,0.024,copilot,True,other,,,False
+Jacobinwwey/obsidian-NotEMD,llm,False,TS share < 60%; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,314,2025-04-17,7711936,0.534,945,0.0,,True,jest,,,False
+admica/FileScopeMCP,llm,False,TS share < 60%,302,2025-03-27,1117365,0.524,603,0.61,claude-code,True,vitest,,,False
+jorgepb96/nodus,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,301,2026-06-14,51832667,0.617,3315,0.08,claude-code,True,node --test,,,False
+ningsiii/ClickDeck,llm,False,AI-attributed commit share < 50%,297,2026-05-25,1317669,0.919,387,0.0,,True,vitest,,,False
+hasaneyldrm/logpress-public,llm,False,< 10 commits; AI-attributed commit share < 50%,295,2026-05-01,1116090,0.994,3,0.333,claude-code,True,jest,,,False
+oomol-lab/open-flow,llm,False,no root tsconfig; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,295,2026-08-24,9935013,0.968,896,0.0,,False,other,,,True
+AgentSwarms-fyi/agentswarms,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,295,2026-07-21,24865296,0.966,1398,0.02,claude-code,True,vitest,,,False
+ship-studio/ship-studio,llm,False,TS share < 60%; TS size outside 40KB-1.5MB,293,2026-01-16,7743318,0.573,1516,0.63,claude-code,True,vitest,,,False
+Qingyon-AI/Revornix,llm,False,no root package.json; no root tsconfig; no test script; TS size outside 40KB-1.5MB,292,2025-04-06,5433897,0.635,1599,0.97,claude-code,False,,,,False
+SankaiAI/TwitCanva-Video-Workflow,llm,False,no test script; AI-attributed commit share < 50%,292,2025-12-14,890502,0.726,181,0.0,,True,,,,False
+HappyOnigiri/PixelRefiner,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,289,2026-02-09,1665951,0.885,984,0.0,,True,vitest,,,False
+Hainrixz/editor-pro-max,llm,False,no test script,288,2026-03-25,134042,0.725,11,1.0,claude-code,True,,,,False
+AmyangXYZ/PoPo,llm,False,no test script; AI-attributed commit share < 50%,283,2025-06-24,133695,0.964,148,0.0,,True,,,,False
+EvolvingLMMs-Lab/lmms-lab-writer,llm,False,AI-attributed commit share < 50%,283,2026-01-24,947402,0.788,548,0.02,claude-code,True,vitest,,,False
+metorial/metorial-index,llm,False,no root tsconfig; no test script; monorepo; AI-attributed commit share < 50%,281,2025-06-05,41181,1.0,153,0.0,,False,,,,True
+stella/stella,llm,False,monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,277,2026-05-03,139231740,0.955,7986,0.04,claude-code,True,other,,,True
+me-shaon/devtools,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,276,2025-08-13,2847908,0.962,307,0.0,,True,vitest,,,False
+oasm-platform/open-asm,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,272,2025-06-16,11738225,0.91,1116,0.02,claude-code,False,,,,False
+pehlicd/crd-wizard,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,271,2025-07-29,272162,0.48,300,0.0,,False,,,,False
+terragon-labs/terragon-oss,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB; < 10 commits; AI-attributed commit share < 50%,261,2026-01-16,4224133,0.958,2,0.0,,False,,,,False
+unhappychoice/mdts,llm,False,AI-attributed commit share < 50%,260,2025-07-13,471764,0.963,1813,0.03,claude-code,True,jest,,,False
+mcollina/githuman,llm,True,,258,2025-12-30,979270,0.971,153,0.74,claude-code,True,vitest,,,False
+kenlasko/monize,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,258,2026-01-19,63894827,0.962,8230,0.83,claude-code,False,,,,False
+forgent3d/forgent3d-desktop,llm,False,no root tsconfig; AI-attributed commit share < 50%,255,2026-04-23,677526,0.746,129,0.17,claude-code;codex;cursor,False,other,,,False
+MxCorpIn/Repolyze,llm,False,no test script; AI-attributed commit share < 50%,254,2025-12-21,781136,0.989,122,0.0,,True,,,,False
+i18next/i18next-cli,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,251,2025-09-24,2609747,0.999,1078,0.02,claude-code,True,vitest,,,False
+FelixNg1022/JobMatch-AI,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,245,2025-11-29,76406,0.511,27,0.0,,False,,,,False
+IAmUnbounded/devctx,llm,False,no root package.json; no root tsconfig; no test script; AI-attributed commit share < 50%,239,2026-02-14,99982,0.998,14,0.214,claude-code,False,,,,False
+aplaceforallmystuff/mcp-arr,llm,False,AI-attributed commit share < 50%,238,2025-11-28,125804,0.927,82,0.488,claude-code,True,node --test,,,False
+htekdev/vidpipe,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,236,2026-02-07,3310266,0.98,139,0.12,copilot,True,vitest,,,False
+tsensei/OpenReels,llm,False,AI-attributed commit share < 50%,235,2026-03-28,695733,0.985,226,0.32,claude-code,True,vitest,,,False
+pasky/pi-amplike,llm,False,no root tsconfig; AI-attributed commit share < 50%,235,2026-01-25,144683,0.828,86,0.0,,False,other,,,False
+ansvisor/ansvisor,llm,False,no root tsconfig; no test script; TS size outside 40KB-1.5MB,232,2026-05-05,22308099,0.675,2343,0.8,claude-code,False,,,,False
+mukiwu/tempo-term,llm,False,TS size outside 40KB-1.5MB,231,2026-06-17,3467829,0.744,884,0.85,claude-code,True,vitest,,,False
+adrianhajdin/travel-agency-dashboard,llm,False,no test script; AI-attributed commit share < 50%,231,2025-04-21,656993,0.977,24,0.0,,True,,,,False
+tensor2023/OpenPixel-RPG,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; AI-attributed commit share < 50%,228,2026-05-21,816886,0.588,18,0.056,claude-code,False,,,,False
+ZapYap-com/note67,llm,False,AI-attributed commit share < 50%,227,2025-12-25,707767,0.603,488,0.0,,True,vitest,,,False
+eastlondoner/mineflare,llm,False,no test script; AI-attributed commit share < 50%,225,2025-09-26,552371,0.826,101,0.0,,True,,,,False
+1146345502/aural-oss,llm,False,no test script; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,223,2026-03-16,3078853,0.975,54,0.167,cursor,True,,,,False
+github/replica,llm,False,no root package.json; no root tsconfig; no test script; TS share < 60%; TS size outside 40KB-1.5MB,220,2026-10-15,3709771,0.471,88,0.648,copilot,False,,,,False
+Axolotl-QA/Axolotl,llm,False,TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,220,2026-03-19,6329822,0.944,79,0.278,claude-code,True,other,,,False
+img2threejs/img2threejs-showcase,llm,False,no test script; monorepo; TS size outside 40KB-1.5MB; AI-attributed commit share < 50%,219,2026-07-16,420171628,0.908,290,0.0,,True,,,,True
+ahmedyahia01/Nara-AI-Dashboard,llm,False,no test script; AI-attributed commit share < 50%,218,2026-06-22,175174,0.951,17,0.0,,True,,,,False
+wong2/diffx,llm,False,no test script; AI-attributed commit share < 50%,218,2026-04-04,77217,0.784,90,0.456,claude-code,True,,,,False
+rizal72/true-mem,llm,False,no test script; AI-attributed commit share < 50%,214,2026-02-22,259664,1.0,235,0.0,,True,,,,False
+BIGPPWONG/EdgeBox,llm,False,no test script; AI-attributed commit share < 50%,212,2025-09-12,204807,0.657,65,0.062,claude-code,True,,,,False

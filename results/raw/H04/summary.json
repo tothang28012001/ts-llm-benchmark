@@ -1,0 +1,107 @@
+{
+  "repo_id": "H04",
+  "group": "human",
+  "full_name": "HadoukenIO/core",
+  "stars": "104",
+  "created_at": "2017-05-03",
+  "pin": "8115f904a3b5231d871dec3f03f1edb3745d533b",
+  "fetch": {
+    "sha": "8115f904a3b5231d871dec3f03f1edb3745d533b",
+    "commit_date": "2019-10-17T18:55:27-04:00",
+    "first_commit_date": "2017-02-06T16:11:37-05:00",
+    "commits_to_pin": 1155,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 87,
+    "test_files": 15,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": "npm-shrinkwrap.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 87,
+      "lines": 15925,
+      "code": 12448,
+      "comment": 1137,
+      "blank": 2463
+    },
+    "test": {
+      "files": 15,
+      "lines": 1978,
+      "code": 1559,
+      "comment": 42,
+      "blank": 378
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 2,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 3,
+        "seconds": 24.0
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 3,
+        "seconds": 11.8
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 0,
+        "seconds": 8.2
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.5.1",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 15,
+        "seconds": 3.867
+      }
+    ],
+    "errors_total": 15,
+    "errors_in_project_files": 15,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2307": 10,
+      "TS7006": 4,
+      "TS2538": 1
+    },
+    "files_with_errors": 8,
+    "timed_out": false,
+    "project_files_checked": 128
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 3,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 7.9
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "12",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 21.2
+  }
+}

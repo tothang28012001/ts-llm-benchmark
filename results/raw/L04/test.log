@@ -1,0 +1,88 @@
+
+> @agent-era/devteam@1.1.2 test
+> jest
+
+PASS tests/unit/tracker.test.ts
+PASS tests/e2e/comment-send.test.tsx
+PASS tests/e2e/archived.test.tsx (5.136 s)
+PASS tests/e2e/branch-picker.test.tsx (6.271 s)
+PASS tests/e2e/ui-dialogs.test.tsx (8.745 s)
+PASS tests/e2e/diff-comments.test.tsx
+PASS tests/unit/WorktreeService.test.ts
+PASS tests/unit/ralph.test.ts
+PASS tests/e2e/full-workflow.test.tsx
+PASS tests/unit/app-services.test.tsx
+PASS tests/e2e/worktree.test.tsx
+PASS tests/e2e/diff-wrap-mode.test.tsx
+PASS tests/unit/input-focus.test.tsx
+PASS tests/unit/AIToolService.test.ts
+PASS tests/e2e/data-flow.test.tsx
+PASS tests/e2e/unarchive-workflow.test.tsx
+PASS tests/e2e/navigation.test.tsx
+PASS tests/unit/TrackerBoardScreen.test.ts
+PASS tests/unit/remote-commit-invalidation.test.ts
+PASS tests/unit/ai-tool-switching.test.ts
+PASS tests/unit/paginationState.test.ts
+PASS tests/e2e/session.test.tsx
+PASS tests/unit/pagination.test.ts
+PASS tests/unit/git-worktree-creation.test.ts
+PASS tests/unit/columnLayout.test.ts
+PASS tests/e2e/diff-file-navigation.test.tsx
+PASS tests/unit/comment-formatting.test.tsx
+PASS tests/unit/diffWidthIssue.test.tsx
+PASS tests/unit/markdown-render.test.ts
+PASS tests/unit/settingsDialog-wipe-prevention.test.tsx
+PASS tests/unit/PRStatusCacheService.test.ts
+PASS tests/e2e/main-view-half-screen.test.tsx
+PASS tests/unit/loadDiff.test.ts
+PASS tests/unit/comment-line-mapping.test.tsx
+PASS tests/unit/WorktreeCoreAutoResume.test.ts
+PASS tests/unit/tracker-board-create-flow.test.ts
+PASS tests/e2e/unsaved-comments-dialog.test.tsx
+PASS tests/e2e/half-screen-navigation.test.tsx
+PASS tests/unit/tmux-status-bar.test.ts
+PASS tests/unit/unarchive-bug.test.ts
+PASS tests/unit/services.test.ts
+PASS tests/unit/memoryMonitor.test.ts
+PASS tests/e2e/side-by-side-diff.test.tsx
+PASS tests/unit/ai-tool-dialog.test.tsx
+PASS tests/unit/formatCommentsAsPrompt.test.ts
+PASS tests/unit/sideBySideDiff.test.ts
+PASS tests/unit/tracker-proposal-create.test.ts
+PASS tests/unit/dialog-navigation-bug.test.ts
+PASS tests/unit/convertToSideBySide.test.ts
+PASS tests/unit/pagination-fixes.test.tsx
+PASS tests/unit/git-archive-clean.test.ts
+PASS tests/unit/statusChipMapping.test.ts
+PASS tests/unit/diff-file-ordering.test.ts
+PASS tests/unit/versionCheckService.test.ts
+PASS tests/unit/tracker-derive-slug.test.ts
+PASS tests/unit/markdown-diffPrepass.test.ts
+PASS tests/unit/ai-tool-detection.test.ts
+PASS tests/unit/markdown-blockContext.test.ts
+PASS tests/unit/pageDownOnePage.test.ts
+PASS tests/unit/workspaceService.test.ts
+PASS tests/unit/runningChips.test.ts
+PASS tests/unit/fileSystem-utils.test.ts
+PASS tests/unit/paginationUtils.test.ts
+PASS tests/unit/diffLineIndex.test.ts
+PASS tests/unit/tracker-item-screen-actions.test.ts
+PASS tests/unit/prChip.test.ts
+PASS tests/unit/sort-instability.test.tsx
+PASS tests/unit/comment-fileheader-duplicate.test.tsx
+PASS tests/e2e/project-filter.test.tsx
+PASS tests/unit/aiSessionMemory.test.ts
+PASS tests/unit/applyConfig.test.ts
+PASS tests/unit/cross-project-sorting-comparator.test.ts
+PASS tests/unit/layout-utils.test.ts
+PASS tests/unit/WorktreeCoreSessionTermination.test.ts
+PASS tests/unit/ai-tool-selection-logic.test.ts
+PASS tests/unit/useKeyboardShortcuts.test.ts
+PASS tests/unit/sanitization.test.ts
+PASS tests/e2e/project-picker-input-behavior.test.tsx
+
+Test Suites: 78 passed, 78 total
+Tests:       815 passed, 815 total
+Snapshots:   0 total
+Time:        22.041 s
+Ran all test suites in 2 projects.

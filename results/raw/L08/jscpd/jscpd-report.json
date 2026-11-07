@@ -1,0 +1,229 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T12:06:30.901Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/tools/pullrequests.ts": {
+            "lines": 734,
+            "tokens": 6291,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 200,
+            "percentage": 2.45,
+            "percentageTokens": 3.18,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tools/packages.ts": {
+            "lines": 158,
+            "tokens": 1351,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 236,
+            "percentage": 12.66,
+            "percentageTokens": 17.47,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tools/helpers.ts": {
+            "lines": 57,
+            "tokens": 443,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validation.ts": {
+            "lines": 117,
+            "tokens": 1076,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/server.ts": {
+            "lines": 241,
+            "tokens": 1948,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 20,
+            "tokens": 178,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/http.ts": {
+            "lines": 298,
+            "tokens": 2801,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config.ts": {
+            "lines": 287,
+            "tokens": 2365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/compact.ts": {
+            "lines": 149,
+            "tokens": 1406,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/client.ts": {
+            "lines": 296,
+            "tokens": 2723,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2357,
+          "tokens": 20582,
+          "sources": 10,
+          "clones": 2,
+          "duplicatedLines": 19,
+          "duplicatedTokens": 218,
+          "percentage": 0.81,
+          "percentageTokens": 1.06,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2357,
+      "tokens": 20582,
+      "sources": 10,
+      "clones": 2,
+      "duplicatedLines": 19,
+      "duplicatedTokens": 218,
+      "percentage": 0.81,
+      "percentageTokens": 1.06,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ",\n    {\n      owner: zOwner,\n      repo: zRepo,\n      index: zIndex.describe(\"Pull request number\"),\n      id: zId.describe(\"Review ID\"),\n    },\n    async (params) => {\n      try {\n        const result = await client.get(`/repos/${params.owner}/${params.repo}/pulls/${params.index}/reviews/${params.id}/comments`",
+      "tokens": 100,
+      "firstFile": {
+        "name": "src/tools/pullrequests.ts",
+        "start": 547,
+        "end": 556,
+        "startLoc": {
+          "line": 547,
+          "column": 49,
+          "position": 4691
+        },
+        "endLoc": {
+          "line": 556,
+          "column": 132,
+          "position": 4791
+        }
+      },
+      "secondFile": {
+        "name": "src/tools/pullrequests.ts",
+        "start": 484,
+        "end": 493,
+        "startLoc": {
+          "line": 484,
+          "column": 46,
+          "position": 4163
+        },
+        "endLoc": {
+          "line": 493,
+          "column": 123,
+          "position": 4263
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ",\n    {\n      owner: zOwner.describe(\"Owner of the package\"),\n      type: zPackageType.describe(\"Type of the package\"),\n      name: zPackageName.describe(\"Name of the package\"),\n      version: zPackageVersion.describe(\"Version of the package\"),\n    },\n    async (params) => {\n      try {\n        const data = await client.get(\n          `/packages/${params.owner}/${params.type}/${encodeURIComponent(params.name)}/${encodeURIComponent(params.version)}/files`",
+      "tokens": 118,
+      "firstFile": {
+        "name": "src/tools/packages.ts",
+        "start": 96,
+        "end": 106,
+        "startLoc": {
+          "line": 96,
+          "column": 56,
+          "position": 843
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 132,
+          "position": 961
+        }
+      },
+      "secondFile": {
+        "name": "src/tools/packages.ts",
+        "start": 52,
+        "end": 62,
+        "startLoc": {
+          "line": 52,
+          "column": 42,
+          "position": 480
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 126,
+          "position": 598
+        }
+      }
+    }
+  ]
+}

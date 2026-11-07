@@ -1,0 +1,96 @@
+$ vitest
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90m/work[39m
+
+ [32m✓[39m packages/core/test/lifecycle.test.ts [2m([22m[2m23 tests[22m[2m)[22m[33m 331[2mms[22m[39m
+ [32m✓[39m packages/core/test/dsh.test.ts [2m([22m[2m22 tests[22m[2m)[22m[33m 360[2mms[22m[39m
+ [32m✓[39m packages/core/test/editors.test.ts [2m([22m[2m38 tests[22m[2m)[22m[33m 308[2mms[22m[39m
+ [32m✓[39m packages/core/test/claude-code.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 86[2mms[22m[39m
+ [32m✓[39m packages/core/test/apply.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 209[2mms[22m[39m
+ [32m✓[39m packages/cli/test/main.test.ts [2m([22m[2m74 tests[22m[2m)[22m[33m 2726[2mms[22m[39m
+ [32m✓[39m packages/core/test/pi.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 69[2mms[22m[39m
+ [32m✓[39m packages/ui-kit/test/pages.test.ts [2m([22m[2m34 tests[22m[2m)[22m[32m 40[2mms[22m[39m
+ [32m✓[39m packages/core/test/backup.test.ts [2m([22m[2m14 tests[22m[2m)[22m[33m 532[2mms[22m[39m
+ [32m✓[39m packages/core/test/opencode.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 105[2mms[22m[39m
+ [32m✓[39m packages/cli/test/server.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 232[2mms[22m[39m
+ [32m✓[39m packages/core/test/adapters.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 78[2mms[22m[39m
+ [32m✓[39m packages/core/test/codex.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 107[2mms[22m[39m
+ [32m✓[39m packages/core/test/gemini-cli.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 46[2mms[22m[39m
+ [32m✓[39m packages/core/test/presets.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 185[2mms[22m[39m
+ [32m✓[39m packages/core/test/cursor.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+ [32m✓[39m packages/core/test/skills-presets.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 83[2mms[22m[39m
+ [32m✓[39m packages/core/test/schema.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 33[2mms[22m[39m
+ [32m✓[39m packages/cli/test/service.test.ts [2m([22m[2m10 tests[22m[2m)[22m[33m 315[2mms[22m[39m
+ [32m✓[39m packages/core/test/diff.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 89[2mms[22m[39m
+ [32m✓[39m packages/core/test/shared.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+ [32m✓[39m packages/cli/test/mouse.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+ [32m✓[39m packages/ui-kit/test/draft.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m packages/core/test/skills-search.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 137[2mms[22m[39m
+ [32m✓[39m packages/core/test/extras.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32m✓[39m packages/core/test/config-file.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 144[2mms[22m[39m
+ [32m✓[39m packages/cli/test/render.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32m✓[39m packages/core/test/fs.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 117[2mms[22m[39m
+ [32m✓[39m packages/core/test/lang.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m packages/core/test/runner.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 217[2mms[22m[39m
+ [32m✓[39m packages/core/test/secrets.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m packages/cli/test/i18n.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+ [32m✓[39m packages/ui-kit/test/lang.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m packages/cli/test/tui.test.tsx [2m([22m[2m60 tests[22m[2m)[22m[33m 50606[2mms[22m[39m
+   [32m✓[39m terminal UI [2m(59)[22m
+     [33m[2m✓[22m[39m lists the tools with their install state and saves a toggled tool through the apply flow[33m 973[2mms[22m[39m
+     [33m[2m✓[22m[39m edits provider fields in place and never shows the API key[33m 1330[2mms[22m[39m
+     [33m[2m✓[22m[39m switches the download mirror on the Settings page[33m 511[2mms[22m[39m
+     [33m[2m✓[22m[39m says when ZCF_MIRROR outranks the saved mirror, and fixes a mirror that is not an option[33m 481[2mms[22m[39m
+     [33m[2m✓[22m[39m moves the state onto a right sidebar once the terminal is wide enough[33m 370[2mms[22m[39m
+     [33m[2m✓[22m[39m switches the interface language from the header with L, saving it at once[33m 453[2mms[22m[39m
+     [33m[2m✓[22m[39m types l into a text field without switching the interface language[33m 831[2mms[22m[39m
+     [33m[2m✓[22m[39m picks the config language on the Settings page; the interface language is not a field there[33m 499[2mms[22m[39m
+     [33m[2m✓[22m[39m opens a skill source with the cursor on its first field[33m 908[2mms[22m[39m
+     [33m[2m✓[22m[39m picks built-in skills from the catalog beside a custom source[33m 1104[2mms[22m[39m
+     [33m[2m✓[22m[39m untoggles a picked built-in skill and drops the source once it is empty[33m 768[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps a single built-in row for a zcf source that names no skills[33m 914[2mms[22m[39m
+     [33m[2m✓[22m[39m searches community skills and adds a hit to the source it belongs to[33m 1071[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps the search query label on one line when its editor opens[33m 411[2mms[22m[39m
+     [33m[2m✓[22m[39m windows a list taller than the terminal and marks the hidden ends[33m 1822[2mms[22m[39m
+     [33m[2m✓[22m[39m opens rows and pages with a mouse click[33m 370[2mms[22m[39m
+     [33m[2m✓[22m[39m jumps to a page by its digit, and 0 names no page any more[33m 690[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps digit keys for the text editor while a row is edited[33m 909[2mms[22m[39m
+     [33m[2m✓[22m[39m windows the nav in a short terminal, keeping the open page in view[33m 661[2mms[22m[39m
+     [33m[2m✓[22m[39m moves the selection with the mouse wheel[33m 376[2mms[22m[39m
+     [33m[2m✓[22m[39m opens a text editor with a mouse click[33m 415[2mms[22m[39m
+     [33m[2m✓[22m[39m says when a search matches nothing, and when the index cannot answer[33m 1396[2mms[22m[39m
+     [33m[2m✓[22m[39m fills the provider from a preset and keeps the API key[33m 563[2mms[22m[39m
+     [33m[2m✓[22m[39m goes back from the preset list while it is still loading[33m 429[2mms[22m[39m
+     [33m[2m✓[22m[39m adds an MCP server through its form[33m 1971[2mms[22m[39m
+     [33m[2m✓[22m[39m removes the provider, so a config without one is valid again[33m 1286[2mms[22m[39m
+     [33m[2m✓[22m[39m shows the plan with secrets masked and applies it on Enter[33m 346[2mms[22m[39m
+     [33m[2m✓[22m[39m scrolls the apply output with the mouse wheel[33m 1525[2mms[22m[39m
+     [33m[2m✓[22m[39m says so when the plan has nothing to do, and closes[33m 2400[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses an invalid draft from the apply flow and stays on its confirmation[33m 311[2mms[22m[39m
+     [33m[2m✓[22m[39m needs a second q to quit with unsaved changes[33m 424[2mms[22m[39m
+     [33m[2m✓[22m[39m shows why the config could not be read instead of loading forever[33m 2119[2mms[22m[39m
+     [33m[2m✓[22m[39m toggles a workflow preset in, and back out, writing skills and agents together[33m 845[2mms[22m[39m
+     [33m[2m✓[22m[39m renders workflow group headings that carry no ordinal and never select[33m 384[2mms[22m[39m
+     [33m[2m✓[22m[39m builds a custom bundle with agents, catalog skills and an MCP reference, then removes it[33m 4076[2mms[22m[39m
+     [33m[2m✓[22m[39m toggles the built-in agents inside the workflows page agents group[33m 877[2mms[22m[39m
+     [33m[2m✓[22m[39m cycles the magpie face and toggles CCometixLine on the Extras page[33m 670[2mms[22m[39m
+     [33m[2m✓[22m[39m lists backups, restores one after a confirm, and prunes the old runs[33m 754[2mms[22m[39m
+     [33m[2m✓[22m[39m switches provider profiles, saves the current one, and removes one[33m 1865[2mms[22m[39m
+     [33m[2m✓[22m[39m picks output styles and the default one on the Output styles page[33m 863[2mms[22m[39m
+     [33m[2m✓[22m[39m warns that unsaved editor changes still sit on top of a restore[33m 733[2mms[22m[39m
+     [33m[2m✓[22m[39m reports a restore with corrupt and outside files and nothing to undo[33m 400[2mms[22m[39m
+     [33m[2m✓[22m[39m cancels a restore from the confirm, by row and by Esc[33m 582[2mms[22m[39m
+     [33m[2m✓[22m[39m says when the backups cannot be listed, restored or pruned[33m 952[2mms[22m[39m
+     [33m[2m✓[22m[39m reopens a saved bundle, renames it and takes its picks back out[33m 3032[2mms[22m[39m
+     [33m[2m✓[22m[39m adds a community skill to a bundle through the search picker[33m 2850[2mms[22m[39m
+   [32m✓[39m numbers moved [2m(1)[22m
+     [33m[2m✓[22m[39m numbers visible rows and picks one with its digit without running it[33m 398[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m34 passed[39m[22m[90m (34)[39m
+[2m      Tests [22m [1m[32m535 passed[39m[22m[90m (535)[39m
+[2m   Start at [22m 11:55:08
+[2m   Duration [22m 54.25s[2m (tests 82%, transform 9%, import 8%)[22m
+
+[2m    Isolate [22m [33m34 workers spawned[39m[2m · ~317ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~3.28s faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+

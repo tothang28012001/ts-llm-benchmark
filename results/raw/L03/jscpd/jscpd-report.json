@@ -1,0 +1,253 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T10:50:49.877Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/slug.ts": {
+            "lines": 28,
+            "tokens": 269,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/logger.ts": {
+            "lines": 14,
+            "tokens": 261,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tts/tts-client.ts": {
+            "lines": 43,
+            "tokens": 316,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tts/lucylab-client.ts": {
+            "lines": 111,
+            "tokens": 1378,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tts/elevenlabs-client.ts": {
+            "lines": 89,
+            "tokens": 851,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/render/script-schema.ts": {
+            "lines": 128,
+            "tokens": 1342,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/render/hyperframes-runner.ts": {
+            "lines": 51,
+            "tokens": 430,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/render/html-composer.ts": {
+            "lines": 307,
+            "tokens": 2476,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pipeline.ts": {
+            "lines": 246,
+            "tokens": 2962,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 100,
+            "percentage": 3.66,
+            "percentageTokens": 3.38,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config.ts": {
+            "lines": 98,
+            "tokens": 914,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli.ts": {
+            "lines": 23,
+            "tokens": 199,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assets/sfx-selector.ts": {
+            "lines": 207,
+            "tokens": 1805,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assets/image-fetcher.ts": {
+            "lines": 34,
+            "tokens": 427,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assets/audio-tools.ts": {
+            "lines": 204,
+            "tokens": 1836,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "rerender.ts": {
+            "lines": 149,
+            "tokens": 1990,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 100,
+            "percentage": 6.04,
+            "percentageTokens": 5.03,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1732,
+          "tokens": 17456,
+          "sources": 15,
+          "clones": 1,
+          "duplicatedLines": 9,
+          "duplicatedTokens": 100,
+          "percentage": 0.52,
+          "percentageTokens": 0.57,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1732,
+      "tokens": 17456,
+      "sources": 15,
+      "clones": 1,
+      "duplicatedLines": 9,
+      "duplicatedTokens": 100,
+      "percentage": 0.52,
+      "percentageTokens": 0.57,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\r\n  const html = composeHtml({\r\n    script,\r\n    sceneAudio: sceneAudio.map((a) => ({ id: a.id, durationSec: a.durationSec })),\r\n    gapSec: SCENE_GAP_SEC,\r\n    bgImageRelPath,\r\n    audioRelPath: \"voice.mp3\",\r\n    tiktok: cfg.tiktok,\r\n    tiktokAvatarRelPath: ttAvatarFile,\r\n    outroHoldSec: 3",
+      "tokens": 100,
+      "firstFile": {
+        "name": "rerender.ts",
+        "start": 121,
+        "end": 130,
+        "startLoc": {
+          "line": 121,
+          "column": 18,
+          "position": 1606
+        },
+        "endLoc": {
+          "line": 130,
+          "column": 20,
+          "position": 1706
+        }
+      },
+      "secondFile": {
+        "name": "src/pipeline.ts",
+        "start": 205,
+        "end": 214,
+        "startLoc": {
+          "line": 205,
+          "column": 1,
+          "position": 2490
+        },
+        "endLoc": {
+          "line": 214,
+          "column": 33,
+          "position": 2590
+        }
+      }
+    }
+  ]
+}

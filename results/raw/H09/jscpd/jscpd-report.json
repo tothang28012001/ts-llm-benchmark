@@ -1,0 +1,1669 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T10:46:57.439Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "server/index.ts": {
+            "lines": 93,
+            "tokens": 799,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/setupSchema.ts": {
+            "lines": 67,
+            "tokens": 406,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/user.resolver.ts": {
+            "lines": 45,
+            "tokens": 409,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/starwars.resolver.ts": {
+            "lines": 26,
+            "tokens": 243,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/starwars.itest.ts": {
+            "lines": 69,
+            "tokens": 492,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/movie.resolver.ts": {
+            "lines": 37,
+            "tokens": 205,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/index.ts": {
+            "lines": 6,
+            "tokens": 84,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/example.resolver.ts": {
+            "lines": 67,
+            "tokens": 592,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/example.itest.ts": {
+            "lines": 92,
+            "tokens": 603,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/resolvers/blog.resolver.ts": {
+            "lines": 166,
+            "tokens": 1206,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/errors/auth-error.ts": {
+            "lines": 10,
+            "tokens": 40,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/directives/formattableDate.ts": {
+            "lines": 32,
+            "tokens": 232,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/directives/authDirective.ts": {
+            "lines": 59,
+            "tokens": 437,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/datasource/starwars-api.ts": {
+            "lines": 16,
+            "tokens": 104,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/graphql/dataloader/starwars.ts": {
+            "lines": 55,
+            "tokens": 400,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/services/security.service.ts": {
+            "lines": 53,
+            "tokens": 361,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/services/metrics.service.ts": {
+            "lines": 36,
+            "tokens": 293,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/services/log.service.ts": {
+            "lines": 89,
+            "tokens": 738,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/models/security.model.ts": {
+            "lines": 10,
+            "tokens": 39,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/middleware/logger-middleware.ts": {
+            "lines": 27,
+            "tokens": 188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/middleware/auth-middleware.ts": {
+            "lines": 102,
+            "tokens": 799,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/interfaces/isecurity.ts": {
+            "lines": 13,
+            "tokens": 47,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/interfaces/imetrics.ts": {
+            "lines": 11,
+            "tokens": 59,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/interfaces/ilogger.ts": {
+            "lines": 21,
+            "tokens": 132,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/server.ts": {
+            "lines": 77,
+            "tokens": 485,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/env.ts": {
+            "lines": 5,
+            "tokens": 39,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/constants/tags.ts": {
+            "lines": 6,
+            "tokens": 24,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/constants/identifiers.ts": {
+            "lines": 15,
+            "tokens": 137,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/utils.ts": {
+            "lines": 12,
+            "tokens": 66,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/swagger.ts": {
+            "lines": 53,
+            "tokens": 340,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/security.ts": {
+            "lines": 40,
+            "tokens": 348,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/metrics.ts": {
+            "lines": 23,
+            "tokens": 148,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/logging.ts": {
+            "lines": 27,
+            "tokens": 211,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/jwt.ts": {
+            "lines": 23,
+            "tokens": 154,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/ioc_config.ts": {
+            "lines": 85,
+            "tokens": 583,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/index.ts": {
+            "lines": 9,
+            "tokens": 103,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/hystrix.ts": {
+            "lines": 28,
+            "tokens": 204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/healthchecks.ts": {
+            "lines": 48,
+            "tokens": 307,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/graphql.ts": {
+            "lines": 125,
+            "tokens": 891,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/common/config/compression.ts": {
+            "lines": 22,
+            "tokens": 135,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/user.service.ts": {
+            "lines": 31,
+            "tokens": 114,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/starwars.service.ts": {
+            "lines": 66,
+            "tokens": 602,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/scraper.service.ts": {
+            "lines": 585,
+            "tokens": 4368,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/response-builder.ts": {
+            "lines": 99,
+            "tokens": 613,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/product.service.ts": {
+            "lines": 232,
+            "tokens": 1550,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 52,
+            "duplicatedTokens": 298,
+            "percentage": 22.41,
+            "percentageTokens": 19.23,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/index.ts": {
+            "lines": 9,
+            "tokens": 119,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/hystrix-demo.service.ts": {
+            "lines": 180,
+            "tokens": 1349,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 50,
+            "duplicatedTokens": 342,
+            "percentage": 27.78,
+            "percentageTokens": 25.35,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/http-status-codes.ts": {
+            "lines": 10,
+            "tokens": 59,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/services/examples.service.ts": {
+            "lines": 74,
+            "tokens": 616,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/models/starwars.model.ts": {
+            "lines": 42,
+            "tokens": 246,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/models/quote.model.ts": {
+            "lines": 10,
+            "tokens": 39,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/models/product.model.ts": {
+            "lines": 42,
+            "tokens": 153,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/models/index.ts": {
+            "lines": 7,
+            "tokens": 53,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/models/example.model.ts": {
+            "lines": 18,
+            "tokens": 66,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/models/error.model.ts": {
+            "lines": 9,
+            "tokens": 32,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/models/api-response.model.ts": {
+            "lines": 12,
+            "tokens": 43,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/scrape-data.ts": {
+            "lines": 7,
+            "tokens": 39,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/iuser.ts": {
+            "lines": 13,
+            "tokens": 47,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/istarwars.ts": {
+            "lines": 12,
+            "tokens": 60,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/iscraper.ts": {
+            "lines": 25,
+            "tokens": 246,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/iproduct.ts": {
+            "lines": 33,
+            "tokens": 203,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/index.ts": {
+            "lines": 8,
+            "tokens": 118,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/ihystrix-demo.ts": {
+            "lines": 12,
+            "tokens": 59,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/interfaces/iexample.ts": {
+            "lines": 21,
+            "tokens": 137,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/controllers/starwars/controller.ts": {
+            "lines": 97,
+            "tokens": 768,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 81,
+            "duplicatedTokens": 674,
+            "percentage": 83.51,
+            "percentageTokens": 87.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/controllers/shop/controller.ts": {
+            "lines": 289,
+            "tokens": 2543,
+            "sources": 1,
+            "clones": 15,
+            "duplicatedLines": 304,
+            "duplicatedTokens": 2656,
+            "percentage": 105.19,
+            "percentageTokens": 104.44,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/controllers/security/controller.ts": {
+            "lines": 87,
+            "tokens": 579,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/controllers/scraper/controller.ts": {
+            "lines": 481,
+            "tokens": 4594,
+            "sources": 1,
+            "clones": 19,
+            "duplicatedLines": 488,
+            "duplicatedTokens": 4528,
+            "percentage": 101.46,
+            "percentageTokens": 98.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/controllers/hystrix-demo/controller.ts": {
+            "lines": 84,
+            "tokens": 663,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 205,
+            "percentage": 26.19,
+            "percentageTokens": 30.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/api/controllers/examples/controller.ts": {
+            "lines": 142,
+            "tokens": 1128,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 31,
+            "duplicatedTokens": 233,
+            "percentage": 21.83,
+            "percentageTokens": 20.66,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4537,
+          "tokens": 34289,
+          "sources": 70,
+          "clones": 22,
+          "duplicatedLines": 514,
+          "duplicatedTokens": 4468,
+          "percentage": 11.33,
+          "percentageTokens": 13.03,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 4537,
+      "tokens": 34289,
+      "sources": 70,
+      "clones": 22,
+      "duplicatedLines": 514,
+      "duplicatedTokens": 4468,
+      "percentage": 11.33,
+      "percentageTokens": 13.03,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 27,
+      "fragment": "\n  {\n    id: prId++,\n    baseProductOptionId: bpoId++,\n    price: basePrice++\n  },\n  {\n    id: prId++,\n    baseProductOptionId: bpoId++,\n    price: basePrice++\n  },\n  {\n    id: prId++,\n    baseProductOptionId: bpoId++,\n    price: basePrice++\n  },\n  {\n    id: prId++,\n    baseProductOptionId: bpoId++,\n    price: basePrice++\n  },\n  {\n    id: prId++,\n    baseProductOptionId: bpoId++,\n    price: basePrice++\n  }\n",
+      "tokens": 149,
+      "firstFile": {
+        "name": "server/api/services/product.service.ts",
+        "start": 28,
+        "end": 54,
+        "startLoc": {
+          "line": 28,
+          "column": 5,
+          "position": 213
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 1,
+          "position": 362
+        }
+      },
+      "secondFile": {
+        "name": "server/api/services/product.service.ts",
+        "start": 23,
+        "end": 43,
+        "startLoc": {
+          "line": 23,
+          "column": 47,
+          "position": 183
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 5,
+          "position": 302
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 26,
+      "fragment": "\n  {\n    userId: id++,\n    id: id,\n    title: 'sample post #' + id,\n    body: 'sample body #' + id\n  },\n  {\n    userId: id++,\n    id: id,\n    title: 'sample post #' + id,\n    body: 'sample body #' + id\n  },\n  {\n    userId: id++,\n    id: id,\n    title: 'sample post #' + id,\n    body: 'sample body #' + id\n  },\n  {\n    userId: id++,\n    id: id,\n    title: 'sample post #' + id,\n    body: 'sample body #' + id\n  }\n",
+      "tokens": 171,
+      "firstFile": {
+        "name": "server/api/services/hystrix-demo.service.ts",
+        "start": 26,
+        "end": 51,
+        "startLoc": {
+          "line": 26,
+          "column": 5,
+          "position": 214
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 1,
+          "position": 385
+        }
+      },
+      "secondFile": {
+        "name": "server/api/services/hystrix-demo.service.ts",
+        "start": 20,
+        "end": 38,
+        "startLoc": {
+          "line": 20,
+          "column": 24,
+          "position": 171
+        },
+        "endLoc": {
+          "line": 38,
+          "column": 5,
+          "position": 299
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 27,
+      "fragment": "().subscribe(\n      result => {\n        res.status(HttpStatus.OK).json(result);\n        this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n      },\n      err => {\n        const error: HttpError = err as HttpError;\n        const resp = new ErrorResponseBuilder()\n          .setTitle(error.name)\n          .setStatus(HttpStatus.NOT_FOUND)\n          .setDetail(error.stack)\n          .setMessage(error.message)\n          .setSource(req.url)\n          .build();\n        res.status(HttpStatus.NOT_FOUND).json(resp);\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    );\n  }\n\n  /**\n   * Get all product pricing per product option\n   * @param req\n   * @param res\n   */",
+      "tokens": 226,
+      "firstFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 78,
+        "end": 104,
+        "startLoc": {
+          "line": 78,
+          "column": 46,
+          "position": 599
+        },
+        "endLoc": {
+          "line": 104,
+          "column": 6,
+          "position": 825
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 46,
+        "end": 72,
+        "startLoc": {
+          "line": 46,
+          "column": 40,
+          "position": 321
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 6,
+          "position": 547
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 27,
+      "fragment": "().subscribe(\n      result => {\n        res.status(HttpStatus.OK).json(result);\n        this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n      },\n      err => {\n        const error: HttpError = err as HttpError;\n        const resp = new ErrorResponseBuilder()\n          .setTitle(error.name)\n          .setStatus(HttpStatus.NOT_FOUND)\n          .setDetail(error.stack)\n          .setMessage(error.message)\n          .setSource(req.url)\n          .build();\n        res.status(HttpStatus.NOT_FOUND).json(resp);\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    );\n  }\n\n  /**\n   * Get the inventory for each product option per product\n   * @param req\n   * @param res\n   */",
+      "tokens": 226,
+      "firstFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 110,
+        "end": 136,
+        "startLoc": {
+          "line": 110,
+          "column": 44,
+          "position": 877
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 6,
+          "position": 1103
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 46,
+        "end": 72,
+        "startLoc": {
+          "line": 46,
+          "column": 40,
+          "position": 321
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 6,
+          "position": 547
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 29,
+      "fragment": "().subscribe(\n      result => {\n        res.status(HttpStatus.OK).json(result);\n        this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n      },\n      err => {\n        const error: HttpError = err as HttpError;\n        const resp = new ErrorResponseBuilder()\n          .setTitle(error.name)\n          .setStatus(HttpStatus.NOT_FOUND)\n          .setDetail(error.stack)\n          .setMessage(error.message)\n          .setSource(req.url)\n          .build();\n        res.status(HttpStatus.NOT_FOUND).json(resp);\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    );\n  }\n\n  /**\n   * Get Product by ID and then show pricing and inventory for all product options\n   * in one reactive RxJS call.\n   * @param id\n   * @param req\n   * @param res\n   */",
+      "tokens": 226,
+      "firstFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 142,
+        "end": 170,
+        "startLoc": {
+          "line": 142,
+          "column": 48,
+          "position": 1155
+        },
+        "endLoc": {
+          "line": 170,
+          "column": 6,
+          "position": 1381
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 46,
+        "end": 72,
+        "startLoc": {
+          "line": 46,
+          "column": 40,
+          "position": 321
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 6,
+          "position": 547
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "(id).subscribe(r => {\n      if (r) {\n        res.json(r);\n        this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n      } else {\n        res.status(HttpStatus.NOT_FOUND).end();\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    });\n  }\n\n  @httpGet('/prices/:id'",
+      "tokens": 144,
+      "firstFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 196,
+        "end": 209,
+        "startLoc": {
+          "line": 196,
+          "column": 47,
+          "position": 1649
+        },
+        "endLoc": {
+          "line": 209,
+          "column": 25,
+          "position": 1793
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 177,
+        "end": 190,
+        "startLoc": {
+          "line": 177,
+          "column": 40,
+          "position": 1446
+        },
+        "endLoc": {
+          "line": 190,
+          "column": 33,
+          "position": 1590
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "(id).subscribe(r => {\n      if (r) {\n        res.json(r);\n        this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n      } else {\n        res.status(HttpStatus.NOT_FOUND).end();\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    });\n  }\n\n  /**\n   * Check by ID\n   */",
+      "tokens": 141,
+      "firstFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 215,
+        "end": 230,
+        "startLoc": {
+          "line": 215,
+          "column": 45,
+          "position": 1852
+        },
+        "endLoc": {
+          "line": 230,
+          "column": 6,
+          "position": 1993
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 177,
+        "end": 190,
+        "startLoc": {
+          "line": 177,
+          "column": 40,
+          "position": 1446
+        },
+        "endLoc": {
+          "line": 190,
+          "column": 4,
+          "position": 1587
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": "(id).subscribe(r => {\n      if (r) {\n        res.json(r);\n        this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n      } else {\n        res.status(HttpStatus.NOT_FOUND).end();\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    });\n  }\n\n  /**\n   * Get Price of product Option using flatMap\n   * @param req Request Param\n   * @param res Response Param\n   */",
+      "tokens": 141,
+      "firstFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 237,
+        "end": 254,
+        "startLoc": {
+          "line": 237,
+          "column": 49,
+          "position": 2058
+        },
+        "endLoc": {
+          "line": 254,
+          "column": 6,
+          "position": 2199
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 177,
+        "end": 190,
+        "startLoc": {
+          "line": 177,
+          "column": 40,
+          "position": 1446
+        },
+        "endLoc": {
+          "line": 190,
+          "column": 4,
+          "position": 1587
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": "\n      },\n      err => {\n        const error: HttpError = err as HttpError;\n        const resp = new ErrorResponseBuilder()\n          .setTitle(error.name)\n          .setStatus(HttpStatus.NOT_FOUND)\n          .setDetail(error.stack)\n          .setMessage(error.message)\n          .setSource(req.url)\n          .build();\n        res.status(HttpStatus.NOT_FOUND).json(resp);\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    );\n  }\n}",
+      "tokens": 158,
+      "firstFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 270,
+        "end": 287,
+        "startLoc": {
+          "line": 270,
+          "column": 10,
+          "position": 2377
+        },
+        "endLoc": {
+          "line": 287,
+          "column": 2,
+          "position": 2535
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 50,
+        "end": 68,
+        "startLoc": {
+          "line": 50,
+          "column": 68,
+          "position": 387
+        },
+        "endLoc": {
+          "line": 68,
+          "column": 1,
+          "position": 545
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 27,
+      "fragment": "});\n            }\n          },\n          err => {\n            const error: HttpError = err as HttpError;\n            const resp = new ErrorResponseBuilder()\n              .setTitle(error.name)\n              .setStatus(HttpStatus.NOT_FOUND)\n              .setDetail(error.stack)\n              .setMessage(error.message)\n              .setSource(req.url)\n              .build();\n            this.loggerService.logAPITrace(\n              req,\n              res,\n              HttpStatus.NOT_FOUND,\n              error\n            );\n            this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n            reject({ errors: [resp], status: HttpStatus.NOT_FOUND });\n          }\n        );\n    });\n    res.status(result.status).json(result);\n  }\n\n",
+      "tokens": 203,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 151,
+        "end": 177,
+        "startLoc": {
+          "line": 151,
+          "column": 15,
+          "position": 1321
+        },
+        "endLoc": {
+          "line": 177,
+          "column": 1,
+          "position": 1524
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/starwars/controller.ts",
+        "start": 70,
+        "end": 95,
+        "startLoc": {
+          "line": 70,
+          "column": 56,
+          "position": 557
+        },
+        "endLoc": {
+          "line": 95,
+          "column": 2,
+          "position": 760
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": ").subscribe(\n        r => {\n          if (r === undefined) {\n            this.loggerService.logAPITrace(\n              req,\n              res,\n              HttpStatus.INTERNAL_SERVER_ERROR\n            );\n            this.metricsService.logAPIMetrics(\n              req,\n              res,\n              HttpStatus.INTERNAL_SERVER_ERROR\n            );\n            reject({ data: r, status: HttpStatus.INTERNAL_SERVER_ERROR });\n          } else {\n            this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n            this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n            resolve",
+      "tokens": 143,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 183,
+        "end": 200,
+        "startLoc": {
+          "line": 183,
+          "column": 39,
+          "position": 1602
+        },
+        "endLoc": {
+          "line": 200,
+          "column": 20,
+          "position": 1745
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 55,
+        "end": 72,
+        "startLoc": {
+          "line": 55,
+          "column": 55,
+          "position": 419
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 15,
+          "position": 562
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 23,
+      "fragment": ");\n            resolve({ data: r, status: HttpStatus.OK });\n          }\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND, error);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n          reject({ errors: [resp], status: HttpStatus.NOT_FOUND });\n        }\n      );\n    });\n    res.status(result.status).json(result);\n  }\n\n  @httpGet('/products'",
+      "tokens": 222,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 199,
+        "end": 221,
+        "startLoc": {
+          "line": 199,
+          "column": 70,
+          "position": 1741
+        },
+        "endLoc": {
+          "line": 221,
+          "column": 23,
+          "position": 1963
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 80,
+        "end": 102,
+        "startLoc": {
+          "line": 80,
+          "column": 14,
+          "position": 628
+        },
+        "endLoc": {
+          "line": 102,
+          "column": 25,
+          "position": 850
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 39,
+      "fragment": "().subscribe(\n        r => {\n          if (r === undefined) {\n            this.loggerService.logAPITrace(\n              req,\n              res,\n              HttpStatus.INTERNAL_SERVER_ERROR\n            );\n            this.metricsService.logAPIMetrics(\n              req,\n              res,\n              HttpStatus.INTERNAL_SERVER_ERROR\n            );\n            reject({ data: r, status: HttpStatus.INTERNAL_SERVER_ERROR });\n          } else {\n            this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n            this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n            resolve({ data: r, status: HttpStatus.OK });\n          }\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND, error);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n          reject({ errors: [resp], status: HttpStatus.NOT_FOUND });\n        }\n      );\n    });\n    res.status(result.status).json(result);\n  }\n\n  @httpPost",
+      "tokens": 360,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 224,
+        "end": 262,
+        "startLoc": {
+          "line": 224,
+          "column": 33,
+          "position": 2030
+        },
+        "endLoc": {
+          "line": 262,
+          "column": 12,
+          "position": 2390
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 183,
+        "end": 102,
+        "startLoc": {
+          "line": 183,
+          "column": 38,
+          "position": 1601
+        },
+        "endLoc": {
+          "line": 102,
+          "column": 11,
+          "position": 848
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 39,
+      "fragment": ").subscribe(\n        r => {\n          if (r === undefined) {\n            this.loggerService.logAPITrace(\n              req,\n              res,\n              HttpStatus.INTERNAL_SERVER_ERROR\n            );\n            this.metricsService.logAPIMetrics(\n              req,\n              res,\n              HttpStatus.INTERNAL_SERVER_ERROR\n            );\n            reject({ data: r, status: HttpStatus.INTERNAL_SERVER_ERROR });\n          } else {\n            this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n            this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n            resolve({ data: r, status: HttpStatus.OK });\n          }\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND, error);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n          reject({ errors: [resp], status: HttpStatus.NOT_FOUND });\n        }\n      );\n    });\n    res.status(result.status).json(result);\n  }\n\n  @httpPost('/products'",
+      "tokens": 361,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 267,
+        "end": 305,
+        "startLoc": {
+          "line": 267,
+          "column": 46,
+          "position": 2494
+        },
+        "endLoc": {
+          "line": 305,
+          "column": 24,
+          "position": 2855
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 55,
+        "end": 262,
+        "startLoc": {
+          "line": 55,
+          "column": 55,
+          "position": 419
+        },
+        "endLoc": {
+          "line": 262,
+          "column": 23,
+          "position": 2392
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 45,
+      "fragment": ")\n        .subscribe(\n          r => {\n            if (r === undefined) {\n              this.loggerService.logAPITrace(\n                req,\n                res,\n                HttpStatus.INTERNAL_SERVER_ERROR\n              );\n              this.metricsService.logAPIMetrics(\n                req,\n                res,\n                HttpStatus.INTERNAL_SERVER_ERROR\n              );\n              reject({ data: r, status: HttpStatus.INTERNAL_SERVER_ERROR });\n            } else {\n              this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n              this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n              resolve({ data: r, status: HttpStatus.OK });\n            }\n          },\n          err => {\n            const error: HttpError = err as HttpError;\n            const resp = new ErrorResponseBuilder()\n              .setTitle(error.name)\n              .setStatus(HttpStatus.NOT_FOUND)\n              .setDetail(error.stack)\n              .setMessage(error.message)\n              .setSource(req.url)\n              .build();\n            this.loggerService.logAPITrace(\n              req,\n              res,\n              HttpStatus.NOT_FOUND,\n              error\n            );\n            this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n            reject({ errors: [resp], status: HttpStatus.NOT_FOUND });\n          }\n        );\n    });\n    res.status(result.status).json(result);\n  }\n\n  @httpGet('/publish/:name'",
+      "tokens": 370,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 311,
+        "end": 355,
+        "startLoc": {
+          "line": 311,
+          "column": 81,
+          "position": 2996
+        },
+        "endLoc": {
+          "line": 355,
+          "column": 28,
+          "position": 3366
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/starwars/controller.ts",
+        "start": 52,
+        "end": 177,
+        "startLoc": {
+          "line": 52,
+          "column": 49,
+          "position": 395
+        },
+        "endLoc": {
+          "line": 177,
+          "column": 22,
+          "position": 1529
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND)",
+      "tokens": 110,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 367,
+        "end": 378,
+        "startLoc": {
+          "line": 367,
+          "column": 27,
+          "position": 3513
+        },
+        "endLoc": {
+          "line": 378,
+          "column": 73,
+          "position": 3623
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 82,
+        "end": 93,
+        "startLoc": {
+          "line": 82,
+          "column": 12,
+          "position": 655
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 73,
+          "position": 765
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 26,
+      "fragment": "(name).subscribe(\n        result => {\n          this.loggerService.info(result.timings);\n          this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n          resolve(result);\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n          reject(resp);\n        }\n      );\n    });\n  }\n\n\n",
+      "tokens": 226,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 393,
+        "end": 418,
+        "startLoc": {
+          "line": 393,
+          "column": 53,
+          "position": 3748
+        },
+        "endLoc": {
+          "line": 418,
+          "column": 1,
+          "position": 3974
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 362,
+        "end": 386,
+        "startLoc": {
+          "line": 362,
+          "column": 51,
+          "position": 3442
+        },
+        "endLoc": {
+          "line": 386,
+          "column": 3,
+          "position": 3668
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 25,
+      "fragment": "(name).subscribe(\n        result => {\n          this.loggerService.info(result.timings);\n          this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n          resolve(result);\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n          reject(resp);\n        }\n      );\n    });\n  }\n\n  @httpGet",
+      "tokens": 228,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 425,
+        "end": 449,
+        "startLoc": {
+          "line": 425,
+          "column": 46,
+          "position": 4055
+        },
+        "endLoc": {
+          "line": 449,
+          "column": 11,
+          "position": 4283
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 362,
+        "end": 386,
+        "startLoc": {
+          "line": 362,
+          "column": 51,
+          "position": 3442
+        },
+        "endLoc": {
+          "line": 386,
+          "column": 14,
+          "position": 3670
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 24,
+      "fragment": "(name).subscribe(\n        result => {\n          this.loggerService.info(result.timings);\n          this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n          resolve(result);\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n          reject(resp);\n        }\n      );\n    });\n  }\n}",
+      "tokens": 225,
+      "firstFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 456,
+        "end": 479,
+        "startLoc": {
+          "line": 456,
+          "column": 42,
+          "position": 4361
+        },
+        "endLoc": {
+          "line": 479,
+          "column": 2,
+          "position": 4586
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 362,
+        "end": 386,
+        "startLoc": {
+          "line": 362,
+          "column": 51,
+          "position": 3442
+        },
+        "endLoc": {
+          "line": 386,
+          "column": 1,
+          "position": 3667
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 23,
+      "fragment": "\n          this.loggerService.logAPITrace(req, res, HttpStatus.OK);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.OK);\n          resolve(result);\n        },\n        err => {\n          const error: HttpError = err as HttpError;\n          const resp = new ErrorResponseBuilder()\n            .setTitle(error.name)\n            .setStatus(HttpStatus.NOT_FOUND)\n            .setDetail(error.stack)\n            .setMessage(error.message)\n            .setSource(req.url)\n            .build();\n          this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n          this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n          reject(resp);\n        }\n      );\n    });\n  }\n}\nexport default HystrixController",
+      "tokens": 205,
+      "firstFile": {
+        "name": "server/api/controllers/hystrix-demo/controller.ts",
+        "start": 61,
+        "end": 83,
+        "startLoc": {
+          "line": 61,
+          "column": 20,
+          "position": 456
+        },
+        "endLoc": {
+          "line": 83,
+          "column": 33,
+          "position": 661
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/scraper/controller.ts",
+        "start": 364,
+        "end": 480,
+        "startLoc": {
+          "line": 364,
+          "column": 51,
+          "position": 3468
+        },
+        "endLoc": {
+          "line": 480,
+          "column": 33,
+          "position": 4592
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n          },\n          err => {\n            const error: HttpError = err as HttpError;\n            const resp = new ErrorResponseBuilder()\n              .setTitle(error.name)\n              .setStatus(HttpStatus.NOT_FOUND)\n              .setDetail(error.stack)\n              .setMessage(error.message)\n              .setSource(req.url)\n              .build();\n            this.loggerService.logAPITrace(req",
+      "tokens": 101,
+      "firstFile": {
+        "name": "server/api/controllers/examples/controller.ts",
+        "start": 78,
+        "end": 89,
+        "startLoc": {
+          "line": 78,
+          "column": 34,
+          "position": 594
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 47,
+          "position": 695
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/starwars/controller.ts",
+        "start": 71,
+        "end": 83,
+        "startLoc": {
+          "line": 71,
+          "column": 14,
+          "position": 563
+        },
+        "endLoc": {
+          "line": 83,
+          "column": 1,
+          "position": 664
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 21,
+      "fragment": "\n        const resp = new ErrorResponseBuilder()\n          .setTitle(error.name)\n          .setStatus(HttpStatus.NOT_FOUND)\n          .setDetail(error.stack)\n          .setMessage(error.message)\n          .setSource(req.url)\n          .build();\n        res.status(HttpStatus.NOT_FOUND).json(resp);\n        this.loggerService.logAPITrace(req, res, HttpStatus.NOT_FOUND);\n        this.metricsService.logAPIMetrics(req, res, HttpStatus.NOT_FOUND);\n      }\n    );\n  }\n\n  /**\n   * Create request sample\n   * Add a new element to the in memory Sample object\n   * @param req request\n   * @param res response\n   */",
+      "tokens": 132,
+      "firstFile": {
+        "name": "server/api/controllers/examples/controller.ts",
+        "start": 115,
+        "end": 135,
+        "startLoc": {
+          "line": 115,
+          "column": 17,
+          "position": 928
+        },
+        "endLoc": {
+          "line": 135,
+          "column": 6,
+          "position": 1060
+        }
+      },
+      "secondFile": {
+        "name": "server/api/controllers/shop/controller.ts",
+        "start": 53,
+        "end": 72,
+        "startLoc": {
+          "line": 53,
+          "column": 51,
+          "position": 415
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 6,
+          "position": 547
+        }
+      }
+    }
+  ]
+}

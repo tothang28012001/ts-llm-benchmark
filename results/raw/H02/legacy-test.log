@@ -1,0 +1,118 @@
+
+> @ionic/app-scripts@3.2.4 test /work
+> jest
+
+PASS src/util/helpers.spec.ts
+PASS src/util/typescript-utils.spec.ts
+PASS src/template.spec.ts
+PASS src/cleancss.spec.ts
+  ● Console
+
+    console.log src/logger/logger.ts:117
+      [11:54:42]  cleancss started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:42]  cleancss finished in 4 ms 
+    console.log src/logger/logger.ts:117
+      [11:54:42]  cleancss started ... 
+    console.error src/logger/logger.ts:154
+      [11:54:42]  some error 
+
+PASS src/optimization/remove-unused-fonts.spec.ts
+PASS src/webpack/loader-impl.spec.ts
+PASS src/upgrade-scripts/add-default-ngmodules.spec.ts
+PASS src/util/source-maps.spec.ts
+PASS src/deep-linking/util.spec.ts (5.016s)
+PASS src/core/inject-script.spec.ts
+PASS src/highlight/highlight.spec.ts
+PASS src/util/config.spec.ts (5.543s)
+PASS src/util/cordova-config.spec.ts
+PASS src/deep-linking.spec.ts
+PASS src/bundle.spec.ts
+(node:247) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+PASS src/lint/lint-utils.spec.ts
+PASS src/util/errors.spec.ts
+PASS src/clean.spec.ts
+  ● Console
+
+    console.log src/logger/logger.ts:117
+      [11:54:44]  clean started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:44]  clean finished in 10 ms 
+    console.log src/logger/logger.ts:117
+      [11:54:44]  clean started ... 
+
+PASS src/core/ionic-global.spec.ts
+PASS src/generators/util.spec.ts (7.441s)
+PASS src/transpile.spec.ts
+PASS src/lint.spec.ts
+  ● Console
+
+    console.log src/logger/logger.ts:117
+      [11:54:46]  lint started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:46]  lint finished in 1 ms 
+    console.log src/logger/logger.ts:117
+      [11:54:46]  lint started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:46]  lint finished in less than 1 ms 
+    console.log src/logger/logger.ts:117
+      [11:54:46]  lint started ... 
+
+PASS src/preprocess.spec.ts
+  ● Console
+
+    console.log src/logger/logger.ts:117
+      [11:54:46]  preprocess started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:46]  preprocess finished in 2 ms 
+
+PASS src/copy.spec.ts (9.34s)
+PASS src/build.spec.ts (14.768s)
+  ● Console
+
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build prod started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build prod finished in 2 ms 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev finished in less than 1 ms 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev finished in less than 1 ms 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev started ... 
+    console.log src/logger/logger.ts:117
+      [11:54:52]  build dev started ... 
+
+PASS src/watch.spec.ts (15.159s)
+PASS src/serve.spec.ts (10.925s)
+  ● Console
+
+    console.log src/logger/logger.ts:117
+      [11:54:53]  dev server running: http://localhost:8100/ 
+    console.log src/logger/logger.ts:277
+      
+    console.log src/logger/logger.ts:117
+      [11:54:53]  dev server running: http://localhost:8100/ 
+    console.log src/logger/logger.ts:277
+      
+    console.log src/logger/logger.ts:117
+      [11:54:53]  dev server running: http://127.0.0.1:8101/ 
+    console.log src/logger/logger.ts:277
+      
+
+PASS src/lint/lint-factory.spec.ts (14.313s)
+
+Test Suites: 28 passed, 28 total
+Tests:       279 passed, 279 total
+Snapshots:   0 total
+Time:        19.265s
+Ran all test suites.

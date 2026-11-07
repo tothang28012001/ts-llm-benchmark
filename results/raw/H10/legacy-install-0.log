@@ -1,0 +1,10 @@
+npm ERR! Error while executing:
+npm ERR! /usr/bin/git ls-remote -h -t ssh://git@github.com/r-park/minx.git
+npm ERR! 
+npm ERR! remote: Invalid username or token. Password authentication is not supported for Git operations.
+npm ERR! fatal: Authentication failed for 'https://github.com/r-park/minx.git/'
+npm ERR! 
+npm ERR! exited with error code: 128
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2026-11-07T12_01_58_782Z-debug.log

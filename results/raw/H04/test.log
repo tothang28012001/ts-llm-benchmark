@@ -1,0 +1,36 @@
+
+> openfin@0.0.1 pretest
+> grunt babel && grunt ts
+
+npm warn config production Use `--omit=dev` instead.
+Running "babel:dist" (babel) task
+
+Done.
+npm warn config production Use `--omit=dev` instead.
+Running "ts:default" (ts) task
+Compiling...
+Using tsc v3.5.1
+(node:362) [DEP0048] DeprecationWarning: The `util.isError` API is deprecated. Please use `ObjectPrototypeToString(e) === "[object Error]" || e instanceof Error` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:362) [DEP0055] DeprecationWarning: The `util.isRegExp` API is deprecated. Please use `arg instanceof RegExp` instead.
+src/browser/api/browser_view.ts(7,44): error TS2307: Cannot find module '../../../js-adapter/src/api/browserview/browserview'.
+src/browser/api/external_window.ts(2,24): error TS2307: Cannot find module '../../../js-adapter/src/shapes'.
+src/browser/api/external_window.ts(5,26): error TS2307: Cannot find module '../../../js-adapter/src/identity'.
+src/browser/api/native_window.ts(1,24): error TS2307: Cannot find module '../../../js-adapter/src/shapes'.
+src/browser/api_protocol/api_handlers/mesh_middleware.ts(147,23): error TS7006: Parameter 'res' implicitly has an 'any' type.
+src/browser/api_protocol/api_handlers/mesh_middleware.ts(196,28): error TS7006: Parameter 'externalResult' implicitly has an 'any' type.
+src/browser/api_protocol/api_handlers/mesh_middleware.ts(197,29): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/browser/connection_manager.ts(18,21): error TS2307: Cannot find module '../../js-adapter/src/main'.
+src/browser/runtime_p2p/peer_connection_manager.ts(3,40): error TS2307: Cannot find module '../../../js-adapter/src/main'.
+src/browser/window_groups_runtime_proxy.ts(9,25): error TS2307: Cannot find module '../../js-adapter/src/api/window/window'.
+src/browser/window_groups_runtime_proxy.ts(12,62): error TS2307: Cannot find module '../../js-adapter/src/api/events/window'.
+src/browser/window_groups_runtime_proxy.ts(14,30): error TS2307: Cannot find module '../../js-adapter/src/api/window/windowOption'.
+src/browser/window_groups_runtime_proxy.ts(145,47): error TS7006: Parameter 'w' implicitly has an 'any' type.
+src/browser/window_groups_runtime_proxy.ts(206,33): error TS2538: Type 'symbol' cannot be used as an index type.
+src/shapes.ts(9,28): error TS2307: Cannot find module '../js-adapter/src/shapes'.
+
+>> 15 non-emit-preventing type warnings  
+>> Error: tsc return code: 2
+Warning: Task "ts:default" failed. Use --force to continue.
+
+Aborted due to warnings.

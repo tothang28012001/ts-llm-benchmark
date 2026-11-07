@@ -1,0 +1,120 @@
+{
+  "repo_id": "L10",
+  "group": "llm",
+  "full_name": "menagerai/menagerai",
+  "stars": "11",
+  "created_at": "2026-07-08",
+  "pin": "f016ca7301ed1ab205a9804e1386e027e67d1c4c",
+  "fetch": {
+    "sha": "f016ca7301ed1ab205a9804e1386e027e67d1c4c",
+    "commit_date": "2026-11-07T15:24:07+08:00",
+    "first_commit_date": "2026-07-10T19:18:19+08:00",
+    "commits_to_pin": 67,
+    "ai_commits_to_pin": 34,
+    "ai_commit_share": 0.5075,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 55,
+    "test_files": 29,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 55,
+      "lines": 6307,
+      "code": 4747,
+      "comment": 1025,
+      "blank": 613
+    },
+    "test": {
+      "files": 29,
+      "lines": 4108,
+      "code": 3496,
+      "comment": 262,
+      "blank": 460
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 3.9
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 3.09
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 55
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 5.2
+  },
+  "mutation": {
+    "sample_files": [
+      "src/routes/gateway.ts",
+      "src/services/common.ts",
+      "src/services/app-groups.ts",
+      "src/gateway-logic.ts",
+      "src/decide.ts"
+    ],
+    "sample_lines": 422,
+    "framework_versions": {
+      "vitest": "4.1.12",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "counts": {
+      "NoCoverage": 29,
+      "Killed": 410,
+      "Survived": 54,
+      "Timeout": 3,
+      "Ignored": 9
+    },
+    "mutants_valid": 496,
+    "mutation_score": 0.8326612903225806,
+    "mutation_score_covered": 0.8843683083511777,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "exit": 0,
+        "seconds": 159.51,
+        "timed_out": false
+      }
+    ]
+  }
+}

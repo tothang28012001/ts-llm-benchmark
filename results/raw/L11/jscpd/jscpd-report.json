@@ -1,0 +1,873 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-07T12:14:47.268Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/types/logs.ts": {
+            "lines": 34,
+            "tokens": 234,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/kubernetes.ts": {
+            "lines": 110,
+            "tokens": 812,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/stores/uiStore.ts": {
+            "lines": 68,
+            "tokens": 904,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/stores/errorStore.ts": {
+            "lines": 25,
+            "tokens": 259,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/stores/clusterStore.ts": {
+            "lines": 52,
+            "tokens": 396,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/tauri.ts": {
+            "lines": 172,
+            "tokens": 1198,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/formatters.ts": {
+            "lines": 69,
+            "tokens": 684,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/constants.ts": {
+            "lines": 44,
+            "tokens": 308,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useTheme.ts": {
+            "lines": 25,
+            "tokens": 151,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useLogs.ts": {
+            "lines": 119,
+            "tokens": 1312,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useK8s.ts": {
+            "lines": 147,
+            "tokens": 1325,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 865,
+          "tokens": 7583,
+          "sources": 11,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/contexts/ThemeContext.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/settings/Settings.tsx": {
+            "lines": 17,
+            "tokens": 127,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/pods/PodList.tsx": {
+            "lines": 114,
+            "tokens": 1017,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/pods/PodDetails.tsx": {
+            "lines": 190,
+            "tokens": 1550,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/logs/LogViewer.tsx": {
+            "lines": 202,
+            "tokens": 1459,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/logs/LogSearch.tsx": {
+            "lines": 250,
+            "tokens": 2350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/logs/LogDetailModal.tsx": {
+            "lines": 85,
+            "tokens": 692,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/StatusBar.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Sidebar.tsx": {
+            "lines": 144,
+            "tokens": 1000,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/MainLayout.tsx": {
+            "lines": 52,
+            "tokens": 337,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/deployments/DeploymentList.tsx": {
+            "lines": 117,
+            "tokens": 932,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/deployments/DeploymentDetails.tsx": {
+            "lines": 177,
+            "tokens": 1379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Skeleton.tsx": {
+            "lines": 47,
+            "tokens": 455,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Modal.tsx": {
+            "lines": 20,
+            "tokens": 127,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Input.tsx": {
+            "lines": 29,
+            "tokens": 104,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/ErrorDialog.tsx": {
+            "lines": 78,
+            "tokens": 694,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Dropdown.tsx": {
+            "lines": 74,
+            "tokens": 425,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Drawer.tsx": {
+            "lines": 28,
+            "tokens": 189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Button.tsx": {
+            "lines": 17,
+            "tokens": 82,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Badge.tsx": {
+            "lines": 134,
+            "tokens": 836,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1779,
+          "tokens": 13773,
+          "sources": 22,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/contexts/ThemeContext.tsx": {
+            "lines": 53,
+            "tokens": 309,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/settings/Settings.tsx": {
+            "lines": 53,
+            "tokens": 453,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/pods/PodList.tsx": {
+            "lines": 160,
+            "tokens": 1465,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 189,
+            "percentage": 12.5,
+            "percentageTokens": 12.9,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/pods/PodDetails.tsx": {
+            "lines": 226,
+            "tokens": 1853,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 80,
+            "duplicatedTokens": 523,
+            "percentage": 35.4,
+            "percentageTokens": 28.22,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/logs/LogViewer.tsx": {
+            "lines": 339,
+            "tokens": 2825,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/logs/LogSearch.tsx": {
+            "lines": 375,
+            "tokens": 3947,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/logs/LogDetailModal.tsx": {
+            "lines": 165,
+            "tokens": 1412,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/StatusBar.tsx": {
+            "lines": 69,
+            "tokens": 657,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Sidebar.tsx": {
+            "lines": 229,
+            "tokens": 2004,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/MainLayout.tsx": {
+            "lines": 141,
+            "tokens": 1279,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/deployments/DeploymentList.tsx": {
+            "lines": 165,
+            "tokens": 1378,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 189,
+            "percentage": 12.12,
+            "percentageTokens": 13.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/deployments/DeploymentDetails.tsx": {
+            "lines": 222,
+            "tokens": 1720,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 80,
+            "duplicatedTokens": 523,
+            "percentage": 36.04,
+            "percentageTokens": 30.41,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Skeleton.tsx": {
+            "lines": 65,
+            "tokens": 579,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Modal.tsx": {
+            "lines": 71,
+            "tokens": 549,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 113,
+            "percentage": 21.13,
+            "percentageTokens": 20.58,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Input.tsx": {
+            "lines": 52,
+            "tokens": 285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/ErrorDialog.tsx": {
+            "lines": 104,
+            "tokens": 867,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Dropdown.tsx": {
+            "lines": 155,
+            "tokens": 1178,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Drawer.tsx": {
+            "lines": 72,
+            "tokens": 523,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 113,
+            "percentage": 20.83,
+            "percentageTokens": 21.61,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Button.tsx": {
+            "lines": 39,
+            "tokens": 266,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/common/Badge.tsx": {
+            "lines": 153,
+            "tokens": 991,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 23,
+            "tokens": 150,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 45,
+            "tokens": 414,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2976,
+          "tokens": 25104,
+          "sources": 22,
+          "clones": 4,
+          "duplicatedLines": 115,
+          "duplicatedTokens": 825,
+          "percentage": 3.86,
+          "percentageTokens": 3.29,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 5620,
+      "tokens": 46460,
+      "sources": 55,
+      "clones": 4,
+      "duplicatedLines": 115,
+      "duplicatedTokens": 825,
+      "percentage": 2.05,
+      "percentageTokens": 1.78,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "tsx",
+      "lines": 21,
+      "fragment": "\"\n              value={searchQuery}\n              onChange={(e) => setSearchQuery(e.target.value)}\n            />\n          </div>\n          <Button variant=\"ghost\" size=\"icon\" onClick={openSettings} title=\"Settings\">\n            <Settings className=\"w-5 h-5\" />\n          </Button>\n        </div>\n      </div>\n\n      {/* Table */}\n      <div className=\"flex-1 overflow-auto\">\n        {isLoading ? (\n          <TableSkeleton rows={8} />\n        ) : (\n          <table className=\"w-full\">\n            <thead className=\"sticky top-0 bg-bg-primary z-10\">\n              <tr className=\"text-left text-xs font-medium text-text-muted uppercase tracking-wider border-b border-border\">\n                <th className=\"px-6 py-3\">Name</th>\n                <th className=\"px-4 py-3 w-32 text-center",
+      "tokens": 189,
+      "firstFile": {
+        "name": "src/components/deployments/DeploymentList.tsx",
+        "start": 40,
+        "end": 60,
+        "startLoc": {
+          "line": 40,
+          "column": 49,
+          "position": 416
+        },
+        "endLoc": {
+          "line": 60,
+          "column": 58,
+          "position": 605
+        }
+      },
+      "secondFile": {
+        "name": "src/components/pods/PodList.tsx",
+        "start": 37,
+        "end": 57,
+        "startLoc": {
+          "line": 37,
+          "column": 42,
+          "position": 413
+        },
+        "endLoc": {
+          "line": 57,
+          "column": 46,
+          "position": 602
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": ">\n      </Section>\n\n      {/* Labels */}\n      <Section title=\"Labels\">\n        <div className=\"flex flex-wrap gap-2\">\n          {Object.entries(details.labels).map(([key, value]) => (\n            <LabelBadge key={key} label={`${key}=${value}`} />\n          ))}\n          {Object.keys(details.labels).length === 0 && (\n            <span className=\"text-text-muted text-sm\">No labels</span>\n          )}\n        </div>\n      </Section>\n\n      {/* Annotations */",
+      "tokens": 147,
+      "firstFile": {
+        "name": "src/components/deployments/DeploymentDetails.tsx",
+        "start": 88,
+        "end": 103,
+        "startLoc": {
+          "line": 88,
+          "column": 14,
+          "position": 778
+        },
+        "endLoc": {
+          "line": 103,
+          "column": 25,
+          "position": 925
+        }
+      },
+      "secondFile": {
+        "name": "src/components/pods/PodDetails.tsx",
+        "start": 28,
+        "end": 43,
+        "startLoc": {
+          "line": 28,
+          "column": 18,
+          "position": 300
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 24,
+          "position": 447
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 66,
+      "fragment": "\n              </div>\n            ))}\n          </div>\n        </CollapsibleSection>\n      )}\n    </div>\n  );\n}\n\nfunction Section({ title, children }: { title: string; children: React.ReactNode }) {\n  return (\n    <div>\n      <h3 className=\"text-xs font-medium text-text-muted uppercase tracking-wider mb-3\">\n        {title}\n      </h3>\n      {children}\n    </div>\n  );\n}\n\nfunction CollapsibleSection({\n  title,\n  children,\n  defaultOpen = false,\n}: {\n  title: string;\n  children: React.ReactNode;\n  defaultOpen?: boolean;\n}) {\n  const [isOpen, setIsOpen] = useState(defaultOpen);\n\n  return (\n    <div>\n      <button\n        onClick={() => setIsOpen(!isOpen)}\n        className=\"flex items-center gap-2 text-xs font-medium text-text-muted uppercase tracking-wider mb-3 hover:text-text-secondary\"\n      >\n        <ChevronDown\n          className={clsx(\n            'w-4 h-4 transition-transform',\n            isOpen ? 'rotate-0' : '-rotate-90'\n          )}\n        />\n        {title}\n      </button>\n      {isOpen && children}\n    </div>\n  );\n}\n\nfunction InfoRow({\n  label,\n  children,\n}: {\n  label: string;\n  children: React.ReactNode;\n}) {\n  return (\n    <div className=\"flex items-center justify-between py-2 border-b border-border-subtle last:border-0\">\n      <span className=\"text-sm text-text-secondary\">{label}</span>\n      {children}\n    </div>\n  );\n}\n",
+      "tokens": 376,
+      "firstFile": {
+        "name": "src/components/deployments/DeploymentDetails.tsx",
+        "start": 157,
+        "end": 222,
+        "startLoc": {
+          "line": 157,
+          "column": 19,
+          "position": 1344
+        },
+        "endLoc": {
+          "line": 222,
+          "column": 1,
+          "position": 1720
+        }
+      },
+      "secondFile": {
+        "name": "src/components/pods/PodDetails.tsx",
+        "start": 73,
+        "end": 138,
+        "startLoc": {
+          "line": 73,
+          "column": 24,
+          "position": 686
+        },
+        "endLoc": {
+          "line": 138,
+          "column": 1,
+          "position": 1062
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": ") {\n      onClose();\n    }\n  });\n\n  useEffect(() => {\n    function handleEscape(e: KeyboardEvent) {\n      if (e.key === 'Escape') {\n        handleClose();\n      }\n    }\n    document.addEventListener('keydown', handleEscape);\n    return () => document.removeEventListener('keydown', handleEscape);\n  }, []); // No dependencies needed thanks to useEffectEvent\n\n  return",
+      "tokens": 113,
+      "firstFile": {
+        "name": "src/components/common/Drawer.tsx",
+        "start": 18,
+        "end": 33,
+        "startLoc": {
+          "line": 18,
+          "column": 15,
+          "position": 170
+        },
+        "endLoc": {
+          "line": 33,
+          "column": 9,
+          "position": 283
+        }
+      },
+      "secondFile": {
+        "name": "src/components/common/Modal.tsx",
+        "start": 19,
+        "end": 34,
+        "startLoc": {
+          "line": 19,
+          "column": 30,
+          "position": 201
+        },
+        "endLoc": {
+          "line": 34,
+          "column": 5,
+          "position": 314
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "repo_id": "H10",
+  "group": "human",
+  "full_name": "r-park/soundcloud-ngrx",
+  "stars": "435",
+  "created_at": "2016-08-03",
+  "pin": "9effe62d6b8a0278cd2375f41c97a625fe68cb83",
+  "fetch": {
+    "sha": "9effe62d6b8a0278cd2375f41c97a625fe68cb83",
+    "commit_date": "2017-07-02T16:19:40-04:00",
+    "first_commit_date": "2016-08-03T07:23:40-04:00",
+    "commits_to_pin": 78,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 106,
+    "test_files": 53,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 106,
+      "lines": 3117,
+      "code": 2476,
+      "comment": 62,
+      "blank": 583
+    },
+    "test": {
+      "files": 53,
+      "lines": 4934,
+      "code": 3791,
+      "comment": 93,
+      "blank": 1057
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": false,
+    "level": null,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 1,
+        "seconds": 13.8
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 128,
+        "seconds": 17.7
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 128,
+        "seconds": 16.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 2,
+        "seconds": 0.898
+      }
+    ],
+    "errors_total": 2,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 2,
+    "by_code": {
+      "TS2688": 2
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 158
+  },
+  "test": {
+    "passed": false,
+    "skipped": "install failed"
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "8",
+    "why": "pin-date era",
+    "status": "install-failed"
+  }
+}

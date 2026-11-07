@@ -1,0 +1,29 @@
+
+> puppeteer@2.0.0 install /work/node_modules/puppeteer
+> node install.js
+
+**INFO** Skipping Chromium download. "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD" environment variable was found.
+
+> @apollo/protobufjs@1.0.3 postinstall /work/node_modules/@apollo/protobufjs
+> node scripts/postinstall
+
+
+> core-js@3.6.1 postinstall /work/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> fsevents@1.2.11 install /work/node_modules/fsevents
+> node-gyp rebuild
+
+make: Entering directory '/work/node_modules/fsevents/build'
+  SOLINK_MODULE(target) Release/obj.target/.node
+  COPY Release/.node
+make: Leaving directory '/work/node_modules/fsevents/build'
+
+> nodemon@1.19.4 postinstall /work/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+[32mLove nodemon? You can now support the project via the open collective:[22m[39m
+ > [96m[1mhttps://opencollective.com/nodemon/donate[0m
+
+added 1334 packages in 49.292s
