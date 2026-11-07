@@ -93,7 +93,7 @@ L12 & cjy20040604-hub/eyes-training & 2026-10-18 & 15.2 & 6.8 & 100 \\
 \end{table}
 
 \section{Benchmark Infrastructure}
-The pipeline follows the proposed design (retrieve $\rightarrow$ install $\rightarrow$ build and test $\rightarrow$ collect) and is fully automated in Python (\texttt{bench/run.py}). Each repository is cloned on the host without blobs and checked out at its pin, with line-ending conversion disabled. It is then copied into a \emph{fresh container} built from our image (Node~22 plus the pinned toolchain). The host copy is mounted read-only and the container is discarded afterwards, so install scripts, tests and mutants never touch the host. Stages are resumable, and all raw artefacts are kept per repository. The stages are:
+The pipeline follows the proposed design (retrieve $\rightarrow$ install $\rightarrow$ build and test $\rightarrow$ collect) and is fully automated in Python (\texttt{bench/run.py}). Each repository is cloned on the host without blobs and checked out at its pin, with line-ending conversion disabled. It is then copied into a \emph{fresh container} built from our image (Node~22 plus the pinned toolchain). The host copy is mounted read-only and the container is discarded afterwards, so install scripts, tests and mutants never touch the host. Stages are resumable, and all raw artefacts are kept per repository. Code, dataset and results are public at \texttt{github.com/tothang28012001/ts-llm-benchmark}. The stages are:
 
 \begin{itemize}
 \item \textbf{Inventory and size.} \texttt{.ts}/\texttt{.tsx} files are split into production and test code by \texttt{*.test}/\texttt{*.spec} names and test directories. Build output, declaration files, configuration and tooling scripts are excluded. Code and comment lines are counted with the TypeScript parser, using SonarQube's definitions.
@@ -174,7 +174,7 @@ Dependency installation succeeded for 10/12 human and 12/12 LLM projects. With e
 \item \textbf{By Nov.~20:} extend mutation testing to every suite that passes under its era-matched Node, using an older Stryker release where required, and manually validate the production/test file classifier on a sample of files.
 \item \textbf{By Nov.~24:} sensitivity analyses (per-file normalization, star-matched subsets, a stricter LLM sample with $\geq$90\% agent commits), plus a qualitative review of the most frequent violations and compiler errors mapped to the bug taxonomy of [1].
 \item \textbf{Nov.~27 / Dec.~4:} final presentation of findings, limitations and conclusions.
-\item \textbf{By Dec.~7:} the 4-page IEEE paper (this report's LaTeX source already uses \texttt{IEEEtran}) and the public release of the pipeline, dataset and raw results as the project artefact.
+\item \textbf{By Dec.~7:} the 4-page IEEE paper (this report's LaTeX source already uses \texttt{IEEEtran}) and a tagged release of the repository (pipeline, dataset and raw results) as the project artefact.
 \end{itemize}
 
 \begin{thebibliography}{99}

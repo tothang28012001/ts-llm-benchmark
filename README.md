@@ -3,7 +3,8 @@
 An automated, containerised benchmark that compares **human-written** and **LLM-agent-generated**
 TypeScript projects on compilation, code quality, maintainability and test effectiveness.
 
-CMPT 479 D100 course project. Authors: Simon Xie, Sukhdip Kandola, Thang To.
+CMPT 479 D100 course project (Simon Fraser University). Authors: Simon Xie, Sukhdip Kandola, Thang To.
+Licensed under MIT (see `LICENSE`). Milestone report: [`report/CMPT479 - Milestone Progress Report.pdf`](report/CMPT479%20-%20Milestone%20Progress%20Report.pdf).
 
 ## Research questions
 
@@ -91,3 +92,6 @@ docker/     benchmark image
 dataset/    candidates, screening decisions, final frozen dataset
 results/    raw per-repository artefacts, metrics.csv, group_stats.csv, figures/
 ```
+
+Full StrykerJS HTML/JSON reports (`results/raw/*/mutation-*.json`, ~56 MB) are not committed because they
+embed copies of the analysed projects' source; `stryker.json` in each folder keeps the scores.

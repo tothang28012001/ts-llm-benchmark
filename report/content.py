@@ -142,7 +142,8 @@ def compose(D: dict, o: Out) -> None:
         "out at its pin, with line-ending conversion disabled. It is then copied into a *fresh container* built from "
         "our image (Node~22 plus the pinned toolchain). The host copy is mounted read-only and the container is "
         "discarded afterwards, so install scripts, tests and mutants never touch the host. Stages are resumable, and "
-        "all raw artefacts are kept per repository. The stages are:")
+        "all raw artefacts are kept per repository. Code, dataset and results are public at "
+        "`github.com/tothang28012001/ts-llm-benchmark`. The stages are:")
     o.bullets([
         "**Inventory and size.** `.ts`/`.tsx` files are split into production and test code by `*.test`/`*.spec` "
         "names and test directories. Build output, declaration files, configuration and tooling scripts are "
@@ -305,8 +306,8 @@ def compose(D: dict, o: Out) -> None:
         "with ≥90% agent commits), plus a qualitative review of the most frequent violations and compiler "
         "errors mapped to the bug taxonomy of [1].",
         "**Nov.~27 / Dec.~4:** final presentation of findings, limitations and conclusions.",
-        "**By Dec.~7:** the 4-page IEEE paper (this report's LaTeX source already uses `IEEEtran`) and the public "
-        "release of the pipeline, dataset and raw results as the project artefact.",
+        "**By Dec.~7:** the 4-page IEEE paper (this report's LaTeX source already uses `IEEEtran`) and a "
+        "tagged release of the repository (pipeline, dataset and raw results) as the project artefact.",
     ])
     o.refs()
 
