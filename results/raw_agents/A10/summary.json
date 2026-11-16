@@ -1,0 +1,87 @@
+{
+  "repo_id": "A10",
+  "group": "llm",
+  "full_name": "Phazzie/Apophenia",
+  "stars": "0",
+  "created_at": "2025-07-29",
+  "pin": "db4955538063c03ab69a126e2634d4892d834d93",
+  "fetch": {
+    "sha": "db4955538063c03ab69a126e2634d4892d834d93",
+    "commit_date": "2026-03-04T01:29:19-05:00",
+    "first_commit_date": "2025-08-09T02:24:45Z",
+    "commits_to_pin": 164,
+    "ai_commits_to_pin": 116,
+    "ai_commit_share": 0.7073,
+    "ai_agents": [
+      "claude-code",
+      "copilot",
+      "jules"
+    ]
+  },
+  "inventory": {
+    "prod_files": 132,
+    "test_files": 59,
+    "skipped": 4,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "error": "node:fs:440\n    return binding.readFileUtf8(path, stringToFlags(options.flag));\n                   ^\n\nError: ENOENT: no such file or directory, open 'src/App.tsx'\n    at readFileSync (node:fs:440:20)\n    at measure (file:///tools/loc.mjs:14:16)\n    at file:///tools/loc.mjs:54:15\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {\n  errno: -2,\n  code: 'ENOENT',\n  syscall: 'open',\n  path: 'src/App.tsx'\n}\n\nNode.js v22.23.4\n"
+  },
+  "lint_ok": true,
+  "dup_ok": false,
+  "install": {
+    "ok": true,
+    "level": 2,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 1,
+        "seconds": 2.1
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 254,
+        "seconds": 1.3
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 0,
+        "seconds": 1.4
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 1,
+        "errors": 1,
+        "seconds": 0.483
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 1,
+    "by_code": {
+      "TS5058": 1
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 0
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 254,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 0.7
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

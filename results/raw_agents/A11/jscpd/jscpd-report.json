@@ -1,0 +1,937 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T09:08:03.739Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/share.ts": {
+            "lines": 104,
+            "tokens": 1071,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 312,
+            "percentage": 17.31,
+            "percentageTokens": 29.13,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/offline.ts": {
+            "lines": 135,
+            "tokens": 1295,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/notifications.ts": {
+            "lines": 109,
+            "tokens": 1066,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/money.ts": {
+            "lines": 16,
+            "tokens": 271,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/export.ts": {
+            "lines": 171,
+            "tokens": 1981,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/date.ts": {
+            "lines": 99,
+            "tokens": 1175,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/calculations.ts": {
+            "lines": 632,
+            "tokens": 6876,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useSupabase.ts": {
+            "lines": 976,
+            "tokens": 9733,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useMonthFilter.ts": {
+            "lines": 18,
+            "tokens": 218,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/useLanguage.ts": {
+            "lines": 7,
+            "tokens": 44,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/useAuth.ts": {
+            "lines": 9,
+            "tokens": 70,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/supabase.ts": {
+            "lines": 134,
+            "tokens": 841,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/language-context.ts": {
+            "lines": 17,
+            "tokens": 127,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/auth-context.ts": {
+            "lines": 17,
+            "tokens": 155,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2444,
+          "tokens": 24923,
+          "sources": 14,
+          "clones": 1,
+          "duplicatedLines": 9,
+          "duplicatedTokens": 156,
+          "percentage": 0.37,
+          "percentageTokens": 0.63,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/pages/More.tsx": {
+            "lines": 191,
+            "tokens": 1735,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Login.tsx": {
+            "lines": 43,
+            "tokens": 291,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/History.tsx": {
+            "lines": 346,
+            "tokens": 2883,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/DriverSettlement.tsx": {
+            "lines": 104,
+            "tokens": 1187,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/DriverHome.tsx": {
+            "lines": 369,
+            "tokens": 3947,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Dashboard.tsx": {
+            "lines": 495,
+            "tokens": 5373,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Cars.tsx": {
+            "lines": 88,
+            "tokens": 793,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/CarDetail.tsx": {
+            "lines": 583,
+            "tokens": 5464,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/AddIncome.tsx": {
+            "lines": 121,
+            "tokens": 793,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/AddExpense.tsx": {
+            "lines": 182,
+            "tokens": 1302,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Logo.tsx": {
+            "lines": 31,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Layout.tsx": {
+            "lines": 31,
+            "tokens": 274,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DriverLayout.tsx": {
+            "lines": 15,
+            "tokens": 118,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/AppNotifications.tsx": {
+            "lines": 30,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/LanguageContext.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/AuthContext.tsx": {
+            "lines": 1,
+            "tokens": 17,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 33,
+            "tokens": 366,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2664,
+          "tokens": 25076,
+          "sources": 17,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/pages/More.tsx": {
+            "lines": 281,
+            "tokens": 2619,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Login.tsx": {
+            "lines": 84,
+            "tokens": 647,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/History.tsx": {
+            "lines": 488,
+            "tokens": 4299,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/DriverSettlement.tsx": {
+            "lines": 156,
+            "tokens": 1843,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/DriverHome.tsx": {
+            "lines": 628,
+            "tokens": 7200,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 47,
+            "duplicatedTokens": 784,
+            "percentage": 7.48,
+            "percentageTokens": 10.89,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Dashboard.tsx": {
+            "lines": 804,
+            "tokens": 9180,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Cars.tsx": {
+            "lines": 165,
+            "tokens": 1518,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/CarDetail.tsx": {
+            "lines": 932,
+            "tokens": 9597,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 47,
+            "duplicatedTokens": 784,
+            "percentage": 5.04,
+            "percentageTokens": 8.17,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/AddIncome.tsx": {
+            "lines": 187,
+            "tokens": 1532,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 254,
+            "percentage": 20.86,
+            "percentageTokens": 16.58,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/AddExpense.tsx": {
+            "lines": 386,
+            "tokens": 3227,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 254,
+            "percentage": 10.1,
+            "percentageTokens": 7.87,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Logo.tsx": {
+            "lines": 42,
+            "tokens": 424,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Layout.tsx": {
+            "lines": 70,
+            "tokens": 754,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/DriverLayout.tsx": {
+            "lines": 42,
+            "tokens": 329,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/AppNotifications.tsx": {
+            "lines": 73,
+            "tokens": 690,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 23,
+            "tokens": 152,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/LanguageContext.tsx": {
+            "lines": 21,
+            "tokens": 192,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/AuthContext.tsx": {
+            "lines": 86,
+            "tokens": 897,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 73,
+            "tokens": 736,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4541,
+          "tokens": 45836,
+          "sources": 18,
+          "clones": 6,
+          "duplicatedLines": 86,
+          "duplicatedTokens": 1038,
+          "percentage": 1.89,
+          "percentageTokens": 2.26,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "css": {
+        "sources": {
+          "src/components/Logo.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1,
+          "tokens": 3,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 9650,
+      "tokens": 95838,
+      "sources": 50,
+      "clones": 7,
+      "duplicatedLines": 95,
+      "duplicatedTokens": 1194,
+      "percentage": 0.98,
+      "percentageTokens": 1.25,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ": string,\n  incomes: IncomeRow[],\n  expenses: ExpenseRow[]\n): string {\n  const totalIncome = incomes.reduce((s, i) => s + i.amount, 0)\n  const totalExpense = expenses.reduce((s, e) => s + e.amount, 0)\n  const trips = incomes.reduce((s, i) => s + i.trips, 0)\n  const daysWorked = new Set(incomes.map((i) => i.date)).size\n\n  const",
+      "tokens": 156,
+      "firstFile": {
+        "name": "src/utils/share.ts",
+        "start": 65,
+        "end": 74,
+        "startLoc": {
+          "line": 65,
+          "column": 8,
+          "position": 639
+        },
+        "endLoc": {
+          "line": 74,
+          "column": 8,
+          "position": 795
+        }
+      },
+      "secondFile": {
+        "name": "src/utils/share.ts",
+        "start": 42,
+        "end": 51,
+        "startLoc": {
+          "line": 42,
+          "column": 12,
+          "position": 414
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 9,
+          "position": 570
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 13,
+      "fragment": "totalCost === null || !isValidCalendarDate(fuelDate)) {\n      notifyApp('error', 'Enter a valid fuel date and amount.')\n      return\n    }\n    const price = fuelType === 'cng' ? cngRate : 0\n    const qty = price > 0 ? Math.round((totalCost / price) * 100) / 100 : 0\n    const odometer = fuelType === 'cng' ? parseNonNegativeNumber(fuelOdo) : 0\n    if (fuelType === 'cng' && (odometer === null || odometer <= 0)) {\n      notifyApp('error', 'Enter a valid odometer reading for CNG.')\n      return\n    }\n    const previous = fuelLogs\n      .filter((log) => log.fuel_type !== 'petrol' && log.odometer_km > 0 ",
+      "tokens": 199,
+      "firstFile": {
+        "name": "src/pages/CarDetail.tsx",
+        "start": 222,
+        "end": 234,
+        "startLoc": {
+          "line": 222,
+          "column": 9,
+          "position": 2392
+        },
+        "endLoc": {
+          "line": 234,
+          "column": 74,
+          "position": 2591
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/DriverHome.tsx",
+        "start": 162,
+        "end": 174,
+        "startLoc": {
+          "line": 162,
+          "column": 28,
+          "position": 1913
+        },
+        "endLoc": {
+          "line": 174,
+          "column": 74,
+          "position": 2112
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 7,
+      "fragment": ")\n      .sort((a, b) => `${b.date}-${b.id}`.localeCompare(`${a.date}-${a.id}`))[0]\n    if (previous && odometer !== null && odometer <= previous.odometer_km) {\n      notifyApp('error', 'Odometer must be higher than the previous CNG fill.')\n      return\n    }\n    const efficiency = previous && odometer !== null && qty > 0 ",
+      "tokens": 116,
+      "firstFile": {
+        "name": "src/pages/CarDetail.tsx",
+        "start": 234,
+        "end": 240,
+        "startLoc": {
+          "line": 234,
+          "column": 101,
+          "position": 2601
+        },
+        "endLoc": {
+          "line": 240,
+          "column": 65,
+          "position": 2717
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/DriverHome.tsx",
+        "start": 174,
+        "end": 181,
+        "startLoc": {
+          "line": 174,
+          "column": 73,
+          "position": 2112
+        },
+        "endLoc": {
+          "line": 181,
+          "column": 1,
+          "position": 2228
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": ")\n    .sort((a, b) => `${b.date}-${b.id}`.localeCompare(`${a.date}-${a.id}`))[0]\n  const previewAmount = parsePositiveAmount(fuelAmount)\n  const previewOdometer = parseNonNegativeNumber(fuelOdo)\n  const previewQuantity = previewAmount !== null && cngRate > 0 ? previewAmount / cngRate : 0\n  const previewEfficiency = previousCngFill && previewOdometer !== null && previewQuantity > 0\n    ? (previewOdometer - previousCngFill.odometer_km) / previewQuantity\n    : null\n\n",
+      "tokens": 154,
+      "firstFile": {
+        "name": "src/pages/CarDetail.tsx",
+        "start": 270,
+        "end": 279,
+        "startLoc": {
+          "line": 270,
+          "column": 99,
+          "position": 3077
+        },
+        "endLoc": {
+          "line": 279,
+          "column": 1,
+          "position": 3231
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/DriverHome.tsx",
+        "start": 214,
+        "end": 222,
+        "startLoc": {
+          "line": 214,
+          "column": 71,
+          "position": 2605
+        },
+        "endLoc": {
+          "line": 222,
+          "column": 3,
+          "position": 2759
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 12,
+      "fragment": "\n  const fuelEfficiency = (() => {\n    if (cngLogs.length < 2) return null\n    const sorted = [...cngLogs].sort((a, b) => a.odometer_km - b.odometer_km)\n    const validLogs = sorted.filter((l) => l.odometer_km > 0)\n    if (validLogs.length < 2) return null\n    const totalKm = validLogs[validLogs.length - 1].odometer_km - validLogs[0].odometer_km\n    const totalKg = validLogs.slice(1).reduce((s, l) => s + l.quantity_kg, 0)\n    return totalKg > 0 ? totalKm / totalKg : null\n  })()\n\n  // Revenue per KM — detect offline rides (CNG odometer only)",
+      "tokens": 205,
+      "firstFile": {
+        "name": "src/pages/CarDetail.tsx",
+        "start": 289,
+        "end": 300,
+        "startLoc": {
+          "line": 289,
+          "column": 67,
+          "position": 3353
+        },
+        "endLoc": {
+          "line": 300,
+          "column": 63,
+          "position": 3558
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/DriverHome.tsx",
+        "start": 221,
+        "end": 232,
+        "startLoc": {
+          "line": 221,
+          "column": 11,
+          "position": 2758
+        },
+        "endLoc": {
+          "line": 232,
+          "column": 68,
+          "position": 2963
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "\"\n                  required\n                />\n                {fuelType === 'cng' && fuelAmount && Number(fuelAmount) > 0 && (\n                  <p className=\"text-[10px] text-text-muted mt-1\">≈ {(Number(fuelAmount) / cngRate).toFixed(2)} kg @ ₹{cngRate}/kg</p>\n                )}\n              </div>\n              {fuelType === 'cng' && (\n                <div>\n                  <label className=\"block text-[10px] text-text-muted uppercase tracking-wider mb-1",
+      "tokens": 110,
+      "firstFile": {
+        "name": "src/pages/CarDetail.tsx",
+        "start": 700,
+        "end": 709,
+        "startLoc": {
+          "line": 700,
+          "column": 191,
+          "position": 7516
+        },
+        "endLoc": {
+          "line": 709,
+          "column": 100,
+          "position": 7626
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/DriverHome.tsx",
+        "start": 517,
+        "end": 526,
+        "startLoc": {
+          "line": 517,
+          "column": 25,
+          "position": 6114
+        },
+        "endLoc": {
+          "line": 526,
+          "column": 87,
+          "position": 6224
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 40,
+      "fragment": "\n        </div>\n\n        {(cars?.length ?? 0) > 0 && (\n          <div>\n            <label className=\"block text-sm font-medium text-text-secondary mb-2\">\n              <Car size={14} className=\"inline mr-1\" />\n              {t.assignToCar}\n            </label>\n            <div className=\"flex flex-wrap gap-2\">\n              <button\n                type=\"button\"\n                onClick={() => setCarId(null)}\n                className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${\n                  carId === null\n                    ? 'bg-white text-black'\n                    : 'bg-surface-elevated text-text-secondary border border-border-dim'\n                }`}\n              >\n                None\n              </button>\n              {cars?.map((c) => (\n                <button\n                  key={c.id}\n                  type=\"button\"\n                  onClick={() => setCarId(c.id)}\n                  className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${\n                    carId === c.id\n                      ? 'bg-white text-black'\n                      : 'bg-surface-elevated text-text-secondary border border-border-dim'\n                  }`}\n                >\n                  {c.number || c.name}\n                </button>\n              ))}\n            </div>\n          </div>\n        )}\n\n        {",
+      "tokens": 254,
+      "firstFile": {
+        "name": "src/pages/AddExpense.tsx",
+        "start": 296,
+        "end": 335,
+        "startLoc": {
+          "line": 296,
+          "column": 13,
+          "position": 2550
+        },
+        "endLoc": {
+          "line": 335,
+          "column": 10,
+          "position": 2804
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/AddIncome.tsx",
+        "start": 137,
+        "end": 176,
+        "startLoc": {
+          "line": 137,
+          "column": 13,
+          "position": 1209
+        },
+        "endLoc": {
+          "line": 176,
+          "column": 10,
+          "position": 1463
+        }
+      }
+    }
+  ]
+}

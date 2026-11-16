@@ -1,0 +1,253 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T09:32:14.712Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/util.ts": {
+            "lines": 45,
+            "tokens": 401,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tokens.ts": {
+            "lines": 166,
+            "tokens": 1135,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/scanner.ts": {
+            "lines": 175,
+            "tokens": 1932,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/resolver.ts": {
+            "lines": 970,
+            "tokens": 10631,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 262,
+            "percentage": 2.27,
+            "percentageTokens": 2.46,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 47,
+            "tokens": 440,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/harness.ts": {
+            "lines": 778,
+            "tokens": 6186,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 86,
+            "duplicatedTokens": 652,
+            "percentage": 11.05,
+            "percentageTokens": 10.54,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli.ts": {
+            "lines": 32,
+            "tokens": 318,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli-stage1.ts": {
+            "lines": 96,
+            "tokens": 757,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/bootstrap-stage1.ts": {
+            "lines": 57,
+            "tokens": 518,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2366,
+          "tokens": 22318,
+          "sources": 9,
+          "clones": 3,
+          "duplicatedLines": 54,
+          "duplicatedTokens": 457,
+          "percentage": 2.28,
+          "percentageTokens": 2.05,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2366,
+      "tokens": 22318,
+      "sources": 9,
+      "clones": 3,
+      "duplicatedLines": 54,
+      "duplicatedTokens": 457,
+      "percentage": 2.28,
+      "percentageTokens": 2.05,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n              const target = ast.getLowestCommonNumeric(leftType, rightType) ?? ast.IntType\n              op.left = resolveNodeWithCoercion(op.left, isLiveAtEnd, target, op.operator)\n              op.right = resolveNodeWithCoercion(op.right, isLiveAtEnd, target, op.operator)\n              op.resolvedType = target\n            } else {\n              resolveError(op.operator, `Invalid operand types for binary operator '${op.operator.lexeme}'.`)\n              op.resolvedType = ast.ErrorType\n            }\n            break\n          }\n          default",
+      "tokens": 131,
+      "firstFile": {
+        "name": "src/resolver.ts",
+        "start": 258,
+        "end": 269,
+        "startLoc": {
+          "line": 258,
+          "column": 84,
+          "position": 2985
+        },
+        "endLoc": {
+          "line": 269,
+          "column": 18,
+          "position": 3116
+        }
+      },
+      "secondFile": {
+        "name": "src/resolver.ts",
+        "start": 241,
+        "end": 252,
+        "startLoc": {
+          "line": 241,
+          "column": 55,
+          "position": 2748
+        },
+        "endLoc": {
+          "line": 252,
+          "column": 15,
+          "position": 2879
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 30,
+      "fragment": "(program: string): RunResult {\n  const normalized = program.trim().replace(/\\r?\\n/g, \" \")\n  const programBytes = Array.from(Buffer.from(normalized, \"utf8\"))\n  const srcBuilder = [\n    `  var srcLen = ${programBytes.length};`,\n    `  var srcBuf = __malloc__(${programBytes.length});`,\n    ...programBytes.map((b, i) => `  (srcBuf + ${i})~ = ${b};`),\n    `  var src = String{srcBuf, srcLen};`,\n  ].join(\"\\n\")\n  const source = `\n${loadStage1Types()}\n${stripAstTypeSection(loadStage1Ast())}\n${loadStage1Scanner()}\n${loadStage1StructLayout()}\n${loadStage1TypeEnv()}\n${loadStage1ParserExpr()}\n${loadStage1Typeparse()}\n${loadStage1ParserFull()}\n\ndef print_str(s String) {\n  var i = 0;\n  while (i < s.length) {\n    __putchar__(int((s.data + i)~));\n    i = i + 1;\n  }\n  __putchar__(10);\n}\n\ndef main() {\n",
+      "tokens": 181,
+      "firstFile": {
+        "name": "src/harness.ts",
+        "start": 418,
+        "end": 447,
+        "startLoc": {
+          "line": 418,
+          "column": 38,
+          "position": 3194
+        },
+        "endLoc": {
+          "line": 447,
+          "column": 1,
+          "position": 3375
+        }
+      },
+      "secondFile": {
+        "name": "src/harness.ts",
+        "start": 360,
+        "end": 405,
+        "startLoc": {
+          "line": 360,
+          "column": 39,
+          "position": 2989
+        },
+        "endLoc": {
+          "line": 405,
+          "column": 1,
+          "position": 3170
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ".trim().replace(/\\r?\\n/g, \" \")\n  const programBytes = Array.from(Buffer.from(normalized, \"utf8\"))\n  const srcBuilder = [\n    `  var srcLen = ${programBytes.length};`,\n    `  var srcBuf = __malloc__(${programBytes.length});`,\n    ...programBytes.map((b, i) => `  (srcBuf + ${i})~ = ${b};`),\n    `  var src = String{srcBuf, srcLen};`,\n  ].join(\"\\n\")\n  const source = `\n${loadStage1Types()}\n${stripAstTypeSection(loadStage1Ast())}\n${loadStage1Scanner()}\n${loadStage1StructLayout()}\n${loadStage1TypeEnv()}\n${loadStage1Typerules",
+      "tokens": 145,
+      "firstFile": {
+        "name": "src/harness.ts",
+        "start": 461,
+        "end": 475,
+        "startLoc": {
+          "line": 461,
+          "column": 25,
+          "position": 3419
+        },
+        "endLoc": {
+          "line": 475,
+          "column": 22,
+          "position": 3564
+        }
+      },
+      "secondFile": {
+        "name": "src/harness.ts",
+        "start": 361,
+        "end": 375,
+        "startLoc": {
+          "line": 361,
+          "column": 29,
+          "position": 3009
+        },
+        "endLoc": {
+          "line": 375,
+          "column": 23,
+          "position": 3154
+        }
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Builds the milestone / progress report from the benchmark results.
+"""Builds the milestone / progress report from the study's results.
 
 Every number in the report is read from results/ and dataset/, so re-running
 the pipeline and this script regenerates a consistent report.
@@ -26,7 +26,7 @@ RES = ROOT / "results"
 OUT_DIR = ROOT / "report"
 PDF_NAME = "CMPT479 - Milestone Progress Report.pdf"
 
-TITLE = "Benchmarking Human-Written and LLM-Generated TypeScript Projects: Milestone Progress Report"
+TITLE = "Human-Written vs. LLM-Generated TypeScript Projects: An Empirical Study"
 AUTHORS = "Simon Xie, Sukhdip Kandola, Thang To"
 AFFIL = "CMPT 479 D100, School of Computing Science, Simon Fraser University, Burnaby, BC, Canada"
 

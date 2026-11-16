@@ -10,6 +10,12 @@ Rule (no hand-picking):
    where feasible").
 
 Output: dataset/repos.csv - the frozen dataset definition used by `run.py`.
+
+With --agents, builds the "other agents" extension instead: every eligible
+project from dataset/screened_trailers.csv (found by agent commit signature)
+whose main agent is not Claude Code and whose runner StrykerJS can drive, in
+descending star order, numbered A01, A02, ...  It is not size-matched; it is
+compared against both existing groups.  Output: dataset/repos_agents.csv
 """
 from __future__ import annotations
 
@@ -26,7 +32,11 @@ RUNNERS = {"vitest", "jest", "mocha", "node --test", "ava", "jasmine"}
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("-n", type=int, default=12, help="repositories per group (10 + spares)")
+    ap.add_argument("--agents", action="store_true", help="build dataset/repos_agents.csv (non-Claude agents)")
     args = ap.parse_args()
+    if args.agents:
+        select_agents()
+        return
 
     d = pd.read_csv(ROOT / "dataset" / "screened.csv")
     d = d[d.eligible & d.test_runner.isin(RUNNERS)]
@@ -47,6 +57,20 @@ def main() -> None:
     cols = ["repo_id", "group", "full_name", "stars", "created_at", "ts_bytes", "commits",
             "ai_commit_share_last100", "ai_agents", "test_runner", "pin", "pin_date"]
     out[cols].to_csv(ROOT / "dataset" / "repos.csv", index=False)
+    print(out[cols].to_string(index=False))
+
+
+def select_agents() -> None:
+    d = pd.read_csv(ROOT / "dataset" / "screened_trailers.csv")
+    taken = set(pd.read_csv(ROOT / "dataset" / "repos.csv").full_name)
+    d = d[d.eligible & d.test_runner.isin(RUNNERS) & (d.main_agent != "claude-code") & ~d.full_name.isin(taken)]
+    out = d.sort_values(["stars", "commits"], ascending=False).copy()
+    out["repo_id"] = [f"A{i + 1:02d}" for i in range(len(out))]
+    out["pin"], out["pin_date"] = "HEAD", ""
+    out[["stars", "ts_bytes", "commits"]] = out[["stars", "ts_bytes", "commits"]].astype(int)
+    cols = ["repo_id", "group", "full_name", "stars", "created_at", "ts_bytes", "commits",
+            "ai_commit_share_last100", "ai_agents", "main_agent", "ai_models", "test_runner", "pin", "pin_date"]
+    out[cols].to_csv(ROOT / "dataset" / "repos_agents.csv", index=False)
     print(out[cols].to_string(index=False))
 
 

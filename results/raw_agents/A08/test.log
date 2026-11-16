@@ -1,0 +1,22 @@
+
+> business-calculation@0.1.0 test
+> jest
+
+PASS src/__tests__/gesamtvergleich.test.ts
+PASS src/__tests__/parameters.test.ts
+PASS src/__tests__/betrieb.test.ts
+PASS src/__tests__/ende.test.ts
+PASS src/__tests__/JahresUebersicht.test.tsx
+PASS src/__tests__/EndeSection.test.tsx
+PASS src/__tests__/gruendung.test.ts
+PASS src/__tests__/dashboard.test.tsx
+PASS src/__tests__/validations.test.ts
+PASS src/__tests__/VergleichsDiagramm.test.tsx
+PASS src/__tests__/szenarien.test.ts
+PASS src/__tests__/BetriebSection.test.tsx
+
+Test Suites: 12 passed, 12 total
+Tests:       287 passed, 287 total
+Snapshots:   0 total
+Time:        3.378 s
+Ran all test suites.

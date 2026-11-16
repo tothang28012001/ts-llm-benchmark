@@ -1,0 +1,2445 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T09:28:43.160Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "ssr-entry.ts": {
+            "lines": 12,
+            "tokens": 73,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "shared/casefile/types.ts": {
+            "lines": 280,
+            "tokens": 1631,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "shared/casefile/demo-case.ts": {
+            "lines": 113,
+            "tokens": 289,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "shared/casefile/court-demo-case.ts": {
+            "lines": 145,
+            "tokens": 301,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/plugins/otel.ts": {
+            "lines": 7,
+            "tokens": 49,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/plugins/auth.ts": {
+            "lines": 28,
+            "tokens": 137,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/plugins/agent-native-email-branding.ts": {
+            "lines": 15,
+            "tokens": 71,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/plugins/agent-chat.ts": {
+            "lines": 64,
+            "tokens": 237,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/middleware/auth.ts": {
+            "lines": 7,
+            "tokens": 55,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/db/schema.ts": {
+            "lines": 375,
+            "tokens": 2672,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/db/migrations.ts": {
+            "lines": 13,
+            "tokens": 49,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/db/migration-entries.ts": {
+            "lines": 262,
+            "tokens": 176,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/db/index.ts": {
+            "lines": 7,
+            "tokens": 43,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/zip.ts": {
+            "lines": 317,
+            "tokens": 3224,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/report.ts": {
+            "lines": 744,
+            "tokens": 6210,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 106,
+            "percentage": 0.94,
+            "percentageTokens": 1.71,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/report-pdf.ts": {
+            "lines": 354,
+            "tokens": 4488,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/report-docx.ts": {
+            "lines": 212,
+            "tokens": 1808,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 106,
+            "percentage": 3.3,
+            "percentageTokens": 5.86,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/readiness.ts": {
+            "lines": 208,
+            "tokens": 1508,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/ooxml.ts": {
+            "lines": 408,
+            "tokens": 4112,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 24,
+            "duplicatedTokens": 414,
+            "percentage": 5.88,
+            "percentageTokens": 10.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/ocr.ts": {
+            "lines": 134,
+            "tokens": 1239,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/model.ts": {
+            "lines": 305,
+            "tokens": 2109,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/investigation.ts": {
+            "lines": 92,
+            "tokens": 683,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/ids.ts": {
+            "lines": 21,
+            "tokens": 236,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/graph.ts": {
+            "lines": 864,
+            "tokens": 7262,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 34,
+            "duplicatedTokens": 306,
+            "percentage": 3.94,
+            "percentageTokens": 4.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/file-validation.ts": {
+            "lines": 229,
+            "tokens": 1986,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/extraction.ts": {
+            "lines": 331,
+            "tokens": 3018,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/extraction-run.ts": {
+            "lines": 269,
+            "tokens": 2267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/evidence-upload.ts": {
+            "lines": 168,
+            "tokens": 1202,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/evidence-store.ts": {
+            "lines": 138,
+            "tokens": 952,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/entities.ts": {
+            "lines": 418,
+            "tokens": 4443,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/email.ts": {
+            "lines": 448,
+            "tokens": 4432,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/domains.ts": {
+            "lines": 624,
+            "tokens": 3997,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/context.ts": {
+            "lines": 47,
+            "tokens": 248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/comparison.ts": {
+            "lines": 294,
+            "tokens": 2166,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/classification.ts": {
+            "lines": 297,
+            "tokens": 2276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/case-queries.ts": {
+            "lines": 105,
+            "tokens": 1158,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/auth-guard.ts": {
+            "lines": 76,
+            "tokens": 426,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/analysis.ts": {
+            "lines": 460,
+            "tokens": 3503,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/analysis-persistence.ts": {
+            "lines": 140,
+            "tokens": 1155,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "server/casefile/access.ts": {
+            "lines": 145,
+            "tokens": 1017,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes.ts": {
+            "lines": 7,
+            "tokens": 56,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/lib/chat-paths.ts": {
+            "lines": 517,
+            "tokens": 5220,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/lib/chat-home-thread.ts": {
+            "lines": 90,
+            "tokens": 681,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/lib/casefile-paths.ts": {
+            "lines": 7,
+            "tokens": 49,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/lib/app-config.ts": {
+            "lines": 12,
+            "tokens": 94,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/zh-TW.ts": {
+            "lines": 87,
+            "tokens": 546,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/zh-CN.ts": {
+            "lines": 87,
+            "tokens": 546,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/pt-BR.ts": {
+            "lines": 92,
+            "tokens": 551,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/ko-KR.ts": {
+            "lines": 91,
+            "tokens": 550,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/ja-JP.ts": {
+            "lines": 91,
+            "tokens": 550,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/index.ts": {
+            "lines": 20,
+            "tokens": 206,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/hi-IN.ts": {
+            "lines": 91,
+            "tokens": 550,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/fr-FR.ts": {
+            "lines": 92,
+            "tokens": 551,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/es-ES.ts": {
+            "lines": 92,
+            "tokens": 551,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/en-US.ts": {
+            "lines": 91,
+            "tokens": 550,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/de-DE.ts": {
+            "lines": 92,
+            "tokens": 551,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/i18n/ar-SA.ts": {
+            "lines": 89,
+            "tokens": 548,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/hooks/use-navigation-state.ts": {
+            "lines": 120,
+            "tokens": 1108,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/view-screen.ts": {
+            "lines": 23,
+            "tokens": 191,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/upload-evidence.ts": {
+            "lines": 148,
+            "tokens": 1129,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/update-relationship.ts": {
+            "lines": 158,
+            "tokens": 1347,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/update-note.ts": {
+            "lines": 136,
+            "tokens": 1194,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/update-finding.ts": {
+            "lines": 136,
+            "tokens": 1313,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 164,
+            "percentage": 12.5,
+            "percentageTokens": 12.49,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/update-case.ts": {
+            "lines": 75,
+            "tokens": 904,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/search-case.ts": {
+            "lines": 184,
+            "tokens": 1755,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/review-gap.ts": {
+            "lines": 116,
+            "tokens": 956,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/retry-extraction.ts": {
+            "lines": 95,
+            "tokens": 781,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/read-case-graph.ts": {
+            "lines": 47,
+            "tokens": 366,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 117,
+            "percentage": 19.15,
+            "percentageTokens": 31.97,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/provider-api-request.ts": {
+            "lines": 49,
+            "tokens": 460,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/navigate.ts": {
+            "lines": 27,
+            "tokens": 339,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/load-demo-case.ts": {
+            "lines": 136,
+            "tokens": 1104,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/list-relationships.ts": {
+            "lines": 62,
+            "tokens": 492,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 118,
+            "percentage": 17.74,
+            "percentageTokens": 23.98,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/list-notes.ts": {
+            "lines": 43,
+            "tokens": 345,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/list-evidence.ts": {
+            "lines": 76,
+            "tokens": 786,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 56,
+            "duplicatedTokens": 652,
+            "percentage": 73.68,
+            "percentageTokens": 82.95,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/list-evidence-gaps.ts": {
+            "lines": 48,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 117,
+            "percentage": 18.75,
+            "percentageTokens": 26.35,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/list-entities.ts": {
+            "lines": 170,
+            "tokens": 1610,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/list-cases.ts": {
+            "lines": 31,
+            "tokens": 329,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/list-activity.ts": {
+            "lines": 79,
+            "tokens": 637,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 111,
+            "percentage": 12.66,
+            "percentageTokens": 17.43,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/hello.ts": {
+            "lines": 15,
+            "tokens": 141,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/get-investigation-status.ts": {
+            "lines": 140,
+            "tokens": 1429,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 230,
+            "percentage": 15.71,
+            "percentageTokens": 16.1,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/get-evidence.ts": {
+            "lines": 87,
+            "tokens": 747,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/get-case.ts": {
+            "lines": 170,
+            "tokens": 1675,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 206,
+            "percentage": 11.76,
+            "percentageTokens": 12.3,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/extract-evidence.ts": {
+            "lines": 61,
+            "tokens": 454,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/extract-events.ts": {
+            "lines": 86,
+            "tokens": 817,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 52,
+            "duplicatedTokens": 552,
+            "percentage": 60.47,
+            "percentageTokens": 67.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/extract-claims.ts": {
+            "lines": 78,
+            "tokens": 799,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 50,
+            "duplicatedTokens": 546,
+            "percentage": 64.1,
+            "percentageTokens": 68.34,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/export-report.ts": {
+            "lines": 94,
+            "tokens": 857,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/explain-finding.ts": {
+            "lines": 138,
+            "tokens": 1338,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 164,
+            "percentage": 12.32,
+            "percentageTokens": 12.26,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/delete-evidence.ts": {
+            "lines": 104,
+            "tokens": 944,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/create-case.ts": {
+            "lines": 75,
+            "tokens": 647,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/compare-claims.ts": {
+            "lines": 71,
+            "tokens": 569,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/classify-evidence.ts": {
+            "lines": 125,
+            "tokens": 1037,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 118,
+            "percentage": 7.2,
+            "percentageTokens": 11.38,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/categorize-evidence.ts": {
+            "lines": 48,
+            "tokens": 499,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 118,
+            "percentage": 18.75,
+            "percentageTokens": 23.65,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/build-timeline.ts": {
+            "lines": 131,
+            "tokens": 1196,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 26,
+            "duplicatedTokens": 313,
+            "percentage": 19.85,
+            "percentageTokens": 26.17,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/build-report.ts": {
+            "lines": 44,
+            "tokens": 332,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/build-case-graph.ts": {
+            "lines": 62,
+            "tokens": 474,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/assess-readiness.ts": {
+            "lines": 115,
+            "tokens": 1176,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 230,
+            "percentage": 19.13,
+            "percentageTokens": 19.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/archive-case.ts": {
+            "lines": 49,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 106,
+            "percentage": 18.37,
+            "percentageTokens": 23.87,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/analyze-evidence.ts": {
+            "lines": 101,
+            "tokens": 763,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 106,
+            "percentage": 8.91,
+            "percentageTokens": 13.89,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "actions/analyse-documents.ts": {
+            "lines": 84,
+            "tokens": 683,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 114,
+            "percentage": 13.1,
+            "percentageTokens": 16.69,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 14661,
+          "tokens": 119869,
+          "sources": 99,
+          "clones": 20,
+          "duplicatedLines": 220,
+          "duplicatedTokens": 2507,
+          "percentage": 1.5,
+          "percentageTokens": 2.09,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "app/routes/team.tsx": {
+            "lines": 12,
+            "tokens": 90,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/settings.tsx": {
+            "lines": 31,
+            "tokens": 192,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/observability.tsx": {
+            "lines": 20,
+            "tokens": 148,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/home.tsx": {
+            "lines": 26,
+            "tokens": 208,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/extensions.tsx": {
+            "lines": 6,
+            "tokens": 36,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/extensions._index.tsx": {
+            "lines": 12,
+            "tokens": 90,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/extensions.$id.tsx": {
+            "lines": 12,
+            "tokens": 82,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/database.tsx": {
+            "lines": 18,
+            "tokens": 134,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/chat._index.tsx": {
+            "lines": 6,
+            "tokens": 30,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/chat.$threadId.tsx": {
+            "lines": 8,
+            "tokens": 46,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/cases._index.tsx": {
+            "lines": 10,
+            "tokens": 60,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/cases.$caseId.tsx": {
+            "lines": 16,
+            "tokens": 144,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/agent.tsx": {
+            "lines": 17,
+            "tokens": 117,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/root.tsx": {
+            "lines": 198,
+            "tokens": 1506,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/entry.server.tsx": {
+            "lines": 11,
+            "tokens": 61,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/entry.client.tsx": {
+            "lines": 11,
+            "tokens": 76,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/ui/toolkit-provider.tsx": {
+            "lines": 21,
+            "tokens": 158,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/Sidebar.tsx": {
+            "lines": 475,
+            "tokens": 3468,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/MobileAppBar.tsx": {
+            "lines": 54,
+            "tokens": 317,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/Layout.tsx": {
+            "lines": 222,
+            "tokens": 1590,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/Header.tsx": {
+            "lines": 31,
+            "tokens": 167,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/AgentInspector.tsx": {
+            "lines": 52,
+            "tokens": 335,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/home/HomePage.tsx": {
+            "lines": 232,
+            "tokens": 1695,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/chat/ChatHomeRedirect.tsx": {
+            "lines": 26,
+            "tokens": 223,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/casefile/badges.tsx": {
+            "lines": 231,
+            "tokens": 1603,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/casefile/CasesPage.tsx": {
+            "lines": 406,
+            "tokens": 4460,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2164,
+          "tokens": 17036,
+          "sources": 26,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "app/routes/settings.tsx": {
+            "lines": 3,
+            "tokens": 18,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/cases.$caseId.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/routes/agent.tsx": {
+            "lines": 1,
+            "tokens": 12,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/root.tsx": {
+            "lines": 122,
+            "tokens": 921,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/ui/toolkit-provider.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/Sidebar.tsx": {
+            "lines": 382,
+            "tokens": 2730,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/MobileAppBar.tsx": {
+            "lines": 12,
+            "tokens": 56,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/Layout.tsx": {
+            "lines": 135,
+            "tokens": 1016,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/Header.tsx": {
+            "lines": 8,
+            "tokens": 31,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/layout/AgentInspector.tsx": {
+            "lines": 12,
+            "tokens": 68,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/home/HomePage.tsx": {
+            "lines": 142,
+            "tokens": 1046,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/casefile/badges.tsx": {
+            "lines": 197,
+            "tokens": 1379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/components/casefile/CasesPage.tsx": {
+            "lines": 344,
+            "tokens": 3777,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1360,
+          "tokens": 11066,
+          "sources": 13,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 18185,
+      "tokens": 147971,
+      "sources": 138,
+      "clones": 20,
+      "duplicatedLines": 220,
+      "duplicatedTokens": 2507,
+      "percentage": 1.21,
+      "percentageTokens": 1.69,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ");\n  const byDomain = new Map<string, typeof report.domainFindings>();\n  for (const finding of report.domainFindings) {\n    const list = byDomain.get(finding.domain) ?? [];\n    list.push(finding);\n    byDomain.set(finding.domain, list);\n  }\n  if (byDomain.size === 0) push",
+      "tokens": 106,
+      "firstFile": {
+        "name": "server/casefile/report-docx.ts",
+        "start": 128,
+        "end": 135,
+        "startLoc": {
+          "line": 128,
+          "column": 48,
+          "position": 1199
+        },
+        "endLoc": {
+          "line": 135,
+          "column": 32,
+          "position": 1305
+        }
+      },
+      "secondFile": {
+        "name": "server/casefile/report.ts",
+        "start": 421,
+        "end": 428,
+        "startLoc": {
+          "line": 421,
+          "column": 16,
+          "position": 4154
+        },
+        "endLoc": {
+          "line": 428,
+          "column": 33,
+          "position": 4260
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": ": string[] = [];\n  let match: RegExpExecArray | null;\n  while ((match = open.exec(xml)) !== null) {\n    const start = match.index + match[0].length;\n    const end = xml.indexOf(close, start);\n    if (end === -1) break;\n    blocks",
+      "tokens": 104,
+      "firstFile": {
+        "name": "server/casefile/ooxml.ts",
+        "start": 76,
+        "end": 82,
+        "startLoc": {
+          "line": 76,
+          "column": 15,
+          "position": 615
+        },
+        "endLoc": {
+          "line": 82,
+          "column": 11,
+          "position": 719
+        }
+      },
+      "secondFile": {
+        "name": "server/casefile/ooxml.ts",
+        "start": 60,
+        "end": 66,
+        "startLoc": {
+          "line": 60,
+          "column": 14,
+          "position": 397
+        },
+        "endLoc": {
+          "line": 66,
+          "column": 10,
+          "position": 501
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": " = [];\n  let match: RegExpExecArray | null;\n  while ((match = open.exec(xml)) !== null) {\n    const start = match.index + match[0].length;\n    const end = xml.indexOf(close, start);\n    if (end === -1) break;\n    blocks.push({",
+      "tokens": 103,
+      "firstFile": {
+        "name": "server/casefile/ooxml.ts",
+        "start": 100,
+        "end": 106,
+        "startLoc": {
+          "line": 100,
+          "column": 58,
+          "position": 866
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 18,
+          "position": 969
+        }
+      },
+      "secondFile": {
+        "name": "server/casefile/ooxml.ts",
+        "start": 76,
+        "end": 82,
+        "startLoc": {
+          "line": 76,
+          "column": 25,
+          "position": 620
+        },
+        "endLoc": {
+          "line": 82,
+          "column": 20,
+          "position": 723
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": ".map((row) => ({\n    id: row.id,\n    fromType: row.fromType,\n    fromId: row.fromId,\n    toType: row.toType,\n    toId: row.toId,\n    relationType: row.relationType as RelationshipType,\n    basis: row.basis as RelationshipBasis,\n    matchKey: row.matchKey,\n    sourcePassageId: row.sourcePassageId,\n    rationale: row.rationale,\n    confidence: row.confidence,\n    reviewStatus: row.reviewStatus,\n    createdBy: row.createdBy,\n    correctedBy: row.correctedBy,\n  }));\n}\n",
+      "tokens": 153,
+      "firstFile": {
+        "name": "server/casefile/graph.ts",
+        "start": 847,
+        "end": 864,
+        "startLoc": {
+          "line": 847,
+          "column": 14,
+          "position": 7109
+        },
+        "endLoc": {
+          "line": 864,
+          "column": 1,
+          "position": 7262
+        }
+      },
+      "secondFile": {
+        "name": "server/casefile/graph.ts",
+        "start": 813,
+        "end": 830,
+        "startLoc": {
+          "line": 813,
+          "column": 15,
+          "position": 6816
+        },
+        "endLoc": {
+          "line": 830,
+          "column": 1,
+          "position": 6969
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n\n    const graph = await buildCaseGraph(ownedCase.id, userEmail, { persist: false });\n    const gaps",
+      "tokens": 117,
+      "firstFile": {
+        "name": "actions/list-evidence-gaps.ts",
+        "start": 21,
+        "end": 30,
+        "startLoc": {
+          "line": 21,
+          "column": 71,
+          "position": 126
+        },
+        "endLoc": {
+          "line": 30,
+          "column": 15,
+          "position": 243
+        }
+      },
+      "secondFile": {
+        "name": "actions/read-case-graph.ts",
+        "start": 23,
+        "end": 32,
+        "startLoc": {
+          "line": 23,
+          "column": 71,
+          "position": 129
+        },
+        "endLoc": {
+          "line": 32,
+          "column": 24,
+          "position": 246
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    const db = getDb();\n\n    const rows = await db\n      .select({",
+      "tokens": 111,
+      "firstFile": {
+        "name": "actions/list-activity.ts",
+        "start": 30,
+        "end": 40,
+        "startLoc": {
+          "line": 30,
+          "column": 65,
+          "position": 192
+        },
+        "endLoc": {
+          "line": 40,
+          "column": 16,
+          "position": 303
+        }
+      },
+      "secondFile": {
+        "name": "actions/list-evidence.ts",
+        "start": 14,
+        "end": 24,
+        "startLoc": {
+          "line": 14,
+          "column": 74,
+          "position": 149
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 16,
+          "position": 260
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ",\n            confidence: finding.confidence,\n            uncertainty: readUncertainty(finding.uncertainty),\n            correctedBy: finding.correctedBy,\n            citations: (citationsByFinding.get(finding.id) ?? []).map((citation) => ({\n              evidenceId: citation.evidenceId,\n              passageId: citation.passageId,\n              quote: citation.quote,\n            })),\n          })),\n      ",
+      "tokens": 103,
+      "firstFile": {
+        "name": "actions/get-case.ts",
+        "start": 157,
+        "end": 167,
+        "startLoc": {
+          "line": 157,
+          "column": 47,
+          "position": 1560
+        },
+        "endLoc": {
+          "line": 167,
+          "column": 7,
+          "position": 1663
+        }
+      },
+      "secondFile": {
+        "name": "actions/get-case.ts",
+        "start": 137,
+        "end": 147,
+        "startLoc": {
+          "line": 137,
+          "column": 47,
+          "position": 1349
+        },
+        "endLoc": {
+          "line": 147,
+          "column": 9,
+          "position": 1452
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    const db = getDb();\n\n    const rows = await db\n      .select()\n      .from(schema.findings",
+      "tokens": 119,
+      "firstFile": {
+        "name": "actions/extract-events.ts",
+        "start": 30,
+        "end": 41,
+        "startLoc": {
+          "line": 30,
+          "column": 64,
+          "position": 199
+        },
+        "endLoc": {
+          "line": 41,
+          "column": 28,
+          "position": 318
+        }
+      },
+      "secondFile": {
+        "name": "actions/list-evidence.ts",
+        "start": 14,
+        "end": 25,
+        "startLoc": {
+          "line": 14,
+          "column": 74,
+          "position": 149
+        },
+        "endLoc": {
+          "line": 25,
+          "column": 28,
+          "position": 268
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "),\n    reviewStatus: z\n      .enum([\"proposed\", \"confirmed\", \"rejected\"])\n      .optional()\n      .describe(\"Filter to one review status.\"),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    ",
+      "tokens": 118,
+      "firstFile": {
+        "name": "actions/extract-claims.ts",
+        "start": 26,
+        "end": 37,
+        "startLoc": {
+          "line": 26,
+          "column": 49,
+          "position": 183
+        },
+        "endLoc": {
+          "line": 37,
+          "column": 5,
+          "position": 301
+        }
+      },
+      "secondFile": {
+        "name": "actions/list-relationships.ts",
+        "start": 33,
+        "end": 45,
+        "startLoc": {
+          "line": 33,
+          "column": 51,
+          "position": 175
+        },
+        "endLoc": {
+          "line": 45,
+          "column": 1,
+          "position": 293
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    const db = getDb();\n\n    const rows = await db\n      .select()\n      .from(schema.findings)\n      .where(and(eq(schema.findings.caseId, ownedCase.id), eq(schema.findings.kind, \"claim\"",
+      "tokens": 152,
+      "firstFile": {
+        "name": "actions/extract-claims.ts",
+        "start": 30,
+        "end": 42,
+        "startLoc": {
+          "line": 30,
+          "column": 47,
+          "position": 218
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 92,
+          "position": 370
+        }
+      },
+      "secondFile": {
+        "name": "actions/list-evidence.ts",
+        "start": 14,
+        "end": 42,
+        "startLoc": {
+          "line": 14,
+          "column": 74,
+          "position": 149
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 92,
+          "position": 351
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ")))\n      .orderBy(desc(schema.findings.createdAt));\n\n    const citations = await db\n      .select()\n      .from(schema.findingCitations)\n      .where(eq(schema.findingCitations.caseId, ownedCase.id));\n    const byFinding = new Map<string, typeof citations>();\n    for (const citation of citations) {\n      const list = byFinding.get(citation.findingId) ?? [];\n      list.push(citation);\n      byFinding.set(citation.findingId, list);\n    }\n\n    const claims",
+      "tokens": 156,
+      "firstFile": {
+        "name": "actions/extract-claims.ts",
+        "start": 42,
+        "end": 56,
+        "startLoc": {
+          "line": 42,
+          "column": 92,
+          "position": 371
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 17,
+          "position": 527
+        }
+      },
+      "secondFile": {
+        "name": "actions/extract-events.ts",
+        "start": 42,
+        "end": 56,
+        "startLoc": {
+          "line": 42,
+          "column": 92,
+          "position": 352
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 17,
+          "position": 508
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ",\n        provenance: row.provenance,\n        reviewStatus: row.reviewStatus,\n        confidence: row.confidence,\n        uncertainty: row.uncertainty,\n        correctedBy: row.correctedBy,\n        citations: (byFinding.get(row.id) ?? []).map((citation) => ({\n          evidenceId: citation.evidenceId,\n          passageId: citation.passageId,\n          quote: citation.quote,\n        })),\n      }));\n\n    const",
+      "tokens": 120,
+      "firstFile": {
+        "name": "actions/extract-claims.ts",
+        "start": 61,
+        "end": 74,
+        "startLoc": {
+          "line": 61,
+          "column": 33,
+          "position": 618
+        },
+        "endLoc": {
+          "line": 74,
+          "column": 10,
+          "position": 738
+        }
+      },
+      "secondFile": {
+        "name": "actions/extract-events.ts",
+        "start": 65,
+        "end": 78,
+        "startLoc": {
+          "line": 65,
+          "column": 39,
+          "position": 624
+        },
+        "endLoc": {
+          "line": 78,
+          "column": 11,
+          "position": 744
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": " } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    const db = getDb();\n\n    const [finding] = await db\n      .select()\n      .from(schema.findings)\n      .where(\n        and(\n          eq(schema.findings.id, args.findingId),\n          eq(schema.findings.caseId, ownedCase.id),\n          eq(schema.findings.ownerEmail, userEmail),\n        ),\n      )\n      .limit(1);\n    if (!finding) throw new Error(\"Finding not found.\");\n\n    const citationRows",
+      "tokens": 164,
+      "firstFile": {
+        "name": "actions/explain-finding.ts",
+        "start": 34,
+        "end": 51,
+        "startLoc": {
+          "line": 34,
+          "column": 22,
+          "position": 231
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 23,
+          "position": 395
+        }
+      },
+      "secondFile": {
+        "name": "actions/update-finding.ts",
+        "start": 71,
+        "end": 88,
+        "startLoc": {
+          "line": 71,
+          "column": 44,
+          "position": 561
+        },
+        "endLoc": {
+          "line": 88,
+          "column": 18,
+          "position": 725
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "),\n  }),\n  http: { method: \"POST\" },\n  run: async (args, ctx) => {\n    const { userEmail, actor, caller, runId } = casefileContext(ctx);\n    await requireOwnedCase(args.caseId, userEmail);\n    const row = await requireOwnedEvidence(args.evidenceId, userEmail, args.caseId);\n    const db = getDb();\n\n    await",
+      "tokens": 118,
+      "firstFile": {
+        "name": "actions/categorize-evidence.ts",
+        "start": 17,
+        "end": 26,
+        "startLoc": {
+          "line": 17,
+          "column": 71,
+          "position": 197
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 10,
+          "position": 315
+        }
+      },
+      "secondFile": {
+        "name": "actions/classify-evidence.ts",
+        "start": 33,
+        "end": 42,
+        "startLoc": {
+          "line": 33,
+          "column": 76,
+          "position": 238
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 7,
+          "position": 356
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    const db = getDb();\n\n    const rows = await db\n      .select()\n      .from(schema.findings)\n      .where(and(eq(schema.findings.caseId, ownedCase.id), eq(schema.findings.kind, \"event\")));",
+      "tokens": 156,
+      "firstFile": {
+        "name": "actions/build-timeline.ts",
+        "start": 39,
+        "end": 51,
+        "startLoc": {
+          "line": 39,
+          "column": 54,
+          "position": 234
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 96,
+          "position": 390
+        }
+      },
+      "secondFile": {
+        "name": "actions/list-evidence.ts",
+        "start": 14,
+        "end": 43,
+        "startLoc": {
+          "line": 14,
+          "column": 74,
+          "position": 149
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 1,
+          "position": 355
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": "));\n\n    const citations = await db\n      .select()\n      .from(schema.findingCitations)\n      .where(eq(schema.findingCitations.caseId, ownedCase.id));\n    const byFinding = new Map<string, typeof citations>();\n    for (const citation of citations) {\n      const list = byFinding.get(citation.findingId) ?? [];\n      list.push(citation);\n      byFinding.set(citation.findingId, list);\n    }\n\n    const events = rows\n      .filter((row) => args",
+      "tokens": 157,
+      "firstFile": {
+        "name": "actions/build-timeline.ts",
+        "start": 51,
+        "end": 65,
+        "startLoc": {
+          "line": 51,
+          "column": 93,
+          "position": 388
+        },
+        "endLoc": {
+          "line": 65,
+          "column": 28,
+          "position": 545
+        }
+      },
+      "secondFile": {
+        "name": "actions/extract-events.ts",
+        "start": 43,
+        "end": 57,
+        "startLoc": {
+          "line": 43,
+          "column": 46,
+          "position": 367
+        },
+        "endLoc": {
+          "line": 57,
+          "column": 25,
+          "position": 524
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    const db = getDb();\n\n    const evidenceRows = await db\n      .select({ ",
+      "tokens": 112,
+      "firstFile": {
+        "name": "actions/assess-readiness.ts",
+        "start": 25,
+        "end": 35,
+        "startLoc": {
+          "line": 25,
+          "column": 61,
+          "position": 179
+        },
+        "endLoc": {
+          "line": 35,
+          "column": 17,
+          "position": 291
+        }
+      },
+      "secondFile": {
+        "name": "actions/get-investigation-status.ts",
+        "start": 22,
+        "end": 33,
+        "startLoc": {
+          "line": 22,
+          "column": 64,
+          "position": 148
+        },
+        "endLoc": {
+          "line": 33,
+          "column": 1,
+          "position": 260
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "[row.status] = Number(row.total);\n\n    const findingRows = await db\n      .select({\n        kind: schema.findings.kind,\n        reviewStatus: schema.findings.reviewStatus,\n        total: count(),\n      })\n      .from(schema.findings)\n      .where(eq(schema.findings.caseId, ownedCase.id))\n      .groupBy(schema.findings.kind, schema.findings.reviewStatus);\n\n    let",
+      "tokens": 118,
+      "firstFile": {
+        "name": "actions/assess-readiness.ts",
+        "start": 45,
+        "end": 57,
+        "startLoc": {
+          "line": 45,
+          "column": 45,
+          "position": 413
+        },
+        "endLoc": {
+          "line": 57,
+          "column": 8,
+          "position": 531
+        }
+      },
+      "secondFile": {
+        "name": "actions/get-investigation-status.ts",
+        "start": 40,
+        "end": 52,
+        "startLoc": {
+          "line": 40,
+          "column": 53,
+          "position": 359
+        },
+        "endLoc": {
+          "line": 52,
+          "column": 10,
+          "position": 477
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": " } from \"@agent-native/core/action\";\nimport { and, eq } from \"drizzle-orm\";\nimport { z } from \"zod\";\n\nimport { recordAudit, requireOwnedCase } from \"../server/casefile/access.js\";\nimport { casefileContext } from \"../server/casefile/context.js\";\nimport { touchCase } from \"../server/casefile/case-queries.js\";\nimport { getDb } from \"../server/db/index.js\";\nimport * as schema from \"../server/db/schema.js\";\nimport",
+      "tokens": 106,
+      "firstFile": {
+        "name": "actions/analyze-evidence.ts",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 28,
+          "position": 8
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 7,
+          "position": 114
+        }
+      },
+      "secondFile": {
+        "name": "actions/archive-case.ts",
+        "start": 1,
+        "end": 11,
+        "startLoc": {
+          "line": 1,
+          "column": 22,
+          "position": 5
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 1,
+          "position": 111
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "),\n  }),\n  http: { method: \"GET\" },\n  readOnly: true,\n  run: async (args, ctx) => {\n    const { userEmail } = casefileContext(ctx);\n    const ownedCase = await requireOwnedCase(args.caseId, userEmail);\n    const db = getDb();\n\n    const rows = await db\n      .select({\n        passageId",
+      "tokens": 114,
+      "firstFile": {
+        "name": "actions/analyse-documents.ts",
+        "start": 33,
+        "end": 44,
+        "startLoc": {
+          "line": 33,
+          "column": 73,
+          "position": 201
+        },
+        "endLoc": {
+          "line": 44,
+          "column": 18,
+          "position": 315
+        }
+      },
+      "secondFile": {
+        "name": "actions/list-evidence.ts",
+        "start": 14,
+        "end": 41,
+        "startLoc": {
+          "line": 14,
+          "column": 74,
+          "position": 149
+        },
+        "endLoc": {
+          "line": 41,
+          "column": 11,
+          "position": 306
+        }
+      }
+    }
+  ]
+}

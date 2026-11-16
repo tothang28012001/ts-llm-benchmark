@@ -1,0 +1,130 @@
+{
+  "repo_id": "A05",
+  "group": "llm",
+  "full_name": "stacktora/parts-ledger-demo",
+  "stars": "0",
+  "created_at": "2026-09-06",
+  "pin": "7bd196556d66141414061ced24919f6d271a4d2d",
+  "fetch": {
+    "sha": "7bd196556d66141414061ced24919f6d271a4d2d",
+    "commit_date": "2026-09-05T20:39:06-06:00",
+    "first_commit_date": "2025-11-13T20:37:49-07:00",
+    "commits_to_pin": 729,
+    "ai_commits_to_pin": 448,
+    "ai_commit_share": 0.6145,
+    "ai_agents": [
+      "aider",
+      "claude-code",
+      "codex",
+      "copilot",
+      "cursor",
+      "devin"
+    ]
+  },
+  "inventory": {
+    "prod_files": 14,
+    "test_files": 4,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 14,
+      "lines": 709,
+      "code": 652,
+      "comment": 0,
+      "blank": 57
+    },
+    "test": {
+      "files": 4,
+      "lines": 229,
+      "code": 216,
+      "comment": 0,
+      "blank": 13
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 0,
+        "seconds": 17.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 525,
+        "seconds": 1.804
+      }
+    ],
+    "errors_total": 525,
+    "errors_in_project_files": 525,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS1005": 350,
+      "TS1128": 175
+    },
+    "files_with_errors": 1,
+    "timed_out": false,
+    "project_files_checked": 15
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 1.1
+  },
+  "mutation": {
+    "sample_files": [
+      "src/services/pricing.ts",
+      "src/services/ledger.ts",
+      "src/lib/codes.ts",
+      "src/routes/orders.ts",
+      "src/routes/health.ts",
+      "src/db/pool.ts",
+      "src/lib/logger.ts",
+      "src/routes/parts.ts",
+      "src/catalog/skus.ts"
+    ],
+    "sample_lines": 434,
+    "framework_versions": {
+      "vitest": "2.1.9",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": null,
+    "status": "failed",
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 1,
+        "seconds": 1.198,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 1.182,
+        "timed_out": false
+      }
+    ]
+  }
+}

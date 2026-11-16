@@ -1,0 +1,22 @@
+
+> my-butlr@0.0.0 test
+> vitest
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.9 [39m[90m/work[39m
+
+ [32m✓[39m src/lib/__tests__/ical.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/authContext.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 365[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/useSupabase.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 408[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/apa.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/contractLegalLoop.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 41[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/useContractTemplates.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 251[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/roleContext.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 54[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/searchContext.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/utils.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m9 passed[39m[22m[90m (9)[39m
+[2m      Tests [22m [1m[32m60 passed[39m[22m[90m (60)[39m
+[2m   Start at [22m 08:44:56
+[2m   Duration [22m 4.59s[2m (transform 631ms, setup 616ms, import 1.39s, tests 1.18s, environment 7.58s)[22m
+

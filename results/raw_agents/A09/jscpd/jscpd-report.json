@@ -1,0 +1,5737 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T08:44:19.822Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "supabase/functions/send-push/index.ts": {
+            "lines": 85,
+            "tokens": 836,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "supabase/functions/send-contract-email/index.ts": {
+            "lines": 172,
+            "tokens": 1585,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/utils.ts": {
+            "lines": 7,
+            "tokens": 59,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/useRoleFilter.ts": {
+            "lines": 384,
+            "tokens": 3428,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/useContractTemplates.ts": {
+            "lines": 76,
+            "tokens": 787,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/supabase.ts": {
+            "lines": 7,
+            "tokens": 65,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/storage.ts": {
+            "lines": 63,
+            "tokens": 730,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/signatureCertificate.ts": {
+            "lines": 84,
+            "tokens": 736,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/sendContractEmail.ts": {
+            "lines": 38,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/registerSW.ts": {
+            "lines": 14,
+            "tokens": 113,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/push.ts": {
+            "lines": 88,
+            "tokens": 929,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/offline.ts": {
+            "lines": 163,
+            "tokens": 1583,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/importExport.ts": {
+            "lines": 166,
+            "tokens": 1652,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/ical.ts": {
+            "lines": 291,
+            "tokens": 2519,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/cryptoHash.ts": {
+            "lines": 16,
+            "tokens": 183,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/contractPdf.ts": {
+            "lines": 566,
+            "tokens": 5855,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/apa.ts": {
+            "lines": 84,
+            "tokens": 752,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/ai/useAiAssistant.ts": {
+            "lines": 34,
+            "tokens": 375,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/ai/aiService.ts": {
+            "lines": 355,
+            "tokens": 2798,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/i18n/index.ts": {
+            "lines": 29,
+            "tokens": 193,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/mockData.ts": {
+            "lines": 162,
+            "tokens": 2833,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/defaultContractTemplate.ts": {
+            "lines": 272,
+            "tokens": 1523,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/amenities.ts": {
+            "lines": 272,
+            "tokens": 3916,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3428,
+          "tokens": 33725,
+          "sources": 23,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/pages/mobile/partner/PartnerUnlinked.tsx": {
+            "lines": 24,
+            "tokens": 245,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerServices.tsx": {
+            "lines": 147,
+            "tokens": 1319,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerProfile.tsx": {
+            "lines": 167,
+            "tokens": 1628,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerLayout.tsx": {
+            "lines": 16,
+            "tokens": 213,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerEarnings.tsx": {
+            "lines": 172,
+            "tokens": 1941,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 166,
+            "percentage": 5.23,
+            "percentageTokens": 8.55,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerDashboard.tsx": {
+            "lines": 199,
+            "tokens": 2230,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 166,
+            "percentage": 4.52,
+            "percentageTokens": 7.44,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerBookings.tsx": {
+            "lines": 118,
+            "tokens": 1267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmToday.tsx": {
+            "lines": 165,
+            "tokens": 2143,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 210,
+            "percentage": 7.27,
+            "percentageTokens": 9.8,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmTasks.tsx": {
+            "lines": 163,
+            "tokens": 1897,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmProfile.tsx": {
+            "lines": 170,
+            "tokens": 1601,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmNotifications.tsx": {
+            "lines": 71,
+            "tokens": 685,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmLayout.tsx": {
+            "lines": 60,
+            "tokens": 693,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmIncidents.tsx": {
+            "lines": 356,
+            "tokens": 3938,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestStays.tsx": {
+            "lines": 169,
+            "tokens": 1535,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 102,
+            "percentage": 6.51,
+            "percentageTokens": 6.64,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestServices.tsx": {
+            "lines": 252,
+            "tokens": 2685,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 173,
+            "percentage": 3.17,
+            "percentageTokens": 6.44,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestProfile.tsx": {
+            "lines": 158,
+            "tokens": 1640,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestMessages.tsx": {
+            "lines": 84,
+            "tokens": 844,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 19,
+            "duplicatedTokens": 275,
+            "percentage": 22.62,
+            "percentageTokens": 32.58,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestLayout.tsx": {
+            "lines": 17,
+            "tokens": 233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestGuides.tsx": {
+            "lines": 157,
+            "tokens": 1430,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 113,
+            "percentage": 11.46,
+            "percentageTokens": 7.9,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestExplore.tsx": {
+            "lines": 319,
+            "tokens": 3419,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 101,
+            "percentage": 2.51,
+            "percentageTokens": 2.95,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/WorkOrders.tsx": {
+            "lines": 344,
+            "tokens": 4230,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 66,
+            "duplicatedTokens": 727,
+            "percentage": 19.19,
+            "percentageTokens": 17.19,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/TimeClock.tsx": {
+            "lines": 207,
+            "tokens": 2705,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/TeamPlanning.tsx": {
+            "lines": 367,
+            "tokens": 4458,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 37,
+            "duplicatedTokens": 443,
+            "percentage": 10.08,
+            "percentageTokens": 9.94,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Tasks.tsx": {
+            "lines": 972,
+            "tokens": 11400,
+            "sources": 1,
+            "clones": 9,
+            "duplicatedLines": 129,
+            "duplicatedTokens": 1478,
+            "percentage": 13.27,
+            "percentageTokens": 12.96,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Settings.tsx": {
+            "lines": 777,
+            "tokens": 10040,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Services.tsx": {
+            "lines": 266,
+            "tokens": 3162,
+            "sources": 1,
+            "clones": 23,
+            "duplicatedLines": 238,
+            "duplicatedTokens": 3465,
+            "percentage": 89.47,
+            "percentageTokens": 109.58,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ServiceRequests.tsx": {
+            "lines": 261,
+            "tokens": 3017,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ServiceProviders.tsx": {
+            "lines": 446,
+            "tokens": 5804,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 47,
+            "duplicatedTokens": 588,
+            "percentage": 10.54,
+            "percentageTokens": 10.13,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/SearchResults.tsx": {
+            "lines": 193,
+            "tokens": 2367,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Reservations.tsx": {
+            "lines": 412,
+            "tokens": 5595,
+            "sources": 1,
+            "clones": 8,
+            "duplicatedLines": 84,
+            "duplicatedTokens": 1156,
+            "percentage": 20.39,
+            "percentageTokens": 20.66,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ReportsOperations.tsx": {
+            "lines": 274,
+            "tokens": 4163,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 223,
+            "percentage": 7.3,
+            "percentageTokens": 5.36,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Reports.tsx": {
+            "lines": 362,
+            "tokens": 4788,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 223,
+            "percentage": 5.52,
+            "percentageTokens": 4.66,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ProviderRatings.tsx": {
+            "lines": 228,
+            "tokens": 2779,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/PropertyDetail.tsx": {
+            "lines": 654,
+            "tokens": 6961,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Properties.tsx": {
+            "lines": 360,
+            "tokens": 4658,
+            "sources": 1,
+            "clones": 8,
+            "duplicatedLines": 94,
+            "duplicatedTokens": 1272,
+            "percentage": 26.11,
+            "percentageTokens": 27.31,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Payments.tsx": {
+            "lines": 406,
+            "tokens": 4991,
+            "sources": 1,
+            "clones": 14,
+            "duplicatedLines": 205,
+            "duplicatedTokens": 2481,
+            "percentage": 50.49,
+            "percentageTokens": 49.71,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Partners.tsx": {
+            "lines": 338,
+            "tokens": 4313,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 98,
+            "duplicatedTokens": 1212,
+            "percentage": 28.99,
+            "percentageTokens": 28.1,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Onboarding.tsx": {
+            "lines": 966,
+            "tokens": 10528,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/NotificationsPage.tsx": {
+            "lines": 120,
+            "tokens": 1223,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 28,
+            "duplicatedTokens": 188,
+            "percentage": 23.33,
+            "percentageTokens": 15.37,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Messages.tsx": {
+            "lines": 171,
+            "tokens": 1659,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 31,
+            "duplicatedTokens": 294,
+            "percentage": 18.13,
+            "percentageTokens": 17.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Maintenance.tsx": {
+            "lines": 317,
+            "tokens": 3829,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 212,
+            "percentage": 5.68,
+            "percentageTokens": 5.54,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Invoices.tsx": {
+            "lines": 404,
+            "tokens": 4795,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 68,
+            "duplicatedTokens": 672,
+            "percentage": 16.83,
+            "percentageTokens": 14.01,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/InvoiceGenerator.tsx": {
+            "lines": 438,
+            "tokens": 4795,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Inventory.tsx": {
+            "lines": 382,
+            "tokens": 4501,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 49,
+            "duplicatedTokens": 563,
+            "percentage": 12.83,
+            "percentageTokens": 12.51,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Inspections.tsx": {
+            "lines": 263,
+            "tokens": 2931,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 44,
+            "duplicatedTokens": 344,
+            "percentage": 16.73,
+            "percentageTokens": 11.74,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/InspectionDetail.tsx": {
+            "lines": 675,
+            "tokens": 6938,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Incidents.tsx": {
+            "lines": 352,
+            "tokens": 4334,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 70,
+            "duplicatedTokens": 766,
+            "percentage": 19.89,
+            "percentageTokens": 17.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Guides.tsx": {
+            "lines": 313,
+            "tokens": 3662,
+            "sources": 1,
+            "clones": 7,
+            "duplicatedLines": 90,
+            "duplicatedTokens": 983,
+            "percentage": 28.75,
+            "percentageTokens": 26.84,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/GuestPortal.tsx": {
+            "lines": 479,
+            "tokens": 5255,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 258,
+            "percentage": 3.55,
+            "percentageTokens": 4.91,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Expenses.tsx": {
+            "lines": 348,
+            "tokens": 4013,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 37,
+            "duplicatedTokens": 425,
+            "percentage": 10.63,
+            "percentageTokens": 10.59,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Documents.tsx": {
+            "lines": 238,
+            "tokens": 2766,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 115,
+            "percentage": 3.78,
+            "percentageTokens": 4.16,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/DaySheet.tsx": {
+            "lines": 260,
+            "tokens": 3504,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Dashboard.tsx": {
+            "lines": 523,
+            "tokens": 7713,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Contracts.tsx": {
+            "lines": 565,
+            "tokens": 6278,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 82,
+            "duplicatedTokens": 1098,
+            "percentage": 14.51,
+            "percentageTokens": 17.49,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ConciergePortal.tsx": {
+            "lines": 655,
+            "tokens": 7134,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 270,
+            "percentage": 3.05,
+            "percentageTokens": 3.78,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/CalendarPage.tsx": {
+            "lines": 582,
+            "tokens": 7198,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Budgets.tsx": {
+            "lines": 182,
+            "tokens": 2263,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Apa.tsx": {
+            "lines": 301,
+            "tokens": 4138,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Activity.tsx": {
+            "lines": 162,
+            "tokens": 1866,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Terms.tsx": {
+            "lines": 111,
+            "tokens": 1294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Signup.tsx": {
+            "lines": 122,
+            "tokens": 1256,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/ResetPassword.tsx": {
+            "lines": 69,
+            "tokens": 652,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 102,
+            "percentage": 14.49,
+            "percentageTokens": 15.64,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/PrivacyPolicy.tsx": {
+            "lines": 100,
+            "tokens": 1162,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/NotFound.tsx": {
+            "lines": 25,
+            "tokens": 242,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Login.tsx": {
+            "lines": 78,
+            "tokens": 812,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 102,
+            "percentage": 12.82,
+            "percentageTokens": 12.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Landing.tsx": {
+            "lines": 613,
+            "tokens": 7395,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/ForgotPassword.tsx": {
+            "lines": 74,
+            "tokens": 737,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/EarlyAccess.tsx": {
+            "lines": 76,
+            "tokens": 768,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/ContractSigning.tsx": {
+            "lines": 301,
+            "tokens": 2999,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 26,
+            "duplicatedTokens": 208,
+            "percentage": 8.64,
+            "percentageTokens": 6.94,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/searchContext.tsx": {
+            "lines": 117,
+            "tokens": 1089,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/roleContext.tsx": {
+            "lines": 90,
+            "tokens": 873,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/authContext.tsx": {
+            "lines": 74,
+            "tokens": 881,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/i18n/LanguageContext.tsx": {
+            "lines": 69,
+            "tokens": 685,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Toast.tsx": {
+            "lines": 78,
+            "tokens": 790,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Skeleton.tsx": {
+            "lines": 41,
+            "tokens": 495,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Select.tsx": {
+            "lines": 32,
+            "tokens": 257,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Modal.tsx": {
+            "lines": 47,
+            "tokens": 382,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/MetricCard.tsx": {
+            "lines": 54,
+            "tokens": 528,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Input.tsx": {
+            "lines": 31,
+            "tokens": 227,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/ImageUpload.tsx": {
+            "lines": 165,
+            "tokens": 1564,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/ConfirmModal.tsx": {
+            "lines": 44,
+            "tokens": 363,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Card.tsx": {
+            "lines": 35,
+            "tokens": 356,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Button.tsx": {
+            "lines": 34,
+            "tokens": 270,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Badge.tsx": {
+            "lines": 41,
+            "tokens": 303,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/mobile/MobileLayout.tsx": {
+            "lines": 19,
+            "tokens": 163,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/mobile/BottomNav.tsx": {
+            "lines": 61,
+            "tokens": 441,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Topbar.tsx": {
+            "lines": 237,
+            "tokens": 2359,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 41,
+            "duplicatedTokens": 352,
+            "percentage": 17.3,
+            "percentageTokens": 14.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Sidebar.tsx": {
+            "lines": 203,
+            "tokens": 2648,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/BottomNav.tsx": {
+            "lines": 50,
+            "tokens": 495,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/AppLayout.tsx": {
+            "lines": 51,
+            "tokens": 472,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/VoiceRecorder.tsx": {
+            "lines": 118,
+            "tokens": 1194,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/ServicePicker.tsx": {
+            "lines": 79,
+            "tokens": 768,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/ServiceCard.tsx": {
+            "lines": 42,
+            "tokens": 365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/MessageBubble.tsx": {
+            "lines": 172,
+            "tokens": 1583,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 130,
+            "percentage": 10.47,
+            "percentageTokens": 8.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/ChatImageUpload.tsx": {
+            "lines": 92,
+            "tokens": 791,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/charts/Charts.tsx": {
+            "lines": 163,
+            "tokens": 2111,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiTaskSuggestions.tsx": {
+            "lines": 102,
+            "tokens": 1091,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiReplySuggestions.tsx": {
+            "lines": 68,
+            "tokens": 596,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiInsightsWidget.tsx": {
+            "lines": 113,
+            "tokens": 1051,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiAssistantPanel.tsx": {
+            "lines": 180,
+            "tokens": 1525,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SignatureCanvas.tsx": {
+            "lines": 117,
+            "tokens": 1181,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ProtectedRoute.tsx": {
+            "lines": 36,
+            "tokens": 301,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/InstallPrompt.tsx": {
+            "lines": 110,
+            "tokens": 993,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/IcalSyncModal.tsx": {
+            "lines": 272,
+            "tokens": 2700,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HelpTooltip.tsx": {
+            "lines": 92,
+            "tokens": 686,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FilterSidebar.tsx": {
+            "lines": 281,
+            "tokens": 2780,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ExportButton.tsx": {
+            "lines": 42,
+            "tokens": 400,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ErrorBoundary.tsx": {
+            "lines": 41,
+            "tokens": 338,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CsvImportModal.tsx": {
+            "lines": 232,
+            "tokens": 2538,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CookieConsent.tsx": {
+            "lines": 47,
+            "tokens": 419,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CheckInForm.tsx": {
+            "lines": 285,
+            "tokens": 3112,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ChatThread.tsx": {
+            "lines": 236,
+            "tokens": 2134,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 15,
+            "tokens": 90,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 192,
+            "tokens": 2640,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 24816,
+          "tokens": 282685,
+          "sources": 114,
+          "clones": 72,
+          "duplicatedLines": 900,
+          "duplicatedTokens": 10828,
+          "percentage": 3.63,
+          "percentageTokens": 3.83,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/pages/mobile/partner/PartnerServices.tsx": {
+            "lines": 34,
+            "tokens": 298,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerProfile.tsx": {
+            "lines": 94,
+            "tokens": 922,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerLayout.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerEarnings.tsx": {
+            "lines": 72,
+            "tokens": 765,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerDashboard.tsx": {
+            "lines": 69,
+            "tokens": 763,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/partner/PartnerBookings.tsx": {
+            "lines": 38,
+            "tokens": 343,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmToday.tsx": {
+            "lines": 56,
+            "tokens": 696,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmTasks.tsx": {
+            "lines": 49,
+            "tokens": 603,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmProfile.tsx": {
+            "lines": 71,
+            "tokens": 634,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmNotifications.tsx": {
+            "lines": 27,
+            "tokens": 225,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmLayout.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/hm/HmIncidents.tsx": {
+            "lines": 180,
+            "tokens": 1928,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestStays.tsx": {
+            "lines": 63,
+            "tokens": 481,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestServices.tsx": {
+            "lines": 129,
+            "tokens": 1225,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestProfile.tsx": {
+            "lines": 92,
+            "tokens": 905,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestMessages.tsx": {
+            "lines": 6,
+            "tokens": 43,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestLayout.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestGuides.tsx": {
+            "lines": 72,
+            "tokens": 648,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/mobile/guest/GuestExplore.tsx": {
+            "lines": 220,
+            "tokens": 2222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/WorkOrders.tsx": {
+            "lines": 186,
+            "tokens": 2205,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/TimeClock.tsx": {
+            "lines": 47,
+            "tokens": 534,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/TeamPlanning.tsx": {
+            "lines": 186,
+            "tokens": 2232,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Tasks.tsx": {
+            "lines": 854,
+            "tokens": 10036,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Settings.tsx": {
+            "lines": 738,
+            "tokens": 9601,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Services.tsx": {
+            "lines": 128,
+            "tokens": 1716,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ServiceRequests.tsx": {
+            "lines": 115,
+            "tokens": 1366,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ServiceProviders.tsx": {
+            "lines": 217,
+            "tokens": 3401,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 480,
+            "percentage": 17.97,
+            "percentageTokens": 14.11,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/SearchResults.tsx": {
+            "lines": 93,
+            "tokens": 1194,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Reservations.tsx": {
+            "lines": 264,
+            "tokens": 3674,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 213,
+            "duplicatedTokens": 2494,
+            "percentage": 80.68,
+            "percentageTokens": 67.88,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ReportsOperations.tsx": {
+            "lines": 58,
+            "tokens": 782,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Reports.tsx": {
+            "lines": 158,
+            "tokens": 1753,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ProviderRatings.tsx": {
+            "lines": 198,
+            "tokens": 2483,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/PropertyDetail.tsx": {
+            "lines": 429,
+            "tokens": 4373,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Properties.tsx": {
+            "lines": 175,
+            "tokens": 2421,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Payments.tsx": {
+            "lines": 229,
+            "tokens": 2768,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Partners.tsx": {
+            "lines": 181,
+            "tokens": 2539,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 480,
+            "percentage": 21.55,
+            "percentageTokens": 18.91,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Onboarding.tsx": {
+            "lines": 601,
+            "tokens": 6394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/NotificationsPage.tsx": {
+            "lines": 28,
+            "tokens": 338,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Messages.tsx": {
+            "lines": 61,
+            "tokens": 547,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Maintenance.tsx": {
+            "lines": 144,
+            "tokens": 1718,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Invoices.tsx": {
+            "lines": 231,
+            "tokens": 2724,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/InvoiceGenerator.tsx": {
+            "lines": 160,
+            "tokens": 1402,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Inventory.tsx": {
+            "lines": 219,
+            "tokens": 2581,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Inspections.tsx": {
+            "lines": 150,
+            "tokens": 1681,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/InspectionDetail.tsx": {
+            "lines": 583,
+            "tokens": 5941,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Incidents.tsx": {
+            "lines": 193,
+            "tokens": 2407,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Guides.tsx": {
+            "lines": 136,
+            "tokens": 1759,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/GuestPortal.tsx": {
+            "lines": 369,
+            "tokens": 3842,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Expenses.tsx": {
+            "lines": 191,
+            "tokens": 2163,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Documents.tsx": {
+            "lines": 117,
+            "tokens": 1343,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/DaySheet.tsx": {
+            "lines": 135,
+            "tokens": 1681,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Dashboard.tsx": {
+            "lines": 446,
+            "tokens": 6581,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Contracts.tsx": {
+            "lines": 305,
+            "tokens": 3446,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/ConciergePortal.tsx": {
+            "lines": 529,
+            "tokens": 5772,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/CalendarPage.tsx": {
+            "lines": 322,
+            "tokens": 3837,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Budgets.tsx": {
+            "lines": 65,
+            "tokens": 851,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Apa.tsx": {
+            "lines": 135,
+            "tokens": 1938,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/app/Activity.tsx": {
+            "lines": 47,
+            "tokens": 521,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Signup.tsx": {
+            "lines": 49,
+            "tokens": 502,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/ResetPassword.tsx": {
+            "lines": 7,
+            "tokens": 131,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Login.tsx": {
+            "lines": 7,
+            "tokens": 131,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Landing.tsx": {
+            "lines": 480,
+            "tokens": 5700,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/ForgotPassword.tsx": {
+            "lines": 6,
+            "tokens": 99,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/EarlyAccess.tsx": {
+            "lines": 21,
+            "tokens": 278,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/ContractSigning.tsx": {
+            "lines": 130,
+            "tokens": 1274,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/searchContext.tsx": {
+            "lines": 4,
+            "tokens": 25,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/roleContext.tsx": {
+            "lines": 1,
+            "tokens": 13,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/authContext.tsx": {
+            "lines": 1,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/i18n/LanguageContext.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Toast.tsx": {
+            "lines": 36,
+            "tokens": 379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Skeleton.tsx": {
+            "lines": 27,
+            "tokens": 386,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Select.tsx": {
+            "lines": 10,
+            "tokens": 57,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Modal.tsx": {
+            "lines": 9,
+            "tokens": 68,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/MetricCard.tsx": {
+            "lines": 17,
+            "tokens": 185,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Input.tsx": {
+            "lines": 8,
+            "tokens": 30,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/ImageUpload.tsx": {
+            "lines": 87,
+            "tokens": 849,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/ConfirmModal.tsx": {
+            "lines": 12,
+            "tokens": 159,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Card.tsx": {
+            "lines": 25,
+            "tokens": 260,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Button.tsx": {
+            "lines": 14,
+            "tokens": 96,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/Badge.tsx": {
+            "lines": 23,
+            "tokens": 161,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/mobile/MobileLayout.tsx": {
+            "lines": 5,
+            "tokens": 57,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/mobile/BottomNav.tsx": {
+            "lines": 25,
+            "tokens": 163,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Topbar.tsx": {
+            "lines": 141,
+            "tokens": 1336,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Sidebar.tsx": {
+            "lines": 99,
+            "tokens": 840,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/BottomNav.tsx": {
+            "lines": 14,
+            "tokens": 105,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/AppLayout.tsx": {
+            "lines": 8,
+            "tokens": 117,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/VoiceRecorder.tsx": {
+            "lines": 14,
+            "tokens": 67,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/ServicePicker.tsx": {
+            "lines": 52,
+            "tokens": 512,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/ServiceCard.tsx": {
+            "lines": 6,
+            "tokens": 57,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/MessageBubble.tsx": {
+            "lines": 92,
+            "tokens": 855,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/chat/ChatImageUpload.tsx": {
+            "lines": 29,
+            "tokens": 237,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/charts/Charts.tsx": {
+            "lines": 131,
+            "tokens": 1797,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiTaskSuggestions.tsx": {
+            "lines": 24,
+            "tokens": 254,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiReplySuggestions.tsx": {
+            "lines": 5,
+            "tokens": 26,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiInsightsWidget.tsx": {
+            "lines": 36,
+            "tokens": 368,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ai/AiAssistantPanel.tsx": {
+            "lines": 134,
+            "tokens": 1046,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SignatureCanvas.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ProtectedRoute.tsx": {
+            "lines": 1,
+            "tokens": 6,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/InstallPrompt.tsx": {
+            "lines": 8,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/IcalSyncModal.tsx": {
+            "lines": 101,
+            "tokens": 1012,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HelpTooltip.tsx": {
+            "lines": 24,
+            "tokens": 189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FilterSidebar.tsx": {
+            "lines": 230,
+            "tokens": 2270,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ExportButton.tsx": {
+            "lines": 1,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CsvImportModal.tsx": {
+            "lines": 118,
+            "tokens": 1322,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CookieConsent.tsx": {
+            "lines": 4,
+            "tokens": 34,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CheckInForm.tsx": {
+            "lines": 210,
+            "tokens": 2306,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 83,
+            "duplicatedTokens": 900,
+            "percentage": 39.52,
+            "percentageTokens": 39.03,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ChatThread.tsx": {
+            "lines": 80,
+            "tokens": 702,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 87,
+            "tokens": 1540,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 13353,
+          "tokens": 153367,
+          "sources": 108,
+          "clones": 3,
+          "duplicatedLines": 187,
+          "duplicatedTokens": 2177,
+          "percentage": 1.4,
+          "percentageTokens": 1.42,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "css": {
+        "sources": {
+          "src/pages/app/DaySheet.tsx": {
+            "lines": 1,
+            "tokens": 52,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1,
+          "tokens": 52,
+          "sources": 1,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 41598,
+      "tokens": 469829,
+      "sources": 246,
+      "clones": 75,
+      "duplicatedLines": 1087,
+      "duplicatedTokens": 13005,
+      "percentage": 2.61,
+      "percentageTokens": 2.77,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "]\n  const currentMonth = new Date().getMonth()\n  const currentYear = new Date().getFullYear()\n  const monthlyRevenue = months.map((_, idx) => {\n    return payments.filter(p => { const d = new Date(p.date); return d.getFullYear() === currentYear && d.getMonth() === idx })\n      .reduce((sum, p) => sum + Number(p.amount), 0)\n  })\n  const maxMonthly = Math.max(...monthlyRevenue, 1)\n\n  return",
+      "tokens": 166,
+      "firstFile": {
+        "name": "src/pages/mobile/partner/PartnerDashboard.tsx",
+        "start": 33,
+        "end": 42,
+        "startLoc": {
+          "line": 33,
+          "column": 77,
+          "position": 439
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 9,
+          "position": 605
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/mobile/partner/PartnerEarnings.tsx",
+        "start": 27,
+        "end": 36,
+        "startLoc": {
+          "line": 27,
+          "column": 101,
+          "position": 355
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 8,
+          "position": 521
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 7,
+      "fragment": "\" />\n                </div>\n                <div className=\"flex-1 min-w-0\">\n                  <p className=\"text-sm font-semibold text-gray-900 truncate\">{r.guest_name}</p>\n                  <p className=\"text-[11px] text-gray-500\">{propertyName(r.property_id)} &middot; {r.guests_count} {r.guests_count > 1 ? t('hm.guests') : t('hm.guest')}</p>\n                </div>\n                <span className=\"text-[9px] font-bold uppercase tracking-wider text-orange-600",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/pages/mobile/hm/HmToday.tsx",
+        "start": 121,
+        "end": 127,
+        "startLoc": {
+          "line": 121,
+          "column": 61,
+          "position": 1609
+        },
+        "endLoc": {
+          "line": 127,
+          "column": 95,
+          "position": 1714
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/mobile/hm/HmToday.tsx",
+        "start": 98,
+        "end": 104,
+        "startLoc": {
+          "line": 98,
+          "column": 61,
+          "position": 1329
+        },
+        "endLoc": {
+          "line": 104,
+          "column": 96,
+          "position": 1434
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 12,
+      "fragment": ")\n\n  if (loading) {\n    return (\n      <div className=\"flex items-center justify-center h-screen bg-white\">\n        <Loader2 className=\"w-8 h-8 animate-spin text-amber-600\" />\n      </div>\n    )\n  }\n\n  const today = new Date().toISOString().split('T')[0]\n  const guestReservations = reservations.filter(r => r.guest_email === user?.email ",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/pages/mobile/guest/GuestMessages.tsx",
+        "start": 8,
+        "end": 19,
+        "startLoc": {
+          "line": 8,
+          "column": 28,
+          "position": 99
+        },
+        "endLoc": {
+          "line": 19,
+          "column": 84,
+          "position": 201
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/mobile/guest/GuestStays.tsx",
+        "start": 9,
+        "end": 20,
+        "startLoc": {
+          "line": 9,
+          "column": 65,
+          "position": 129
+        },
+        "endLoc": {
+          "line": 20,
+          "column": 84,
+          "position": 231
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "\n\n  const today = new Date().toISOString().split('T')[0]\n  const guestReservations = reservations.filter(r => r.guest_email === user?.email && r.status !== 'cancelled')\n  const currentReservation = guestReservations.find(r =>\n    r.arrival <= today && r.departure >= today && (r.status === 'confirmed' || r.status === 'in_progress')\n  ) ?? guestReservations.sort((a, b) => new Date(b.arrival).getTime() - new Date(a.arrival).getTime())[0]\n\n  if",
+      "tokens": 173,
+      "firstFile": {
+        "name": "src/pages/mobile/guest/GuestMessages.tsx",
+        "start": 16,
+        "end": 24,
+        "startLoc": {
+          "line": 16,
+          "column": 4,
+          "position": 149
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 5,
+          "position": 322
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/mobile/guest/GuestServices.tsx",
+        "start": 28,
+        "end": 36,
+        "startLoc": {
+          "line": 28,
+          "column": 46,
+          "position": 353
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 8,
+          "position": 526
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": " useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useToast } from '@/components/ui/Toast'\nimport { useShifts",
+      "tokens": 109,
+      "firstFile": {
+        "name": "src/pages/app/TeamPlanning.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 18,
+          "position": 6
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 19,
+          "position": 115
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/WorkOrders.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 9,
+          "position": 3
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 112
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": ">\n                <button onClick={() => openEdit(tpl)} className=\"text-muted-foreground hover:text-foreground transition-colors\">\n                  <Pencil className=\"w-3 h-3\" />\n                </button>\n                <button onClick={() => deleteTemplate(tpl)} className=\"text-muted-foreground hover:text-destructive transition-colors\">\n                  <Trash2 className=\"w-3 h-3\" />\n                </button>\n              </div>\n            </div>\n          ))\n        )}\n      </div>\n      <div className=\"flex justify-end\">\n        <Button size=\"sm\" onClick={openCreate}>\n          <Plus className=\"w-4 h-4 mr-1\" /> New template",
+      "tokens": 151,
+      "firstFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 537,
+        "end": 551,
+        "startLoc": {
+          "line": 537,
+          "column": 25,
+          "position": 6254
+        },
+        "endLoc": {
+          "line": 551,
+          "column": 57,
+          "position": 6405
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 322,
+        "end": 336,
+        "startLoc": {
+          "line": 322,
+          "column": 64,
+          "position": 3754
+        },
+        "endLoc": {
+          "line": 336,
+          "column": 58,
+          "position": 3905
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 18,
+      "fragment": "\"\n            value={form.property_id}\n            onChange={e => setForm(f => ({ ...f, property_id: e.target.value }))}\n            options={[\n              { value: '', label: 'No property' },\n              ...properties.map(p => ({ value: p.id, label: p.name })),\n            ]}\n          />\n          <Select\n            label=\"Assigned to\"\n            value={form.assigned_to}\n            onChange={e => setForm(f => ({ ...f, assigned_to: e.target.value }))}\n            options={[\n              { value: '', label: 'Unassigned' },\n              ...members.map(m => ({ value: m.id, label: `${memberLabel(m)} (${m.role.replace('_', ' ')})` })),\n            ]}\n          />\n          ",
+      "tokens": 225,
+      "firstFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 884,
+        "end": 901,
+        "startLoc": {
+          "line": 884,
+          "column": 28,
+          "position": 10336
+        },
+        "endLoc": {
+          "line": 901,
+          "column": 11,
+          "position": 10561
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 472,
+        "end": 490,
+        "startLoc": {
+          "line": 472,
+          "column": 28,
+          "position": 5376
+        },
+        "endLoc": {
+          "line": 490,
+          "column": 9,
+          "position": 5609
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 12,
+      "fragment": "\n          <div className=\"flex justify-end gap-2 pt-2\">\n            <Button variant=\"secondary\" type=\"button\" onClick={() => setShowForm(false)}>Cancel</Button>\n            <Button type=\"submit\" disabled={saving}>\n              {saving ? <Loader2 className=\"w-4 h-4 animate-spin mr-1\" /> : null}\n              {editingId ? 'Save changes' : 'Create'}\n            </Button>\n          </div>\n        </form>\n      </Modal>\n\n      <ConfirmModal",
+      "tokens": 122,
+      "firstFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 245,
+        "end": 256,
+        "startLoc": {
+          "line": 245,
+          "column": 17,
+          "position": 2980
+        },
+        "endLoc": {
+          "line": 256,
+          "column": 20,
+          "position": 3102
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 932,
+        "end": 943,
+        "startLoc": {
+          "line": 932,
+          "column": 13,
+          "position": 10959
+        },
+        "endLoc": {
+          "line": 943,
+          "column": 13,
+          "position": 11081
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "import { useState, useEffect } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { ExportButton",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/pages/app/ServiceProviders.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 22,
+          "position": 103
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 21,
+          "position": 103
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": " } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { ExportButton } from '@/components/ExportButton'\nimport { useServiceProviders",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/pages/app/ServiceProviders.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 29,
+          "position": 8
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 29,
+          "position": 115
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 29,
+          "position": 8
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 115
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "\n  const [showForm, setShowForm] = useState(false)\n  const [editingId, setEditingId] = useState<string | null>(null)\n  const [form, setForm] = useState(emptyForm)\n  const [saving, setSaving] = useState(false)\n  const [errors, setErrors] = useState<Record<string, string>>({})\n  const [deleteTarget, setDeleteTarget] = useState<{ id: string; name: string } | null>(null)\n  const [page, setPage] = useState(0)\n  ",
+      "tokens": 156,
+      "firstFile": {
+        "name": "src/pages/app/ServiceProviders.tsx",
+        "start": 71,
+        "end": 79,
+        "startLoc": {
+          "line": 71,
+          "column": 1,
+          "position": 600
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 3,
+          "position": 756
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 31,
+        "end": 40,
+        "startLoc": {
+          "line": 31,
+          "column": 47,
+          "position": 335
+        },
+        "endLoc": {
+          "line": 40,
+          "column": 1,
+          "position": 491
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ")\n  })\n\n  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))\n  const paginated = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)\n\n  const validate = () => {\n    const errs: Record<string, string> = {}\n    if (!form.name.trim()) errs.name = t",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/pages/app/ServiceProviders.tsx",
+        "start": 97,
+        "end": 105,
+        "startLoc": {
+          "line": 97,
+          "column": 5,
+          "position": 1052
+        },
+        "endLoc": {
+          "line": 105,
+          "column": 41,
+          "position": 1172
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 45,
+        "end": 53,
+        "startLoc": {
+          "line": 45,
+          "column": 142,
+          "position": 616
+        },
+        "endLoc": {
+          "line": 53,
+          "column": 58,
+          "position": 736
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 66,
+      "fragment": "}>\n                  {checkinByReservation.get(r.id)?.status === 'completed' ? 'check-in' : 'check-in pending'}\n                </Badge>\n              </div>\n            </Card>\n          ))}\n        </div>\n\n        <Card className=\"overflow-hidden hidden lg:block\">\n          <div className=\"overflow-x-auto\">\n            <table className=\"w-full\">\n              <thead>\n                <tr className=\"border-b border-border\">\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Guest</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Property</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Arrival</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Departure</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Guests</th>\n                  <th className=\"px-4 py-3 text-right text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Amount</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Status</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Payment</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Contract</th>\n                  <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Check-in</th>\n                </tr>\n              </thead>\n              <tbody>\n                {paginated.map(r => (\n                  <tr\n                    key={r.id}\n                    className=\"border-b border-border hover:bg-muted/50 cursor-pointer transition-colors h-14\"\n                    onClick={() => setSelected(r)}\n                  >\n                    <td className=\"px-4 text-sm font-medium\">{r.guest_name}</td>\n                    <td className=\"px-4 text-sm text-muted-foreground\">{r.property?.name ?? '—'}</td>\n                    <td className=\"px-4 text-sm tabular-nums\">{r.arrival}</td>\n                    <td className=\"px-4 text-sm tabular-nums\">{r.departure}</td>\n                    <td className=\"px-4 text-sm tabular-nums text-right\">{r.guests_count}</td>\n                    <td className=\"px-4 text-sm tabular-nums text-right\">€{Number(r.total_amount).toLocaleString()}</td>\n                    <td className=\"px-4\">\n                      <Badge variant={r.status === 'confirmed' || r.status === 'completed' ? 'success' : r.status === 'cancelled' ? 'destructive' : 'warning'}>{r.status}</Badge>\n                    </td>\n                    <td className=\"px-4\">\n                      <Badge variant={r.payment_status === 'paid' ? 'success' : r.payment_status === 'partial' ? 'warning' : 'muted'}>\n                        {r.payment_status}\n                      </Badge>\n                    </td>\n                    <td className=\"px-4\">\n                      <Badge variant={r.contract_status === 'signed' ? 'success' : r.contract_status === 'sent' ? 'info' : 'muted'}>\n                        {r.contract_status}\n                      </Badge>\n                    </td>\n                    <td className=\"px-4\">\n                      <Badge variant={checkinByReservation.get(r.id)?.status === 'completed' ? 'success' : 'muted'}>\n                        {checkinByReservation.get(r.id)?.status === 'completed' ? 'completed' : 'pending'}\n                      </Badge>\n                    </td>\n                  </tr>\n                ))}\n              </tbody>\n            </table>\n          </div>\n        </Card>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page ",
+      "tokens": 797,
+      "firstFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 190,
+        "end": 255,
+        "startLoc": {
+          "line": 190,
+          "column": 109,
+          "position": 2693
+        },
+        "endLoc": {
+          "line": 255,
+          "column": 68,
+          "position": 3490
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 166,
+        "end": 218,
+        "startLoc": {
+          "line": 166,
+          "column": 87,
+          "position": 2254
+        },
+        "endLoc": {
+          "line": 218,
+          "column": 27,
+          "position": 2984
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": "\n\n  if (loading) {\n    return (\n      <div className=\"flex items-center justify-center h-64\">\n        <Loader2 className=\"w-5 h-5 animate-spin text-muted-foreground\" />\n      </div>\n    )\n  }\n\n  return (\n    <div className=\"flex\">\n    <div className=\"flex-1 min-w-0 space-y-6\">\n      <div className=\"flex items-center justify-between\">\n        <p className=\"text-xs font-semibold tracking-tight text-muted-foreground\">{t('reservations.title'",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 129,
+        "end": 143,
+        "startLoc": {
+          "line": 129,
+          "column": 4,
+          "position": 1771
+        },
+        "endLoc": {
+          "line": 143,
+          "column": 106,
+          "position": 1873
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 724,
+        "end": 738,
+        "startLoc": {
+          "line": 724,
+          "column": 68,
+          "position": 8474
+        },
+        "endLoc": {
+          "line": 738,
+          "column": 99,
+          "position": 8576
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 13,
+      "fragment": ">\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      <Modal open={!!selected} onClose={() => setSelected(null)} title=",
+      "tokens": 199,
+      "firstFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 251,
+        "end": 263,
+        "startLoc": {
+          "line": 251,
+          "column": 15,
+          "position": 3445
+        },
+        "endLoc": {
+          "line": 263,
+          "column": 72,
+          "position": 3644
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 193,
+        "end": 205,
+        "startLoc": {
+          "line": 193,
+          "column": 16,
+          "position": 2155
+        },
+        "endLoc": {
+          "line": 205,
+          "column": 116,
+          "position": 2363
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 21,
+      "fragment": ")}</p>\n        <div className=\"flex items-center gap-2\">\n          <Select\n            value={year}\n            onChange={e => setYear(e.target.value)}\n            options={years.map(y => ({ value: String(y), label: String(y) }))}\n            className=\"w-28\"\n          />\n          <Button variant=\"secondary\" size=\"sm\" onClick={handleExportCsv}>\n            <Sheet className=\"w-3.5 h-3.5 mr-1.5\" />\n            {t('reports.exportCsv')}\n          </Button>\n          <Button variant=\"secondary\" size=\"sm\" onClick={handleExportPdf}>\n            <FileDown className=\"w-3.5 h-3.5 mr-1.5\" />\n            {t('reports.exportPdf')}\n          </Button>\n        </div>\n      </div>\n\n      <div className=\"grid sm:grid-cols-2 lg:grid-cols-4 gap-4\">\n        <MetricCard label={t('reports.totalRevenue')} value={stats.totalRevenue} prefix",
+      "tokens": 223,
+      "firstFile": {
+        "name": "src/pages/app/Reports.tsx",
+        "start": 227,
+        "end": 247,
+        "startLoc": {
+          "line": 227,
+          "column": 101,
+          "position": 3176
+        },
+        "endLoc": {
+          "line": 247,
+          "column": 88,
+          "position": 3399
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/ReportsOperations.tsx",
+        "start": 188,
+        "end": 208,
+        "startLoc": {
+          "line": 188,
+          "column": 107,
+          "position": 3075
+        },
+        "endLoc": {
+          "line": 208,
+          "column": 99,
+          "position": 3302
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "import { useState, useEffect } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { ExportButton } from '@/components/ExportButton'\nimport { CsvImportModal",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 24,
+          "position": 115
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 115
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ")\n  const [showForm, setShowForm] = useState(false)\n  const [editingId, setEditingId] = useState<string | null>(null)\n  const [form, setForm] = useState(emptyForm)\n  const [saving, setSaving] = useState(false)\n  const [errors, setErrors] = useState<Record<string, string>>({})\n  const [deleteTarget, setDeleteTarget] = useState<{ id: string; name: string } | null>(null)\n  const [page, setPage] = useState(0)\n  const [showImport",
+      "tokens": 161,
+      "firstFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 48,
+        "end": 56,
+        "startLoc": {
+          "line": 48,
+          "column": 52,
+          "position": 555
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 20,
+          "position": 716
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 31,
+        "end": 79,
+        "startLoc": {
+          "line": 31,
+          "column": 46,
+          "position": 334
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 24,
+          "position": 760
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "\n  })\n\n  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))\n  const paginated = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)\n\n  const validate = () => {\n    const errs: Record<string, string> = {}\n    if (!form.name.trim()) errs.name = 'Name is required'\n    if (form.bedrooms",
+      "tokens": 127,
+      "firstFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 70,
+        "end": 79,
+        "startLoc": {
+          "line": 70,
+          "column": 16,
+          "position": 1004
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 22,
+          "position": 1131
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 45,
+        "end": 54,
+        "startLoc": {
+          "line": 45,
+          "column": 143,
+          "position": 617
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 28,
+          "position": 744
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": " },\n    { key: 'location', label: t('common.location') },\n    { key: 'type', label: t('common.type') },\n    { key: 'status', label: t('common.status') },\n    { key: 'bedrooms', label: t('properties.bedrooms') },\n    { key: 'bathrooms', label: t('properties.bathrooms') },\n    { key: 'max_guests', label: t('properties.maxGuests') },\n    { key: 'surface_m2', label: t('properties.surface') },\n    ",
+      "tokens": 144,
+      "firstFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 163,
+        "end": 171,
+        "startLoc": {
+          "line": 163,
+          "column": 59,
+          "position": 1960
+        },
+        "endLoc": {
+          "line": 171,
+          "column": 5,
+          "position": 2104
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 152,
+        "end": 160,
+        "startLoc": {
+          "line": 152,
+          "column": 43,
+          "position": 1781
+        },
+        "endLoc": {
+          "line": 160,
+          "column": 3,
+          "position": 1925
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 22,
+      "fragment": "\" />\n                    </Button>\n                  </div>\n                </div>\n              </Card>\n            ))}\n          </div>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      <Modal open={showForm} onClose={() => setShowForm(false)} title={editingId ? 'Edit Property' : 'New Property'}>\n        <form onSubmit={handleSubmit} className=\"space-y-4\">\n          <div>\n            <Input label=\"Name\" required value={form.name} onChange={e => setForm(f => ({ ...f, name: e.target.value }))} placeholder=\"Villa French Way",
+      "tokens": 316,
+      "firstFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 256,
+        "end": 277,
+        "startLoc": {
+          "line": 256,
+          "column": 66,
+          "position": 3193
+        },
+        "endLoc": {
+          "line": 277,
+          "column": 152,
+          "position": 3509
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 187,
+        "end": 208,
+        "startLoc": {
+          "line": 187,
+          "column": 66,
+          "position": 2123
+        },
+        "endLoc": {
+          "line": 208,
+          "column": 148,
+          "position": 2439
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 17,
+      "fragment": "\n          </div>\n          <div className=\"flex justify-end gap-2 pt-2\">\n            <Button variant=\"secondary\" type=\"button\" onClick={() => setShowForm(false)}>Cancel</Button>\n            <Button type=\"submit\" disabled={saving}>\n              {saving ? <Loader2 className=\"w-4 h-4 animate-spin mr-1\" /> : null}\n              {editingId ? 'Save changes' : 'Create'}\n            </Button>\n          </div>\n        </form>\n      </Modal>\n\n      <ConfirmModal\n        open={!!deleteTarget}\n        onClose={() => setDeleteTarget(null)}\n        onConfirm={confirmDelete}\n        title=\"Delete property",
+      "tokens": 160,
+      "firstFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 329,
+        "end": 345,
+        "startLoc": {
+          "line": 329,
+          "column": 15,
+          "position": 4395
+        },
+        "endLoc": {
+          "line": 345,
+          "column": 31,
+          "position": 4555
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 244,
+        "end": 260,
+        "startLoc": {
+          "line": 244,
+          "column": 19,
+          "position": 2975
+        },
+        "endLoc": {
+          "line": 260,
+          "column": 30,
+          "position": 3135
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "import { useState, useEffect } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { FilterSidebar",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 23,
+          "position": 103
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 21,
+          "position": 103
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": "] = useState(false)\n  const [editingId, setEditingId] = useState<string | null>(null)\n  const [form, setForm] = useState(emptyForm)\n  const [saving, setSaving] = useState(false)\n  const [errors, setErrors] = useState<Record<string, string>>({})\n  const [deleteTarget, setDeleteTarget] = useState<{ id: string; name: string } | null>(null)\n  const [page, setPage] = useState(0)\n\n  useEffect(() => { setPage(0) }, [query])\n\n  const filtered = payments",
+      "tokens": 179,
+      "firstFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 38,
+        "end": 48,
+        "startLoc": {
+          "line": 38,
+          "column": 37,
+          "position": 453
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 28,
+          "position": 632
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 32,
+        "end": 42,
+        "startLoc": {
+          "line": 32,
+          "column": 31,
+          "position": 344
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 28,
+          "position": 523
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 8,
+      "fragment": ")\n\n  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))\n  const paginated = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)\n\n  const validate = () => {\n    const errs: Record<string, string> = {}\n    if (!form.guest_name",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 62,
+        "end": 69,
+        "startLoc": {
+          "line": 62,
+          "column": 102,
+          "position": 988
+        },
+        "endLoc": {
+          "line": 69,
+          "column": 25,
+          "position": 1091
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 46,
+        "end": 53,
+        "startLoc": {
+          "line": 46,
+          "column": 4,
+          "position": 620
+        },
+        "endLoc": {
+          "line": 53,
+          "column": 19,
+          "position": 723
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 7,
+      "fragment": "])\n    const csv = [headers, ...rows].map(r => r.map(c => `\"${c}\"`).join(',')).join('\\n')\n    const blob = new Blob([csv], { type: 'text/csv' })\n    const url = URL.createObjectURL(blob)\n    const a = document.createElement('a')\n    a.href = url\n    a.download = `payments-",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 148,
+        "end": 154,
+        "startLoc": {
+          "line": 148,
+          "column": 116,
+          "position": 1908
+        },
+        "endLoc": {
+          "line": 154,
+          "column": 28,
+          "position": 2028
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 83,
+        "end": 89,
+        "startLoc": {
+          "line": 83,
+          "column": 196,
+          "position": 1255
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 32,
+          "position": 1375
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": "\n  }\n\n  if (loading) {\n    return (\n      <div className=\"flex items-center justify-center h-64\">\n        <Loader2 className=\"w-5 h-5 animate-spin text-muted-foreground\" />\n      </div>\n    )\n  }\n\n  return (\n    <div className=\"flex\">\n    <div className=\"flex-1 min-w-0 space-y-6\">\n      <div className=\"flex items-center justify-between\">\n        <p className=\"text-xs font-semibold tracking-tight text-muted-foreground\">{t('payments.title'",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 157,
+        "end": 172,
+        "startLoc": {
+          "line": 157,
+          "column": 26,
+          "position": 2070
+        },
+        "endLoc": {
+          "line": 172,
+          "column": 102,
+          "position": 2175
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 128,
+        "end": 738,
+        "startLoc": {
+          "line": 128,
+          "column": 6,
+          "position": 1768
+        },
+        "endLoc": {
+          "line": 738,
+          "column": 99,
+          "position": 8576
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ")}</p>\n        <div className=\"flex items-center gap-2\">\n          <Button variant=\"secondary\" size=\"sm\" onClick={() => setShowFilters(!showFilters)}>\n            <Filter className=\"w-4 h-4 mr-1\" /> {t('common.filter')}\n          </Button>\n          <Button variant=\"secondary\" size=\"sm\" onClick={exportCSV}>\n            <Download className=\"w-4 h-4 mr-1\" /> {t('importExport.exportCsv')}\n          </Button>\n          {",
+      "tokens": 121,
+      "firstFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 172,
+        "end": 180,
+        "startLoc": {
+          "line": 172,
+          "column": 102,
+          "position": 2176
+        },
+        "endLoc": {
+          "line": 180,
+          "column": 12,
+          "position": 2297
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 143,
+        "end": 151,
+        "startLoc": {
+          "line": 143,
+          "column": 106,
+          "position": 1874
+        },
+        "endLoc": {
+          "line": 151,
+          "column": 12,
+          "position": 1995
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": "</Card>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      <Modal open={showForm} onClose={() => setShowForm(false)} title={editingId ? 'Edit Payment' : 'Record Payment'}>\n        <form onSubmit={handleSubmit} className=\"space-y-4\">\n          <div ",
+      "tokens": 232,
+      "firstFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 321,
+        "end": 335,
+        "startLoc": {
+          "line": 321,
+          "column": 11,
+          "position": 3857
+        },
+        "endLoc": {
+          "line": 335,
+          "column": 16,
+          "position": 4089
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 251,
+        "end": 207,
+        "startLoc": {
+          "line": 251,
+          "column": 9,
+          "position": 3443
+        },
+        "endLoc": {
+          "line": 207,
+          "column": 16,
+          "position": 2385
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 40,
+      "fragment": "}>{p.status}</Badge>\n                        )}\n                      </td>\n                      <td className=\"px-4\">\n                        <div className=\"flex items-center gap-1\">\n                          <Star className=\"w-3 h-3 fill-current text-warning\" />\n                          <span className=\"text-sm tabular-nums\">{Number(p.rating).toFixed(1)}</span>\n                        </div>\n                      </td>\n                      <td className=\"px-4 text-sm tabular-nums text-right\">{p.bookings_count}</td>\n                      {editable && (\n                        <td className=\"px-4 text-right\">\n                          <div className=\"flex items-center justify-end gap-2\">\n                            <button onClick={() => openEdit(p)} className=\"text-muted-foreground hover:text-foreground transition-colors\">\n                              <Pencil className=\"w-4 h-4\" />\n                            </button>\n                            <button onClick={() => setDeleteTarget({ id: p.id, name: p.name })} className=\"text-muted-foreground hover:text-destructive transition-colors\">\n                              <Trash2 className=\"w-4 h-4\" />\n                            </button>\n                          </div>\n                        </td>\n                      )}\n                    </tr>\n                  ))}\n                </tbody>\n              </table>\n            </div>\n          </Card>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      <Modal open={showForm} onClose={() => setShowForm(false)} title={editingId ? 'Edit Partner'",
+      "tokens": 480,
+      "firstFile": {
+        "name": "src/pages/app/Partners.tsx",
+        "start": 242,
+        "end": 281,
+        "startLoc": {
+          "line": 242,
+          "column": 86,
+          "position": 2970
+        },
+        "endLoc": {
+          "line": 281,
+          "column": 98,
+          "position": 3450
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/ServiceProviders.tsx",
+        "start": 353,
+        "end": 381,
+        "startLoc": {
+          "line": 353,
+          "column": 95,
+          "position": 4307
+        },
+        "endLoc": {
+          "line": 381,
+          "column": 85,
+          "position": 4667
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "import { useState, useEffect } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { ExportButton } from '@/components/ExportButton'\nimport { usePartners",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/pages/app/Partners.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 21,
+          "position": 115
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 115
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 12,
+      "fragment": ")\n  const [showForm, setShowForm] = useState(false)\n  const [editingId, setEditingId] = useState<string | null>(null)\n  const [form, setForm] = useState(emptyForm)\n  const [saving, setSaving] = useState(false)\n  const [errors, setErrors] = useState<Record<string, string>>({})\n  const [deleteTarget, setDeleteTarget] = useState<{ id: string; name: string } | null>(null)\n  const [page, setPage] = useState(0)\n\n  useEffect(() => { setPage(0) }, [query])\n\n  const filtered = partners",
+      "tokens": 189,
+      "firstFile": {
+        "name": "src/pages/app/Partners.tsx",
+        "start": 36,
+        "end": 47,
+        "startLoc": {
+          "line": 36,
+          "column": 38,
+          "position": 395
+        },
+        "endLoc": {
+          "line": 47,
+          "column": 28,
+          "position": 584
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 31,
+        "end": 42,
+        "startLoc": {
+          "line": 31,
+          "column": 46,
+          "position": 334
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 28,
+          "position": 523
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": " ?? '').toLowerCase().includes(q)\n  })\n\n  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))\n  const paginated = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)\n\n  const validate = () => {\n    const errs: Record<string, string> = {}\n    if (!form.name.trim()) errs.name = 'Name is required'\n    if (form.commission",
+      "tokens": 142,
+      "firstFile": {
+        "name": "src/pages/app/Partners.tsx",
+        "start": 50,
+        "end": 59,
+        "startLoc": {
+          "line": 50,
+          "column": 107,
+          "position": 663
+        },
+        "endLoc": {
+          "line": 59,
+          "column": 24,
+          "position": 805
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 45,
+        "end": 54,
+        "startLoc": {
+          "line": 45,
+          "column": 110,
+          "position": 602
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 28,
+          "position": 744
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": ")\n    } catch (err) {\n      toast((err as Error).message, 'error')\n    }\n    setDeleteTarget(null)\n  }\n\n  if (loading) {\n    return (\n      <div className=\"flex items-center justify-center h-64\">\n        <Loader2 className=\"w-5 h-5 animate-spin text-muted-foreground\" />\n      </div>\n    )\n  }\n\n  const exportColumns: { key: keyof Partner",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/pages/app/Partners.tsx",
+        "start": 121,
+        "end": 136,
+        "startLoc": {
+          "line": 121,
+          "column": 30,
+          "position": 1399
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 44,
+          "position": 1504
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Properties.tsx",
+        "start": 136,
+        "end": 151,
+        "startLoc": {
+          "line": 136,
+          "column": 31,
+          "position": 1644
+        },
+        "endLoc": {
+          "line": 151,
+          "column": 45,
+          "position": 1749
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 22,
+      "fragment": "\n                </div>\n                {editable && (\n                  <div className=\"flex items-center justify-end gap-3 pt-1 border-t border-border\">\n                    <button onClick={() => openEdit(p)} className=\"text-muted-foreground hover:text-foreground transition-colors p-1\">\n                      <Pencil className=\"w-4 h-4\" />\n                    </button>\n                    <button onClick={() => setDeleteTarget({ id: p.id, name: p.name })} className=\"text-muted-foreground hover:text-destructive transition-colors p-1\">\n                      <Trash2 className=\"w-4 h-4\" />\n                    </button>\n                  </div>\n                )}\n              </Card>\n            ))}\n          </div>\n\n          <Card className=\"overflow-hidden hidden lg:block\">\n            <div className=\"overflow-x-auto\">\n              <table className=\"w-full\">\n                <thead>\n                  <tr className=\"border-b border-border\">\n                    <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Partner",
+      "tokens": 205,
+      "firstFile": {
+        "name": "src/pages/app/Partners.tsx",
+        "start": 195,
+        "end": 216,
+        "startLoc": {
+          "line": 195,
+          "column": 81,
+          "position": 2376
+        },
+        "endLoc": {
+          "line": 216,
+          "column": 132,
+          "position": 2581
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 245,
+        "end": 266,
+        "startLoc": {
+          "line": 245,
+          "column": 21,
+          "position": 3038
+        },
+        "endLoc": {
+          "line": 266,
+          "column": 129,
+          "position": 3243
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 34,
+      "fragment": "</td>\n                      {editable && (\n                        <td className=\"px-4 text-right\">\n                          <div className=\"flex items-center justify-end gap-2\">\n                            <button onClick={() => openEdit(p)} className=\"text-muted-foreground hover:text-foreground transition-colors\">\n                              <Pencil className=\"w-4 h-4\" />\n                            </button>\n                            <button onClick={() => setDeleteTarget({ id: p.id, name: p.name })} className=\"text-muted-foreground hover:text-destructive transition-colors\">\n                              <Trash2 className=\"w-4 h-4\" />\n                            </button>\n                          </div>\n                        </td>\n                      )}\n                    </tr>\n                  ))}\n                </tbody>\n              </table>\n            </div>\n          </Card>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      <Modal open={showForm} onClose={() => setShowForm(false)} title={editingId ? 'Edit Partner' : 'New Partner'}>\n        <form onSubmit={handleSubmit} className=\"space-y-4\">\n          <div>\n            <Input label=\"Name\" required value={form.name} onChange={e => setForm(f => ({ ...f, name: e.target.value }))} placeholder=\"Chef Martin",
+      "tokens": 456,
+      "firstFile": {
+        "name": "src/pages/app/Partners.tsx",
+        "start": 251,
+        "end": 284,
+        "startLoc": {
+          "line": 251,
+          "column": 94,
+          "position": 3076
+        },
+        "endLoc": {
+          "line": 284,
+          "column": 147,
+          "position": 3532
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 303,
+        "end": 208,
+        "startLoc": {
+          "line": 303,
+          "column": 23,
+          "position": 3687
+        },
+        "endLoc": {
+          "line": 208,
+          "column": 148,
+          "position": 2439
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "import { useEffect, useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useToast",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/pages/app/Maintenance.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 18,
+          "position": 103
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 22,
+          "position": 103
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": ", useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useToast } from '@/components/ui/Toast'\nimport {\n",
+      "tokens": 109,
+      "firstFile": {
+        "name": "src/pages/app/Maintenance.tsx",
+        "start": 1,
+        "end": 11,
+        "startLoc": {
+          "line": 1,
+          "column": 19,
+          "position": 5
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 1,
+          "position": 114
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/TeamPlanning.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 17,
+          "position": 5
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 10,
+          "position": 111
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 7,
+      "fragment": "])\n    const csv = [headers, ...rows].map(r => r.map(c => `\"${c}\"`).join(',')).join('\\n')\n    const blob = new Blob([csv], { type: 'text/csv' })\n    const url = URL.createObjectURL(blob)\n    const a = document.createElement('a')\n    a.href = url\n    a.download = `invoices-",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/pages/app/Invoices.tsx",
+        "start": 144,
+        "end": 150,
+        "startLoc": {
+          "line": 144,
+          "column": 5,
+          "position": 1772
+        },
+        "endLoc": {
+          "line": 150,
+          "column": 28,
+          "position": 1892
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 83,
+        "end": 89,
+        "startLoc": {
+          "line": 83,
+          "column": 196,
+          "position": 1255
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 32,
+          "position": 1375
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": "${new Date().toISOString().split('T')[0]}.csv`\n    a.click()\n    URL.revokeObjectURL(url)\n    toast('CSV exported')\n  }\n\n  if (loading) {\n    return (\n      <div className=\"flex items-center justify-center h-64\">\n        <Loader2 className=\"w-5 h-5 animate-spin text-muted-foreground\" />\n      </div>\n    )\n  }\n\n  return (\n    <div className=\"space-y-6",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/pages/app/Invoices.tsx",
+        "start": 150,
+        "end": 165,
+        "startLoc": {
+          "line": 150,
+          "column": 28,
+          "position": 1893
+        },
+        "endLoc": {
+          "line": 165,
+          "column": 30,
+          "position": 2000
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 154,
+        "end": 169,
+        "startLoc": {
+          "line": 154,
+          "column": 28,
+          "position": 2029
+        },
+        "endLoc": {
+          "line": 169,
+          "column": 25,
+          "position": 2136
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": "\">\n                      <Trash2 className=\"w-4 h-4\" />\n                    </button>\n                  </div>\n                )}\n              </Card>\n            ))}\n          </div>\n\n          <Card className=\"overflow-hidden hidden lg:block\">\n            <div className=\"overflow-x-auto\">\n              <table className=\"w-full\">\n                <thead>\n                  <tr className=\"border-b border-border\">\n                    <th className=\"px-4 py-3 text-left text-xs font-semibold uppercase tracking-wide text-muted-foreground\">Invoice",
+      "tokens": 104,
+      "firstFile": {
+        "name": "src/pages/app/Invoices.tsx",
+        "start": 263,
+        "end": 277,
+        "startLoc": {
+          "line": 263,
+          "column": 197,
+          "position": 3274
+        },
+        "endLoc": {
+          "line": 277,
+          "column": 132,
+          "position": 3378
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 252,
+        "end": 266,
+        "startLoc": {
+          "line": 252,
+          "column": 172,
+          "position": 3139
+        },
+        "endLoc": {
+          "line": 266,
+          "column": 129,
+          "position": 3243
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 24,
+      "fragment": "\">\n                              <Trash2 className=\"w-4 h-4\" />\n                            </button>\n                          </div>\n                        </td>\n                      )}\n                    </tr>\n                  ))}\n                </tbody>\n              </table>\n            </div>\n          </Card>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      {",
+      "tokens": 235,
+      "firstFile": {
+        "name": "src/pages/app/Invoices.tsx",
+        "start": 326,
+        "end": 349,
+        "startLoc": {
+          "line": 326,
+          "column": 203,
+          "position": 4078
+        },
+        "endLoc": {
+          "line": 349,
+          "column": 8,
+          "position": 4313
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 310,
+        "end": 205,
+        "startLoc": {
+          "line": 310,
+          "column": 176,
+          "position": 3797
+        },
+        "endLoc": {
+          "line": 205,
+          "column": 8,
+          "position": 2328
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "import { useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useToast } from '@/components/ui/Toast'\nimport { useInventoryItems",
+      "tokens": 112,
+      "firstFile": {
+        "name": "src/pages/app/Inventory.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 27,
+          "position": 112
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/WorkOrders.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 112
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "import { useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useInspections",
+      "tokens": 100,
+      "firstFile": {
+        "name": "src/pages/app/Inspections.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 24,
+          "position": 100
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/WorkOrders.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 18,
+          "position": 100
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 19,
+      "fragment": ")\n    } catch (err) {\n      toast((err as Error).message, 'error')\n    }\n    setDeleteTarget(null)\n  }\n\n  if (loading) {\n    return (\n      <div className=\"flex items-center justify-center h-64\">\n        <Loader2 className=\"w-5 h-5 animate-spin text-muted-foreground\" />\n      </div>\n    )\n  }\n\n  return (\n    <div className=\"space-y-6\">\n      <div className=\"flex items-center justify-between\">\n        <div",
+      "tokens": 121,
+      "firstFile": {
+        "name": "src/pages/app/Inspections.tsx",
+        "start": 77,
+        "end": 95,
+        "startLoc": {
+          "line": 77,
+          "column": 31,
+          "position": 983
+        },
+        "endLoc": {
+          "line": 95,
+          "column": 13,
+          "position": 1104
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 115,
+        "end": 133,
+        "startLoc": {
+          "line": 115,
+          "column": 30,
+          "position": 1280
+        },
+        "endLoc": {
+          "line": 133,
+          "column": 11,
+          "position": 1401
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": ", useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useToast } from '@/components/ui/Toast'\nimport { useIncidents",
+      "tokens": 110,
+      "firstFile": {
+        "name": "src/pages/app/Incidents.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 27,
+          "position": 8
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 22,
+          "position": 118
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/TeamPlanning.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 17,
+          "position": 5
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 112
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 7,
+      "fragment": ")\n  const [propertyFilter, setPropertyFilter] = useState<string>('')\n  const [showForm, setShowForm] = useState(false)\n  const [form, setForm] = useState(emptyForm)\n  const [formError, setFormError] = useState('')\n  const [saving, setSaving] = useState(false)\n  const [detail, setDetail] = useState<Incident",
+      "tokens": 104,
+      "firstFile": {
+        "name": "src/pages/app/Incidents.tsx",
+        "start": 61,
+        "end": 67,
+        "startLoc": {
+          "line": 61,
+          "column": 68,
+          "position": 860
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 48,
+          "position": 964
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/WorkOrders.tsx",
+        "start": 49,
+        "end": 55,
+        "startLoc": {
+          "line": 49,
+          "column": 65,
+          "position": 648
+        },
+        "endLoc": {
+          "line": 55,
+          "column": 49,
+          "position": 752
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 13,
+      "fragment": "\n\n  const propertyName = (id: string) => rawProperties.find(p => p.id === id)?.name ?? '—'\n\n  const openCreate = () => {\n    setForm({ ...emptyForm, property_id: properties[0]?.id ?? '' })\n    setFormError('')\n    setShowForm(true)\n  }\n\n  const handleSubmit = async (e: React.FormEvent) => {\n    e.preventDefault()\n    if (!form.title",
+      "tokens": 138,
+      "firstFile": {
+        "name": "src/pages/app/Incidents.tsx",
+        "start": 79,
+        "end": 91,
+        "startLoc": {
+          "line": 79,
+          "column": 113,
+          "position": 1179
+        },
+        "endLoc": {
+          "line": 91,
+          "column": 20,
+          "position": 1317
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Inventory.tsx",
+        "start": 67,
+        "end": 79,
+        "startLoc": {
+          "line": 67,
+          "column": 70,
+          "position": 1005
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 19,
+          "position": 1143
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": "\n\n  const openCreate = () => {\n    setForm({ ...emptyForm, property_id: properties[0]?.id ?? '' })\n    setFormError('')\n    setShowForm(true)\n  }\n\n  const handleSubmit = async (e: React.FormEvent) => {\n    e.preventDefault()\n    if (!form.title.trim() || !form.property_id)",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/pages/app/Incidents.tsx",
+        "start": 81,
+        "end": 91,
+        "startLoc": {
+          "line": 81,
+          "column": 89,
+          "position": 1221
+        },
+        "endLoc": {
+          "line": 91,
+          "column": 49,
+          "position": 1329
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/WorkOrders.tsx",
+        "start": 74,
+        "end": 84,
+        "startLoc": {
+          "line": 74,
+          "column": 100,
+          "position": 1176
+        },
+        "endLoc": {
+          "line": 84,
+          "column": 49,
+          "position": 1284
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 25,
+      "fragment": ").toLocaleString()}</p>\n            )}\n            {actualRole === 'owner' && (\n              <div className=\"flex justify-end\">\n                <Button variant=\"secondary\" size=\"sm\" onClick={() => setDeleteTarget(detail)}>\n                  <Trash2 className=\"w-4 h-4 mr-1.5\" />\n                  {t('common.delete')}\n                </Button>\n              </div>\n            )}\n          </div>\n        )}\n      </Modal>\n\n      <ConfirmModal\n        open={!!deleteTarget}\n        onClose={() => setDeleteTarget(null)}\n        onConfirm={handleDelete}\n        title={t('incidents.deleteTitle')}\n        message={deleteTarget ? t('incidents.deleteMessage').replace('{title}', deleteTarget.title) : ''}\n      />\n    </div>\n  )\n}\n",
+      "tokens": 194,
+      "firstFile": {
+        "name": "src/pages/app/Incidents.tsx",
+        "start": 328,
+        "end": 352,
+        "startLoc": {
+          "line": 328,
+          "column": 116,
+          "position": 4140
+        },
+        "endLoc": {
+          "line": 352,
+          "column": 1,
+          "position": 4334
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/WorkOrders.tsx",
+        "start": 320,
+        "end": 344,
+        "startLoc": {
+          "line": 320,
+          "column": 119,
+          "position": 4036
+        },
+        "endLoc": {
+          "line": 344,
+          "column": 1,
+          "position": 4230
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "import { useState, useEffect } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useGuides",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/pages/app/Guides.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 19,
+          "position": 103
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 21,
+          "position": 103
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 19,
+      "fragment": ",\n]\n\nconst CATEGORY_ICONS: Record<string, typeof BookOpen> = {\n  general: BookOpen,\n  spa: Thermometer,\n  home_automation: Cog,\n  entertainment: Tv,\n  security: Shield,\n  kitchen: UtensilsCrossed,\n  pool: Waves,\n  heating_cooling: Snowflake,\n  wifi_tech: Wifi,\n  outdoor: TreePine,\n  keys_access: KeyRound,\n  cleaning: SprayCan,\n}\n\nconst emptyForm",
+      "tokens": 113,
+      "firstFile": {
+        "name": "src/pages/app/Guides.tsx",
+        "start": 32,
+        "end": 50,
+        "startLoc": {
+          "line": 32,
+          "column": 43,
+          "position": 440
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 16,
+          "position": 553
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/mobile/guest/GuestGuides.tsx",
+        "start": 8,
+        "end": 26,
+        "startLoc": {
+          "line": 8,
+          "column": 90,
+          "position": 140
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 22,
+          "position": 253
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ")\n  const [showForm, setShowForm] = useState(false)\n  const [editingId, setEditingId] = useState<string | null>(null)\n  const [form, setForm] = useState(emptyForm)\n  const [saving, setSaving] = useState(false)\n  const [errors, setErrors] = useState<Record<string, string>>({})\n  const [deleteTarget, setDeleteTarget] = useState<{ id: string; name: string } | null>(null)\n  const [page, setPage] = useState(0)\n  const [filterCategory, setFilterCategory] = useState('all'",
+      "tokens": 171,
+      "firstFile": {
+        "name": "src/pages/app/Guides.tsx",
+        "start": 63,
+        "end": 71,
+        "startLoc": {
+          "line": 63,
+          "column": 32,
+          "position": 713
+        },
+        "endLoc": {
+          "line": 71,
+          "column": 61,
+          "position": 884
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 31,
+        "end": 79,
+        "startLoc": {
+          "line": 31,
+          "column": 46,
+          "position": 334
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 58,
+          "position": 770
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ".toLowerCase().includes(q)\n  })\n\n  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))\n  const paginated = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)\n\n  const validate = () => {\n    const errs: Record<string, string> = {}\n    if (!form.title",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/pages/app/Guides.tsx",
+        "start": 79,
+        "end": 87,
+        "startLoc": {
+          "line": 79,
+          "column": 106,
+          "position": 1025
+        },
+        "endLoc": {
+          "line": 87,
+          "column": 20,
+          "position": 1140
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 45,
+        "end": 53,
+        "startLoc": {
+          "line": 45,
+          "column": 117,
+          "position": 608
+        },
+        "endLoc": {
+          "line": 53,
+          "column": 19,
+          "position": 723
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": ",\n    })\n    setErrors({})\n    setShowForm(true)\n  }\n\n  const handleSubmit = async (e: React.FormEvent) => {\n    e.preventDefault()\n    if (!validate()) return\n    setSaving(true)\n    try {\n      const payload = {\n        ...form,\n        property_id: form.property_id || null,\n      ",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/pages/app/Guides.tsx",
+        "start": 107,
+        "end": 121,
+        "startLoc": {
+          "line": 107,
+          "column": 29,
+          "position": 1331
+        },
+        "endLoc": {
+          "line": 121,
+          "column": 7,
+          "position": 1433
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/ServiceProviders.tsx",
+        "start": 132,
+        "end": 146,
+        "startLoc": {
+          "line": 132,
+          "column": 23,
+          "position": 1455
+        },
+        "endLoc": {
+          "line": 146,
+          "column": 9,
+          "position": 1557
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 19,
+      "fragment": "))\n    } catch (err) {\n      toast((err as Error).message, 'error')\n    }\n    setDeleteTarget(null)\n  }\n\n  if (loading) {\n    return (\n      <div className=\"flex items-center justify-center h-64\">\n        <Loader2 className=\"w-5 h-5 animate-spin text-muted-foreground\" />\n      </div>\n    )\n  }\n\n  return (\n    <div className=\"space-y-6\">\n      <div className=\"flex items-center justify-between\">\n        <div>",
+      "tokens": 123,
+      "firstFile": {
+        "name": "src/pages/app/Guides.tsx",
+        "start": 151,
+        "end": 169,
+        "startLoc": {
+          "line": 151,
+          "column": 31,
+          "position": 1703
+        },
+        "endLoc": {
+          "line": 169,
+          "column": 14,
+          "position": 1826
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Inspections.tsx",
+        "start": 77,
+        "end": 95,
+        "startLoc": {
+          "line": 77,
+          "column": 30,
+          "position": 982
+        },
+        "endLoc": {
+          "line": 95,
+          "column": 14,
+          "position": 1105
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 17,
+      "fragment": ")}\n          </div>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      <Modal open={showForm} onClose={() => setShowForm(false)} title={editingId ? t('guides.editGuide') : t('guides.newGuide')}>\n        <form onSubmit={handleSubmit} className=\"space-y-4\">\n          <div>\n            <Input label={t('guides.form.title')} ",
+      "tokens": 256,
+      "firstFile": {
+        "name": "src/pages/app/Guides.tsx",
+        "start": 240,
+        "end": 256,
+        "startLoc": {
+          "line": 240,
+          "column": 14,
+          "position": 2735
+        },
+        "endLoc": {
+          "line": 256,
+          "column": 51,
+          "position": 2991
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 192,
+        "end": 208,
+        "startLoc": {
+          "line": 192,
+          "column": 14,
+          "position": 2149
+        },
+        "endLoc": {
+          "line": 208,
+          "column": 26,
+          "position": 2392
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "\n\n  const daysBetween = (a: string, b: string) => {\n    const d1 = new Date(a).getTime()\n    const d2 = new Date(b).getTime()\n    return Math.ceil((d2 - d1) / (1000 * 60 * 60 * 24))\n  }\n\n  const",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/pages/app/GuestPortal.tsx",
+        "start": 71,
+        "end": 79,
+        "startLoc": {
+          "line": 71,
+          "column": 9,
+          "position": 850
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 8,
+          "position": 951
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/mobile/guest/GuestExplore.tsx",
+        "start": 75,
+        "end": 83,
+        "startLoc": {
+          "line": 75,
+          "column": 4,
+          "position": 950
+        },
+        "endLoc": {
+          "line": 83,
+          "column": 9,
+          "position": 1051
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "])\n    const csv = [headers, ...rows].map(r => r.map(c => `\"${c}\"`).join(',')).join('\\n')\n    const blob = new Blob([csv], { type: 'text/csv' })\n    const url = URL.createObjectURL(blob)\n    const a = document.createElement('a')\n    a.href = url\n    a.download = `reservations-${new Date().toISOString().split('T')[0]}.csv`\n    a.click()\n    URL.revokeObjectURL(url)\n  ",
+      "tokens": 157,
+      "firstFile": {
+        "name": "src/pages/app/GuestPortal.tsx",
+        "start": 81,
+        "end": 90,
+        "startLoc": {
+          "line": 81,
+          "column": 164,
+          "position": 1056
+        },
+        "endLoc": {
+          "line": 90,
+          "column": 3,
+          "position": 1213
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 83,
+        "end": 92,
+        "startLoc": {
+          "line": 83,
+          "column": 196,
+          "position": 1255
+        },
+        "endLoc": {
+          "line": 92,
+          "column": 5,
+          "position": 1412
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": " useRef, useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useToast } from '@/components/ui/Toast'\nimport { useExpenses",
+      "tokens": 112,
+      "firstFile": {
+        "name": "src/pages/app/Expenses.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 9,
+          "position": 3
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 21,
+          "position": 115
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Incidents.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 20,
+          "position": 6
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 112
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 29,
+      "fragment": " && (\n                  <Button size=\"sm\" variant=\"secondary\" title={t('common.delete')} onClick={() => setDeleteTarget(expense)}>\n                    <Trash2 className=\"w-4 h-4\" />\n                  </Button>\n                )}\n              </div>\n            </div>\n          </Card>\n        ))}\n      </div>\n\n      <Modal open={showForm} onClose={() => setShowForm(false)} title={t('expenses.addExpense')}>\n        <form onSubmit={handleSubmit} className=\"space-y-4\">\n          <Select\n            label={t('expenses.property')}\n            value={form.property_id}\n            onChange={e => setForm(f => ({ ...f, property_id: e.target.value }))}\n            options={properties.map(p => ({ value: p.id, label: p.name }))}\n          />\n          <Input\n            label={t('expenses.labelLabel')}\n            value={form.label}\n            onChange={e => setForm(f => ({ ...f, label: e.target.value }))}\n            placeholder={t('expenses.labelPlaceholder')}\n            error={formError || undefined}\n          />\n          <div className=\"grid grid-cols-2 gap-3\">\n            <Select\n              label={t('expenses.categoryLabel'",
+      "tokens": 313,
+      "firstFile": {
+        "name": "src/pages/app/Expenses.tsx",
+        "start": 237,
+        "end": 265,
+        "startLoc": {
+          "line": 237,
+          "column": 25,
+          "position": 2836
+        },
+        "endLoc": {
+          "line": 265,
+          "column": 48,
+          "position": 3149
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Inventory.tsx",
+        "start": 241,
+        "end": 269,
+        "startLoc": {
+          "line": 241,
+          "column": 27,
+          "position": 2928
+        },
+        "endLoc": {
+          "line": 269,
+          "column": 49,
+          "position": 3241
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": "import { useMemo, useState } from 'react'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport { useToast } from '@/components/ui/Toast'\nimport { useDocuments",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/pages/app/Documents.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 22,
+          "position": 115
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/TeamPlanning.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 23,
+          "position": 112
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": " } from 'react'\nimport { useNavigate } from 'react-router-dom'\nimport { Card } from '@/components/ui/Card'\nimport { Badge } from '@/components/ui/Badge'\nimport { Button } from '@/components/ui/Button'\nimport { Input } from '@/components/ui/Input'\nimport { Select } from '@/components/ui/Select'\nimport { Modal } from '@/components/ui/Modal'\nimport { ConfirmModal } from '@/components/ui/ConfirmModal'\nimport {\n",
+      "tokens": 106,
+      "firstFile": {
+        "name": "src/pages/app/Contracts.tsx",
+        "start": 1,
+        "end": 11,
+        "startLoc": {
+          "line": 1,
+          "column": 29,
+          "position": 8
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 1,
+          "position": 114
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Invoices.tsx",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 38,
+          "position": 11
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 10,
+          "position": 117
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ")\n  const [showForm, setShowForm] = useState(false)\n  const [editingId, setEditingId] = useState<string | null>(null)\n  const [form, setForm] = useState(emptyForm)\n  const [saving, setSaving] = useState(false)\n  const [errors, setErrors] = useState<Record<string, string>>({})\n  const [deleteTarget, setDeleteTarget] = useState<{ id: string; name: string } | null>(null)\n  const [page, setPage] = useState(0)\n  const [emailTarget",
+      "tokens": 161,
+      "firstFile": {
+        "name": "src/pages/app/Contracts.tsx",
+        "start": 48,
+        "end": 56,
+        "startLoc": {
+          "line": 48,
+          "column": 69,
+          "position": 549
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 21,
+          "position": 710
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 31,
+        "end": 79,
+        "startLoc": {
+          "line": 31,
+          "column": 46,
+          "position": 334
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 24,
+          "position": 760
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ".toLowerCase().includes(q)\n  })\n\n  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))\n  const paginated = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)\n\n  const validate = () => {\n    const errs: Record<string, string> = {}\n    if (!form.guest_name.trim()) errs.guest_name = 'Guest name is required'",
+      "tokens": 128,
+      "firstFile": {
+        "name": "src/pages/app/Contracts.tsx",
+        "start": 65,
+        "end": 73,
+        "startLoc": {
+          "line": 65,
+          "column": 113,
+          "position": 877
+        },
+        "endLoc": {
+          "line": 73,
+          "column": 76,
+          "position": 1005
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Services.tsx",
+        "start": 45,
+        "end": 69,
+        "startLoc": {
+          "line": 45,
+          "column": 117,
+          "position": 608
+        },
+        "endLoc": {
+          "line": 69,
+          "column": 56,
+          "position": 1104
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 7,
+      "fragment": ".status])\n    const csv = [headers, ...rows].map(r => r.map(c => `\"${c}\"`).join(',')).join('\\n')\n    const blob = new Blob([csv], { type: 'text/csv' })\n    const url = URL.createObjectURL(blob)\n    const a = document.createElement('a')\n    a.href = url\n    a.download = `contracts-",
+      "tokens": 122,
+      "firstFile": {
+        "name": "src/pages/app/Contracts.tsx",
+        "start": 241,
+        "end": 247,
+        "startLoc": {
+          "line": 241,
+          "column": 92,
+          "position": 2609
+        },
+        "endLoc": {
+          "line": 247,
+          "column": 29,
+          "position": 2731
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 148,
+        "end": 89,
+        "startLoc": {
+          "line": 148,
+          "column": 109,
+          "position": 1906
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 32,
+          "position": 1375
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 26,
+      "fragment": "\n                          </div>\n                        </td>\n                      )}\n                    </tr>\n                  ))}\n                </tbody>\n              </table>\n            </div>\n          </Card>\n\n          {totalPages > 1 && (\n            <div className=\"flex items-center justify-center gap-2\">\n              <Button variant=\"secondary\" size=\"sm\" disabled={page === 0} onClick={() => setPage(p => p - 1)}>Previous</Button>\n              <span className=\"text-xs tabular-nums text-muted-foreground\">{page + 1} / {totalPages}</span>\n              <Button variant=\"secondary\" size=\"sm\" disabled={page >= totalPages - 1} onClick={() => setPage(p => p + 1)}>Next</Button>\n            </div>\n          )}\n        </>\n      )}\n\n      <Modal open={showForm} onClose={() => setShowForm(false)} title={editingId ? 'Edit Contract' : 'New Contract'}>\n        <form onSubmit={handleSubmit} className=\"space-y-4\">\n          <div className=\"grid grid-cols-1 sm:grid-cols-2 gap-4\">\n            <div>\n              <Input ",
+      "tokens": 289,
+      "firstFile": {
+        "name": "src/pages/app/Contracts.tsx",
+        "start": 438,
+        "end": 463,
+        "startLoc": {
+          "line": 438,
+          "column": 47,
+          "position": 4797
+        },
+        "endLoc": {
+          "line": 463,
+          "column": 22,
+          "position": 5086
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Payments.tsx",
+        "start": 312,
+        "end": 338,
+        "startLoc": {
+          "line": 312,
+          "column": 38,
+          "position": 3816
+        },
+        "endLoc": {
+          "line": 338,
+          "column": 17,
+          "position": 4105
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 26,
+      "fragment": "\n          {editingId && (\n            <Select\n              label=\"Status\"\n              value={form.status}\n              onChange={e => setForm(f => ({ ...f, status: e.target.value as Contract['status'] }))}\n              options={[\n                { value: 'draft', label: 'Draft' },\n                { value: 'sent', label: 'Sent' },\n                { value: 'signed', label: 'Signed' },\n                { value: 'archived', label: 'Archived' },\n                { value: 'expired', label: 'Expired' },\n              ]}\n            />\n          )}\n          <div className=\"flex justify-end gap-2 pt-2\">\n            <Button variant=\"secondary\" type=\"button\" onClick={() => setShowForm(false)}>Cancel</Button>\n            <Button type=\"submit\" disabled={saving}>\n              {saving ? <Loader2 className=\"w-4 h-4 animate-spin mr-1\" /> : null}\n              {editingId ? 'Save changes' : 'Create'}\n            </Button>\n          </div>\n        </form>\n      </Modal>\n\n      <Modal open={!!emailTarget} onClose={() => setEmailTarget(null)} title=",
+      "tokens": 292,
+      "firstFile": {
+        "name": "src/pages/app/Contracts.tsx",
+        "start": 483,
+        "end": 508,
+        "startLoc": {
+          "line": 483,
+          "column": 17,
+          "position": 5435
+        },
+        "endLoc": {
+          "line": 508,
+          "column": 78,
+          "position": 5727
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Tasks.tsx",
+        "start": 924,
+        "end": 943,
+        "startLoc": {
+          "line": 924,
+          "column": 13,
+          "position": 10880
+        },
+        "endLoc": {
+          "line": 943,
+          "column": 108,
+          "position": 11117
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": "\"\n              placeholder={t('conciergePortal.messagePlaceholder')}\n            />\n          </div>\n          <div className=\"flex justify-end gap-2 pt-2\">\n            <Button variant=\"secondary\" type=\"button\" onClick={() => setShowForm(false)}>\n              {t('common.cancel')}\n            </Button>\n            <Button type=\"submit\" disabled={saving || !form.message.trim()}>\n              {saving ? <Loader2 className=\"w-4 h-4 animate-spin mr-1\" /> : <Send className=\"w-3.5 h-3.5 mr-1\" />}\n              {t('conciergePortal.sendInquiry'",
+      "tokens": 135,
+      "firstFile": {
+        "name": "src/pages/app/ConciergePortal.tsx",
+        "start": 594,
+        "end": 604,
+        "startLoc": {
+          "line": 594,
+          "column": 156,
+          "position": 6557
+        },
+        "endLoc": {
+          "line": 604,
+          "column": 47,
+          "position": 6692
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/ConciergePortal.tsx",
+        "start": 429,
+        "end": 439,
+        "startLoc": {
+          "line": 429,
+          "column": 156,
+          "position": 4656
+        },
+        "endLoc": {
+          "line": 439,
+          "column": 49,
+          "position": 4791
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": "()\n  const [error, setError] = useState('')\n  const [loading, setLoading] = useState(false)\n\n  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {\n    e.preventDefault()\n    setError('')\n    setLoading(true)\n\n    const form = new FormData(e.currentTarget)\n    const email",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/pages/Login.tsx",
+        "start": 11,
+        "end": 21,
+        "startLoc": {
+          "line": 11,
+          "column": 29,
+          "position": 126
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 16,
+          "position": 228
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/ResetPassword.tsx",
+        "start": 8,
+        "end": 18,
+        "startLoc": {
+          "line": 8,
+          "column": 31,
+          "position": 82
+        },
+        "endLoc": {
+          "line": 18,
+          "column": 19,
+          "position": 184
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 14,
+      "fragment": " {\n        const cert = generateSignatureCertificate({\n          guestName: contract.guest_name,\n          propertyName: contract.property_name ?? '',\n          contractType: contract.type,\n          contractDate: contract.date,\n          signerName,\n          signerRole,\n          signedAt: new Date().toLocaleString('fr-FR'),\n          documentHash: contract.document_hash,\n          signatureHash,\n          signatureDataUrl: signatureData,\n        })\n        setCertificateUrl",
+      "tokens": 104,
+      "firstFile": {
+        "name": "src/pages/ContractSigning.tsx",
+        "start": 98,
+        "end": 111,
+        "startLoc": {
+          "line": 98,
+          "column": 14,
+          "position": 1073
+        },
+        "endLoc": {
+          "line": 111,
+          "column": 26,
+          "position": 1177
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/ContractSigning.tsx",
+        "start": 72,
+        "end": 85,
+        "startLoc": {
+          "line": 72,
+          "column": 10,
+          "position": 849
+        },
+        "endLoc": {
+          "line": 85,
+          "column": 14,
+          "position": 953
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 29,
+      "fragment": "\n\nconst typeIcons: Record<Notification['type'], string> = {\n  reservation: 'R',\n  task: 'T',\n  payment: 'P',\n  system: 'S',\n  service_request: 'SR',\n  incident: 'I',\n  work_order: 'W',\n  inspection: 'IN',\n  inventory: 'ST',\n  expense: 'E',\n}\n\nconst typeColors: Record<Notification['type'], string> = {\n  reservation: 'bg-info/10 text-info',\n  task: 'bg-warning/10 text-warning',\n  payment: 'bg-success/10 text-success',\n  system: 'bg-muted text-muted-foreground',\n  service_request: 'bg-info/10 text-info',\n  incident: 'bg-destructive/10 text-destructive',\n  work_order: 'bg-info/10 text-info',\n  inspection: 'bg-info/10 text-info',\n  inventory: 'bg-warning/10 text-warning',\n  expense: 'bg-success/10 text-success',\n}\n\nexport",
+      "tokens": 188,
+      "firstFile": {
+        "name": "src/components/layout/Topbar.tsx",
+        "start": 15,
+        "end": 43,
+        "startLoc": {
+          "line": 15,
+          "column": 98,
+          "position": 208
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 7,
+          "position": 396
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/NotificationsPage.tsx",
+        "start": 5,
+        "end": 33,
+        "startLoc": {
+          "line": 5,
+          "column": 57,
+          "position": 70
+        },
+        "endLoc": {
+          "line": 33,
+          "column": 6,
+          "position": 258
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 14,
+      "fragment": ")\n\n  const timeAgo = (dateStr: string) => {\n    const diff = Date.now() - new Date(dateStr).getTime()\n    const mins = Math.floor(diff / 60000)\n    if (mins < 1) return 'now'\n    if (mins < 60) return `${mins}m`\n    const hrs = Math.floor(mins / 60)\n    if (hrs < 24) return `${hrs}h`\n    return `${Math.floor(hrs / 24)}d`\n  }\n\n  return (\n    <header",
+      "tokens": 164,
+      "firstFile": {
+        "name": "src/components/layout/Topbar.tsx",
+        "start": 74,
+        "end": 87,
+        "startLoc": {
+          "line": 74,
+          "column": 8,
+          "position": 780
+        },
+        "endLoc": {
+          "line": 87,
+          "column": 12,
+          "position": 944
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Messages.tsx",
+        "start": 66,
+        "end": 79,
+        "startLoc": {
+          "line": 66,
+          "column": 75,
+          "position": 654
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 9,
+          "position": 818
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 19,
+      "fragment": "\n\nconst roleColors: Record<string, string> = {\n  owner: 'bg-amber-500',\n  house_manager: 'bg-blue-500',\n  concierge: 'bg-emerald-500',\n  agency: 'bg-purple-500',\n  guest: 'bg-gray-400',\n}\n\nfunction getInitials(name: string): string {\n  return name\n    .split(/\\s+/)\n    .slice(0, 2)\n    .map(w => w[0]?.toUpperCase() ?? '')\n    .join('')\n}\n\nfunction getRoleLabel",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/components/chat/MessageBubble.tsx",
+        "start": 9,
+        "end": 27,
+        "startLoc": {
+          "line": 9,
+          "column": 2,
+          "position": 82
+        },
+        "endLoc": {
+          "line": 27,
+          "column": 22,
+          "position": 212
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Messages.tsx",
+        "start": 9,
+        "end": 27,
+        "startLoc": {
+          "line": 9,
+          "column": 56,
+          "position": 122
+        },
+        "endLoc": {
+          "line": 27,
+          "column": 28,
+          "position": 252
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 84,
+      "fragment": "} />\n  }\n\n  const validate = () => {\n    const errs: Record<string, string> = {}\n    if (!form.guest_name.trim()) errs.guest_name = 'Full name is required'\n    if (!form.id_doc_number.trim()) errs.id_doc_number = 'ID document number is required'\n    if (!form.estimated_arrival.trim()) errs.estimated_arrival = 'Estimated arrival time is required'\n    if (!rulesAccepted) errs.rules = 'You must accept the house rules'\n    if (!signature) errs.signature = 'Signature is required'\n    setErrors(errs)\n    return Object.keys(errs).length === 0\n  }\n\n  const handleSubmit = async (e: React.FormEvent) => {\n    e.preventDefault()\n    if (!validate()) return\n    setSaving(true)\n    try {\n      let idDocumentUrl: string | null = checkin?.id_document_url ?? null\n      if (idFile) {\n        idDocumentUrl = await uploadFile(`checkins/${reservation.id}`, idFile)\n      }\n      const input: CheckinInput = {\n        reservation_id: reservation.id,\n        guest_name: form.guest_name.trim(),\n        guest_email: form.guest_email.trim() || null,\n        guest_phone: form.guest_phone.trim() || null,\n        address: form.address.trim() || null,\n        nationality: form.nationality.trim() || null,\n        id_doc_type: form.id_doc_type,\n        id_doc_number: form.id_doc_number.trim() || null,\n        num_guests: Number(form.num_guests) || 1,\n        estimated_arrival: form.estimated_arrival || null,\n        special_requests: form.special_requests.trim() || null,\n        id_document_url: idDocumentUrl,\n        signature_data: signature,\n        rules_accepted: rulesAccepted,\n        status: 'completed',\n        submitted_at: new Date().toISOString(),\n      }\n      await submitCheckin(input)\n      await refetch()\n      toast('Check-in completed')\n    } catch (err) {\n      toast((err as Error).message, 'error')\n    }\n    setSaving(false)\n  }\n\n  return (\n    <Card className=\"p-6\">\n      <div className=\"flex items-center gap-2 mb-1\">\n        <ClipboardCheck className=\"w-4 h-4\" />\n        <h3 className=\"text-sm font-semibold\">Online Check-in</h3>\n      </div>\n      <p className=\"text-xs text-muted-foreground mb-5\">\n        {reservation.property?.name ?? 'Your stay'} · {reservation.arrival} — {reservation.departure}\n      </p>\n\n      <form onSubmit={handleSubmit} className=\"space-y-4\">\n        <div className=\"grid sm:grid-cols-2 gap-4\">\n          <div>\n            <Input\n              label=\"Full name *\"\n              value={form.guest_name}\n              onChange={e => setForm(f => ({ ...f, guest_name: e.target.value }))}\n            />\n            {errors.guest_name && <p className=\"text-xs text-destructive mt-1\">{errors.guest_name}</p>}\n          </div>\n          <Input\n            label=\"Email\"\n            type=\"email\"\n            value={form.guest_email}\n            onChange={e => setForm(f => ({ ...f, guest_email: e.target.value }))}\n          />\n          <Input\n            label=\"Phone\"\n            value={form.guest_phone}\n            onChange={e => setForm(f => ({ ...f, guest_phone: e.target.value }))}\n          />\n          <Input\n            label=\"Nationality\"\n            value={form.nationality",
+      "tokens": 900,
+      "firstFile": {
+        "name": "src/components/CheckInForm.tsx",
+        "start": 61,
+        "end": 144,
+        "startLoc": {
+          "line": 61,
+          "column": 72,
+          "position": 682
+        },
+        "endLoc": {
+          "line": 144,
+          "column": 36,
+          "position": 1582
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/app/Reservations.tsx",
+        "start": 366,
+        "end": 375,
+        "startLoc": {
+          "line": 366,
+          "column": 63,
+          "position": 4789
+        },
+        "endLoc": {
+          "line": 375,
+          "column": 36,
+          "position": 5001
+        }
+      }
+    }
+  ]
+}

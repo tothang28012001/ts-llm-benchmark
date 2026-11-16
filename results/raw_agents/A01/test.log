@@ -1,0 +1,18 @@
+
+> shen-ai@1.0.0 test
+> jest
+
+PASS src/core/tools/__tests__/code-validator.test.ts (9.014 s)
+PASS src/core/tools/__tests__/git-tools.test.ts (9.214 s)
+PASS src/core/tools/__tests__/tool-registry-validation.test.ts (9.302 s)
+PASS src/core/chat/__tests__/conversation-history.test.ts
+PASS src/core/plugins/__tests__/plugin-loader.test.ts
+PASS src/test/ui/webview/components/DiffView.test.ts
+PASS src/test/utils/helpers.test.ts
+PASS src/core/swarm/__tests__/swarm-orchestrator.test.ts
+
+Test Suites: 8 passed, 8 total
+Tests:       41 passed, 41 total
+Snapshots:   0 total
+Time:        10.453 s
+Ran all test suites.

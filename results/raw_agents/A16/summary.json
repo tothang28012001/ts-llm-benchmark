@@ -1,0 +1,121 @@
+{
+  "repo_id": "A16",
+  "group": "llm",
+  "full_name": "itzebe/Casefile",
+  "stars": "0",
+  "created_at": "2026-11-04",
+  "pin": "cc0949430dab2e3a63abe685d8817b0e273d77e8",
+  "fetch": {
+    "sha": "cc0949430dab2e3a63abe685d8817b0e273d77e8",
+    "commit_date": "2026-11-07T23:39:33+01:00",
+    "first_commit_date": "2026-11-04T19:39:40Z",
+    "commits_to_pin": 63,
+    "ai_commits_to_pin": 56,
+    "ai_commit_share": 0.8889,
+    "ai_agents": [
+      "openhands"
+    ]
+  },
+  "inventory": {
+    "prod_files": 147,
+    "test_files": 31,
+    "skipped": 7,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 147,
+      "lines": 20577,
+      "code": 17121,
+      "comment": 1997,
+      "blank": 1473
+    },
+    "test": {
+      "files": 31,
+      "lines": 7642,
+      "code": 6057,
+      "comment": 748,
+      "blank": 850
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 0,
+        "seconds": 116.2
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 1,
+        "seconds": 20.212
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 1,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS5103": 1
+    },
+    "files_with_errors": 1,
+    "timed_out": false,
+    "project_files_checked": 108
+  },
+  "test": {
+    "cmd": "corepack pnpm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 75.4
+  },
+  "mutation": {
+    "sample_files": [
+      "actions/view-screen.ts",
+      "actions/provider-api-request.ts",
+      "app/i18n/zh-TW.ts",
+      "server/casefile/access.ts",
+      "app/components/layout/AgentInspector.tsx",
+      "app/i18n/pt-BR.ts"
+    ],
+    "sample_lines": 448,
+    "framework_versions": {
+      "vitest": "4.1.12",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": null,
+    "status": "timeout",
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 1,
+        "seconds": 9.577,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 143,
+        "seconds": 1338.397,
+        "timed_out": true
+      }
+    ]
+  }
+}

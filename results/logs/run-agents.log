@@ -1,0 +1,203 @@
+[00:36:04] A01: fetch shenald-dev/shen-ai @ HEAD
+[00:36:04] A02: fetch primer/agent-eval @ HEAD[00:36:04] A03: fetch galiprandi/acp-connector @ HEAD
+
+[00:36:10] A03: loc prod=5879 test=7581
+[00:36:10] A01: loc prod=20834 test=757
+[00:36:14] A02: loc prod=14664 test=10099
+[00:36:18] A03: lint exit=0
+[00:36:18] A01: lint exit=0
+[00:36:19] A03: dup ok=True
+[00:36:19] A03: install (pnpm, lock=pnpm-lock.yaml)
+[00:36:22] A01: dup ok=True
+[00:36:22] A01: install (npm, lock=package-lock.json)
+[00:36:24] A02: lint exit=0
+[00:36:26] A02: dup ok=True
+[00:36:26] A02: install (pnpm, lock=pnpm-lock.yaml)
+[00:36:27] A03: install ok=True level=0
+[00:36:31] A03: tsc errors=0
+[00:36:39] A01: install ok=True level=0
+[00:36:45] A01: tsc errors=0
+[00:36:54] A01: test passed=True
+[00:36:54] A01: mutation testing
+[00:36:54] A03: test passed=True
+[00:36:54] A03: mutation testing
+[00:36:55] A02: install ok=True level=0
+[00:36:56] A02: tsc errors=35
+[00:37:28] A02: test passed=False
+[00:37:31] A02: DONE
+[00:37:31] A04: fetch arii/tech-dancer @ HEAD
+[00:37:34] A03: mutation status=ok score=0.44
+[00:37:36] A03: DONE
+[00:37:36] A05: fetch stacktora/parts-ledger-demo @ HEAD
+[00:37:40] A05: loc prod=652 test=216
+[00:37:43] A05: lint exit=0
+[00:37:43] A05: dup ok=True
+[00:37:43] A05: install (npm, lock=none)
+[00:37:56] A04: loc prod=25360 test=5659
+[00:38:01] A05: install ok=True level=0
+[00:38:03] A05: tsc errors=525
+[00:38:04] A05: test passed=True
+[00:38:04] A05: mutation testing
+[00:38:07] A04: lint exit=0
+[00:38:08] A05: mutation status=failed score=None
+[00:38:09] A05: DONE
+[00:38:09] A06: fetch jzhen648-creator/pathfinder @ HEAD
+[00:38:11] A04: dup ok=True
+[00:38:11] A04: install (pnpm, lock=pnpm-lock.yaml)
+[00:38:14] A04: install ok=False level=None
+[00:38:17] A06: loc prod=4951 test=4775
+[00:38:18] A04: tsc errors=1529
+[00:38:18] A04: test passed=False
+[00:38:19] A04: DONE
+[00:38:19] A07: fetch llecalvez-dotcom/nami @ HEAD
+[00:38:22] A06: lint exit=0
+[00:38:26] A06: dup ok=True
+[00:38:26] A06: install (npm, lock=package-lock.json)
+[00:38:28] A07: loc prod=12900 test=8622
+[00:38:42] A07: lint exit=0
+[00:38:46] A07: dup ok=True
+[00:38:46] A07: install (npm, lock=package-lock.json)
+[00:39:01] A06: install ok=True level=0
+[00:39:06] A06: tsc errors=0
+[00:39:11] A06: test passed=True
+[00:39:11] A06: mutation testing
+[00:39:11] A07: install ok=True level=0
+[00:39:19] A07: tsc errors=10
+[00:39:32] A07: test passed=True
+[00:39:32] A07: mutation testing
+[00:42:39] A07: mutation status=ok score=0.15085158150851583
+[00:42:44] A07: DONE
+[00:42:44] A08: fetch maorun/buisness-calculation @ HEAD
+[00:42:50] A08: loc prod=7479 test=3699
+[00:43:00] A08: lint exit=0
+[00:43:02] A08: dup ok=True
+[00:43:02] A08: install (npm, lock=package-lock.json)
+[00:43:30] A08: install ok=True level=0
+[00:43:36] A08: tsc errors=6
+[00:43:41] A08: test passed=True
+[00:43:41] A08: mutation testing
+[00:43:51] A06: mutation status=ok score=0
+[00:43:54] A06: DONE
+[00:43:54] A09: fetch Butlr-app/my-butlr @ HEAD
+[00:44:04] A09: loc prod=28559 test=768
+[00:44:18] A09: lint exit=0
+[00:44:24] A09: dup ok=True
+[00:44:24] A09: install (npm, lock=package-lock.json)
+[00:44:38] A09: install ok=True level=0
+[00:44:55] A09: tsc errors=0
+[00:45:01] A09: test passed=True
+[00:45:01] A09: mutation testing
+[00:59:21] A01: mutation status=timeout score=None
+[00:59:34] A01: DONE[00:59:34] A10: fetch Phazzie/Apophenia @ HEAD
+
+[01:07:28] A09: mutation status=timeout score=None
+[01:07:33] A09: DONE
+[01:07:33] A11: fetch pranjalken32/HPA_CABS @ HEAD
+[01:07:43] A11: loc prod=9528 test=746
+[01:08:00] A11: lint exit=0
+[01:08:03] A11: dup ok=True
+[01:08:03] A11: install (npm, lock=package-lock.json)
+[01:08:34] A11: install ok=True level=0
+[01:08:48] A11: tsc errors=0
+[01:08:51] A11: test passed=True
+[01:08:51] A11: mutation testing
+[01:15:53] A10: loc prod=None test=None
+[01:15:58] A10: lint exit=0
+[01:16:00] A10: dup ok=False
+[01:16:00] A10: install (npm, lock=package-lock.json)
+[01:16:13] A10: install ok=True level=2
+[01:16:15] A10: tsc errors=1
+[01:16:16] A10: test passed=False
+[01:16:17] A10: DONE
+[01:16:17] A12: fetch g1gowda123/Neoblocker @ HEAD
+[01:16:32] A12: loc prod=2537 test=416
+[01:16:40] A12: lint exit=0
+[01:16:43] A12: dup ok=True
+[01:16:43] A12: install (npm, lock=package-lock.json)
+[01:18:08] A12: install ok=True level=0
+[01:18:14] A12: tsc errors=0
+[01:18:18] A12: test passed=True
+[01:18:18] A12: mutation testing
+[01:19:40] A12: mutation status=ok score=0.3294392523364486
+[01:19:43] A12: DONE
+[01:19:43] A13: fetch daniel-saezv/proto-lab @ HEAD
+[01:20:16] A13: loc prod=24989 test=11085
+[01:21:04] A13: lint exit=0
+[01:21:15] A13: dup ok=True
+[01:21:15] A13: install (pnpm, lock=pnpm-lock.yaml)
+[01:21:36] A13: install ok=True level=0
+[01:21:50] A13: tsc errors=1
+[01:22:16] A13: test passed=False
+[01:22:18] A13: DONE
+[01:22:18] A14: fetch LucasBallario/Costly @ HEAD
+[01:22:29] A14: loc prod=4614 test=365
+[01:22:37] A14: lint exit=0
+[01:22:40] A14: dup ok=True
+[01:22:40] A14: install (npm, lock=package-lock.json)
+[01:23:50] A14: install ok=True level=0
+[01:24:03] A14: tsc errors=19
+[01:24:08] A14: test passed=False
+[01:24:13] A14: DONE
+[01:24:13] A15: fetch weijhih0403/chunmade @ HEAD
+[01:24:32] A15: loc prod=15931 test=313
+[01:24:50] A15: lint exit=0
+[01:25:15] A15: dup ok=True
+[01:25:15] A15: install (npm, lock=package-lock.json)
+[01:26:40] A15: install ok=True level=0
+[01:27:06] A15: tsc errors=298
+[01:27:12] A15: test passed=False
+[01:27:19] A15: DONE
+[01:27:19] A16: fetch itzebe/Casefile @ HEAD
+[01:28:02] A16: loc prod=17121 test=6057
+[01:28:28] A08: mutation status=timeout score=None
+[01:28:36] A16: lint exit=0
+[01:28:45] A16: dup ok=True
+[01:28:45] A16: install (pnpm, lock=pnpm-lock.yaml)
+[01:28:52] A08: DONE
+[01:28:52] A17: fetch tofarr/galexp3 @ HEAD
+[01:29:08] A17: loc prod=3905 test=1964
+[01:29:22] A17: lint exit=0
+[01:29:26] A17: dup ok=True
+[01:29:26] A17: install (npm, lock=package-lock.json)
+[01:30:09] A17: install ok=True level=0
+[01:30:18] A17: tsc errors=0
+[01:30:27] A17: test passed=True
+[01:30:27] A17: mutation testing
+[01:30:41] A16: install ok=True level=0
+[01:31:01] A16: tsc errors=1
+[01:31:23] A11: mutation status=timeout score=None
+[01:31:38] A11: DONE
+[01:31:38] A18: fetch andrewkchan/pufflang @ HEAD
+[01:31:55] A18: loc prod=7474 test=8472
+[01:32:13] A18: lint exit=0
+[01:32:15] A18: dup ok=True
+[01:32:15] A18: install (npm, lock=package-lock.json)
+[01:32:17] A16: test passed=True
+[01:32:17] A16: mutation testing
+[01:32:21] A18: install ok=True level=0
+[01:32:26] A18: tsc errors=3
+[01:33:05] A17: mutation status=ok score=0.15037593984962405
+[01:33:10] A17: DONE
+[01:33:10] A19: fetch DrunkCodes/Multi-Store-Price-Tracker-Amazon-eBay-Newegg-Shopify @ HEAD
+[01:33:20] A19: loc prod=3227 test=0
+[01:33:28] A19: lint exit=0
+[01:33:31] A19: dup ok=True
+[01:33:31] A19: install (npm, lock=package-lock.json)
+[01:34:46] A19: install ok=True level=0
+[01:34:53] A19: tsc errors=0
+[01:34:53] A19: test passed=False
+[01:34:58] A20: fetch lelion13/app-telemedicina @ HEAD
+[01:34:58] A19: DONE
+[01:35:10] A20: loc prod=7474 test=785
+[01:35:16] A18: test passed=False
+[01:35:17] A18: DONE
+[01:35:19] A20: lint exit=0
+[01:35:36] A20: dup ok=True
+[01:35:36] A20: install (npm, lock=package-lock.json)
+[01:36:19] A20: install ok=True level=0
+[01:36:31] A20: tsc errors=5
+[01:36:37] A20: test passed=False
+[01:36:42] A20: DONE
+[01:54:47] A16: mutation status=timeout score=None
+[01:54:59] A16: DONE
+failures: none

@@ -1,0 +1,122 @@
+{
+  "repo_id": "A09",
+  "group": "llm",
+  "full_name": "Butlr-app/my-butlr",
+  "stars": "0",
+  "created_at": "2026-06-24",
+  "pin": "9a073839a60f2c2091c10797c89387fa69d3ec27",
+  "fetch": {
+    "sha": "9a073839a60f2c2091c10797c89387fa69d3ec27",
+    "commit_date": "2026-07-13T22:20:35+02:00",
+    "first_commit_date": "2026-06-23T16:11:47Z",
+    "commits_to_pin": 220,
+    "ai_commits_to_pin": 187,
+    "ai_commit_share": 0.85,
+    "ai_agents": [
+      "cursor",
+      "devin"
+    ]
+  },
+  "inventory": {
+    "prod_files": 139,
+    "test_files": 13,
+    "skipped": 3,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 139,
+      "lines": 31421,
+      "code": 28559,
+      "comment": 266,
+      "blank": 2602
+    },
+    "test": {
+      "files": 13,
+      "lines": 945,
+      "code": 768,
+      "comment": 3,
+      "blank": 174
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 14.2
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "6.0.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.app.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 14.302
+      },
+      {
+        "tsconfig": "tsconfig.node.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 0.978
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 153
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 6.0
+  },
+  "mutation": {
+    "sample_files": [
+      "src/components/ui/Skeleton.tsx",
+      "src/lib/contractPdf.ts"
+    ],
+    "sample_lines": 607,
+    "framework_versions": {
+      "vitest": "4.1.9",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": null,
+    "status": "timeout",
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 1,
+        "seconds": 10.174,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 143,
+        "seconds": 1336.12,
+        "timed_out": true
+      }
+    ]
+  }
+}

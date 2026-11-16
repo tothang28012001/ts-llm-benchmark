@@ -1,0 +1,21 @@
+repo_id,group,full_name,stars,created_at,ts_bytes,commits,ai_commit_share_last100,ai_agents,main_agent,ai_models,test_runner,pin,pin_date
+A01,llm,shenald-dev/shen-ai,3,2026-06-01,991066,44,0.591,jules,jules,,jest,53b697d0dcaa9be85218e1b85c7688b2e8ced1a5,2026-11-08
+A02,llm,primer/agent-eval,2,2026-05-15,931947,354,0.5,copilot,copilot,,vitest,169d934f72318ba9a2f9be0a71e2b0eaf318a587,2026-11-06
+A03,llm,galiprandi/acp-connector,1,2026-09-06,541025,112,0.67,devin,devin,,vitest,fde65fefa1a1ee16273bb4ad8e612868cccb30f1,2026-11-08
+A04,llm,arii/tech-dancer,0,2026-04-16,1450270,1594,0.63,jules,jules,,vitest,acc8e25fbc599389d9dbc8e791ac6825caaea49b,2026-11-07
+A05,llm,stacktora/parts-ledger-demo,0,2026-09-06,50336,729,0.6,aider;claude-code;codex;copilot;cursor;devin,copilot,,vitest,7bd196556d66141414061ced24919f6d271a4d2d,2026-09-05
+A06,llm,jzhen648-creator/pathfinder,0,2026-05-07,426721,393,0.57,claude-code;cursor,cursor,claude fable 5=22,vitest,806b33a7438806bdc8332fec1213f18ab04d70ad,2026-09-06
+A07,llm,llecalvez-dotcom/nami,0,2026-11-07,1161728,350,0.85,claude-code;devin,devin,claude opus 5.5=12,vitest,961381be994bab48cea53f4c6ba3dfe226d16a33,2026-11-08
+A08,llm,maorun/buisness-calculation,0,2026-05-10,578411,236,0.56,copilot;jules,copilot,,jest,4e402c6eee7464324501a72ffc3604a2732b9445,2026-11-08
+A09,llm,Butlr-app/my-butlr,0,2026-06-24,1329806,220,0.9,cursor;devin,devin,,vitest,9a073839a60f2c2091c10797c89387fa69d3ec27,2026-07-13
+A10,llm,Phazzie/Apophenia,0,2025-07-29,1054998,164,0.71,claude-code;copilot;jules,copilot,,vitest,db4955538063c03ab69a126e2634d4892d834d93,2026-03-04
+A11,llm,pranjalken32/HPA_CABS,0,2026-06-06,453583,155,0.62,devin,devin,,vitest,b26b6324e6ec3effa804f15b5e54007f48bc1786,2026-10-18
+A12,llm,g1gowda123/Neoblocker,0,2026-05-15,114808,128,0.7,jules,jules,,vitest,e94b6115afbeb9d390177524ca5b086a1c6cc23b,2026-10-30
+A13,llm,daniel-saezv/proto-lab,0,2026-10-30,1478165,106,0.81,copilot;cursor,cursor,,vitest,f19345e6f164e01dd5407efab3adab949385962d,2026-11-07
+A14,llm,LucasBallario/Costly,0,2026-06-24,188525,90,0.889,cursor,cursor,,jest,f2a221a9a2475ed33e86a8a93d72209936dd244b,2026-07-01
+A15,llm,weijhih0403/chunmade,0,2026-05-07,600101,81,1.0,cursor,cursor,,vitest,cb9bd0fd7c73aaba8bfa38e832b79511fb714cb0,2026-07-05
+A16,llm,itzebe/Casefile,0,2026-11-04,1014833,63,0.889,openhands,openhands,,vitest,cc0949430dab2e3a63abe685d8817b0e273d77e8,2026-11-07
+A17,llm,tofarr/galexp3,0,2026-06-28,280364,23,1.0,openhands,openhands,,vitest,c0cf7c7d72215da465acc053859853d1cb49b850,2026-07-01
+A18,llm,andrewkchan/pufflang,0,2025-12-29,560872,15,0.933,cursor,cursor,,jest,9c320f70d8fa8c01c21a2b5adc0896112e971ef5,2026-01-01
+A19,llm,DrunkCodes/Multi-Store-Price-Tracker-Amazon-eBay-Newegg-Shopify,0,2026-06-30,213276,14,1.0,cursor,cursor,,jest,868ec84a8888edac4f98ac437bf03d7e64c32081,2026-07-07
+A20,llm,lelion13/app-telemedicina,0,2026-06-29,291479,12,0.583,cursor,cursor,,vitest,14805006b4a1775757debc206efb5aeb63e563c4,2026-07-03

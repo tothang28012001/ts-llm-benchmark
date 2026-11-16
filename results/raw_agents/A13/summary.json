@@ -1,0 +1,89 @@
+{
+  "repo_id": "A13",
+  "group": "llm",
+  "full_name": "daniel-saezv/proto-lab",
+  "stars": "0",
+  "created_at": "2026-10-30",
+  "pin": "f19345e6f164e01dd5407efab3adab949385962d",
+  "fetch": {
+    "sha": "f19345e6f164e01dd5407efab3adab949385962d",
+    "commit_date": "2026-11-07T17:57:48+01:00",
+    "first_commit_date": "2026-10-30T18:26:29+01:00",
+    "commits_to_pin": 106,
+    "ai_commits_to_pin": 85,
+    "ai_commit_share": 0.8019,
+    "ai_agents": [
+      "copilot",
+      "cursor"
+    ]
+  },
+  "inventory": {
+    "prod_files": 126,
+    "test_files": 78,
+    "skipped": 8,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 126,
+      "lines": 28227,
+      "code": 24989,
+      "comment": 872,
+      "blank": 2366
+    },
+    "test": {
+      "files": 78,
+      "lines": 12027,
+      "code": 11085,
+      "comment": 26,
+      "blank": 916
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 0,
+        "seconds": 21.8
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 1,
+        "seconds": 14.47
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 1,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2488": 1
+    },
+    "files_with_errors": 1,
+    "timed_out": false,
+    "project_files_checked": 61
+  },
+  "test": {
+    "cmd": "corepack pnpm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 25.6
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

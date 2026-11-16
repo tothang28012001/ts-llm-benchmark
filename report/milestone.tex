@@ -3,15 +3,15 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \begin{document}
-\title{Benchmarking Human-Written and LLM-Generated TypeScript Projects: Milestone Progress Report}
+\title{Human-Written vs. LLM-Generated TypeScript Projects: An Empirical Study}
 \author{\IEEEauthorblockN{Simon Xie, Sukhdip Kandola, Thang To}\IEEEauthorblockA{CMPT 479 D100, School of Computing Science, Simon Fraser University, Burnaby, BC, Canada}}
 \maketitle
 
 \begin{abstract}
-This milestone report documents our progress on an empirical benchmark that compares human-written and LLM-generated TypeScript projects. We have (i) built an automated, Docker-isolated pipeline. It clones each repository at a pinned commit, installs it from its own lockfile, and measures compilation (\texttt{tsc}), code quality (ESLint with typescript-eslint and SonarSource rules), maintainability (cyclomatic and cognitive complexity, duplication, comment density) and test effectiveness (the project's own tests and StrykerJS mutation testing). (ii) We assembled a size-matched dataset of 12 human-written repositories pinned before 2021 and 12 agent-built repositories, whose authorship we verify from AI co-author commit trailers. (iii) We ran the pipeline on all 24 repositories. In preliminary results, the LLM group has far fewer lint violations per KLOC (median 42.8 vs. 7.6) but more complex functions (mean cyclomatic complexity 1.96 vs. 2.85). Its own test suites also pass more often on a current Node.js (8/12 vs. 5/12), largely because old human suites have decayed. We found no significant difference in duplication, comment density, test-to-code ratio or compiler errors. The report ends with the remaining work toward the final paper.
+This milestone report documents our progress on an empirical study that compares human-written and LLM-generated TypeScript projects. It is observational: we measure existing open-source projects rather than score models on fixed tasks, and the reusable artefact is the measurement pipeline with its frozen dataset. We have (i) built an automated, Docker-isolated pipeline. It clones each repository at a pinned commit, installs it from its own lockfile, and measures compilation (\texttt{tsc}), code quality (ESLint with typescript-eslint and SonarSource rules), maintainability (cyclomatic and cognitive complexity, duplication, comment density) and test effectiveness (the project's own tests and StrykerJS mutation testing). (ii) We assembled a size-matched dataset of 12 human-written repositories pinned before 2021 and 12 agent-built repositories, whose authorship we verify from AI co-author commit trailers. (iii) We ran the pipeline on all 24 repositories. (iv) After our proposal presentation we added an automated search of agent commit signatures and measured 19 more projects built by five other agents (Cursor, Devin, Copilot, Jules, OpenHands). In preliminary results, the LLM group has far fewer lint violations per KLOC (median 42.8 vs. 7.6) but more complex functions (mean cyclomatic complexity 1.96 vs. 2.85). Its own test suites also pass more often on a current Node.js (8/12 vs. 5/12), largely because old human suites have decayed. We found no significant difference in duplication, comment density, test-to-code ratio or compiler errors. Projects from the other agents resemble the Claude Code projects on every quality measure, but fewer of them compile cleanly (8/19 vs. 10/12).
 \end{abstract}
 \begin{IEEEkeywords}
-LLM-generated code, TypeScript, empirical software engineering, static analysis, mutation testing, benchmark
+LLM-generated code, TypeScript, empirical software engineering, static analysis, mutation testing, mining software repositories
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -40,6 +40,7 @@ Phase (from proposal) & Status & Evidence \\
 3. Infrastructure & Done & Dockerized pipeline, open-source repository \\
 4. Evaluation & First full run done & All 24 repos, all stages \\
 5. Analysis and reporting & In progress & Preliminary statistics (Sec. IV) \\
++ Other agents (feedback) & First run done & 19 projects, 5 agents (Sec. II-D, IV-D) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -54,8 +55,11 @@ The proposal classified projects by release date alone, which is unreliable. For
 \subsection{Selection and matching}
 Selection is deterministic (\texttt{bench/select\_repos.py}). We take the 12 most-starred eligible LLM repositories and pair each with the not-yet-chosen eligible human repository ($\geq$100 stars) closest in TypeScript size on a log scale. Twelve per group exceeds the proposal's target of ten, which leaves spares if a project cannot be analysed. Table~II lists the frozen dataset. Production code ranges from 0.5 to 17.0 KLOC (median 6.1 human vs. 7.8 LLM), and the analysed commit SHAs are in \texttt{dataset/repos.csv}.
 
+\subsection{Reaching other agents}
+README phrases mostly find Claude Code projects, so feedback on our proposal presentation asked whether the study covers other, less popular tools. We therefore added a second, fully automated discovery route (\texttt{discover.py --by-trailer}). It searches GitHub's commit index for each agent's own signature (aider, OpenHands, Gemini, Jules, Codex, Copilot, Cursor, Devin and Windsurf) in half-year windows from 2025 on, then keeps non-fork TypeScript repositories created in 2025 or later. This gave 1,409 candidates. The unchanged screening rules accepted 32. Of these, the 20 whose main agent is not Claude Code and whose tests StrykerJS can drive form a third group, A01--A20 (\texttt{dataset/repos\_agents.csv}), in star order and without size matching. One project (A10) commits its \texttt{node\_modules} folder and could not be measured, which leaves 19: Cursor~7, Devin~4, Jules~3, Copilot~3, OpenHands~2. Signatures rarely name the underlying model. Only aider records it, and none of its candidates passed screening, so this extension broadens the \emph{agents} studied more than the \emph{models}.
+
 \begin{table}[t]
-\caption{Benchmarked repositories (KLOC: production code; Test: test-code KLOC; AI\%: agent-attributed commits up to the pin)}
+\caption{Studied repositories (KLOC: production code; Test: test-code KLOC; AI\%: agent-attributed commits up to the pin)}
 \label{tab:dataset}
 \centering
 \scriptsize
@@ -92,7 +96,7 @@ L12 & cjy20040604-hub/eyes-training & 2026-10-18 & 15.2 & 6.8 & 100 \\
 \end{tabular}
 \end{table}
 
-\section{Benchmark Infrastructure}
+\section{Measurement Pipeline}
 The pipeline follows the proposed design (retrieve $\rightarrow$ install $\rightarrow$ build and test $\rightarrow$ collect) and is fully automated in Python (\texttt{bench/run.py}). Each repository is cloned on the host without blobs and checked out at its pin, with line-ending conversion disabled. It is then copied into a \emph{fresh container} built from our image (Node~22 plus the pinned toolchain). The host copy is mounted read-only and the container is discarded afterwards, so install scripts, tests and mutants never touch the host. Stages are resumable, and all raw artefacts are kept per repository. Code, dataset and results are public at \texttt{github.com/tothang28012001/ts-llm-benchmark}. The stages are:
 
 \begin{itemize}
@@ -160,12 +164,37 @@ Mutation testing produced a score for 12 of the 13 projects with a passing suite
 \subsection{RQ3: Compilation}
 Dependency installation succeeded for 10/12 human and 12/12 LLM projects. With each project's own compiler and configuration, 10/12 LLM and 7/12 human projects type-check with zero errors (Fisher exact \emph{p}~=~0.371). Counting only errors located in project files, 10/12 and 9/12 are clean. Errors per KLOC do not differ significantly (median 0.00 vs. 0.00, Cliff's~$\delta$~=~-0.03 (negligible), Holm \emph{p}~=~1.000). The volume and causes do differ. The human group has 925 errors, nearly all attributable to decay or missing context. H07 and H10 cannot install, so 724 errors are unresolved modules and type definitions (\texttt{TS2307}, \texttt{TS2339}, \texttt{TS2688}). H02 and H05 report errors only inside \texttt{node\_modules}: today's \texttt{@types} packages use syntax their pinned TypeScript (2.4.2, 4.9.5) cannot parse. H04 imports a sibling repository that is not part of its checkout (10 errors) and has 5 ordinary type errors. The LLM group has only 7 errors in two projects, all in project files: an import of a file produced by a build step, two \texttt{unknown} values passed as \texttt{string} (L06), and a Vite config missing Node type definitions (L11). Our preliminary answer to RQ3 is therefore \emph{no}. LLM projects do not have more compilation errors. The few they have are genuine type or configuration mistakes, whereas the human projects' errors come from environment decay.
 
+\subsection{Extension: other coding agents}
+\begin{table}[t]
+\caption{Human vs. Claude Code vs. other agents (medians; Holm p for the other-agent group, Fisher p for compiling)}
+\label{tab:agents}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{lccccc}
+\toprule
+Metric & Human & Claude & Other & p vs. H & p vs. C \\
+\midrule
+Lint violations / KLOC & 42.8 & 7.6 & 4.8 & \textless{}0.001 & 1.000 \\
+Explicit \texttt{any} / KLOC & 18.2 & 0.0 & 0.0 & \textless{}0.001 & 1.000 \\
+Mean cyclomatic compl. & 1.96 & 2.85 & 3.05 & \textless{}0.001 & 1.000 \\
+\% functions CC \textgreater{} 10 & 0.6 & 4.1 & 4.3 & 0.001 & 1.000 \\
+Duplicated lines (\%) & 0.47 & 0.55 & 1.77 & 1.000 & 1.000 \\
+Test-to-code ratio & 0.44 & 0.62 & 0.33 & 1.000 & 0.481 \\
+Compiles cleanly & 7/12 & 10/12 & 8/19 &  & 0.032 \\
+Own tests pass & 5/12 & 8/12 & 11/19 &  &  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~IV compares the three groups with the same metrics and tests (\texttt{bench/compare\_agents.py}). The other agents reproduce the main comparison. Against the human group they have far fewer lint violations ($\delta$~=~-0.99) and more complex functions ($\delta$~=~+0.90), and 11 of 18 metrics differ after Holm correction. Against Claude Code, none of the 18 metrics differ. The one clear difference is compilation: only 8 of 19 other-agent projects type-check without errors, against 10 of 12 Claude Code projects (Fisher \emph{p}~=~0.032). Mutation testing produced a valid score for only 5 of the 11 projects whose tests pass (median 0.15). In most of the others, no test imports the sampled files, so Stryker found nothing to run. The quality profile we observe therefore appears to be shared by current coding agents rather than specific to Claude Code, although these projects are less popular (almost all have 0--3 stars).
+
 \section{Threats to Validity}
 \begin{itemize}
 \item \textbf{Construct.} Agent trailers show that an agent co-authored commits, not that it wrote every line. Humans may edit agent output, so the LLM group is best described as \emph{agent-assisted}.
 \item \textbf{Era confounding.} The human group is necessarily older (2017--2020 code, older TypeScript and dependencies). Era-neutral rules and era-matched test runs partly control for this. A contemporary human group cannot be verified to be AI-free.
 \item \textbf{Internal.} Install fallbacks (e.g., \texttt{--legacy-peer-deps}) and modern Node versions can change outcomes. Every fallback level is logged and reported.
-\item \textbf{External.} Twelve star-selected projects per group do not represent all TypeScript code. The LLM projects are younger and less popular, and “built with” marketing may favor showcase projects.
+\item \textbf{External.} Twelve star-selected projects per group do not represent all TypeScript code. The LLM projects are younger and less popular, and “built with” marketing may favor showcase projects. The other-agent group is less popular still and is not size-matched.
 \item \textbf{Conclusion.} The samples are small, so we report effect sizes and Holm-corrected \emph{p}-values, and frame the results as exploratory.
 \end{itemize}
 
@@ -173,6 +202,7 @@ Dependency installation succeeded for 10/12 human and 12/12 LLM projects. With e
 \begin{itemize}
 \item \textbf{By Nov.~20:} extend mutation testing to every suite that passes under its era-matched Node, using an older Stryker release where required, and manually validate the production/test file classifier on a sample of files.
 \item \textbf{By Nov.~24:} sensitivity analyses (per-file normalization, star-matched subsets, a stricter LLM sample with $\geq$90\% agent commits), plus a qualitative review of the most frequent violations and compiler errors mapped to the bug taxonomy of [1].
+\item \textbf{Other agents:} restrict the mutation sample to files that some test reaches, so the other-agent group gets enough mutation scores. Studying less popular \emph{models} needs projects we generate ourselves with open models, which we will scope as future work in the final paper.
 \item \textbf{Nov.~27 / Dec.~4:} final presentation of findings, limitations and conclusions.
 \item \textbf{By Dec.~7:} the 4-page IEEE paper (this report's LaTeX source already uses \texttt{IEEEtran}) and a tagged release of the repository (pipeline, dataset and raw results) as the project artefact.
 \end{itemize}

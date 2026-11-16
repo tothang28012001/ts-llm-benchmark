@@ -1,0 +1,1 @@
+{"eslint_version":"9.39.5","files_linted":0,"fatal_parse_errors":{"prod":0,"test":0},"violations":{"prod":{},"test":{}},"rule_type":{"sonarjs/cognitive-complexity":"suggestion"},"cyclomatic":[],"cognitive":[],"functions_prod":0}

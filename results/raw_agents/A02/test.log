@@ -1,0 +1,321 @@
+$ vitest
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90m/work[39m
+
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/copilot-cli.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/trial/run.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 67[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/vitest.test.ts [2m([22m[2m24 tests[22m[2m)[22m[32m 61[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/check.test.ts [2m([22m[2m57 tests[22m[2m)[22m[32m 51[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/system.test.ts [2m([22m[2m31 tests[22m[2m)[22m[32m 114[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/experiment/output.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/eslint.test.ts [2m([22m[2m23 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/benchmark/plan.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 56[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/experiment/report.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 44[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/experiment/plan.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 66[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/benchmark/output.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 19[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/load.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/copilot-sdk.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/agent.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/cli/setup.test.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/config.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/list.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [31m❯[39m [30m[46m agent-eval [49m[39m src/logger.test.ts [2m([22m[2m15 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 27[2mms[22m[39m
+   [32m✓[39m getLogger [2m(1)[22m
+     [32m✓[39m returns the default logger disabled during tests[32m 2[2mms[22m[39m
+   [32m✓[39m withLogger [2m(3)[22m
+     [32m✓[39m uses the scoped logger and returns the callback result[32m 2[2mms[22m[39m
+     [32m✓[39m restores the outer context when a nested callback throws[32m 2[2mms[22m[39m
+     [32m✓[39m isolates overlapping asynchronous contexts[32m 1[2mms[22m[39m
+   [31m❯[39m span [2m(3)[22m
+[31m     [31m×[31m adds bindings to the active logger and restores it when the block exits[39m[32m 6[2mms[22m[39m
+[31m     [31m×[31m restores the previous context when the block throws[39m[32m 6[2mms[22m[39m
+[31m     [31m×[31m inherits nested bindings and restores each parent context[39m[32m 0[2mms[22m[39m
+   [32m✓[39m logging functions [2m(8)[22m
+     [32m✓[39m error forwards structured errors to the scoped logger[32m 1[2mms[22m[39m
+     [32m✓[39m debug forwards message-only formatting arguments[32m 1[2mms[22m[39m
+     [32m✓[39m trace forwards arguments to the scoped logger[32m 1[2mms[22m[39m
+     [32m✓[39m debug forwards arguments to the scoped logger[32m 0[2mms[22m[39m
+     [32m✓[39m info forwards arguments to the scoped logger[32m 0[2mms[22m[39m
+     [32m✓[39m warn forwards arguments to the scoped logger[32m 0[2mms[22m[39m
+     [32m✓[39m error forwards arguments to the scoped logger[32m 0[2mms[22m[39m
+     [32m✓[39m fatal forwards arguments to the scoped logger[32m 2[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/glob.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/scenario.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/model.test.ts [2m([22m[2m35 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/image.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/vitest.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/host.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 40[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/path.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/report/format.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/virtual.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/reference-files.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/ui/index.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 19[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/shard.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [31m❯[39m [30m[46m agent-eval [49m[39m src/config.test.ts [2m([22m[2m4 tests[22m[2m | [22m[31m4 failed[39m[2m)[22m[33m 1926[2mms[22m[39m
+[31m   [31m×[31m benchmark defineConfig emits portable consumer declarations[39m[33m 792[2mms[22m[39m
+[31m   [31m×[31m scenario experiment defineConfig emits portable consumer declarations[39m[33m 513[2mms[22m[39m
+[31m   [31m×[31m benchmark experiment defineConfig emits portable consumer declarations[39m[33m 302[2mms[22m[39m
+[31m   [31m×[31m scenario defineConfig emits portable consumer declarations[39m[33m 318[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/captured-stream.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/plan.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/images/sandbox.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/package-manager.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/feature-flag/flags.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/feature-flag/enabled.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/mcp-config.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/hash.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/constants.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/cli/options.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/exhaustive.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/judge.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/path.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/package.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/sandbox/index.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
+ [31m❯[39m [30m[43m website [49m[39m src/result-files.test.ts [2m([22m[2m0 test[22m[2m)[22m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/cli/commands/agent.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
+ [31m❯[39m [30m[43m website [49m[39m src/app/components/RunDetailsPage.test.tsx [2m([22m[2m0 test[22m[2m)[22m
+ [31m❯[39m [30m[43m website [49m[39m src/workspace-files.test.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31m❯[39m [30m[43m website [49m[39m src/run-details.test.ts [2m([22m[2m0 test[22m[2m)[22m
+ [32m✓[39m [30m[43m website [49m[39m src/file-preview-routes.test.ts [2m([22m[2m34 tests[22m[2m)[22m[32m 254[2mms[22m[39m
+ [31m❯[39m [30m[43m website [49m[39m src/benchmark-results.test.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31m❯[39m [30m[43m website [49m[39m src/run-assets.test.ts [2m([22m[2m0 test[22m[2m)[22m
+ [31m❯[39m [30m[43m website [49m[39m src/experiment-results.test.ts [2m([22m[2m0 test[22m[2m)[22m
+ [32m✓[39m [30m[43m website [49m[39m src/runs.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 81[2mms[22m[39m
+ [32m✓[39m [30m[43m website [49m[39m src/app/components/FilePreview.test.tsx [2m([22m[2m38 tests[22m[2m)[22m[33m 648[2mms[22m[39m
+ [31m❯[39m [30m[43m website [49m[39m src/app/components/ScenarioAnchors.test.tsx [2m([22m[2m0 test[22m[2m)[22m
+ [31m❯[39m [30m[43m website [49m[39m src/experiment-page-data.test.ts [2m([22m[2m0 test[22m[2m)[22m
+ [32m✓[39m [30m[43m website [49m[39m src/app/components/JudgeResults.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32m✓[39m [30m[43m website [49m[39m src/app/components/CheckResults.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m [30m[43m website [49m[39m src/run-data-client.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 72[2mms[22m[39m
+ [32m✓[39m [30m[43m website [49m[39m src/app/components/FileExplorer.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32m✓[39m [30m[43m website [49m[39m src/scenario-anchor.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[43m website [49m[39m src/app/components/Transcript.test.tsx [2m([22m[2m10 tests[22m[2m)[22m[32m 87[2mms[22m[39m
+ [32m✓[39m [30m[43m website [49m[39m src/app/layout.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m [30m[46m agent-eval [49m[39m src/scenario/checks.test.ts [2m([22m[2m34 tests[22m[2m)[22m[33m 26276[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-nextjs-template preserves the original outcomes on the untouched fixture[33m 588[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-vite-template preserves the original outcomes on the untouched fixture[33m 625[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-llm-as-a-judge preserves the original outcomes on the untouched fixture[33m 619[2mms[22m[39m
+   [33m[2m✓[22m[39m 001-agent-uses-button-from-primer preserves the original outcomes on the untouched fixture[33m 540[2mms[22m[39m
+   [33m[2m✓[22m[39m 002-agent-uses-octicon-from-primer preserves the original outcomes on the untouched fixture[33m 572[2mms[22m[39m
+   [33m[2m✓[22m[39m 003-agent-uses-form-from-primer preserves the original outcomes on the untouched fixture[33m 598[2mms[22m[39m
+   [33m[2m✓[22m[39m 004-agent-setup-nextjs preserves the original outcomes on the untouched fixture[33m 927[2mms[22m[39m
+   [33m[2m✓[22m[39m 005-agent-enables-theme-switching preserves the original outcomes on the untouched fixture[33m 971[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-nextjs-template accepts a representative passing implementation[33m 657[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-vite-template accepts a representative passing implementation[33m 694[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-llm-as-a-judge accepts a representative passing implementation[33m 673[2mms[22m[39m
+   [33m[2m✓[22m[39m 001-agent-uses-button-from-primer accepts a representative passing implementation[33m 712[2mms[22m[39m
+   [33m[2m✓[22m[39m 002-agent-uses-octicon-from-primer accepts a representative passing implementation[33m 804[2mms[22m[39m
+   [33m[2m✓[22m[39m 003-agent-uses-form-from-primer accepts a representative passing implementation[33m 681[2mms[22m[39m
+   [33m[2m✓[22m[39m 004-agent-setup-nextjs accepts a representative passing implementation[33m 733[2mms[22m[39m
+   [33m[2m✓[22m[39m 005-agent-enables-theme-switching accepts a representative passing implementation[33m 801[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-nextjs-template preserves support for alternate quoting[33m 739[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-vite-template preserves support for alternate quoting[33m 734[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-llm-as-a-judge preserves support for alternate quoting[33m 635[2mms[22m[39m
+   [33m[2m✓[22m[39m 001-agent-uses-button-from-primer preserves support for alternate quoting[33m 621[2mms[22m[39m
+   [33m[2m✓[22m[39m 002-agent-uses-octicon-from-primer preserves support for alternate quoting[33m 628[2mms[22m[39m
+   [33m[2m✓[22m[39m 003-agent-uses-form-from-primer preserves support for alternate quoting[33m 651[2mms[22m[39m
+   [33m[2m✓[22m[39m 004-agent-setup-nextjs preserves support for alternate quoting[33m 637[2mms[22m[39m
+   [33m[2m✓[22m[39m 005-agent-enables-theme-switching preserves support for alternate quoting[33m 608[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-nextjs-template reports missing source files instead of returning passing outcomes[33m 701[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-vite-template reports missing source files instead of returning passing outcomes[33m 627[2mms[22m[39m
+   [33m[2m✓[22m[39m 000-llm-as-a-judge reports missing source files instead of returning passing outcomes[33m 690[2mms[22m[39m
+   [33m[2m✓[22m[39m 001-agent-uses-button-from-primer reports missing source files instead of returning passing outcomes[33m 716[2mms[22m[39m
+   [33m[2m✓[22m[39m 002-agent-uses-octicon-from-primer reports missing source files instead of returning passing outcomes[33m 1002[2mms[22m[39m
+   [33m[2m✓[22m[39m 003-agent-uses-form-from-primer reports missing source files instead of returning passing outcomes[33m 1082[2mms[22m[39m
+   [33m[2m✓[22m[39m 004-agent-setup-nextjs reports missing source files instead of returning passing outcomes[33m 1607[2mms[22m[39m
+   [33m[2m✓[22m[39m 005-agent-enables-theme-switching reports missing source files instead of returning passing outcomes[33m 1551[2mms[22m[39m
+   [33m[2m✓[22m[39m a missing primary variant fails only the corresponding button outcome[33m 1124[2mms[22m[39m
+   [33m[2m✓[22m[39m a missing setup html element remains an individual failed outcome[33m 720[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Suites 9 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/benchmark-results.test.ts[2m [ website/src/benchmark-results.test.ts ][22m
+[31m[1mError[22m: Failed to resolve entry for package "@primer/agent-eval". The package may have incorrect main/module/exports specified in its package.json.[39m
+[36m [2m❯[22m src/result-files.ts:[2m12:5[22m[39m
+    [90m 10|[39m   ExperimentTrialOutputSchema,
+    [90m 11|[39m   parseExperimentTrialOutput,
+    [90m 12|[39m } = await import(
+    [90m   |[39m     [31m^[39m
+    [90m 13|[39m   /* turbopackIgnore: true */
+    [90m 14|[39m   '@primer/agent-eval'
+[90m [2m❯[22m src/benchmark-results.ts:[2m4:1[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/experiment-page-data.test.ts[2m [ website/src/experiment-page-data.test.ts ][22m
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/experiment-results.test.ts[2m [ website/src/experiment-results.test.ts ][22m
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/app/components/ScenarioAnchors.test.tsx[2m [ website/src/app/components/ScenarioAnchors.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve entry for package "@primer/agent-eval". The package may have incorrect main/module/exports specified in its package.json.[39m
+[36m [2m❯[22m src/check-results.ts:[2m4:3[22m[39m
+    [90m  2|[39m
+    [90m  3|[39m const {addCheckResults, createTrialSummary, createTrialSummaryComparat…
+    [90m  4|[39m   await import(
+    [90m   |[39m   [31m^[39m
+    [90m  5|[39m     /* turbopackIgnore: true */
+    [90m  6|[39m     '@primer/agent-eval'
+[90m [2m❯[22m src/experiment-results.ts:[2m2:1[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/result-files.test.ts[2m [ website/src/result-files.test.ts ][22m
+[31m[1mError[22m: Failed to resolve entry for package "@primer/agent-eval". The package may have incorrect main/module/exports specified in its package.json.[39m
+[36m [2m❯[22m src/result-files.ts:[2m12:5[22m[39m
+    [90m 10|[39m   ExperimentTrialOutputSchema,
+    [90m 11|[39m   parseExperimentTrialOutput,
+    [90m 12|[39m } = await import(
+    [90m   |[39m     [31m^[39m
+    [90m 13|[39m   /* turbopackIgnore: true */
+    [90m 14|[39m   '@primer/agent-eval'
+[90m [2m❯[22m src/result-files.test.ts:[2m6:1[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/run-assets.test.ts[2m [ website/src/run-assets.test.ts ][22m
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/run-details.test.ts[2m [ website/src/run-details.test.ts ][22m
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/workspace-files.test.ts[2m [ website/src/workspace-files.test.ts ][22m
+[41m[1m FAIL [22m[49m [30m[43m website [49m[39m src/app/components/RunDetailsPage.test.tsx[2m [ website/src/app/components/RunDetailsPage.test.tsx ][22m
+[31m[1mError[22m: Failed to resolve entry for package "@primer/agent-eval". The package may have incorrect main/module/exports specified in its package.json.[39m
+[36m [2m❯[22m src/check-results.ts:[2m4:3[22m[39m
+    [90m  2|[39m
+    [90m  3|[39m const {addCheckResults, createTrialSummary, createTrialSummaryComparat…
+    [90m  4|[39m   await import(
+    [90m   |[39m   [31m^[39m
+    [90m  5|[39m     /* turbopackIgnore: true */
+    [90m  6|[39m     '@primer/agent-eval'
+[90m [2m❯[22m src/run-details.ts:[2m5:1[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/16]⎯[22m[39m
+
+
+[31m⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 7 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m [30m[46m agent-eval [49m[39m src/config.test.ts[2m > [22mbenchmark defineConfig emits portable consumer declarations
+[31m[1mAssertionError[22m: expected [ …(3) ] to deeply equal [][39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- [][39m
+[31m+ [[39m
+[31m+   "Cannot find module '@primer/agent-eval/benchmark' or its corresponding type declarations.",[39m
+[31m+   "Binding element 'sandbox' implicitly has an 'any' type.",[39m
+[31m+   "Binding element 'sandbox' implicitly has an 'any' type.",[39m
+[31m+ ][39m
+
+[36m [2m❯[22m src/config.test.ts:[2m105:106[22m[39m
+    [90m103|[39m     const diagnostics = [...ts.getPreEmitDiagnostics(program), ...resu…
+    [90m104|[39m
+    [90m105|[39m     expect(diagnostics.map(diagnostic => ts.flattenDiagnosticMessageTe…
+    [90m   |[39m                                                                                                          [31m^[39m
+    [90m106|[39m     expect(result.emitSkipped).toBe(false)
+    [90m107|[39m     expect(declarations).toHaveLength(1)
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[46m agent-eval [49m[39m src/config.test.ts[2m > [22mscenario experiment defineConfig emits portable consumer declarations
+[41m[1m FAIL [22m[49m [30m[46m agent-eval [49m[39m src/config.test.ts[2m > [22mbenchmark experiment defineConfig emits portable consumer declarations
+[31m[1mAssertionError[22m: expected [ …(2) ] to deeply equal [][39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- [][39m
+[31m+ [[39m
+[31m+   "Cannot find module '@primer/agent-eval/experiment' or its corresponding type declarations.",[39m
+[31m+   "Binding element 'sandbox' implicitly has an 'any' type.",[39m
+[31m+ ][39m
+
+[36m [2m❯[22m src/config.test.ts:[2m105:106[22m[39m
+    [90m103|[39m     const diagnostics = [...ts.getPreEmitDiagnostics(program), ...resu…
+    [90m104|[39m
+    [90m105|[39m     expect(diagnostics.map(diagnostic => ts.flattenDiagnosticMessageTe…
+    [90m   |[39m                                                                                                          [31m^[39m
+    [90m106|[39m     expect(result.emitSkipped).toBe(false)
+    [90m107|[39m     expect(declarations).toHaveLength(1)
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[46m agent-eval [49m[39m src/config.test.ts[2m > [22mscenario defineConfig emits portable consumer declarations
+[31m[1mAssertionError[22m: expected [ …(4) ] to deeply equal [][39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- [][39m
+[31m+ [[39m
+[31m+   "Cannot find module '@primer/agent-eval/scenario' or its corresponding type declarations.",[39m
+[31m+   "Binding element 'sandbox' implicitly has an 'any' type.",[39m
+[31m+   "Binding element 'sandbox' implicitly has an 'any' type.",[39m
+[31m+   "Binding element 'logger' implicitly has an 'any' type.",[39m
+[31m+ ][39m
+
+[36m [2m❯[22m src/config.test.ts:[2m105:106[22m[39m
+    [90m103|[39m     const diagnostics = [...ts.getPreEmitDiagnostics(program), ...resu…
+    [90m104|[39m
+    [90m105|[39m     expect(diagnostics.map(diagnostic => ts.flattenDiagnosticMessageTe…
+    [90m   |[39m                                                                                                          [31m^[39m
+    [90m106|[39m     expect(result.emitSkipped).toBe(false)
+    [90m107|[39m     expect(declarations).toHaveLength(1)
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[46m agent-eval [49m[39m src/logger.test.ts[2m > [22mspan[2m > [22madds bindings to the active logger and restores it when the block exits
+[31m[1mTypeError[22m: contexts.withScope is not a function[39m
+[36m [2m❯[22m span src/logger.ts:[2m84:19[22m[39m
+    [90m 82|[39m
+    [90m 83|[39m function span(bindings: pino.Bindings): RunScope {
+    [90m 84|[39m   return contexts.withScope({
+    [90m   |[39m                   [31m^[39m
+    [90m 85|[39m     logger: getLogger().logger.child(bindings),
+    [90m 86|[39m   })
+[90m [2m❯[22m src/logger.test.ts:[2m95:24[22m[39m
+[90m [2m❯[22m withLogger src/logger.ts:[2m50:19[22m[39m
+[90m [2m❯[22m src/logger.test.ts:[2m93:5[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[46m agent-eval [49m[39m src/logger.test.ts[2m > [22mspan[2m > [22mrestores the previous context when the block throws
+[31m[1mAssertionError[22m: expected a thrown error to be Error: Span failed[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- Error {[39m
+[32m-   "message": "Span failed",[39m
+[31m+ TypeError {[39m
+[31m+   "message": "contexts.withScope is not a function",[39m
+[2m  }[22m
+
+[36m [2m❯[22m src/logger.test.ts:[2m123:8[22m[39m
+    [90m121|[39m
+    [90m122|[39m       throw failure
+    [90m123|[39m     }).toThrow(failure)
+    [90m   |[39m        [31m^[39m
+    [90m124|[39m
+    [90m125|[39m     expect(getLogger()).toBe(previous)
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/16]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m [30m[46m agent-eval [49m[39m src/logger.test.ts[2m > [22mspan[2m > [22minherits nested bindings and restores each parent context
+[31m[1mTypeError[22m: contexts.withScope is not a function[39m
+[36m [2m❯[22m span src/logger.ts:[2m84:19[22m[39m
+    [90m 82|[39m
+    [90m 83|[39m function span(bindings: pino.Bindings): RunScope {
+    [90m 84|[39m   return contexts.withScope({
+    [90m   |[39m                   [31m^[39m
+    [90m 85|[39m     logger: getLogger().logger.child(bindings),
+    [90m 86|[39m   })
+[90m [2m❯[22m src/logger.test.ts:[2m132:27[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/16]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m11 failed[39m[22m[2m | [22m[1m[32m56 passed[39m[22m[90m (67)[39m
+[2m      Tests [22m [1m[31m7 failed[39m[22m[2m | [22m[1m[32m681 passed[39m[22m[90m (688)[39m
+[2m   Start at [22m 08:36:58
+[2m   Duration [22m 28.19s[2m (tests 59%, import 28%, transform 13%, worker 1%)[22m
+
+[2m    Isolate [22m [33m67 workers spawned[39m[2m · ~136ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~2.91s faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+
+[ELIFECYCLE] Test failed. See above for more details.

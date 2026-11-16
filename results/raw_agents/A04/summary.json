@@ -1,0 +1,126 @@
+{
+  "repo_id": "A04",
+  "group": "llm",
+  "full_name": "arii/tech-dancer",
+  "stars": "0",
+  "created_at": "2026-04-16",
+  "pin": "acc8e25fbc599389d9dbc8e791ac6825caaea49b",
+  "fetch": {
+    "sha": "acc8e25fbc599389d9dbc8e791ac6825caaea49b",
+    "commit_date": "2026-11-07T20:52:04-08:00",
+    "first_commit_date": "2026-04-15T17:21:29-07:00",
+    "commits_to_pin": 1594,
+    "ai_commits_to_pin": 1168,
+    "ai_commit_share": 0.7327,
+    "ai_agents": [
+      "copilot",
+      "jules"
+    ]
+  },
+  "inventory": {
+    "prod_files": 220,
+    "test_files": 84,
+    "skipped": 33,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 220,
+      "lines": 28183,
+      "code": 25360,
+      "comment": 586,
+      "blank": 2254
+    },
+    "test": {
+      "files": 84,
+      "lines": 7149,
+      "code": 5659,
+      "comment": 287,
+      "blank": 1214
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": false,
+    "level": null,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 1,
+        "seconds": 2.1
+      },
+      {
+        "cmd": "corepack pnpm install --no-frozen-lockfile",
+        "exit": 1,
+        "seconds": 0.5
+      },
+      {
+        "cmd": "corepack pnpm install --no-frozen-lockfile --ignore-scripts",
+        "exit": 1,
+        "seconds": 0.5
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.app.json",
+        "exit": 2,
+        "errors": 1431,
+        "seconds": 2.529
+      },
+      {
+        "tsconfig": "tsconfig.node.json",
+        "exit": 2,
+        "errors": 98,
+        "seconds": 0.697
+      }
+    ],
+    "errors_total": 1529,
+    "errors_in_project_files": 1529,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2307": 377,
+      "TS2580": 57,
+      "TS7006": 139,
+      "TS2875": 151,
+      "TS2339": 45,
+      "TS6307": 10,
+      "TS2503": 26,
+      "TS2345": 8,
+      "TS7031": 201,
+      "TS7026": 353,
+      "TS2322": 126,
+      "TS2304": 5,
+      "TS2698": 8,
+      "TS18048": 2,
+      "TS2367": 2,
+      "TS2353": 4,
+      "TS2741": 1,
+      "TS2739": 1,
+      "TS2305": 1,
+      "TS2551": 2,
+      "TS7053": 3,
+      "TS2578": 1,
+      "TS2688": 1,
+      "TS7016": 2,
+      "TS5097": 3
+    },
+    "files_with_errors": 204,
+    "timed_out": false,
+    "project_files_checked": 257
+  },
+  "test": {
+    "passed": false,
+    "skipped": "install failed"
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

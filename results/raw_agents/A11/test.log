@@ -1,0 +1,16 @@
+
+> cab-manager@0.0.0 test
+> TZ=Asia/Kolkata vitest run
+
+
+[1m[46m RUN [49m[22m [36mv3.2.7 [39m[90m/work[39m
+
+ [32m✓[39m src/utils/money.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m src/utils/date.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/utils/calculations.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 37[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m3 passed[39m[22m[90m (3)[39m
+[2m      Tests [22m [1m[32m36 passed[39m[22m[90m (36)[39m
+[2m   Start at [22m 14:38:50
+[2m   Duration [22m 746ms[2m (transform 404ms, setup 0ms, collect 468ms, tests 54ms, environment 1ms, prepare 460ms)[22m
+

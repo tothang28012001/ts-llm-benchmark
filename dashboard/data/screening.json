@@ -1,0 +1,40 @@
+{
+ "rows": [
+  {
+   "group": "human",
+   "stage": "Found by GitHub search",
+   "order": 1,
+   "repos": 222
+  },
+  {
+   "group": "human",
+   "stage": "Passed screening",
+   "order": 2,
+   "repos": 72
+  },
+  {
+   "group": "human",
+   "stage": "Selected (size-matched)",
+   "order": 3,
+   "repos": 12
+  },
+  {
+   "group": "llm",
+   "stage": "Found by GitHub search",
+   "order": 1,
+   "repos": 1014
+  },
+  {
+   "group": "llm",
+   "stage": "Passed screening",
+   "order": 2,
+   "repos": 34
+  },
+  {
+   "group": "llm",
+   "stage": "Selected (size-matched)",
+   "order": 3,
+   "repos": 12
+  }
+ ]
+}

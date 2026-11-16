@@ -1,7 +1,9 @@
 # ts-llm-benchmark
 
-An automated, containerised benchmark that compares **human-written** and **LLM-agent-generated**
-TypeScript projects on compilation, code quality, maintainability and test effectiveness.
+An empirical study comparing **human-written** and **LLM-agent-generated** TypeScript projects on
+compilation, code quality, maintainability and test effectiveness. The study is observational: it
+measures existing open-source projects rather than scoring models on fixed tasks. What others can
+reuse is the automated, containerised measurement pipeline and the frozen dataset.
 
 CMPT 479 D100 course project (Simon Fraser University). Authors: Simon Xie, Sukhdip Kandola, Thang To.
 Licensed under MIT (see `LICENSE`). Milestone report: [`report/CMPT479 - Milestone Progress Report.pdf`](report/CMPT479%20-%20Milestone%20Progress%20Report.pdf).
@@ -23,6 +25,7 @@ search       filters     matched     install → tsc → test → mutate        
 | Stage | Tool | Output |
 |---|---|---|
 | Discovery | GitHub search API (`bench/discover.py`) | `dataset/candidates.csv` |
+| Discovery by agent signature | GitHub commit search for each agent's own trailer: aider, OpenHands, Gemini, Jules, Codex, Copilot, Cursor, Devin, Windsurf (`bench/discover.py --by-trailer`) | `dataset/candidates_trailers.csv` |
 | Screening | GitHub GraphQL: package.json, tsconfig, test runner, TS size, AI-commit share, pre-2021 pin (`bench/screen.py`) | `dataset/screened.csv` |
 | Selection | Most-starred eligible LLM repos + nearest-size human match (`bench/select_repos.py`) | `dataset/repos.csv` |
 | Authorship | AI-agent commit trailers over the full history (`bench/authorship.py`) | `summary.json → fetch` |
@@ -51,6 +54,13 @@ GH_TOKEN=$(gh auth token) python -m bench.discover
 GH_TOKEN=$(gh auth token) python -m bench.screen
 python -m bench.select_repos
 
+# optional: reach agents and models beyond Claude Code through commit signatures
+GH_TOKEN=$(gh auth token) python -m bench.discover --by-trailer
+GH_TOKEN=$(gh auth token) python -m bench.screen --input dataset/candidates_trailers.csv --output dataset/screened_trailers.csv
+python -m bench.select_repos --agents   # -> dataset/repos_agents.csv (A01...)
+$env:BENCH_RAW = "$PWD/results/raw_agents"; python -m bench.run --dataset dataset/repos_agents.csv --jobs 3 --force
+Remove-Item Env:BENCH_RAW; python -m bench.compare_agents   # human vs Claude Code vs other agents -> results/agents/
+
 # static stages only: no repository code is executed
 python -m bench.run --static-only --jobs 3
 # all stages, including the projects' tests and mutation testing (executes repository code in Docker)
@@ -67,7 +77,21 @@ touching the committed results, so the output can be compared with `results/raw/
 It needs `work/repos/L01`, which a full `bench.run` clones.
 
 ```powershell
-$env:BENCH_RAW = "$PWD\demoaw"; python -m bench.run --only L01 --force --jobs 1 --mutate-minutes 5
+$env:BENCH_RAW = "$PWD\demo\raw"; python -m bench.run --only L01 --force --jobs 1 --mutate-minutes 5
+```
+
+### Explore the projects in a browser
+
+A small local web app for clicking through the 24 projects: each project's pipeline result
+stage by stage, its position against the human and AI medians, its real source with every
+counted lint problem underlined and every mutant the tests missed marked, its test logs, and
+a button that re-runs the pipeline on it (into `demo/raw/`) and compares the new numbers with
+the stored ones. It reads `results/raw/` and the clones in `work/repos/`; Python standard
+library only.
+
+```powershell
+python -m explorer.prepare   # once: records where each lint problem is (~3 min, same rules as the pipeline)
+python -m explorer.server    # then open http://localhost:8479
 ```
 
 ## Dataset

@@ -53,23 +53,45 @@ def compose(D: dict, o: Out) -> None:
     ai_share = L.ai_commit_share
     cc = gs.loc["cc_mean"]
 
+    # extension: projects built by other coding agents (bench.compare_agents)
+    from scipy.stats import fisher_exact
+    AG = RES / "agents"
+    am = pd.read_csv(AG / "metrics.csv")
+    ags = pd.read_csv(AG / "group_stats.csv").set_index("column")
+    A = am[am.stratum == "other"]
+    nA = len(A)
+    sig_cand = pd.read_csv(RES.parent / "dataset" / "candidates_trailers.csv")
+    sig_scr = pd.read_csv(RES.parent / "dataset" / "screened_trailers.csv")
+    sig_elig = sig_scr[sig_scr.eligible]
+    sel_a = pd.read_csv(RES.parent / "dataset" / "repos_agents.csv")
+    a_agents = A.main_agent.value_counts()
+    agent_list = ", ".join(f"{'OpenHands' if k == 'openhands' else k.capitalize()}~{v}" for k, v in a_agents.items())
+    a_clean = int(A.tsc_clean.fillna(False).astype(bool).sum())
+    a_tests = int(A.tests_passed.fillna(False).astype(bool).sum())
+    a_mut = A[A.mutation_score.notna()]
+    p_clean_ac = fisher_exact([[a_clean, nA - a_clean], [clean_l, nL - clean_l]])[1]
+
     o.header()
     o.abstract(
-        f"This milestone report documents our progress on an empirical benchmark that compares human-written and "
-        f"LLM-generated TypeScript projects. We have (i) built an automated, Docker-isolated pipeline. It clones "
+        f"This milestone report documents our progress on an empirical study that compares human-written and "
+        f"LLM-generated TypeScript projects. It is observational: we measure existing open-source projects rather "
+        f"than score models on fixed tasks, and the reusable artefact is the measurement pipeline with its frozen dataset. We have (i) built an automated, Docker-isolated pipeline. It clones "
         f"each repository at a pinned commit, installs it from its own lockfile, and measures compilation (`tsc`), "
         f"code quality (ESLint with typescript-eslint and SonarSource rules), maintainability (cyclomatic and "
         f"cognitive complexity, duplication, comment density) and test effectiveness (the project's own tests and "
         f"StrykerJS mutation testing). (ii) We assembled a size-matched dataset of {nH} human-written repositories "
         f"pinned before 2021 and {nL} agent-built repositories, whose authorship we verify from AI co-author commit "
-        f"trailers. (iii) We ran the pipeline on all {nH + nL} repositories. In preliminary results, the LLM group has "
+        f"trailers. (iii) We ran the pipeline on all {nH + nL} repositories. (iv) After our proposal presentation we "
+        f"added an automated search of agent commit signatures and measured {nA} more projects built by five other "
+        f"agents (Cursor, Devin, Copilot, Jules, OpenHands). In preliminary results, the LLM group has "
         f"far fewer lint violations per KLOC (median {fmt(gs.loc['lint_per_kloc'].median_human, 1)} vs. "
         f"{fmt(gs.loc['lint_per_kloc'].median_llm, 1)}) but more complex functions (mean cyclomatic complexity "
         f"{fmt(cc.median_human, 2)} vs. {fmt(cc.median_llm, 2)}). Its own test suites also pass more often on a current "
         f"Node.js ({tests_l}/{nL} vs. {tests_h}/{nH}), largely because old human suites have decayed. We found no "
-        f"significant difference in duplication, comment density, test-to-code ratio or compiler errors. The report "
-        f"ends with the remaining work toward the final paper.",
-        "LLM-generated code, TypeScript, empirical software engineering, static analysis, mutation testing, benchmark")
+        f"significant difference in duplication, comment density, test-to-code ratio or compiler errors. Projects "
+        f"from the other agents resemble the Claude Code projects on every quality measure, but fewer of them "
+        f"compile cleanly ({a_clean}/{nA} vs. {clean_l}/{nL}).",
+        "LLM-generated code, TypeScript, empirical software engineering, static analysis, mutation testing, mining software repositories")
 
     # ---------------------------------------------------------------- I
     o.h1("Introduction")
@@ -91,7 +113,8 @@ def compose(D: dict, o: Out) -> None:
              ["2. Dataset collection", "Done", f"{len(cand)} candidates → {nH}+{nL} repos, frozen SHAs"],
              ["3. Infrastructure", "Done", "Dockerized pipeline, open-source repository"],
              ["4. Evaluation", "First full run done", f"All {nH + nL} repos, all stages"],
-             ["5. Analysis and reporting", "In progress", "Preliminary statistics (Sec. IV)"]],
+             ["5. Analysis and reporting", "In progress", "Preliminary statistics (Sec. IV)"],
+             ["+ Other agents (feedback)", "First run done", f"{nA} projects, 5 agents (Sec. II-D, IV-D)"]],
             [1.3, 0.8, 1.5], "tab:progress")
 
     # ---------------------------------------------------------------- II
@@ -128,15 +151,27 @@ def compose(D: dict, o: Out) -> None:
         f"if a project cannot be analysed. Table~II lists the frozen dataset. Production code ranges from "
         f"{fmt(m.prod_kloc.min(), 1)} to {fmt(m.prod_kloc.max(), 1)} KLOC (median {fmt(H.prod_kloc.median(), 1)} human "
         f"vs. {fmt(L.prod_kloc.median(), 1)} LLM), and the analysed commit SHAs are in `dataset/repos.csv`.")
+    o.h2("Reaching other agents")
+    o.p(f"README phrases mostly find Claude Code projects, so feedback on our proposal presentation asked whether "
+        f"the study covers other, less popular tools. We therefore added a second, fully automated discovery route "
+        f"(`discover.py --by-trailer`). It searches GitHub's commit index for each agent's own signature (aider, "
+        f"OpenHands, Gemini, Jules, Codex, Copilot, Cursor, Devin and Windsurf) in half-year windows from 2025 on, "
+        f"then keeps non-fork TypeScript repositories created in 2025 or later. This gave {len(sig_cand):,} "
+        f"candidates. The unchanged screening rules accepted {len(sig_elig)}. Of these, the {len(sel_a)} whose main "
+        f"agent is not Claude Code and whose tests StrykerJS can drive form a third group, A01--A{len(sel_a):02d} "
+        f"(`dataset/repos_agents.csv`), in star order and without size matching. One project (A10) commits its "
+        f"`node_modules` folder and could not be measured, which leaves {nA}: {agent_list}. Signatures rarely name "
+        f"the underlying model. Only aider records it, and none of its candidates passed screening, so this "
+        f"extension broadens the *agents* studied more than the *models*.")
     rows = [["ID", "Repository", "Pin date", "KLOC", "Test", "AI%"]]
     for _, r in m.sort_values("repo_id").iterrows():
         rows.append([r.repo_id, r.full_name, r.pin_date, fmt(r.prod_kloc, 1), fmt(r.test_kloc, 1),
                      "0" if r.group == "human" else fmt(100 * r.ai_commit_share, 0)])
-    o.table("Benchmarked repositories (KLOC: production code; Test: test-code KLOC; AI%: agent-attributed commits up to the pin)",
+    o.table("Studied repositories (KLOC: production code; Test: test-code KLOC; AI%: agent-attributed commits up to the pin)",
             rows, [0.3, 1.8, 0.6, 0.4, 0.34, 0.3], "tab:dataset")
 
     # ---------------------------------------------------------------- III
-    o.h1("Benchmark Infrastructure")
+    o.h1("Measurement Pipeline")
     o.p("The pipeline follows the proposed design (retrieve → install → build and test → collect) and is "
         "fully automated in Python (`bench/run.py`). Each repository is cloned on the host without blobs and checked "
         "out at its pin, with line-ending conversion disabled. It is then copied into a *fresh container* built from "
@@ -280,6 +315,40 @@ def compose(D: dict, o: Out) -> None:
         f"have are genuine type or configuration mistakes, whereas the human projects' errors come from environment "
         f"decay.")
 
+    o.h2("Extension: other coding agents")
+
+    def a3(c, nd=2):
+        r = ags.loc[c]
+        return [fmt(r.median_human, nd), fmt(r.median_claude, nd), fmt(r.median_other, nd),
+                pval(r.holm_p_other_vs_human), pval(r.holm_p_other_vs_claude)]
+    arows = [["Metric", "Human", "Claude", "Other", "p vs. H", "p vs. C"],
+             ["Lint violations / KLOC", *a3("lint_per_kloc", 1)],
+             ["Explicit `any` / KLOC", *a3("any_per_kloc", 1)],
+             ["Mean cyclomatic compl.", *a3("cc_mean")],
+             ["% functions CC > 10", *a3("cc_over10_pct", 1)],
+             ["Duplicated lines (%)", *a3("dup_pct")],
+             ["Test-to-code ratio", *a3("test_to_code")],
+             ["Compiles cleanly", f"{clean_h}/{nH}", f"{clean_l}/{nL}", f"{a_clean}/{nA}", "", pval(p_clean_ac)],
+             ["Own tests pass", f"{tests_h}/{nH}", f"{tests_l}/{nL}", f"{a_tests}/{nA}", "", ""]]
+    o.table("Human vs. Claude Code vs. other agents (medians; Holm p for the other-agent group, Fisher p for compiling)",
+            arows, [1.45, 0.42, 0.42, 0.42, 0.45, 0.45], "tab:agents")
+    oh, oc = ags.loc["lint_per_kloc"], ags.loc["cc_mean"]
+    n_tested = int(ags.holm_p_other_vs_human.notna().sum())
+    n_sig_h = int((ags.holm_p_other_vs_human < 0.05).sum())
+    n_sig_c = int((ags.holm_p_other_vs_claude < 0.05).sum())
+    o.p(f"Table~IV compares the three groups with the same metrics and tests (`bench/compare_agents.py`). The "
+        f"other agents reproduce the main comparison. Against the human group they have far fewer lint violations "
+        f"(δ~=~{oh.cliffs_delta_other_vs_human:+.2f}) and more complex functions "
+        f"(δ~=~{oc.cliffs_delta_other_vs_human:+.2f}), and {n_sig_h} of {n_tested} metrics differ after Holm "
+        f"correction. Against Claude Code, {'none' if n_sig_c == 0 else words(n_sig_c)} of the {n_tested} metrics differ. "
+        f"The one clear difference is compilation: only {a_clean} of {nA} other-agent projects type-check without "
+        f"errors, against {clean_l} of {nL} Claude Code projects (Fisher *p*~=~{pval(p_clean_ac)}). Mutation testing "
+        f"produced a valid score for only {len(a_mut)} of the {a_tests} projects whose tests pass (median "
+        f"{fmt(a_mut.mutation_score.median(), 2)}). In most of the others, no test imports the sampled files, so "
+        f"Stryker found nothing to run. The quality profile we observe therefore appears to be shared by current "
+        f"coding agents rather than specific to Claude Code, although these projects are less popular "
+        f"(almost all have 0--3 stars).")
+
     # ---------------------------------------------------------------- V
     o.h1("Threats to Validity")
     o.bullets([
@@ -291,7 +360,8 @@ def compose(D: dict, o: Out) -> None:
         "**Internal.** Install fallbacks (e.g., `--legacy-peer-deps`) and modern Node versions can change "
         "outcomes. Every fallback level is logged and reported.",
         "**External.** Twelve star-selected projects per group do not represent all TypeScript code. The LLM "
-        "projects are younger and less popular, and “built with” marketing may favor showcase projects.",
+        "projects are younger and less popular, and “built with” marketing may favor showcase projects. The "
+        "other-agent group is less popular still and is not size-matched.",
         "**Conclusion.** The samples are small, so we report effect sizes and Holm-corrected *p*-values, and "
         "frame the results as exploratory.",
     ])
@@ -305,6 +375,9 @@ def compose(D: dict, o: Out) -> None:
         "**By Nov.~24:** sensitivity analyses (per-file normalization, star-matched subsets, a stricter LLM sample "
         "with ≥90% agent commits), plus a qualitative review of the most frequent violations and compiler "
         "errors mapped to the bug taxonomy of [1].",
+        "**Other agents:** restrict the mutation sample to files that some test reaches, so the other-agent "
+        "group gets enough mutation scores. Studying less popular *models* needs projects we generate ourselves "
+        "with open models, which we will scope as future work in the final paper.",
         "**Nov.~27 / Dec.~4:** final presentation of findings, limitations and conclusions.",
         "**By Dec.~7:** the 4-page IEEE paper (this report's LaTeX source already uses `IEEEtran`) and a "
         "tagged release of the repository (pipeline, dataset and raw results) as the project artefact.",

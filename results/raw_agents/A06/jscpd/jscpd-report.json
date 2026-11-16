@@ -1,0 +1,1209 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T08:38:25.692Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "src/app/reset-password/[token]/page.tsx": {
+            "lines": 23,
+            "tokens": 188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/privacy/page.tsx": {
+            "lines": 65,
+            "tokens": 924,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 70,
+            "duplicatedTokens": 1026,
+            "percentage": 107.69,
+            "percentageTokens": 111.04,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/login/page.tsx": {
+            "lines": 41,
+            "tokens": 310,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/layout.tsx": {
+            "lines": 1,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 130,
+          "tokens": 1437,
+          "sources": 4,
+          "clones": 1,
+          "duplicatedLines": 35,
+          "duplicatedTokens": 513,
+          "percentage": 26.92,
+          "percentageTokens": 35.7,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/app/reset-password/[token]/page.tsx": {
+            "lines": 79,
+            "tokens": 751,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/providers/session-provider.tsx": {
+            "lines": 8,
+            "tokens": 60,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/MobileWebLanding.tsx": {
+            "lines": 41,
+            "tokens": 405,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/privacy/page.tsx": {
+            "lines": 83,
+            "tokens": 1026,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/login/page.tsx": {
+            "lines": 148,
+            "tokens": 1275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/page.tsx": {
+            "lines": 35,
+            "tokens": 172,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/layout.tsx": {
+            "lines": 37,
+            "tokens": 251,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 431,
+          "tokens": 3940,
+          "sources": 7,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "typescript": {
+        "sources": {
+          "src/app/api/almanac/updates/[updateId]/route.ts": {
+            "lines": 41,
+            "tokens": 485,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 41,
+            "duplicatedTokens": 561,
+            "percentage": 100,
+            "percentageTokens": 115.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/suggestions/[suggestionId]/undo/route.ts": {
+            "lines": 42,
+            "tokens": 458,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 36,
+            "duplicatedTokens": 434,
+            "percentage": 85.71,
+            "percentageTokens": 94.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/suggestions/[suggestionId]/accept/route.ts": {
+            "lines": 42,
+            "tokens": 458,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 19,
+            "duplicatedTokens": 225,
+            "percentage": 45.24,
+            "percentageTokens": 49.13,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/suggestions/[suggestionId]/route.ts": {
+            "lines": 40,
+            "tokens": 453,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 209,
+            "percentage": 42.5,
+            "percentageTokens": 46.14,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/subjects/[subjectId]/updates/route.ts": {
+            "lines": 51,
+            "tokens": 533,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 29,
+            "duplicatedTokens": 409,
+            "percentage": 56.86,
+            "percentageTokens": 76.74,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/subjects/[subjectId]/unmerge/route.ts": {
+            "lines": 29,
+            "tokens": 324,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 165,
+            "percentage": 41.38,
+            "percentageTokens": 50.93,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/subjects/[subjectId]/route.ts": {
+            "lines": 43,
+            "tokens": 487,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 152,
+            "percentage": 27.91,
+            "percentageTokens": 31.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/places/[placeId]/route.ts": {
+            "lines": 29,
+            "tokens": 331,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 291,
+            "percentage": 68.97,
+            "percentageTokens": 87.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/imports/[importId]/undo/route.ts": {
+            "lines": 29,
+            "tokens": 324,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 144,
+            "percentage": 34.48,
+            "percentageTokens": 44.44,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/imports/[importId]/route.ts": {
+            "lines": 29,
+            "tokens": 331,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 165,
+            "percentage": 41.38,
+            "percentageTokens": 49.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/middleware.ts": {
+            "lines": 147,
+            "tokens": 1396,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/telemetry/beta-usage.ts": {
+            "lines": 77,
+            "tokens": 770,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/suggestion-service.ts": {
+            "lines": 675,
+            "tokens": 6731,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 238,
+            "percentage": 1.78,
+            "percentageTokens": 3.54,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/suggestion-lifecycle-policy.ts": {
+            "lines": 79,
+            "tokens": 628,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/subject-icons.ts": {
+            "lines": 21,
+            "tokens": 292,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/route-response.ts": {
+            "lines": 26,
+            "tokens": 287,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/protocol.ts": {
+            "lines": 334,
+            "tokens": 2843,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/owner-lock.ts": {
+            "lines": 12,
+            "tokens": 65,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/feature.ts": {
+            "lines": 10,
+            "tokens": 82,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/contracts.ts": {
+            "lines": 333,
+            "tokens": 3268,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/client-capability.ts": {
+            "lines": 87,
+            "tokens": 821,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/almanac/auth.ts": {
+            "lines": 26,
+            "tokens": 272,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/web-landing.ts": {
+            "lines": 23,
+            "tokens": 146,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/prisma.ts": {
+            "lines": 12,
+            "tokens": 86,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/mobile-auth.ts": {
+            "lines": 101,
+            "tokens": 654,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/dev-login-credentials.ts": {
+            "lines": 12,
+            "tokens": 147,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/auth.ts": {
+            "lines": 113,
+            "tokens": 980,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/auth-rate-limit.ts": {
+            "lines": 121,
+            "tokens": 955,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/api-auth.ts": {
+            "lines": 79,
+            "tokens": 804,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/account-data.ts": {
+            "lines": 58,
+            "tokens": 595,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/telemetry/beta-events/route.ts": {
+            "lines": 54,
+            "tokens": 554,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/health/route.ts": {
+            "lines": 32,
+            "tokens": 273,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/auth/reset-password/route.ts": {
+            "lines": 74,
+            "tokens": 648,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/auth/mobile-register/route.ts": {
+            "lines": 109,
+            "tokens": 934,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 102,
+            "percentage": 7.34,
+            "percentageTokens": 10.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/auth/mobile-login/route.ts": {
+            "lines": 101,
+            "tokens": 883,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 102,
+            "percentage": 7.92,
+            "percentageTokens": 11.55,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/auth/forgot-password/route.ts": {
+            "lines": 134,
+            "tokens": 1029,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/suggestions/route.ts": {
+            "lines": 62,
+            "tokens": 651,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/subjects/merge/route.ts": {
+            "lines": 40,
+            "tokens": 433,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 38,
+            "duplicatedTokens": 503,
+            "percentage": 95,
+            "percentageTokens": 116.17,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/route.ts": {
+            "lines": 85,
+            "tokens": 893,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 116,
+            "percentage": 9.41,
+            "percentageTokens": 12.99,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/almanac/imports/route.ts": {
+            "lines": 42,
+            "tokens": 460,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 204,
+            "percentage": 38.1,
+            "percentageTokens": 44.35,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/account/route.ts": {
+            "lines": 55,
+            "tokens": 517,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "prisma/seed.ts": {
+            "lines": 85,
+            "tokens": 544,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3594,
+          "tokens": 33825,
+          "sources": 42,
+          "clones": 13,
+          "duplicatedLines": 149,
+          "duplicatedTokens": 2010,
+          "percentage": 4.15,
+          "percentageTokens": 5.94,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 4155,
+      "tokens": 39202,
+      "sources": 53,
+      "clones": 14,
+      "duplicatedLines": 184,
+      "duplicatedTokens": 2523,
+      "percentage": 4.43,
+      "percentageTokens": 6.44,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": " } from \"@/lib/almanac/suggestion-service\";\n\nexport async function POST(\n  request: Request,\n  context: { params: Promise<{ suggestionId: string }> },\n) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = almanacPersistentSuggestionsCapabilityGuard(request);\n  if (capabilityResponse) return capabilityResponse;\n  let body: unknown;\n  try {\n    body = await request.json();\n  } catch {\n    return NextResponse.json({ error: \"JSON body required\" }, { status: 400 });\n  }\n  const parsed = acceptAlmanacSuggestionRequestSchema",
+      "tokens": 225,
+      "firstFile": {
+        "name": "src/app/api/almanac/suggestions/[suggestionId]/accept/route.ts",
+        "start": 7,
+        "end": 26,
+        "startLoc": {
+          "line": 7,
+          "column": 33,
+          "position": 83
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 54,
+          "position": 308
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/suggestions/[suggestionId]/undo/route.ts",
+        "start": 7,
+        "end": 26,
+        "startLoc": {
+          "line": 7,
+          "column": 41,
+          "position": 83
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 62,
+          "position": 308
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": "(\n  request: Request,\n  context: { params: Promise<{ suggestionId: string }> },\n) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = almanacPersistentSuggestionsCapabilityGuard(request);\n  if (capabilityResponse) return capabilityResponse;\n  let body: unknown;\n  try {\n    body = await request.json();\n  } catch {\n    return NextResponse.json({ error: \"JSON body required\" }, { status: 400 });\n  }\n  const parsed = mutateAlmanacSuggestionRequestSchema",
+      "tokens": 209,
+      "firstFile": {
+        "name": "src/app/api/almanac/suggestions/[suggestionId]/route.ts",
+        "start": 9,
+        "end": 26,
+        "startLoc": {
+          "line": 9,
+          "column": 28,
+          "position": 99
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 54,
+          "position": 308
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/suggestions/[suggestionId]/undo/route.ts",
+        "start": 9,
+        "end": 26,
+        "startLoc": {
+          "line": 9,
+          "column": 27,
+          "position": 99
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 62,
+          "position": 308
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "(request: Request, context: Context) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(\n",
+      "tokens": 100,
+      "firstFile": {
+        "name": "src/app/api/almanac/subjects/[subjectId]/updates/route.ts",
+        "start": 14,
+        "end": 21,
+        "startLoc": {
+          "line": 14,
+          "column": 27,
+          "position": 132
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 1,
+          "position": 232
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/updates/[updateId]/route.ts",
+        "start": 14,
+        "end": 20,
+        "startLoc": {
+          "line": 14,
+          "column": 28,
+          "position": 132
+        },
+        "endLoc": {
+          "line": 20,
+          "column": 75,
+          "position": 232
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": " } from \"@/lib/almanac/service\";\n\ntype Context = { params: Promise<{ subjectId: string }> };\n\nexport async function POST(request: Request, context: Context) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  const",
+      "tokens": 165,
+      "firstFile": {
+        "name": "src/app/api/almanac/subjects/[subjectId]/unmerge/route.ts",
+        "start": 9,
+        "end": 21,
+        "startLoc": {
+          "line": 9,
+          "column": 31,
+          "position": 76
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 8,
+          "position": 241
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/subjects/[subjectId]/updates/route.ts",
+        "start": 10,
+        "end": 22,
+        "startLoc": {
+          "line": 10,
+          "column": 42,
+          "position": 89
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 6,
+          "position": 254
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ": string }> };\n\nexport async function PATCH(request: Request, context: Context) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  let body: unknown;\n  try {\n",
+      "tokens": 152,
+      "firstFile": {
+        "name": "src/app/api/almanac/subjects/[subjectId]/route.ts",
+        "start": 12,
+        "end": 24,
+        "startLoc": {
+          "line": 12,
+          "column": 45,
+          "position": 114
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 1,
+          "position": 266
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/updates/[updateId]/route.ts",
+        "start": 12,
+        "end": 23,
+        "startLoc": {
+          "line": 12,
+          "column": 44,
+          "position": 114
+        },
+        "endLoc": {
+          "line": 23,
+          "column": 9,
+          "position": 266
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(request: Request, context: Context) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  const { placeId",
+      "tokens": 126,
+      "firstFile": {
+        "name": "src/app/api/almanac/places/[placeId]/route.ts",
+        "start": 13,
+        "end": 21,
+        "startLoc": {
+          "line": 13,
+          "column": 26,
+          "position": 119
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 18,
+          "position": 245
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/updates/[updateId]/route.ts",
+        "start": 14,
+        "end": 21,
+        "startLoc": {
+          "line": 14,
+          "column": 28,
+          "position": 132
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 20,
+          "position": 245
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ": string }> };\n\nexport async function POST(request: Request, context: Context) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  const { importId",
+      "tokens": 144,
+      "firstFile": {
+        "name": "src/app/api/almanac/imports/[importId]/undo/route.ts",
+        "start": 11,
+        "end": 21,
+        "startLoc": {
+          "line": 11,
+          "column": 44,
+          "position": 101
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 19,
+          "position": 245
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/subjects/[subjectId]/updates/route.ts",
+        "start": 12,
+        "end": 21,
+        "startLoc": {
+          "line": 12,
+          "column": 45,
+          "position": 114
+        },
+        "endLoc": {
+          "line": 21,
+          "column": 20,
+          "position": 245
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ": string }> };\n\nexport async function GET(request: Request, context: Context) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  const { importId } = await context.params;\n  try {\n    const body",
+      "tokens": 165,
+      "firstFile": {
+        "name": "src/app/api/almanac/imports/[importId]/route.ts",
+        "start": 11,
+        "end": 23,
+        "startLoc": {
+          "line": 11,
+          "column": 44,
+          "position": 101
+        },
+        "endLoc": {
+          "line": 23,
+          "column": 15,
+          "position": 266
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/places/[placeId]/route.ts",
+        "start": 11,
+        "end": 23,
+        "startLoc": {
+          "line": 11,
+          "column": 43,
+          "position": 101
+        },
+        "endLoc": {
+          "line": 23,
+          "column": 17,
+          "position": 266
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": ", ...input });\n  return runSerializable(async (tx) => {\n    await lockAlmanacOwner(tx, userId);\n    const suggestion = await loadSuggestion(tx, userId, suggestionId);\n    const gate = await operationGate(tx, userId, suggestion, input.operationKey, hash, input.expectedVersion);\n    if (gate.replay) return gate.replay;\n    if (suggestion.status !== AlmanacSuggestionStatus.ACCEPTED",
+      "tokens": 119,
+      "firstFile": {
+        "name": "src/lib/almanac/suggestion-service.ts",
+        "start": 629,
+        "end": 635,
+        "startLoc": {
+          "line": 629,
+          "column": 55,
+          "position": 6165
+        },
+        "endLoc": {
+          "line": 635,
+          "column": 63,
+          "position": 6284
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/almanac/suggestion-service.ts",
+        "start": 526,
+        "end": 532,
+        "startLoc": {
+          "line": 526,
+          "column": 46,
+          "position": 5125
+        },
+        "endLoc": {
+          "line": 532,
+          "column": 62,
+          "position": 5244
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 36,
+      "fragment": " }}>\n          Almanac stores the original responses you bring in, the decisions you make during review,\n          and the resulting Subject history so you can inspect and correct it later. The current\n          Almanac flow parses the transfer format deterministically and does not send your history to\n          an internal Almanac AI. We do not sell your data.\n        </p>\n      </section>\n\n      <section style={{ marginBottom: 28 }}>\n        <h2 style={{ fontSize: 18, marginBottom: 8 }}>Third parties</h2>\n        <ul style={{ paddingLeft: 20, color: \"#4f544f\" }}>\n          <li>\n            <strong>Vercel</strong> — application and API hosting\n          </li>\n          <li>\n            <strong>Supabase</strong> — PostgreSQL database hosting\n          </li>\n          <li>\n            <strong>Resend</strong> — account-recovery email delivery when requested\n          </li>\n        </ul>\n      </section>\n\n      <section style={{ marginBottom: 28 }}>\n        <h2 style={{ fontSize: 18, marginBottom: 8 }}>Retention and deletion</h2>\n        <p style={{ color: \"#4f544f\" }}>\n          You can request account deletion using the contact address below. Deletion removes your\n          account-linked Almanac data, including original responses, Subjects, Updates, review\n          receipts and presentation preferences, subject to operational or legal retention\n          requirements that apply at the time.\n        </p>\n      </section>\n\n      <section style={{ marginBottom: 28 }}>\n        <h2 style={{ fontSize: 18, marginBottom: 8 }}>Contact</h2>\n        <p style={{ color",
+      "tokens": 513,
+      "firstFile": {
+        "name": "src/app/privacy/page.tsx",
+        "start": 38,
+        "end": 73,
+        "startLoc": {
+          "line": 38,
+          "column": 37,
+          "position": 438
+        },
+        "endLoc": {
+          "line": 73,
+          "column": 26,
+          "position": 951
+        }
+      },
+      "secondFile": {
+        "name": "src/app/privacy/page.tsx",
+        "start": 23,
+        "end": 48,
+        "startLoc": {
+          "line": 23,
+          "column": 53,
+          "position": 163
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 33,
+          "position": 622
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "\nexport async function POST(request: Request) {\n  const secret = requireAuthSecret();\n  if (typeof secret !== \"string\") {\n    return NextResponse.json({ error: secret.error }, { status: secret.status });\n  }\n\n  const ip = clientIpFromRequest(request);\n  const ipLimit = consumeAuthRateLimit(`login:ip:",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/app/api/auth/mobile-login/route.ts",
+        "start": 35,
+        "end": 43,
+        "startLoc": {
+          "line": 35,
+          "column": 4,
+          "position": 193
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 50,
+          "position": 295
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/auth/mobile-register/route.ts",
+        "start": 40,
+        "end": 48,
+        "startLoc": {
+          "line": 40,
+          "column": 4,
+          "position": 254
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 53,
+          "position": 356
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ") {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  let body: unknown;\n  try {\n    body = await request.json();\n  } catch {\n    return NextResponse.json({ error: \"JSON body required\" }, { status: 400 });\n  }\n  const parsed = mergeAlmanacSubjectsRequestSchema",
+      "tokens": 183,
+      "firstFile": {
+        "name": "src/app/api/almanac/subjects/merge/route.ts",
+        "start": 12,
+        "end": 26,
+        "startLoc": {
+          "line": 12,
+          "column": 44,
+          "position": 110
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 51,
+          "position": 293
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/updates/[updateId]/route.ts",
+        "start": 14,
+        "end": 28,
+        "startLoc": {
+          "line": 14,
+          "column": 63,
+          "position": 143
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 51,
+          "position": 326
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(request: Request) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  try",
+      "tokens": 116,
+      "firstFile": {
+        "name": "src/app/api/almanac/route.ts",
+        "start": 17,
+        "end": 25,
+        "startLoc": {
+          "line": 17,
+          "column": 26,
+          "position": 153
+        },
+        "endLoc": {
+          "line": 25,
+          "column": 6,
+          "position": 269
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/subjects/merge/route.ts",
+        "start": 12,
+        "end": 22,
+        "startLoc": {
+          "line": 12,
+          "column": 27,
+          "position": 105
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 6,
+          "position": 254
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": " } from \"@/lib/almanac/service\";\n\nexport async function POST(request: Request) {\n  const auth = await requireAlmanacDogfoodUser();\n  if (!auth.ok) return auth.response;\n  if (!almanacDogfoodEnabled()) {\n    return NextResponse.json({ error: \"Almanac dogfood is not enabled.\" }, { status: 503 });\n  }\n  const capabilityResponse = await almanacUserEntryCapabilityGuard(request, auth.userId);\n  if (capabilityResponse) return capabilityResponse;\n  let body: unknown;\n  try {\n    body = await request.json();\n  } catch {\n    return NextResponse.json({ error: \"JSON body required\" }, { status: 400 });\n  }\n  const parsed = commitAlmanacImportRequestSchema",
+      "tokens": 204,
+      "firstFile": {
+        "name": "src/app/api/almanac/imports/route.ts",
+        "start": 10,
+        "end": 26,
+        "startLoc": {
+          "line": 10,
+          "column": 29,
+          "position": 89
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 50,
+          "position": 293
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/almanac/subjects/merge/route.ts",
+        "start": 10,
+        "end": 28,
+        "startLoc": {
+          "line": 10,
+          "column": 30,
+          "position": 89
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 51,
+          "position": 326
+        }
+      }
+    }
+  ]
+}

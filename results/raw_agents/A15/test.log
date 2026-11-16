@@ -1,0 +1,46 @@
+
+> chun-handmade-erp@0.1.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv3.2.6 [39m[90m/work[39m
+
+ [32m✓[39m tests/unit/permissions.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m tests/unit/auto-schedule.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 46[2mms[22m[39m
+ [32m✓[39m tests/unit/state-machine.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Suites 3 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m tests/unit/apply-stock-movement.test.ts[2m [ tests/unit/apply-stock-movement.test.ts ][22m
+[41m[1m FAIL [22m[49m tests/unit/stock.test.ts[2m [ tests/unit/stock.test.ts ][22m
+[31m[1mTypeError[22m: Prisma.Decimal is not a constructor[39m
+[36m [2m❯[22m src/lib/money/index.ts:[2m12:21[22m[39m
+    [90m 10| [39m[35mexport[39m type [33mDecimal[39m [33m=[39m [33mPrisma[39m[33m.[39m[33mDecimal[39m[33m;[39m
+    [90m 11| [39m
+    [90m 12| [39m[35mexport[39m [35mconst[39m [33mZERO[39m [33m=[39m [35mnew[39m [33mPrisma[39m[33m.[39m[33mDecimal[39m([34m0[39m)[33m;[39m
+    [90m   | [39m                    [31m^[39m
+    [90m 13| [39m
+    [90m 14| [39m[35mexport[39m [35mfunction[39m [34mtoDecimal[39m(value[33m:[39m [33mDecimalInput[39m)[33m:[39m [33mPrisma[39m[33m.[39m[33mDecimal[39m {
+[90m [2m❯[22m src/server/services/stock.ts:[2m3:1[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m tests/unit/money.test.ts[2m [ tests/unit/money.test.ts ][22m
+[31m[1mTypeError[22m: Prisma.Decimal is not a constructor[39m
+[36m [2m❯[22m src/lib/money/index.ts:[2m12:21[22m[39m
+    [90m 10| [39m[35mexport[39m type [33mDecimal[39m [33m=[39m [33mPrisma[39m[33m.[39m[33mDecimal[39m[33m;[39m
+    [90m 11| [39m
+    [90m 12| [39m[35mexport[39m [35mconst[39m [33mZERO[39m [33m=[39m [35mnew[39m [33mPrisma[39m[33m.[39m[33mDecimal[39m([34m0[39m)[33m;[39m
+    [90m   | [39m                    [31m^[39m
+    [90m 13| [39m
+    [90m 14| [39m[35mexport[39m [35mfunction[39m [34mtoDecimal[39m(value[33m:[39m [33mDecimalInput[39m)[33m:[39m [33mPrisma[39m[33m.[39m[33mDecimal[39m {
+[90m [2m❯[22m tests/unit/money.test.ts:[2m2:1[22m[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m3 failed[39m[22m[2m | [22m[1m[32m3 passed[39m[22m[90m (6)[39m
+[2m      Tests [22m [1m[32m11 passed[39m[22m[90m (11)[39m
+[2m   Start at [22m 09:27:09
+[2m   Duration [22m 2.68s[2m (transform 997ms, setup 0ms, collect 787ms, tests 66ms, environment 1ms, prepare 1.68s)[22m
+

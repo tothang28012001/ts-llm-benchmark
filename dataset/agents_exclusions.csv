@@ -1,0 +1,2 @@
+repo_id,reason
+A10,"repository commits node_modules to git (most of its TypeScript bytes are dependencies); copying it into the container failed, so no source file was measured"

@@ -1,0 +1,2517 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T08:38:44.839Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "app/trip/[id]/page.tsx": {
+            "lines": 3,
+            "tokens": 47,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/voice-answer.tsx": {
+            "lines": 19,
+            "tokens": 163,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/mute-toggle.tsx": {
+            "lines": 5,
+            "tokens": 55,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/mic-button.tsx": {
+            "lines": 40,
+            "tokens": 420,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/textarea.tsx": {
+            "lines": 4,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/separator.tsx": {
+            "lines": 5,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/route-globe.tsx": {
+            "lines": 26,
+            "tokens": 243,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/input.tsx": {
+            "lines": 6,
+            "tokens": 21,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/card.tsx": {
+            "lines": 77,
+            "tokens": 403,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/button.tsx": {
+            "lines": 1,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/visa-progress.tsx": {
+            "lines": 15,
+            "tokens": 185,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/try-another-country.tsx": {
+            "lines": 17,
+            "tokens": 203,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/trips-screen.tsx": {
+            "lines": 3,
+            "tokens": 50,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/trip-screen.tsx": {
+            "lines": 154,
+            "tokens": 1868,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/trip-card.tsx": {
+            "lines": 16,
+            "tokens": 100,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/return-ticket-card.tsx": {
+            "lines": 25,
+            "tokens": 184,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/photo-card.tsx": {
+            "lines": 25,
+            "tokens": 182,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/passport-card.tsx": {
+            "lines": 135,
+            "tokens": 1587,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/live-papers.tsx": {
+            "lines": 79,
+            "tokens": 979,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/dossier.tsx": {
+            "lines": 174,
+            "tokens": 1832,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/document-finder.tsx": {
+            "lines": 94,
+            "tokens": 1279,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/document-drop.tsx": {
+            "lines": 38,
+            "tokens": 324,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/conversation.tsx": {
+            "lines": 271,
+            "tokens": 2965,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/agent-settings.tsx": {
+            "lines": 16,
+            "tokens": 163,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/agent-screen.tsx": {
+            "lines": 7,
+            "tokens": 133,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/status-badge.tsx": {
+            "lines": 28,
+            "tokens": 288,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/scene/sky-scene.tsx": {
+            "lines": 13,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/wave.tsx": {
+            "lines": 11,
+            "tokens": 98,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/panel-screen.tsx": {
+            "lines": 644,
+            "tokens": 8582,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/focus-stage.tsx": {
+            "lines": 332,
+            "tokens": 3994,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/backdrop.tsx": {
+            "lines": 6,
+            "tokens": 92,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/map/world-map-screen.tsx": {
+            "lines": 103,
+            "tokens": 1026,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/map/country-panel.tsx": {
+            "lines": 245,
+            "tokens": 2383,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/home/home-screen.tsx": {
+            "lines": 135,
+            "tokens": 1425,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/app-nav.tsx": {
+            "lines": 87,
+            "tokens": 1010,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/panel/page.tsx": {
+            "lines": 1,
+            "tokens": 18,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/page.tsx": {
+            "lines": 1,
+            "tokens": 18,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/layout.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/access/page.tsx": {
+            "lines": 13,
+            "tokens": 125,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2875,
+          "tokens": 32755,
+          "sources": 39,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "app/trip/[id]/page.tsx": {
+            "lines": 13,
+            "tokens": 126,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/voice-answer.tsx": {
+            "lines": 51,
+            "tokens": 491,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/mute-toggle.tsx": {
+            "lines": 22,
+            "tokens": 204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/mic-button.tsx": {
+            "lines": 64,
+            "tokens": 629,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/textarea.tsx": {
+            "lines": 18,
+            "tokens": 97,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/separator.tsx": {
+            "lines": 25,
+            "tokens": 117,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/route-globe.tsx": {
+            "lines": 429,
+            "tokens": 5459,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/input.tsx": {
+            "lines": 20,
+            "tokens": 122,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/card.tsx": {
+            "lines": 103,
+            "tokens": 543,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/button.tsx": {
+            "lines": 58,
+            "tokens": 332,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/badge.tsx": {
+            "lines": 52,
+            "tokens": 307,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/visa-progress.tsx": {
+            "lines": 44,
+            "tokens": 514,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/try-another-country.tsx": {
+            "lines": 54,
+            "tokens": 585,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/trips-screen.tsx": {
+            "lines": 44,
+            "tokens": 433,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/trip-screen.tsx": {
+            "lines": 201,
+            "tokens": 2407,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/trip-card.tsx": {
+            "lines": 67,
+            "tokens": 658,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/return-ticket-card.tsx": {
+            "lines": 48,
+            "tokens": 467,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/photo-card.tsx": {
+            "lines": 47,
+            "tokens": 463,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/passport-card.tsx": {
+            "lines": 311,
+            "tokens": 3820,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/live-papers.tsx": {
+            "lines": 163,
+            "tokens": 2147,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/dossier.tsx": {
+            "lines": 213,
+            "tokens": 2372,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/document-finder.tsx": {
+            "lines": 125,
+            "tokens": 1562,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/document-drop.tsx": {
+            "lines": 130,
+            "tokens": 1401,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/conversation.tsx": {
+            "lines": 302,
+            "tokens": 3301,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 108,
+            "percentage": 2.32,
+            "percentageTokens": 3.27,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/agent-settings.tsx": {
+            "lines": 84,
+            "tokens": 813,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/agent-screen.tsx": {
+            "lines": 44,
+            "tokens": 644,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/theme-toggle.tsx": {
+            "lines": 45,
+            "tokens": 448,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/status-badge.tsx": {
+            "lines": 69,
+            "tokens": 808,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/scene/sky-scene.tsx": {
+            "lines": 61,
+            "tokens": 947,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/wave.tsx": {
+            "lines": 25,
+            "tokens": 207,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/panel-screen.tsx": {
+            "lines": 770,
+            "tokens": 9709,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/focus-stage.tsx": {
+            "lines": 416,
+            "tokens": 5007,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 108,
+            "percentage": 1.68,
+            "percentageTokens": 2.16,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/panel/backdrop.tsx": {
+            "lines": 22,
+            "tokens": 342,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/map/world-map-screen.tsx": {
+            "lines": 215,
+            "tokens": 2597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/map/country-panel.tsx": {
+            "lines": 279,
+            "tokens": 2794,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/home/home-screen.tsx": {
+            "lines": 223,
+            "tokens": 2497,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/app-nav.tsx": {
+            "lines": 120,
+            "tokens": 1458,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/trips/page.tsx": {
+            "lines": 9,
+            "tokens": 73,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/panel/page.tsx": {
+            "lines": 12,
+            "tokens": 88,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/page.tsx": {
+            "lines": 11,
+            "tokens": 86,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/map/page.tsx": {
+            "lines": 9,
+            "tokens": 73,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/layout.tsx": {
+            "lines": 24,
+            "tokens": 196,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/access/page.tsx": {
+            "lines": 61,
+            "tokens": 652,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 5103,
+          "tokens": 57996,
+          "sources": 43,
+          "clones": 1,
+          "duplicatedLines": 7,
+          "duplicatedTokens": 108,
+          "percentage": 0.14,
+          "percentageTokens": 0.19,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "typescript": {
+        "sources": {
+          "app/api/agent/[id]/screen/route.ts": {
+            "lines": 22,
+            "tokens": 352,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/agent/[id]/pick/route.ts": {
+            "lines": 33,
+            "tokens": 501,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/agent/[id]/flights/route.ts": {
+            "lines": 44,
+            "tokens": 697,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/agent/[id]/fill/route.ts": {
+            "lines": 34,
+            "tokens": 507,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/agent/[id]/changes/route.ts": {
+            "lines": 72,
+            "tokens": 1037,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/agent/[id]/cancel/route.ts": {
+            "lines": 22,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/agent/[id]/answer/route.ts": {
+            "lines": 56,
+            "tokens": 787,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "proxy.ts": {
+            "lines": 32,
+            "tokens": 485,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/wishlist-store.ts": {
+            "lines": 51,
+            "tokens": 470,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/translations.ts": {
+            "lines": 128,
+            "tokens": 1643,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/speech-queue.ts": {
+            "lines": 76,
+            "tokens": 855,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/silence.ts": {
+            "lines": 29,
+            "tokens": 371,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/short-answers.ts": {
+            "lines": 92,
+            "tokens": 1279,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/phantom.ts": {
+            "lines": 20,
+            "tokens": 156,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/mac-say.ts": {
+            "lines": 193,
+            "tokens": 2626,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/language.ts": {
+            "lines": 72,
+            "tokens": 600,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/intent.ts": {
+            "lines": 209,
+            "tokens": 2645,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/voice/conversation-speech.ts": {
+            "lines": 54,
+            "tokens": 691,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/upload-scan.ts": {
+            "lines": 73,
+            "tokens": 1048,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/trip-store.ts": {
+            "lines": 61,
+            "tokens": 563,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/trip-state.ts": {
+            "lines": 738,
+            "tokens": 9456,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 33,
+            "duplicatedTokens": 480,
+            "percentage": 4.47,
+            "percentageTokens": 5.08,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/trip-progress.ts": {
+            "lines": 117,
+            "tokens": 1868,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/trip-parse.ts": {
+            "lines": 126,
+            "tokens": 1502,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/trip-parse-client.ts": {
+            "lines": 23,
+            "tokens": 300,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/translate.ts": {
+            "lines": 35,
+            "tokens": 463,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/planner/suggest-modules.ts": {
+            "lines": 79,
+            "tokens": 709,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/planner/next-question.ts": {
+            "lines": 62,
+            "tokens": 483,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/planner/formality-windows.ts": {
+            "lines": 66,
+            "tokens": 785,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/persona.ts": {
+            "lines": 24,
+            "tokens": 153,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/passport.ts": {
+            "lines": 295,
+            "tokens": 3769,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/passport-reminder.ts": {
+            "lines": 7,
+            "tokens": 52,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/passport-extraction.ts": {
+            "lines": 50,
+            "tokens": 645,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/passport-dates.ts": {
+            "lines": 38,
+            "tokens": 537,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/paper-start-client.ts": {
+            "lines": 83,
+            "tokens": 1182,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/paper-agent.ts": {
+            "lines": 193,
+            "tokens": 2041,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/panel-focus.ts": {
+            "lines": 170,
+            "tokens": 2248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/panel-documents.ts": {
+            "lines": 59,
+            "tokens": 790,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/official-tab.ts": {
+            "lines": 89,
+            "tokens": 1287,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/official-sites.ts": {
+            "lines": 109,
+            "tokens": 1308,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/mrz.ts": {
+            "lines": 69,
+            "tokens": 1261,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/local-chrome.ts": {
+            "lines": 271,
+            "tokens": 1798,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 260,
+            "percentage": 8.12,
+            "percentageTokens": 14.46,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/local-bridge.ts": {
+            "lines": 205,
+            "tokens": 2368,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/llm.ts": {
+            "lines": 93,
+            "tokens": 1178,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/linkup.ts": {
+            "lines": 70,
+            "tokens": 919,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/h-agent.ts": {
+            "lines": 267,
+            "tokens": 3844,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/gladia.ts": {
+            "lines": 84,
+            "tokens": 1069,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/format.ts": {
+            "lines": 39,
+            "tokens": 475,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/formalities.ts": {
+            "lines": 354,
+            "tokens": 4385,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 178,
+            "percentage": 3.39,
+            "percentageTokens": 4.06,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/flights/read.ts": {
+            "lines": 115,
+            "tokens": 1459,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/flights/rank.ts": {
+            "lines": 107,
+            "tokens": 1472,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/flights/page.ts": {
+            "lines": 68,
+            "tokens": 807,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 260,
+            "percentage": 32.35,
+            "percentageTokens": 32.22,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/flights/flow.ts": {
+            "lines": 472,
+            "tokens": 7534,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 21,
+            "duplicatedTokens": 302,
+            "percentage": 4.45,
+            "percentageTokens": 4.01,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/flights/extract.ts": {
+            "lines": 119,
+            "tokens": 1639,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/flights-agent.ts": {
+            "lines": 140,
+            "tokens": 1578,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/documents.ts": {
+            "lines": 150,
+            "tokens": 2309,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/document-upload.ts": {
+            "lines": 92,
+            "tokens": 1452,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/destination-images.ts": {
+            "lines": 35,
+            "tokens": 346,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/countries.ts": {
+            "lines": 44,
+            "tokens": 639,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/contracts.ts": {
+            "lines": 199,
+            "tokens": 2307,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/chrome-cdp.ts": {
+            "lines": 93,
+            "tokens": 1285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/bali-papers.ts": {
+            "lines": 110,
+            "tokens": 780,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/api-guard.ts": {
+            "lines": 211,
+            "tokens": 2336,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-task.ts": {
+            "lines": 68,
+            "tokens": 505,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-stall.ts": {
+            "lines": 93,
+            "tokens": 1114,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-screen.ts": {
+            "lines": 153,
+            "tokens": 2420,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-preflight.ts": {
+            "lines": 113,
+            "tokens": 1529,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-passport-upload.ts": {
+            "lines": 165,
+            "tokens": 1970,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-overlay.ts": {
+            "lines": 18,
+            "tokens": 278,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-changes.ts": {
+            "lines": 234,
+            "tokens": 2909,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/agent-answer.ts": {
+            "lines": 21,
+            "tokens": 246,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/access.ts": {
+            "lines": 28,
+            "tokens": 436,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "data/sample.ts": {
+            "lines": 92,
+            "tokens": 772,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/use-voice-input.ts": {
+            "lines": 148,
+            "tokens": 1855,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/use-intent.ts": {
+            "lines": 48,
+            "tokens": 590,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/speech.ts": {
+            "lines": 187,
+            "tokens": 1978,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/voice/microphone.ts": {
+            "lines": 26,
+            "tokens": 357,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/route-globe-utils/globe.ts": {
+            "lines": 139,
+            "tokens": 2429,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/use-trip-actions.ts": {
+            "lines": 280,
+            "tokens": 3679,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/use-papers-check.ts": {
+            "lines": 25,
+            "tokens": 382,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/use-all-trips.ts": {
+            "lines": 19,
+            "tokens": 231,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/trip/use-agent-run.ts": {
+            "lines": 241,
+            "tokens": 3217,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/voice/transcribe/route.ts": {
+            "lines": 36,
+            "tokens": 443,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/voice/say/route.ts": {
+            "lines": 31,
+            "tokens": 430,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/voice/intent/route.ts": {
+            "lines": 24,
+            "tokens": 310,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/trip/parse/route.ts": {
+            "lines": 29,
+            "tokens": 350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/translate/route.ts": {
+            "lines": 23,
+            "tokens": 286,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/papers/start/route.ts": {
+            "lines": 103,
+            "tokens": 1320,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 33,
+            "duplicatedTokens": 422,
+            "percentage": 32.04,
+            "percentageTokens": 31.97,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/formalities/route.ts": {
+            "lines": 20,
+            "tokens": 273,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/flights/start/route.ts": {
+            "lines": 71,
+            "tokens": 822,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 33,
+            "duplicatedTokens": 422,
+            "percentage": 46.48,
+            "percentageTokens": 51.34,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/documents/upload/route.ts": {
+            "lines": 42,
+            "tokens": 582,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/documents/preview/route.ts": {
+            "lines": 34,
+            "tokens": 528,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/documents/find/route.ts": {
+            "lines": 24,
+            "tokens": 350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/documents/extract/route.ts": {
+            "lines": 36,
+            "tokens": 369,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/documents/extract-found/route.ts": {
+            "lines": 44,
+            "tokens": 675,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/access/route.ts": {
+            "lines": 34,
+            "tokens": 399,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 9792,
+          "tokens": 124387,
+          "sources": 95,
+          "clones": 8,
+          "duplicatedLines": 88,
+          "duplicatedTokens": 1162,
+          "percentage": 0.9,
+          "percentageTokens": 0.93,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 17770,
+      "tokens": 215138,
+      "sources": 177,
+      "clones": 9,
+      "duplicatedLines": 95,
+      "duplicatedTokens": 1270,
+      "percentage": 0.53,
+      "percentageTokens": 0.59,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ";\n  return BALI_PAPERS.map((paper) => ({\n    id: paper.id,\n    name: paper.name,\n    required: true,\n    official_url: paper.official_url,\n    official_cost: paper.official_cost,\n    opens_at: windows.find((w) => w.id === paper.id)?.opens_at ?? null,\n    closes_at: windows.find((w) => w.id === paper.id)?.closes_at ?? null,\n    sources: paper.source_urls.map((url) => ({ url, official: isOfficialUrl(url) })),\n    status: \"suggested\",\n    checked_at: null,\n    ",
+      "tokens": 178,
+      "firstFile": {
+        "name": "lib/formalities.ts",
+        "start": 225,
+        "end": 237,
+        "startLoc": {
+          "line": 225,
+          "column": 37,
+          "position": 2807
+        },
+        "endLoc": {
+          "line": 237,
+          "column": 5,
+          "position": 2985
+        }
+      },
+      "secondFile": {
+        "name": "lib/trip-state.ts",
+        "start": 301,
+        "end": 313,
+        "startLoc": {
+          "line": 301,
+          "column": 88,
+          "position": 2990
+        },
+        "endLoc": {
+          "line": 313,
+          "column": 3,
+          "position": 3168
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "\n}\n\nasync function listTabs(urls: string[]): Promise<CdpTab[]> {\n  for (const url of urls) {\n    try {\n      const response = await fetch(`${url}/json`);\n      if (response.ok) return (await response.json()) as CdpTab[];\n    } catch {\n      // Not this port, try the next one.\n    }\n  }\n  throw new Error(\"Chrome is not reachable on its DevTools port.\");\n}\n\n// null when no Google Flights tab is open or Chrome does not answer: the caller treats the page as unreadable.",
+      "tokens": 125,
+      "firstFile": {
+        "name": "lib/flights/page.ts",
+        "start": 17,
+        "end": 32,
+        "startLoc": {
+          "line": 17,
+          "column": 4,
+          "position": 182
+        },
+        "endLoc": {
+          "line": 32,
+          "column": 112,
+          "position": 307
+        }
+      },
+      "secondFile": {
+        "name": "lib/local-chrome.ts",
+        "start": 23,
+        "end": 38,
+        "startLoc": {
+          "line": 23,
+          "column": 60,
+          "position": 213
+        },
+        "endLoc": {
+          "line": 38,
+          "column": 9,
+          "position": 338
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "}));\n    ws.onmessage = (event) => {\n      const reply = JSON.parse(String(event.data)) as { id?: number; result?: { result?: { value?: unknown } } };\n      if (reply.id !== 1) return;\n      clearTimeout(timer);\n      ws.close();\n      const value = reply.result?.result?.value;\n      resolve(typeof value === \"string\" &&",
+      "tokens": 135,
+      "firstFile": {
+        "name": "lib/flights/page.ts",
+        "start": 57,
+        "end": 64,
+        "startLoc": {
+          "line": 57,
+          "column": 7,
+          "position": 644
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 43,
+          "position": 779
+        }
+      },
+      "secondFile": {
+        "name": "lib/local-chrome.ts",
+        "start": 215,
+        "end": 222,
+        "startLoc": {
+          "line": 215,
+          "column": 171,
+          "position": 1105
+        },
+        "endLoc": {
+          "line": 222,
+          "column": 42,
+          "position": 1240
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "\n  const stoppedHere = run.state === \"interrupted\" && !(run.h_status && isTerminalStatus(run.h_status));\n  const state = changes.left_official_site || (stoppedHere && !hTerminal) ? \"interrupted\" : (hStatus ?? run.state);\n  const wasTerminal = isTerminalStatus(run.state);\n  const terminal = isTerminalStatus(state);\n  const steps = changes.steps\n    .map((s) => redact(s, secrets))\n    .filter((s, i, all) => s !== (i === 0 ? trip.agent_steps.at(-1) : all[i - 1]));\n  if",
+      "tokens": 187,
+      "firstFile": {
+        "name": "lib/flights/flow.ts",
+        "start": 399,
+        "end": 407,
+        "startLoc": {
+          "line": 399,
+          "column": 72,
+          "position": 6427
+        },
+        "endLoc": {
+          "line": 407,
+          "column": 5,
+          "position": 6614
+        }
+      },
+      "secondFile": {
+        "name": "lib/trip-state.ts",
+        "start": 590,
+        "end": 598,
+        "startLoc": {
+          "line": 590,
+          "column": 107,
+          "position": 6752
+        },
+        "endLoc": {
+          "line": 598,
+          "column": 8,
+          "position": 6939
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "\n  if (stoppedHere && hTerminal) steps.push(\"H confirmed the session is stopped\");\n\n  let next: Trip = {\n    ...trip,\n    agent_steps: [...trip.agent_steps, ...steps],\n    agent_run: {\n      ...run,\n      state,\n      h_status: hStatus,\n      next_index: changes.next_index,\n      metrics: changes.metrics ?? run.metrics,\n      drained: hTerminal && changes.no_change,\n      error",
+      "tokens": 115,
+      "firstFile": {
+        "name": "lib/flights/flow.ts",
+        "start": 406,
+        "end": 419,
+        "startLoc": {
+          "line": 406,
+          "column": 84,
+          "position": 6612
+        },
+        "endLoc": {
+          "line": 419,
+          "column": 12,
+          "position": 6727
+        }
+      },
+      "secondFile": {
+        "name": "lib/trip-state.ts",
+        "start": 608,
+        "end": 621,
+        "startLoc": {
+          "line": 608,
+          "column": 1,
+          "position": 7163
+        },
+        "endLoc": {
+          "line": 621,
+          "column": 13,
+          "position": 7278
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 8,
+      "fragment": ";\n\ntype Handlers = {\n  onAnswer: (itemId: string, value: string, label: string) => void;\n  onAnswerAgent: (itemId: string, value: string) => void;\n  onAnswerText: (itemId: string, text: string) => Promise<void>;\n  onDecide: (itemId: string, accepted: boolean) => void;\n  ",
+      "tokens": 108,
+      "firstFile": {
+        "name": "components/panel/focus-stage.tsx",
+        "start": 24,
+        "end": 31,
+        "startLoc": {
+          "line": 24,
+          "column": 77,
+          "position": 338
+        },
+        "endLoc": {
+          "line": 31,
+          "column": 3,
+          "position": 446
+        }
+      },
+      "secondFile": {
+        "name": "components/trip/conversation.tsx",
+        "start": 12,
+        "end": 19,
+        "startLoc": {
+          "line": 12,
+          "column": 57,
+          "position": 148
+        },
+        "endLoc": {
+          "line": 19,
+          "column": 2,
+          "position": 256
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": "\nexport async function POST(request: Request) {\n  const lease = guard(request, \"papers\");\n  if (lease instanceof Response) return lease;\n  try {\n    return await start(request);\n  } finally {\n    lease.release();\n  }\n}\n\nasync function start(request: Request): Promise<Response> {\n  const read = await readJsonLimited(request, API_LIMITS.papers);\n  if (read instanceof Response) return read;\n  const body = read.value as Record<string, unknown> | null;\n  if (!body || typeof body !== \"object\") return fail(\"Invalid request.\", 400);\n  const",
+      "tokens": 198,
+      "firstFile": {
+        "name": "app/api/flights/start/route.ts",
+        "start": 16,
+        "end": 32,
+        "startLoc": {
+          "line": 16,
+          "column": 124,
+          "position": 127
+        },
+        "endLoc": {
+          "line": 32,
+          "column": 8,
+          "position": 325
+        }
+      },
+      "secondFile": {
+        "name": "app/api/papers/start/route.ts",
+        "start": 23,
+        "end": 39,
+        "startLoc": {
+          "line": 23,
+          "column": 94,
+          "position": 169
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 5,
+          "position": 367
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "\n  const serverSession = process.env.NAMI_LOCAL_SESSION_ID?.trim();\n  if ((typeof body.local_session_id !== \"string\" || !body.local_session_id.trim()) && serverSession) {\n    body.local_session_id = serverSession;\n  }\n  if (typeof body.local_session_id !== \"string\" || !body.local_session_id.trim()) {\n    return fail(\"Missing local browser session: set NAMI_LOCAL_SESSION_ID to the id printed by holo local browser, or paste it in the demo settings (?demo=1).\", 400);\n  }\n  const input = FlightsStartSchema",
+      "tokens": 117,
+      "firstFile": {
+        "name": "app/api/flights/start/route.ts",
+        "start": 31,
+        "end": 39,
+        "startLoc": {
+          "line": 31,
+          "column": 79,
+          "position": 323
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 35,
+          "position": 440
+        }
+      },
+      "secondFile": {
+        "name": "app/api/papers/start/route.ts",
+        "start": 42,
+        "end": 50,
+        "startLoc": {
+          "line": 42,
+          "column": 98,
+          "position": 404
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 33,
+          "position": 521
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ");\n    return Response.json({ session_id: session.id, status: session.status }, { status: 201 });\n  } catch (error) {\n    if (error instanceof AgentPreflightError) return fail(error.message, error.status);\n    return hErrorResponse(error);\n  } finally {\n    browser?.release();\n  }\n}\n",
+      "tokens": 107,
+      "firstFile": {
+        "name": "app/api/flights/start/route.ts",
+        "start": 62,
+        "end": 71,
+        "startLoc": {
+          "line": 62,
+          "column": 34,
+          "position": 715
+        },
+        "endLoc": {
+          "line": 71,
+          "column": 1,
+          "position": 822
+        }
+      },
+      "secondFile": {
+        "name": "app/api/papers/start/route.ts",
+        "start": 94,
+        "end": 103,
+        "startLoc": {
+          "line": 94,
+          "column": 112,
+          "position": 1213
+        },
+        "endLoc": {
+          "line": 103,
+          "column": 1,
+          "position": 1320
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2985 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T08:36:26.372Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "website/src/app/scenarios/[id]/components/Page.tsx": {
+            "lines": 70,
+            "tokens": 707,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/scenarios/[id]/page.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/experiments/[id]/components/Page.tsx": {
+            "lines": 26,
+            "tokens": 221,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/benchmarks/[id]/components/Page.tsx": {
+            "lines": 87,
+            "tokens": 726,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/benchmarks/[id]/page.tsx": {
+            "lines": 1,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/scenarios/[id]/page.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/experiments/[id]/page.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/benchmarks/[id]/page.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/components/Link.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/scenarios/page.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/page.tsx": {
+            "lines": 2,
+            "tokens": 21,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/experiments/page.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/UiWalkthrough.tsx": {
+            "lines": 217,
+            "tokens": 1651,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/Transcript.tsx": {
+            "lines": 124,
+            "tokens": 1118,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/RunDetailsView.tsx": {
+            "lines": 588,
+            "tokens": 5374,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/RunDetailsPage.tsx": {
+            "lines": 1,
+            "tokens": 14,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/RunDetailsLoading.tsx": {
+            "lines": 47,
+            "tokens": 440,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/ResourceTables.tsx": {
+            "lines": 107,
+            "tokens": 799,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/PageHeader.tsx": {
+            "lines": 29,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/JudgeResults.tsx": {
+            "lines": 59,
+            "tokens": 694,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/FilePreview.tsx": {
+            "lines": 95,
+            "tokens": 906,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/FileExplorer.tsx": {
+            "lines": 50,
+            "tokens": 474,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/ExperimentResults.tsx": {
+            "lines": 212,
+            "tokens": 2055,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/CheckResults.tsx": {
+            "lines": 56,
+            "tokens": 584,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/BenchmarkTrends.tsx": {
+            "lines": 602,
+            "tokens": 5477,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/BenchmarkOverview.tsx": {
+            "lines": 130,
+            "tokens": 1135,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/benchmarks/page.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/components/Link.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/scenarios/page.tsx": {
+            "lines": 2,
+            "tokens": 22,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/page.tsx": {
+            "lines": 26,
+            "tokens": 216,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/layout.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/experiments/page.tsx": {
+            "lines": 2,
+            "tokens": 22,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/benchmarks/page.tsx": {
+            "lines": 2,
+            "tokens": 22,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2545,
+          "tokens": 23009,
+          "sources": 33,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "website/src/app/scenarios/[id]/components/Page.tsx": {
+            "lines": 107,
+            "tokens": 989,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/scenarios/[id]/page.tsx": {
+            "lines": 37,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/experiments/[id]/runs/[date]/page.tsx": {
+            "lines": 54,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/experiments/[id]/components/Page.tsx": {
+            "lines": 85,
+            "tokens": 640,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 40,
+            "duplicatedTokens": 292,
+            "percentage": 47.06,
+            "percentageTokens": 45.63,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/experiments/[id]/page.tsx": {
+            "lines": 26,
+            "tokens": 192,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/benchmarks/[id]/runs/[date]/page.tsx": {
+            "lines": 62,
+            "tokens": 505,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/benchmarks/[id]/components/Page.tsx": {
+            "lines": 256,
+            "tokens": 1854,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 40,
+            "duplicatedTokens": 292,
+            "percentage": 15.63,
+            "percentageTokens": 15.75,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/benchmarks/[id]/page.tsx": {
+            "lines": 28,
+            "tokens": 216,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/scenarios/[id]/page.tsx": {
+            "lines": 46,
+            "tokens": 306,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/experiments/[id]/page.tsx": {
+            "lines": 47,
+            "tokens": 316,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/benchmarks/[id]/page.tsx": {
+            "lines": 46,
+            "tokens": 309,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/components/Link.tsx": {
+            "lines": 11,
+            "tokens": 105,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 105,
+            "percentage": 90.91,
+            "percentageTokens": 100,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/scenarios/page.tsx": {
+            "lines": 10,
+            "tokens": 91,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/page.tsx": {
+            "lines": 18,
+            "tokens": 145,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/layout.tsx": {
+            "lines": 33,
+            "tokens": 189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/experiments/page.tsx": {
+            "lines": 12,
+            "tokens": 95,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/UiWalkthrough.tsx": {
+            "lines": 239,
+            "tokens": 1862,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/Transcript.tsx": {
+            "lines": 156,
+            "tokens": 1315,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/RunDetailsView.tsx": {
+            "lines": 656,
+            "tokens": 6029,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/RunDetailsPage.tsx": {
+            "lines": 51,
+            "tokens": 496,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/RunDetailsLoading.tsx": {
+            "lines": 84,
+            "tokens": 749,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/ResourceTables.tsx": {
+            "lines": 165,
+            "tokens": 1321,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/PageHeader.tsx": {
+            "lines": 52,
+            "tokens": 390,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/JudgeResults.tsx": {
+            "lines": 91,
+            "tokens": 973,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/FilePreview.tsx": {
+            "lines": 118,
+            "tokens": 1171,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/FileExplorer.tsx": {
+            "lines": 83,
+            "tokens": 775,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/ExperimentResults.tsx": {
+            "lines": 257,
+            "tokens": 2425,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/CheckResults.tsx": {
+            "lines": 81,
+            "tokens": 818,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/BenchmarkTrends.tsx": {
+            "lines": 764,
+            "tokens": 7314,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/components/BenchmarkOverview.tsx": {
+            "lines": 154,
+            "tokens": 1319,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/app/benchmarks/page.tsx": {
+            "lines": 12,
+            "tokens": 95,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/005-agent-enables-theme-switching/src/app/layout.tsx": {
+            "lines": 10,
+            "tokens": 72,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/004-agent-setup-nextjs/src/app/layout.tsx": {
+            "lines": 10,
+            "tokens": 72,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/003-agent-uses-form-from-primer/src/app/layout.tsx": {
+            "lines": 10,
+            "tokens": 72,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/002-agent-uses-octicon-from-primer/src/app/layout.tsx": {
+            "lines": 19,
+            "tokens": 114,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/001-agent-uses-button-from-primer/src/app/layout.tsx": {
+            "lines": 10,
+            "tokens": 72,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/000-vite-template/src/main.tsx": {
+            "lines": 17,
+            "tokens": 97,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/000-nextjs-template/src/app/layout.tsx": {
+            "lines": 10,
+            "tokens": 72,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/000-llm-as-a-judge/src/main.tsx": {
+            "lines": 17,
+            "tokens": 97,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "scenarios/000-checks/src/main.tsx": {
+            "lines": 17,
+            "tokens": 97,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/components/Link.tsx": {
+            "lines": 11,
+            "tokens": 105,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 105,
+            "percentage": 90.91,
+            "percentageTokens": 100,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/scenarios/page.tsx": {
+            "lines": 37,
+            "tokens": 256,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/page.tsx": {
+            "lines": 63,
+            "tokens": 467,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/layout.tsx": {
+            "lines": 22,
+            "tokens": 136,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/experiments/page.tsx": {
+            "lines": 39,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/app/benchmarks/page.tsx": {
+            "lines": 39,
+            "tokens": 261,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4172,
+          "tokens": 36018,
+          "sources": 46,
+          "clones": 2,
+          "duplicatedLines": 50,
+          "duplicatedTokens": 397,
+          "percentage": 1.2,
+          "percentageTokens": 1.1,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "typescript": {
+        "sources": {
+          "website/src/app/file-previews/[collection]/[id]/[date]/[trial]/[file]/preview.json/route.ts": {
+            "lines": 21,
+            "tokens": 177,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/workspace-files.ts": {
+            "lines": 170,
+            "tokens": 1561,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/test-fixtures.ts": {
+            "lines": 144,
+            "tokens": 1310,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/scenarios.ts": {
+            "lines": 69,
+            "tokens": 564,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/scenario-anchor.ts": {
+            "lines": 11,
+            "tokens": 150,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/runs.ts": {
+            "lines": 152,
+            "tokens": 1342,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/run-details.ts": {
+            "lines": 466,
+            "tokens": 4761,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/run-data-client.ts": {
+            "lines": 37,
+            "tokens": 324,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/run-assets.ts": {
+            "lines": 89,
+            "tokens": 1032,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/result-files.ts": {
+            "lines": 156,
+            "tokens": 1594,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/file-preview.ts": {
+            "lines": 51,
+            "tokens": 492,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/file-preview-routes.ts": {
+            "lines": 208,
+            "tokens": 2027,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/file-preview-key.ts": {
+            "lines": 7,
+            "tokens": 51,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/file-highlighting.ts": {
+            "lines": 61,
+            "tokens": 629,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/experiments.ts": {
+            "lines": 72,
+            "tokens": 613,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/experiment-results.ts": {
+            "lines": 135,
+            "tokens": 1314,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/experiment-page-data.ts": {
+            "lines": 39,
+            "tokens": 375,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 103,
+            "percentage": 33.33,
+            "percentageTokens": 27.47,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/check-results.ts": {
+            "lines": 63,
+            "tokens": 586,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/benchmarks.ts": {
+            "lines": 56,
+            "tokens": 447,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/benchmark-results.ts": {
+            "lines": 512,
+            "tokens": 5223,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/benchmark-page-data.ts": {
+            "lines": 25,
+            "tokens": 221,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 103,
+            "percentage": 52,
+            "percentageTokens": 46.61,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "website/src/artifacts.ts": {
+            "lines": 40,
+            "tokens": 392,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/index.ts": {
+            "lines": 117,
+            "tokens": 821,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/env.ts": {
+            "lines": 12,
+            "tokens": 129,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/ui/agent-eval.ts": {
+            "lines": 11,
+            "tokens": 102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/trial/trial.ts": {
+            "lines": 45,
+            "tokens": 202,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/trial/run.ts": {
+            "lines": 587,
+            "tokens": 4382,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/trial/report.ts": {
+            "lines": 139,
+            "tokens": 1320,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/vitest.ts": {
+            "lines": 132,
+            "tokens": 1283,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/scenario.ts": {
+            "lines": 221,
+            "tokens": 2047,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/plan.ts": {
+            "lines": 32,
+            "tokens": 200,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/package-manager.ts": {
+            "lines": 35,
+            "tokens": 277,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/load.ts": {
+            "lines": 63,
+            "tokens": 569,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/list.ts": {
+            "lines": 62,
+            "tokens": 554,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/get.ts": {
+            "lines": 24,
+            "tokens": 195,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/eslint.ts": {
+            "lines": 116,
+            "tokens": 1156,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario/config.ts": {
+            "lines": 157,
+            "tokens": 1200,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/images/tools.ts": {
+            "lines": 79,
+            "tokens": 393,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/images/sandbox.ts": {
+            "lines": 80,
+            "tokens": 285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/virtual.ts": {
+            "lines": 213,
+            "tokens": 2024,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 35,
+            "duplicatedTokens": 323,
+            "percentage": 16.43,
+            "percentageTokens": 15.96,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/types.ts": {
+            "lines": 209,
+            "tokens": 1096,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/system.ts": {
+            "lines": 608,
+            "tokens": 5625,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 35,
+            "duplicatedTokens": 323,
+            "percentage": 5.76,
+            "percentageTokens": 5.74,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/path.ts": {
+            "lines": 13,
+            "tokens": 89,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/index.ts": {
+            "lines": 26,
+            "tokens": 125,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/glob.ts": {
+            "lines": 35,
+            "tokens": 377,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/glob-script.ts": {
+            "lines": 42,
+            "tokens": 509,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/constants.ts": {
+            "lines": 81,
+            "tokens": 264,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/sandbox/captured-stream.ts": {
+            "lines": 60,
+            "tokens": 510,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/report/format.ts": {
+            "lines": 80,
+            "tokens": 709,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/report/checks.ts": {
+            "lines": 214,
+            "tokens": 2346,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/feature-flag/flags.ts": {
+            "lines": 57,
+            "tokens": 407,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/feature-flag/enabled.ts": {
+            "lines": 8,
+            "tokens": 81,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment/report.ts": {
+            "lines": 208,
+            "tokens": 2250,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment/plan.ts": {
+            "lines": 285,
+            "tokens": 2269,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment/output.ts": {
+            "lines": 368,
+            "tokens": 3646,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 127,
+            "duplicatedTokens": 1306,
+            "percentage": 34.51,
+            "percentageTokens": 35.82,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment/list.ts": {
+            "lines": 137,
+            "tokens": 1128,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment/get.ts": {
+            "lines": 37,
+            "tokens": 235,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment/experiment.ts": {
+            "lines": 36,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment/config.ts": {
+            "lines": 73,
+            "tokens": 627,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/setup.ts": {
+            "lines": 64,
+            "tokens": 631,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/options.ts": {
+            "lines": 129,
+            "tokens": 802,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/env.ts": {
+            "lines": 11,
+            "tokens": 58,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/commands/ui.ts": {
+            "lines": 73,
+            "tokens": 532,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/commands/setup.ts": {
+            "lines": 18,
+            "tokens": 140,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/commands/scenario.ts": {
+            "lines": 237,
+            "tokens": 1748,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 49,
+            "duplicatedTokens": 378,
+            "percentage": 20.68,
+            "percentageTokens": 21.62,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/commands/experiment.ts": {
+            "lines": 288,
+            "tokens": 2167,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 84,
+            "duplicatedTokens": 784,
+            "percentage": 29.17,
+            "percentageTokens": 36.18,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/commands/benchmark.ts": {
+            "lines": 293,
+            "tokens": 2140,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 73,
+            "duplicatedTokens": 660,
+            "percentage": 24.91,
+            "percentageTokens": 30.84,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli/commands/agent.ts": {
+            "lines": 15,
+            "tokens": 78,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/benchmark/report.ts": {
+            "lines": 208,
+            "tokens": 2228,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/benchmark/plan.ts": {
+            "lines": 194,
+            "tokens": 1481,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/benchmark/output.ts": {
+            "lines": 410,
+            "tokens": 3843,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 127,
+            "duplicatedTokens": 1306,
+            "percentage": 30.98,
+            "percentageTokens": 33.98,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/benchmark/list.ts": {
+            "lines": 117,
+            "tokens": 907,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/benchmark/get.ts": {
+            "lines": 51,
+            "tokens": 230,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/benchmark/config.ts": {
+            "lines": 81,
+            "tokens": 648,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/benchmark/benchmark.ts": {
+            "lines": 35,
+            "tokens": 252,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/vitest.ts": {
+            "lines": 108,
+            "tokens": 962,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/uuid.ts": {
+            "lines": 23,
+            "tokens": 162,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/treatment.ts": {
+            "lines": 69,
+            "tokens": 497,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/shard.ts": {
+            "lines": 29,
+            "tokens": 264,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/scenario.ts": {
+            "lines": 9,
+            "tokens": 89,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/result-path.ts": {
+            "lines": 32,
+            "tokens": 307,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/plan.ts": {
+            "lines": 172,
+            "tokens": 1255,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/path.ts": {
+            "lines": 9,
+            "tokens": 90,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/newtype.ts": {
+            "lines": 16,
+            "tokens": 93,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/model.ts": {
+            "lines": 255,
+            "tokens": 2741,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/mcp-config.ts": {
+            "lines": 24,
+            "tokens": 210,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/logger.ts": {
+            "lines": 90,
+            "tokens": 776,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/judge.ts": {
+            "lines": 275,
+            "tokens": 1949,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 19,
+            "duplicatedTokens": 211,
+            "percentage": 6.91,
+            "percentageTokens": 10.83,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/index.ts": {
+            "lines": 24,
+            "tokens": 294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/host.ts": {
+            "lines": 97,
+            "tokens": 786,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/hash.ts": {
+            "lines": 73,
+            "tokens": 850,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/experiment.ts": {
+            "lines": 5,
+            "tokens": 45,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/env.ts": {
+            "lines": 37,
+            "tokens": 295,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/docker.ts": {
+            "lines": 317,
+            "tokens": 2523,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/copilot-sdk.ts": {
+            "lines": 194,
+            "tokens": 961,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/copilot-runner.ts": {
+            "lines": 45,
+            "tokens": 318,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/copilot-cli.ts": {
+            "lines": 507,
+            "tokens": 4090,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/cli.ts": {
+            "lines": 45,
+            "tokens": 315,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/check.ts": {
+            "lines": 294,
+            "tokens": 2719,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 19,
+            "duplicatedTokens": 211,
+            "percentage": 6.46,
+            "percentageTokens": 7.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/agent-eval/src/agent.ts": {
+            "lines": 83,
+            "tokens": 799,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "experiments/noop.ts": {
+            "lines": 25,
+            "tokens": 147,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "experiments/mcp.ts": {
+            "lines": 38,
+            "tokens": 284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "experiments/mcp-with-server-instructions.ts": {
+            "lines": 32,
+            "tokens": 253,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "experiments/benchmark.ts": {
+            "lines": 17,
+            "tokens": 96,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 12454,
+          "tokens": 106939,
+          "sources": 104,
+          "clones": 18,
+          "duplicatedLines": 297,
+          "duplicatedTokens": 2854,
+          "percentage": 2.38,
+          "percentageTokens": 2.67,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 19171,
+      "tokens": 165966,
+      "sources": 183,
+      "clones": 20,
+      "duplicatedLines": 347,
+      "duplicatedTokens": 3251,
+      "percentage": 1.81,
+      "percentageTokens": 1.96,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "tsx",
+      "lines": 41,
+      "fragment": "\n      <section>\n        <h2 className=\"text-title-medium pb-4\">Runs</h2>\n        {runs.length > 0 ? (\n          <Table.Container>\n            <DataTable\n              aria-label={`Runs for ${benchmark.name}`}\n              columns={[\n                {\n                  id: 'date',\n                  header: 'Date',\n                  field: 'name',\n                  rowHeader: true,\n                  renderCell: row => {\n                    return (\n                      <Link href={`/benchmarks/${benchmark.id}/runs/${row.name}` as Route}>\n                        <time dateTime={row.name}>{row.name}</time>\n                      </Link>\n                    )\n                  },\n                },\n                {\n                  id: 'results',\n                  header: 'Results',\n                  field: 'resultCount',\n                  align: 'end',\n                },\n                {\n                  id: 'checks',\n                  header: 'Checks',\n                  field: 'checks',\n                  align: 'end',\n                },\n              ]}\n              data={runs}\n            />\n          </Table.Container>\n        ) : (\n          <Blankslate border>\n            <Blankslate.Heading as=\"h3\">No runs</Blankslate.Heading>\n            <Blankslate.Description>No results have been recorded for this benchmark",
+      "tokens": 292,
+      "firstFile": {
+        "name": "website/src/app/benchmarks/[id]/components/Page.tsx",
+        "start": 100,
+        "end": 140,
+        "startLoc": {
+          "line": 100,
+          "column": 16,
+          "position": 728
+        },
+        "endLoc": {
+          "line": 140,
+          "column": 85,
+          "position": 1020
+        }
+      },
+      "secondFile": {
+        "name": "website/src/app/experiments/[id]/components/Page.tsx",
+        "start": 38,
+        "end": 78,
+        "startLoc": {
+          "line": 38,
+          "column": 71,
+          "position": 317
+        },
+        "endLoc": {
+          "line": 78,
+          "column": 86,
+          "position": 609
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "(runs[0]),\n    runs: runs.map(run => {\n      const trials = [...run.output.trials.values()]\n      return {\n        id: run.id,\n        name: run.name,\n        resultCount: trials.length,\n        checks: formatChecks(summarizeTrials(trials)),\n      }\n    }),\n  }\n}\n\nexport {",
+      "tokens": 103,
+      "firstFile": {
+        "name": "website/src/benchmark-page-data.ts",
+        "start": 11,
+        "end": 24,
+        "startLoc": {
+          "line": 11,
+          "column": 37,
+          "position": 115
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 9,
+          "position": 218
+        }
+      },
+      "secondFile": {
+        "name": "website/src/experiment-page-data.ts",
+        "start": 10,
+        "end": 23,
+        "startLoc": {
+          "line": 10,
+          "column": 34,
+          "position": 120
+        },
+        "endLoc": {
+          "line": 23,
+          "column": 13,
+          "position": 223
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": "'use client'\n\nimport NextLink, {type LinkProps as NextLinkProps} from 'next/link'\nimport {Link as PrimerLink, type LinkProps as PrimerLinkProps} from '@primer/react'\n\ntype LinkProps<RouteType> = NextLinkProps<RouteType> & PrimerLinkProps\n\nexport function Link<RouteType>(props: LinkProps<RouteType>) {\n  return <PrimerLink as={NextLink} {...props} />\n}\n",
+      "tokens": 105,
+      "firstFile": {
+        "name": "packages/agent-eval/src/ui/components/Link.tsx",
+        "start": 1,
+        "end": 11,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 1,
+          "position": 105
+        }
+      },
+      "secondFile": {
+        "name": "website/src/components/Link.tsx",
+        "start": 1,
+        "end": 11,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 1,
+          "position": 105
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "\n  }\n\n  async copy(sourcePath: string, destinationPath: string, options: CopyOptions = {}): Promise<void> {\n    const source = path.resolve(sourcePath)\n    const sourceStats = await this.#host.fs.promises.stat(source)\n    if (!sourceStats.isDirectory() && !sourceStats.isFile()) {\n      throw new Error(`Cannot copy \"${sourcePath}\" because it is not a file or directory`)\n    }\n\n    const containerPath",
+      "tokens": 121,
+      "firstFile": {
+        "name": "packages/agent-eval/src/sandbox/system.ts",
+        "start": 76,
+        "end": 86,
+        "startLoc": {
+          "line": 76,
+          "column": 43,
+          "position": 542
+        },
+        "endLoc": {
+          "line": 86,
+          "column": 24,
+          "position": 663
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/sandbox/virtual.ts",
+        "start": 29,
+        "end": 39,
+        "startLoc": {
+          "line": 29,
+          "column": 22,
+          "position": 215
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 22,
+          "position": 336
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 26,
+      "fragment": "\n}\n\nfunction normalizeCopyPath(filepath: string): string {\n  const normalized = path.posix.normalize(filepath.split(path.sep).join(path.posix.sep))\n  if (normalized === '.') {\n    return ''\n  }\n\n  return normalized.replace(/\\/$/, '')\n}\n\nfunction normalizeExcludedPath(filepath: string, source: string): string {\n  if (path.isAbsolute(filepath)) {\n    return normalizeCopyPath(path.relative(source, filepath))\n  }\n\n  return normalizeCopyPath(filepath)\n}\n\nfunction isExcluded(relativePath: string, excludedPaths: ReadonlySet<string>): boolean {\n  if (!relativePath) {\n    return false\n  }\n\n  for (let",
+      "tokens": 202,
+      "firstFile": {
+        "name": "packages/agent-eval/src/sandbox/system.ts",
+        "start": 381,
+        "end": 406,
+        "startLoc": {
+          "line": 381,
+          "column": 4,
+          "position": 3670
+        },
+        "endLoc": {
+          "line": 406,
+          "column": 11,
+          "position": 3872
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/sandbox/virtual.ts",
+        "start": 176,
+        "end": 201,
+        "startLoc": {
+          "line": 176,
+          "column": 55,
+          "position": 1716
+        },
+        "endLoc": {
+          "line": 201,
+          "column": 13,
+          "position": 1918
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": ")\n                  })\n                })\n              })\n\n              for (const image of images) {\n                if (image.RepoTags === undefined) {\n                  throw new Error(`Image ${image.Id} has no tags`)\n                }\n\n                const [tag] = image.RepoTags\n\n                info('Removing image with tag: %s', tag)\n                const dockerImage = docker.getImage(tag)\n                await dockerImage.remove({\n                  force: true,\n                })\n              }\n            }\n",
+      "tokens": 127,
+      "firstFile": {
+        "name": "packages/agent-eval/src/cli/commands/scenario.ts",
+        "start": 109,
+        "end": 128,
+        "startLoc": {
+          "line": 109,
+          "column": 22,
+          "position": 846
+        },
+        "endLoc": {
+          "line": 128,
+          "column": 1,
+          "position": 973
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/cli/commands/scenario.ts",
+        "start": 83,
+        "end": 101,
+        "startLoc": {
+          "line": 83,
+          "column": 79,
+          "position": 611
+        },
+        "endLoc": {
+          "line": 101,
+          "column": 15,
+          "position": 738
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n        const copilotConcurrency = getConcurrencyValue(args['copilot-concurrency'], 'copilot-concurrency')\n        const containerConcurrency = getConcurrencyValue(args['container-concurrency'], 'container-concurrency')\n        const scenariosDirectory = path.resolve(args.scenarios)\n        const resultsDirectory = path.resolve(args['output-dir'])\n        const artifactsDirectory = path.join(resultsDirectory, 'artifacts')\n        const outputPath = getOutputPath(resultsDirectory)\n        const copilotToken = getCopilotToken(args.token)\n\n        debug({\n          artifactsDirectory,\n          benchmarksDirectory",
+      "tokens": 124,
+      "firstFile": {
+        "name": "packages/agent-eval/src/cli/commands/experiment.ts",
+        "start": 242,
+        "end": 253,
+        "startLoc": {
+          "line": 242,
+          "column": 68,
+          "position": 1841
+        },
+        "endLoc": {
+          "line": 253,
+          "column": 30,
+          "position": 1965
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/cli/commands/scenario.ts",
+        "start": 156,
+        "end": 167,
+        "startLoc": {
+          "line": 156,
+          "column": 1,
+          "position": 1154
+        },
+        "endLoc": {
+          "line": 167,
+          "column": 29,
+          "position": 1278
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": ",\n            'copilot-concurrency': copilotConcurrencyOption,\n            'container-concurrency': containerConcurrencyOption,\n            'output-dir': outputDirectoryOption,\n            'plan-path': {\n              type: 'string',\n              description: 'The path to the plan to run',\n              default: './plan.json',\n            },\n            scenarios: scenariosOption,\n            runner: runnerFilterOption,\n            shard: shardOption,\n            token: githubCopilotTokenOption,\n          },\n          async run({args}) {\n            const benchmarksDirectory = path.resolve(args.benchmarks)\n            const copilotConcurrency",
+      "tokens": 117,
+      "firstFile": {
+        "name": "packages/agent-eval/src/cli/commands/benchmark.ts",
+        "start": 145,
+        "end": 161,
+        "startLoc": {
+          "line": 145,
+          "column": 41,
+          "position": 1023
+        },
+        "endLoc": {
+          "line": 161,
+          "column": 37,
+          "position": 1140
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/cli/commands/experiment.ts",
+        "start": 144,
+        "end": 160,
+        "startLoc": {
+          "line": 144,
+          "column": 43,
+          "position": 1018
+        },
+        "endLoc": {
+          "line": 160,
+          "column": 39,
+          "position": 1135
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ")\n            const copilotConcurrency = getConcurrencyValue(args['copilot-concurrency'], 'copilot-concurrency')\n            const containerConcurrency = getConcurrencyValue(args['container-concurrency'], 'container-concurrency')\n            const scenariosDirectory = path.resolve(args.scenarios)\n            const resultsDirectory = path.resolve(args['output-dir'])\n            const artifactsDirectory = path.join(resultsDirectory, 'artifacts')\n            const shard = args.shard ? parseShard(args.shard) : undefined\n            const outputPath = getOutputPath(resultsDirectory, shard)\n            const copilotToken = getCopilotToken(args.token)\n            const planPath = path.resolve(args['plan-path'])\n\n            debug({\n              artifactsDirectory,\n              benchmarksDirectory,\n              copilotConcurrency",
+      "tokens": 173,
+      "firstFile": {
+        "name": "packages/agent-eval/src/cli/commands/benchmark.ts",
+        "start": 160,
+        "end": 174,
+        "startLoc": {
+          "line": 160,
+          "column": 69,
+          "position": 1135
+        },
+        "endLoc": {
+          "line": 174,
+          "column": 33,
+          "position": 1308
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/cli/commands/experiment.ts",
+        "start": 160,
+        "end": 174,
+        "startLoc": {
+          "line": 160,
+          "column": 71,
+          "position": 1146
+        },
+        "endLoc": {
+          "line": 174,
+          "column": 35,
+          "position": 1319
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ",\n              copilotConcurrency,\n              containerConcurrency,\n              outputPath,\n              resultsDirectory,\n              scenariosDirectory,\n              shard,\n            })\n\n            info('Parsing plan manifest from: %s', path.relative(process.cwd(), planPath))\n            if (!host.fs.existsSync(planPath)) {\n              throw new Error(`Plan file does not exist: ${planPath}`)\n            }\n\n            const contents = await host.fs.promises.readFile(planPath, 'utf-8')\n            const manifest = await parseBenchmarkPlanManifest",
+      "tokens": 119,
+      "firstFile": {
+        "name": "packages/agent-eval/src/cli/commands/benchmark.ts",
+        "start": 173,
+        "end": 188,
+        "startLoc": {
+          "line": 173,
+          "column": 34,
+          "position": 1305
+        },
+        "endLoc": {
+          "line": 188,
+          "column": 62,
+          "position": 1424
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/cli/commands/experiment.ts",
+        "start": 174,
+        "end": 189,
+        "startLoc": {
+          "line": 174,
+          "column": 35,
+          "position": 1320
+        },
+        "endLoc": {
+          "line": 189,
+          "column": 63,
+          "position": 1439
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": ".name, shard ? `(${shard.order}/${shard.total})` : '')\n\n            const plan = createPlanFromManifest({\n              trials: selectPlanTrials({\n                trials: manifest.trials,\n                runner: args.runner,\n                shard,\n              }),\n            })\n            const runPlanResult = await runPlan({\n              artifactsDirectory,\n              copilotConcurrency,\n              containerConcurrency,\n              copilotToken,\n              plan,\n            })\n            const output = createBenchmarkOutput",
+      "tokens": 122,
+      "firstFile": {
+        "name": "packages/agent-eval/src/cli/commands/benchmark.ts",
+        "start": 194,
+        "end": 210,
+        "startLoc": {
+          "line": 194,
+          "column": 64,
+          "position": 1454
+        },
+        "endLoc": {
+          "line": 210,
+          "column": 49,
+          "position": 1576
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/cli/commands/experiment.ts",
+        "start": 196,
+        "end": 212,
+        "startLoc": {
+          "line": 196,
+          "column": 66,
+          "position": 1473
+        },
+        "endLoc": {
+          "line": 212,
+          "column": 50,
+          "position": 1595
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ")\n        const copilotConcurrency = getConcurrencyValue(args['copilot-concurrency'], 'copilot-concurrency')\n        const containerConcurrency = getConcurrencyValue(args['container-concurrency'], 'container-concurrency')\n        const scenariosDirectory = path.resolve(args.scenarios)\n        const resultsDirectory = path.resolve(args['output-dir'])\n        const artifactsDirectory = path.join(resultsDirectory, 'artifacts')\n        const outputPath = getOutputPath(resultsDirectory)\n        const copilotToken = getCopilotToken(args.token)\n\n        debug({\n          artifactsDirectory,\n          benchmarksDirectory,\n          copilotConcurrency",
+      "tokens": 129,
+      "firstFile": {
+        "name": "packages/agent-eval/src/cli/commands/benchmark.ts",
+        "start": 244,
+        "end": 256,
+        "startLoc": {
+          "line": 244,
+          "column": 65,
+          "position": 1810
+        },
+        "endLoc": {
+          "line": 256,
+          "column": 29,
+          "position": 1939
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/cli/commands/experiment.ts",
+        "start": 242,
+        "end": 254,
+        "startLoc": {
+          "line": 242,
+          "column": 67,
+          "position": 1840
+        },
+        "endLoc": {
+          "line": 254,
+          "column": 31,
+          "position": 1969
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 21,
+      "fragment": ">\n\nconst ScenarioOutputSchema = z.pick(ScenarioSchema, {\n  id: true,\n  directory: true,\n  prompt: true,\n  description: true,\n  tags: true,\n  judges: true,\n})\n\ntype ScenarioOutput = z.infer<typeof ScenarioOutputSchema>\n\nconst TreatmentOutputSchema = z.pick(TreatmentSchema, {\n  id: true,\n  name: true,\n})\n\ntype TreatmentOutput = z.infer<typeof TreatmentOutputSchema>\n\nconst BenchmarkOutputFileSchema",
+      "tokens": 131,
+      "firstFile": {
+        "name": "packages/agent-eval/src/benchmark/output.ts",
+        "start": 52,
+        "end": 72,
+        "startLoc": {
+          "line": 52,
+          "column": 62,
+          "position": 430
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 32,
+          "position": 561
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/experiment/output.ts",
+        "start": 36,
+        "end": 56,
+        "startLoc": {
+          "line": 36,
+          "column": 72,
+          "position": 321
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 33,
+          "position": 452
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 29,
+      "fragment": "),\n  scenarios: z.record(z.string(), ScenarioOutputSchema).check(ctx => {\n    for (const [key, scenario] of Object.entries(ctx.value)) {\n      if (scenario.id !== key) {\n        ctx.issues.push({\n          code: 'custom',\n          message: `Manifest scenario ID \"${scenario.id}\" does not match key \"${key}\"`,\n          path: [key, 'id'],\n          input: scenario.id,\n        })\n      }\n    }\n  }),\n  treatments: z.record(z.string(), TreatmentOutputSchema).check(ctx => {\n    for (const [key, treatment] of Object.entries(ctx.value)) {\n      if (treatment.id !== key) {\n        ctx.issues.push({\n          code: 'custom',\n          message: `Manifest treatment ID \"${treatment.id}\" does not match key \"${key}\"`,\n          path: [key, 'id'],\n          input: treatment.id,\n        })\n      }\n    }\n  }),\n  trials: z.record(z.string(), z.string()),\n})\n\ntype BenchmarkOutputFile",
+      "tokens": 306,
+      "firstFile": {
+        "name": "packages/agent-eval/src/benchmark/output.ts",
+        "start": 85,
+        "end": 113,
+        "startLoc": {
+          "line": 85,
+          "column": 4,
+          "position": 716
+        },
+        "endLoc": {
+          "line": 113,
+          "column": 25,
+          "position": 1022
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/experiment/output.ts",
+        "start": 72,
+        "end": 100,
+        "startLoc": {
+          "line": 72,
+          "column": 3,
+          "position": 622
+        },
+        "endLoc": {
+          "line": 100,
+          "column": 26,
+          "position": 928
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "), ctx => {\n    const id = ctx.value[0]?.id\n    const trialIds = new Set<string>()\n    const capabilities = new Map<string, CapabilityOutput>()\n    const scenarios = new Map<string, ScenarioOutput>()\n    const treatments = new Map<string, TreatmentOutput>()\n\n    for (const [index, output] of ctx.value.entries()) {\n      if (output.id !== id) {\n        ctx.issues.push({\n          code: 'custom',\n          message: `Cannot merge benchmark output files: mismatched benchmark IDs (",
+      "tokens": 161,
+      "firstFile": {
+        "name": "packages/agent-eval/src/benchmark/output.ts",
+        "start": 117,
+        "end": 128,
+        "startLoc": {
+          "line": 117,
+          "column": 83,
+          "position": 1063
+        },
+        "endLoc": {
+          "line": 128,
+          "column": 84,
+          "position": 1224
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/experiment/output.ts",
+        "start": 104,
+        "end": 115,
+        "startLoc": {
+          "line": 104,
+          "column": 84,
+          "position": 969
+        },
+        "endLoc": {
+          "line": 115,
+          "column": 86,
+          "position": 1130
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 47,
+      "fragment": "${id} !== ${output.id})`,\n          path: [index, 'id'],\n          input: output.id,\n        })\n      }\n\n      for (const [key, capability] of Object.entries(output.capabilities)) {\n        if (capabilities.has(key) && !isDeepStrictEqual(capabilities.get(key), capability)) {\n          ctx.issues.push({\n            code: 'custom',\n            message: `Cannot merge conflicting capability metadata for id: ${key}`,\n            path: [index, 'capabilities', key],\n            input: capability,\n          })\n        }\n        capabilities.set(key, capability)\n      }\n\n      for (const [key, scenario] of Object.entries(output.scenarios)) {\n        if (scenarios.has(key) && !isDeepStrictEqual(scenarios.get(key), scenario)) {\n          ctx.issues.push({\n            code: 'custom',\n            message: `Cannot merge conflicting scenario metadata for id: ${key}`,\n            path: [index, 'scenarios', key],\n            input: scenario,\n          })\n        }\n        scenarios.set(key, scenario)\n      }\n\n      for (const [key, treatment] of Object.entries(output.treatments)) {\n        if (treatments.has(key) && !isDeepStrictEqual(treatments.get(key), treatment)) {\n          ctx.issues.push({\n            code: 'custom',\n            message: `Cannot merge conflicting treatment metadata for id: ${key}`,\n            path: [index, 'treatments', key],\n            input: treatment,\n          })\n        }\n        treatments.set(key, treatment)\n      }\n\n      for (const key of Object.keys(output.trials)) {\n        if (trialIds.has(key)) {\n          ctx.issues.push({\n            code: 'custom',\n            message: `Cannot merge benchmark output files: duplicate trial ID found: ",
+      "tokens": 481,
+      "firstFile": {
+        "name": "packages/agent-eval/src/benchmark/output.ts",
+        "start": 128,
+        "end": 174,
+        "startLoc": {
+          "line": 128,
+          "column": 84,
+          "position": 1225
+        },
+        "endLoc": {
+          "line": 174,
+          "column": 86,
+          "position": 1706
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/experiment/output.ts",
+        "start": 115,
+        "end": 161,
+        "startLoc": {
+          "line": 115,
+          "column": 86,
+          "position": 1131
+        },
+        "endLoc": {
+          "line": 161,
+          "column": 87,
+          "position": 1612
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ")\n    }\n\n    if (!result.treatments.has(trial.treatment.id)) {\n      result.treatments.set(trial.treatment.id, {\n        id: trial.treatment.id,\n        name: trial.treatment.name,\n      })\n    }\n\n    result.trials.set(trial.id, {\n      agent: trialResult.agent,\n      artifacts: trialResult.artifacts,\n      capabilityId",
+      "tokens": 106,
+      "firstFile": {
+        "name": "packages/agent-eval/src/benchmark/output.ts",
+        "start": 235,
+        "end": 248,
+        "startLoc": {
+          "line": 235,
+          "column": 8,
+          "position": 2302
+        },
+        "endLoc": {
+          "line": 248,
+          "column": 19,
+          "position": 2408
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/experiment/output.ts",
+        "start": 225,
+        "end": 238,
+        "startLoc": {
+          "line": 225,
+          "column": 89,
+          "position": 2259
+        },
+        "endLoc": {
+          "line": 238,
+          "column": 10,
+          "position": 2365
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\n    for (const [key, value] of Object.entries(output.treatments)) {\n      treatments.set(key, value)\n    }\n\n    for (const [key, value] of Object.entries(output.trials)) {\n      const filepath = await resolveTrialArtifactsPath(host, outputDirectory, value)\n\n      const contents = await host.fs.promises.readFile(filepath, 'utf-8')\n      const trialOutput = parseBenchmarkTrialOutput",
+      "tokens": 121,
+      "firstFile": {
+        "name": "packages/agent-eval/src/benchmark/output.ts",
+        "start": 289,
+        "end": 298,
+        "startLoc": {
+          "line": 289,
+          "column": 1,
+          "position": 2784
+        },
+        "endLoc": {
+          "line": 298,
+          "column": 52,
+          "position": 2905
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/experiment/output.ts",
+        "start": 277,
+        "end": 286,
+        "startLoc": {
+          "line": 277,
+          "column": 6,
+          "position": 2751
+        },
+        "endLoc": {
+          "line": 286,
+          "column": 53,
+          "position": 2872
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ",\n        z.transform(async (files, ctx) => {\n          return await Promise.all(\n            files.map(async input => {\n              const filepath = path.isAbsolute(input) ? input : path.resolve(directory, input)\n              if (!host.fs.existsSync(filepath)) {\n                ctx.issues.push({\n                  code: 'custom',\n                  message: `Check config file does not exist: ",
+      "tokens": 110,
+      "firstFile": {
+        "name": "packages/agent-eval/src/check.ts",
+        "start": 159,
+        "end": 167,
+        "startLoc": {
+          "line": 159,
+          "column": 31,
+          "position": 1569
+        },
+        "endLoc": {
+          "line": 167,
+          "column": 63,
+          "position": 1679
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/judge.ts",
+        "start": 52,
+        "end": 60,
+        "startLoc": {
+          "line": 52,
+          "column": 31,
+          "position": 475
+        },
+        "endLoc": {
+          "line": 60,
+          "column": 63,
+          "position": 585
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "${input}`,\n                  input,\n                })\n                return z.NEVER\n              }\n\n              const realDirectory = await host.fs.promises.realpath(directory)\n              const realFilepath = await host.fs.promises.realpath(filepath)\n              if (!isPathInside(realDirectory, realFilepath)) {\n                ctx.issues.push({\n                  code: 'custom',\n                  message: `Check config file path must be inside the scenario directory: ",
+      "tokens": 101,
+      "firstFile": {
+        "name": "packages/agent-eval/src/check.ts",
+        "start": 186,
+        "end": 197,
+        "startLoc": {
+          "line": 186,
+          "column": 81,
+          "position": 1821
+        },
+        "endLoc": {
+          "line": 197,
+          "column": 91,
+          "position": 1922
+        }
+      },
+      "secondFile": {
+        "name": "packages/agent-eval/src/judge.ts",
+        "start": 79,
+        "end": 90,
+        "startLoc": {
+          "line": 79,
+          "column": 81,
+          "position": 727
+        },
+        "endLoc": {
+          "line": 90,
+          "column": 91,
+          "position": 828
+        }
+      }
+    }
+  ]
+}

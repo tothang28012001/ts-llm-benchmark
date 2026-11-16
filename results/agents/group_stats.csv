@@ -1,0 +1,19 @@
+rq,metric,column,n_human,median_human,n_claude,median_claude,n_other,median_other,mwu_p_other_vs_human,holm_p_other_vs_human,cliffs_delta_other_vs_human,effect_other_vs_human,mwu_p_other_vs_claude,holm_p_other_vs_claude,cliffs_delta_other_vs_claude,effect_other_vs_claude
+RQ1,Lint violations / KLOC,lint_per_kloc,12,42.795,12,7.57,19,4.77,0.0,0.0,-0.991,large,0.429,1.0,-0.175,small
+RQ1,Problem-type violations / KLOC,lint_problem_per_kloc,12,9.41,12,1.47,19,0.77,0.0,0.0,-0.921,large,0.1543,1.0,-0.311,small
+RQ1,Suggestion-type violations / KLOC,lint_suggestion_per_kloc,12,30.355,12,5.115,19,4.36,0.0001,0.0014,-0.825,large,0.5296,1.0,-0.14,negligible
+RQ1,Era-neutral violations / KLOC,lint_era_neutral_per_kloc,12,17.46,12,6.025,19,4.69,0.0005,0.0055,-0.763,large,0.429,1.0,-0.175,small
+RQ1,Era-neutral problem violations / KLOC,lint_era_neutral_problem_per_kloc,12,5.79,12,1.47,19,0.77,0.0002,0.0024,-0.82,large,0.1664,1.0,-0.303,small
+RQ1,Explicit `any` / KLOC,any_per_kloc,12,18.21,12,0.0,19,0.0,0.0,0.0,-0.947,large,0.5694,1.0,-0.11,negligible
+RQ2,Functions / KLOC,functions_per_kloc,12,115.85,12,76.6,19,62.0,0.0013,0.013,-0.702,large,0.1557,1.0,-0.311,small
+RQ2,Mean cyclomatic complexity / function,cc_mean,12,1.964,12,2.85,19,3.047,0.0,0.0,0.904,large,0.9515,1.0,-0.018,negligible
+RQ2,% functions with CC > 10,cc_over10_pct,12,0.625,12,4.09,19,4.31,0.0001,0.0014,0.838,large,0.6122,1.0,-0.114,negligible
+RQ2,Mean cognitive complexity / function,cognitive_mean,12,1.091,12,1.648,19,1.519,0.0033,0.0264,0.64,large,0.3011,1.0,-0.228,small
+RQ2,% functions with cognitive > 15,cognitive_over15_pct,12,0.23,12,1.7,19,1.87,0.0015,0.0135,0.689,large,0.5565,1.0,-0.132,negligible
+RQ2,Duplicated lines (%),dup_pct,12,0.465,12,0.545,19,1.77,0.242,1.0,0.254,small,0.0737,1.0,0.39,medium
+RQ2,Comment density,comment_density,12,0.037,12,0.085,19,0.034,0.5163,1.0,-0.145,negligible,0.0079,0.1422,-0.579,large
+RQ2,Test-to-code LOC ratio,test_to_code,12,0.444,12,0.623,19,0.331,0.598,1.0,-0.118,negligible,0.0285,0.4811,-0.478,large
+RQ3,tsc errors in project files / KLOC,tsc_errors_per_kloc,12,0.0,12,0.0,19,0.06,0.0606,0.4242,0.368,medium,0.0283,0.4811,0.43,medium
+RQ2,Test pass rate (Node 22),test_pass_rate,12,0.939,12,1.0,19,1.0,0.0686,0.4242,0.355,medium,0.9416,1.0,-0.018,negligible
+RQ2,Mutation score,mutation_score,4,0.55,8,0.4,5,0.151,0.3252,1.0,-0.45,medium,0.1709,1.0,-0.5,large
+RQ2,"Mutation score, covered code",mutation_score_covered,4,0.55,8,0.672,5,0.438,0.8057,1.0,-0.15,small,0.1637,1.0,-0.5,large

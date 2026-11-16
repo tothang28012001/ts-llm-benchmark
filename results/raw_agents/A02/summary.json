@@ -1,0 +1,89 @@
+{
+  "repo_id": "A02",
+  "group": "llm",
+  "full_name": "primer/agent-eval",
+  "stars": "2",
+  "created_at": "2026-05-15",
+  "pin": "169d934f72318ba9a2f9be0a71e2b0eaf318a587",
+  "fetch": {
+    "sha": "169d934f72318ba9a2f9be0a71e2b0eaf318a587",
+    "commit_date": "2026-11-06T16:57:16-06:00",
+    "first_commit_date": "2026-05-15T14:11:59-05:00",
+    "commits_to_pin": 354,
+    "ai_commits_to_pin": 171,
+    "ai_commit_share": 0.4831,
+    "ai_agents": [
+      "copilot"
+    ]
+  },
+  "inventory": {
+    "prod_files": 164,
+    "test_files": 79,
+    "skipped": 39,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 164,
+      "lines": 16686,
+      "code": 14664,
+      "comment": 200,
+      "blank": 1824
+    },
+    "test": {
+      "files": 79,
+      "lines": 11232,
+      "code": 10099,
+      "comment": 2,
+      "blank": 1131
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 0,
+        "seconds": 28.1
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "6.0.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 35,
+        "seconds": 0.891
+      }
+    ],
+    "errors_total": 35,
+    "errors_in_project_files": 35,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2307": 19,
+      "TS7031": 16
+    },
+    "files_with_errors": 19,
+    "timed_out": false,
+    "project_files_checked": 20
+  },
+  "test": {
+    "cmd": "corepack pnpm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 32.2
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

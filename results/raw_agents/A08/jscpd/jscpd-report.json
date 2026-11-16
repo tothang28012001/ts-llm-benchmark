@@ -1,0 +1,873 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T08:43:03.298Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/store/calculatorStore.ts": {
+            "lines": 475,
+            "tokens": 5038,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations.ts": {
+            "lines": 54,
+            "tokens": 641,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/types.ts": {
+            "lines": 277,
+            "tokens": 1470,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/parameters.ts": {
+            "lines": 146,
+            "tokens": 1140,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/szenarien.ts": {
+            "lines": 33,
+            "tokens": 340,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/steuer.ts": {
+            "lines": 254,
+            "tokens": 2240,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/privatvergleich.ts": {
+            "lines": 338,
+            "tokens": 2857,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/investition.ts": {
+            "lines": 116,
+            "tokens": 1130,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/gruendung.ts": {
+            "lines": 29,
+            "tokens": 216,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/gesamtvergleich.ts": {
+            "lines": 215,
+            "tokens": 1733,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 240,
+            "percentage": 9.3,
+            "percentageTokens": 13.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/etf.ts": {
+            "lines": 207,
+            "tokens": 1756,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/ende.ts": {
+            "lines": 965,
+            "tokens": 8794,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 44,
+            "duplicatedTokens": 666,
+            "percentage": 4.56,
+            "percentageTokens": 7.57,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/darlehen.ts": {
+            "lines": 56,
+            "tokens": 457,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/betrieb.ts": {
+            "lines": 542,
+            "tokens": 5088,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 28,
+            "duplicatedTokens": 368,
+            "percentage": 5.17,
+            "percentageTokens": 7.23,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calculations/benefits.ts": {
+            "lines": 306,
+            "tokens": 2463,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/manifest.ts": {
+            "lines": 40,
+            "tokens": 242,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4053,
+          "tokens": 35605,
+          "sources": 16,
+          "clones": 4,
+          "duplicatedLines": 46,
+          "duplicatedTokens": 637,
+          "percentage": 1.13,
+          "percentageTokens": 1.79,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/components/VergleichsDiagramm.tsx": {
+            "lines": 98,
+            "tokens": 870,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SzenarioVergleich.tsx": {
+            "lines": 30,
+            "tokens": 482,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Steuerannahmen.tsx": {
+            "lines": 57,
+            "tokens": 1134,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/KostenListe.tsx": {
+            "lines": 142,
+            "tokens": 1267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/JahresUebersicht.tsx": {
+            "lines": 672,
+            "tokens": 9157,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 180,
+            "duplicatedTokens": 2320,
+            "percentage": 26.79,
+            "percentageTokens": 25.34,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/GruendungSection.tsx": {
+            "lines": 4,
+            "tokens": 23,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EndeSection.tsx": {
+            "lines": 874,
+            "tokens": 11785,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EingabeWarnungen.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/page.tsx": {
+            "lines": 248,
+            "tokens": 2387,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2126,
+          "tokens": 27108,
+          "sources": 9,
+          "clones": 2,
+          "duplicatedLines": 90,
+          "duplicatedTokens": 1160,
+          "percentage": 4.23,
+          "percentageTokens": 4.28,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/components/VergleichsDiagramm.tsx": {
+            "lines": 212,
+            "tokens": 2063,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SzenarioVergleich.tsx": {
+            "lines": 73,
+            "tokens": 961,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Steuerannahmen.tsx": {
+            "lines": 112,
+            "tokens": 1821,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ServiceWorkerRegistration.tsx": {
+            "lines": 18,
+            "tokens": 115,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/KostenListe.tsx": {
+            "lines": 210,
+            "tokens": 2015,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/JahresUebersicht.tsx": {
+            "lines": 721,
+            "tokens": 9503,
+            "sources": 1,
+            "clones": 8,
+            "duplicatedLines": 284,
+            "duplicatedTokens": 4172,
+            "percentage": 39.39,
+            "percentageTokens": 43.9,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/GruendungSection.tsx": {
+            "lines": 58,
+            "tokens": 494,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EndeSection.tsx": {
+            "lines": 939,
+            "tokens": 12189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EingabeWarnungen.tsx": {
+            "lines": 22,
+            "tokens": 249,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/offline/page.tsx": {
+            "lines": 13,
+            "tokens": 114,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/page.tsx": {
+            "lines": 322,
+            "tokens": 3147,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/layout.tsx": {
+            "lines": 31,
+            "tokens": 233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2731,
+          "tokens": 32904,
+          "sources": 12,
+          "clones": 4,
+          "duplicatedLines": 142,
+          "duplicatedTokens": 2086,
+          "percentage": 5.2,
+          "percentageTokens": 6.34,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 8910,
+      "tokens": 95617,
+      "sources": 37,
+      "clones": 10,
+      "duplicatedLines": 278,
+      "duplicatedTokens": 3883,
+      "percentage": 3.12,
+      "percentageTokens": 4.06,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": " {\n  const endfaelligkeitsAbwicklungsjahre = endeErgebnisse.length > Math.max(0, endeLaufzeitJahre) ? 1 : 0;\n  const zeitraumJahre = Math.max(\n    1,\n    Math.max(0, betrieb.laufzeitJahre) + Math.max(0, endeLaufzeitJahre) + endfaelligkeitsAbwicklungsjahre\n  );\n  const { entnahmenOverride, offeneDarlehenOverride, gehaltsEntnahmeOverride } = berechnePrivatVergleichOverrides(\n    betrieb.laufzeitJahre,\n    endeErgebnisse\n  );\n  const privatZeitreihe",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/lib/calculations/gesamtvergleich.ts",
+        "start": 166,
+        "end": 176,
+        "startLoc": {
+          "line": 166,
+          "column": 35,
+          "position": 1256
+        },
+        "endLoc": {
+          "line": 176,
+          "column": 24,
+          "position": 1376
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/calculations/gesamtvergleich.ts",
+        "start": 92,
+        "end": 102,
+        "startLoc": {
+          "line": 92,
+          "column": 22,
+          "position": 678
+        },
+        "endLoc": {
+          "line": 102,
+          "column": 24,
+          "position": 798
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": " = 0;\n    investitionsKreditRestschuldWerte = investitionsKreditRestschuldWerte.map((restschuld, idx) => {\n      const inv = investitionen[idx];\n      if (!inv || restschuld <= 0) return 0;\n      const zinssatz = Math.max(0, inv.zinssatz ?? 0);\n      const tilgung = Math.max(0, inv.tilgungsrateJaehrlich ?? 0);\n      const zinsaufwand = restschuld * (zinssatz / 100);\n      const tatsaechlicheTilgung = Math.min(tilgung, restschuld);\n      investitionsZinsaufwandProJahr",
+      "tokens": 149,
+      "firstFile": {
+        "name": "src/lib/calculations/ende.ts",
+        "start": 632,
+        "end": 640,
+        "startLoc": {
+          "line": 632,
+          "column": 35,
+          "position": 5668
+        },
+        "endLoc": {
+          "line": 640,
+          "column": 37,
+          "position": 5817
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/calculations/ende.ts",
+        "start": 404,
+        "end": 412,
+        "startLoc": {
+          "line": 404,
+          "column": 37,
+          "position": 3321
+        },
+        "endLoc": {
+          "line": 412,
+          "column": 39,
+          "position": 3470
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "];\n      if (!inv || restschuld <= 0) return 0;\n      const zinssatz = Math.max(0, inv.zinssatz ?? 0);\n      const tilgung = Math.max(0, inv.tilgungsrateJaehrlich ?? 0);\n      const zinsaufwand = restschuld * (zinssatz / 100);\n      const tatsaechlicheTilgung = Math.min(tilgung, restschuld);\n      investitionsZinsaufwandProJahr += zinsaufwand;\n      investitionsTilgungProJahr += tatsaechlicheTilgung;\n      return Math.max(0, restschuld - tatsaechlicheTilgung);\n    });\n    const investitionsKreditRestschuld = investitionsKreditRestschuldWerte.reduce((sum, r) => sum + r, 0);\n    const investitionsNettoCashflowProJahr = investitionsGewinnVerlustProJahr - investitionsZinsaufwandProJahr - investitionsTilgungProJahr;\n    investitionsKumulierterNettoCashflow += investitionsNettoCashflowProJahr;\n    const investitionsCashZufluss = Math.max(0, investitionsNettoCashflowProJahr);\n    const investitionsCashAbfluss = Math.max(0, -investitionsNettoCashflowProJahr);\n    ",
+      "tokens": 245,
+      "firstFile": {
+        "name": "src/lib/calculations/betrieb.ts",
+        "start": 185,
+        "end": 200,
+        "startLoc": {
+          "line": 185,
+          "column": 34,
+          "position": 1771
+        },
+        "endLoc": {
+          "line": 200,
+          "column": 5,
+          "position": 2016
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/calculations/ende.ts",
+        "start": 406,
+        "end": 650,
+        "startLoc": {
+          "line": 406,
+          "column": 36,
+          "position": 3357
+        },
+        "endLoc": {
+          "line": 650,
+          "column": 1,
+          "position": 5949
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ")\n      );\n      if (Math.abs(benoetigterVerkauf - etfVerkauf) < SALE_CONVERGENCE_THRESHOLD) {\n        etfVerkauf = benoetigterVerkauf;\n        break;\n      }\n      etfVerkauf = benoetigterVerkauf;\n    }\n\n    const verkauf = verkaufeEtfLotsSteueroptimal(etfLotsNachWachstum, etfVerkauf, sortierteLotIndizes);\n    const einstandswertVerkauft = verkauf.etfEinstandswertVerkauft;\n    const realisierterEtfErtrag = verkauf.etfGewinn;\n    const vorabpauschale = berechneVorabpauschaleNachEtfVerkauf(vorabpauschaleBrutto, realisierterEtfErtrag);\n    const vorabpauschalesteuer = berechneVorabpauschalesteuer(vorabpauschale",
+      "tokens": 123,
+      "firstFile": {
+        "name": "src/lib/calculations/betrieb.ts",
+        "start": 305,
+        "end": 318,
+        "startLoc": {
+          "line": 305,
+          "column": 9,
+          "position": 3327
+        },
+        "endLoc": {
+          "line": 318,
+          "column": 77,
+          "position": 3450
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/calculations/ende.ts",
+        "start": 828,
+        "end": 842,
+        "startLoc": {
+          "line": 828,
+          "column": 119,
+          "position": 7747
+        },
+        "endLoc": {
+          "line": 842,
+          "column": 1,
+          "position": 7870
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 38,
+      "fragment": "} value={d.betriebsausgabenGesamt} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {betriebskostenPosten.map((posten, index) => (\n        <BilanzRow\n          key={`${posten.label}-${index}`}\n          label={`• ${posten.label}`}\n          value={posten.wert}\n          colorClass=\"text-gray-500\"\n          indent\n        />\n      ))}\n      {d.investitionsGewinnVerlustProJahr !== 0 && d.investitionsGewinnVerlustProJahr !== undefined && (\n        <BilanzRow\n          label={`${d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"} Investitions-Gewinn/Verlust`}\n          value={d.investitionsGewinnVerlustProJahr}\n          prefix={d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsGewinnVerlustProJahr >= 0 ? \"text-green-700\" : \"text-red-600\"}\n          indent\n        />\n      )}\n      {d.investitionsZinsaufwandProJahr > 0 && (\n        <BilanzRow label=\"− Zinsen auf Investitionskredite\" value={d.investitionsZinsaufwandProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {d.investitionsTilgungProJahr > 0 && (\n        <BilanzRow label=\"− Tilgung Investitionskredite\" value={d.investitionsTilgungProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {(d.investitionsZinsaufwandProJahr > 0 || d.investitionsTilgungProJahr > 0) && d.investitionsNettoCashflowProJahr !== undefined && d.investitionsNettoCashflowProJahr !== 0 && (\n        <BilanzRow\n          label={`= Investitions-Cashflow (netto)`}\n          value={d.investitionsNettoCashflowProJahr}\n          prefix={d.investitionsNettoCashflowProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsNettoCashflowProJahr >= 0 ? \"text-teal-700\" : \"text-red-600\"}\n          bold\n          indent\n        />\n      )}\n      {d.bruttoGehalt !== undefined && d.bruttoGehalt > 0 && (\n        <BilanzRow label=\"− GF-Gehalt (brutto, Betriebsausgabe)\" value={d.bruttoGehalt",
+      "tokens": 462,
+      "firstFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 363,
+        "end": 400,
+        "startLoc": {
+          "line": 363,
+          "column": 105,
+          "position": 4691
+        },
+        "endLoc": {
+          "line": 400,
+          "column": 87,
+          "position": 5153
+        }
+      },
+      "secondFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 79,
+        "end": 117,
+        "startLoc": {
+          "line": 79,
+          "column": 72,
+          "position": 713
+        },
+        "endLoc": {
+          "line": 117,
+          "column": 81,
+          "position": 1191
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 54,
+      "fragment": "}\n        bold\n        colorClass=\"text-green-700\"\n      />\n\n      <SectionHeader label=\"Bereich 2 – Gewinn- und Verlustrechnung der GmbH\" />\n      {d.simulierterGewinn !== undefined && d.simulierterGewinn > 0 && (\n        <BilanzRow label=\"+ Simulierter Betriebsgewinn\" value={d.simulierterGewinn} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n      {d.theoretischerEtfErtrag !== undefined && (\n        <BilanzRow label=\"+ ETF-Ertrag (theoretisch)\" value={d.theoretischerEtfErtrag} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n      {d.betriebsausgabenGesamt !== undefined && (\n        <BilanzRow label={d.bruttoGehalt > 0 ? \"− Betriebsausgaben (ohne Gehalt)\" : \"− Betriebsausgaben\"} value={d.betriebsausgabenGesamt} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {betriebskostenPosten.map((posten, index) => (\n        <BilanzRow\n          key={`${posten.label}-${index}`}\n          label={`• ${posten.label}`}\n          value={posten.wert}\n          colorClass=\"text-gray-500\"\n          indent\n        />\n      ))}\n      {d.investitionsGewinnVerlustProJahr !== 0 && d.investitionsGewinnVerlustProJahr !== undefined && (\n        <BilanzRow\n          label={`${d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"} Investitions-Gewinn/Verlust`}\n          value={d.investitionsGewinnVerlustProJahr}\n          prefix={d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsGewinnVerlustProJahr >= 0 ? \"text-green-700\" : \"text-red-600\"}\n          indent\n        />\n      )}\n      {d.investitionsZinsaufwandProJahr > 0 && (\n        <BilanzRow label=\"− Zinsen auf Investitionskredite\" value={d.investitionsZinsaufwandProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {d.investitionsTilgungProJahr > 0 && (\n        <BilanzRow label=\"− Tilgung Investitionskredite\" value={d.investitionsTilgungProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {(d.investitionsZinsaufwandProJahr > 0 || d.investitionsTilgungProJahr > 0) && d.investitionsNettoCashflowProJahr !== undefined && d.investitionsNettoCashflowProJahr !== 0 && (\n        <BilanzRow\n          label={`= Investitions-Cashflow (netto)`}\n          value={d.investitionsNettoCashflowProJahr}\n          prefix={d.investitionsNettoCashflowProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsNettoCashflowProJahr >= 0 ? \"text-teal-700\" : \"text-red-600\"}\n          bold\n          indent\n        />\n      )}\n      {d.bruttoGehalt !== undefined && d.bruttoGehalt > 0 && (\n        <BilanzRow label=\"− GF-Gehalt (brutto, Betriebsausgabe)\" value={d.bruttoGehalt} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {d.darlehenZinsen !== undefined && d.darlehenZinsen > 0 && (\n        <BilanzRow label=\"− Darlehenszinsen Gesellschafter (abzugsfähig)\" value={d.darlehenZinsen",
+      "tokens": 698,
+      "firstFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 524,
+        "end": 577,
+        "startLoc": {
+          "line": 524,
+          "column": 47,
+          "position": 7027
+        },
+        "endLoc": {
+          "line": 577,
+          "column": 98,
+          "position": 7725
+        }
+      },
+      "secondFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 352,
+        "end": 403,
+        "startLoc": {
+          "line": 352,
+          "column": 82,
+          "position": 4507
+        },
+        "endLoc": {
+          "line": 403,
+          "column": 84,
+          "position": 5215
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 36,
+      "fragment": "\n      {betriebskostenPosten.map((posten, index) => (\n        <BilanzRow\n          key={`${posten.label}-${index}`}\n          label={`• ${posten.label}`}\n          value={posten.wert}\n          colorClass=\"text-gray-500\"\n          indent\n        />\n      ))}\n      {d.investitionsGewinnVerlustProJahr !== 0 && d.investitionsGewinnVerlustProJahr !== undefined && (\n        <BilanzRow\n          label={`${d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"} Investitions-Gewinn/Verlust`}\n          value={d.investitionsGewinnVerlustProJahr}\n          prefix={d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsGewinnVerlustProJahr >= 0 ? \"text-green-700\" : \"text-red-600\"}\n          indent\n        />\n      )}\n      {d.investitionsZinsaufwandProJahr > 0 && (\n        <BilanzRow label=\"− Zinsen auf Investitionskredite\" value={d.investitionsZinsaufwandProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {d.investitionsTilgungProJahr > 0 && (\n        <BilanzRow label=\"− Tilgung Investitionskredite\" value={d.investitionsTilgungProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {(d.investitionsZinsaufwandProJahr > 0 || d.investitionsTilgungProJahr > 0) && d.investitionsNettoCashflowProJahr !== undefined && d.investitionsNettoCashflowProJahr !== 0 && (\n        <BilanzRow\n          label={`= Investitions-Cashflow (netto)`}\n          value={d.investitionsNettoCashflowProJahr}\n          prefix={d.investitionsNettoCashflowProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsNettoCashflowProJahr >= 0 ? \"text-teal-700\" : \"text-red-600\"}\n          bold\n          indent\n        />\n      )}\n      {d.bruttoGehalt",
+      "tokens": 398,
+      "firstFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 364,
+        "end": 399,
+        "startLoc": {
+          "line": 364,
+          "column": 9,
+          "position": 4720
+        },
+        "endLoc": {
+          "line": 399,
+          "column": 22,
+          "position": 5118
+        }
+      },
+      "secondFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 81,
+        "end": 116,
+        "startLoc": {
+          "line": 81,
+          "column": 125,
+          "position": 768
+        },
+        "endLoc": {
+          "line": 116,
+          "column": 26,
+          "position": 1166
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 37,
+      "fragment": "\" />\n      <SectionHeader label=\"Einnahmen (brutto)\" />\n      {d.bruttoGehalt !== undefined && (\n        <BilanzRow label=\"Brutto-Gehalt\" value={d.bruttoGehalt} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n      {d.darlehenZinsen !== undefined && d.darlehenZinsen > 0 && (\n        <BilanzRow label=\"Zinsanteil Darlehen (brutto)\" value={d.darlehenZinsen} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n      {d.darlehenTilgung !== undefined && d.darlehenTilgung > 0 && (\n        <BilanzRow label=\"Darlehensrückzahlung (Tilgung)\" value={d.darlehenTilgung} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n      {d.gewinnausschuettung !== undefined && d.gewinnausschuettung > 0 && (\n        <BilanzRow label=\"Gewinnausschüttung (brutto)\" value={d.gewinnausschuettung} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n\n      <SectionHeader label=\"Steuern (Privat)\" />\n      {d.einkommensteuer !== undefined && (\n        <BilanzRow label=\"− Einkommensteuer\" value={d.einkommensteuer} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n      {d.soli !== undefined && d.soli > 0 && (\n        <BilanzRow label=\"− Solidaritätszuschlag\" value={d.soli} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n      {d.darlehenZinsenSteuer !== undefined && d.darlehenZinsenSteuer > 0 && (\n        <BilanzRow label=\"− Einkommensteuer auf Zinsanteil\" value={d.darlehenZinsenSteuer} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n      {d.kstSteuer !== undefined && d.kstSteuer > 0 && (\n        <BilanzRow label=\"− Körperschaftsteuer (Finanzamt)\" value={d.kstSteuer} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n      {d.ausschuettungsteuer !== undefined && d.ausschuettungsteuer > 0 && (\n        <BilanzRow label=\"− Steuer auf Ausschüttung\" value={d.ausschuettungsteuer} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n\n      <SectionHeader label=\"Netto beim Gesellschafter\" />\n      {d.nettoGehalt !== undefined && (\n        <BilanzRow label=\"Netto-Gehalt\" value={d.nettoGehalt} prefix=\"+\" colorClass=\"text-green-700\" indent />\n      )}\n      {",
+      "tokens": 633,
+      "firstFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 468,
+        "end": 504,
+        "startLoc": {
+          "line": 468,
+          "column": 55,
+          "position": 6118
+        },
+        "endLoc": {
+          "line": 504,
+          "column": 8,
+          "position": 6751
+        }
+      },
+      "secondFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 296,
+        "end": 332,
+        "startLoc": {
+          "line": 296,
+          "column": 55,
+          "position": 3651
+        },
+        "endLoc": {
+          "line": 332,
+          "column": 8,
+          "position": 4284
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 48,
+      "fragment": "\" />\n      {d.simulierterGewinn !== undefined && d.simulierterGewinn > 0 && (\n        <BilanzRow label=\"+ Simulierter Betriebsgewinn\" value={d.simulierterGewinn} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n      {d.theoretischerEtfErtrag !== undefined && (\n        <BilanzRow label=\"+ ETF-Ertrag (theoretisch)\" value={d.theoretischerEtfErtrag} prefix=\"+\" colorClass=\"text-gray-700\" indent />\n      )}\n      {d.betriebsausgabenGesamt !== undefined && (\n        <BilanzRow label={d.bruttoGehalt > 0 ? \"− Betriebsausgaben (ohne Gehalt)\" : \"− Betriebsausgaben\"} value={d.betriebsausgabenGesamt} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {betriebskostenPosten.map((posten, index) => (\n        <BilanzRow\n          key={`${posten.label}-${index}`}\n          label={`• ${posten.label}`}\n          value={posten.wert}\n          colorClass=\"text-gray-500\"\n          indent\n        />\n      ))}\n      {d.investitionsGewinnVerlustProJahr !== 0 && d.investitionsGewinnVerlustProJahr !== undefined && (\n        <BilanzRow\n          label={`${d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"} Investitions-Gewinn/Verlust`}\n          value={d.investitionsGewinnVerlustProJahr}\n          prefix={d.investitionsGewinnVerlustProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsGewinnVerlustProJahr >= 0 ? \"text-green-700\" : \"text-red-600\"}\n          indent\n        />\n      )}\n      {d.investitionsZinsaufwandProJahr > 0 && (\n        <BilanzRow label=\"− Zinsen auf Investitionskredite\" value={d.investitionsZinsaufwandProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {d.investitionsTilgungProJahr > 0 && (\n        <BilanzRow label=\"− Tilgung Investitionskredite\" value={d.investitionsTilgungProJahr} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {(d.investitionsZinsaufwandProJahr > 0 || d.investitionsTilgungProJahr > 0) && d.investitionsNettoCashflowProJahr !== undefined && d.investitionsNettoCashflowProJahr !== 0 && (\n        <BilanzRow\n          label={`= Investitions-Cashflow (netto)`}\n          value={d.investitionsNettoCashflowProJahr}\n          prefix={d.investitionsNettoCashflowProJahr >= 0 ? \"+\" : \"−\"}\n          colorClass={d.investitionsNettoCashflowProJahr >= 0 ? \"text-teal-700\" : \"text-red-600\"}\n          bold\n          indent\n        />\n      )}\n      {d.bruttoGehalt !== undefined && d.bruttoGehalt > 0 && (\n        <BilanzRow label=\"− GF-Gehalt (brutto, Betriebsausgabe)\" value={d.bruttoGehalt} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {d.darlehenZinsen",
+      "tokens": 642,
+      "firstFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 529,
+        "end": 576,
+        "startLoc": {
+          "line": 529,
+          "column": 77,
+          "position": 7048
+        },
+        "endLoc": {
+          "line": 576,
+          "column": 24,
+          "position": 7690
+        }
+      },
+      "secondFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 355,
+        "end": 402,
+        "startLoc": {
+          "line": 355,
+          "column": 77,
+          "position": 4538
+        },
+        "endLoc": {
+          "line": 402,
+          "column": 30,
+          "position": 5180
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 25,
+      "fragment": "\" value={d.privatDarlehenZinsen} prefix=\"−\" colorClass=\"text-gray-600\" indent />\n      )}\n      {d.verlustVortragGenutzt !== undefined && d.verlustVortragGenutzt > 0 && (\n        <BilanzRow label=\"− Verlustvortrag verrechnet\" value={d.verlustVortragGenutzt} prefix=\"−\" colorClass=\"text-emerald-600\" indent />\n      )}\n      {d.steuerpflichtigerGewinn !== undefined && d.steuerpflichtigerGewinn > 0 && (\n        <>\n          <Divider />\n          <BilanzRow label=\"= Steuerpflichtiger Gewinn (Bemessungsgrundlage)\" value={d.steuerpflichtigerGewinn} prefix=\"=\" bold colorClass=\"text-gray-700\" indent />\n        </>\n      )}\n      {d.verlustvortrag !== undefined && d.verlustvortrag > 0 && (\n        <BilanzRow label=\"Verbleibender Verlustvortrag\" value={d.verlustvortrag} colorClass=\"text-amber-600\" indent />\n      )}\n      {d.vorabpauschalesteuer !== undefined && d.vorabpauschalesteuer > 0 && (\n        <BilanzRow label=\"− Steuer auf Vorabpauschale\" value={d.vorabpauschalesteuer} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n      {d.gmbhSteuerKst !== undefined && d.gmbhSteuerKst > 0 && (\n        <BilanzRow label=\"− Körperschaftsteuer inkl. Soli (KSt, 15,825 %)\" value={d.gmbhSteuerKst} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n      {d.gmbhSteuerGewSt !== undefined && d.gmbhSteuerGewSt > 0 && (\n        <BilanzRow label=\"− Gewerbesteuer (GewSt)\" value={d.gmbhSteuerGewSt} prefix=\"−\" colorClass=\"text-red-600\" indent />\n      )}\n\n",
+      "tokens": 413,
+      "firstFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 580,
+        "end": 604,
+        "startLoc": {
+          "line": 580,
+          "column": 65,
+          "position": 7780
+        },
+        "endLoc": {
+          "line": 604,
+          "column": 1,
+          "position": 8193
+        }
+      },
+      "secondFile": {
+        "name": "src/components/JahresUebersicht.tsx",
+        "start": 403,
+        "end": 426,
+        "startLoc": {
+          "line": 403,
+          "column": 53,
+          "position": 5208
+        },
+        "endLoc": {
+          "line": 426,
+          "column": 7,
+          "position": 5621
+        }
+      }
+    }
+  ]
+}

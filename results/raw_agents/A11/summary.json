@@ -1,0 +1,120 @@
+{
+  "repo_id": "A11",
+  "group": "llm",
+  "full_name": "pranjalken32/HPA_CABS",
+  "stars": "0",
+  "created_at": "2026-06-06",
+  "pin": "b26b6324e6ec3effa804f15b5e54007f48bc1786",
+  "fetch": {
+    "sha": "b26b6324e6ec3effa804f15b5e54007f48bc1786",
+    "commit_date": "2026-10-18T14:11:28+05:30",
+    "first_commit_date": "2026-06-07T01:53:24+05:30",
+    "commits_to_pin": 155,
+    "ai_commits_to_pin": 99,
+    "ai_commit_share": 0.6387,
+    "ai_agents": [
+      "devin"
+    ]
+  },
+  "inventory": {
+    "prod_files": 35,
+    "test_files": 3,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 35,
+      "lines": 10320,
+      "code": 9528,
+      "comment": 97,
+      "blank": 696
+    },
+    "test": {
+      "files": 3,
+      "lines": 795,
+      "code": 746,
+      "comment": 0,
+      "blank": 49
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 30.3
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "6.0.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.app.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 10.32
+      },
+      {
+        "tsconfig": "tsconfig.node.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 1.702
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 39
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 3.6
+  },
+  "mutation": {
+    "sample_files": [
+      "src/pages/Analytics.tsx"
+    ],
+    "sample_lines": 1069,
+    "framework_versions": {
+      "vitest": "3.2.7",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": null,
+    "status": "timeout",
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 1,
+        "seconds": 10.668,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 143,
+        "seconds": 1336.113,
+        "timed_out": true
+      }
+    ]
+  }
+}

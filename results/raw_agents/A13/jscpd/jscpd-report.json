@@ -1,0 +1,2101 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T09:21:07.045Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "functions/api/apps/[slug]/shared.ts": {
+            "lines": 43,
+            "tokens": 356,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/api/apps/[slug]/query.ts": {
+            "lines": 41,
+            "tokens": 379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "templates/aplicacion/src/main.ts": {
+            "lines": 35,
+            "tokens": 314,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "templates/aplicacion/src/datos.ts": {
+            "lines": 442,
+            "tokens": 5677,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 469,
+            "duplicatedTokens": 5911,
+            "percentage": 106.11,
+            "percentageTokens": 104.12,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "templates/aplicacion/src/app.ts": {
+            "lines": 125,
+            "tokens": 1453,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/coptero/src/vuelo.ts": {
+            "lines": 378,
+            "tokens": 5905,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/coptero/src/pintar.ts": {
+            "lines": 559,
+            "tokens": 8355,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 44,
+            "duplicatedTokens": 580,
+            "percentage": 7.87,
+            "percentageTokens": 6.94,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/coptero/src/main.ts": {
+            "lines": 474,
+            "tokens": 5497,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/conecta/src/view.ts": {
+            "lines": 572,
+            "tokens": 8526,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/conecta/src/photo.ts": {
+            "lines": 29,
+            "tokens": 458,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/conecta/src/main.ts": {
+            "lines": 507,
+            "tokens": 5342,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/conecta/src/logic.ts": {
+            "lines": 795,
+            "tokens": 11943,
+            "sources": 1,
+            "clones": 10,
+            "duplicatedLines": 72,
+            "duplicatedTokens": 1280,
+            "percentage": 9.06,
+            "percentageTokens": 10.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/conecta/src/datos.ts": {
+            "lines": 442,
+            "tokens": 5677,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 441,
+            "duplicatedTokens": 5677,
+            "percentage": 99.77,
+            "percentageTokens": 100,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/chispa/src/rules.ts": {
+            "lines": 39,
+            "tokens": 506,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/asset-lab/src/main.ts": {
+            "lines": 200,
+            "tokens": 2064,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "protos/asset-lab/src/bridge.ts": {
+            "lines": 61,
+            "tokens": 798,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/api/proposals/status.ts": {
+            "lines": 23,
+            "tokens": 192,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/api/workshop.ts": {
+            "lines": 32,
+            "tokens": 226,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/api/proposals.ts": {
+            "lines": 24,
+            "tokens": 208,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/phases.ts": {
+            "lines": 70,
+            "tokens": 688,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/issue-pr.ts": {
+            "lines": 125,
+            "tokens": 1336,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/graphql.ts": {
+            "lines": 368,
+            "tokens": 3969,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/github.ts": {
+            "lines": 230,
+            "tokens": 2694,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/format.ts": {
+            "lines": 65,
+            "tokens": 693,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/constants.ts": {
+            "lines": 91,
+            "tokens": 609,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/cache.ts": {
+            "lines": 65,
+            "tokens": 731,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/board-visibility.ts": {
+            "lines": 20,
+            "tokens": 234,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/aprobado.ts": {
+            "lines": 29,
+            "tokens": 345,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status/aggregate.ts": {
+            "lines": 211,
+            "tokens": 2220,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/workshop.ts": {
+            "lines": 325,
+            "tokens": 3557,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/workshop-handler.ts": {
+            "lines": 454,
+            "tokens": 5635,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/validate.ts": {
+            "lines": 194,
+            "tokens": 1919,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/table-limits.ts": {
+            "lines": 9,
+            "tokens": 61,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/status-handler.ts": {
+            "lines": 37,
+            "tokens": 379,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/shared-sql.ts": {
+            "lines": 26,
+            "tokens": 39,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/shared-limits.ts": {
+            "lines": 27,
+            "tokens": 215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/shared-handler.ts": {
+            "lines": 215,
+            "tokens": 2621,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 67,
+            "duplicatedTokens": 799,
+            "percentage": 31.16,
+            "percentageTokens": 30.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/read-limited.ts": {
+            "lines": 30,
+            "tokens": 336,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/query-handler.ts": {
+            "lines": 226,
+            "tokens": 3277,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 67,
+            "duplicatedTokens": 799,
+            "percentage": 29.65,
+            "percentageTokens": 24.38,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/http.ts": {
+            "lines": 17,
+            "tokens": 122,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/handler.ts": {
+            "lines": 171,
+            "tokens": 2087,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/access.ts": {
+            "lines": 254,
+            "tokens": 3150,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "functions/_lib/access-fixture.ts": {
+            "lines": 56,
+            "tokens": 688,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/world-whiteboard.ts": {
+            "lines": 20,
+            "tokens": 165,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/workshop-view.ts": {
+            "lines": 248,
+            "tokens": 2974,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/workshop-mural.ts": {
+            "lines": 87,
+            "tokens": 1002,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/workshop-letters.ts": {
+            "lines": 704,
+            "tokens": 6699,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/workshop-cinematic.ts": {
+            "lines": 159,
+            "tokens": 1755,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/workshop-api.ts": {
+            "lines": 30,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/whiteboard-view.ts": {
+            "lines": 66,
+            "tokens": 596,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/whiteboard-status.ts": {
+            "lines": 760,
+            "tokens": 8240,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/whiteboard-status-types.ts": {
+            "lines": 42,
+            "tokens": 494,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/viewpoints.ts": {
+            "lines": 45,
+            "tokens": 701,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/vertex-ao.ts": {
+            "lines": 52,
+            "tokens": 774,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/types.ts": {
+            "lines": 52,
+            "tokens": 368,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/tv-screen.ts": {
+            "lines": 155,
+            "tokens": 1571,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/tv-preview.ts": {
+            "lines": 29,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/touch-map.ts": {
+            "lines": 144,
+            "tokens": 1451,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/touch-controls.ts": {
+            "lines": 192,
+            "tokens": 2027,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/title-card.ts": {
+            "lines": 53,
+            "tokens": 731,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/static-batch.ts": {
+            "lines": 206,
+            "tokens": 2396,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/sofa-glances.ts": {
+            "lines": 208,
+            "tokens": 2686,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/scene-lights.ts": {
+            "lines": 150,
+            "tokens": 1796,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/prototype-document.ts": {
+            "lines": 34,
+            "tokens": 449,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/prototype-boot.ts": {
+            "lines": 36,
+            "tokens": 268,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/prototype-assets-host.ts": {
+            "lines": 164,
+            "tokens": 1839,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proto-version-seen.ts": {
+            "lines": 53,
+            "tokens": 547,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proto-deep-link.ts": {
+            "lines": 17,
+            "tokens": 244,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-status-poller.ts": {
+            "lines": 66,
+            "tokens": 639,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-status-api.ts": {
+            "lines": 39,
+            "tokens": 292,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-track.ts": {
+            "lines": 72,
+            "tokens": 723,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-session.ts": {
+            "lines": 274,
+            "tokens": 3576,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-paint.ts": {
+            "lines": 311,
+            "tokens": 3713,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 21,
+            "duplicatedTokens": 392,
+            "percentage": 6.75,
+            "percentageTokens": 10.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-metrics.ts": {
+            "lines": 31,
+            "tokens": 298,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-detail.ts": {
+            "lines": 436,
+            "tokens": 5352,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 126,
+            "percentage": 2.06,
+            "percentageTokens": 2.35,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-chalk.ts": {
+            "lines": 638,
+            "tokens": 8595,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 266,
+            "percentage": 1.88,
+            "percentageTokens": 3.09,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-actions.ts": {
+            "lines": 162,
+            "tokens": 1539,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/proposals-board-a11y.ts": {
+            "lines": 74,
+            "tokens": 959,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/preview-stills.ts": {
+            "lines": 45,
+            "tokens": 405,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/preview-frame.ts": {
+            "lines": 53,
+            "tokens": 687,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/pantry-routine.ts": {
+            "lines": 769,
+            "tokens": 9145,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 250,
+            "percentage": 2.08,
+            "percentageTokens": 2.73,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/pantry-layout.ts": {
+            "lines": 42,
+            "tokens": 426,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/pantry-kitchen.ts": {
+            "lines": 181,
+            "tokens": 2797,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/page-zoom.ts": {
+            "lines": 109,
+            "tokens": 1130,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/overlay.ts": {
+            "lines": 656,
+            "tokens": 6891,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/navigation.ts": {
+            "lines": 402,
+            "tokens": 4687,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/nameplates.ts": {
+            "lines": 313,
+            "tokens": 3489,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/music-catalog.ts": {
+            "lines": 71,
+            "tokens": 727,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/mesh-fuse.ts": {
+            "lines": 30,
+            "tokens": 347,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/main.ts": {
+            "lines": 567,
+            "tokens": 5866,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/lounge-layout.ts": {
+            "lines": 196,
+            "tokens": 1783,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/long-field.ts": {
+            "lines": 82,
+            "tokens": 894,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/locomotion.ts": {
+            "lines": 114,
+            "tokens": 1311,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/limits.ts": {
+            "lines": 13,
+            "tokens": 82,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/install-help.ts": {
+            "lines": 224,
+            "tokens": 2111,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/install-help-logic.ts": {
+            "lines": 39,
+            "tokens": 279,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/input.ts": {
+            "lines": 145,
+            "tokens": 1535,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/hud-cue.ts": {
+            "lines": 26,
+            "tokens": 197,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/graphics-idle.ts": {
+            "lines": 36,
+            "tokens": 478,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/game-selector.ts": {
+            "lines": 232,
+            "tokens": 2651,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/game-selector-logic.ts": {
+            "lines": 20,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/fullscreen.ts": {
+            "lines": 51,
+            "tokens": 284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/fallback.ts": {
+            "lines": 97,
+            "tokens": 1128,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/dialogue-type.ts": {
+            "lines": 20,
+            "tokens": 337,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/dialogue-speech.ts": {
+            "lines": 60,
+            "tokens": 519,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/dialogue-script.ts": {
+            "lines": 187,
+            "tokens": 1682,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/dialogue-flow.ts": {
+            "lines": 75,
+            "tokens": 842,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/dialogue-emphasis.ts": {
+            "lines": 40,
+            "tokens": 518,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/dialogue-camera.ts": {
+            "lines": 147,
+            "tokens": 1755,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/dialog-dismiss.ts": {
+            "lines": 29,
+            "tokens": 294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/chalk-marks.ts": {
+            "lines": 247,
+            "tokens": 4363,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/chalk-mark-sound.ts": {
+            "lines": 276,
+            "tokens": 2921,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/camera-rig.ts": {
+            "lines": 54,
+            "tokens": 458,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/boot-screen.ts": {
+            "lines": 161,
+            "tokens": 1904,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/boot-deadline.ts": {
+            "lines": 62,
+            "tokens": 633,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/asset-limits.ts": {
+            "lines": 27,
+            "tokens": 348,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/app-save.ts": {
+            "lines": 156,
+            "tokens": 2024,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/api.ts": {
+            "lines": 26,
+            "tokens": 486,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/ambient.ts": {
+            "lines": 343,
+            "tokens": 4028,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/ambient-lounge.ts": {
+            "lines": 679,
+            "tokens": 10133,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/world/src/ambient-corners.ts": {
+            "lines": 740,
+            "tokens": 11074,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 21787,
+          "tokens": 261386,
+          "sources": 121,
+          "clones": 17,
+          "duplicatedLines": 609,
+          "duplicatedTokens": 8040,
+          "percentage": 2.8,
+          "percentageTokens": 3.08,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 21787,
+      "tokens": 261386,
+      "sources": 121,
+      "clones": 17,
+      "duplicatedLines": 609,
+      "duplicatedTokens": 8040,
+      "percentage": 2.8,
+      "percentageTokens": 3.08,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ";\n  }\n\n  return {\n    get: (key: string) => request(\"get\", key),\n    set: async (key: string, value: string) => {\n      await request(\"set\", key, value);\n    },\n    remove: async (key: string) => {\n      await request(\"delete\", key);\n    },\n  };\n}\n\ntype QueryResponse",
+      "tokens": 117,
+      "firstFile": {
+        "name": "templates/aplicacion/src/datos.ts",
+        "start": 339,
+        "end": 353,
+        "startLoc": {
+          "line": 339,
+          "column": 25,
+          "position": 4466
+        },
+        "endLoc": {
+          "line": 353,
+          "column": 19,
+          "position": 4583
+        }
+      },
+      "secondFile": {
+        "name": "templates/aplicacion/src/datos.ts",
+        "start": 291,
+        "end": 305,
+        "startLoc": {
+          "line": 291,
+          "column": 7,
+          "position": 3804
+        },
+        "endLoc": {
+          "line": 305,
+          "column": 20,
+          "position": 3921
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\n  ctx.beginPath();\n  xs.forEach((mundo, indice) => {\n    const hueco = tunel(mundo);\n    const y = carril.y + (lado === \"techo\" ? hueco.techo : hueco.suelo) * escalaY;\n    const x = carril.x + (mundo - origen) * escalaX;\n    if (indice === 0) ctx.moveTo(x, y);\n    else ctx.lineTo(x, y);\n  });\n  ctx",
+      "tokens": 144,
+      "firstFile": {
+        "name": "protos/coptero/src/pintar.ts",
+        "start": 139,
+        "end": 148,
+        "startLoc": {
+          "line": 139,
+          "column": 1,
+          "position": 2100
+        },
+        "endLoc": {
+          "line": 148,
+          "column": 6,
+          "position": 2244
+        }
+      },
+      "secondFile": {
+        "name": "protos/coptero/src/pintar.ts",
+        "start": 120,
+        "end": 129,
+        "startLoc": {
+          "line": 120,
+          "column": 47,
+          "position": 1808
+        },
+        "endLoc": {
+          "line": 129,
+          "column": 5,
+          "position": 1952
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "ancho, alto);\n  sombra(ctx);\n  redondo(ctx, marco.panel.x, marco.panel.y, marco.panel.w, marco.panel.h, 22);\n  ctx.fillStyle = \"#10284a\";\n  ctx.fill();\n  ctx.shadowColor = \"transparent\";\n  ctx.lineWidth = 2;\n  ctx.strokeStyle = \"#e2c278\";\n  ctx.stroke();\n\n  ctx.fillStyle = \"#f7f4ec\";\n  ctx.textAlign = \"center\";\n  ctx.textBaseline = \"middle\";\n  ctx.font = \"800 26px system-ui, sans-serif\"",
+      "tokens": 146,
+      "firstFile": {
+        "name": "protos/coptero/src/pintar.ts",
+        "start": 451,
+        "end": 464,
+        "startLoc": {
+          "line": 451,
+          "column": 22,
+          "position": 6762
+        },
+        "endLoc": {
+          "line": 464,
+          "column": 46,
+          "position": 6908
+        }
+      },
+      "secondFile": {
+        "name": "protos/coptero/src/pintar.ts",
+        "start": 408,
+        "end": 421,
+        "startLoc": {
+          "line": 408,
+          "column": 27,
+          "position": 6101
+        },
+        "endLoc": {
+          "line": 421,
+          "column": 46,
+          "position": 6247
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": "\n  const porId = <T extends { id: string }>(previas: T[], nuevas: T[]): T[] => {\n    const mapa = new Map(previas.map((fila) => [fila.id, fila]));\n    for (const fila of nuevas) mapa.set(fila.id, fila);\n    return [...mapa.values()];\n  };\n  ",
+      "tokens": 124,
+      "firstFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 487,
+        "end": 493,
+        "startLoc": {
+          "line": 487,
+          "column": 62,
+          "position": 6909
+        },
+        "endLoc": {
+          "line": 493,
+          "column": 3,
+          "position": 7033
+        }
+      },
+      "secondFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 467,
+        "end": 474,
+        "startLoc": {
+          "line": 467,
+          "column": 1,
+          "position": 6564
+        },
+        "endLoc": {
+          "line": 474,
+          "column": 1,
+          "position": 6688
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": " | null {\n  const id = textoFila(row, \"id\");\n  const planId = textoFila(row, \"plan_id\");\n  const personaId = textoFila(row, \"persona_id\");\n  const persona = textoFila(row, \"persona\");\n  const texto = textoFila(row, \"texto\");\n  const creado = textoFila(row, \"creado\");\n  if (!id || !planId || !personaId || !persona || !texto || !creado) return null;\n  const",
+      "tokens": 142,
+      "firstFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 566,
+        "end": 574,
+        "startLoc": {
+          "line": 566,
+          "column": 74,
+          "position": 8329
+        },
+        "endLoc": {
+          "line": 574,
+          "column": 8,
+          "position": 8471
+        }
+      },
+      "secondFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 555,
+        "end": 563,
+        "startLoc": {
+          "line": 555,
+          "column": 72,
+          "position": 8134
+        },
+        "endLoc": {
+          "line": 563,
+          "column": 9,
+          "position": 8276
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": "(row: Record<string, unknown>): Plan | null {\n  const id = textoFila(row, \"id\");\n  const titulo = textoFila(row, \"titulo\");\n  const motivo = textoFila(row, \"motivo\");\n  const cuando = textoFila(row, \"cuando\");\n  const lugar = textoFila(row, \"lugar\");\n  const tipo = row",
+      "tokens": 109,
+      "firstFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 594,
+        "end": 600,
+        "startLoc": {
+          "line": 594,
+          "column": 22,
+          "position": 8877
+        },
+        "endLoc": {
+          "line": 600,
+          "column": 19,
+          "position": 8986
+        }
+      },
+      "secondFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 508,
+        "end": 514,
+        "startLoc": {
+          "line": 508,
+          "column": 30,
+          "position": 7276
+        },
+        "endLoc": {
+          "line": 514,
+          "column": 25,
+          "position": 7385
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ");\n  const persona = textoFila(row, \"persona\");\n  const texto = textoFila(row, \"texto\");\n  const creado = textoFila(row, \"creado\");\n  if (!id || !planId || !personaId || !persona || !texto || !creado) return null;\n  return { id, planId, personaId, persona, texto, creado: aIso(creado) };\n}\n\nfunction",
+      "tokens": 123,
+      "firstFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 642,
+        "end": 650,
+        "startLoc": {
+          "line": 642,
+          "column": 47,
+          "position": 9765
+        },
+        "endLoc": {
+          "line": 650,
+          "column": 9,
+          "position": 9888
+        }
+      },
+      "secondFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 558,
+        "end": 566,
+        "startLoc": {
+          "line": 558,
+          "column": 48,
+          "position": 8186
+        },
+        "endLoc": {
+          "line": 566,
+          "column": 7,
+          "position": 8309
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": " | null {\n  const id = textoFila(row, \"id\");\n  const planId = textoFila(row, \"planId\");\n  const personaId = textoFila(row, \"personaId\");\n  const persona = textoFila(row, \"persona\");\n  const texto = textoFila(row, \"texto\");\n  const creado = textoFila(row, \"creado\");\n  if (!id || !planId || !personaId || !persona || !texto || !creado) return null;\n  const",
+      "tokens": 142,
+      "firstFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 650,
+        "end": 658,
+        "startLoc": {
+          "line": 650,
+          "column": 66,
+          "position": 9906
+        },
+        "endLoc": {
+          "line": 658,
+          "column": 8,
+          "position": 10048
+        }
+      },
+      "secondFile": {
+        "name": "protos/conecta/src/logic.ts",
+        "start": 639,
+        "end": 647,
+        "startLoc": {
+          "line": 639,
+          "column": 64,
+          "position": 9713
+        },
+        "endLoc": {
+          "line": 647,
+          "column": 9,
+          "position": 9855
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 442,
+      "fragment": "/** Cupos de rutas relativas (decisión 4). Deben coincidir con ASSET_LIMITS. */\nexport const DATA_LIMITS = {\n  maxCount: 64,\n  maxBytesPerFile: 4 * 1024 * 1024,\n  maxBytesTotal: 16 * 1024 * 1024,\n  maxRequestsPerSession: 128,\n} as const;\n\nexport type DataLimits = {\n  maxCount: number;\n  maxBytesPerFile: number;\n  maxBytesTotal: number;\n  maxRequestsPerSession: number;\n};\n\nexport type LoadedFile = {\n  mime: string;\n  buffer: ArrayBuffer;\n};\n\nexport type LabData = {\n  load(path: string): Promise<LoadedFile>;\n  json(path: string): Promise<unknown>;\n  blobUrl(path: string): Promise<string>;\n  get(key: string): Promise<string | null>;\n  set(key: string, value: string): Promise<void>;\n  remove(key: string): Promise<void>;\n  sharedGet(key: string): Promise<string | null>;\n  sharedSet(key: string, value: string): Promise<void>;\n  sharedRemove(key: string): Promise<void>;\n  query(name: string, params?: Record<string, string | number | null>): Promise<Array<Record<string, unknown>>>;\n  revoke(): void;\n};\n\nconst EXT_MIME: Record<string, string> = {\n  \".png\": \"image/png\",\n  \".jpg\": \"image/jpeg\",\n  \".jpeg\": \"image/jpeg\",\n  \".gif\": \"image/gif\",\n  \".webp\": \"image/webp\",\n  \".svg\": \"image/svg+xml\",\n  \".wav\": \"audio/wav\",\n  \".mp3\": \"audio/mpeg\",\n  \".ogg\": \"audio/ogg\",\n  \".m4a\": \"audio/mp4\",\n  \".json\": \"application/json\",\n};\n\nexport function normalizeRelativePath(raw: string): string | null {\n  if (typeof raw !== \"string\") return null;\n  let path = raw.trim();\n  while (path.startsWith(\"./\")) path = path.slice(2);\n  if (path.length === 0 || path.length > 512) return null;\n  if (path.includes(\"\\\\\") || path.startsWith(\"/\") || /^[a-zA-Z]:/.test(path)) return null;\n  if (path.includes(\":\") || path.startsWith(\"//\")) return null;\n  const segments = path.split(\"/\");\n  for (const segment of segments) {\n    if (segment === \"\" || segment === \".\" || segment === \"..\") return null;\n  }\n  return segments.join(\"/\");\n}\n\nfunction slugOf(pathname: string): string | null {\n  const match = pathname.match(/^\\/protos\\/([a-z0-9-]+)(\\/|$)/);\n  return match?.[1] ?? null;\n}\n\n/** Slug de la página abierta. La API compartida no acepta otro. */\nexport function appSlugFromHref(pageHref: string): string | null {\n  try {\n    return slugOf(new URL(pageHref).pathname);\n  } catch {\n    return null;\n  }\n}\n\nfunction directoryOf(page: URL, slug: string): string {\n  const prefix = `/protos/${slug}/`;\n  if (page.pathname === `/protos/${slug}`) return prefix;\n  if (page.pathname.endsWith(\"/\")) return page.pathname;\n  return page.pathname.replace(/[^/]*$/, \"\");\n}\n\n/** Resuelve una ruta relativa y exige que siga bajo `/protos/<slug>/`. */\nexport function resolveAppFile(pageHref: string, raw: string): string | null {\n  const normalized = normalizeRelativePath(raw);\n  if (!normalized) return null;\n  let page: URL;\n  try {\n    page = new URL(pageHref);\n  } catch {\n    return null;\n  }\n  const slug = slugOf(page.pathname);\n  if (!slug) return null;\n  const prefix = `/protos/${slug}/`;\n  const dir = directoryOf(page, slug);\n  if (!dir.startsWith(prefix)) return null;\n  let resolved: URL;\n  try {\n    resolved = new URL(normalized, `${page.origin}${dir}`);\n  } catch {\n    return null;\n  }\n  return staysInApp(page, resolved) ? resolved.href : null;\n}\n\nfunction staysInApp(page: URL, target: URL): boolean {\n  const slug = slugOf(page.pathname);\n  if (!slug || target.origin !== page.origin || target.search || target.hash) return false;\n  let decoded = target.pathname;\n  try {\n    decoded = decodeURIComponent(target.pathname);\n  } catch {\n    return false;\n  }\n  const prefix = `/protos/${slug}/`;\n  return decoded.startsWith(prefix) && !decoded.includes(\"..\") && !decoded.includes(\"\\\\\");\n}\n\nfunction extensionOf(path: string): string {\n  const base = path.slice(path.lastIndexOf(\"/\") + 1);\n  const dot = base.lastIndexOf(\".\");\n  return dot >= 0 ? base.slice(dot).toLowerCase() : \"\";\n}\n\nfunction looksLikeAccess(bytes: Uint8Array): boolean {\n  const sample = new TextDecoder().decode(bytes.subarray(0, 2000)).toLowerCase();\n  return sample.includes(\"cloudflareaccess.com\") || sample.includes(\"cloudflare access\");\n}\n\nfunction acceptedMime(header: string, path: string, bytes: Uint8Array): { mime: string } | { error: \"blocked\" | \"mime\" } {\n  const mime = (header.split(\";\")[0] ?? \"\").trim().toLowerCase();\n  const ext = extensionOf(path);\n  if (mime === \"text/html\") return { error: \"blocked\" };\n  if ((mime === \"text/plain\" || mime === \"\") && looksLikeAccess(bytes)) return { error: \"blocked\" };\n  if (mime.startsWith(\"image/\") || mime.startsWith(\"audio/\")) return { mime };\n  if (mime === \"application/json\" || mime === \"text/json\") return { mime: \"application/json\" };\n  if (ext === \".json\" && (mime === \"text/plain\" || mime === \"application/octet-stream\" || mime === \"\")) {\n    try {\n      JSON.parse(new TextDecoder().decode(bytes));\n    } catch {\n      return { error: \"blocked\" };\n    }\n    return { mime: \"application/json\" };\n  }\n  const fallback = EXT_MIME[ext];\n  if ((mime === \"application/octet-stream\" || mime === \"\") && fallback && ext !== \".json\") return { mime: fallback };\n  return { error: \"mime\" };\n}\n\nexport function createFileLoader(options: {\n  pageHref: string;\n  fetchImpl?: typeof fetch;\n  limits?: DataLimits;\n  createObjectURL?: (blob: Blob) => string;\n  revokeObjectURL?: (url: string) => void;\n}) {\n  const limits = options.limits ?? DATA_LIMITS;\n  const fetchImpl = options.fetchImpl ?? fetch;\n  const createObjectURL = options.createObjectURL ?? ((blob: Blob) => URL.createObjectURL(blob));\n  const revokeObjectURL = options.revokeObjectURL ?? ((url: string) => URL.revokeObjectURL(url));\n  const cache = new Map<string, LoadedFile>();\n  const blobUrls = new Map<string, string>();\n  let requestCount = 0;\n  let totalBytes = 0;\n\n  async function load(raw: string): Promise<LoadedFile> {\n    if (requestCount >= limits.maxRequestsPerSession) throw new Error(\"rate-limit\");\n    const href = resolveAppFile(options.pageHref, raw);\n    if (!href) throw new Error(\"not-allowed\");\n    requestCount += 1;\n    const cached = cache.get(href);\n    if (cached) return cached;\n    if (cache.size >= limits.maxCount) throw new Error(\"too-many\");\n    let response: Response;\n    try {\n      response = await fetchImpl(href, { credentials: \"include\", redirect: \"follow\" });\n    } catch {\n      throw new Error(\"blocked\");\n    }\n    if (!response.ok) throw new Error(\"blocked\");\n    if (response.url) {\n      let finalUrl: URL;\n      try {\n        finalUrl = new URL(response.url);\n      } catch {\n        throw new Error(\"blocked\");\n      }\n      let page: URL;\n      try {\n        page = new URL(options.pageHref);\n      } catch {\n        throw new Error(\"blocked\");\n      }\n      if (!staysInApp(page, finalUrl)) throw new Error(\"blocked\");\n    }\n    const lengthHeader = response.headers.get(\"content-length\");\n    if (lengthHeader != null) {\n      const length = Number.parseInt(lengthHeader, 10);\n      if (Number.isFinite(length) && length > limits.maxBytesPerFile) throw new Error(\"too-large\");\n    }\n    const buffer = await response.arrayBuffer();\n    if (buffer.byteLength > limits.maxBytesPerFile) throw new Error(\"too-large\");\n    if (totalBytes + buffer.byteLength > limits.maxBytesTotal) throw new Error(\"too-large\");\n    const classified = acceptedMime(response.headers.get(\"content-type\") ?? \"\", href, new Uint8Array(buffer));\n    if (\"error\" in classified) throw new Error(classified.error);\n    totalBytes += buffer.byteLength;\n    const loaded = { mime: classified.mime, buffer };\n    cache.set(href, loaded);\n    return loaded;\n  }\n\n  return {\n    async load(raw: string) {\n      return load(raw);\n    },\n    async json(raw: string) {\n      const loaded = await load(raw);\n      if (loaded.mime !== \"application/json\") throw new Error(\"mime\");\n      try {\n        return JSON.parse(new TextDecoder().decode(loaded.buffer)) as unknown;\n      } catch {\n        throw new Error(\"blocked\");\n      }\n    },\n    async blobUrl(raw: string) {\n      const loaded = await load(raw);\n      const href = resolveAppFile(options.pageHref, raw);\n      if (!href) throw new Error(\"not-allowed\");\n      const existing = blobUrls.get(href);\n      if (existing) return existing;\n      const url = createObjectURL(new Blob([loaded.buffer], { type: loaded.mime }));\n      blobUrls.set(href, url);\n      return url;\n    },\n    revoke() {\n      for (const url of blobUrls.values()) {\n        try {\n          revokeObjectURL(url);\n        } catch {\n          /* La URL ya no está. */\n        }\n      }\n      blobUrls.clear();\n    },\n  };\n}\n\ntype SaveTarget = {\n  parent: { postMessage(message: unknown, origin: string): void };\n  addEventListener(type: \"message\", listener: (event: MessageEvent) => void): void;\n};\n\n/** El laboratorio solo responde si `capabilities` incluye `save`. Si no, la promesa acaba en timeout. */\nexport function createSaveClient(target: SaveTarget, timeoutMs = 8000) {\n  const pending = new Map<number, { resolve: (value: string | null) => void; reject: (error: Error) => void; timer: ReturnType<typeof setTimeout> }>();\n  let nextId = 1;\n\n  target.addEventListener(\"message\", (event: MessageEvent) => {\n    if (event.source !== target.parent) return;\n    const data = event.data as { source?: string; type?: string; id?: number; ok?: boolean; value?: string | null; error?: string } | null;\n    if (!data || data.source !== \"proto-lab\" || data.type !== \"save-result\" || typeof data.id !== \"number\") return;\n    const entry = pending.get(data.id);\n    if (!entry) return;\n    pending.delete(data.id);\n    clearTimeout(entry.timer);\n    if (data.ok) entry.resolve(data.value ?? null);\n    else entry.reject(new Error(data.error || \"invalid\"));\n  });\n\n  function request(op: \"get\" | \"set\" | \"delete\", key: string, value?: string): Promise<string | null> {\n    const id = nextId;\n    nextId += 1;\n    return new Promise((resolve, reject) => {\n      const timer = setTimeout(() => {\n        if (!pending.has(id)) return;\n        pending.delete(id);\n        reject(new Error(\"timeout\"));\n      }, timeoutMs);\n      pending.set(id, { resolve, reject, timer });\n      const message: { source: \"proto-lab\"; type: \"save\"; id: number; op: string; key: string; value?: string } = {\n        source: \"proto-lab\",\n        type: \"save\",\n        id,\n        op,\n        key,\n      };\n      if (op === \"set\") message.value = value;\n      target.parent.postMessage(message, \"*\");\n    });\n  }\n\n  return {\n    get: (key: string) => request(\"get\", key),\n    set: async (key: string, value: string) => {\n      await request(\"set\", key, value);\n    },\n    remove: async (key: string) => {\n      await request(\"delete\", key);\n    },\n  };\n}\n\ntype SharedResponse = { ok?: boolean; value?: unknown; error?: unknown };\n\nexport function createSharedClient(options: { pageHref: string; fetchImpl?: typeof fetch }) {\n  const fetchImpl = options.fetchImpl ?? fetch;\n\n  async function request(op: \"get\" | \"set\" | \"delete\", key: string, value?: string): Promise<string | null> {\n    const slug = appSlugFromHref(options.pageHref);\n    if (!slug) throw new Error(\"not-allowed\");\n    const body: { op: \"get\" | \"set\" | \"delete\"; key: string; value?: string } = { op, key };\n    if (op === \"set\") body.value = value ?? \"\";\n    let response: Response;\n    try {\n      response = await fetchImpl(`/api/apps/${slug}/shared`, {\n        method: \"POST\",\n        credentials: \"same-origin\",\n        redirect: \"manual\",\n        headers: { \"content-type\": \"application/json\", accept: \"application/json\" },\n        body: JSON.stringify(body),\n      });\n    } catch {\n      throw new Error(\"unavailable\");\n    }\n    if (response.status >= 300 && response.status < 400) throw new Error(\"unauthorized\");\n    let payload: SharedResponse | null = null;\n    try {\n      payload = (await response.json()) as SharedResponse;\n    } catch {\n      throw new Error(\"unavailable\");\n    }\n    if (!payload || payload.ok !== true) {\n      throw new Error(typeof payload?.error === \"string\" && payload.error ? payload.error : \"unavailable\");\n    }\n    if (payload.value == null) return null;\n    if (typeof payload.value !== \"string\") throw new Error(\"unavailable\");\n    return payload.value;\n  }\n\n  return {\n    get: (key: string) => request(\"get\", key),\n    set: async (key: string, value: string) => {\n      await request(\"set\", key, value);\n    },\n    remove: async (key: string) => {\n      await request(\"delete\", key);\n    },\n  };\n}\n\ntype QueryResponse = { ok?: boolean; rows?: unknown; error?: unknown };\n\n/** El navegador manda el nombre y los parámetros. El SQL se queda en la Function. */\nexport function createQueryClient(options: { pageHref: string; fetchImpl?: typeof fetch }) {\n  const fetchImpl = options.fetchImpl ?? fetch;\n\n  return async function query(name: string, params?: Record<string, string | number | null>): Promise<Array<Record<string, unknown>>> {\n    const slug = appSlugFromHref(options.pageHref);\n    if (!slug) throw new Error(\"not-allowed\");\n    let response: Response;\n    try {\n      response = await fetchImpl(`/api/apps/${slug}/query`, {\n        method: \"POST\",\n        credentials: \"same-origin\",\n        redirect: \"manual\",\n        headers: { \"content-type\": \"application/json\", accept: \"application/json\" },\n        body: JSON.stringify({ name, params: params ?? {} }),\n      });\n    } catch {\n      throw new Error(\"unavailable\");\n    }\n    if (response.status >= 300 && response.status < 400) throw new Error(\"unauthorized\");\n    let payload: QueryResponse | null = null;\n    try {\n      payload = (await response.json()) as QueryResponse;\n    } catch {\n      throw new Error(\"unavailable\");\n    }\n    if (!payload || payload.ok !== true || !Array.isArray(payload.rows)) {\n      throw new Error(typeof payload?.error === \"string\" && payload.error ? payload.error : \"unavailable\");\n    }\n    return payload.rows as Array<Record<string, unknown>>;\n  };\n}\n\ndeclare global {\n  interface Window {\n    __protoLabData?: LabData;\n  }\n}\n\nexport type LabHost = SaveTarget & {\n  location: { href: string };\n  fetch: typeof fetch;\n  __protoLabData?: LabData;\n};\n\nexport function installLabData(\n  target: LabHost,\n  options?: {\n    timeoutMs?: number;\n    fetchImpl?: typeof fetch;\n    limits?: DataLimits;\n    createObjectURL?: (blob: Blob) => string;\n    revokeObjectURL?: (url: string) => void;\n  },\n): LabData {\n  const files = createFileLoader({\n    pageHref: target.location.href,\n    fetchImpl: options?.fetchImpl ?? target.fetch.bind(target),\n    limits: options?.limits,\n    createObjectURL: options?.createObjectURL,\n    revokeObjectURL: options?.revokeObjectURL,\n  });\n  const save = createSaveClient(target, options?.timeoutMs);\n  const shared = createSharedClient({\n    pageHref: target.location.href,\n    fetchImpl: options?.fetchImpl ?? target.fetch.bind(target),\n  });\n  const query = createQueryClient({\n    pageHref: target.location.href,\n    fetchImpl: options?.fetchImpl ?? target.fetch.bind(target),\n  });\n  const api: LabData = {\n    load: (path) => files.load(path),\n    json: (path) => files.json(path),\n    blobUrl: (path) => files.blobUrl(path),\n    get: (key) => save.get(key),\n    set: (key, value) => save.set(key, value),\n    remove: (key) => save.remove(key),\n    sharedGet: (key) => shared.get(key),\n    sharedSet: (key, value) => shared.set(key, value),\n    sharedRemove: (key) => shared.remove(key),\n    query: (name, params) => query(name, params),\n    revoke: () => files.revoke(),\n  };\n  target.__protoLabData = api;\n  return api;\n}\n",
+      "tokens": 5677,
+      "firstFile": {
+        "name": "protos/conecta/src/datos.ts",
+        "start": 1,
+        "end": 442,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 442,
+          "column": 1,
+          "position": 5677
+        }
+      },
+      "secondFile": {
+        "name": "templates/aplicacion/src/datos.ts",
+        "start": 1,
+        "end": 442,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 442,
+          "column": 1,
+          "position": 5677
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 19,
+      "fragment": "]);\nconst FREE_QUOTA_MESSAGE = \"Se ha alcanzado el cupo gratuito de D1. La petición falla y no se cobra.\";\n\nfunction json(status: number, body: unknown): Response {\n  return jsonResponse(status, body);\n}\n\nfunction utf8Bytes(value: string): number {\n  return new TextEncoder().encode(value).length;\n}\n\nfunction slugFromUrl(url: string): string | null {\n  let pathname: string;\n  try {\n    pathname = new URL(url).pathname;\n  } catch {\n    return null;\n  }\n  const slug",
+      "tokens": 152,
+      "firstFile": {
+        "name": "functions/_lib/query-handler.ts",
+        "start": 32,
+        "end": 50,
+        "startLoc": {
+          "line": 32,
+          "column": 49,
+          "position": 263
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 13,
+          "position": 415
+        }
+      },
+      "secondFile": {
+        "name": "functions/_lib/shared-handler.ts",
+        "start": 30,
+        "end": 48,
+        "startLoc": {
+          "line": 30,
+          "column": 53,
+          "position": 268
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 14,
+          "position": 420
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ";\n}\n\nasync function readJson(request: Request): Promise<{ ok: true; value: unknown } | { ok: false; message: string }> {\n  const contentType = request.headers.get(\"content-type\") ?? \"\";\n  if (!contentType.toLowerCase().includes(\"application/json\")) {\n    return { ok: false, message: \"El cuerpo tiene que ir en JSON.\" };\n  }\n  const declared = Number(request.headers.get(\"content-length\") ?? \"\");\n  if (Number.isFinite(declared) && declared > TABLE_LIMITS",
+      "tokens": 160,
+      "firstFile": {
+        "name": "functions/_lib/query-handler.ts",
+        "start": 52,
+        "end": 61,
+        "startLoc": {
+          "line": 52,
+          "column": 14,
+          "position": 459
+        },
+        "endLoc": {
+          "line": 61,
+          "column": 59,
+          "position": 619
+        }
+      },
+      "secondFile": {
+        "name": "functions/_lib/shared-handler.ts",
+        "start": 61,
+        "end": 70,
+        "startLoc": {
+          "line": 61,
+          "column": 4,
+          "position": 561
+        },
+        "endLoc": {
+          "line": 70,
+          "column": 60,
+          "position": 721
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\n  } else {\n    const chunks: Uint8Array[] = [];\n    let total = 0;\n    for (;;) {\n      const { done, value } = await reader.read();\n      if (done) break;\n      if (!value) continue;\n      total += value.byteLength;\n      if (total > TABLE_LIMITS",
+      "tokens": 106,
+      "firstFile": {
+        "name": "functions/_lib/query-handler.ts",
+        "start": 68,
+        "end": 77,
+        "startLoc": {
+          "line": 68,
+          "column": 118,
+          "position": 731
+        },
+        "endLoc": {
+          "line": 77,
+          "column": 31,
+          "position": 837
+        }
+      },
+      "secondFile": {
+        "name": "functions/_lib/shared-handler.ts",
+        "start": 79,
+        "end": 88,
+        "startLoc": {
+          "line": 79,
+          "column": 6,
+          "position": 847
+        },
+        "endLoc": {
+          "line": 88,
+          "column": 32,
+          "position": 953
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 22,
+      "fragment": ".maxBodyBytes) {\n        await reader.cancel().catch(() => {});\n        return { ok: false, message: \"El cuerpo es demasiado grande.\" };\n      }\n      chunks.push(value);\n    }\n    const all = new Uint8Array(total);\n    let offset = 0;\n    for (const chunk of chunks) {\n      all.set(chunk, offset);\n      offset += chunk.byteLength;\n    }\n    text = new TextDecoder().decode(all);\n  }\n  try {\n    return { ok: true, value: JSON.parse(text) as unknown };\n  } catch {\n    return { ok: false, message: \"No he podido leer el JSON.\" };\n  }\n}\n\nfunction quotaOrUnavailable",
+      "tokens": 213,
+      "firstFile": {
+        "name": "functions/_lib/query-handler.ts",
+        "start": 77,
+        "end": 98,
+        "startLoc": {
+          "line": 77,
+          "column": 31,
+          "position": 838
+        },
+        "endLoc": {
+          "line": 98,
+          "column": 28,
+          "position": 1051
+        }
+      },
+      "secondFile": {
+        "name": "functions/_lib/shared-handler.ts",
+        "start": 88,
+        "end": 109,
+        "startLoc": {
+          "line": 88,
+          "column": 32,
+          "position": 954
+        },
+        "endLoc": {
+          "line": 109,
+          "column": 21,
+          "position": 1167
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "\n  if (!parsed.value || typeof parsed.value !== \"object\" || Array.isArray(parsed.value)) {\n    return json(400, { ok: false, error: \"invalid\", message: \"La petición tiene que ser un objeto.\" });\n  }\n  const body = parsed.value as Record<string, unknown>;\n  for (const field of Object.keys(body)) {\n    if (!ALLOWED_FIELDS.has(field)) {\n      return json(400, { ok: false, error: \"invalid\", message: \"La petición tiene campos que no admite.\" });\n    }\n  }\n  if (typeof",
+      "tokens": 168,
+      "firstFile": {
+        "name": "functions/_lib/query-handler.ts",
+        "start": 176,
+        "end": 186,
+        "startLoc": {
+          "line": 176,
+          "column": 94,
+          "position": 2426
+        },
+        "endLoc": {
+          "line": 186,
+          "column": 13,
+          "position": 2594
+        }
+      },
+      "secondFile": {
+        "name": "functions/_lib/shared-handler.ts",
+        "start": 151,
+        "end": 161,
+        "startLoc": {
+          "line": 151,
+          "column": 4,
+          "position": 1719
+        },
+        "endLoc": {
+          "line": 161,
+          "column": 11,
+          "position": 1887
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "(context: CanvasRenderingContext2D, text: string, maxWidth: number): string {\n  if (context.measureText(text).width <= maxWidth) return text;\n  let trimmed = text;\n  while (trimmed.length > 1 && context.measureText(`${trimmed}…`).width > maxWidth) {\n    trimmed = trimmed.slice(0, -1);\n  }\n  return `${trimmed}…`;\n}\n\nfunction paintOpenCue",
+      "tokens": 126,
+      "firstFile": {
+        "name": "apps/world/src/proposals-board-detail.ts",
+        "start": 274,
+        "end": 283,
+        "startLoc": {
+          "line": 274,
+          "column": 18,
+          "position": 3040
+        },
+        "endLoc": {
+          "line": 283,
+          "column": 22,
+          "position": 3166
+        }
+      },
+      "secondFile": {
+        "name": "apps/world/src/proposals-board-paint.ts",
+        "start": 70,
+        "end": 79,
+        "startLoc": {
+          "line": 70,
+          "column": 22,
+          "position": 542
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 22,
+          "position": 668
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": " d * 0.6));\n    segments.push(seg(cx + d * 0.6, cy - d * 0.6, cx + d * 0.6, cy + d * 0.6));\n    segments.push(seg(cx + d * 0.6, cy + d * 0.6, cx - d * 0.6, cy + d * 0.6));\n    segments.push(seg(cx - d * 0.6, cy + d * 0.6, cx - d * 0.6, cy - d * 0.6));\n    if (i < 5) {\n      const nx = marginX + step * (i + 1) + step / 2;\n      segments.push(seg(cx + d * 0.55, cy, nx - d * 0.55, cy));\n    }\n  }\n  return segments;\n}\n\nconst",
+      "tokens": 266,
+      "firstFile": {
+        "name": "apps/world/src/proposals-board-chalk.ts",
+        "start": 94,
+        "end": 106,
+        "startLoc": {
+          "line": 94,
+          "column": 69,
+          "position": 1198
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 6,
+          "position": 1464
+        }
+      },
+      "secondFile": {
+        "name": "apps/world/src/proposals-board-paint.ts",
+        "start": 242,
+        "end": 254,
+        "startLoc": {
+          "line": 242,
+          "column": 69,
+          "position": 2788
+        },
+        "endLoc": {
+          "line": 254,
+          "column": 7,
+          "position": 3054
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ": number,\n): boolean {\n  const targetIndex = state.waypoint + dir;\n  if (targetIndex < 0 || targetIndex >= points.length) return true;\n  const target = points[targetIndex]!;\n  const dx = target[0] - state.x;\n  const dz = target[1] - state.z;\n  const dist = Math.hypot(dx, dz);\n  const",
+      "tokens": 125,
+      "firstFile": {
+        "name": "apps/world/src/pantry-routine.ts",
+        "start": 555,
+        "end": 563,
+        "startLoc": {
+          "line": 555,
+          "column": 10,
+          "position": 5830
+        },
+        "endLoc": {
+          "line": 563,
+          "column": 8,
+          "position": 5955
+        }
+      },
+      "secondFile": {
+        "name": "apps/world/src/pantry-routine.ts",
+        "start": 504,
+        "end": 512,
+        "startLoc": {
+          "line": 504,
+          "column": 8,
+          "position": 5235
+        },
+        "endLoc": {
+          "line": 512,
+          "column": 5,
+          "position": 5360
+        }
+      }
+    }
+  ]
+}

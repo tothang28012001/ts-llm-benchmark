@@ -1,0 +1,20 @@
+
+> galexp3@0.0.5 test
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90m/work[39m
+
+ [32m✓[39m src/sim/starSystem.test.ts [2m([22m[2m27 tests[22m[2m)[22m[90m 250[2mms[22m[39m
+ [32m✓[39m src/sim/starmap.test.ts [2m([22m[2m87 tests[22m[2m)[22m[33m 1073[2mms[22m[39m
+ [32m✓[39m src/ui/starmap.test.ts [2m([22m[2m8 tests[22m[2m)[22m[90m 223[2mms[22m[39m
+ [32m✓[39m src/sim/twinkle.test.ts [2m([22m[2m17 tests[22m[2m)[22m[33m 348[2mms[22m[39m
+ [32m✓[39m src/sim/galaxy.test.ts [2m([22m[2m31 tests[22m[2m)[22m[33m 3981[2mms[22m[39m
+   [33m[2m✓[22m[39m initGalaxy — geometric invariants[2m > [22mplaces no two stars closer than the Poisson-disk min distance [33m2330[2mms[22m[39m
+   [33m[2m✓[22m[39m initGalaxy — determinism[2m > [22mproduces identical galaxies for identical (seed, size) [33m325[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m5 passed[39m[22m[90m (5)[39m
+[2m      Tests [22m [1m[32m170 passed[39m[22m[90m (170)[39m
+[2m   Start at [22m 09:30:22
+[2m   Duration [22m 5.33s[2m (transform 907ms, setup 0ms, collect 3.36s, tests 5.88s, environment 18ms, prepare 903ms)[22m
+

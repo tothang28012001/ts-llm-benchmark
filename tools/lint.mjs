@@ -3,7 +3,8 @@
 // complexity (core `complexity` rule, max 0) and cognitive complexity
 // (SonarSource's `sonarjs/cognitive-complexity`, threshold 0) as metrics.
 //
-// usage: node /tools/lint.mjs <files.json> <out.json>     (cwd = repository root)
+// usage: node /tools/lint.mjs <files.json> <out.json> [locations.json]   (cwd = repository root)
+//   locations.json (optional, used by the explorer) lists every counted violation with file / line / message.
 import { readFileSync, writeFileSync } from "node:fs";
 import { ESLint } from "eslint";
 import js from "@eslint/js";
@@ -11,7 +12,8 @@ import tseslint from "typescript-eslint";
 import sonarjs from "eslint-plugin-sonarjs";
 import globals from "globals";
 
-const [filesJson, outJson] = process.argv.slice(2);
+const [filesJson, outJson, locJson] = process.argv.slice(2);
+const locations = [];
 const inv = JSON.parse(readFileSync(filesJson, "utf8"));
 const kind = new Map([...inv.prod.map((f) => [f, "prod"]), ...inv.test.map((f) => [f, "test"])]);
 
@@ -66,6 +68,9 @@ const out = {
 const rel = (p) => p.slice(process.cwd().length + 1).replaceAll("\\", "/");
 for (const r of results) {
   const k = kind.get(rel(r.filePath)) ?? "prod";
+  const file = rel(r.filePath);
+  const where = (m) => locations.push({ file, kind: k, line: m.line, column: m.column, endLine: m.endLine ?? m.line,
+                                         endColumn: m.endColumn ?? m.column, rule: m.ruleId, message: m.message });
   for (const m of r.messages) {
     if (m.fatal) { out.fatal_parse_errors[k]++; continue; }
     if (!m.ruleId) continue;
@@ -76,14 +81,17 @@ for (const r of results) {
       if (m.ruleId === "complexity") { out.cyclomatic.push(n); out.functions_prod++; }
       else out.cognitive.push(n);
       // the Sonar default threshold (15) is still reported as a real violation
+      if (m.ruleId === "sonarjs/cognitive-complexity" && n > 15) where(m);
       if (m.ruleId === "sonarjs/cognitive-complexity" && n > 15)
         out.violations[k]["sonarjs/cognitive-complexity"] = (out.violations[k]["sonarjs/cognitive-complexity"] || 0) + 1;
       continue;
     }
+    where(m);
     out.violations[k][m.ruleId] = (out.violations[k][m.ruleId] || 0) + 1;
     out.rule_type[m.ruleId] = meta[m.ruleId]?.type ?? "unknown";
   }
 }
 out.rule_type["sonarjs/cognitive-complexity"] = "suggestion";
 writeFileSync(outJson, JSON.stringify(out));
+if (locJson) writeFileSync(locJson, JSON.stringify(locations));
 console.log(`linted ${results.length} files`);

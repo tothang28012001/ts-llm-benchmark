@@ -1,0 +1,643 @@
+
+> casefile@ test /work
+> vitest --run --passWithNoTests
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.12 [39m[90m/work[39m
+
+[90mstdout[2m | tests/investigation.test.ts[2m > [22m[2mcase management[2m > [22m[2mcreates a case and lists it for its owner
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/investigation.test.ts[2m > [22m[2mcase management[2m > [22m[2mcreates a case and lists it for its owner
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/investigation.test.ts[2m > [22m[2mcase management[2m > [22m[2mcreates a case and lists it for its owner
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/cross-document.test.ts[2m > [22m[2mcross-document relationships[2m > [22m[2mlinks two documents that share a transaction reference
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/investigation.test.ts[2m > [22m[2mcase management[2m > [22m[2mcreates a case and lists it for its owner
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/investigation.test.ts[2m > [22m[2mcase management[2m > [22m[2mcreates a case and lists it for its owner
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/investigation.test.ts[2m > [22m[2mcase management[2m > [22m[2mcreates a case and lists it for its owner
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+[90mstdout[2m | tests/cross-document.test.ts[2m > [22m[2mcross-document relationships[2m > [22m[2mlinks two documents that share a transaction reference
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/cross-document.test.ts[2m > [22m[2mcross-document relationships[2m > [22m[2mlinks two documents that share a transaction reference
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/cross-document.test.ts[2m > [22m[2mcross-document relationships[2m > [22m[2mlinks two documents that share a transaction reference
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/cross-document.test.ts[2m > [22m[2mcross-document relationships[2m > [22m[2mlinks two documents that share a transaction reference
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/cross-document.test.ts[2m > [22m[2mcross-document relationships[2m > [22m[2mlinks two documents that share a transaction reference
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+[90mstdout[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2muploads every document and extracts text from each
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2muploads every document and extracts text from each
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2muploads every document and extracts text from each
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2muploads every document and extracts text from each
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2muploads every document and extracts text from each
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2muploads every document and extracts text from each
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A: Payment dispute[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/investigation.test.ts[2m > [22m[2mextraction and analysis flow[2m > [22m[2mmarks a scan with no text layer as unsupported, and analysis then reports the blocker
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B: Court case[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+ [32m✓[39m tests/cross-document.test.ts [2m([22m[2m25 tests[22m[2m)[22m[33m 23500[2mms[22m[39m
+     [33m[2m✓[22m[39m links two documents that share a transaction reference [33m 17864[2mms[22m[39m
+     [33m[2m✓[22m[39m reports direct agreement when two documents name the same reference [33m 2182[2mms[22m[39m
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+ [32m✓[39m tests/investigation.test.ts [2m([22m[2m33 tests[22m[2m)[22m[33m 23868[2mms[22m[39m
+     [33m[2m✓[22m[39m creates a case and lists it for its owner [33m 17253[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses to read a case the caller does not own [33m 3330[2mms[22m[39m
+     [33m[2m✓[22m[39m marks a scan with no text layer as unsupported, and analysis then reports the blocker [33m 749[2mms[22m[39m
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/extraction.test.ts[2m > [22m[2mextractPdfFile[2m > [22m[2mextracts text per page with page references
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/extraction.test.ts[2m > [22m[2mextractPdfFile[2m > [22m[2mreports a page with no text layer as unsupported, not empty
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/extraction.test.ts[2m > [22m[2mextractPdfFile[2m > [22m[2mreports a corrupt PDF as failed
+[22m[39mWarning: Indexing all PDF objects
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C: Business contract[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+ [32m✓[39m tests/extraction.test.ts [2m([22m[2m42 tests[22m[2m)[22m[33m 947[2mms[22m[39m
+     [33m[2m✓[22m[39m extracts text per page with page references [33m 419[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses a compression bomb instead of inflating it [33m 388[2mms[22m[39m
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D: Research[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2muploads every document and extracts text from each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mclassifies documents and records a confidence for each
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mbuilds a graph whose relationships all carry a source passage
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mreports readiness without a numeric score
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mgenerates a report that cites its sources and marks proposals
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mreports only contested comparisons as contradictions
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mexports the report in every format with identical review marks
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E: Mixed documents[2m > [22m[2mkeeps one user's case invisible to another
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A specifics[2m > [22m[2mlinks the receipt and the statement on the shared transaction id
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario A specifics[2m > [22m[2midentifies the refund gap or relationship rather than assuming it arrived
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B specifics (legal distinctions)[2m > [22m[2mclassifies the judgment, affidavit, witness statement, and contract distinctly
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B specifics (legal distinctions)[2m > [22m[2mclassifies the judgment, affidavit, witness statement, and contract distinctly
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B specifics (legal distinctions)[2m > [22m[2mclassifies the judgment, affidavit, witness statement, and contract distinctly
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B specifics (legal distinctions)[2m > [22m[2mnever presents a party allegation or counsel argument as a judicial finding
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B specifics (legal distinctions)[2m > [22m[2mnever presents a party allegation or counsel argument as a judicial finding
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario B specifics (legal distinctions)[2m > [22m[2mnever presents a party allegation or counsel argument as a judicial finding
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C specifics (contract performance)[2m > [22m[2mfinds the amended deadline and the delivery shortfall
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C specifics (contract performance)[2m > [22m[2mfinds the amended deadline and the delivery shortfall
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario C specifics (contract performance)[2m > [22m[2mfinds the amended deadline and the delivery shortfall
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D specifics (research disagreement)[2m > [22m[2mkeeps each paper's claim attached to its own document
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D specifics (research disagreement)[2m > [22m[2mkeeps each paper's claim attached to its own document
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario D specifics (research disagreement)[2m > [22m[2mkeeps each paper's claim attached to its own document
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+ [32m✓[39m tests/ui-contract.test.ts [2m([22m[2m33 tests[22m[2m)[22m[33m 5832[2mms[22m[39m
+     [33m[2m✓[22m[39m gives the analysis action a longer timeout than the client default [33m 5810[2mms[22m[39m
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E specifics (mixed categories share entities)[2m > [22m[2mlinks the medical report and the insurance claim on the shared policy number
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E specifics (mixed categories share entities)[2m > [22m[2mlinks the medical report and the insurance claim on the shared policy number
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mScenario E specifics (mixed categories share entities)[2m > [22m[2mlinks the medical report and the insurance claim on the shared policy number
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstderr[2m | tests/acceptance.test.ts[2m > [22m[2macceptance scenarios[2m > [22m[2mget-case evidence contract[2m > [22m[2mreturns the classification fields the evidence panel binds to
+[22m[39mWarning: UnknownErrorException: Ensure that the `standardFontDataUrl` API parameter is provided.
+
+[90mstdout[2m | tests/security-authz.test.ts[2m > [22m[2mauthentication[2m > [22m[2mrefuses every protected action without a signed-in user
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/security-authz.test.ts[2m > [22m[2mauthentication[2m > [22m[2mrefuses every protected action without a signed-in user
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/security-authz.test.ts[2m > [22m[2mauthentication[2m > [22m[2mrefuses every protected action without a signed-in user
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/security-authz.test.ts[2m > [22m[2mauthentication[2m > [22m[2mrefuses every protected action without a signed-in user
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/security-authz.test.ts[2m > [22m[2mauthentication[2m > [22m[2mrefuses every protected action without a signed-in user
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/security-authz.test.ts[2m > [22m[2mauthentication[2m > [22m[2mrefuses every protected action without a signed-in user
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+ [32m✓[39m tests/acceptance.test.ts [2m([22m[2m48 tests[22m[2m)[22m[33m 33559[2mms[22m[39m
+       [33m[2m✓[22m[39m uploads every document and extracts text from each [33m 18215[2mms[22m[39m
+       [33m[2m✓[22m[39m classifies documents and records a confidence for each [33m 311[2mms[22m[39m
+       [33m[2m✓[22m[39m builds a graph whose relationships all carry a source passage [33m 343[2mms[22m[39m
+       [33m[2m✓[22m[39m generates a report that cites its sources and marks proposals [33m 483[2mms[22m[39m
+       [33m[2m✓[22m[39m reports only contested comparisons as contradictions [33m 387[2mms[22m[39m
+       [33m[2m✓[22m[39m exports the report in every format with identical review marks [33m 561[2mms[22m[39m
+       [33m[2m✓[22m[39m exports the report in every format with identical review marks [33m 409[2mms[22m[39m
+       [33m[2m✓[22m[39m exports the report in every format with identical review marks [33m 398[2mms[22m[39m
+       [33m[2m✓[22m[39m reports readiness without a numeric score [33m 314[2mms[22m[39m
+       [33m[2m✓[22m[39m reports only contested comparisons as contradictions [33m 342[2mms[22m[39m
+       [33m[2m✓[22m[39m exports the report in every format with identical review marks [33m 443[2mms[22m[39m
+       [33m[2m✓[22m[39m reports only contested comparisons as contradictions [33m 314[2mms[22m[39m
+       [33m[2m✓[22m[39m exports the report in every format with identical review marks [33m 488[2mms[22m[39m
+       [33m[2m✓[22m[39m links the receipt and the statement on the shared transaction id [33m 538[2mms[22m[39m
+       [33m[2m✓[22m[39m identifies the refund gap or relationship rather than assuming it arrived [33m 449[2mms[22m[39m
+       [33m[2m✓[22m[39m classifies the judgment, affidavit, witness statement, and contract distinctly [33m 335[2mms[22m[39m
+       [33m[2m✓[22m[39m never presents a party allegation or counsel argument as a judicial finding [33m 343[2mms[22m[39m
+       [33m[2m✓[22m[39m returns the classification fields the evidence panel binds to [33m 1887[2mms[22m[39m
+ [32m✓[39m tests/security-authz.test.ts [2m([22m[2m13 tests[22m[2m)[22m[33m 10150[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses every protected action without a signed-in user [33m 9059[2mms[22m[39m
+     [33m[2m✓[22m[39m blocks read, modify, delete, archive, and history of another user's case [33m 322[2mms[22m[39m
+[90mstdout[2m | tests/security-injection.test.ts[2m > [22m[2mdocument security[2m > [22m[2mrejects unsupported content types regardless of the declared name
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/security-injection.test.ts[2m > [22m[2mdocument security[2m > [22m[2mrejects unsupported content types regardless of the declared name
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/security-injection.test.ts[2m > [22m[2mdocument security[2m > [22m[2mrejects unsupported content types regardless of the declared name
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/security-injection.test.ts[2m > [22m[2mdocument security[2m > [22m[2mrejects unsupported content types regardless of the declared name
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/security-injection.test.ts[2m > [22m[2mdocument security[2m > [22m[2mrejects unsupported content types regardless of the declared name
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/security-injection.test.ts[2m > [22m[2mdocument security[2m > [22m[2mrejects unsupported content types regardless of the declared name
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+[90mstdout[2m | tests/investigation-completeness.test.ts[2m > [22m[2minvestigation notes[2m > [22m[2mcreates, lists and edits a note, attributed to the caller
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/investigation-completeness.test.ts[2m > [22m[2minvestigation notes[2m > [22m[2mcreates, lists and edits a note, attributed to the caller
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/investigation-completeness.test.ts[2m > [22m[2minvestigation notes[2m > [22m[2mcreates, lists and edits a note, attributed to the caller
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/investigation-completeness.test.ts[2m > [22m[2minvestigation notes[2m > [22m[2mcreates, lists and edits a note, attributed to the caller
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/investigation-completeness.test.ts[2m > [22m[2minvestigation notes[2m > [22m[2mcreates, lists and edits a note, attributed to the caller
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/investigation-completeness.test.ts[2m > [22m[2minvestigation notes[2m > [22m[2mcreates, lists and edits a note, attributed to the caller
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+ [32m✓[39m tests/security-injection.test.ts [2m([22m[2m14 tests[22m[2m)[22m[33m 7194[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects unsupported content types regardless of the declared name [33m 6341[2mms[22m[39m
+ [32m✓[39m tests/comparison.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 93[2mms[22m[39m
+ [32m✓[39m tests/domains.test.ts [2m([22m[2m24 tests[22m[2m)[22m[32m 90[2mms[22m[39m
+ [32m✓[39m tests/investigation-completeness.test.ts [2m([22m[2m10 tests[22m[2m)[22m[33m 9014[2mms[22m[39m
+     [33m[2m✓[22m[39m creates, lists and edits a note, attributed to the caller [33m 6775[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses a note on a finding from another case [33m 466[2mms[22m[39m
+     [33m[2m✓[22m[39m records a verdict against a real gap and survives re-analysis [33m 527[2mms[22m[39m
+[90mstdout[2m | tests/demo-case.test.ts[2m > [22m[2mdemo case contradiction guarantee[2m > [22m[2mreports a contradiction when one source affirms a refund and another denies it
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/demo-case.test.ts[2m > [22m[2mdemo case contradiction guarantee[2m > [22m[2mreports a contradiction when one source affirms a refund and another denies it
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/demo-case.test.ts[2m > [22m[2mdemo case contradiction guarantee[2m > [22m[2mreports a contradiction when one source affirms a refund and another denies it
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/demo-case.test.ts[2m > [22m[2mdemo case contradiction guarantee[2m > [22m[2mreports a contradiction when one source affirms a refund and another denies it
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/demo-case.test.ts[2m > [22m[2mdemo case contradiction guarantee[2m > [22m[2mreports a contradiction when one source affirms a refund and another denies it
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/demo-case.test.ts[2m > [22m[2mdemo case contradiction guarantee[2m > [22m[2mreports a contradiction when one source affirms a refund and another denies it
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+ [32m✓[39m tests/demo-case.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 11695[2mms[22m[39m
+     [33m[2m✓[22m[39m reports a contradiction when one source affirms a refund and another denies it [33m 8730[2mms[22m[39m
+     [33m[2m✓[22m[39m reports agreement, not a contradiction, when two documents state the same fact [33m 456[2mms[22m[39m
+     [33m[2m✓[22m[39m builds the demonstration case from the bundled documents through the real pipeline [33m 788[2mms[22m[39m
+     [33m[2m✓[22m[39m labels a counsel submission, a party allegation, and a court finding differently [33m 364[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps the two demonstrations separate and idempotent by scenario [33m 790[2mms[22m[39m
+     [33m[2m✓[22m[39m returns the existing case instead of creating a duplicate [33m 301[2mms[22m[39m
+[90mstdout[2m | tests/security.test.ts[2m > [22m[2mcase and evidence isolation between users[2m > [22m[2mdoes not let a second user read another user's case
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/security.test.ts[2m > [22m[2mcase and evidence isolation between users[2m > [22m[2mdoes not let a second user read another user's case
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/security.test.ts[2m > [22m[2mcase and evidence isolation between users[2m > [22m[2mdoes not let a second user read another user's case
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/security.test.ts[2m > [22m[2mcase and evidence isolation between users[2m > [22m[2mdoes not let a second user read another user's case
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/security.test.ts[2m > [22m[2mcase and evidence isolation between users[2m > [22m[2mdoes not let a second user read another user's case
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+ [32m✓[39m tests/email.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+[90mstdout[2m | tests/security.test.ts[2m > [22m[2mcase and evidence isolation between users[2m > [22m[2mdoes not let a second user read another user's case
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+ [32m✓[39m tests/classification.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+[90mstdout[2m | tests/entities-activity.test.ts[2m > [22m[2mlist-entities[2m > [22m[2mresolves a party and a reference to the passages that mention them
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/entities-activity.test.ts[2m > [22m[2mlist-entities[2m > [22m[2mresolves a party and a reference to the passages that mention them
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/entities-activity.test.ts[2m > [22m[2mlist-entities[2m > [22m[2mresolves a party and a reference to the passages that mention them
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/entities-activity.test.ts[2m > [22m[2mlist-entities[2m > [22m[2mresolves a party and a reference to the passages that mention them
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/entities-activity.test.ts[2m > [22m[2mlist-entities[2m > [22m[2mresolves a party and a reference to the passages that mention them
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/entities-activity.test.ts[2m > [22m[2mlist-entities[2m > [22m[2mresolves a party and a reference to the passages that mention them
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+ [32m✓[39m tests/entities-activity.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 6477[2mms[22m[39m
+     [33m[2m✓[22m[39m resolves a party and a reference to the passages that mention them [33m 5989[2mms[22m[39m
+ [32m✓[39m tests/security.test.ts [2m([22m[2m13 tests[22m[2m)[22m[33m 8140[2mms[22m[39m
+     [33m[2m✓[22m[39m does not let a second user read another user's case [33m 7795[2mms[22m[39m
+ [32m✓[39m tests/model-timeout.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 2273[2mms[22m[39m
+     [33m[2m✓[22m[39m reports a spent budget as a spent budget, even with partial text [33m 2258[2mms[22m[39m
+ [32m✓[39m tests/badges.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+ [32m✓[39m tests/readiness.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32m✓[39m tests/auth-guard.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+[90mstdout[2m | tests/provider-failure.test.ts[2m > [22m[2mprovider failure handling[2m > [22m[2mrecords nothing when the provider throws mid-call
+[22m[39m[db] Applying 5 migration(s) on Postgres...
+
+[90mstdout[2m | tests/provider-failure.test.ts[2m > [22m[2mprovider failure handling[2m > [22m[2mrecords nothing when the provider throws mid-call
+[22m[39m[db] Applied migration "casefile-core-tables" (v1) (18 statements)
+
+[90mstdout[2m | tests/provider-failure.test.ts[2m > [22m[2mprovider failure handling[2m > [22m[2mrecords nothing when the provider throws mid-call
+[22m[39m[db] Applied migration "casefile-cross-document-relationships" (v2) (5 statements)
+
+[90mstdout[2m | tests/provider-failure.test.ts[2m > [22m[2mprovider failure handling[2m > [22m[2mrecords nothing when the provider throws mid-call
+[22m[39m[db] Applied migration "casefile-document-classification" (v3) (5 statements)
+
+[90mstdout[2m | tests/provider-failure.test.ts[2m > [22m[2mprovider failure handling[2m > [22m[2mrecords nothing when the provider throws mid-call
+[22m[39m[db] Applied migration "casefile-evidence-digest-unique" (v4) (5 statements)
+
+[90mstdout[2m | tests/provider-failure.test.ts[2m > [22m[2mprovider failure handling[2m > [22m[2mrecords nothing when the provider throws mid-call
+[22m[39m[db] Applied migration "casefile-investigation-notes-and-gap-reviews" (v5) (6 statements)
+
+ [32m✓[39m tests/provider-failure.test.ts [2m([22m[2m5 tests[22m[2m)[22m[33m 5310[2mms[22m[39m
+     [33m[2m✓[22m[39m records nothing when the provider throws mid-call [33m 5052[2mms[22m[39m
+ [32m✓[39m tests/model-contract.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 45[2mms[22m[39m
+[90mstdout[2m | tests/shared-provider.test.ts[2m > [22m[2mdeployment-level shared provider[2m > [22m[2mserves two independent organizations from one deployment key
+[22m[39m[db] Installed schema snapshot (240 migration(s))
+
+[90mstdout[2m | tests/shared-provider.test.ts[2m > [22m[2mdeployment-level shared provider[2m > [22m[2mserves two independent organizations from one deployment key
+[22m[39m[db] Applied 2 migration(s) to store "oauth_tokens"
+
+ [32m✓[39m tests/shared-provider.test.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 5649[2mms[22m[39m
+     [33m[2m✓[22m[39m serves two independent organizations from one deployment key [33m 5482[2mms[22m[39m
+ [32m✓[39m tests/model-selection.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m23 passed[39m[22m[90m (23)[39m
+[2m      Tests [22m [1m[32m372 passed[39m[22m[90m (372)[39m
+[2m   Start at [22m 09:31:05
+[2m   Duration [22m 64.86s[2m (transform 5.12s, setup 0ms, import 29.28s, tests 153.97s, environment 5ms)[22m
+

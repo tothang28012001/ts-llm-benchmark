@@ -18,7 +18,7 @@ For each repository in dataset/repos.csv:
 Every stage writes raw artefacts to results/raw/<repo_id>/ and the merged
 record to results/raw/<repo_id>/summary.json.  Stages are resumable.
 
-usage:  python -m bench.run [--only H01,L03] [--jobs 3] [--static-only] [--skip-mutation] [--force]
+usage:  python -m bench.run [--dataset dataset/repos.csv] [--only H01,L03] [--jobs 3] [--static-only] [--skip-mutation] [--force]
 """
 from __future__ import annotations
 
@@ -281,7 +281,9 @@ def bench_repo(row: dict, args) -> dict:
 
 
 def main() -> None:
+    global DATASET
     ap = argparse.ArgumentParser()
+    ap.add_argument("--dataset", default=str(DATASET), help="dataset CSV (default dataset/repos.csv)")
     ap.add_argument("--only", default="")
     ap.add_argument("--jobs", type=int, default=3)
     ap.add_argument("--cpus", default="4")
@@ -292,6 +294,7 @@ def main() -> None:
     ap.add_argument("--static-only", action="store_true",
                     help="never execute repository code: install with scripts disabled, skip tests and mutation")
     args = ap.parse_args()
+    DATASET = Path(args.dataset)
 
     rows = list(csv.DictReader(DATASET.open(encoding="utf-8")))
     if args.only:

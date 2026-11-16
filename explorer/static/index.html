@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benchmark Explorer</title>
+<style>
+:root {
+  --bg: #f6f6f3; --panel: #ffffff; --ink: #1d1d1b; --ink-2: #55554f; --ink-3: #8a8a82;
+  --line: #e3e2dc; --line-2: #efeee9; --hover: #f0efe9; --sel: #e8eef9;
+  --human: #2f6fd1; --human-bg: #e6eefb; --llm: #c2581b; --llm-bg: #fbeadf; --agent: #13805a; --agent-bg: #e0f3ea;
+  --good: #1f7a45; --good-bg: #e3f3e8; --bad: #b3261e; --bad-bg: #fbe5e2; --warn: #8a5a00; --warn-bg: #fdf1d6;
+  --code-bg: #fbfbf9; --lint: #c99400; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161615; --panel: #1f1f1d; --ink: #ecebe6; --ink-2: #b4b3ab; --ink-3: #85847c;
+    --line: #34332f; --line-2: #2a2927; --hover: #2a2a27; --sel: #22314a;
+    --human: #7aa7f0; --human-bg: #1e2c44; --llm: #f0965c; --llm-bg: #3f2718; --agent: #4fcf9c; --agent-bg: #16352a;
+    --good: #6fcf97; --good-bg: #183323; --bad: #f28b82; --bad-bg: #3d1d1a; --warn: #f0c36a; --warn-bg: #3a2e12;
+    --code-bg: #1a1a18; --lint: #e0b53d;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161615; --panel: #1f1f1d; --ink: #ecebe6; --ink-2: #b4b3ab; --ink-3: #85847c;
+  --line: #34332f; --line-2: #2a2927; --hover: #2a2a27; --sel: #22314a;
+  --human: #7aa7f0; --human-bg: #1e2c44; --llm: #f0965c; --llm-bg: #3f2718; --agent: #4fcf9c; --agent-bg: #16352a;
+  --good: #6fcf97; --good-bg: #183323; --bad: #f28b82; --bad-bg: #3d1d1a; --warn: #f0c36a; --warn-bg: #3a2e12;
+  --code-bg: #1a1a18; --lint: #e0b53d;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--human); }
+button { font: inherit; color: inherit; }
+.app { display: grid; grid-template-columns: 290px minmax(0, 1fr); height: 100vh; }
+aside { border-right: 1px solid var(--line); background: var(--panel); display: flex; flex-direction: column; min-height: 0; }
+aside header { padding: 16px 16px 10px; border-bottom: 1px solid var(--line); }
+aside h1 { font-size: 15px; margin: 0 0 2px; }
+aside header p { margin: 0 0 10px; color: var(--ink-2); font-size: 12.5px; }
+#search { width: 100%; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); font: inherit; }
+#list { overflow: auto; flex: 1; padding: 6px 8px 16px; }
+.grp { font-size: 11.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--ink-3); padding: 12px 8px 4px; display: flex; align-items: center; gap: 6px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+.dot.human { background: var(--human); } .dot.llm { background: var(--llm); } .dot.agent { background: var(--agent); }
+.item { display: block; width: 100%; text-align: left; border: 0; background: none; padding: 7px 8px; border-radius: 8px; cursor: pointer; }
+.item:hover { background: var(--hover); }
+.item.on { background: var(--sel); }
+.item .n { font-weight: 600; font-size: 13px; }
+.item .n span { color: var(--ink-3); font-weight: 500; margin-right: 6px; font-variant-numeric: tabular-nums; }
+.item .meta { display: flex; gap: 6px; margin-top: 3px; flex-wrap: wrap; }
+.tag { font-size: 11px; padding: 0 6px; border-radius: 99px; background: var(--line-2); color: var(--ink-2); white-space: nowrap; }
+.tag.ok { background: var(--good-bg); color: var(--good); } .tag.no { background: var(--bad-bg); color: var(--bad); }
+main { overflow: auto; min-width: 0; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 22px 28px 60px; }
+.top { display: flex; gap: 16px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
+.top h2 { margin: 0; font-size: 22px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 99px; }
+.chip.human { background: var(--human-bg); color: var(--human); } .chip.llm { background: var(--llm-bg); color: var(--llm); } .chip.agent { background: var(--agent-bg); color: var(--agent); }
+.sub { color: var(--ink-2); margin: 4px 0 0; font-size: 13px; }
+.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--line); margin: 18px 0 18px; overflow-x: auto; overflow-y: hidden; scrollbar-width: none; }
+.tab { border: 0; background: none; padding: 9px 14px; cursor: pointer; color: var(--ink-2); border-bottom: 2px solid transparent; margin-bottom: -1px; white-space: nowrap; }
+.tab:hover { color: var(--ink); }
+.tab.on { color: var(--ink); border-bottom-color: var(--ink); font-weight: 600; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; margin-bottom: 16px; }
+.card h3 { margin: 0 0 4px; font-size: 15px; }
+.card .lede { margin: 0 0 14px; color: var(--ink-2); font-size: 13px; }
+.steps { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.step { border: 1px solid var(--line); border-radius: 10px; padding: 10px; min-width: 0; }
+.step .h { font-size: 11.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .04em; font-weight: 600; }
+.step .v { font-weight: 600; margin: 4px 0 2px; }
+.step .d { font-size: 12px; color: var(--ink-2); }
+.step.ok { border-color: color-mix(in srgb, var(--good) 40%, var(--line)); }
+.step.no { border-color: color-mix(in srgb, var(--bad) 45%, var(--line)); background: color-mix(in srgb, var(--bad-bg) 45%, transparent); }
+.step.skip { opacity: .65; }
+.cmp { display: grid; grid-template-columns: 240px 1fr 120px; gap: 6px 18px; align-items: center; }
+.cmp .lab b { display: block; font-size: 13.5px; }
+.cmp .lab small { color: var(--ink-3); font-size: 12px; }
+.cmp .val { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.cmp .val small { display: block; font-weight: 400; color: var(--ink-3); font-size: 11.5px; }
+.axis { position: relative; height: 30px; }
+.axis .rail { position: absolute; left: 0; right: 0; top: 15px; height: 2px; background: var(--line); border-radius: 2px; }
+.axis .m { position: absolute; top: 7px; width: 2px; height: 18px; border-radius: 2px; }
+.axis .m.human { background: var(--human); } .axis .m.llm { background: var(--llm); }
+.axis .me { position: absolute; top: 8px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; border: 2px solid var(--panel); box-shadow: 0 0 0 1.5px var(--ink); background: var(--ink); }
+.axis .lbl { position: absolute; top: -4px; font-size: 10.5px; transform: translateX(-50%); white-space: nowrap; }
+.cmp hr { grid-column: 1 / -1; border: 0; border-top: 1px solid var(--line-2); margin: 4px 0; }
+.legend { display: flex; gap: 16px; font-size: 12.5px; color: var(--ink-2); margin: -4px 0 12px; flex-wrap: wrap; }
+.legend span { display: inline-flex; gap: 6px; align-items: center; }
+.legend i { width: 2px; height: 12px; display: inline-block; border-radius: 2px; }
+.legend i.me { width: 11px; height: 11px; border-radius: 50%; background: var(--ink); }
+.code-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 14px; align-items: start; }
+.files { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 8px; max-height: calc(100vh - 220px); overflow: auto; position: sticky; top: 10px; }
+.files .fh { font-size: 11.5px; font-weight: 600; color: var(--ink-3); text-transform: uppercase; letter-spacing: .04em; padding: 8px 8px 4px; }
+.file { display: flex; width: 100%; gap: 6px; align-items: center; border: 0; background: none; text-align: left; padding: 4px 8px; border-radius: 6px; cursor: pointer; font-family: var(--mono); font-size: 12px; }
+.file:hover { background: var(--hover); } .file.on { background: var(--sel); }
+.file .p { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; direction: rtl; text-align: left; }
+.b { font-family: system-ui, sans-serif; font-size: 10.5px; padding: 0 5px; border-radius: 99px; flex: none; font-weight: 600; }
+.b.l { background: var(--warn-bg); color: var(--warn); } .b.s { background: var(--bad-bg); color: var(--bad); } .b.k { background: var(--good-bg); color: var(--good); }
+.viewer { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; min-width: 0; }
+.vh { display: flex; justify-content: space-between; gap: 10px; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.vh .path { font-family: var(--mono); font-size: 13px; font-weight: 600; word-break: break-all; }
+.vh .counts { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); }
+.toggles { display: flex; gap: 14px; font-size: 12.5px; color: var(--ink-2); padding: 8px 14px; border-bottom: 1px solid var(--line-2); flex-wrap: wrap; }
+.toggles label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.src { font-family: var(--mono); font-size: 12.5px; line-height: 1.6; background: var(--code-bg); overflow-x: auto; padding: 6px 0; container-type: inline-size; }
+.ln { display: grid; grid-template-columns: 54px 14px 1fr; min-width: max-content; }
+.ln .no { text-align: right; padding-right: 8px; color: var(--ink-3); user-select: none; }
+.ln .g { user-select: none; }
+.ln .t { white-space: pre; padding-right: 20px; }
+.ln.has-lint .g { background: var(--lint); width: 3px; }
+.ln.has-surv { background: color-mix(in srgb, var(--bad-bg) 55%, transparent); }
+.ln.flash { animation: flash 1.6s ease-out; }
+@keyframes flash { from { background: var(--sel); } }
+u.lint { text-decoration: wavy underline var(--lint); text-underline-offset: 3px; }
+mark.mut { background: none; color: inherit; border-bottom: 2px solid var(--bad); }
+.note { grid-column: 3; font-family: system-ui, sans-serif; font-size: 12px; margin: 2px 0 5px; display: flex; flex-wrap: wrap; gap: 6px; white-space: normal; position: sticky; left: 68px; max-width: calc(100cqw - 84px); }
+.pill { border: 1px solid var(--line); background: var(--panel); border-radius: 7px; padding: 2px 8px; max-width: 100%; }
+.pill code { font-family: var(--mono); font-size: 11.5px; }
+.pill.l { border-color: color-mix(in srgb, var(--lint) 55%, var(--line)); }
+.pill.l b { color: var(--warn); }
+.pill.s { border-color: color-mix(in srgb, var(--bad) 50%, var(--line)); }
+.pill.s b { color: var(--bad); }
+.pill.k b { color: var(--good); }
+.pill .rule { color: var(--ink-3); font-family: var(--mono); font-size: 11px; margin-left: 6px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th { text-align: left; font-size: 11.5px; color: var(--ink-3); text-transform: uppercase; letter-spacing: .04em; font-weight: 600; padding: 6px 10px; border-bottom: 1px solid var(--line); }
+td { padding: 7px 10px; border-bottom: 1px solid var(--line-2); vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+tr.click { cursor: pointer; } tr.click:hover td { background: var(--hover); }
+td code, .mono { font-family: var(--mono); font-size: 12px; }
+.empty { color: var(--ink-3); padding: 10px 0; }
+pre.log { font-family: var(--mono); font-size: 12px; background: var(--code-bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; max-height: 460px; overflow: auto; white-space: pre-wrap; word-break: break-word; margin: 0; }
+.bar { display: flex; height: 22px; border-radius: 6px; overflow: hidden; gap: 2px; margin: 8px 0 6px; }
+.bar div { min-width: 2px; }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.btn { border: 1px solid var(--line); background: var(--panel); padding: 7px 14px; border-radius: 8px; cursor: pointer; font-weight: 600; }
+.btn:hover { background: var(--hover); }
+.btn.primary { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+.btn.primary:hover { opacity: .9; }
+.btn:disabled { opacity: .45; cursor: default; }
+select { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
+.prog { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; margin: 14px 0; }
+.prog div { border-radius: 8px; padding: 7px 8px; font-size: 12px; border: 1px solid var(--line); color: var(--ink-3); }
+.prog div b { display: block; font-size: 12.5px; color: inherit; }
+.prog .done { color: var(--good); border-color: color-mix(in srgb, var(--good) 40%, var(--line)); background: var(--good-bg); }
+.prog .now { color: var(--ink); border-color: var(--ink); animation: pulse 1.4s ease-in-out infinite; }
+.prog .fail { color: var(--bad); border-color: var(--bad); background: var(--bad-bg); }
+@keyframes pulse { 50% { opacity: .55; } }
+.same { color: var(--good); font-weight: 600; } .diff { color: var(--warn); font-weight: 600; }
+.hint { background: var(--sel); border-radius: 10px; padding: 10px 14px; font-size: 13px; margin-bottom: 16px; }
+.welcome { max-width: 760px; }
+.welcome ol { padding-left: 20px; } .welcome li { margin: 6px 0; }
+.kbd { font-family: var(--mono); font-size: 12px; background: var(--line-2); padding: 1px 6px; border-radius: 5px; }
+@media (max-width: 1250px) {
+  .code-layout { grid-template-columns: minmax(0, 1fr); } .files { position: static; max-height: 210px; }
+}
+@media (max-width: 900px) {
+  .app { grid-template-columns: minmax(0, 1fr); height: auto; }
+  aside { max-height: 45vh; border-right: 0; border-bottom: 1px solid var(--line); }
+  .wrap { padding: 16px; }
+  .steps, .prog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cmp { grid-template-columns: 1fr 80px; } .cmp .axis { grid-column: 1 / -1; grid-row: auto; }
+  .code-layout { grid-template-columns: minmax(0, 1fr); } .files { position: static; max-height: 260px; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <header>
+      <h1>Benchmark Explorer</h1>
+      <p>24 TypeScript projects: 12 written by people, 12 built by AI coding agents. Pick one.</p>
+      <input id="search" placeholder="Filter by name or id…" autocomplete="off">
+    </header>
+    <div id="list"></div>
+  </aside>
+  <main><div class="wrap" id="view"></div></main>
+</div>
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const api = async (p, opt) => { const r = await fetch(p, opt); const j = await r.json(); if (!r.ok) throw new Error(j.error || r.status); return j; };
+const fmt = (v, d = 2) => v == null ? "–" : (Math.abs(v) >= 100 ? v.toFixed(0) : Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(d));
+const groupName = (g) => ({ human: "Human-written", llm: "AI-built: Claude Code", agent: "AI-built: other agents" })[g] || g;
+const state = { projects: [], cur: null, tab: "overview", file: null, run: { since: 0, timer: null } };
+
+// ------------------------------------------------------------------ sidebar
+async function init() {
+  state.projects = await api("/api/projects");
+  renderList();
+  $("#search").addEventListener("input", renderList);
+  const h = location.hash.slice(1).split("/");
+  if (h[0]) open(h[0], h[1] || "overview", h.slice(2).join("/") || null); else welcome();
+  window.addEventListener("hashchange", () => {
+    const [id, tab, ...f] = location.hash.slice(1).split("/");
+    if (id && (id !== state.cur?.id || tab !== state.tab || (f.join("/") || null) !== state.file)) open(id, tab || "overview", f.join("/") || null);
+  });
+}
+function renderList() {
+  const q = $("#search").value.trim().toLowerCase();
+  const out = [];
+  for (const g of ["human", "llm", "agent"]) {
+    const ps = state.projects.filter((p) => p.group === g && (!q || (p.id + " " + p.name).toLowerCase().includes(q)));
+    if (!ps.length) continue;
+    out.push(`<div class="grp"><i class="dot ${g}"></i>${groupName(g)}</div>`);
+    for (const p of ps) out.push(`<button class="item ${state.cur?.id === p.id ? "on" : ""}" data-id="${p.id}">
+      <div class="n"><span>${p.id}</span>${esc(p.name.split("/")[1])}</div>
+      <div class="meta"><span class="tag">${fmt(p.lint, 0)} lint/KLOC</span>
+        <span class="tag ${p.tsc_clean ? "ok" : "no"}">${p.tsc_clean ? "compiles" : "type errors"}</span>
+        <span class="tag ${p.tests ? "ok" : "no"}">${p.tests ? "tests pass" : "tests fail"}</span></div></button>`);
+  }
+  $("#list").innerHTML = out.join("") || `<div class="empty" style="padding:12px">No match.</div>`;
+  for (const b of $("#list").querySelectorAll(".item")) b.onclick = () => go(b.dataset.id, "overview");
+}
+function go(id, tab, file) { location.hash = [id, tab, file].filter(Boolean).join("/"); }
+
+function welcome() {
+  $("#view").innerHTML = `<div class="welcome">
+    <h2 style="margin-top:6px">What you can do here</h2>
+    <p class="sub">Everything below is read from this folder: the stored benchmark results, the 24 cloned repositories, and the pipeline itself.</p>
+    <ol>
+      <li><b>Pick a project on the left.</b> <i class="dot human"></i> blue ones were written by people, <i class="dot llm"></i> orange ones mostly by Claude Code, <i class="dot agent"></i> green ones by other AI agents (Cursor, Devin, Copilot, Jules, OpenHands).</li>
+      <li><b>Overview</b> shows what happened to it at every pipeline stage, and where it sits against the median human and median Claude Code project.</li>
+      <li><b>Code</b> opens its real source files. Lint problems are underlined in yellow, and lines where a planted bug went unnoticed by the tests are shaded red.</li>
+      <li><b>Problems</b> lists every rule it broke, copy-pasted blocks and type errors. Click any row to jump to the code.</li>
+      <li><b>Tests</b> shows the test output and the mutation-testing results: which planted bugs the tests caught and which they missed.</li>
+      <li><b>Run it yourself</b> re-runs the whole pipeline on that project in Docker, live, and checks the new numbers against the stored ones.</li>
+    </ol>
+    <div class="hint">Good first picks: <a href="#L01/code">L01</a> (AI-built, only 1 lint problem), <a href="#H02/problems">H02</a> (human, 917 problems) and <a href="#H01/tests">H01</a> (human, tests catch 72% of planted bugs).</div>
+  </div>`;
+}
+
+// ------------------------------------------------------------------ project
+async function open(id, tab, file) {
+  if (state.cur?.id !== id) {
+    $("#view").innerHTML = `<div class="empty">Loading ${esc(id)}…</div>`;
+    try { state.cur = await api(`/api/project/${id}`); } catch (e) { $("#view").innerHTML = `<div class="empty">${esc(e.message)}</div>`; return; }
+    renderList();
+  }
+  state.tab = tab; state.file = file;
+  if (!state.jump) $("main").scrollTop = 0;
+  const p = state.cur;
+  const f = p.fetch || {};
+  const ai = f.ai_commit_share != null ? `${Math.round(f.ai_commit_share * 100)}% of ${f.commits_to_pin} commits signed by an AI agent${f.ai_agents?.length ? ` (${f.ai_agents.join(", ")})` : ""}` : "";
+  const tabs = [["overview", "Overview"], ["code", "Code"], ["problems", `Problems <span class="tag">${p.lint_total}</span>`], ["tests", "Tests"], ["run", "Run it yourself"]];
+  $("#view").innerHTML = `<div class="top"><div>
+      <div class="row"><span class="chip ${p.group}"><i class="dot ${p.group}"></i>${groupName(p.group)}</span><span class="mono" style="color:var(--ink-3)">${p.id}</span></div>
+      <h2 style="margin-top:6px">${esc(p.name)}</h2>
+      <p class="sub">★ ${fmt(p.stars, 0)} · analysed at commit <a target="_blank" href="https://github.com/${esc(p.name)}/tree/${esc(p.pin)}">${esc((p.pin || "").slice(0, 8))}</a> (${esc(p.pin_date)}) · ${p.loc?.prod?.code ?? "?"} lines of code, ${p.loc?.test?.code ?? 0} of tests${ai ? " · " + esc(ai) : ""}</p>
+    </div><a class="btn" target="_blank" href="https://github.com/${esc(p.name)}">Open on GitHub ↗</a></div>
+    <div class="tabs">${tabs.map(([k, l]) => `<button class="tab ${k === tab ? "on" : ""}" data-t="${k}">${l}</button>`).join("")}</div>
+    <div id="pane"></div>`;
+  for (const b of document.querySelectorAll(".tab")) b.onclick = () => go(p.id, b.dataset.t);
+  ({ overview, code, problems, tests, run })[tab]?.(p, file);
+}
+
+// ------------------------------------------------------------------ overview
+function overview(p) {
+  const t = p.tsc || {}, m = p.mutation || {}, ins = p.install || {}, tc = p.tests_counts;
+  const dupPct = p.compare.find((c) => c.col === "dup_pct")?.value;
+  const st = [
+    ["Fetch", "ok", `${p.inventory?.prod_files ?? "?"} files`, `${p.inventory?.test_files ?? 0} test files`],
+    ["Lint", p.lint_total ? "warn" : "ok", `${p.lint_total} problems`, `${p.rules.reduce((a, r) => a + r.prod, 0)} in source, ${p.rules.reduce((a, r) => a + r.test, 0)} in tests`],
+    ["Duplication", "ok", `${fmt(dupPct, 1)}% copied`, `${p.duplicates.length} clone pairs`],
+    ["Install", ins.ok ? "ok" : "no", ins.ok ? "installed" : "failed", ins.attempts?.at(-1)?.cmd || ""],
+    ["Compile", t.errors_in_project_files === 0 && !t.global_errors ? "ok" : "no", `${t.errors_total ?? "?"} type errors`, `TypeScript ${t.ts_version || "?"}`],
+    ["Tests", p.test?.passed ? "ok" : (p.test ? "no" : "skip"), p.test?.passed ? "pass" : p.test ? "fail" : "not run",
+      tc.passed != null ? `${tc.passed} passed, ${tc.failed || 0} failed` : (p.test_legacy?.passed ? `pass on Node ${p.test_legacy.node}` : "")],
+    ["Mutation", m.status === "ok" ? "ok" : "skip", m.status === "ok" ? `${Math.round(m.mutation_score * 100)}% caught` : "not run",
+      m.status === "ok" ? `${m.mutants_valid} planted bugs` : (m.status === "tests-not-passing" ? "needs passing tests" : esc(m.status || ""))],
+  ];
+  const legacy = !p.test?.passed && p.test_legacy ? `<p class="lede" style="margin:12px 0 0">Tests fail on today's Node 22. Re-run on Node ${p.test_legacy.node}, the version current when this code was written: <b>${p.test_legacy.passed ? "they pass" : p.test_legacy.status === "install-failed" ? "dependencies would not install" : "still fail"}</b>.</p>` : "";
+  const rows = p.compare.map((c) => {
+    const vals = [c.value, c.human, c.llm].filter((v) => v != null);
+    const max = Math.max(...vals, 1e-9) * 1.08;
+    const pos = (v) => `${(v / max) * 100}%`;
+    const better = c.value == null ? "" : (c.lower_better ? c.value <= Math.min(c.human, c.llm) : c.value >= Math.max(c.human, c.llm)) ? "matches or beats both medians" : "";
+    return `<div class="lab"><b>${esc(c.label)}</b><small title="${esc(c.help)}">${esc(c.unit)} · ${c.lower_better ? "lower is better" : "higher is better"}</small></div>
+      <div class="axis" title="${esc(c.help)}"><div class="rail"></div>
+        ${c.human != null ? `<div class="m human" style="left:${pos(c.human)}" title="Human median ${fmt(c.human)}"></div>` : ""}
+        ${c.llm != null ? `<div class="m llm" style="left:${pos(c.llm)}" title="Claude Code median ${fmt(c.llm)}"></div>` : ""}
+        ${c.value != null ? `<div class="me" style="left:${pos(c.value)}" title="${p.id}: ${fmt(c.value)}"></div>` : ""}</div>
+      <div class="val">${c.value == null ? "–" : fmt(c.value)}<small>${c.value == null ? "not measured" : better || `medians: ${fmt(c.human)} / ${fmt(c.llm)}`}</small></div><hr>`;
+  }).join("");
+  $("#pane").innerHTML = `
+    <div class="card"><h3>What the pipeline found, stage by stage</h3>
+      <p class="lede">Each project goes through the same seven stages inside a Docker container. Red means that stage failed for this project.</p>
+      <div class="steps">${st.map(([h, s, v, d]) => `<div class="step ${s === "warn" ? "" : s}"><div class="h">${h}</div><div class="v">${v}</div><div class="d">${d}</div></div>`).join("")}</div>${legacy}</div>
+    <div class="card"><h3>How it compares</h3>
+      <p class="lede">The dot is this project; the lines mark the median project of each group. Hover a label for what it measures.</p>
+      <div class="legend"><span><i class="me"></i>${p.id}</span><span><i style="background:var(--human)"></i>median human project</span><span><i style="background:var(--llm)"></i>median Claude Code project</span></div>
+      <div class="cmp">${rows}</div></div>
+    <div class="hint">Next: open the <a href="#${p.id}/code">Code</a> tab to see these problems in the actual source.</div>`;
+}
+
+// ------------------------------------------------------------------ code
+function code(p, file) {
+  const mf = p.mutation_files;
+  const first = file || Object.keys(mf)[0] || Object.entries(p.lint_per_file).sort((a, b) => b[1] - a[1])[0]?.[0] || p.files.prod[0];
+  const item = (f) => {
+    const l = p.lint_per_file[f], m = mf[f];
+    const surv = m ? (m.Survived || 0) + (m.NoCoverage || 0) : 0;
+    return `<button class="file ${f === first ? "on" : ""}" data-f="${esc(f)}" title="${esc(f)}"><span class="p">${esc(f)}</span>
+      ${l ? `<span class="b l" title="lint problems">${l}</span>` : ""}${m ? `<span class="b ${surv ? "s" : "k"}" title="planted bugs the tests missed">${surv} missed</span>` : ""}</button>`;
+  };
+  $("#pane").innerHTML = `<div class="code-layout">
+    <div class="files"><div class="fh">Source (${p.files.prod.length})</div>${p.files.prod.map(item).join("")}
+      ${p.files.test.length ? `<div class="fh">Tests (${p.files.test.length})</div>${p.files.test.map(item).join("")}` : ""}</div>
+    <div class="viewer" id="viewer"><div class="empty" style="padding:14px">Pick a file.</div></div></div>`;
+  for (const b of document.querySelectorAll(".file")) b.onclick = () => go(p.id, "code", b.dataset.f);
+  if (first) showFile(p, first, state.jump);
+  state.jump = null;
+}
+
+async function showFile(p, path, line) {
+  const v = $("#viewer");
+  v.innerHTML = `<div class="empty" style="padding:14px">Loading…</div>`;
+  let f;
+  try { f = await api(`/api/file/${p.id}?path=${encodeURIComponent(path)}`); } catch (e) { v.innerHTML = `<div class="empty" style="padding:14px">${esc(e.message)}</div>`; return; }
+  const lint = {}, muts = {};
+  for (const x of f.lint) (lint[x.line] ||= []).push(x);
+  for (const x of f.mutants) (muts[x.line] ||= []).push(x);
+  const missed = f.mutants.filter((m) => m.status === "Survived" || m.status === "NoCoverage");
+  const caught = f.mutants.filter((m) => m.status === "Killed" || m.status === "Timeout");
+  const lines = f.source.split(/\r?\n/);
+  const pref = loadPrefs();
+  const html = lines.map((txt, i) => {
+    const n = i + 1, L = lint[n] || [], M = muts[n] || [];
+    const spans = [];
+    if (pref.lint) for (const x of L) if (x.endLine === n && x.endColumn > x.column) spans.push([x.column - 1, x.endColumn - 1, "u", "lint"]);
+    if (pref.missed) for (const x of M) if ((x.status === "Survived" || x.status === "NoCoverage") && x.end_line === n && x.end_col > x.col) spans.push([x.col - 1, x.end_col - 1, "mark", "mut"]);
+    const showM = M.filter((x) => (pref.missed && (x.status === "Survived" || x.status === "NoCoverage")) || (pref.caught && (x.status === "Killed" || x.status === "Timeout")));
+    const notes = [
+      ...(pref.lint ? L.map((x) => `<span class="pill l"><b>Lint</b> ${esc(x.message)}<span class="rule">${esc(x.rule)}</span></span>`) : []),
+      ...showM.map((x) => { const bad = x.status === "Survived" || x.status === "NoCoverage";
+        return `<span class="pill ${bad ? "s" : "k"}"><b>${bad ? "Missed bug" : "Caught bug"}</b> changed to <code>${esc(trim(x.replacement))}</code>: ${esc(x.meaning)}<span class="rule">${esc(x.mutator)}</span></span>`; }),
+    ];
+    const surv = pref.missed && M.some((x) => x.status === "Survived" || x.status === "NoCoverage");
+    return `<div class="ln ${L.length && pref.lint ? "has-lint" : ""} ${surv ? "has-surv" : ""}" id="L${n}"><span class="no">${n}</span><span class="g"></span><span class="t">${decorate(txt, spans)}</span>${notes.length ? `<div class="note">${notes.join("")}</div>` : ""}</div>`;
+  }).join("");
+  v.innerHTML = `<div class="vh"><div class="path">${esc(path)} <span class="tag">${f.kind === "prod" ? "source" : "test"}</span></div>
+      <div class="counts"><span class="b l">${f.lint.length} lint</span>${f.mutants.length ? `<span class="b s">${missed.length} missed</span><span class="b k">${caught.length} caught</span>` : ""}<a target="_blank" href="${esc(f.github)}">view on GitHub ↗</a></div></div>
+    <div class="toggles"><label><input type="checkbox" data-k="lint" ${pref.lint ? "checked" : ""}> lint problems</label>
+      ${f.mutants.length ? `<label><input type="checkbox" data-k="missed" ${pref.missed ? "checked" : ""}> bugs the tests missed</label>
+      <label><input type="checkbox" data-k="caught" ${pref.caught ? "checked" : ""}> bugs the tests caught</label>` : `<span>No mutation testing in this file${p.mutation?.status === "ok" ? " (only a sample of files is mutated)" : ""}.</span>`}</div>
+    <div class="src">${html}</div>`;
+  for (const c of v.querySelectorAll(".toggles input")) c.onchange = () => { savePrefs({ ...loadPrefs(), [c.dataset.k]: c.checked }); showFile(p, path, line); };
+  if (line) { const el = document.getElementById("L" + line); if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("flash"); } }
+}
+const trim = (s) => (s = String(s).replace(/\s+/g, " ")).length > 90 ? s.slice(0, 87) + "…" : s;
+function decorate(txt, spans) {
+  spans = spans.filter(([a, b]) => a >= 0 && b <= txt.length && a < b).sort((x, y) => x[0] - y[0]);
+  let out = "", at = 0;
+  for (const [a, b, tag, cls] of spans) { if (a < at) continue; out += esc(txt.slice(at, a)) + `<${tag} class="${cls}">${esc(txt.slice(a, b))}</${tag}>`; at = b; }
+  return out + esc(txt.slice(at));
+}
+function loadPrefs() { try { return { lint: true, missed: true, caught: false, ...JSON.parse(localStorage.getItem("ex-prefs") || "{}") }; } catch { return { lint: true, missed: true, caught: false }; } }
+function savePrefs(v) { try { localStorage.setItem("ex-prefs", JSON.stringify(v)); } catch {} }
+function jump(p, file, line) { state.jump = line; if (state.tab === "code" && state.file === file) showFile(p, file, line); else go(p.id, "code", file); }
+
+// ------------------------------------------------------------------ problems
+function problems(p) {
+  const rules = p.rules.map((r) => `<tr class="click" data-f="${esc(r.example.file)}" data-l="${r.example.line}">
+      <td><code>${esc(r.rule)}</code></td><td class="num">${r.prod}</td><td class="num">${r.test}</td>
+      <td>${esc(r.example.message)}<div class="mono" style="color:var(--ink-3)">${esc(r.example.file)}:${r.example.line}</div></td></tr>`).join("");
+  const dups = p.duplicates.map((d) => `<tr><td class="num">${d.lines}</td>
+      <td><a href="#" data-f="${esc(d.a)}" data-l="${d.a_start}" class="mono">${esc(d.a)}:${d.a_start}–${d.a_end}</a></td>
+      <td><a href="#" data-f="${esc(d.b)}" data-l="${d.b_start}" class="mono">${esc(d.b)}:${d.b_start}–${d.b_end}</a></td></tr>`).join("");
+  const tsc = p.tsc_samples.map((s) => `<div>${esc(s)}</div>`).join("");
+  $("#pane").innerHTML = `
+    <div class="card"><h3>Rules broken (${p.lint_total})</h3>
+      <p class="lede">Every project is checked with the same ESLint rules, ignoring the project's own config and any <span class="kbd">eslint-disable</span> comments. Click a row to see the first case in the code.</p>
+      ${rules ? `<table><thead><tr><th>Rule</th><th class="num">In source</th><th class="num">In tests</th><th>First case</th></tr></thead><tbody>${rules}</tbody></table>` : `<div class="empty">No lint problems at all.</div>`}</div>
+    <div class="card"><h3>Copy-pasted blocks (${p.duplicates.length})</h3>
+      <p class="lede">Pairs of places where the same 50+ tokens appear twice (jscpd).</p>
+      ${dups ? `<table><thead><tr><th class="num">Lines</th><th>First copy</th><th>Second copy</th></tr></thead><tbody>${dups}</tbody></table>` : `<div class="empty">No duplicated blocks.</div>`}</div>
+    <div class="card"><h3>Type errors (${p.tsc?.errors_total ?? 0})</h3>
+      <p class="lede">From running the TypeScript compiler (<span class="kbd">tsc --noEmit</span>) with the project's own config and its own TypeScript ${esc(p.tsc?.ts_version || "")}. ${p.tsc?.errors_in_dependencies ? `${p.tsc.errors_in_dependencies} of them are inside installed libraries, not the project's code.` : ""}</p>
+      ${tsc ? `<pre class="log">${tsc}</pre>` : `<div class="empty">The compiler reported no errors.</div>`}</div>`;
+  for (const el of document.querySelectorAll("#pane [data-f]")) el.onclick = (e) => { e.preventDefault(); jump(p, el.dataset.f, Number(el.dataset.l)); };
+}
+
+// ------------------------------------------------------------------ tests
+async function tests(p) {
+  const m = p.mutation || {}, c = m.counts || {};
+  const killed = (c.Killed || 0) + (c.Timeout || 0), missed = (c.Survived || 0) + (c.NoCoverage || 0), tot = killed + missed;
+  const mut = m.status === "ok" ? `
+      <div class="bar"><div style="flex:${killed};background:var(--good)" title="caught ${killed}"></div><div style="flex:${missed};background:var(--bad)" title="missed ${missed}"></div></div>
+      <div class="row" style="font-size:13px"><span><i class="dot" style="background:var(--good)"></i> caught ${killed}</span><span><i class="dot" style="background:var(--bad)"></i> missed ${missed} (${c.NoCoverage || 0} on lines no test runs)</span><span style="color:var(--ink-3)">score ${Math.round(m.mutation_score * 100)}% · ${m.sample_files?.length} sampled files, ${m.sample_lines} lines · runner ${esc(m.runner)}</span></div>
+      <h4 style="margin:18px 0 6px">Bugs the tests missed</h4><div id="missed" class="empty">Loading…</div>`
+    : `<div class="empty">Not run: ${m.status === "tests-not-passing" ? "mutation testing needs a test suite that passes first, and this one fails on Node 22." : esc(m.status || "no data")}</div>`;
+  $("#pane").innerHTML = `
+    <div class="card"><h3>Mutation testing: do the tests notice bugs?</h3>
+      <p class="lede">StrykerJS makes hundreds of small changes to the code, one at a time (<span class="kbd">&lt;</span> becomes <span class="kbd">&lt;=</span>, <span class="kbd">true</span> becomes <span class="kbd">false</span>, a function body is emptied…) and runs the tests after each one. A good test suite fails, catching the planted bug.</p>${mut}</div>
+    <div class="card"><h3>Test run: ${p.test ? (p.test.passed ? `<span class="same">passed</span>` : `<span class="diff">failed</span>`) : "not run"}</h3>
+      <p class="lede">${p.test ? `Ran <span class="kbd">${esc(p.test.cmd)}</span> on Node 22 in ${p.test.seconds}s, exit code ${p.test.exit}.` : ""}
+        ${p.test_legacy ? ` Era-matched re-run on Node ${p.test_legacy.node}: ${p.test_legacy.passed ? "passed" : esc(p.test_legacy.status === "ok" ? "failed" : p.test_legacy.status)}.` : ""}</p>
+      <div class="row" style="margin-bottom:8px">${p.logs.map((l) => `<button class="btn" data-log="${esc(l)}">${esc(l)}</button>`).join("")}</div>
+      <pre class="log" id="log">Pick a log above.</pre></div>`;
+  for (const b of document.querySelectorAll("[data-log]")) b.onclick = async () => { $("#log").textContent = "Loading…"; const r = await api(`/api/log/${p.id}/${b.dataset.log}`); $("#log").textContent = (r.truncated ? "…(start cut)\n" : "") + r.text; };
+  if (p.logs.includes("test.log")) document.querySelector('[data-log="test.log"]').click();
+  if (m.status !== "ok") return;
+  const rows = [];
+  for (const f of Object.keys(p.mutation_files)) {
+    const r = await api(`/api/file/${p.id}?path=${encodeURIComponent(f)}`);
+    const src = r.source.split(/\r?\n/);
+    for (const x of r.mutants) if (x.status === "Survived" || x.status === "NoCoverage") rows.push({ f, ...x, orig: src[x.line - 1] });
+  }
+  if (!$("#missed")) return;
+  $("#missed").className = "";
+  $("#missed").innerHTML = rows.length ? `<table><thead><tr><th>Where</th><th>Original line</th><th>Changed to</th><th>Why it counts as missed</th></tr></thead><tbody>${
+    rows.slice(0, 300).map((x) => `<tr class="click" data-f="${esc(x.f)}" data-l="${x.line}"><td class="mono">${esc(x.f)}:${x.line}</td><td><code>${esc(trim(x.orig?.trim() || ""))}</code></td><td><code>${esc(trim(x.replacement))}</code></td><td>${esc(x.meaning)}</td></tr>`).join("")}</tbody></table>${rows.length > 300 ? `<div class="empty">…and ${rows.length - 300} more.</div>` : ""}` : `<div class="empty">None: the tests caught every planted bug.</div>`;
+  for (const el of document.querySelectorAll("#missed [data-f]")) el.onclick = () => jump(p, el.dataset.f, Number(el.dataset.l));
+}
+
+// ------------------------------------------------------------------ run
+const STAGES = [["fetch", "Fetch & count", /: loc /], ["lint", "Lint", /: lint exit/], ["dup", "Duplication", /: dup ok/],
+  ["install", "Install", /: install ok/], ["tsc", "Compile", /: tsc errors/], ["test", "Tests", /: test passed|static-only/], ["mut", "Mutation", /: mutation status|: DONE/]];
+function run(p) {
+  const prev = (p.mutation?.attempts || []).reduce((a, x) => a + (x.seconds || 0), 0);
+  const inst = p.install?.attempts?.at(-1)?.seconds || 0;
+  $("#pane").innerHTML = `
+    <div class="card"><h3>Re-run the pipeline on ${p.id}</h3>
+      <p class="lede">This starts the real benchmark on your machine: it checks out ${esc(p.name)} at the pinned commit, then lints, installs, compiles and tests it inside the Docker image. Output goes to <span class="kbd">demo/raw/${p.id}</span>, so the stored results are never touched. Docker Desktop must be running.</p>
+      <div class="row">
+        <label class="row" style="gap:6px"><input type="checkbox" id="withMut" ${p.mutation?.status === "ok" && prev < 400 ? "checked" : ""} ${p.mutation?.status === "ok" ? "" : "disabled"}>
+          include mutation testing</label>
+        <select id="mins" title="time limit for mutation testing">${[3, 5, 10, 20].map((n) => `<option value="${n}" ${n === 5 ? "selected" : ""}>limit ${n} min</option>`).join("")}</select>
+        <button class="btn primary" id="go">Run ${p.id}</button><button class="btn" id="stop" disabled>Stop</button>
+      </div>
+      <p class="lede" style="margin:10px 0 0">Stored run: install ${Math.round(inst)}s${p.mutation?.status === "ok" ? `, mutation testing ${prev > 90 ? Math.round(prev / 60) + " min" : Math.round(prev) + "s"}` : `; mutation testing was not possible for this project (${esc(p.mutation?.status || "")})`}. ${prev >= 400 ? "Mutation testing is off by default here because it took long; with a time limit the score will cover fewer mutants than the stored one." : ""}</p>
+      <div class="prog" id="prog">${STAGES.map(([k, l]) => `<div data-s="${k}"><b>${l}</b><span>waiting</span></div>`).join("")}</div>
+      <pre class="log" id="runlog">Press Run to start.</pre></div>
+    <div class="card" id="result" hidden><h3>Stored result vs this run</h3><p class="lede">If the pipeline is reproducible, these should match.</p><div id="cmp"></div></div>`;
+  $("#go").onclick = async () => {
+    try { await api(`/api/run/${p.id}?mutation=${$("#withMut").checked ? 1 : 0}&minutes=${$("#mins").value}`, { method: "POST" }); }
+    catch (e) { $("#runlog").textContent = e.message; return; }
+    state.run.since = 0; $("#runlog").textContent = ""; poll(p);
+  };
+  $("#stop").onclick = () => api("/api/run/stop", { method: "POST" });
+  api("/api/run/status?since=0").then((s) => { if (s.rid === p.id && (s.running || s.exit != null)) { state.run.since = 0; $("#runlog").textContent = ""; poll(p); } else if (s.running) $("#runlog").textContent = `${s.rid} is running right now; open its Run tab to watch it.`; });
+}
+async function poll(p) {
+  clearTimeout(state.run.timer);
+  if (state.tab !== "run" || state.cur?.id !== p.id) return;
+  const s = await api(`/api/run/status?since=${state.run.since}`);
+  if (s.rid !== p.id) return;
+  state.run.since = s.next;
+  const log = $("#runlog"), stick = log.scrollTop + log.clientHeight >= log.scrollHeight - 30;
+  if (s.lines.length) log.textContent += (log.textContent ? "\n" : "") + s.lines.join("\n");
+  if (stick) log.scrollTop = log.scrollHeight;
+  const all = log.textContent;
+  const failed = /FAILED|stopped by you/.test(all);
+  let nowSet = false;
+  for (const [k, , re] of STAGES) {
+    const el = document.querySelector(`[data-s="${k}"]`);
+    const done = re.test(all);
+    let cls = "", txt = s.running ? "waiting" : "–";
+    if (done) { cls = "done"; txt = k === "mut" && !/mutation testing/.test(all) ? "skipped" : "done"; }
+    else if (!nowSet && (s.running || failed)) { nowSet = true; cls = s.running ? "now" : "fail"; txt = s.running ? "running…" : "failed"; }
+    el.className = cls; el.querySelector("span").textContent = txt;
+  }
+  $("#go").disabled = s.running; $("#stop").disabled = !s.running;
+  if (s.running) { state.run.timer = setTimeout(() => poll(p), 1000); return; }
+  if (s.compare) {
+    $("#result").hidden = false;
+    const same = s.compare.filter((r) => r.same).length;
+    $("#cmp").innerHTML = `<p style="margin:0 0 10px"><b class="${same === s.compare.length ? "same" : "diff"}">${same} of ${s.compare.length} match</b> · took ${Math.round(s.elapsed)}s${s.exit ? ` · the run exited with code ${s.exit}` : ""}</p>
+      <table><thead><tr><th>Measure</th><th class="num">Stored</th><th class="num">This run</th><th></th></tr></thead><tbody>${
+      s.compare.map((r) => `<tr><td>${esc(r.label)}</td><td class="num">${esc(show(r.stored))}</td><td class="num">${esc(show(r.now))}</td><td class="${r.same ? "same" : "diff"}">${r.same ? "same" : "differs"}</td></tr>`).join("")}</tbody></table>`;
+  }
+}
+const show = (v) => v == null ? "–" : typeof v === "number" && !Number.isInteger(v) ? v.toFixed(3) : String(v);
+
+init();
+</script>
+</body>
+</html>

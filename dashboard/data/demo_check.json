@@ -1,0 +1,49 @@
+{
+ "rows": [
+  {
+   "metric": "Lint violations",
+   "stored": 1,
+   "live": 1
+  },
+  {
+   "metric": "Functions",
+   "stored": 99,
+   "live": 99
+  },
+  {
+   "metric": "Mean cyclomatic",
+   "stored": 2.86,
+   "live": 2.86
+  },
+  {
+   "metric": "Max cyclomatic",
+   "stored": 24,
+   "live": 24
+  },
+  {
+   "metric": "Compile errors",
+   "stored": 0,
+   "live": 0
+  },
+  {
+   "metric": "Mutants killed",
+   "stored": 114,
+   "live": 114
+  },
+  {
+   "metric": "Mutants survived",
+   "stored": 36,
+   "live": 36
+  },
+  {
+   "metric": "Mutants not covered",
+   "stored": 66,
+   "live": 66
+  },
+  {
+   "metric": "Mutation score",
+   "stored": 0.528,
+   "live": 0.528
+  }
+ ]
+}

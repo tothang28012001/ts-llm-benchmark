@@ -1,0 +1,92 @@
+
+> costly@0.1.0 test
+> jest
+
+PASS __tests__/lib/pricing.test.ts
+PASS __tests__/lib/validate-key.test.ts
+PASS __tests__/lib/sync.test.ts
+  ● Console
+
+    console.error
+      Sync error for provider anthropic: Error: Anthropic usage API error 403: forbidden
+          at Object.<anonymous> (/work/__tests__/lib/sync.test.ts:58:42)
+          at Promise.finally.completed (/work/node_modules/jest-circus/build/jestAdapterInit.js:1561:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (/work/node_modules/jest-circus/build/jestAdapterInit.js:1501:10)
+          at _callCircusTest (/work/node_modules/jest-circus/build/jestAdapterInit.js:1011:40)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at _runTest (/work/node_modules/jest-circus/build/jestAdapterInit.js:951:3)
+          at /work/node_modules/jest-circus/build/jestAdapterInit.js:853:7
+          at _runTestsForDescribeBlock (/work/node_modules/jest-circus/build/jestAdapterInit.js:866:11)
+          at _runTestsForDescribeBlock (/work/node_modules/jest-circus/build/jestAdapterInit.js:861:11)
+          at run (/work/node_modules/jest-circus/build/jestAdapterInit.js:765:3)
+          at runAndTransformResultsToJestFormat (/work/node_modules/jest-circus/build/jestAdapterInit.js:1993:21)
+          at jestAdapter (/work/node_modules/jest-circus/build/runner.js:111:19)
+          at runTestInternal (/work/node_modules/jest-runner/build/testWorker.js:276:16)
+          at runTest (/work/node_modules/jest-runner/build/testWorker.js:344:7)
+          at Object.worker (/work/node_modules/jest-runner/build/testWorker.js:498:12)
+
+    [0m [90m 106 |[39m     } [36mcatch[39m (err) {
+     [90m 107 |[39m       [36mconst[39m message [33m=[39m err [36minstanceof[39m [33mError[39m [33m?[39m err[33m.[39mmessage [33m:[39m [32m'Unknown sync error'[39m
+    [31m[1m>[22m[39m[90m 108 |[39m       console[33m.[39merror([32m`Sync error for provider ${provider.name}:`[39m[33m,[39m err)
+     [90m     |[39m               [31m[1m^[22m[39m
+     [90m 109 |[39m       [36mawait[39m db[33m.[39mconnectedProvider[33m.[39mupdate({
+     [90m 110 |[39m         where[33m:[39m { id[33m:[39m provider[33m.[39mid }[33m,[39m
+     [90m 111 |[39m         data[33m:[39m { lastSyncError[33m:[39m message }[33m,[39m[0m
+
+      at syncTeamProviders (lib/sync.ts:108:15)
+      at Object.<anonymous> (__tests__/lib/sync.test.ts:60:5)
+
+    console.error
+      Sync error for provider anthropic: Error: Decryption failed
+          at /work/__tests__/lib/sync.test.ts:112:13
+          at /work/node_modules/jest-mock/build/index.js:305:39
+          at /work/node_modules/jest-mock/build/index.js:312:13
+          at mockConstructor (/work/node_modules/jest-mock/build/index.js:102:19)
+          at syncTeamProviders (/work/lib/sync.ts:31:29)
+          at processTicksAndRejections (node:internal/process/task_queues:103:5)
+          at Object.<anonymous> (/work/__tests__/lib/sync.test.ts:115:5)
+
+    [0m [90m 106 |[39m     } [36mcatch[39m (err) {
+     [90m 107 |[39m       [36mconst[39m message [33m=[39m err [36minstanceof[39m [33mError[39m [33m?[39m err[33m.[39mmessage [33m:[39m [32m'Unknown sync error'[39m
+    [31m[1m>[22m[39m[90m 108 |[39m       console[33m.[39merror([32m`Sync error for provider ${provider.name}:`[39m[33m,[39m err)
+     [90m     |[39m               [31m[1m^[22m[39m
+     [90m 109 |[39m       [36mawait[39m db[33m.[39mconnectedProvider[33m.[39mupdate({
+     [90m 110 |[39m         where[33m:[39m { id[33m:[39m provider[33m.[39mid }[33m,[39m
+     [90m 111 |[39m         data[33m:[39m { lastSyncError[33m:[39m message }[33m,[39m[0m
+
+      at syncTeamProviders (lib/sync.ts:108:15)
+      at Object.<anonymous> (__tests__/lib/sync.test.ts:115:5)
+
+PASS __tests__/lib/encryption.test.ts
+PASS __tests__/lib/anthropic-usage.test.ts
+FAIL __tests__/lib/usage-summary.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '.prisma/client/default' from 'node_modules/@prisma/client/default.js'
+
+    Require stack:
+      node_modules/@prisma/client/default.js
+      lib/db.ts
+      lib/usage-summary.ts
+      __tests__/lib/usage-summary.test.ts
+
+    [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPrismaClient[39m } [36mfrom[39m [32m'@prisma/client'[39m
+     [90m   |[39m [31m[1m^[22m[39m
+     [90m 2 |[39m [36mimport[39m { [33mPrismaPg[39m } [36mfrom[39m [32m'@prisma/adapter-pg'[39m
+     [90m 3 |[39m [36mimport[39m { [33mPool[39m } [36mfrom[39m [32m'pg'[39m
+     [90m 4 |[39m[0m
+
+      at Resolver._throwModNotFoundError (node_modules/jest-resolve/build/index.js:895:11)
+      at Object.<anonymous> (node_modules/@prisma/client/default.js:2:6)
+      at Object.<anonymous> (lib/db.ts:1:1)
+      at Object.<anonymous> (lib/usage-summary.ts:1:1)
+      at Object.<anonymous> (__tests__/lib/usage-summary.test.ts:1:1)
+
+PASS __tests__/lib/sync-status.test.ts
+
+Test Suites: 1 failed, 6 passed, 7 total
+Tests:       27 passed, 27 total
+Snapshots:   0 total
+Time:        2.719 s
+Ran all test suites.

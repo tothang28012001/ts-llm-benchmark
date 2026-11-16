@@ -22,7 +22,7 @@ import subprocess
 import time
 from pathlib import Path
 
-from bench.authorship import ai_commit_share
+from bench.authorship import agent_profile, ai_commit_share
 
 ROOT = Path(__file__).resolve().parents[1]
 CAND = ROOT / "dataset" / "candidates.csv"
@@ -81,11 +81,14 @@ def assess(row: dict, repo: dict | None) -> dict:
     except (json.JSONDecodeError, TypeError):
         pkg = None
     share, agents = ai_commit_share(hist["nodes"])
+    per_agent, per_model = agent_profile(hist["nodes"])
     out.update({
         "stars": repo["stargazerCount"], "created_at": repo["createdAt"][:10],
         "ts_bytes": ts_bytes, "ts_share": round(ts_bytes / total, 3),
         "commits": hist["totalCount"], "ai_commit_share_last100": round(share, 3),
         "ai_agents": ";".join(sorted(agents)),
+        "main_agent": per_agent.most_common(1)[0][0] if per_agent else "",
+        "ai_models": ";".join(f"{m}={n}" for m, n in per_model.most_common(3)),
         "has_tsconfig": bool(repo.get("tsconfig")), "test_runner": test_runner(pkg) if pkg else "",
         "pin_commit": pin_nodes[0]["oid"] if pin_nodes else "",
         "pin_date": pin_nodes[0]["committedDate"][:10] if pin_nodes else "",
@@ -120,7 +123,13 @@ def assess(row: dict, repo: dict | None) -> dict:
 
 
 def main() -> None:
-    rows = list(csv.DictReader(CAND.open(encoding="utf-8")))
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--input", default=str(CAND), help="candidates CSV (default dataset/candidates.csv)")
+    ap.add_argument("--output", default=str(OUT), help="screened CSV (default dataset/screened.csv)")
+    args = ap.parse_args()
+    out_path = Path(args.output)
+    rows = list(csv.DictReader(Path(args.input).open(encoding="utf-8")))
     results = []
     for start in range(0, len(rows), 15):
         chunk = rows[start:start + 15]
@@ -135,11 +144,11 @@ def main() -> None:
         ok = sum(x["eligible"] for x in results)
         print(f"screened {len(results):4d}/{len(rows)}  eligible so far: {ok}")
     fields = list(dict.fromkeys(k for r in results for k in r))
-    with OUT.open("w", newline="", encoding="utf-8") as fh:
+    with out_path.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
         w.writerows(results)
-    print("wrote", OUT.relative_to(ROOT))
+    print("wrote", out_path)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,2577 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T09:35:34.199Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "src/app/profesional/consulta/[turnoId]/page.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/consulta/[token]/page.tsx": {
+            "lines": 15,
+            "tokens": 136,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/gps-panel.tsx": {
+            "lines": 13,
+            "tokens": 104,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/gps-map-inner.tsx": {
+            "lines": 13,
+            "tokens": 99,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/consulta-panel.tsx": {
+            "lines": 129,
+            "tokens": 1032,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/agenda-panel.tsx": {
+            "lines": 70,
+            "tokens": 658,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/paciente/gps-seal.tsx": {
+            "lines": 8,
+            "tokens": 50,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/paciente/consulta-panel.tsx": {
+            "lines": 91,
+            "tokens": 704,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/livekit/video-call-shell.tsx": {
+            "lines": 100,
+            "tokens": 618,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/livekit/profesional-video-room.tsx": {
+            "lines": 4,
+            "tokens": 30,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/livekit/paciente-video-room.tsx": {
+            "lines": 5,
+            "tokens": 36,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/empresa/turnos-panel.tsx": {
+            "lines": 138,
+            "tokens": 1254,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/empresa/nuevo-turno-form.tsx": {
+            "lines": 140,
+            "tokens": 1284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/auth/login-form.tsx": {
+            "lines": 61,
+            "tokens": 363,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/administrativo/turnos-monitor-panel.tsx": {
+            "lines": 109,
+            "tokens": 1055,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/administrativo/agendas-panel.tsx": {
+            "lines": 185,
+            "tokens": 1410,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/administrativo/administrativo-nav.tsx": {
+            "lines": 7,
+            "tokens": 31,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/usuarios-panel.tsx": {
+            "lines": 115,
+            "tokens": 1157,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/franjas-panel.tsx": {
+            "lines": 61,
+            "tokens": 556,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/empresas-panel.tsx": {
+            "lines": 99,
+            "tokens": 903,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/auditoria-panel.tsx": {
+            "lines": 62,
+            "tokens": 646,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/admin-nav.tsx": {
+            "lines": 7,
+            "tokens": 31,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/login/page.tsx": {
+            "lines": 1,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/layout.tsx": {
+            "lines": 1,
+            "tokens": 21,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/admin/page.tsx": {
+            "lines": 83,
+            "tokens": 641,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1518,
+          "tokens": 12837,
+          "sources": 25,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/app/profesional/consulta/[turnoId]/page.tsx": {
+            "lines": 12,
+            "tokens": 98,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/consulta/[token]/page.tsx": {
+            "lines": 48,
+            "tokens": 418,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/providers/auth-provider.tsx": {
+            "lines": 8,
+            "tokens": 60,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/gps-panel.tsx": {
+            "lines": 48,
+            "tokens": 386,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/gps-map-inner.tsx": {
+            "lines": 45,
+            "tokens": 330,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/consulta-panel.tsx": {
+            "lines": 350,
+            "tokens": 2931,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/profesional/agenda-panel.tsx": {
+            "lines": 164,
+            "tokens": 1544,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 129,
+            "percentage": 8.54,
+            "percentageTokens": 8.35,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/paciente/gps-seal.tsx": {
+            "lines": 44,
+            "tokens": 309,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/paciente/consulta-panel.tsx": {
+            "lines": 237,
+            "tokens": 1874,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/paciente/consulta-error.tsx": {
+            "lines": 52,
+            "tokens": 327,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/livekit/video-call-shell.tsx": {
+            "lines": 204,
+            "tokens": 1375,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/livekit/profesional-video-room.tsx": {
+            "lines": 66,
+            "tokens": 523,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 143,
+            "percentage": 21.21,
+            "percentageTokens": 27.34,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/livekit/paciente-video-room.tsx": {
+            "lines": 60,
+            "tokens": 458,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 143,
+            "percentage": 23.33,
+            "percentageTokens": 31.22,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/empresa/turnos-panel.tsx": {
+            "lines": 270,
+            "tokens": 2395,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 83,
+            "duplicatedTokens": 698,
+            "percentage": 30.74,
+            "percentageTokens": 29.14,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/empresa/nuevo-turno-form.tsx": {
+            "lines": 285,
+            "tokens": 2493,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/auth/login-form.tsx": {
+            "lines": 131,
+            "tokens": 924,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/administrativo/turnos-monitor-panel.tsx": {
+            "lines": 219,
+            "tokens": 2032,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 69,
+            "duplicatedTokens": 569,
+            "percentage": 31.51,
+            "percentageTokens": 28,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/administrativo/agendas-panel.tsx": {
+            "lines": 410,
+            "tokens": 3338,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/administrativo/administrativo-nav.tsx": {
+            "lines": 40,
+            "tokens": 258,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/usuarios-panel.tsx": {
+            "lines": 255,
+            "tokens": 2454,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 40,
+            "duplicatedTokens": 417,
+            "percentage": 15.69,
+            "percentageTokens": 16.99,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/franjas-panel.tsx": {
+            "lines": 165,
+            "tokens": 1456,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 117,
+            "percentage": 4.24,
+            "percentageTokens": 8.04,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/empresas-panel.tsx": {
+            "lines": 210,
+            "tokens": 1887,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 33,
+            "duplicatedTokens": 300,
+            "percentage": 15.71,
+            "percentageTokens": 15.9,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/auditoria-panel.tsx": {
+            "lines": 118,
+            "tokens": 1252,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/admin/admin-nav.tsx": {
+            "lines": 41,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/profesional/page.tsx": {
+            "lines": 6,
+            "tokens": 36,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/profesional/layout.tsx": {
+            "lines": 31,
+            "tokens": 236,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/login/page.tsx": {
+            "lines": 13,
+            "tokens": 99,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/page.tsx": {
+            "lines": 25,
+            "tokens": 177,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/layout.tsx": {
+            "lines": 46,
+            "tokens": 324,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/empresa/turnos/nuevo/page.tsx": {
+            "lines": 26,
+            "tokens": 207,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/empresa/page.tsx": {
+            "lines": 32,
+            "tokens": 248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/empresa/layout.tsx": {
+            "lines": 38,
+            "tokens": 253,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/administrativo/turnos/page.tsx": {
+            "lines": 18,
+            "tokens": 133,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/administrativo/page.tsx": {
+            "lines": 33,
+            "tokens": 243,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/administrativo/layout.tsx": {
+            "lines": 32,
+            "tokens": 254,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/administrativo/agendas/page.tsx": {
+            "lines": 18,
+            "tokens": 132,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/admin/usuarios/page.tsx": {
+            "lines": 19,
+            "tokens": 142,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/admin/page.tsx": {
+            "lines": 118,
+            "tokens": 935,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/admin/layout.tsx": {
+            "lines": 37,
+            "tokens": 315,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/admin/franjas/page.tsx": {
+            "lines": 6,
+            "tokens": 34,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/admin/empresas/page.tsx": {
+            "lines": 6,
+            "tokens": 36,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/admin/auditoria/page.tsx": {
+            "lines": 6,
+            "tokens": 36,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/403/page.tsx": {
+            "lines": 23,
+            "tokens": 169,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4015,
+          "tokens": 33406,
+          "sources": 43,
+          "clones": 9,
+          "duplicatedLines": 137,
+          "duplicatedTokens": 1258,
+          "percentage": 3.41,
+          "percentageTokens": 3.77,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "typescript": {
+        "sources": {
+          "src/app/api/profesional/turnos/[id]/route.ts": {
+            "lines": 145,
+            "tokens": 1392,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 41,
+            "duplicatedTokens": 433,
+            "percentage": 28.28,
+            "percentageTokens": 31.11,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/empresa/turnos/[id]/route.ts": {
+            "lines": 37,
+            "tokens": 346,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 25,
+            "duplicatedTokens": 241,
+            "percentage": 67.57,
+            "percentageTokens": 69.65,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/empresa/agendas/[id]/slots/route.ts": {
+            "lines": 35,
+            "tokens": 349,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 110,
+            "percentage": 28.57,
+            "percentageTokens": 31.52,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/administrativo/agendas/[id]/slots/route.ts": {
+            "lines": 20,
+            "tokens": 211,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/administrativo/agendas/[id]/route.ts": {
+            "lines": 31,
+            "tokens": 323,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/usuarios/[id]/route.ts": {
+            "lines": 77,
+            "tokens": 766,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 130,
+            "percentage": 12.99,
+            "percentageTokens": 16.97,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/franjas/[id]/route.ts": {
+            "lines": 28,
+            "tokens": 228,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/empresas/[id]/route.ts": {
+            "lines": 65,
+            "tokens": 629,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 130,
+            "percentage": 15.38,
+            "percentageTokens": 20.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/types.ts": {
+            "lines": 42,
+            "tokens": 345,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/index.ts": {
+            "lines": 10,
+            "tokens": 152,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/Usuario.ts": {
+            "lines": 36,
+            "tokens": 412,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/Turno.ts": {
+            "lines": 70,
+            "tokens": 680,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/RegistroGPS.ts": {
+            "lines": 44,
+            "tokens": 446,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/Paciente.ts": {
+            "lines": 33,
+            "tokens": 388,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/LogConsulta.ts": {
+            "lines": 30,
+            "tokens": 285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/FranjaHoraria.ts": {
+            "lines": 48,
+            "tokens": 420,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 128,
+            "percentage": 35.42,
+            "percentageTokens": 30.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/Empresa.ts": {
+            "lines": 28,
+            "tokens": 315,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/Agenda.ts": {
+            "lines": 59,
+            "tokens": 570,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 128,
+            "percentage": 28.81,
+            "percentageTokens": 22.46,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations/turnos.ts": {
+            "lines": 37,
+            "tokens": 367,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations/profesional.ts": {
+            "lines": 36,
+            "tokens": 344,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations/livekit.ts": {
+            "lines": 15,
+            "tokens": 133,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations/gps.ts": {
+            "lines": 12,
+            "tokens": 149,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations/agenda.ts": {
+            "lines": 42,
+            "tokens": 395,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations/administrativo.ts": {
+            "lines": 16,
+            "tokens": 164,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/validations/admin.ts": {
+            "lines": 95,
+            "tokens": 978,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/state.ts": {
+            "lines": 45,
+            "tokens": 386,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/service.ts": {
+            "lines": 178,
+            "tokens": 1448,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 118,
+            "percentage": 7.3,
+            "percentageTokens": 8.15,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/profesional-service.ts": {
+            "lines": 247,
+            "tokens": 2007,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 104,
+            "percentage": 3.24,
+            "percentageTokens": 5.18,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/patient-window.ts": {
+            "lines": 45,
+            "tokens": 358,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/patient-token.ts": {
+            "lines": 88,
+            "tokens": 717,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/patient-consulta.ts": {
+            "lines": 94,
+            "tokens": 778,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/franja.ts": {
+            "lines": 55,
+            "tokens": 508,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/evolucion.ts": {
+            "lines": 18,
+            "tokens": 136,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/turnos/errors.ts": {
+            "lines": 7,
+            "tokens": 44,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/security/safe-log.ts": {
+            "lines": 52,
+            "tokens": 432,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/security/retention.ts": {
+            "lines": 39,
+            "tokens": 363,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/security/rate-limit.ts": {
+            "lines": 64,
+            "tokens": 559,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/security/idor.ts": {
+            "lines": 19,
+            "tokens": 110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/security/headers.ts": {
+            "lines": 74,
+            "tokens": 591,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/realtime/types.ts": {
+            "lines": 35,
+            "tokens": 212,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/realtime/turno-events.ts": {
+            "lines": 39,
+            "tokens": 316,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/realtime/notify.ts": {
+            "lines": 31,
+            "tokens": 284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/mongoose/ref-id.ts": {
+            "lines": 23,
+            "tokens": 190,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/mail/turno-invite.ts": {
+            "lines": 82,
+            "tokens": 542,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/livekit/token-service.ts": {
+            "lines": 146,
+            "tokens": 1065,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/livekit/config.ts": {
+            "lines": 32,
+            "tokens": 255,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/livekit/access.ts": {
+            "lines": 45,
+            "tokens": 287,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/gps/service.ts": {
+            "lines": 118,
+            "tokens": 967,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/empresa/agenda-service.ts": {
+            "lines": 71,
+            "tokens": 582,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 108,
+            "percentage": 22.54,
+            "percentageTokens": 18.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/consulta/audit.ts": {
+            "lines": 18,
+            "tokens": 125,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/require-auth.ts": {
+            "lines": 70,
+            "tokens": 626,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/request.ts": {
+            "lines": 15,
+            "tokens": 141,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/password.ts": {
+            "lines": 15,
+            "tokens": 107,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/db.ts": {
+            "lines": 44,
+            "tokens": 290,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/authz.ts": {
+            "lines": 61,
+            "tokens": 518,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/agenda/slots.ts": {
+            "lines": 101,
+            "tokens": 886,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/agenda/slot-status.ts": {
+            "lines": 48,
+            "tokens": 401,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/agenda/resolve.ts": {
+            "lines": 82,
+            "tokens": 599,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/agenda/active.ts": {
+            "lines": 21,
+            "tokens": 192,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/agenda/access.ts": {
+            "lines": 19,
+            "tokens": 142,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/administrativo/turno-service.ts": {
+            "lines": 41,
+            "tokens": 334,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 21,
+            "duplicatedTokens": 222,
+            "percentage": 51.22,
+            "percentageTokens": 66.47,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/administrativo/agenda-service.ts": {
+            "lines": 126,
+            "tokens": 1083,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 108,
+            "percentage": 12.7,
+            "percentageTokens": 9.97,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/admin/require-admin.ts": {
+            "lines": 6,
+            "tokens": 38,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/admin/queries.ts": {
+            "lines": 208,
+            "tokens": 1943,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/admin/metrics.ts": {
+            "lines": 32,
+            "tokens": 273,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/use-turnos-sse.ts": {
+            "lines": 134,
+            "tokens": 1004,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/proxy.ts": {
+            "lines": 147,
+            "tokens": 1222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/auth.ts": {
+            "lines": 91,
+            "tokens": 820,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/profesional/turnos/route.ts": {
+            "lines": 56,
+            "tokens": 616,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/livekit/token/route.ts": {
+            "lines": 68,
+            "tokens": 627,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/gps/route.ts": {
+            "lines": 45,
+            "tokens": 467,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/events/turnos/route.ts": {
+            "lines": 67,
+            "tokens": 510,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/empresa/turnos/route.ts": {
+            "lines": 68,
+            "tokens": 723,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 111,
+            "percentage": 14.71,
+            "percentageTokens": 15.35,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/empresa/franjas/route.ts": {
+            "lines": 21,
+            "tokens": 181,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 103,
+            "percentage": 42.86,
+            "percentageTokens": 56.91,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/empresa/agendas/route.ts": {
+            "lines": 15,
+            "tokens": 161,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 103,
+            "percentage": 60,
+            "percentageTokens": 63.98,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/auth/me/route.ts": {
+            "lines": 15,
+            "tokens": 104,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/administrativo/turnos/route.ts": {
+            "lines": 31,
+            "tokens": 368,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 111,
+            "percentage": 32.26,
+            "percentageTokens": 30.16,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/administrativo/empresas/route.ts": {
+            "lines": 12,
+            "tokens": 116,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/administrativo/agendas/route.ts": {
+            "lines": 52,
+            "tokens": 554,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/usuarios/route.ts": {
+            "lines": 56,
+            "tokens": 560,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/metrics/route.ts": {
+            "lines": 27,
+            "tokens": 297,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/franjas/route.ts": {
+            "lines": 26,
+            "tokens": 181,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/empresas/route.ts": {
+            "lines": 48,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/admin/auditoria/route.ts": {
+            "lines": 33,
+            "tokens": 389,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4657,
+          "tokens": 40966,
+          "sources": 84,
+          "clones": 10,
+          "duplicatedLines": 121,
+          "duplicatedTokens": 1194,
+          "percentage": 2.6,
+          "percentageTokens": 2.91,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 10190,
+      "tokens": 87209,
+      "sources": 152,
+      "clones": 19,
+      "duplicatedLines": 258,
+      "duplicatedTokens": 2452,
+      "percentage": 2.53,
+      "percentageTokens": 2.81,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "(id, authResult.session.user.id);\n      if (!turno) {\n        return NextResponse.json({ error: \"Turno no encontrado\" }, { status: 404 });\n      }\n      return NextResponse.json({ turno });\n    } catch (error) {\n      if (error instanceof TurnoValidationError) {\n        return NextResponse.json({ error: error.message }, { status: 400 });\n      }\n      throw error;\n    }\n  }\n\n  if (body?.accion === \"evolucion\"",
+      "tokens": 151,
+      "firstFile": {
+        "name": "src/app/api/profesional/turnos/[id]/route.ts",
+        "start": 78,
+        "end": 91,
+        "startLoc": {
+          "line": 78,
+          "column": 37,
+          "position": 757
+        },
+        "endLoc": {
+          "line": 91,
+          "column": 35,
+          "position": 908
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/profesional/turnos/[id]/route.ts",
+        "start": 63,
+        "end": 76,
+        "startLoc": {
+          "line": 63,
+          "column": 36,
+          "position": 586
+        },
+        "endLoc": {
+          "line": 76,
+          "column": 33,
+          "position": 737
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ",\n    );\n\n    if (!turno) {\n      return NextResponse.json({ error: \"Turno no encontrado\" }, { status: 404 });\n    }\n\n    return NextResponse.json({ turno });\n  } catch (error) {\n    if (error instanceof TurnoValidationError) {\n      return NextResponse.json({ error: error.message }, { status: 400 });\n    }\n    throw error;\n  }\n}\n",
+      "tokens": 131,
+      "firstFile": {
+        "name": "src/app/api/empresa/turnos/[id]/route.ts",
+        "start": 22,
+        "end": 37,
+        "startLoc": {
+          "line": 22,
+          "column": 43,
+          "position": 215
+        },
+        "endLoc": {
+          "line": 37,
+          "column": 1,
+          "position": 346
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/profesional/turnos/[id]/route.ts",
+        "start": 130,
+        "end": 145,
+        "startLoc": {
+          "line": 130,
+          "column": 28,
+          "position": 1261
+        },
+        "endLoc": {
+          "line": 145,
+          "column": 1,
+          "position": 1392
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "(_request: Request, context: RouteContext) {\n  const authResult = await requireAuth([\"empresa\"]);\n  if (authResult.error) return authResult.error;\n\n  const tenantResult = await requireEmpresaTenant(authResult.session);\n  if (tenantResult.error) return tenantResult.error;\n\n  const { id } = await context.params;\n\n  try {\n    const result",
+      "tokens": 110,
+      "firstFile": {
+        "name": "src/app/api/empresa/agendas/[id]/slots/route.ts",
+        "start": 8,
+        "end": 18,
+        "startLoc": {
+          "line": 8,
+          "column": 26,
+          "position": 90
+        },
+        "endLoc": {
+          "line": 18,
+          "column": 17,
+          "position": 200
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/empresa/turnos/[id]/route.ts",
+        "start": 10,
+        "end": 20,
+        "startLoc": {
+          "line": 10,
+          "column": 28,
+          "position": 83
+        },
+        "endLoc": {
+          "line": 20,
+          "column": 16,
+          "position": 193
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": " } from \"@/lib/validations/admin\";\n\ntype RouteContext = { params: Promise<{ id: string }> };\n\nexport async function PATCH(request: Request, context: RouteContext) {\n  const { error } = await requireAdmin();\n  if (error) return error;\n\n  const { id } = await context.params;\n  const body = await request.json();\n  const parsed = empresaInputSchema",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/app/api/admin/empresas/[id]/route.ts",
+        "start": 5,
+        "end": 15,
+        "startLoc": {
+          "line": 5,
+          "column": 28,
+          "position": 53
+        },
+        "endLoc": {
+          "line": 15,
+          "column": 36,
+          "position": 183
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/admin/usuarios/[id]/route.ts",
+        "start": 6,
+        "end": 16,
+        "startLoc": {
+          "line": 6,
+          "column": 28,
+          "position": 66
+        },
+        "endLoc": {
+          "line": 16,
+          "column": 36,
+          "position": 196
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": "},\n    horaInicio: {\n      type: String,\n      required: true,\n      validate: {\n        validator: (v: string) => HH_MM_PATTERN.test(v),\n        message: \"horaInicio debe tener formato HH:mm\",\n      },\n    },\n    horaFin: {\n      type: String,\n      required: true,\n      validate: {\n        validator: (v: string) => HH_MM_PATTERN.test(v),\n        message: \"horaFin debe tener formato HH:mm\",\n      },\n    },\n    duracionTurnoMinutos",
+      "tokens": 128,
+      "firstFile": {
+        "name": "src/models/Agenda.ts",
+        "start": 8,
+        "end": 25,
+        "startLoc": {
+          "line": 8,
+          "column": 41,
+          "position": 114
+        },
+        "endLoc": {
+          "line": 25,
+          "column": 25,
+          "position": 242
+        }
+      },
+      "secondFile": {
+        "name": "src/models/FranjaHoraria.ts",
+        "start": 12,
+        "end": 29,
+        "startLoc": {
+          "line": 12,
+          "column": 5,
+          "position": 102
+        },
+        "endLoc": {
+          "line": 29,
+          "column": 11,
+          "position": 230
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "\n\n  if (filters.estado) {\n    query.estado = filters.estado;\n  }\n\n  if (filters.desde || filters.hasta) {\n    query.fechaHoraProgramada = {\n      ...(filters.desde ? { $gte: filters.desde } : {}),\n      ...(filters.hasta ? { $lte: filters.hasta } : {}),\n    };\n  }\n\n  return",
+      "tokens": 118,
+      "firstFile": {
+        "name": "src/lib/administrativo/turno-service.ts",
+        "start": 20,
+        "end": 33,
+        "startLoc": {
+          "line": 20,
+          "column": 4,
+          "position": 144
+        },
+        "endLoc": {
+          "line": 33,
+          "column": 9,
+          "position": 262
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/turnos/service.ts",
+        "start": 131,
+        "end": 144,
+        "startLoc": {
+          "line": 131,
+          "column": 83,
+          "position": 1056
+        },
+        "endLoc": {
+          "line": 144,
+          "column": 8,
+          "position": 1174
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "if (filters.desde || filters.hasta) {\n    query.fechaHoraProgramada = {\n      ...(filters.desde ? { $gte: filters.desde } : {}),\n      ...(filters.hasta ? { $lte: filters.hasta } : {}),\n    };\n  }\n\n  return Turno.find(query)\n    .populate(\"pacienteId\", \"nombre apellido email telefono\"",
+      "tokens": 104,
+      "firstFile": {
+        "name": "src/lib/administrativo/turno-service.ts",
+        "start": 26,
+        "end": 34,
+        "startLoc": {
+          "line": 26,
+          "column": 3,
+          "position": 174
+        },
+        "endLoc": {
+          "line": 34,
+          "column": 61,
+          "position": 278
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/turnos/profesional-service.ts",
+        "start": 69,
+        "end": 77,
+        "startLoc": {
+          "line": 69,
+          "column": 10,
+          "position": 655
+        },
+        "endLoc": {
+          "line": 77,
+          "column": 83,
+          "position": 759
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": ",\n    fechaHoraProgramada: { $gte: desde, $lte: hasta },\n    estado: { $nin: [\"cancelado\"] },\n  })\n    .select(\"fechaHoraProgramada estado\")\n    .lean();\n\n  const slots = mapAgendaSlotStatuses(\n    agenda.horaInicio,\n    agenda.horaFin,\n    agenda.duracionTurnoMinutos,\n    turnos,\n  );\n\n  return { agenda, slots };\n}\n",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/lib/administrativo/agenda-service.ts",
+        "start": 110,
+        "end": 126,
+        "startLoc": {
+          "line": 110,
+          "column": 17,
+          "position": 975
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 1,
+          "position": 1083
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/empresa/agenda-service.ts",
+        "start": 55,
+        "end": 71,
+        "startLoc": {
+          "line": 55,
+          "column": 13,
+          "position": 474
+        },
+        "endLoc": {
+          "line": 71,
+          "column": 1,
+          "position": 582
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": " }),\n    });\n\n    if (!res.ok) {\n      const data = await res.json().catch(() => ({}));\n      throw new Error(data.error ?? \"No pudimos ingresar a la videollamada\");\n    }\n\n    const data = await res.json();\n    return {\n      token: data.token as string,\n      serverUrl: data.serverUrl as string,\n      roomName: data.roomName as string,\n    };\n  }, [patientToken",
+      "tokens": 143,
+      "firstFile": {
+        "name": "src/components/livekit/paciente-video-room.tsx",
+        "start": 22,
+        "end": 36,
+        "startLoc": {
+          "line": 22,
+          "column": 60,
+          "position": 163
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 19,
+          "position": 306
+        }
+      },
+      "secondFile": {
+        "name": "src/components/livekit/profesional-video-room.tsx",
+        "start": 22,
+        "end": 36,
+        "startLoc": {
+          "line": 22,
+          "column": 58,
+          "position": 162
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 14,
+          "position": 305
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": "</span>\n          <select\n            value={estado}\n            onChange={(e) => setEstado(e.target.value)}\n            className=\"h-10 rounded-lg border border-paper-100 bg-white px-3\"\n          >\n            <option value=\"\">Todos</option>\n            {(Object.keys(estadoLabels) as TurnoEstado[]).map((key) => (\n              <option key={key} value={key}>\n                {estadoLabels[key]}\n              </option>\n            ))}\n          </select>\n        </label>\n        <p",
+      "tokens": 129,
+      "firstFile": {
+        "name": "src/components/empresa/turnos-panel.tsx",
+        "start": 112,
+        "end": 126,
+        "startLoc": {
+          "line": 112,
+          "column": 77,
+          "position": 1052
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 11,
+          "position": 1181
+        }
+      },
+      "secondFile": {
+        "name": "src/components/profesional/agenda-panel.tsx",
+        "start": 78,
+        "end": 92,
+        "startLoc": {
+          "line": 78,
+          "column": 65,
+          "position": 817
+        },
+        "endLoc": {
+          "line": 92,
+          "column": 15,
+          "position": 946
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 22,
+      "fragment": ";\n};\n\nconst estadoLabels: Record<TurnoEstado, string> = {\n  pendiente: \"Pendiente\",\n  confirmado: \"Confirmado\",\n  en_curso: \"En curso\",\n  finalizado: \"Finalizado\",\n  ausente: \"Ausente\",\n  cancelado: \"Cancelado\",\n};\n\nconst estadoStyles: Record<TurnoEstado, string> = {\n  pendiente: \"bg-mist-400/10 text-mist-400\",\n  confirmado: \"bg-clinical-700/10 text-clinical-700\",\n  en_curso: \"bg-signal-verified/10 text-signal-verified\",\n  finalizado: \"bg-clinical-900/10 text-clinical-900\",\n  ausente: \"bg-signal-alert/10 text-signal-alert\",\n  cancelado: \"bg-mist-400/10 text-mist-400 line-through\",\n};\n\nfunction agendaLabel(agenda?: AgendaOption",
+      "tokens": 140,
+      "firstFile": {
+        "name": "src/components/administrativo/turnos-monitor-panel.tsx",
+        "start": 21,
+        "end": 42,
+        "startLoc": {
+          "line": 21,
+          "column": 26,
+          "position": 189
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 43,
+          "position": 329
+        }
+      },
+      "secondFile": {
+        "name": "src/components/empresa/turnos-panel.tsx",
+        "start": 21,
+        "end": 42,
+        "startLoc": {
+          "line": 21,
+          "column": 23,
+          "position": 188
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 40,
+          "position": 328
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 20,
+      "fragment": ">\n      </div>\n\n      {turnos.length === 0 ? (\n        <p className=\"rounded-xl bg-white p-6 text-sm text-mist-400 ring-1 ring-paper-100\">\n          No hay turnos con los filtros seleccionados.\n        </p>\n      ) : (\n        <>\n          <div className=\"space-y-3 md:hidden\">\n            {turnos.map((turno) => {\n              const fecha = new Date(turno.fechaHoraProgramada).toLocaleString(\n                \"es-AR\",\n                { dateStyle: \"short\", timeStyle: \"short\" },\n              );\n              const paciente = turno.pacienteId\n                ? `${turno.pacienteId.nombre} ${turno.pacienteId.apellido}`\n                : \"—\";\n\n",
+      "tokens": 172,
+      "firstFile": {
+        "name": "src/components/administrativo/turnos-monitor-panel.tsx",
+        "start": 122,
+        "end": 141,
+        "startLoc": {
+          "line": 122,
+          "column": 16,
+          "position": 1166
+        },
+        "endLoc": {
+          "line": 141,
+          "column": 1,
+          "position": 1338
+        }
+      },
+      "secondFile": {
+        "name": "src/components/empresa/turnos-panel.tsx",
+        "start": 128,
+        "end": 146,
+        "startLoc": {
+          "line": 128,
+          "column": 12,
+          "position": 1206
+        },
+        "endLoc": {
+          "line": 146,
+          "column": 15,
+          "position": 1378
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 14,
+      "fragment": "\n                  </div>\n                </article>\n              );\n            })}\n          </div>\n\n          <div className=\"hidden overflow-x-auto rounded-xl bg-white ring-1 ring-paper-100 md:block\">\n            <table className=\"w-full min-w-[760px] text-left text-sm\">\n              <thead className=\"border-b border-paper-100 text-mist-400\">\n                <tr>\n                  <th className=\"px-4 py-3 font-medium\">Fecha</th>\n                  <th className=\"px-4 py-3 font-medium\">Paciente</th>\n                  <th className=\"px-4 py-3 font-medium\">Empresa",
+      "tokens": 104,
+      "firstFile": {
+        "name": "src/components/administrativo/turnos-monitor-panel.tsx",
+        "start": 158,
+        "end": 171,
+        "startLoc": {
+          "line": 158,
+          "column": 28,
+          "position": 1496
+        },
+        "endLoc": {
+          "line": 171,
+          "column": 64,
+          "position": 1600
+        }
+      },
+      "secondFile": {
+        "name": "src/components/empresa/turnos-panel.tsx",
+        "start": 186,
+        "end": 199,
+        "startLoc": {
+          "line": 186,
+          "column": 23,
+          "position": 1695
+        },
+        "endLoc": {
+          "line": 199,
+          "column": 63,
+          "position": 1799
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 17,
+      "fragment": "</th>\n                </tr>\n              </thead>\n              <tbody>\n                {turnos.map((turno) => {\n                  const fecha = new Date(turno.fechaHoraProgramada).toLocaleString(\n                    \"es-AR\",\n                    { dateStyle: \"short\", timeStyle: \"short\" },\n                  );\n                  const paciente = turno.pacienteId\n                    ? `${turno.pacienteId.nombre} ${turno.pacienteId.apellido}`\n                    : \"—\";\n                  const profesional = turno.profesionalId\n                    ? `${turno.profesionalId.nombre} ${turno.profesionalId.apellido}`\n                    : \"Sin asignar\";\n\n",
+      "tokens": 153,
+      "firstFile": {
+        "name": "src/components/administrativo/turnos-monitor-panel.tsx",
+        "start": 174,
+        "end": 190,
+        "startLoc": {
+          "line": 174,
+          "column": 63,
+          "position": 1646
+        },
+        "endLoc": {
+          "line": 190,
+          "column": 1,
+          "position": 1799
+        }
+      },
+      "secondFile": {
+        "name": "src/components/empresa/turnos-panel.tsx",
+        "start": 202,
+        "end": 217,
+        "startLoc": {
+          "line": 202,
+          "column": 65,
+          "position": 1845
+        },
+        "endLoc": {
+          "line": 217,
+          "column": 19,
+          "position": 1998
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 8,
+      "fragment": "[]>([]);\n  const [form, setForm] = useState(emptyForm);\n  const [editingId, setEditingId] = useState<string | null>(null);\n  const [error, setError] = useState<string | null>(null);\n  const [loading, setLoading] = useState(true);\n\n  const load = useCallback(async () => {\n    const res",
+      "tokens": 117,
+      "firstFile": {
+        "name": "src/components/admin/franjas-panel.tsx",
+        "start": 21,
+        "end": 28,
+        "startLoc": {
+          "line": 21,
+          "column": 48,
+          "position": 147
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 14,
+          "position": 264
+        }
+      },
+      "secondFile": {
+        "name": "src/components/admin/usuarios-panel.tsx",
+        "start": 36,
+        "end": 43,
+        "startLoc": {
+          "line": 36,
+          "column": 57,
+          "position": 303
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 12,
+          "position": 420
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 8,
+      "fragment": "[]>([]);\n  const [form, setForm] = useState(emptyForm);\n  const [editingId, setEditingId] = useState<string | null>(null);\n  const [error, setError] = useState<string | null>(null);\n  const [loading, setLoading] = useState(true);\n\n  const load = useCallback(async () => {\n    const res = await fetch(\"/api/admin/empresas\"",
+      "tokens": 125,
+      "firstFile": {
+        "name": "src/components/admin/empresas-panel.tsx",
+        "start": 22,
+        "end": 29,
+        "startLoc": {
+          "line": 22,
+          "column": 51,
+          "position": 167
+        },
+        "endLoc": {
+          "line": 29,
+          "column": 50,
+          "position": 292
+        }
+      },
+      "secondFile": {
+        "name": "src/components/admin/usuarios-panel.tsx",
+        "start": 36,
+        "end": 28,
+        "startLoc": {
+          "line": 36,
+          "column": 57,
+          "position": 303
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 49,
+          "position": 272
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 27,
+      "fragment": "({\n  label,\n  value,\n  onChange,\n  required,\n  type = \"text\",\n}: {\n  label: string;\n  value: string;\n  onChange: (value: string) => void;\n  required?: boolean;\n  type?: string;\n}) {\n  return (\n    <label className=\"block space-y-1 text-sm\">\n      <span className=\"font-medium text-clinical-900\">{label}</span>\n      <input\n        type={type}\n        required={required}\n        value={value}\n        onChange={(e) => onChange(e.target.value)}\n        className=\"h-10 w-full rounded-lg border border-paper-100 bg-paper-50 px-3 outline-none focus-visible:ring-2 focus-visible:ring-clinical-700\"\n      />\n    </label>\n  );\n}\n",
+      "tokens": 175,
+      "firstFile": {
+        "name": "src/components/admin/empresas-panel.tsx",
+        "start": 184,
+        "end": 210,
+        "startLoc": {
+          "line": 184,
+          "column": 15,
+          "position": 1712
+        },
+        "endLoc": {
+          "line": 210,
+          "column": 1,
+          "position": 1887
+        }
+      },
+      "secondFile": {
+        "name": "src/components/admin/usuarios-panel.tsx",
+        "start": 229,
+        "end": 255,
+        "startLoc": {
+          "line": 229,
+          "column": 15,
+          "position": 2279
+        },
+        "endLoc": {
+          "line": 255,
+          "column": 1,
+          "position": 2454
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\nexport async function GET() {\n  const authResult = await requireAuth([\"empresa\"]);\n  if (authResult.error) return authResult.error;\n\n  const tenantResult = await requireEmpresaTenant(authResult.session);\n  if (tenantResult.error) return tenantResult.error;\n\n  const agendas = await listAgendasForEmpresa(tenantResult.session.user.empresaId!);\n  ",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/app/api/empresa/agendas/route.ts",
+        "start": 4,
+        "end": 13,
+        "startLoc": {
+          "line": 4,
+          "column": 1,
+          "position": 42
+        },
+        "endLoc": {
+          "line": 13,
+          "column": 3,
+          "position": 145
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/empresa/franjas/route.ts",
+        "start": 5,
+        "end": 15,
+        "startLoc": {
+          "line": 5,
+          "column": 49,
+          "position": 44
+        },
+        "endLoc": {
+          "line": 15,
+          "column": 1,
+          "position": 147
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "\n    estado: searchParams.get(\"estado\") ?? undefined,\n    desde: searchParams.get(\"desde\") ?? undefined,\n    hasta: searchParams.get(\"hasta\") ?? undefined,\n  });\n\n  if (!parsed.success) {\n    return NextResponse.json({ error: \"Filtros inválidos\" }, { status: 400 });\n  }\n\n  const turnos = await listAdministrativoTurnos",
+      "tokens": 111,
+      "firstFile": {
+        "name": "src/app/api/administrativo/turnos/route.ts",
+        "start": 12,
+        "end": 22,
+        "startLoc": {
+          "line": 12,
+          "column": 57,
+          "position": 153
+        },
+        "endLoc": {
+          "line": 22,
+          "column": 48,
+          "position": 264
+        }
+      },
+      "secondFile": {
+        "name": "src/app/api/empresa/turnos/route.ts",
+        "start": 18,
+        "end": 28,
+        "startLoc": {
+          "line": 18,
+          "column": 51,
+          "position": 186
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 44,
+          "position": 297
+        }
+      }
+    }
+  ]
+}

@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import re
 import subprocess
+from collections import Counter
 from pathlib import Path
 
 AGENT_PATTERNS: dict[str, re.Pattern[str]] = {
@@ -28,6 +29,41 @@ AGENT_PATTERNS: dict[str, re.Pattern[str]] = {
 BOT_LOGINS = {"claude": "claude-code", "copilot": "copilot", "copilot-swe-agent": "copilot",
               "devin-ai-integration[bot]": "devin", "google-labs-jules[bot]": "jules",
               "cursor-agent": "cursor", "chatgpt-codex-connector[bot]": "codex"}
+
+
+# Some trailers also name the model: aider writes "Co-authored-by: aider (deepseek/deepseek-chat) <...>",
+# Claude Code "Co-Authored-By: Claude Opus 4.5 <...>".  A trailer name is kept as a model only when it
+# carries a version number, so a bare "Claude" or "Copilot" is not mistaken for one.
+AIDER_MODEL = re.compile(r"co-authored-by:\s*aider\s*\(([^)\n]+)\)", re.I)
+TRAILER_NAME = re.compile(r"co-authored-by:\s*([^<\n]+?)\s*<", re.I)
+
+
+def model_of(message: str, agent: str | None) -> str | None:
+    if not agent:
+        return None
+    m = AIDER_MODEL.search(message)
+    if m:
+        return m.group(1).strip().lower()
+    for name in TRAILER_NAME.findall(message):
+        if re.search(r"\d", name) and AGENT_PATTERNS[agent].search(f"co-authored-by: {name}"):
+            return name.strip().lower()
+    return None
+
+
+def agent_profile(nodes: list[dict]) -> tuple[Counter, Counter]:
+    """Commits per agent and per named model, over GraphQL commit nodes."""
+    agents: Counter = Counter()
+    models: Counter = Counter()
+    for n in nodes:
+        a = n.get("author") or {}
+        agent = classify(n.get("message", ""), a.get("name") or "", a.get("email") or "",
+                         ((a.get("user") or {}).get("login")) or "")
+        if agent:
+            agents[agent] += 1
+            model = model_of(n.get("message", ""), agent)
+            if model:
+                models[model] += 1
+    return agents, models
 
 
 def classify(message: str, author_name: str = "", author_email: str = "", login: str = "") -> str | None:

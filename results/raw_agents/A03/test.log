@@ -1,0 +1,1072 @@
+$ vitest run
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.0 [39m[90m/work[39m
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with no body returns 400
+[22m[39m🌐 HTTP server on 127.0.0.1:34293
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mrejects unauthorized chat ID
+[22m[39m🚫 [999] hello
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mresponds with chat ID in setup mode (empty allowlist)
+[22m[39m🚫 [999] hello
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mqueues and forwards text to ACP
+[22m[39m👤 hello agent
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mqueues and forwards text to ACP
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mstreams agent_message_chunk and edits single message
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mstreams agent_message_chunk and edits single message
+[22m[39m🤖 Hello
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mhandles agent_message (full message)
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mhandles agent_message (full message)
+[22m[39m🤖 Full response
+
+[90mstderr[2m | test/acp-client.test.ts[2m > [22m[2mAcpClient[2m > [22m[2mrestart() falls back to a new session when resume fails
+[22m[39m⚠️ Could not resume session test-session-id: session not found. Starting a new session.
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msplits output >4096 chars into multiple messages
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msplits output >4096 chars into multiple messages
+[22m[39m🤖 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA…
+
+[90mstderr[2m | test/acp-client.test.ts[2m > [22m[2mAcpClient[2m > [22m[2minitial session mode failure is non-fatal (agent does not support modes)
+[22m[39m⚠️ Failed to set initial session mode "bypass": Invalid params: mode not found: bypass
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mfalls back to plain text on markdown parse error
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mfalls back to plain text on markdown parse error
+[22m[39m🤖 bad **markdown
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msends stop reason placeholder when no output
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msends stop reason placeholder when no output
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msends error message on prompt failure
+[22m[39m👤 hi
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with invalid JSON uses raw body as prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:37079
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msends error message when acp.prompt() rejects
+[22m[39m👤 hi
+
+ [32m✓[39m test/acp-client.test.ts [2m([22m[2m41 tests[22m[2m)[22m[32m 48[2mms[22m[39m
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mignores thoughts when showThoughts=false
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mignores thoughts when showThoughts=false
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mforwards thoughts when showThoughts=true
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mforwards thoughts when showThoughts=true
+[22m[39m🤖 thinking...
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mauto-approves permission when agentCmd includes dangerous
+[22m[39m⚡ auto-approved
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msends permission buttons when agentCmd has no dangerous
+[22m[39m🔐 permiso: {"options":[{"kind":"allow","optionId":"opt_allow"},{"kind":
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mforwards to agent when onCommand returns false
+[22m[39m👤 /some-slash-command
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mforwards to agent when onCommand returns false
+[22m[39m🤖 
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with empty text returns 400
+[22m[39m🌐 HTTP server on 127.0.0.1:45623
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2menqueuePrompt adds to queue and processes
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2menqueuePrompt with onComplete calls it with response after processing
+[22m[39m🤖 Hello back
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/stop when busy cancels the agent
+[22m[39m👤 long task
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/stop when busy cancels the agent
+[22m[39m⏹ stop requested
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with whitespace-only text returns 400
+[22m[39m🌐 HTTP server on 127.0.0.1:46003
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with text but no chatId enqueues with undefined
+[22m[39m🌐 HTTP server on 127.0.0.1:34833
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/stop clears the queue
+[22m[39m👤 first
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/stop clears the queue
+[22m[39m👤 second
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/stop clears the queue
+[22m[39m👤 third
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/stop clears the queue
+[22m[39m⏹ stop requested
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/stop on cancel error sends error message
+[22m[39m👤 task
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/new when idle creates new session
+[22m[39m🆕 new session: new-session-id
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/new when busy refuses with message
+[22m[39m👤 long task
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/session <id> switches session
+[22m[39m🔄 switched to session: abc-123
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/session when busy refuses with message
+[22m[39m👤 long task
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mGET /unknown route returns 404
+[22m[39m🌐 HTTP server on 127.0.0.1:40101
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/mode <id> switches mode
+[22m[39m🔧 mode set to: bypass
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /unknown route returns 404
+[22m[39m🌐 HTTP server on 127.0.0.1:33071
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/config <id> <value> sets the option
+[22m[39m⚙️ config model set to: model-b
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/model <value> is an alias for /config model <value>
+[22m[39m⚙️ config model set to: model-b
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mdouble stop() is idempotent and does not throw
+[22m[39m🌐 HTTP server on 127.0.0.1:38275
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/config <boolean> true sets a boolean option
+[22m[39m⚙️ config verbose set to: true
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mhealth check with no agent session (default getHealth) returns 200 ok
+[22m[39m🌐 HTTP server on 127.0.0.1:34883
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mconfig_option_update refreshes acp.configOptions
+[22m[39m👤 work
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mconfig_option_update refreshes acp.configOptions
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mavailable_commands_update refreshes acp.availableCommands
+[22m[39m👤 work
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mavailable_commands_update refreshes acp.availableCommands
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msends typing action while processing a prompt
+[22m[39m👤 work
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2msends typing action while processing a prompt
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mkeeps typing while busy (interval resend)
+[22m[39m👤 long task
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mhealth check with agent session returns session info
+[22m[39m🌐 HTTP server on 127.0.0.1:38637
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with large body (>10KB) is accepted
+[22m[39m🌐 HTTP server on 127.0.0.1:45135
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mreconnect button triggers acp.restart and confirms
+[22m[39m🔄 agent restarted, session: test-session-id
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mrenders tool_call update when showTools is true
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mrenders tool_call update when showTools is true
+[22m[39m🤖  🔧 _Read file — in_progress_ 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mhides tool_call update when showTools is false
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mhides tool_call update when showTools is false
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mrenders tool_call_update with updated status
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mrenders tool_call_update with updated status
+[22m[39m🤖  🔧 _Run tests — pending_  🔧 _Run tests — completed_ 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mrenders plan update when showPlan is true
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mrenders plan update when showPlan is true
+[22m[39m🤖  📋 _Plan:_ ✅ Read file ○ Write tests 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mhides plan update when showPlan is false
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mhides plan update when showPlan is false
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mupdates current mode on current_mode_update
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2mupdates current mode on current_mode_update
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mBridgeBot[2m > [22m[2m/delete <id> deletes a session
+[22m[39m🗑 deleted session: other-session
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mechoInjectedPrompts[2m > [22m[2mechoes cron-sourced prompt with cron label
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mechoInjectedPrompts[2m > [22m[2mechoes http-sourced prompt with http label
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mechoInjectedPrompts[2m > [22m[2mechoes routine-sourced prompt with routine label
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mechoInjectedPrompts[2m > [22m[2mdoes not echo when no source is provided (direct user message)
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mechoInjectedPrompts[2m > [22m[2mdoes not echo when echoInjectedPrompts is false
+[22m[39m🤖 
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with extra fields ignores them and enqueues text
+[22m[39m🌐 HTTP server on 127.0.0.1:44807
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with non-string text uses raw body as prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:34483
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mGET /health does not call enqueue
+[22m[39m🌐 HTTP server on 127.0.0.1:43893
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with query params adds context to prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:37127
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mechoInjectedPrompts[2m > [22m[2mtruncates long prompts in echo to 200 chars
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mechoInjectedPrompts[2m > [22m[2mdefaults to true when not specified
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2madds 😴 reaction to user message while bot is busy
+[22m[39m👤 first prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2madds 😴 reaction to user message while bot is busy
+[22m[39m👤 second prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2madds 😴 reaction to user message while bot is busy
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2madds 😴 reaction to user message while bot is busy
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2mclears the reaction when the queued item starts processing
+[22m[39m👤 first prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2mclears the reaction when the queued item starts processing
+[22m[39m👤 second prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2mclears the reaction when the queued item starts processing
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2mclears the reaction when the queued item starts processing
+[22m[39m🤖 
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt without query params sends text as-is
+[22m[39m🌐 HTTP server on 127.0.0.1:45993
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2mdoes not react when bot is not busy
+[22m[39m👤 hello
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mqueued reaction[2m > [22m[2mdoes not react when bot is not busy
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2mprepends replied-to message text as context
+[22m[39m👤 what do you mean?
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2mprepends replied-to message text as context
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2momits author when replied message has no username
+[22m[39m👤 ok?
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with raw body + query params adds context
+[22m[39m🌐 HTTP server on 127.0.0.1:32819
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2momits author when replied message has no username
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2mignores replies to messages with no text or caption
+[22m[39m👤 plain prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2mignores replies to messages with no text or caption
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2mtruncates long quoted text at 300 chars
+[22m[39m👤 sure
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mreply-to context[2m > [22m[2mtruncates long quoted text at 300 chars
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue lists pending prompts
+[22m[39m👤 busy prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue lists pending prompts
+[22m[39m👤 queued one
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue lists pending prompts
+[22m[39m👤 queued two
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue lists pending prompts
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue lists pending prompts
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue lists pending prompts
+[22m[39m🤖 
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt without auth token when configured returns 401
+[22m[39m🌐 HTTP server on 127.0.0.1:36025
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with wrong bearer token returns 401
+[22m[39m🌐 HTTP server on 127.0.0.1:33539
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with correct bearer token enqueues
+[22m[39m🌐 HTTP server on 127.0.0.1:42861
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue cancel removes the item at position
+[22m[39m👤 busy prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue cancel removes the item at position
+[22m[39m👤 first queued
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue cancel removes the item at position
+[22m[39m👤 second queued
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue cancel removes the item at position
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue cancel removes the item at position
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue clear removes all pending prompts
+[22m[39m👤 busy prompt
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue clear removes all pending prompts
+[22m[39m👤 one
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue clear removes all pending prompts
+[22m[39m👤 two
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2m/queue clear removes all pending prompts
+[22m[39m🤖 
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mGET /health with auth token configured requires auth
+[22m[39m🌐 HTTP server on 127.0.0.1:45911
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mAuthorization header is never forwarded to agent
+[22m[39m🌐 HTTP server on 127.0.0.1:40221
+
+[90mstderr[2m | test/bot.test.ts[2m > [22m[2m/queue and /status[2m > [22m[2mreports message handler errors without rejecting
+[22m[39mUnhandled message error: boom
+
+[90mstdout[2m | test/bot.test.ts[2m > [22m[2mcommand source isolation[2m > [22m[2mruns commands for http-injected prompts but never for a2a content
+[22m[39m🤖 
+
+ [32m✓[39m test/bot.test.ts [2m([22m[2m96 tests[22m[2m)[22m[32m 163[2mms[22m[39m
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mrate limit returns 429 after exceeding limit
+[22m[39m🌐 HTTP server on 127.0.0.1:33345
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mbody exceeding maxBodySize returns 413
+[22m[39m🌐 HTTP server on 127.0.0.1:41317
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mforwardHeaders disabled by default
+[22m[39m🌐 HTTP server on 127.0.0.1:45097
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mforwardHeaders enabled includes custom headers in prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:46679
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with image file passes ContentBlocks
+[22m[39m🌐 HTTP server on 127.0.0.1:41965
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with non-image file creates resource_link
+[22m[39m🌐 HTTP server on 127.0.0.1:33033
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with multiple files creates multiple blocks
+[22m[39m🌐 HTTP server on 127.0.0.1:44759
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with files but no text still enqueues
+[22m[39m🌐 HTTP server on 127.0.0.1:36585
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt with files missing data is skipped
+[22m[39m🌐 HTTP server on 127.0.0.1:33705
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt backward compat: no files field works as before
+[22m[39m🌐 HTTP server on 127.0.0.1:39399
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2monComplete callback fires with response when agent finishes
+[22m[39m🌐 HTTP server on 127.0.0.1:41955
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2monComplete callback fires with error when agent fails
+[22m[39m🌐 HTTP server on 127.0.0.1:42995
+
+[90mstdout[2m | test/http-edge.test.ts[2m > [22m[2mHttpServer edge cases[2m > [22m[2mPOST /prompt without callback_url does not pass onComplete
+[22m[39m🌐 HTTP server on 127.0.0.1:44101
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mrejects unauthorized channel ID
+[22m[39m🚫 [999] hello
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mresponds with channel ID in setup mode (empty allowlist)
+[22m[39m🚫 [999] hello
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mforwards allowed messages to ACP
+[22m[39m👤 hello agent
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mforwards allowed messages to ACP
+[22m[39m🤖 
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2menqueues prompts from external sources
+[22m[39m🤖 
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mstreams agent response chunks
+[22m[39m👤 hi
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mstreams agent response chunks
+[22m[39m🤖 Hello world
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mhandles agent_message (non-chunk)
+[22m[39m👤 hi
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mhandles agent_message (non-chunk)
+[22m[39m🤖 Final response
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2msends error message on prompt failure
+[22m[39m👤 hi
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2msends error message when acp.prompt() rejects asynchronously
+[22m[39m👤 hi
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mauto-approves permission when agentCmd includes dangerous
+[22m[39m⚡ auto-approved
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2msends permission buttons when channel is active
+[22m[39m👤 hi
+
+ [32m✓[39m test/http-edge.test.ts [2m([22m[2m36 tests[22m[2m)[22m[33m 382[2mms[22m[39m
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2msends permission buttons when channel is active
+[22m[39m🔐 permiso: {"options":[{"optionId":"allow_1","kind":"allow"},{"optionId
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2msends permission buttons when channel is active
+[22m[39m🤖 
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mignores thoughts when showThoughts=false
+[22m[39m👤 hi
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mignores thoughts when showThoughts=false
+[22m[39m🤖 
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mforwards thoughts when showThoughts=true
+[22m[39m👤 hi
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mforwards thoughts when showThoughts=true
+[22m[39m🤖 thinking...
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2msends stop reason when response is empty
+[22m[39m👤 hi
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2msends stop reason when response is empty
+[22m[39m🤖 
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrejects lowercase bearer scheme
+[22m[39m🌐 HTTP server on 127.0.0.1:40273
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrejects Basic auth scheme even with correct token
+[22m[39m🌐 HTTP server on 127.0.0.1:33053
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2m/stop when busy cancels the agent
+[22m[39m👤 long task
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2m/stop when busy cancels the agent
+[22m[39m⏹ stop requested
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2m/stop clears the queue
+[22m[39m👤 first
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2m/stop clears the queue
+[22m[39m👤 second
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2m/stop clears the queue
+[22m[39m👤 third
+
+[90mstdout[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2m/stop clears the queue
+[22m[39m⏹ stop requested
+
+[90mstderr[2m | test/discord.test.ts[2m > [22m[2mDiscordBot[2m > [22m[2mreports message handler errors without rejecting
+[22m[39mUnhandled message error: boom
+
+ [32m✓[39m test/discord.test.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 160[2mms[22m[39m
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrejects empty bearer token
+[22m[39m🌐 HTTP server on 127.0.0.1:36991
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrejects token with extra spaces
+[22m[39m🌐 HTTP server on 127.0.0.1:42389
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2maccepts token with special characters
+[22m[39m🌐 HTTP server on 127.0.0.1:46353
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrejects very long token (DoS attempt)
+[22m[39m🌐 HTTP server on 127.0.0.1:45445
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrejects path traversal in URL
+[22m[39m🌐 HTTP server on 127.0.0.1:36407
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles URL-encoded query params
+[22m[39m🌐 HTTP server on 127.0.0.1:37159
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles empty query param values
+[22m[39m🌐 HTTP server on 127.0.0.1:45413
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles many query params
+[22m[39m🌐 HTTP server on 127.0.0.1:37975
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles body with unicode
+[22m[39m🌐 HTTP server on 127.0.0.1:34573
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles JSON array body as raw prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:34071
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles JSON string body as raw prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:45361
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles JSON number body as raw prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:36453
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles JSON null body as raw prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:40073
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles body with newlines
+[22m[39m🌐 HTTP server on 127.0.0.1:44821
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrate limit counts all requests including /health
+[22m[39m🌐 HTTP server on 127.0.0.1:45363
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrate limit resets after entries expire
+[22m[39m🌐 HTTP server on 127.0.0.1:33991
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mrate limit with auth still counts unauthorized requests
+[22m[39m🌐 HTTP server on 127.0.0.1:41473
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mauth + query params + forward headers all work together
+[22m[39m🌐 HTTP server on 127.0.0.1:40977
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mraw body + query params + auth all work together
+[22m[39m🌐 HTTP server on 127.0.0.1:46303
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles text/plain content type
+[22m[39m🌐 HTTP server on 127.0.0.1:39811
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mhandles no content type
+[22m[39m🌐 HTTP server on 127.0.0.1:40877
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mGET /prompt returns 404 (not 405)
+[22m[39m🌐 HTTP server on 127.0.0.1:42751
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mPUT /prompt returns 404
+[22m[39m🌐 HTTP server on 127.0.0.1:46375
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mDELETE /prompt returns 404
+[22m[39m🌐 HTTP server on 127.0.0.1:40693
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mPOST /prompt/extra returns 404
+[22m[39m🌐 HTTP server on 127.0.0.1:37489
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mGET /health with correct auth returns 200
+[22m[39m🌐 HTTP server on 127.0.0.1:33917
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2mall responses are JSON
+[22m[39m🌐 HTTP server on 127.0.0.1:38213
+
+[90mstdout[2m | test/http-security.test.ts[2m > [22m[2mHttpServer security tests[2m > [22m[2merror responses include error field
+[22m[39m🌐 HTTP server on 127.0.0.1:45949
+
+ [32m✓[39m test/http-security.test.ts [2m([22m[2m30 tests[22m[2m)[22m[32m 221[2mms[22m[39m
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer[2m > [22m[2mserves the agent card at the well-known URI
+[22m[39m🤝 A2A endpoint on 127.0.0.1:45955
+
+ [32m✓[39m test/acp-client-edge.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer[2m > [22m[2mrejects messages from unknown peers without processing
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33717
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer[2m > [22m[2mrejects messages from non-approved peers
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33397
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer[2m > [22m[2menqueues prompts from approved peers and returns an agent message
+[22m[39m🤝 A2A endpoint on 127.0.0.1:42741
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer[2m > [22m[2mdeduplicates repeated task ids
+[22m[39m🤝 A2A endpoint on 127.0.0.1:38913
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer[2m > [22m[2mrejects delegation loops
+[22m[39m🤝 A2A endpoint on 127.0.0.1:38965
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer[2m > [22m[2mreturns a JSON-RPC method-not-found error for unknown methods
+[22m[39m🤝 A2A endpoint on 127.0.0.1:44295
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer registry mode[2m > [22m[2mreturns 404 for registry endpoints when role is peer
+[22m[39m🤝 A2A endpoint on 127.0.0.1:35683
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer registry mode[2m > [22m[2mwith registry role[2m > [22m[2mlists only approved peers with their cards
+[22m[39m🤝 A2A endpoint on 127.0.0.1:35773
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer registry mode[2m > [22m[2mwith registry role[2m > [22m[2mfilters agents by skill
+[22m[39m🤝 A2A endpoint on 127.0.0.1:42327
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer registry mode[2m > [22m[2mwith registry role[2m > [22m[2mupdates cardUrl, card and lastSeen on announce from an approved peer
+[22m[39m🤝 A2A endpoint on 127.0.0.1:40063
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2mA2aServer registry mode[2m > [22m[2mwith registry role[2m > [22m[2mrejects announce from a non-approved peer
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33859
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2magent-facing endpoints (loopback)[2m > [22m[2mGET /a2a/peers lists approved peers with their skills
+[22m[39m🤝 A2A endpoint on 127.0.0.1:35335
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2magent-facing endpoints (loopback)[2m > [22m[2mPOST /a2a/delegate forwards a task to an approved peer via message/send
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33531
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2magent-facing endpoints (loopback)[2m > [22m[2mPOST /a2a/delegate forwards a task to an approved peer via message/send
+[22m[39m🤝 A2A endpoint on 127.0.0.1:37503
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2magent-facing endpoints (loopback)[2m > [22m[2mPOST /a2a/delegate rejects unknown or unapproved peers
+[22m[39m🤝 A2A endpoint on 127.0.0.1:44529
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2medge cases[2m > [22m[2mreturns parse error for malformed JSON-RPC bodies
+[22m[39m🤝 A2A endpoint on 127.0.0.1:44493
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2medge cases[2m > [22m[2mhandles messages with no text parts
+[22m[39m🤝 A2A endpoint on 127.0.0.1:46791
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2medge cases[2m > [22m[2mdelegate returns 502 when the peer errors
+[22m[39m🤝 A2A endpoint on 127.0.0.1:42303
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2medge cases[2m > [22m[2mdelegate returns 502 when the peer errors
+[22m[39m🤝 A2A endpoint on 127.0.0.1:40135
+
+[90mstdout[2m | test/a2a.test.ts[2m > [22m[2medge cases[2m > [22m[2mdelegate rejects peers without cardUrl
+[22m[39m🤝 A2A endpoint on 127.0.0.1:46851
+
+ [32m✓[39m test/a2a.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 210[2mms[22m[39m
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2msplits long output over 4096 chars
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2msplits long output over 4096 chars
+[22m[39m🤖 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mfalls back to plain text when markdown fails
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mfalls back to plain text when markdown fails
+[22m[39m🤖 valid text
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mqueues multiple rapid messages
+[22m[39m👤 msg1
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mqueues multiple rapid messages
+[22m[39m👤 msg2
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mqueues multiple rapid messages
+[22m[39m👤 msg3
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mrejects unauthorized chat
+[22m[39m🚫 [999] hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mhandles setup mode (empty allowedChatIds)
+[22m[39m🚫 [123] hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mforwards unknown /command from enqueuePrompt to agent
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mhandles agent crash during prompt
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mhandles stream with only stop (no content)
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mhandles stream with only stop (no content)
+[22m[39m🤖 
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mforwards thoughts when showThoughts is true
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mforwards thoughts when showThoughts is true
+[22m[39m🤖 thinking about it
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mfilters thoughts when showThoughts is false
+[22m[39m👤 hi
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mfilters thoughts when showThoughts is false
+[22m[39m🤖 done
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mauto-approves when agentCmd contains "dangerous"
+[22m[39m⚡ auto-approved
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mauto-approves when agentCmd contains "bypass"
+[22m[39m⚡ auto-approved
+
+[90mstdout[2m | test/bot-edge.test.ts[2m > [22m[2mBridgeBot edge cases[2m > [22m[2mauto-approves when agentCmd contains "yolo"
+[22m[39m⚡ auto-approved
+
+ [32m✓[39m test/bot-edge.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 43[2mms[22m[39m
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mMediaHandler[2m > [22m[2msaves file to disk
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994429_i9lmuv.jpg
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mMediaHandler[2m > [22m[2mcreates ImageContent when agent supports image
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994433_m3dydj.jpg
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mMediaHandler[2m > [22m[2mcreates ResourceLink when agent does not support image
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994434_et8o8y.jpg
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mMediaHandler[2m > [22m[2mcreates ResourceLink for non-image files
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994436_lp3aff.pdf
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mMediaHandler[2m > [22m[2madds caption as text block
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994438_roq1tg.jpg
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mMediaHandler[2m > [22m[2mprocessMedia downloads, saves, and converts
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994442_ae8ecw.png
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mdownloads and processes photo messages
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994462_uh3hit.jpg
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mdownloads and processes photo messages
+[22m[39m👤 📷 check this out
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mdownloads and processes photo messages
+[22m[39m🤖 
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mdownloads and processes document messages
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994466_3p816y.pdf
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mdownloads and processes document messages
+[22m[39m👤 📷 application/pdf
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mdownloads and processes document messages
+[22m[39m🤖 
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mfalls back to ResourceLink when agent does not support image
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994470_bcys48.jpg
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mfalls back to ResourceLink when agent does not support image
+[22m[39m👤 📷 image/jpeg
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mfalls back to ResourceLink when agent does not support image
+[22m[39m🤖 
+
+[90mstderr[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2msends error message on download failure
+[22m[39mMedia download failed: network error
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mhandles sticker messages
+[22m[39m📄 file saved: /tmp/test-acp-connector-uploads/media_1794126994479_dbf889.webp
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mhandles sticker messages
+[22m[39m👤 📷 image/webp
+
+[90mstdout[2m | test/media.test.ts[2m > [22m[2mBridgeBot media handling[2m > [22m[2mhandles sticker messages
+[22m[39m🤖 
+
+ [32m✓[39m test/media.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 60[2mms[22m[39m
+[90mstdout[2m | test/a2a-manager.test.ts[2m > [22m[2mpairing[2m > [22m[2mregisters a join request as pending and notifies the owner
+[22m[39mA2A join request from 'lean' — pending owner approval
+
+[90mstdout[2m | test/a2a-manager.test.ts[2m > [22m[2m/a2a commands[2m > [22m[2m/a2a approve approves a pending peer
+[22m[39mA2A join request from 'lean' — pending owner approval
+
+[90mstderr[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mexits with error when no config found
+[22m[39mNo acp-connector.jsonc found. Run: npx acp-connector setup
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mstarts ACP, bot, cron, and HTTP
+[22m[39m┌─────────────────┐
+│  acp-connector  │
+└─────────────────┘
+
+[90mstderr[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mstarts ACP, bot, cron, and HTTP
+[22m[39m⚠️ Agent did not report MCP capabilities — reminder/cron tools may be unavailable
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mstarts ACP, bot, cron, and HTTP
+[22m[39m
+  🆔  Session:  test-session
+  ⚙️  Mode:     default
+  💬  TG Chats:    123
+  🖥️  Command:  acp-agent serve
+  🔌  MCP:      1 server(s) [agent-reminders]
+
+  ─────────────────────────────────
+
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mexits with error when ACP fails to start
+[22m[39m┌─────────────────┐
+│  acp-connector  │
+└─────────────────┘
+
+[90mstderr[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mexits with error when ACP fails to start
+[22m[39mFailed to start ACP: agent crashed
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mwires onCommand to routine manager
+[22m[39m┌─────────────────┐
+│  acp-connector  │
+└─────────────────┘
+
+[90mstderr[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mwires onCommand to routine manager
+[22m[39m⚠️ Agent did not report MCP capabilities — reminder/cron tools may be unavailable
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mwires onCommand to routine manager
+[22m[39m
+  🆔  Session:  test-session
+  ⚙️  Mode:     default
+  💬  TG Chats:    123
+  🖥️  Command:  acp-agent serve
+  🔌  MCP:      1 server(s) [agent-reminders]
+
+  ─────────────────────────────────
+
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mwires onPermission to bot
+[22m[39m┌─────────────────┐
+│  acp-connector  │
+└─────────────────┘
+
+[90mstderr[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mwires onPermission to bot
+[22m[39m⚠️ Agent did not report MCP capabilities — reminder/cron tools may be unavailable
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mwires onPermission to bot
+[22m[39m
+  🆔  Session:  test-session
+  ⚙️  Mode:     default
+  💬  TG Chats:    123
+  🖥️  Command:  acp-agent serve
+  🔌  MCP:      1 server(s) [agent-reminders]
+
+  ─────────────────────────────────
+
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mpreserves Discord Snowflake channel IDs for cron allowedChatIds
+[22m[39m┌─────────────────┐
+│  acp-connector  │
+└─────────────────┘
+
+[90mstderr[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mpreserves Discord Snowflake channel IDs for cron allowedChatIds
+[22m[39m⚠️ Agent did not report MCP capabilities — reminder/cron tools may be unavailable
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mpreserves Discord Snowflake channel IDs for cron allowedChatIds
+[22m[39m
+  🆔  Session:  test-session
+  ⚙️  Mode:     default
+  💬  DC Channels: 123456789012345678
+  🖥️  Command:  acp-agent serve
+  🔌  MCP:      1 server(s) [agent-reminders]
+
+  ─────────────────────────────────
+
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mroutes permission to the bot with an active prompt (Discord), not the first bot (TG)
+[22m[39m┌─────────────────┐
+│  acp-connector  │
+└─────────────────┘
+
+[90mstderr[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mroutes permission to the bot with an active prompt (Discord), not the first bot (TG)
+[22m[39m⚠️ Agent did not report MCP capabilities — reminder/cron tools may be unavailable
+
+[90mstdout[2m | test/bridge.test.ts[2m > [22m[2mbridge[2m > [22m[2mroutes permission to the bot with an active prompt (Discord), not the first bot (TG)
+[22m[39m
+  🆔  Session:  test-session
+  ⚙️  Mode:     default
+  💬  TG Chats:    123
+  💬  DC Channels: 999
+  🖥️  Command:  acp-agent serve
+  🔌  MCP:      1 server(s) [agent-reminders]
+
+  ─────────────────────────────────
+
+
+ [32m✓[39m test/bridge.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+[90mstdout[2m | test/a2a-manager.test.ts[2m > [22m[2m/a2a commands[2m > [22m[2m/a2a reject and /a2a ignore update the peer status
+[22m[39mA2A join request from 'lean' — pending owner approval
+
+[90mstdout[2m | test/a2a-manager.test.ts[2m > [22m[2mjoin/confirm handshake[2m > [22m[2mhandleConfirm approves a pending peer and notifies
+[22m[39mA2A join request from 'lean' — pending owner approval
+
+[90mstdout[2m | test/a2a-manager.test.ts[2m > [22m[2mstartup reminders and discovery[2m > [22m[2mremindPending notifies about pending requests only when they exist
+[22m[39mA2A join request from 'lean' — pending owner approval
+
+ [32m✓[39m test/a2a-manager.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 199[2mms[22m[39m
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: auth surface[2m > [22m[2mmissing peer-id header is rejected before any processing
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33661
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: auth surface[2m > [22m[2mwell-known card is public even without headers
+[22m[39m🤝 A2A endpoint on 127.0.0.1:37457
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: auth surface[2m > [22m[2mrejected and ignored peers cannot send tasks
+[22m[39m🤝 A2A endpoint on 127.0.0.1:36349
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: payload handling[2m > [22m[2mempty parts array produces an empty prompt, not a crash
+[22m[39m🤝 A2A endpoint on 127.0.0.1:40907
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: payload handling[2m > [22m[2mmissing message object is handled gracefully
+[22m[39m🤝 A2A endpoint on 127.0.0.1:42613
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: payload handling[2m > [22m[2magent error propagates as JSON-RPC error
+[22m[39m🤝 A2A endpoint on 127.0.0.1:44395
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: dedup and loops[2m > [22m[2mtaskId dedup works even when messageId differs
+[22m[39m🤝 A2A endpoint on 127.0.0.1:41111
+
+[90mstdout[2m | test/routines.test.ts[2m > [22m[2mRoutineManager[2m > [22m[2m/run executes routine by name
+[22m[39m📝 routine "briefing" fired
+
+ [32m✓[39m test/routines.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: dedup and loops[2m > [22m[2msame messageId without explicit taskId is also deduped
+[22m[39m🤝 A2A endpoint on 127.0.0.1:42083
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: dedup and loops[2m > [22m[2mdelegation chain at exact depth limit is rejected
+[22m[39m🤝 A2A endpoint on 127.0.0.1:38179
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: dedup and loops[2m > [22m[2mself in the middle of the chain is rejected
+[22m[39m🤝 A2A endpoint on 127.0.0.1:34201
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: join endpoint[2m > [22m[2mjoin with missing fields returns 400
+[22m[39m🤝 A2A endpoint on 127.0.0.1:34605
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: join endpoint[2m > [22m[2mjoin with malformed JSON returns 500/400 but never hangs
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33523
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: join endpoint[2m > [22m[2mnon-POST methods on /a2a/join return 404
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33275
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: misc[2m > [22m[2munknown GET path returns 404
+[22m[39m🤝 A2A endpoint on 127.0.0.1:34309
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: misc[2m > [22m[2mGET on the RPC endpoint returns 404
+[22m[39m🤝 A2A endpoint on 127.0.0.1:38767
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2medge: misc[2m > [22m[2mserver disabled: start() is a no-op and nothing listens
+[22m[39m🤝 A2A endpoint on 127.0.0.1:33631
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2mmessage/stream (SSE)[2m > [22m[2mstreams task + status events and completes
+[22m[39m🤝 A2A endpoint on 127.0.0.1:34927
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2mmessage/stream (SSE)[2m > [22m[2mrejects unapproved peers before opening the stream
+[22m[39m🤝 A2A endpoint on 127.0.0.1:34583
+
+[90mstdout[2m | test/a2a-edge.test.ts[2m > [22m[2mmessage/stream (SSE)[2m > [22m[2mechoes contextId in the plain message/send response
+[22m[39m🤝 A2A endpoint on 127.0.0.1:43019
+
+ [32m✓[39m test/a2a-edge.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 220[2mms[22m[39m
+ [32m✓[39m test/network.test.ts [2m([22m[2m23 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+[90mstderr[2m | test/discovery.test.ts[2m > [22m[2mshared-file strategy[2m > [22m[2mregisters itself on start and deregisters on stop
+[22m[39mmDNS discovery unavailable: optional dependency "bonjour-service" is not installed
+
+[90mstderr[2m | test/discovery.test.ts[2m > [22m[2mshared-file strategy[2m > [22m[2mnever returns self
+[22m[39mmDNS discovery unavailable: optional dependency "bonjour-service" is not installed
+
+ [32m✓[39m test/discovery.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 56[2mms[22m[39m
+ [32m✓[39m test/reminders.test.ts [2m([22m[2m14 tests[22m[2m)[22m[33m 369[2mms[22m[39m
+ [32m✓[39m test/routines-edge.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+[90mstdout[2m | test/reminders-api.test.ts[2m > [22m[2mreminders api[2m > [22m[2mcreates a reminder with "in" and returns id + firesAt
+[22m[39m⏰ reminders api listening on http://127.0.0.1:39097
+
+[90mstdout[2m | test/reminders-api.test.ts[2m > [22m[2mreminders api[2m > [22m[2mcreates a reminder with "at" and rejects both in+at
+[22m[39m⏰ reminders api listening on http://127.0.0.1:36277
+
+[90mstdout[2m | test/reminders-api.test.ts[2m > [22m[2mreminders api[2m > [22m[2mlists, updates and cancels reminders
+[22m[39m⏰ reminders api listening on http://127.0.0.1:38101
+
+[90mstdout[2m | test/reminders-api.test.ts[2m > [22m[2mcron api[2m > [22m[2mcreates agent-managed jobs from "every" and "expr"
+[22m[39m⏰ reminders api listening on http://127.0.0.1:39739
+
+[90mstdout[2m | test/reminders-api.test.ts[2m > [22m[2mcron api[2m > [22m[2mrejects unsupported intervals and missing schedule
+[22m[39m⏰ reminders api listening on http://127.0.0.1:39653
+
+[90mstdout[2m | test/reminders-api.test.ts[2m > [22m[2mcron api[2m > [22m[2mlists all jobs flagging operator-owned ones read-only
+[22m[39m⏰ reminders api listening on http://127.0.0.1:42225
+
+[90mstdout[2m | test/reminders-api.test.ts[2m > [22m[2mcron api[2m > [22m[2mupdates and deletes only agent-managed jobs
+[22m[39m⏰ reminders api listening on http://127.0.0.1:38789
+
+ [32m✓[39m test/reminders-api.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 190[2mms[22m[39m
+ [32m✓[39m test/cron.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+[90mstderr[2m | test/config-edge.test.ts[2m > [22m[2mconfig edge cases[2m > [22m[2mfile with trailing comma (invalid JSONC) is accepted
+[22m[39m⚠️ telegramToken at root is deprecated. Move to platforms.telegram.token.
+
+[90mstderr[2m | test/config-edge.test.ts[2m > [22m[2mconfig edge cases[2m > [22m[2mfile with block comments is parsed
+[22m[39m⚠️ telegramToken at root is deprecated. Move to platforms.telegram.token.
+
+[90mstderr[2m | test/config-edge.test.ts[2m > [22m[2mconfig edge cases[2m > [22m[2mfile with line comments is parsed
+[22m[39m⚠️ telegramToken at root is deprecated. Move to platforms.telegram.token.
+
+[90mstderr[2m | test/config-edge.test.ts[2m > [22m[2mconfig edge cases[2m > [22m[2mlegacy telegramToken without platforms migrates to platforms format
+[22m[39m⚠️ telegramToken at root is deprecated. Move to platforms.telegram.token.
+
+ [32m✓[39m test/config-edge.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 43[2mms[22m[39m
+ [32m✓[39m test/cron-edge.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32m✓[39m test/setup-daemon.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+[90mstdout[2m | test/http.test.ts[2m > [22m[2mHttpServer[2m > [22m[2mGET /health returns 200 with health info
+[22m[39m🌐 HTTP server on 127.0.0.1:46229
+
+[90mstdout[2m | test/http.test.ts[2m > [22m[2mHttpServer[2m > [22m[2mPOST /prompt enqueues a prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:36807
+
+[90mstdout[2m | test/http.test.ts[2m > [22m[2mHttpServer[2m > [22m[2mPOST /prompt with callback_url passes onComplete to enqueue
+[22m[39m🌐 HTTP server on 127.0.0.1:39041
+
+[90mstdout[2m | test/http.test.ts[2m > [22m[2mHttpServer[2m > [22m[2mPOST /prompt with callbackUrl (camelCase) passes onComplete to enqueue
+[22m[39m🌐 HTTP server on 127.0.0.1:34513
+
+[90mstdout[2m | test/http.test.ts[2m > [22m[2mHttpServer[2m > [22m[2mPOST /prompt with JSON body but no text field uses raw body as prompt
+[22m[39m🌐 HTTP server on 127.0.0.1:36107
+
+[90mstdout[2m | test/http.test.ts[2m > [22m[2mHttpServer[2m > [22m[2munknown route returns 404
+[22m[39m🌐 HTTP server on 127.0.0.1:46429
+
+[90mstdout[2m | test/http.test.ts[2m > [22m[2mHttpServer[2m > [22m[2mstop() closes the server
+[22m[39m🌐 HTTP server on 127.0.0.1:42145
+
+ [32m✓[39m test/http.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 104[2mms[22m[39m
+[90mstderr[2m | test/loopback.test.ts[2m > [22m[2mLoopbackBot[2m > [22m[2mresolves onComplete with the error when the agent fails
+[22m[39m[loopback] prompt failed: agent down
+
+ [32m✓[39m test/loopback.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 122[2mms[22m[39m
+ [32m✓[39m test/setup-agents.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m test/config.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m test/logger.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m test/agent-card.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m test/e2e/network.e2e.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 18552[2mms[22m[39m
+   [32m✓[39m e2e: two real bridges with fake agents [2m(5)[22m
+     [33m[2m✓[22m[39m join → approve → message/send roundtrip[33m 4684[2mms[22m[39m
+     [33m[2m✓[22m[39m unapproved peer is rejected before reaching the agent[33m 1767[2mms[22m[39m
+     [33m[2m✓[22m[39m agent-side delegation: fake agent calls /a2a/delegate to a peer[33m 4654[2mms[22m[39m
+     [33m[2m✓[22m[39m message/stream returns SSE events to an approved peer[33m 3334[2mms[22m[39m
+     [33m[2m✓[22m[39m delegation to an unapproved peer is refused (403)[33m 1276[2mms[22m[39m
+   [32m✓[39m e2e: session resume [2m(1)[22m
+     [33m[2m✓[22m[39m sessionId in config resumes via session/resume with mcpServers (0.11.1 regression)[33m 2833[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m29 passed[39m[22m[90m (29)[39m
+[2m      Tests [22m [1m[32m541 passed[39m[22m[90m (541)[39m
+[2m   Start at [22m 08:36:32
+[2m   Duration [22m 20.19s[2m (tests 87%, import 6%, transform 6%, worker 1%)[22m
+
+[2m    Isolate [22m [33m29 workers spawned[39m[2m · ~171ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~1.48s faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+

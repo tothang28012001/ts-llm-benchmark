@@ -1,0 +1,745 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T08:36:21.010Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/setup/wizard.ts": {
+            "lines": 274,
+            "tokens": 2798,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/setup/daemon.ts": {
+            "lines": 128,
+            "tokens": 776,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/setup/agents.ts": {
+            "lines": 137,
+            "tokens": 975,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/setup.ts": {
+            "lines": 146,
+            "tokens": 1274,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/routines.ts": {
+            "lines": 273,
+            "tokens": 2720,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reminders.ts": {
+            "lines": 421,
+            "tokens": 3750,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reminders-mcp.ts": {
+            "lines": 168,
+            "tokens": 1465,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reminders-api.ts": {
+            "lines": 254,
+            "tokens": 3284,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 228,
+            "percentage": 4.72,
+            "percentageTokens": 6.94,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/network.ts": {
+            "lines": 195,
+            "tokens": 1608,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/media.ts": {
+            "lines": 133,
+            "tokens": 1087,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/loopback.ts": {
+            "lines": 118,
+            "tokens": 1258,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/logger.ts": {
+            "lines": 47,
+            "tokens": 500,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 12,
+            "tokens": 88,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/http.ts": {
+            "lines": 339,
+            "tokens": 2991,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/discovery.ts": {
+            "lines": 321,
+            "tokens": 2967,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/discord.ts": {
+            "lines": 509,
+            "tokens": 5190,
+            "sources": 1,
+            "clones": 11,
+            "duplicatedLines": 162,
+            "duplicatedTokens": 1561,
+            "percentage": 31.83,
+            "percentageTokens": 30.08,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cron.ts": {
+            "lines": 218,
+            "tokens": 1712,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config.ts": {
+            "lines": 242,
+            "tokens": 2079,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/bridge.ts": {
+            "lines": 436,
+            "tokens": 4509,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/bot.ts": {
+            "lines": 556,
+            "tokens": 5652,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 108,
+            "duplicatedTokens": 931,
+            "percentage": 19.42,
+            "percentageTokens": 16.47,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/base-bot.ts": {
+            "lines": 834,
+            "tokens": 8995,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 260,
+            "percentage": 2.16,
+            "percentageTokens": 2.89,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/agent-card.ts": {
+            "lines": 62,
+            "tokens": 560,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/acp-client.ts": {
+            "lines": 552,
+            "tokens": 5053,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 42,
+            "duplicatedTokens": 290,
+            "percentage": 7.61,
+            "percentageTokens": 5.74,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/a2a.ts": {
+            "lines": 482,
+            "tokens": 5189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/a2a-mcp.ts": {
+            "lines": 74,
+            "tokens": 674,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/a2a-manager.ts": {
+            "lines": 315,
+            "tokens": 3179,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 7246,
+          "tokens": 70333,
+          "sources": 26,
+          "clones": 11,
+          "duplicatedLines": 171,
+          "duplicatedTokens": 1635,
+          "percentage": 2.36,
+          "percentageTokens": 2.32,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 7246,
+      "tokens": 70333,
+      "sources": 26,
+      "clones": 11,
+      "duplicatedLines": 171,
+      "duplicatedTokens": 1635,
+      "percentage": 2.36,
+      "percentageTokens": 2.32,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": " && req.method === 'POST') {\n        const body = await _readBody(req);\n        const id = _str(body.id);\n        if (!id) return _err(res, '\"id\" is required');\n        const { job, error, status } = agentCron(id);\n        if (!job) return _err(res, error ?? 'not found', status);\n        cronManager",
+      "tokens": 114,
+      "firstFile": {
+        "name": "src/reminders-api.ts",
+        "start": 212,
+        "end": 218,
+        "startLoc": {
+          "line": 212,
+          "column": 34,
+          "position": 2770
+        },
+        "endLoc": {
+          "line": 218,
+          "column": 20,
+          "position": 2884
+        }
+      },
+      "secondFile": {
+        "name": "src/reminders-api.ts",
+        "start": 184,
+        "end": 190,
+        "startLoc": {
+          "line": 184,
+          "column": 34,
+          "position": 2368
+        },
+        "endLoc": {
+          "line": 190,
+          "column": 14,
+          "position": 2482
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": "(\n    channelId: string | number,\n    messageId: string | number\n  ): Promise<void> {\n    const channel = this.client.channels.cache.get(String(channelId)) as TextChannel;\n    const message = await channel?.messages.fetch(String(messageId)).catch(() => null);\n    await message?.reactions",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/discord.ts",
+        "start": 160,
+        "end": 166,
+        "startLoc": {
+          "line": 160,
+          "column": 39,
+          "position": 1524
+        },
+        "endLoc": {
+          "line": 166,
+          "column": 29,
+          "position": 1625
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 151,
+        "end": 157,
+        "startLoc": {
+          "line": 151,
+          "column": 37,
+          "position": 1407
+        },
+        "endLoc": {
+          "line": 157,
+          "column": 25,
+          "position": 1508
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n      const allowOpt = params.options?.find(\n        // biome-ignore lint/suspicious/noExplicitAny: SDK option type\n        (o: any) => o.kind.startsWith('allow')\n      );\n      if (allowOpt) {\n        return { outcome: { outcome: 'selected', optionId: allowOpt.optionId } };\n      }\n      return { outcome: { outcome: 'cancelled' } };\n    }\n\n    const",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/discord.ts",
+        "start": 345,
+        "end": 356,
+        "startLoc": {
+          "line": 345,
+          "column": 22,
+          "position": 3487
+        },
+        "endLoc": {
+          "line": 356,
+          "column": 10,
+          "position": 3594
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 329,
+        "end": 340,
+        "startLoc": {
+          "line": 329,
+          "column": 35,
+          "position": 3304
+        },
+        "endLoc": {
+          "line": 340,
+          "column": 7,
+          "position": 3411
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ");\n      const allowOpt = params.options?.find(\n        // biome-ignore lint/suspicious/noExplicitAny: SDK option type\n        (o: any) => o.kind.startsWith('allow')\n      );\n      if (allowOpt) {\n        return { outcome: { outcome: 'selected', optionId: allowOpt.optionId } };\n      }\n      return { outcome: { outcome: 'cancelled' } };\n    }\n  ",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/discord.ts",
+        "start": 404,
+        "end": 414,
+        "startLoc": {
+          "line": 404,
+          "column": 74,
+          "position": 4097
+        },
+        "endLoc": {
+          "line": 414,
+          "column": 3,
+          "position": 4204
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 329,
+        "end": 340,
+        "startLoc": {
+          "line": 329,
+          "column": 33,
+          "position": 3302
+        },
+        "endLoc": {
+          "line": 340,
+          "column": 1,
+          "position": 3409
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "[];\n  agentCmd: string;\n  showThoughts?: boolean;\n  showTools?: boolean;\n  showPlan?: boolean;\n  streaming?: boolean;\n  echoInjectedPrompts?: boolean;\n  mediaHandler?: MediaHandler | null;\n  onCommand?: ((text: string, chatId: number | string) => Promise<boolean>) | null;\n  onPrompt?: ((text: string, chatId: number | string) => void) | null;\n}\n\nexport class BridgeBot",
+      "tokens": 139,
+      "firstFile": {
+        "name": "src/bot.ts",
+        "start": 31,
+        "end": 43,
+        "startLoc": {
+          "line": 31,
+          "column": 25,
+          "position": 368
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 23,
+          "position": 507
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 24,
+        "end": 36,
+        "startLoc": {
+          "line": 24,
+          "column": 28,
+          "position": 181
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 24,
+          "position": 320
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 57,
+      "fragment": ",\n        '  /stop — cancel the current task',\n        '  /new — start a fresh session (clears context)',\n        '  /sessions — list available sessions',\n        '  /session `<id>` — switch to an existing session',\n        '  /delete `<id>` — delete a session',\n        '  /mode — list available session modes',\n        '  /mode `<id>` — switch session mode (e.g. /mode bypass)',\n        '  /config — list session config options',\n        '  /config `<id> [value]` — show or set an option',\n        '  /model `[value]` — show or set the model',\n        '  /queue — list pending prompts',\n        '  /queue cancel `<n>` — remove a pending prompt',\n        '  /queue clear — remove all pending prompts',\n        '  /status — agent state, session, queue and uptime',\n        '',\n        '  /cron list — list scheduled jobs',\n        '  /cron add `<schedule> <prompt>` — add a job',\n        '  /cron remove `<name>` — remove a job',\n        '  /cron toggle `<name>` — pause/activate',\n        '  /cron run `<name>` — run now',\n        '',\n        '  /routine list — list routines',\n        '  /routine add `<name> <prompt>` — add a routine',\n        '  /routine remove `<name>` — remove a routine',\n        '',\n        '  /run `<name>` — run a routine',\n        ...agentSection,\n        '',\n        'Any other text is sent to the agent.',\n        '',\n        '📖 Docs: https://github.com/galiprandi/acp-connector#readme',\n      ].join('\\n')\n    );\n    return true;\n  }\n\n  // biome-ignore lint/suspicious/noExplicitAny: SDK permission types are complex\n  async _handlePermission(params: any): Promise<any> {\n    const cmd = (this.agentCmd || '').toLowerCase();\n    if (cmd.includes('dangerous') || cmd.includes('bypass') || cmd.includes('yolo')) {\n      log.info('⚡ auto-approved');\n      const allowOpt = params.options?.find(\n        // biome-ignore lint/suspicious/noExplicitAny: SDK option type\n        (o: any) => o.kind.startsWith('allow')\n      );\n      if (allowOpt) {\n        return { outcome: { outcome: 'selected', optionId: allowOpt.optionId } };\n      }\n      return { outcome: { outcome: 'cancelled' } };\n    }\n\n    if (!params.options || params.options.length === 0) {\n      return { outcome: { outcome: 'cancelled' } };\n    }\n\n    const chatId",
+      "tokens": 390,
+      "firstFile": {
+        "name": "src/bot.ts",
+        "start": 342,
+        "end": 398,
+        "startLoc": {
+          "line": 342,
+          "column": 22,
+          "position": 3598
+        },
+        "endLoc": {
+          "line": 398,
+          "column": 17,
+          "position": 3988
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 288,
+        "end": 344,
+        "startLoc": {
+          "line": 288,
+          "column": 24,
+          "position": 3071
+        },
+        "endLoc": {
+          "line": 344,
+          "column": 20,
+          "position": 3461
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ") {\n      const allowOpt = params.options?.find(\n        // biome-ignore lint/suspicious/noExplicitAny: SDK option type\n        (o: any) => o.kind.startsWith('allow')\n      );\n      if (allowOpt) {\n        return { outcome: { outcome: 'selected', optionId: allowOpt.optionId } };\n      }\n      return { outcome: { outcome: 'cancelled' } };\n    }\n\n    const desc = this._formatPermission(params);\n    log.info(`🔐 permiso: ${desc.slice(0, 60)}`);\n\n    try {\n      const allowOpt",
+      "tokens": 154,
+      "firstFile": {
+        "name": "src/bot.ts",
+        "start": 399,
+        "end": 414,
+        "startLoc": {
+          "line": 399,
+          "column": 16,
+          "position": 4011
+        },
+        "endLoc": {
+          "line": 414,
+          "column": 21,
+          "position": 4165
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 345,
+        "end": 360,
+        "startLoc": {
+          "line": 345,
+          "column": 19,
+          "position": 3484
+        },
+        "endLoc": {
+          "line": 360,
+          "column": 20,
+          "position": 3638
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": " {\n      const allowOpt = params.options?.find(\n        // biome-ignore lint/suspicious/noExplicitAny: SDK option type\n        (o: any) => o.kind.startsWith('allow')\n      );\n      if (allowOpt) {\n        return { outcome: { outcome: 'selected', optionId: allowOpt.optionId } };\n      }\n      return { outcome: { outcome: 'cancelled' } };\n    }\n  }\n\n  private async _onCallbackQuery",
+      "tokens": 116,
+      "firstFile": {
+        "name": "src/bot.ts",
+        "start": 436,
+        "end": 448,
+        "startLoc": {
+          "line": 436,
+          "column": 12,
+          "position": 4446
+        },
+        "endLoc": {
+          "line": 448,
+          "column": 33,
+          "position": 4562
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 345,
+        "end": 416,
+        "startLoc": {
+          "line": 345,
+          "column": 20,
+          "position": 3485
+        },
+        "endLoc": {
+          "line": 416,
+          "column": 31,
+          "position": 4213
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ");\n      }\n      return;\n    }\n    if (data.startsWith('perm_') && this.permissionPending) {\n      const [, outcome, ...rest] = data.split('_');\n      const optionId = rest.join('_');\n      const response: PermissionResponse = { outcome: { outcome: 'selected', optionId } };\n\n      this.permissionPending.resolve(response);\n      this.permissionPending = null;\n\n      try {\n        await this",
+      "tokens": 132,
+      "firstFile": {
+        "name": "src/bot.ts",
+        "start": 478,
+        "end": 491,
+        "startLoc": {
+          "line": 478,
+          "column": 10,
+          "position": 4889
+        },
+        "endLoc": {
+          "line": 491,
+          "column": 19,
+          "position": 5021
+        }
+      },
+      "secondFile": {
+        "name": "src/discord.ts",
+        "start": 436,
+        "end": 449,
+        "startLoc": {
+          "line": 436,
+          "column": 84,
+          "position": 4463
+        },
+        "endLoc": {
+          "line": 449,
+          "column": 26,
+          "position": 4595
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ".kind || '';\n          if (tcId) this.toolCalls.set(tcId, { title, status, kind });\n          const label = title || kind || `tool:${tcId.slice(-8)}`;\n          const line = `\\n🔧 _${label} — ${status}_\\n`;\n          this.streamBuffer += line;\n          this.streamDirty = true;\n          if (this.streaming) this._scheduleStreamFlush();\n        }\n        break;\n      case 'plan'",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/base-bot.ts",
+        "start": 730,
+        "end": 739,
+        "startLoc": {
+          "line": 730,
+          "column": 47,
+          "position": 7877
+        },
+        "endLoc": {
+          "line": 739,
+          "column": 18,
+          "position": 8007
+        }
+      },
+      "secondFile": {
+        "name": "src/base-bot.ts",
+        "start": 715,
+        "end": 724,
+        "startLoc": {
+          "line": 715,
+          "column": 30,
+          "position": 7631
+        },
+        "endLoc": {
+          "line": 724,
+          "column": 30,
+          "position": 7761
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 22,
+      "fragment": ");\n    this.session = session;\n    this.sessionId = session.sessionId;\n    this.modes = session.modes;\n    this.configOptions = session.newSessionResponse?.configOptions ?? null;\n    if (this.initialSessionMode) {\n      try {\n        await this.setSessionMode(this.initialSessionMode);\n      } catch (err) {\n        log.warn(\n          `⚠️ Failed to set initial session mode \"${this.initialSessionMode}\": ${(err as Error).message}`\n        );\n      }\n    }\n    return session.sessionId;\n  }\n\n  /**\n   * Set the current session mode via `session/set_mode`.\n   * @param modeId - The mode ID to set (must be one of availableModes).\n   * @returns void\n   */",
+      "tokens": 145,
+      "firstFile": {
+        "name": "src/acp-client.ts",
+        "start": 442,
+        "end": 463,
+        "startLoc": {
+          "line": 442,
+          "column": 28,
+          "position": 4072
+        },
+        "endLoc": {
+          "line": 463,
+          "column": 6,
+          "position": 4217
+        }
+      },
+      "secondFile": {
+        "name": "src/acp-client.ts",
+        "start": 373,
+        "end": 394,
+        "startLoc": {
+          "line": 373,
+          "column": 41,
+          "position": 3468
+        },
+        "endLoc": {
+          "line": 394,
+          "column": 6,
+          "position": 3613
+        }
+      }
+    }
+  ]
+}

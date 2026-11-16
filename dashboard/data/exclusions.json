@@ -1,0 +1,74 @@
+{
+ "rows": [
+  {
+   "group": "llm",
+   "reason": "AI-attributed commit share < 50%",
+   "repos": 779
+  },
+  {
+   "group": "llm",
+   "reason": "no test script",
+   "repos": 478
+  },
+  {
+   "group": "llm",
+   "reason": "TS size outside 40KB-1.5MB",
+   "repos": 429
+  },
+  {
+   "group": "llm",
+   "reason": "< 10 commits",
+   "repos": 306
+  },
+  {
+   "group": "llm",
+   "reason": "no root tsconfig",
+   "repos": 259
+  },
+  {
+   "group": "llm",
+   "reason": "TS share < 60%",
+   "repos": 133
+  },
+  {
+   "group": "llm",
+   "reason": "no root package.json",
+   "repos": 119
+  },
+  {
+   "group": "human",
+   "reason": "TS size outside 40KB-1.5MB",
+   "repos": 100
+  },
+  {
+   "group": "llm",
+   "reason": "monorepo",
+   "repos": 95
+  },
+  {
+   "group": "human",
+   "reason": "no test script",
+   "repos": 79
+  },
+  {
+   "group": "human",
+   "reason": "no root tsconfig",
+   "repos": 41
+  },
+  {
+   "group": "human",
+   "reason": "TS share < 60%",
+   "repos": 32
+  },
+  {
+   "group": "human",
+   "reason": "no root package.json",
+   "repos": 19
+  },
+  {
+   "group": "human",
+   "reason": "monorepo",
+   "repos": 10
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "rows": [
+  {
+   "order": 1,
+   "stage": "Clone, inventory, size",
+   "start_s": 0,
+   "seconds": 6,
+   "result": "1,069 prod lines, 528 test lines"
+  },
+  {
+   "order": 2,
+   "stage": "ESLint + SonarJS",
+   "start_s": 6,
+   "seconds": 6,
+   "result": "1 violation"
+  },
+  {
+   "order": 3,
+   "stage": "Duplication (jscpd)",
+   "start_s": 12,
+   "seconds": 1,
+   "result": "ok"
+  },
+  {
+   "order": 4,
+   "stage": "Install (npm ci)",
+   "start_s": 13,
+   "seconds": 4,
+   "result": "ok, first try"
+  },
+  {
+   "order": 5,
+   "stage": "Compile (tsc)",
+   "start_s": 17,
+   "seconds": 2,
+   "result": "0 errors"
+  },
+  {
+   "order": 6,
+   "stage": "Project tests",
+   "start_s": 19,
+   "seconds": 1,
+   "result": "passed"
+  },
+  {
+   "order": 7,
+   "stage": "Mutation (StrykerJS)",
+   "start_s": 20,
+   "seconds": 37,
+   "result": "score 0.528"
+  }
+ ]
+}

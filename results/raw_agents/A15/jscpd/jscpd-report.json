@@ -1,0 +1,3717 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T09:25:13.771Z",
+    "formats": {
+      "javascript": {
+        "sources": {
+          "src/app/dashboard/warehouses/[id]/stock/page.tsx": {
+            "lines": 31,
+            "tokens": 308,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/[id]/edit/page.tsx": {
+            "lines": 12,
+            "tokens": 81,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/[id]/page.tsx": {
+            "lines": 32,
+            "tokens": 266,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/[id]/page.tsx": {
+            "lines": 33,
+            "tokens": 287,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/sales/[id]/page.tsx": {
+            "lines": 75,
+            "tokens": 774,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/[id]/edit/page.tsx": {
+            "lines": 2,
+            "tokens": 25,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/[id]/page.tsx": {
+            "lines": 43,
+            "tokens": 358,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/purchases/[id]/page.tsx": {
+            "lines": 92,
+            "tokens": 928,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/production/[id]/page.tsx": {
+            "lines": 65,
+            "tokens": 610,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos-orders/[id]/page.tsx": {
+            "lines": 77,
+            "tokens": 900,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/[id]/edit/page.tsx": {
+            "lines": 26,
+            "tokens": 279,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/[id]/edit/page.tsx": {
+            "lines": 34,
+            "tokens": 295,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/[id]/page.tsx": {
+            "lines": 42,
+            "tokens": 349,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/[id]/delivery-checklist.tsx": {
+            "lines": 29,
+            "tokens": 212,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/[id]/add-items-form.tsx": {
+            "lines": 66,
+            "tokens": 691,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 75,
+            "duplicatedTokens": 686,
+            "percentage": 113.64,
+            "percentageTokens": 99.28,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/customers/[id]/page.tsx": {
+            "lines": 92,
+            "tokens": 769,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/counts/[id]/page.tsx": {
+            "lines": 47,
+            "tokens": 400,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/counts/[id]/count-qty-input.tsx": {
+            "lines": 30,
+            "tokens": 233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/table.tsx": {
+            "lines": 46,
+            "tokens": 427,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/submit-button.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/searchable-select.tsx": {
+            "lines": 28,
+            "tokens": 259,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/input.tsx": {
+            "lines": 29,
+            "tokens": 199,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/confirm-submit-button.tsx": {
+            "lines": 5,
+            "tokens": 41,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/card.tsx": {
+            "lines": 16,
+            "tokens": 176,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/button.tsx": {
+            "lines": 7,
+            "tokens": 27,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/nav-icons.tsx": {
+            "lines": 184,
+            "tokens": 1840,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/brand-mark.tsx": {
+            "lines": 43,
+            "tokens": 248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/app-shell.tsx": {
+            "lines": 209,
+            "tokens": 1394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/forms/code-name-form.tsx": {
+            "lines": 14,
+            "tokens": 188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/catalog/item-catalog-list.tsx": {
+            "lines": 147,
+            "tokens": 1512,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/login/login-form.tsx": {
+            "lines": 27,
+            "tokens": 269,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/units/page.tsx": {
+            "lines": 18,
+            "tokens": 133,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/transfers/transfer-form.tsx": {
+            "lines": 53,
+            "tokens": 457,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/transfers/settlement-edit-form.tsx": {
+            "lines": 48,
+            "tokens": 450,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/transfers/page.tsx": {
+            "lines": 204,
+            "tokens": 1801,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/supplier-form.tsx": {
+            "lines": 38,
+            "tokens": 486,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/page.tsx": {
+            "lines": 25,
+            "tokens": 239,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/step-qty-input.tsx": {
+            "lines": 42,
+            "tokens": 364,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/signature-pad.tsx": {
+            "lines": 24,
+            "tokens": 186,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-wizard.tsx": {
+            "lines": 179,
+            "tokens": 1442,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-report-view.tsx": {
+            "lines": 12,
+            "tokens": 119,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-report-list.tsx": {
+            "lines": 106,
+            "tokens": 1011,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-delete-button.tsx": {
+            "lines": 8,
+            "tokens": 90,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-data-form.tsx": {
+            "lines": 129,
+            "tokens": 1184,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/page.tsx": {
+            "lines": 10,
+            "tokens": 99,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/schedule/schedule-forms.tsx": {
+            "lines": 154,
+            "tokens": 1652,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/schedule/page.tsx": {
+            "lines": 48,
+            "tokens": 454,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/sales/page.tsx": {
+            "lines": 12,
+            "tokens": 207,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/review-users/page.tsx": {
+            "lines": 28,
+            "tokens": 289,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/reports/page.tsx": {
+            "lines": 136,
+            "tokens": 1156,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/page.tsx": {
+            "lines": 34,
+            "tokens": 312,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/new/recipe-form.tsx": {
+            "lines": 112,
+            "tokens": 1029,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/purchases/page.tsx": {
+            "lines": 38,
+            "tokens": 353,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/purchases/new/po-form.tsx": {
+            "lines": 120,
+            "tokens": 1102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/production/page.tsx": {
+            "lines": 39,
+            "tokens": 392,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/production/new/production-form.tsx": {
+            "lines": 44,
+            "tokens": 374,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos/pos-client.tsx": {
+            "lines": 122,
+            "tokens": 1062,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos/page.tsx": {
+            "lines": 2,
+            "tokens": 29,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos-orders/page.tsx": {
+            "lines": 96,
+            "tokens": 860,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/org/page.tsx": {
+            "lines": 51,
+            "tokens": 501,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/materials/page.tsx": {
+            "lines": 57,
+            "tokens": 446,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/page.tsx": {
+            "lines": 48,
+            "tokens": 508,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/layout.tsx": {
+            "lines": 4,
+            "tokens": 28,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/page.tsx": {
+            "lines": 13,
+            "tokens": 99,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/new/page.tsx": {
+            "lines": 17,
+            "tokens": 180,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/new/item-form.tsx": {
+            "lines": 158,
+            "tokens": 1434,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/inventory/page.tsx": {
+            "lines": 77,
+            "tokens": 716,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/inventory/inventory-forms.tsx": {
+            "lines": 92,
+            "tokens": 972,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/page.tsx": {
+            "lines": 51,
+            "tokens": 476,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/employee-preference-form.tsx": {
+            "lines": 65,
+            "tokens": 597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/employee-form.tsx": {
+            "lines": 90,
+            "tokens": 804,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/employee-delete-form.tsx": {
+            "lines": 16,
+            "tokens": 156,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/new/page.tsx": {
+            "lines": 4,
+            "tokens": 79,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/new/delivery-form.tsx": {
+            "lines": 103,
+            "tokens": 954,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 75,
+            "duplicatedTokens": 686,
+            "percentage": 72.82,
+            "percentageTokens": 71.91,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/page.tsx": {
+            "lines": 9,
+            "tokens": 94,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/generate-delivery-button.tsx": {
+            "lines": 7,
+            "tokens": 114,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/delivery-store-card.tsx": {
+            "lines": 37,
+            "tokens": 351,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/customers/page.tsx": {
+            "lines": 17,
+            "tokens": 196,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/counts/page.tsx": {
+            "lines": 67,
+            "tokens": 600,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/categories/page.tsx": {
+            "lines": 30,
+            "tokens": 289,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/audit/page.tsx": {
+            "lines": 1,
+            "tokens": 5,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/attendance/page.tsx": {
+            "lines": 128,
+            "tokens": 1189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/attendance/attendance-forms.tsx": {
+            "lines": 80,
+            "tokens": 870,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/apply/apply-form.tsx": {
+            "lines": 33,
+            "tokens": 418,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4720,
+          "tokens": 43762,
+          "sources": 84,
+          "clones": 1,
+          "duplicatedLines": 75,
+          "duplicatedTokens": 686,
+          "percentage": 1.59,
+          "percentageTokens": 1.57,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/app/dashboard/warehouses/[id]/stock/page.tsx": {
+            "lines": 79,
+            "tokens": 811,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/[id]/edit/page.tsx": {
+            "lines": 42,
+            "tokens": 351,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/[id]/page.tsx": {
+            "lines": 69,
+            "tokens": 605,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/[id]/page.tsx": {
+            "lines": 69,
+            "tokens": 647,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/sales/[id]/page.tsx": {
+            "lines": 129,
+            "tokens": 1337,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 117,
+            "percentage": 6.98,
+            "percentageTokens": 8.75,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/[id]/edit/page.tsx": {
+            "lines": 61,
+            "tokens": 771,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 228,
+            "percentage": 26.23,
+            "percentageTokens": 29.57,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/[id]/page.tsx": {
+            "lines": 89,
+            "tokens": 844,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/purchases/[id]/page.tsx": {
+            "lines": 152,
+            "tokens": 1559,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/production/[id]/page.tsx": {
+            "lines": 115,
+            "tokens": 1077,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 117,
+            "percentage": 7.83,
+            "percentageTokens": 10.86,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos-orders/[id]/page.tsx": {
+            "lines": 143,
+            "tokens": 1493,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 23,
+            "duplicatedTokens": 185,
+            "percentage": 16.08,
+            "percentageTokens": 12.39,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/[id]/edit/page.tsx": {
+            "lines": 63,
+            "tokens": 645,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/[id]/edit/page.tsx": {
+            "lines": 69,
+            "tokens": 624,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/[id]/page.tsx": {
+            "lines": 93,
+            "tokens": 855,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/[id]/delivery-checklist.tsx": {
+            "lines": 103,
+            "tokens": 882,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/[id]/add-items-form.tsx": {
+            "lines": 103,
+            "tokens": 1119,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 111,
+            "percentage": 7.77,
+            "percentageTokens": 9.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/customers/[id]/page.tsx": {
+            "lines": 149,
+            "tokens": 1329,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/counts/[id]/page.tsx": {
+            "lines": 97,
+            "tokens": 827,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/counts/[id]/count-qty-input.tsx": {
+            "lines": 84,
+            "tokens": 660,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/table.tsx": {
+            "lines": 57,
+            "tokens": 520,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/success-banner.tsx": {
+            "lines": 8,
+            "tokens": 56,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/submit-button.tsx": {
+            "lines": 23,
+            "tokens": 154,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/searchable-select.tsx": {
+            "lines": 82,
+            "tokens": 749,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/input.tsx": {
+            "lines": 40,
+            "tokens": 296,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/confirm-submit-button.tsx": {
+            "lines": 28,
+            "tokens": 201,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/card.tsx": {
+            "lines": 24,
+            "tokens": 251,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ui/button.tsx": {
+            "lines": 41,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/page-header.tsx": {
+            "lines": 20,
+            "tokens": 160,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/nav-icons.tsx": {
+            "lines": 221,
+            "tokens": 2228,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/brand-mark.tsx": {
+            "lines": 69,
+            "tokens": 407,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/back-button.tsx": {
+            "lines": 31,
+            "tokens": 198,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/app-shell.tsx": {
+            "lines": 261,
+            "tokens": 1843,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/forms/code-name-form.tsx": {
+            "lines": 35,
+            "tokens": 391,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/catalog/item-catalog-list.tsx": {
+            "lines": 198,
+            "tokens": 1948,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/login/page.tsx": {
+            "lines": 17,
+            "tokens": 130,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/login/login-form.tsx": {
+            "lines": 54,
+            "tokens": 493,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/page.tsx": {
+            "lines": 6,
+            "tokens": 34,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/layout.tsx": {
+            "lines": 22,
+            "tokens": 153,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/units/page.tsx": {
+            "lines": 51,
+            "tokens": 450,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/transfers/transfer-form.tsx": {
+            "lines": 75,
+            "tokens": 675,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/transfers/settlement-edit-form.tsx": {
+            "lines": 86,
+            "tokens": 776,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/transfers/page.tsx": {
+            "lines": 258,
+            "tokens": 2309,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/supplier-form.tsx": {
+            "lines": 70,
+            "tokens": 750,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/suppliers/page.tsx": {
+            "lines": 85,
+            "tokens": 728,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/step-qty-input.tsx": {
+            "lines": 88,
+            "tokens": 701,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/signature-pad.tsx": {
+            "lines": 193,
+            "tokens": 1935,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-wizard.tsx": {
+            "lines": 348,
+            "tokens": 3310,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-report-view.tsx": {
+            "lines": 116,
+            "tokens": 1480,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-report-list.tsx": {
+            "lines": 154,
+            "tokens": 1451,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-delete-button.tsx": {
+            "lines": 30,
+            "tokens": 229,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/shift-closing-data-form.tsx": {
+            "lines": 218,
+            "tokens": 1956,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/shift-closing/page.tsx": {
+            "lines": 55,
+            "tokens": 448,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/schedule/schedule-forms.tsx": {
+            "lines": 175,
+            "tokens": 1828,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/schedule/page.tsx": {
+            "lines": 96,
+            "tokens": 990,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/sales/page.tsx": {
+            "lines": 60,
+            "tokens": 632,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/review-users/page.tsx": {
+            "lines": 81,
+            "tokens": 787,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/reports/page.tsx": {
+            "lines": 202,
+            "tokens": 1855,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/page.tsx": {
+            "lines": 65,
+            "tokens": 562,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/new/recipe-form.tsx": {
+            "lines": 174,
+            "tokens": 1714,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/recipes/new/page.tsx": {
+            "lines": 36,
+            "tokens": 487,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 228,
+            "percentage": 44.44,
+            "percentageTokens": 46.82,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/purchases/page.tsx": {
+            "lines": 74,
+            "tokens": 643,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/purchases/new/po-form.tsx": {
+            "lines": 170,
+            "tokens": 1728,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 166,
+            "percentage": 11.76,
+            "percentageTokens": 9.61,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/purchases/new/page.tsx": {
+            "lines": 40,
+            "tokens": 489,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/production/page.tsx": {
+            "lines": 81,
+            "tokens": 806,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/production/new/production-form.tsx": {
+            "lines": 80,
+            "tokens": 713,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 113,
+            "percentage": 16.25,
+            "percentageTokens": 15.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/production/new/page.tsx": {
+            "lines": 31,
+            "tokens": 322,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos/pos-client.tsx": {
+            "lines": 308,
+            "tokens": 3060,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos/page.tsx": {
+            "lines": 19,
+            "tokens": 195,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/pos-orders/page.tsx": {
+            "lines": 185,
+            "tokens": 1764,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 23,
+            "duplicatedTokens": 185,
+            "percentage": 12.43,
+            "percentageTokens": 10.49,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/org/page.tsx": {
+            "lines": 109,
+            "tokens": 1028,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/materials/page.tsx": {
+            "lines": 111,
+            "tokens": 969,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 100,
+            "percentage": 9.01,
+            "percentageTokens": 10.32,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/page.tsx": {
+            "lines": 92,
+            "tokens": 840,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/loading.tsx": {
+            "lines": 12,
+            "tokens": 55,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/layout.tsx": {
+            "lines": 36,
+            "tokens": 278,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/page.tsx": {
+            "lines": 40,
+            "tokens": 334,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 100,
+            "percentage": 25,
+            "percentageTokens": 29.94,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/new/page.tsx": {
+            "lines": 43,
+            "tokens": 421,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/items/new/item-form.tsx": {
+            "lines": 235,
+            "tokens": 2156,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/inventory/page.tsx": {
+            "lines": 164,
+            "tokens": 1566,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/inventory/inventory-forms.tsx": {
+            "lines": 111,
+            "tokens": 1165,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 61,
+            "duplicatedTokens": 559,
+            "percentage": 54.95,
+            "percentageTokens": 47.98,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/page.tsx": {
+            "lines": 106,
+            "tokens": 943,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/employee-preference-form.tsx": {
+            "lines": 104,
+            "tokens": 923,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/employee-form.tsx": {
+            "lines": 134,
+            "tokens": 1154,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/employees/employee-delete-form.tsx": {
+            "lines": 71,
+            "tokens": 604,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/new/page.tsx": {
+            "lines": 43,
+            "tokens": 385,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/new/delivery-form.tsx": {
+            "lines": 150,
+            "tokens": 1486,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 28,
+            "duplicatedTokens": 277,
+            "percentage": 18.67,
+            "percentageTokens": 18.64,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/page.tsx": {
+            "lines": 43,
+            "tokens": 378,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/generate-delivery-button.tsx": {
+            "lines": 23,
+            "tokens": 256,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/deliveries/delivery-store-card.tsx": {
+            "lines": 83,
+            "tokens": 743,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/customers/page.tsx": {
+            "lines": 64,
+            "tokens": 585,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/counts/page.tsx": {
+            "lines": 129,
+            "tokens": 1242,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/categories/page.tsx": {
+            "lines": 77,
+            "tokens": 695,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/audit/page.tsx": {
+            "lines": 52,
+            "tokens": 503,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/attendance/page.tsx": {
+            "lines": 196,
+            "tokens": 1901,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dashboard/attendance/attendance-forms.tsx": {
+            "lines": 106,
+            "tokens": 1183,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 32,
+            "duplicatedTokens": 294,
+            "percentage": 30.19,
+            "percentageTokens": 24.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/apply/page.tsx": {
+            "lines": 16,
+            "tokens": 120,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/apply/apply-form.tsx": {
+            "lines": 71,
+            "tokens": 732,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 9071,
+          "tokens": 85379,
+          "sources": 95,
+          "clones": 9,
+          "duplicatedLines": 139,
+          "duplicatedTokens": 1390,
+          "percentage": 1.53,
+          "percentageTokens": 1.63,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "typescript": {
+        "sources": {
+          "src/app/api/shift-closing/[id]/export/route.ts": {
+            "lines": 26,
+            "tokens": 252,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/server/services/stock.ts": {
+            "lines": 136,
+            "tokens": 1215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/server/services/sequence.ts": {
+            "lines": 43,
+            "tokens": 361,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/users/actions.ts": {
+            "lines": 96,
+            "tokens": 1027,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/shift-closing/types.ts": {
+            "lines": 177,
+            "tokens": 1736,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/shift-closing/service.ts": {
+            "lines": 167,
+            "tokens": 1629,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 142,
+            "percentage": 8.98,
+            "percentageTokens": 8.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/shift-closing/schemas.ts": {
+            "lines": 69,
+            "tokens": 702,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/shift-closing/export.ts": {
+            "lines": 188,
+            "tokens": 2397,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/shift-closing/actions.ts": {
+            "lines": 154,
+            "tokens": 1538,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/reports/service.ts": {
+            "lines": 105,
+            "tokens": 1160,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/reports/dashboard-service.ts": {
+            "lines": 93,
+            "tokens": 1057,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/purchasing/service.ts": {
+            "lines": 49,
+            "tokens": 618,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/purchasing/schemas.ts": {
+            "lines": 26,
+            "tokens": 365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/purchasing/labels.ts": {
+            "lines": 15,
+            "tokens": 208,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/purchasing/actions.ts": {
+            "lines": 345,
+            "tokens": 3527,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/production/service.ts": {
+            "lines": 96,
+            "tokens": 1358,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/production/schemas.ts": {
+            "lines": 21,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/production/actions.ts": {
+            "lines": 309,
+            "tokens": 3082,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 28,
+            "duplicatedTokens": 218,
+            "percentage": 9.06,
+            "percentageTokens": 7.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/print/actions.ts": {
+            "lines": 40,
+            "tokens": 406,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/pos/service.ts": {
+            "lines": 71,
+            "tokens": 870,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/pos/schemas.ts": {
+            "lines": 25,
+            "tokens": 285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/pos/labels.ts": {
+            "lines": 17,
+            "tokens": 248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/pos/checkout.ts": {
+            "lines": 269,
+            "tokens": 2709,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/inventory/transfer-service.ts": {
+            "lines": 194,
+            "tokens": 2201,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/inventory/transfer-labels.ts": {
+            "lines": 20,
+            "tokens": 210,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/inventory/transfer-export.ts": {
+            "lines": 158,
+            "tokens": 2012,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/inventory/service.ts": {
+            "lines": 178,
+            "tokens": 1974,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/inventory/count-actions.ts": {
+            "lines": 186,
+            "tokens": 1889,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/inventory/actions.ts": {
+            "lines": 307,
+            "tokens": 3151,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/hr/service.ts": {
+            "lines": 103,
+            "tokens": 1310,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/hr/auto-schedule.ts": {
+            "lines": 476,
+            "tokens": 6059,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 35,
+            "duplicatedTokens": 428,
+            "percentage": 7.35,
+            "percentageTokens": 7.06,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/hr/auto-schedule-utils.ts": {
+            "lines": 51,
+            "tokens": 545,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/hr/auto-schedule-report.ts": {
+            "lines": 389,
+            "tokens": 5033,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 35,
+            "duplicatedTokens": 428,
+            "percentage": 9,
+            "percentageTokens": 8.5,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/hr/actions.ts": {
+            "lines": 647,
+            "tokens": 7104,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 40,
+            "duplicatedTokens": 548,
+            "percentage": 6.18,
+            "percentageTokens": 7.71,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/delivery/service.ts": {
+            "lines": 130,
+            "tokens": 1221,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 142,
+            "percentage": 11.54,
+            "percentageTokens": 11.63,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/delivery/schemas.ts": {
+            "lines": 20,
+            "tokens": 215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/delivery/labels.ts": {
+            "lines": 11,
+            "tokens": 126,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/delivery/generate-from-count.ts": {
+            "lines": 199,
+            "tokens": 2226,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/delivery/actions.ts": {
+            "lines": 244,
+            "tokens": 2492,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/crm/service.ts": {
+            "lines": 30,
+            "tokens": 301,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/crm/actions.ts": {
+            "lines": 155,
+            "tokens": 1709,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/catalog/service.ts": {
+            "lines": 82,
+            "tokens": 999,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/catalog/schemas.ts": {
+            "lines": 41,
+            "tokens": 536,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/catalog/actions.ts": {
+            "lines": 295,
+            "tokens": 3309,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 46,
+            "duplicatedTokens": 520,
+            "percentage": 15.59,
+            "percentageTokens": 15.71,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/auth/schemas.ts": {
+            "lines": 22,
+            "tokens": 251,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/modules/auth/actions.ts": {
+            "lines": 118,
+            "tokens": 1104,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/middleware.ts": {
+            "lines": 33,
+            "tokens": 316,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/print/tspl.ts": {
+            "lines": 81,
+            "tokens": 820,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/print/receipt.ts": {
+            "lines": 122,
+            "tokens": 536,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/permissions/index.ts": {
+            "lines": 88,
+            "tokens": 871,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/permissions/catalog.ts": {
+            "lines": 209,
+            "tokens": 1793,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/money/index.ts": {
+            "lines": 87,
+            "tokens": 817,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/errors/index.ts": {
+            "lines": 75,
+            "tokens": 567,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/dates/index.ts": {
+            "lines": 54,
+            "tokens": 573,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/utils.ts": {
+            "lines": 7,
+            "tokens": 65,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/state-machine.ts": {
+            "lines": 55,
+            "tokens": 508,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/forms.ts": {
+            "lines": 26,
+            "tokens": 274,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/env.ts": {
+            "lines": 45,
+            "tokens": 483,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/db.ts": {
+            "lines": 18,
+            "tokens": 147,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/constants.ts": {
+            "lines": 40,
+            "tokens": 313,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/auth/index.ts": {
+            "lines": 111,
+            "tokens": 1103,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/auth/config.ts": {
+            "lines": 42,
+            "tokens": 424,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/auth/bootstrap-owner.ts": {
+            "lines": 52,
+            "tokens": 487,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/audit/index.ts": {
+            "lines": 35,
+            "tokens": 306,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/api/response.ts": {
+            "lines": 43,
+            "tokens": 387,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/nav.ts": {
+            "lines": 41,
+            "tokens": 687,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/transfers/export/route.ts": {
+            "lines": 26,
+            "tokens": 253,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/reports/sales/route.ts": {
+            "lines": 46,
+            "tokens": 505,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/pos/orders/route.ts": {
+            "lines": 180,
+            "tokens": 2103,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/api/health/route.ts": {
+            "lines": 25,
+            "tokens": 182,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "prisma/seed.ts": {
+            "lines": 437,
+            "tokens": 6064,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 8571,
+          "tokens": 93573,
+          "sources": 71,
+          "clones": 8,
+          "duplicatedLines": 107,
+          "duplicatedTokens": 1213,
+          "percentage": 1.25,
+          "percentageTokens": 1.3,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 22362,
+      "tokens": 222714,
+      "sources": 250,
+      "clones": 18,
+      "duplicatedLines": 321,
+      "duplicatedTokens": 3289,
+      "percentage": 1.44,
+      "percentageTokens": 1.48,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "tsx",
+      "lines": 10,
+      "fragment": ";\nimport { BackButton } from \"@/components/layout/back-button\";\nimport { PageHeader } from \"@/components/layout/page-header\";\nimport { Card, CardContent, CardHeader, CardTitle } from \"@/components/ui/card\";\nimport { Table, THead, TH, TR, TD, Badge } from \"@/components/ui/table\";\nimport { SubmitButton } from \"@/components/ui/submit-button\";\nimport { Input } from \"@/components/ui/input\";\nimport { formatTWD } from \"@/lib/money\";\n\n",
+      "tokens": 117,
+      "firstFile": {
+        "name": "src/app/dashboard/production/[id]/page.tsx",
+        "start": 4,
+        "end": 13,
+        "startLoc": {
+          "line": 4,
+          "column": 72,
+          "position": 50
+        },
+        "endLoc": {
+          "line": 13,
+          "column": 1,
+          "position": 167
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/sales/[id]/page.tsx",
+        "start": 5,
+        "end": 13,
+        "startLoc": {
+          "line": 5,
+          "column": 66,
+          "position": 63
+        },
+        "endLoc": {
+          "line": 13,
+          "column": 7,
+          "position": 180
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ",\n          outputQty: toDecimal(data.outputQty),\n          createdBy: actor.id,\n          items: {\n            create: data.lines.map((l) => ({\n              companyId: scope.companyId,\n              materialId: l.materialId,\n              quantity: toDecimal(l.quantity),\n              wasteRate: toDecimal(l.wasteRate),\n            })),\n          },\n        },\n      });\n\n",
+      "tokens": 109,
+      "firstFile": {
+        "name": "src/modules/production/actions.ts",
+        "start": 99,
+        "end": 113,
+        "startLoc": {
+          "line": 99,
+          "column": 31,
+          "position": 1114
+        },
+        "endLoc": {
+          "line": 113,
+          "column": 1,
+          "position": 1223
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/production/actions.ts",
+        "start": 34,
+        "end": 47,
+        "startLoc": {
+          "line": 34,
+          "column": 21,
+          "position": 420
+        },
+        "endLoc": {
+          "line": 47,
+          "column": 7,
+          "position": 529
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": "\n\nfunction shiftStartMinutes(shift: Shift): number {\n  const parts = shift.startTime.split(\":\").map(Number);\n  const h = parts[0] ?? 0;\n  const m = parts[1] ?? 0;\n  return h * 60 + m;\n}\n\nfunction shiftEndMinutes(shift: Shift): number {\n  const parts = shift.endTime.split(\":\").map(Number);\n  const h = parts[0] ?? 0;\n  const m = parts[1] ?? 0;\n  let end = h * 60 + m;\n  if (end <= shiftStartMinutes(shift)) end += 24 * 60;\n  return end;\n}\n\nfunction isEarlyShift(shift: Shift, all: Shift[]): boolean {\n  const",
+      "tokens": 241,
+      "firstFile": {
+        "name": "src/modules/hr/auto-schedule-report.ts",
+        "start": 47,
+        "end": 66,
+        "startLoc": {
+          "line": 47,
+          "column": 3,
+          "position": 336
+        },
+        "endLoc": {
+          "line": 66,
+          "column": 8,
+          "position": 577
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/hr/auto-schedule.ts",
+        "start": 91,
+        "end": 110,
+        "startLoc": {
+          "line": 91,
+          "column": 2,
+          "position": 1027
+        },
+        "endLoc": {
+          "line": 110,
+          "column": 9,
+          "position": 1268
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": "].sort((a, b) => a - b);\n  let max = 1;\n  let streak = 1;\n  for (let i = 1; i < sorted.length; i++) {\n    const prev = sorted[i - 1]!;\n    const current = sorted[i]!;\n    streak = current - prev === 86400000 ? streak + 1 : 1;\n    max = Math.max(max, streak);\n  }\n  return max;\n}\n\nfunction hasLateThenEarly(\n  employeeId: string,\n  day: Date,\n  shift: Shift,\n  rows: Array",
+      "tokens": 187,
+      "firstFile": {
+        "name": "src/modules/hr/auto-schedule-report.ts",
+        "start": 77,
+        "end": 93,
+        "startLoc": {
+          "line": 77,
+          "column": 70,
+          "position": 741
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 14,
+          "position": 928
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/hr/auto-schedule.ts",
+        "start": 120,
+        "end": 136,
+        "startLoc": {
+          "line": 120,
+          "column": 25,
+          "position": 1426
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 25,
+          "position": 1613
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ",\n      name: formData.get(\"name\"),\n      phone: formData.get(\"phone\") ?? \"\",\n      departmentId: formData.get(\"departmentId\") ?? \"\",\n      primaryStoreId: formData.get(\"primaryStoreId\") ?? \"\",\n      hourlyRate: formData.get(\"hourlyRate\") ?? \"\",\n      hireDate: formData.get(\"hireDate\") ?? \"\",\n      minMonthlyShifts: formData.get(\"minMonthlyShifts\") ?? \"\",\n      maxMonthlyShifts: formData.get(\"maxMonthlyShifts\") ?? \"\",\n    });\n\n",
+      "tokens": 138,
+      "firstFile": {
+        "name": "src/modules/hr/actions.ts",
+        "start": 80,
+        "end": 91,
+        "startLoc": {
+          "line": 80,
+          "column": 38,
+          "position": 1074
+        },
+        "endLoc": {
+          "line": 91,
+          "column": 1,
+          "position": 1212
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/hr/actions.ts",
+        "start": 33,
+        "end": 43,
+        "startLoc": {
+          "line": 33,
+          "column": 45,
+          "position": 461
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 5,
+          "position": 599
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\n        name: data.name,\n        phone: data.phone || null,\n        departmentId: data.departmentId || null,\n        primaryStoreId: data.primaryStoreId || null,\n        hourlyRate: data.hourlyRate ? data.hourlyRate : null,\n        hireDate: data.hireDate ? new Date(data.hireDate) : null,\n        minMonthlyShifts: data.minMonthlyShifts ? Number(data.minMonthlyShifts) : null,\n        maxMonthlyShifts: data.maxMonthlyShifts ? Number(data.maxMonthlyShifts) : null,\n        ",
+      "tokens": 136,
+      "firstFile": {
+        "name": "src/modules/hr/actions.ts",
+        "start": 95,
+        "end": 104,
+        "startLoc": {
+          "line": 95,
+          "column": 14,
+          "position": 1260
+        },
+        "endLoc": {
+          "line": 104,
+          "column": 9,
+          "position": 1396
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/hr/actions.ts",
+        "start": 50,
+        "end": 59,
+        "startLoc": {
+          "line": 50,
+          "column": 37,
+          "position": 703
+        },
+        "endLoc": {
+          "line": 59,
+          "column": 7,
+          "position": 839
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "(actor: Actor) {\n  const scope = companyScope(actor);\n  const stores = await prisma.store.findMany({\n    where: { ...scope, deletedAt: null, isActive: true },\n    orderBy: { code: \"asc\" },\n  });\n  return stores.filter((s) => {\n    try {\n      assertStoreAccess(actor, s.id);\n      return true;\n    } catch {\n      return false;\n    }\n  });\n}\n",
+      "tokens": 142,
+      "firstFile": {
+        "name": "src/modules/delivery/service.ts",
+        "start": 115,
+        "end": 130,
+        "startLoc": {
+          "line": 115,
+          "column": 41,
+          "position": 1079
+        },
+        "endLoc": {
+          "line": 130,
+          "column": 1,
+          "position": 1221
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/shift-closing/service.ts",
+        "start": 46,
+        "end": 61,
+        "startLoc": {
+          "line": 46,
+          "column": 45,
+          "position": 377
+        },
+        "endLoc": {
+          "line": 61,
+          "column": 1,
+          "position": 519
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "),\n      standardCost: formData.get(\"standardCost\") ?? \"0\",\n      trackStock: formData.get(\"trackStock\") === \"on\" || formData.get(\"trackStock\") === \"true\",\n      safetyStock: formData.get(\"safetyStock\") ?? \"0\",\n      reorderPoint: formData.get(\"reorderPoint\") ?? \"0\",\n      shelfLifeDays: (formData.get(\"shelfLifeDays\") as string) ?? \"\",\n      supplierId: formData.get(\"supplierId\") ?? \"\",\n    });\n\n    await",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/modules/catalog/actions.ts",
+        "start": 104,
+        "end": 113,
+        "startLoc": {
+          "line": 104,
+          "column": 83,
+          "position": 1276
+        },
+        "endLoc": {
+          "line": 113,
+          "column": 10,
+          "position": 1406
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/catalog/actions.ts",
+        "start": 33,
+        "end": 42,
+        "startLoc": {
+          "line": 33,
+          "column": 42,
+          "position": 418
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 10,
+          "position": 548
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": "\n          barcode: data.barcode || null,\n          name: data.name,\n          type: data.type,\n          categoryId: data.categoryId || null,\n          baseUnitId: data.baseUnitId,\n          taxType: data.taxType,\n          price: data.price,\n          standardCost: data.standardCost,\n          trackStock: data.trackStock,\n          safetyStock: data.safetyStock,\n          reorderPoint: data.reorderPoint,\n          shelfLifeDays: data.shelfLifeDays,\n          supplierId: data.supplierId || null,\n        ",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/modules/catalog/actions.ts",
+        "start": 116,
+        "end": 130,
+        "startLoc": {
+          "line": 116,
+          "column": 16,
+          "position": 1455
+        },
+        "endLoc": {
+          "line": 130,
+          "column": 9,
+          "position": 1585
+        }
+      },
+      "secondFile": {
+        "name": "src/modules/catalog/actions.ts",
+        "start": 51,
+        "end": 65,
+        "startLoc": {
+          "line": 51,
+          "column": 25,
+          "position": 681
+        },
+        "endLoc": {
+          "line": 65,
+          "column": 11,
+          "position": 811
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 17,
+      "fragment": "\n  const [products, materials] = await Promise.all([\n    prisma.item.findMany({\n      where: { ...scope, deletedAt: null, type: { in: [\"SEMI_FINISHED\", \"FINISHED_GOOD\"] } },\n      select: { id: true, name: true, sku: true },\n      orderBy: { name: \"asc\" },\n    }),\n    prisma.item.findMany({\n      where: { ...scope, deletedAt: null, type: { in: [\"RAW_MATERIAL\", \"SEMI_FINISHED\"] } },\n      select: { id: true, name: true, sku: true },\n      orderBy: { name: \"asc\" },\n    }),\n  ]);\n\n  return (\n    <div className=\"space-y-4\">\n      <BackButton fallbackHref=",
+      "tokens": 228,
+      "firstFile": {
+        "name": "src/app/dashboard/recipes/new/page.tsx",
+        "start": 11,
+        "end": 27,
+        "startLoc": {
+          "line": 11,
+          "column": 37,
+          "position": 122
+        },
+        "endLoc": {
+          "line": 27,
+          "column": 32,
+          "position": 350
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/recipes/[id]/edit/page.tsx",
+        "start": 25,
+        "end": 41,
+        "startLoc": {
+          "line": 25,
+          "column": 1,
+          "position": 288
+        },
+        "endLoc": {
+          "line": 41,
+          "column": 61,
+          "position": 524
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 24,
+      "fragment": " } from \"@/components/ui/table\";\nimport { formatDate, formatDateTime } from \"@/lib/dates\";\n\nexport const dynamic = \"force-dynamic\";\n\nconst ORDER_TYPE_LABEL: Record<string, string> = {\n  DINE_IN: \"內用\",\n  TAKEOUT: \"外帶\",\n  DELIVERY: \"外送\",\n};\n\nconst PAYMENT_LABEL: Record<string, string> = {\n  Cash: \"現金\",\n  CreditCard: \"信用卡\",\n  MobilePay: \"行動支付\",\n  MemberPoints: \"會員點數\",\n  LinePay: \"LINE Pay\",\n};\n\nfunction money(value: unknown): string {\n  return Number(value).toLocaleString(\"zh-TW\", { maximumFractionDigits: 2 });\n}\n\nexport default async function PosOrdersPage",
+      "tokens": 185,
+      "firstFile": {
+        "name": "src/app/dashboard/pos-orders/page.tsx",
+        "start": 6,
+        "end": 29,
+        "startLoc": {
+          "line": 6,
+          "column": 46,
+          "position": 84
+        },
+        "endLoc": {
+          "line": 29,
+          "column": 44,
+          "position": 269
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/pos-orders/[id]/page.tsx",
+        "start": 7,
+        "end": 30,
+        "startLoc": {
+          "line": 7,
+          "column": 34,
+          "position": 94
+        },
+        "endLoc": {
+          "line": 30,
+          "column": 49,
+          "position": 279
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 11,
+      "fragment": "import Link from \"next/link\";\nimport { requirePermission } from \"@/lib/permissions\";\nimport { listItems } from \"@/modules/catalog/service\";\nimport { PageHeader } from \"@/components/layout/page-header\";\nimport { ItemCatalogList } from \"@/components/catalog/item-catalog-list\";\nimport { EmptyState } from \"@/components/ui/table\";\nimport { Button } from \"@/components/ui/button\";\n\nexport const dynamic = \"force-dynamic\";\n\nexport",
+      "tokens": 100,
+      "firstFile": {
+        "name": "src/app/dashboard/items/page.tsx",
+        "start": 1,
+        "end": 11,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 7,
+          "position": 100
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/materials/page.tsx",
+        "start": 1,
+        "end": 11,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 11,
+          "column": 6,
+          "position": 100
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 14,
+      "fragment": "</Label>\n          <Select name=\"warehouseId\" required defaultValue=\"\">\n            <option value=\"\" disabled>\n              請選擇\n            </option>\n            {warehouses.map((w) => (\n              <option key={w.id} value={w.id}>\n                {w.name}\n              </option>\n            ))}\n          </Select>\n        </div>\n        <div>\n          <Label>商品",
+      "tokens": 113,
+      "firstFile": {
+        "name": "src/app/dashboard/inventory/inventory-forms.tsx",
+        "start": 25,
+        "end": 38,
+        "startLoc": {
+          "line": 25,
+          "column": 20,
+          "position": 309
+        },
+        "endLoc": {
+          "line": 38,
+          "column": 20,
+          "position": 422
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/production/new/production-form.tsx",
+        "start": 47,
+        "end": 60,
+        "startLoc": {
+          "line": 47,
+          "column": 22,
+          "position": 455
+        },
+        "endLoc": {
+          "line": 60,
+          "column": 22,
+          "position": 568
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 25,
+      "fragment": ", initialFormState);\n  return (\n    <form action={action} className=\"space-y-3\">\n      <div className=\"grid grid-cols-1 gap-3 sm:grid-cols-2\">\n        <div>\n          <Label>倉庫</Label>\n          <Select name=\"warehouseId\" required defaultValue=\"\">\n            <option value=\"\" disabled>\n              請選擇\n            </option>\n            {warehouses.map((w) => (\n              <option key={w.id} value={w.id}>\n                {w.name}\n              </option>\n            ))}\n          </Select>\n        </div>\n        <div>\n          <Label>商品</Label>\n          <SearchableSelect name=\"itemId\" options={items} required placeholder=\"搜尋商品…\" />\n        </div>\n      </div>\n      <div className=\"grid grid-cols-1 gap-3 sm:grid-cols-2\">\n        <div>\n          <Label>數量",
+      "tokens": 223,
+      "firstFile": {
+        "name": "src/app/dashboard/inventory/inventory-forms.tsx",
+        "start": 70,
+        "end": 94,
+        "startLoc": {
+          "line": 70,
+          "column": 62,
+          "position": 773
+        },
+        "endLoc": {
+          "line": 94,
+          "column": 20,
+          "position": 996
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/inventory/inventory-forms.tsx",
+        "start": 20,
+        "end": 44,
+        "startLoc": {
+          "line": 20,
+          "column": 68,
+          "position": 260
+        },
+        "endLoc": {
+          "line": 44,
+          "column": 20,
+          "position": 483
+        }
+      }
+    },
+    {
+      "format": "javascript",
+      "lines": 76,
+      "fragment": "} />\n          <p className=\"mt-1 text-xs text-gray-400\">預設為今日（{formatDate(new Date(defaultDate))}）</p>\n        </div>\n      </div>\n\n      <div>\n        <Label>備註（選填）</Label>\n        <Input name=\"note\" placeholder=\"例如：早班配送\" />\n      </div>\n\n      <div className=\"rounded-lg border border-gray-200\">\n        <div className=\"grid grid-cols-12 gap-2 border-b bg-gray-50 px-3 py-2 text-xs font-medium text-gray-500\">\n          <div className=\"col-span-6\">品項</div>\n          <div className=\"col-span-2 text-right\">數量</div>\n          <div className=\"col-span-3\">備註</div>\n          <div className=\"col-span-1\"></div>\n        </div>\n        {lines.map((line, idx) => (\n          <div key={idx} className=\"grid grid-cols-12 items-center gap-2 px-3 py-2\">\n            <div className=\"col-span-6\">\n              <Select\n                value={line.itemId}\n                onChange={(e) => updateLine(idx, { itemId: e.target.value })}\n              >\n                <option value=\"\">請選擇品項</option>\n                {items.map((i) => (\n                  <option key={i.id} value={i.id}>\n                    {i.name}\n                  </option>\n                ))}\n              </Select>\n            </div>\n            <div className=\"col-span-2\">\n              <Input\n                type=\"number\"\n                step=\"0.0001\"\n                min=\"0\"\n                value={line.quantity}\n                onChange={(e) => updateLine(idx, { quantity: Number(e.target.value) })}\n                className=\"text-right\"\n              />\n            </div>\n            <div className=\"col-span-3\">\n              <Input\n                value={line.note}\n                onChange={(e) => updateLine(idx, { note: e.target.value })}\n                placeholder=\"選填\"\n              />\n            </div>\n            <div className=\"col-span-1 text-center\">\n              {lines.length > 1 && (\n                <button\n                  type=\"button\"\n                  className=\"text-xs text-red-600 hover:underline\"\n                  onClick={() => setLines((p) => p.filter((_, i) => i !== idx))}\n                >\n                  刪\n                </button>\n              )}\n            </div>\n          </div>\n        ))}\n        <div className=\"border-t px-3 py-2\">\n          <button\n            type=\"button\"\n            className=\"text-sm text-amber-700 hover:underline\"\n            onClick={() => setLines((p) => [...p, { itemId: \"\", quantity: 1, note: \"\" }])}\n          >\n            + 再加一項\n          </button>\n        </div>\n      </div>\n\n      {state.message && (\n        <p\n          className={`rounded-lg px-3 py-2 text-sm ",
+      "tokens": 686,
+      "firstFile": {
+        "name": "src/app/dashboard/deliveries/new/delivery-form.tsx",
+        "start": 61,
+        "end": 136,
+        "startLoc": {
+          "line": 61,
+          "column": 75,
+          "position": 719
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 52,
+          "position": 1405
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/deliveries/[id]/add-items-form.tsx",
+        "start": 38,
+        "end": 93,
+        "startLoc": {
+          "line": 38,
+          "column": 61,
+          "position": 476
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 58,
+          "position": 1036
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "\n  }, [state.ok, router]);\n\n  function updateLine(idx: number, patch: Partial<Line>) {\n    setLines((prev) => prev.map((l, i) => (i === idx ? { ...l, ...patch } : l)));\n  }\n\n  return (\n    <form action={action} className=\"max-w-3xl space-y-4",
+      "tokens": 111,
+      "firstFile": {
+        "name": "src/app/dashboard/deliveries/new/delivery-form.tsx",
+        "start": 34,
+        "end": 42,
+        "startLoc": {
+          "line": 34,
+          "column": 6,
+          "position": 398
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 57,
+          "position": 509
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/deliveries/[id]/add-items-form.tsx",
+        "start": 25,
+        "end": 33,
+        "startLoc": {
+          "line": 25,
+          "column": 36,
+          "position": 300
+        },
+        "endLoc": {
+          "line": 33,
+          "column": 85,
+          "position": 411
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 21,
+      "fragment": "</option>\n                {items.map((i) => (\n                  <option key={i.id} value={i.id}>\n                    {i.name}\n                  </option>\n                ))}\n              </Select>\n            </div>\n            <div className=\"col-span-2\">\n              <Input\n                type=\"number\"\n                step=\"0.0001\"\n                min=\"0\"\n                value={line.quantity}\n                onChange={(e) => updateLine(idx, { quantity: Number(e.target.value) })}\n                className=\"text-right\"\n              />\n            </div>\n            <div className=\"col-span-3\">\n              <Input\n                value",
+      "tokens": 166,
+      "firstFile": {
+        "name": "src/app/dashboard/deliveries/new/delivery-form.tsx",
+        "start": 85,
+        "end": 105,
+        "startLoc": {
+          "line": 85,
+          "column": 39,
+          "position": 980
+        },
+        "endLoc": {
+          "line": 105,
+          "column": 22,
+          "position": 1146
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/purchases/new/po-form.tsx",
+        "start": 93,
+        "end": 113,
+        "startLoc": {
+          "line": 93,
+          "column": 39,
+          "position": 1113
+        },
+        "endLoc": {
+          "line": 113,
+          "column": 21,
+          "position": 1279
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 17,
+      "fragment": "\n      <div className=\"grid grid-cols-1 gap-3 sm:grid-cols-2\">\n        <div>\n          <label className=\"mb-1 block text-xs text-gray-500\">員工</label>\n          <Select name=\"employeeId\" required defaultValue=\"\">\n            <option value=\"\" disabled>\n              請選擇\n            </option>\n            {employees.map((e) => (\n              <option key={e.id} value={e.id}>\n                {e.name}\n              </option>\n            ))}\n          </Select>\n        </div>\n        <div>\n          <label className=\"mb-1 block text-xs text-gray-500\">假別",
+      "tokens": 147,
+      "firstFile": {
+        "name": "src/app/dashboard/attendance/attendance-forms.tsx",
+        "start": 60,
+        "end": 76,
+        "startLoc": {
+          "line": 60,
+          "column": 49,
+          "position": 732
+        },
+        "endLoc": {
+          "line": 76,
+          "column": 65,
+          "position": 879
+        }
+      },
+      "secondFile": {
+        "name": "src/app/dashboard/attendance/attendance-forms.tsx",
+        "start": 23,
+        "end": 39,
+        "startLoc": {
+          "line": 23,
+          "column": 63,
+          "position": 327
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 65,
+          "position": 474
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+
+> neoblocker@1.2.0 test
+> vitest run
+
+[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vitest.config.ts:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.12 [39m[90m/work[39m
+
+ [32m✓[39m src/utils/storage.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m src/utils/extract.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mskips bias analysis when a safe-context keyword is a whole word
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mskips bias analysis when a safe-context keyword is a whole word
+[22m[39m[Neoblocker] Toxicity model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mstill runs bias analysis when a safe keyword is only part of a word
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mstill runs bias analysis when a safe keyword is only part of a word
+[22m[39m[Neoblocker] Toxicity model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mstill runs bias analysis when a safe keyword is only part of a word
+[22m[39m[Neoblocker] Loading bias model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mstill runs bias analysis when a safe keyword is only part of a word
+[22m[39m[Neoblocker] Bias model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mdoes not download the bias model unless it is enabled and toxicity fires
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mdoes not download the bias model unless it is enabled and toxicity fires
+[22m[39m[Neoblocker] Toxicity model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mblocks a threatening title in the fast title pass
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mblocks a threatening title in the fast title pass
+[22m[39m[Neoblocker] Toxicity model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mblocks strongly toxic deep-scan text using the weighted score
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mblocks strongly toxic deep-scan text using the weighted score
+[22m[39m[Neoblocker] Toxicity model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mblocks identity hate when the compact model scores toxicity and identity_hate
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mblocks identity hate when the compact model scores toxicity and identity_hate
+[22m[39m[Neoblocker] Toxicity model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mdoes not block explicit wording on its own
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mdoes not block explicit wording on its own
+[22m[39m[Neoblocker] Toxicity model ready.
+
+[90mstdout[2m | src/utils/ai-router.test.ts[2m > [22m[2manalyzeContent[2m > [22m[2mreturns an error instead of SAFE when a model cannot load
+[22m[39m[Neoblocker] Loading toxicity model (WASM)…
+
+ [32m✓[39m src/utils/ai-router.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 29[2mms[22m[39m
+ [32m✓[39m src/utils/keywords.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[32m33 passed[39m[22m[90m (33)[39m
+[2m   Start at [22m 09:18:17
+[2m   Duration [22m 1.13s[2m (transform 824ms, setup 292ms, import 825ms, tests 120ms, environment 0ms)[22m
+

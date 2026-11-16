@@ -1,0 +1,3081 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-08T08:36:21.660Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/retry.ts": {
+            "lines": 106,
+            "tokens": 796,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/logger.ts": {
+            "lines": 92,
+            "tokens": 840,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/helpers.ts": {
+            "lines": 295,
+            "tokens": 2832,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/config.ts": {
+            "lines": 179,
+            "tokens": 1799,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/store/chat-store.ts": {
+            "lines": 262,
+            "tokens": 2368,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/vscode-api.ts": {
+            "lines": 36,
+            "tokens": 233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview-provider.ts": {
+            "lines": 841,
+            "tokens": 7205,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/index.ts": {
+            "lines": 378,
+            "tokens": 2195,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension.ts": {
+            "lines": 976,
+            "tokens": 8782,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/visualization/city-generator.ts": {
+            "lines": 397,
+            "tokens": 3919,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 204,
+            "percentage": 5.54,
+            "percentageTokens": 5.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/tools/undo-manager.ts": {
+            "lines": 241,
+            "tokens": 1939,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 117,
+            "percentage": 4.98,
+            "percentageTokens": 6.03,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/tools/tool-registry.ts": {
+            "lines": 744,
+            "tokens": 7012,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 78,
+            "duplicatedTokens": 686,
+            "percentage": 10.48,
+            "percentageTokens": 9.78,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/tools/terminal-manager.ts": {
+            "lines": 203,
+            "tokens": 1714,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/tools/mcp-client.ts": {
+            "lines": 683,
+            "tokens": 6218,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 32,
+            "duplicatedTokens": 210,
+            "percentage": 4.69,
+            "percentageTokens": 3.38,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/tools/git-tools.ts": {
+            "lines": 626,
+            "tokens": 5394,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 191,
+            "percentage": 3.51,
+            "percentageTokens": 3.54,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/tools/code-validator.ts": {
+            "lines": 361,
+            "tokens": 3279,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/tools/checkpoint-manager.ts": {
+            "lines": 639,
+            "tokens": 5424,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 34,
+            "duplicatedTokens": 308,
+            "percentage": 5.32,
+            "percentageTokens": 5.68,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/swarm/swarm-orchestrator.ts": {
+            "lines": 607,
+            "tokens": 4882,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/swarm/conflict-resolver.ts": {
+            "lines": 330,
+            "tokens": 3024,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/swarm/agent-message-bus.ts": {
+            "lines": 218,
+            "tokens": 1748,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/sandbox/sandbox-manager.ts": {
+            "lines": 332,
+            "tokens": 2597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/provider-registry.ts": {
+            "lines": 191,
+            "tokens": 1697,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 38,
+            "duplicatedTokens": 338,
+            "percentage": 19.9,
+            "percentageTokens": 19.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/provider-interface.ts": {
+            "lines": 39,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/openai-provider.ts": {
+            "lines": 220,
+            "tokens": 1916,
+            "sources": 1,
+            "clones": 22,
+            "duplicatedLines": 497,
+            "duplicatedTokens": 4345,
+            "percentage": 225.91,
+            "percentageTokens": 226.77,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/ollama-provider.ts": {
+            "lines": 198,
+            "tokens": 1782,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 96,
+            "duplicatedTokens": 757,
+            "percentage": 48.48,
+            "percentageTokens": 42.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/mistral-provider.ts": {
+            "lines": 238,
+            "tokens": 2340,
+            "sources": 1,
+            "clones": 14,
+            "duplicatedLines": 277,
+            "duplicatedTokens": 2481,
+            "percentage": 116.39,
+            "percentageTokens": 106.03,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/groq-provider.ts": {
+            "lines": 234,
+            "tokens": 2134,
+            "sources": 1,
+            "clones": 8,
+            "duplicatedLines": 194,
+            "duplicatedTokens": 1794,
+            "percentage": 82.91,
+            "percentageTokens": 84.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/google-provider.ts": {
+            "lines": 299,
+            "tokens": 2883,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 79,
+            "duplicatedTokens": 761,
+            "percentage": 26.42,
+            "percentageTokens": 26.4,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/custom-provider.ts": {
+            "lines": 220,
+            "tokens": 1932,
+            "sources": 1,
+            "clones": 7,
+            "duplicatedLines": 267,
+            "duplicatedTokens": 2396,
+            "percentage": 121.36,
+            "percentageTokens": 124.02,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/azure-provider.ts": {
+            "lines": 253,
+            "tokens": 2290,
+            "sources": 1,
+            "clones": 8,
+            "duplicatedLines": 203,
+            "duplicatedTokens": 1849,
+            "percentage": 80.24,
+            "percentageTokens": 80.74,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/providers/anthropic-provider.ts": {
+            "lines": 329,
+            "tokens": 2964,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 77,
+            "duplicatedTokens": 773,
+            "percentage": 23.4,
+            "percentageTokens": 26.08,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/predictive/intent-engine.ts": {
+            "lines": 234,
+            "tokens": 1656,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/predictive/behavior-analyzer.ts": {
+            "lines": 276,
+            "tokens": 2477,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/plugins/plugin-loader.ts": {
+            "lines": 675,
+            "tokens": 6656,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 31,
+            "duplicatedTokens": 373,
+            "percentage": 4.59,
+            "percentageTokens": 5.6,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/plugins/plugin-api.ts": {
+            "lines": 216,
+            "tokens": 1421,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 107,
+            "percentage": 4.17,
+            "percentageTokens": 7.53,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/personality/personality-engine.ts": {
+            "lines": 316,
+            "tokens": 1465,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/onboarding/onboarding-manager.ts": {
+            "lines": 158,
+            "tokens": 1026,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/memory/vector-store.ts": {
+            "lines": 287,
+            "tokens": 2278,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/memory/rag-engine.ts": {
+            "lines": 474,
+            "tokens": 4180,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/memory/memory-manager.ts": {
+            "lines": 557,
+            "tokens": 5352,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/memory/embedding-generator.ts": {
+            "lines": 249,
+            "tokens": 2048,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/memory/context-manager.ts": {
+            "lines": 224,
+            "tokens": 2017,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/health/vital-monitor.ts": {
+            "lines": 708,
+            "tokens": 6864,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/ghost/style-extractor.ts": {
+            "lines": 532,
+            "tokens": 5463,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/ghost/ghost-observer.ts": {
+            "lines": 220,
+            "tokens": 1573,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/genome/semantic-indexer.ts": {
+            "lines": 293,
+            "tokens": 2505,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/genome/graph-store.ts": {
+            "lines": 418,
+            "tokens": 3613,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/genome/genome-builder.ts": {
+            "lines": 594,
+            "tokens": 4506,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/genome/blast-radius-analyzer.ts": {
+            "lines": 279,
+            "tokens": 2318,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/evolution/prompt-optimizer.ts": {
+            "lines": 120,
+            "tokens": 822,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/evolution/correction-tracker.ts": {
+            "lines": 359,
+            "tokens": 3213,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/chat/conversation-summarizer.ts": {
+            "lines": 268,
+            "tokens": 2172,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/chat/conversation-history.ts": {
+            "lines": 245,
+            "tokens": 2233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/chat/chat-manager.ts": {
+            "lines": 760,
+            "tokens": 6394,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 78,
+            "duplicatedTokens": 780,
+            "percentage": 10.26,
+            "percentageTokens": 12.2,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/builder/feature-builder.ts": {
+            "lines": 685,
+            "tokens": 5650,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 136,
+            "duplicatedTokens": 1368,
+            "percentage": 19.85,
+            "percentageTokens": 24.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/agent/terminal-agent.ts": {
+            "lines": 163,
+            "tokens": 785,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/agent/reviewer-agent.ts": {
+            "lines": 146,
+            "tokens": 686,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/agent/research-agent.ts": {
+            "lines": 140,
+            "tokens": 694,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/agent/orchestrator-agent.ts": {
+            "lines": 445,
+            "tokens": 3806,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/agent/debugger-agent.ts": {
+            "lines": 124,
+            "tokens": 641,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/agent/base-agent.ts": {
+            "lines": 248,
+            "tokens": 1958,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/agent/architect-agent.ts": {
+            "lines": 109,
+            "tokens": 504,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 21289,
+          "tokens": 181381,
+          "sources": 62,
+          "clones": 51,
+          "duplicatedLines": 1091,
+          "duplicatedTokens": 9919,
+          "percentage": 5.12,
+          "percentageTokens": 5.47,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/ui/webview/components/icons/AnimatedIcons.tsx": {
+            "lines": 341,
+            "tokens": 6197,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/WelcomePanel.tsx": {
+            "lines": 36,
+            "tokens": 336,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/SettingsPanel.tsx": {
+            "lines": 431,
+            "tokens": 3757,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/MessageBubble.tsx": {
+            "lines": 438,
+            "tokens": 3158,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/LiveFilePreview.tsx": {
+            "lines": 26,
+            "tokens": 268,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/HistoryPanel.tsx": {
+            "lines": 158,
+            "tokens": 1204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/ErrorBoundary.tsx": {
+            "lines": 39,
+            "tokens": 262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/DiffView.tsx": {
+            "lines": 103,
+            "tokens": 770,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/CheckpointTimeline.tsx": {
+            "lines": 154,
+            "tokens": 1278,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/ChatInput.tsx": {
+            "lines": 350,
+            "tokens": 2397,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/AgentStatusPanel.tsx": {
+            "lines": 11,
+            "tokens": 135,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/ActivityTimeline.tsx": {
+            "lines": 357,
+            "tokens": 3387,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/App.tsx": {
+            "lines": 275,
+            "tokens": 2062,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2719,
+          "tokens": 25211,
+          "sources": 13,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/ui/webview/components/icons/AnimatedIcons.tsx": {
+            "lines": 364,
+            "tokens": 6415,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 514,
+            "percentage": 5.49,
+            "percentageTokens": 8.01,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/WelcomePanel.tsx": {
+            "lines": 127,
+            "tokens": 899,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/SettingsPanel.tsx": {
+            "lines": 616,
+            "tokens": 5617,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/MessageBubble.tsx": {
+            "lines": 506,
+            "tokens": 3802,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/LiveFilePreview.tsx": {
+            "lines": 238,
+            "tokens": 2101,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/HistoryPanel.tsx": {
+            "lines": 221,
+            "tokens": 1757,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/ErrorBoundary.tsx": {
+            "lines": 122,
+            "tokens": 810,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/DiffView.tsx": {
+            "lines": 275,
+            "tokens": 2335,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/CheckpointTimeline.tsx": {
+            "lines": 439,
+            "tokens": 3223,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 27,
+            "duplicatedTokens": 163,
+            "percentage": 6.15,
+            "percentageTokens": 5.06,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/ChatInput.tsx": {
+            "lines": 488,
+            "tokens": 3841,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/AgentStatusPanel.tsx": {
+            "lines": 129,
+            "tokens": 1164,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/components/ActivityTimeline.tsx": {
+            "lines": 641,
+            "tokens": 5868,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 27,
+            "duplicatedTokens": 163,
+            "percentage": 4.21,
+            "percentageTokens": 2.78,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/index.tsx": {
+            "lines": 17,
+            "tokens": 93,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/webview/App.tsx": {
+            "lines": 623,
+            "tokens": 4883,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4806,
+          "tokens": 42808,
+          "sources": 14,
+          "clones": 3,
+          "duplicatedLines": 37,
+          "duplicatedTokens": 420,
+          "percentage": 0.77,
+          "percentageTokens": 0.98,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 28814,
+      "tokens": 249400,
+      "sources": 89,
+      "clones": 54,
+      "duplicatedLines": 1128,
+      "duplicatedTokens": 10339,
+      "percentage": 3.91,
+      "percentageTokens": 4.15,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "tsx",
+      "lines": 6,
+      "fragment": "({ size = 16, animated = true, color }: IconProps): JSX.Element {\n    const c = color || \"currentColor\";\n    return (\n        <svg width={size} height={size} viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" stroke={c} strokeWidth=\"1.5\" fill=\"none\" />\n            <line",
+      "tokens": 142,
+      "firstFile": {
+        "name": "src/ui/webview/components/icons/AnimatedIcons.tsx",
+        "start": 148,
+        "end": 153,
+        "startLoc": {
+          "line": 148,
+          "column": 30,
+          "position": 2648
+        },
+        "endLoc": {
+          "line": 153,
+          "column": 18,
+          "position": 2790
+        }
+      },
+      "secondFile": {
+        "name": "src/ui/webview/components/icons/AnimatedIcons.tsx",
+        "start": 65,
+        "end": 70,
+        "startLoc": {
+          "line": 65,
+          "column": 32,
+          "position": 1092
+        },
+        "endLoc": {
+          "line": 70,
+          "column": 18,
+          "position": 1234
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 6,
+      "fragment": ", color }: IconProps): JSX.Element {\n    const c = color || \"currentColor\";\n    return (\n        <svg width={size} height={size} viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n            <circle cx=\"12\" cy=\"12\" r=\"9\" stroke={c} strokeWidth=\"1.5\" fill=\"none\" />\n            <ellipse",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/ui/webview/components/icons/AnimatedIcons.tsx",
+        "start": 314,
+        "end": 319,
+        "startLoc": {
+          "line": 314,
+          "column": 59,
+          "position": 5738
+        },
+        "endLoc": {
+          "line": 319,
+          "column": 21,
+          "position": 5853
+        }
+      },
+      "secondFile": {
+        "name": "src/ui/webview/components/icons/AnimatedIcons.tsx",
+        "start": 259,
+        "end": 264,
+        "startLoc": {
+          "line": 259,
+          "column": 40,
+          "position": 4792
+        },
+        "endLoc": {
+          "line": 264,
+          "column": 18,
+          "position": 4907
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 28,
+      "fragment": ")}\n            </div>\n        </div>\n    );\n}\n\n// --- Styles ---\n\nconst styles: Record<string, React.CSSProperties> = {\n    container: {\n        margin: \"8px 0\",\n        borderRadius: \"8px\",\n        background: \"var(--vscode-input-background)\",\n        border: \"1px solid var(--vscode-input-border, #404040)\",\n        overflow: \"hidden\",\n        animation: \"fadeIn 0.3s ease-out\",\n    },\n    header: {\n        display: \"flex\",\n        alignItems: \"center\",\n        justifyContent: \"space-between\",\n        padding: \"8px 12px\",\n        borderBottom: \"1px solid var(--vscode-input-border, #404040)\",\n    },\n    headerLeft: {\n        display: \"flex\",\n        alignItems: \"center\",\n        gap: \"8px\"",
+      "tokens": 163,
+      "firstFile": {
+        "name": "src/ui/webview/components/ActivityTimeline.tsx",
+        "start": 490,
+        "end": 517,
+        "startLoc": {
+          "line": 490,
+          "column": 18,
+          "position": 4907
+        },
+        "endLoc": {
+          "line": 517,
+          "column": 19,
+          "position": 5070
+        }
+      },
+      "secondFile": {
+        "name": "src/ui/webview/components/CheckpointTimeline.tsx",
+        "start": 263,
+        "end": 290,
+        "startLoc": {
+          "line": 263,
+          "column": 18,
+          "position": 2115
+        },
+        "endLoc": {
+          "line": 290,
+          "column": 19,
+          "position": 2278
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "(type: string): number {\n        switch (type) {\n            case \"class\": return 4;\n            case \"component\": return 3.5;\n            case \"function\": return 2;\n            case \"interface\": return 2.5;\n            case \"test\": return 2;\n            case \"constant\": return 1;\n            default: return 2;\n        }\n    }\n}",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/core/visualization/city-generator.ts",
+        "start": 386,
+        "end": 397,
+        "startLoc": {
+          "line": 386,
+          "column": 24,
+          "position": 3817
+        },
+        "endLoc": {
+          "line": 397,
+          "column": 2,
+          "position": 3919
+        }
+      },
+      "secondFile": {
+        "name": "src/core/visualization/city-generator.ts",
+        "start": 374,
+        "end": 386,
+        "startLoc": {
+          "line": 374,
+          "column": 24,
+          "position": 3710
+        },
+        "endLoc": {
+          "line": 386,
+          "column": 1,
+          "position": 3812
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ", \"utf-8\");\n\n                let blastNotice = \"\";\n                if (this.blastRadiusAnalyzer) {\n                    this.blastRadiusAnalyzer.analyzeFile(filePath);\n                    const blast = this.blastRadiusAnalyzer.getBlastRadius(filePath);\n                    if (blast && blast.totalDependents > 0) {\n                        blastNotice = ` (⚠️ Blast radius: ${blast.totalDependents} dependent file(s), risk: ${blast.riskLevel})`;\n                    }\n                }\n\n                return `Successfully applied ",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/core/tools/tool-registry.ts",
+        "start": 374,
+        "end": 385,
+        "startLoc": {
+          "line": 374,
+          "column": 66,
+          "position": 3392
+        },
+        "endLoc": {
+          "line": 385,
+          "column": 46,
+          "position": 3497
+        }
+      },
+      "secondFile": {
+        "name": "src/core/tools/tool-registry.ts",
+        "start": 151,
+        "end": 162,
+        "startLoc": {
+          "line": 151,
+          "column": 62,
+          "position": 1366
+        },
+        "endLoc": {
+          "line": 162,
+          "column": 44,
+          "position": 1471
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": ",\n                    },\n                },\n                required: [\"path\", \"diff\"],\n            },\n        }, async (args) => {\n            const filePath = args.path as string;\n            const diffContent = args.diff as string;\n\n            const workspaceRoot = this.getWorkspaceRoot();\n            if (!workspaceRoot) {\n                return \"Error: No workspace folder open.\";\n            }\n\n            const fullPath = path.join(workspaceRoot, filePath);\n\n            try {\n                const",
+      "tokens": 132,
+      "firstFile": {
+        "name": "src/core/tools/tool-registry.ts",
+        "start": 454,
+        "end": 471,
+        "startLoc": {
+          "line": 454,
+          "column": 69,
+          "position": 4154
+        },
+        "endLoc": {
+          "line": 471,
+          "column": 22,
+          "position": 4286
+        }
+      },
+      "secondFile": {
+        "name": "src/core/tools/tool-registry.ts",
+        "start": 307,
+        "end": 324,
+        "startLoc": {
+          "line": 307,
+          "column": 187,
+          "position": 2743
+        },
+        "endLoc": {
+          "line": 324,
+          "column": 20,
+          "position": 2875
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "content, \"utf-8\");\n\n                let blastNotice = \"\";\n                if (this.blastRadiusAnalyzer) {\n                    this.blastRadiusAnalyzer.analyzeFile(filePath);\n                    const blast = this.blastRadiusAnalyzer.getBlastRadius(filePath);\n                    if (blast && blast.totalDependents > 0) {\n                        blastNotice = ` (⚠️ Blast radius: ${blast.totalDependents} dependent file(s), risk: ${blast.riskLevel})`;\n                    }\n                }\n\n                return `Successfully applied diff to ",
+      "tokens": 106,
+      "firstFile": {
+        "name": "src/core/tools/tool-registry.ts",
+        "start": 490,
+        "end": 501,
+        "startLoc": {
+          "line": 490,
+          "column": 62,
+          "position": 4511
+        },
+        "endLoc": {
+          "line": 501,
+          "column": 54,
+          "position": 4617
+        }
+      },
+      "secondFile": {
+        "name": "src/core/tools/tool-registry.ts",
+        "start": 151,
+        "end": 162,
+        "startLoc": {
+          "line": 151,
+          "column": 55,
+          "position": 1365
+        },
+        "endLoc": {
+          "line": 162,
+          "column": 44,
+          "position": 1471
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": "\n        await this.sendRequest(\"initialize\", {\n            protocolVersion: \"2024-11-05\",\n            capabilities: {},\n            clientInfo: {\n                name: \"shen-ai\",\n                version: \"0.1.0\",\n            },\n        });\n\n        await this.sendNotification(\"notifications/initialized\", {});\n\n        this._isConnected = true;\n        this._connectedAt = Date.now();\n    }\n\n    private handleStdioData",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/core/tools/mcp-client.ts",
+        "start": 431,
+        "end": 447,
+        "startLoc": {
+          "line": 431,
+          "column": 43,
+          "position": 3705
+        },
+        "endLoc": {
+          "line": 447,
+          "column": 28,
+          "position": 3810
+        }
+      },
+      "secondFile": {
+        "name": "src/core/tools/mcp-client.ts",
+        "start": 410,
+        "end": 426,
+        "startLoc": {
+          "line": 410,
+          "column": 34,
+          "position": 3555
+        },
+        "endLoc": {
+          "line": 426,
+          "column": 18,
+          "position": 3660
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "\n    public async snapshotFile(filePath: string): Promise<void> {\n        try {\n            let content: string | null = null;\n            if (fs.existsSync(filePath)) {\n                content = await fs.promises.readFile(filePath, \"utf-8\");\n            }\n            this.pendingSnapshots.set(filePath, {\n                filePath,\n                content,\n                timestamp: Date.now(),\n            });\n            ",
+      "tokens": 117,
+      "firstFile": {
+        "name": "src/core/tools/checkpoint-manager.ts",
+        "start": 116,
+        "end": 128,
+        "startLoc": {
+          "line": 116,
+          "column": 8,
+          "position": 781
+        },
+        "endLoc": {
+          "line": 128,
+          "column": 13,
+          "position": 898
+        }
+      },
+      "secondFile": {
+        "name": "src/core/tools/undo-manager.ts",
+        "start": 52,
+        "end": 64,
+        "startLoc": {
+          "line": 52,
+          "column": 8,
+          "position": 348
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 9,
+          "position": 465
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 23,
+      "fragment": "\n\n            child.stdout?.on(\"data\", (data: Buffer) => {\n                stdoutLen += data.length;\n                if (stdoutLen > maxBuffer) {\n                    child.kill();\n                    settle(new Error(\"Git maxBuffer exceeded\"));\n                    return;\n                }\n                stdout += data.toString();\n            });\n\n            child.stderr?.on(\"data\", (data: Buffer) => {\n                stderrLen += data.length;\n                if (stderrLen > maxBuffer) {\n                    child.kill();\n                    settle(new Error(\"Git maxBuffer exceeded\"));\n                    return;\n                }\n                stderr += data.toString();\n            });\n\n            child.on(\"error\", (err",
+      "tokens": 191,
+      "firstFile": {
+        "name": "src/core/tools/checkpoint-manager.ts",
+        "start": 519,
+        "end": 541,
+        "startLoc": {
+          "line": 519,
+          "column": 56,
+          "position": 4225
+        },
+        "endLoc": {
+          "line": 541,
+          "column": 35,
+          "position": 4416
+        }
+      },
+      "secondFile": {
+        "name": "src/core/tools/git-tools.ts",
+        "start": 84,
+        "end": 106,
+        "startLoc": {
+          "line": 84,
+          "column": 48,
+          "position": 629
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 37,
+          "position": 820
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.activeProvider) {\n            throw new Error(\"No active provider. Configure a provider in SHEN AI settings.\");\n        }\n\n        this.abortController = new AbortController();\n        const signal = abortSignal || this.abortController.signal;\n\n        const providerName = this.activeProvider.name;\n        let attemptNumber = 0;\n\n        try {\n            const response = await withRetry(\n                async () => {\n                    attemptNumber++;\n                    if (attemptNumber > 1) {\n                        logger.info(`Retrying ${providerName} streaming (attempt ",
+      "tokens": 169,
+      "firstFile": {
+        "name": "src/core/providers/provider-registry.ts",
+        "start": 136,
+        "end": 155,
+        "startLoc": {
+          "line": 136,
+          "column": 35,
+          "position": 1271
+        },
+        "endLoc": {
+          "line": 155,
+          "column": 82,
+          "position": 1440
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/provider-registry.ts",
+        "start": 93,
+        "end": 112,
+        "startLoc": {
+          "line": 93,
+          "column": 36,
+          "position": 938
+        },
+        "endLoc": {
+          "line": 112,
+          "column": 84,
+          "position": 1107
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"OpenAI provider not initialized. Call initialize() first.\");\n        }\n\n        const openaiTools = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream",
+      "tokens": 157,
+      "firstFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 98,
+        "end": 115,
+        "startLoc": {
+          "line": 98,
+          "column": 35,
+          "position": 887
+        },
+        "endLoc": {
+          "line": 115,
+          "column": 21,
+          "position": 1044
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 46,
+        "end": 63,
+        "startLoc": {
+          "line": 46,
+          "column": 36,
+          "position": 407
+        },
+        "endLoc": {
+          "line": 63,
+          "column": 23,
+          "position": 564
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Ollama provider not initialized. Call initialize() first.\");\n        }\n\n        const ollamaMessages = this.convertMessages(messages);\n\n        const ollamaTools = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters,\n            },\n        }));\n\n        const stream",
+      "tokens": 159,
+      "firstFile": {
+        "name": "src/core/providers/ollama-provider.ts",
+        "start": 101,
+        "end": 120,
+        "startLoc": {
+          "line": 101,
+          "column": 35,
+          "position": 907
+        },
+        "endLoc": {
+          "line": 120,
+          "column": 21,
+          "position": 1066
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/ollama-provider.ts",
+        "start": 45,
+        "end": 64,
+        "startLoc": {
+          "line": 45,
+          "column": 36,
+          "position": 408
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 23,
+          "position": 567
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 35,
+      "fragment": ",\n                };\n            }\n        }\n\n        onChunk({\n            content: \"\",\n            toolCalls: toolCalls.length > 0 ? toolCalls : undefined,\n            isComplete: true,\n            usage,\n        });\n\n        return {\n            content: fullContent,\n            toolCalls,\n            usage,\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    formatToolResult(toolCallId: string, result: string): ProviderMessage {\n        return {\n            role: \"tool\",\n            content: result,\n            tool_call_id: toolCallId,\n        };\n    }\n\n    formatToolCalls(toolCalls: ProviderToolCall[]): string {\n        return toolCalls\n            .map((tc) => `[Tool: ${tc.name}] ${tc.arguments}`)\n            .join(\"\\n\");\n    }\n\n    private convertMessages",
+      "tokens": 227,
+      "firstFile": {
+        "name": "src/core/providers/ollama-provider.ts",
+        "start": 158,
+        "end": 192,
+        "startLoc": {
+          "line": 158,
+          "column": 90,
+          "position": 1455
+        },
+        "endLoc": {
+          "line": 192,
+          "column": 28,
+          "position": 1682
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 172,
+        "end": 206,
+        "startLoc": {
+          "line": 172,
+          "column": 58,
+          "position": 1600
+        },
+        "endLoc": {
+          "line": 206,
+          "column": 28,
+          "position": 1827
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ");\n        }\n        return { valid: errors.length === 0, errors };\n    }\n\n    async sendMessage(\n        messages: ProviderMessage[],\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Mistral provider not initialized. Call initialize() first.\"",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 39,
+        "end": 50,
+        "startLoc": {
+          "line": 39,
+          "column": 49,
+          "position": 353
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 89,
+          "position": 454
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/ollama-provider.ts",
+        "start": 39,
+        "end": 50,
+        "startLoc": {
+          "line": 39,
+          "column": 54,
+          "position": 363
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 88,
+          "position": 464
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": " = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const response = await this.client.chat.complete",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 55,
+        "end": 64,
+        "startLoc": {
+          "line": 55,
+          "column": 27,
+          "position": 482
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 57,
+          "position": 583
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 54,
+        "end": 63,
+        "startLoc": {
+          "line": 54,
+          "column": 26,
+          "position": 475
+        },
+        "endLoc": {
+          "line": 63,
+          "column": 60,
+          "position": 576
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ",\n            },\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    async sendMessageStreaming(\n        messages: ProviderMessage[],\n        onChunk: StreamingCallback,\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Mistral provider not initialized. Call initialize() first.\"",
+      "tokens": 111,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 99,
+        "end": 112,
+        "startLoc": {
+          "line": 99,
+          "column": 62,
+          "position": 996
+        },
+        "endLoc": {
+          "line": 112,
+          "column": 89,
+          "position": 1107
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/ollama-provider.ts",
+        "start": 93,
+        "end": 106,
+        "startLoc": {
+          "line": 93,
+          "column": 92,
+          "position": 852
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 88,
+          "position": 963
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Mistral provider not initialized. Call initialize() first.\");\n        }\n\n        const mistralMessages = this.convertMessages(messages);\n\n        const mistralTools = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream",
+      "tokens": 173,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 107,
+        "end": 126,
+        "startLoc": {
+          "line": 107,
+          "column": 35,
+          "position": 1051
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 21,
+          "position": 1224
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 45,
+        "end": 64,
+        "startLoc": {
+          "line": 45,
+          "column": 36,
+          "position": 398
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 23,
+          "position": 571
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": " = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream = await this.client.chat.stream",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 117,
+        "end": 126,
+        "startLoc": {
+          "line": 117,
+          "column": 27,
+          "position": 1135
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 53,
+          "position": 1236
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 106,
+        "end": 115,
+        "startLoc": {
+          "line": 106,
+          "column": 26,
+          "position": 955
+        },
+        "endLoc": {
+          "line": 115,
+          "column": 58,
+          "position": 1056
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ");\n\n        let fullContent = \"\";\n        const toolCalls: ProviderToolCall[] = [];\n        const toolCallBuffers: Record<string, string> = {};\n        let usage = { promptTokens: 0, completionTokens: 0, totalTokens: 0 };\n\n        for await (const chunk of stream) {\n            const data",
+      "tokens": 100,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 132,
+        "end": 140,
+        "startLoc": {
+          "line": 132,
+          "column": 10,
+          "position": 1297
+        },
+        "endLoc": {
+          "line": 140,
+          "column": 23,
+          "position": 1397
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 126,
+        "end": 134,
+        "startLoc": {
+          "line": 126,
+          "column": 9,
+          "position": 1155
+        },
+        "endLoc": {
+          "line": 134,
+          "column": 24,
+          "position": 1255
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ") {\n                    const idx = tc.index ?? 0;\n                    if (tc.id && !toolCallBuffers[idx.toString()]) {\n                        toolCallBuffers[idx.toString()] = \"\";\n                        toolCalls.push({\n                            id: tc.id,\n                            name: tc.function?.name || \"\",\n                            arguments: \"\",\n                        });\n                    }\n                    if (tc.function?.arguments) {\n                        toolCallBuffers[idx.toString()] += tc.function.arguments;\n                        toolCalls",
+      "tokens": 140,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 159,
+        "end": 171,
+        "startLoc": {
+          "line": 159,
+          "column": 40,
+          "position": 1633
+        },
+        "endLoc": {
+          "line": 171,
+          "column": 34,
+          "position": 1773
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 145,
+        "end": 157,
+        "startLoc": {
+          "line": 145,
+          "column": 50,
+          "position": 1348
+        },
+        "endLoc": {
+          "line": 157,
+          "column": 114,
+          "position": 1488
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 35,
+      "fragment": ",\n                };\n            }\n        }\n\n        onChunk({\n            content: \"\",\n            toolCalls: toolCalls.length > 0 ? toolCalls : undefined,\n            isComplete: true,\n            usage,\n        });\n\n        return {\n            content: fullContent,\n            toolCalls,\n            usage,\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    formatToolResult(toolCallId: string, result: string): ProviderMessage {\n        return {\n            role: \"tool\",\n            content: result,\n            tool_call_id: toolCallId,\n        };\n    }\n\n    formatToolCalls(toolCalls: ProviderToolCall[]): string {\n        return toolCalls\n            .map((tc) => `[Tool: ${tc.name}] ${tc.arguments}`)\n            .join(\"\\n\");\n    }\n\n    private convertMessages(messages: ProviderMessage[]): any",
+      "tokens": 238,
+      "firstFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 183,
+        "end": 217,
+        "startLoc": {
+          "line": 183,
+          "column": 61,
+          "position": 1879
+        },
+        "endLoc": {
+          "line": 217,
+          "column": 62,
+          "position": 2117
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 172,
+        "end": 192,
+        "startLoc": {
+          "line": 172,
+          "column": 58,
+          "position": 1600
+        },
+        "endLoc": {
+          "line": 192,
+          "column": 64,
+          "position": 1693
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ");\n        }\n        if (!config.model || config.model.trim().length === 0) {\n            errors.push(\"Model name is required\");\n        }\n        return { valid: errors.length === 0, errors };\n    }\n\n    async sendMessage(\n        messages: ProviderMessage[],\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Groq provider not initialized. Call initialize() first.\"",
+      "tokens": 141,
+      "firstFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 36,
+        "end": 50,
+        "startLoc": {
+          "line": 36,
+          "column": 51,
+          "position": 309
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 86,
+          "position": 450
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 36,
+        "end": 50,
+        "startLoc": {
+          "line": 36,
+          "column": 54,
+          "position": 313
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 88,
+          "position": 464
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": " = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const response = await this.client.chat.completions.create({",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 55,
+        "end": 64,
+        "startLoc": {
+          "line": 55,
+          "column": 24,
+          "position": 478
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 69,
+          "position": 583
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 54,
+        "end": 64,
+        "startLoc": {
+          "line": 54,
+          "column": 26,
+          "position": 475
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 1,
+          "position": 580
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 29,
+      "fragment": ");\n\n        const choice = response.choices[0];\n        const message = choice?.message;\n\n        const toolCalls: ProviderToolCall[] =\n            message?.tool_calls?.map((tc: any) => ({\n                id: tc.id,\n                name: tc.function.name,\n                arguments: tc.function.arguments,\n            })) || [];\n\n        return {\n            content: message?.content || \"\",\n            toolCalls,\n            usage: {\n                promptTokens: response.usage?.prompt_tokens || 0,\n                completionTokens: response.usage?.completion_tokens || 0,\n                totalTokens: response.usage?.total_tokens || 0,\n            },\n            stopReason: this.mapFinishReason(choice?.finish_reason),\n        };\n    }\n\n    async sendMessageStreaming(\n        messages: ProviderMessage[],\n        onChunk: StreamingCallback,\n        tools?: ToolDefinition[],\n        _abortSignal",
+      "tokens": 246,
+      "firstFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 70,
+        "end": 98,
+        "startLoc": {
+          "line": 70,
+          "column": 10,
+          "position": 638
+        },
+        "endLoc": {
+          "line": 98,
+          "column": 21,
+          "position": 884
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 72,
+        "end": 100,
+        "startLoc": {
+          "line": 72,
+          "column": 9,
+          "position": 654
+        },
+        "endLoc": {
+          "line": 100,
+          "column": 20,
+          "position": 900
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Groq provider not initialized. Call initialize() first.\");\n        }\n\n        const groqMessages = this.convertMessages(messages);\n\n        const groqTools = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream",
+      "tokens": 173,
+      "firstFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 96,
+        "end": 115,
+        "startLoc": {
+          "line": 96,
+          "column": 35,
+          "position": 871
+        },
+        "endLoc": {
+          "line": 115,
+          "column": 21,
+          "position": 1044
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 45,
+        "end": 64,
+        "startLoc": {
+          "line": 45,
+          "column": 36,
+          "position": 394
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 23,
+          "position": 567
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": " = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream = await this.client.chat.completions.create({",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 106,
+        "end": 115,
+        "startLoc": {
+          "line": 106,
+          "column": 24,
+          "position": 955
+        },
+        "endLoc": {
+          "line": 115,
+          "column": 67,
+          "position": 1060
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 106,
+        "end": 116,
+        "startLoc": {
+          "line": 106,
+          "column": 26,
+          "position": 955
+        },
+        "endLoc": {
+          "line": 116,
+          "column": 1,
+          "position": 1060
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 41,
+      "fragment": ",\n        });\n\n        let fullContent = \"\";\n        const toolCalls: ProviderToolCall[] = [];\n        const toolCallBuffers: Record<string, string> = {};\n        let usage = { promptTokens: 0, completionTokens: 0, totalTokens: 0 };\n\n        for await (const chunk of stream) {\n            const delta = chunk.choices[0]?.delta;\n\n            if (delta?.content) {\n                fullContent += delta.content;\n                onChunk({\n                    content: delta.content,\n                    isComplete: false,\n                });\n            }\n\n            if (delta?.tool_calls) {\n                for (const tc of delta.tool_calls) {\n                    const idx = tc.index ?? 0;\n                    if (tc.id && !toolCallBuffers[idx.toString()]) {\n                        toolCallBuffers[idx.toString()] = \"\";\n                        toolCalls.push({\n                            id: tc.id,\n                            name: tc.function?.name || \"\",\n                            arguments: \"\",\n                        });\n                    }\n                    if (tc.function?.arguments) {\n                        toolCallBuffers[idx.toString()] += tc.function.arguments;\n                        toolCalls[idx] = {\n                            ...toolCalls[idx],\n                            arguments: toolCallBuffers[idx.toString()],\n                        };\n                    }\n                }\n            }\n\n            if ((",
+      "tokens": 386,
+      "firstFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 121,
+        "end": 161,
+        "startLoc": {
+          "line": 121,
+          "column": 25,
+          "position": 1118
+        },
+        "endLoc": {
+          "line": 161,
+          "column": 18,
+          "position": 1504
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 131,
+        "end": 179,
+        "startLoc": {
+          "line": 131,
+          "column": 45,
+          "position": 1293
+        },
+        "endLoc": {
+          "line": 179,
+          "column": 21,
+          "position": 1822
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 57,
+      "fragment": " || 0,\n                };\n            }\n        }\n\n        onChunk({\n            content: \"\",\n            toolCalls: toolCalls.length > 0 ? toolCalls : undefined,\n            isComplete: true,\n            usage,\n        });\n\n        return {\n            content: fullContent,\n            toolCalls,\n            usage,\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    formatToolResult(toolCallId: string, result: string): ProviderMessage {\n        return {\n            role: \"tool\",\n            content: result,\n            tool_call_id: toolCallId,\n        };\n    }\n\n    formatToolCalls(toolCalls: ProviderToolCall[]): string {\n        return toolCalls\n            .map((tc) => `[Tool: ${tc.name}] ${tc.arguments}`)\n            .join(\"\\n\");\n    }\n\n    private convertMessages(messages: ProviderMessage[]): any[] {\n        return messages.map((msg) => {\n            if (msg.role === \"system\") {\n                return { role: \"system\", content: msg.content };\n            }\n            if (msg.role === \"user\") {\n                return { role: \"user\", content: msg.content };\n            }\n            if (msg.role === \"assistant\") {\n                return { role: \"assistant\", content: msg.content };\n            }\n            if (msg.role === \"tool\") {\n                return {\n                    role: \"tool\",\n                    content: msg.content,\n                    tool_call_id: msg.tool_call_id || \"\",\n                };\n            }\n            return { role: \"user\", content: msg.content };\n        });\n    }\n\n",
+      "tokens": 465,
+      "firstFile": {
+        "name": "src/core/providers/groq-provider.ts",
+        "start": 166,
+        "end": 222,
+        "startLoc": {
+          "line": 166,
+          "column": 56,
+          "position": 1580
+        },
+        "endLoc": {
+          "line": 222,
+          "column": 1,
+          "position": 2045
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 183,
+        "end": 238,
+        "startLoc": {
+          "line": 183,
+          "column": 56,
+          "position": 1875
+        },
+        "endLoc": {
+          "line": 238,
+          "column": 2,
+          "position": 2340
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ");\n        }\n        if (!config.model || config.model.trim().length === 0) {\n            errors.push(\"Model name is required\");\n        }\n        return { valid: errors.length === 0, errors };\n    }\n\n    async sendMessage(\n        messages: ProviderMessage[],\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.model",
+      "tokens": 122,
+      "firstFile": {
+        "name": "src/core/providers/google-provider.ts",
+        "start": 42,
+        "end": 55,
+        "startLoc": {
+          "line": 42,
+          "column": 53,
+          "position": 402
+        },
+        "endLoc": {
+          "line": 55,
+          "column": 24,
+          "position": 524
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 36,
+        "end": 49,
+        "startLoc": {
+          "line": 36,
+          "column": 54,
+          "position": 313
+        },
+        "endLoc": {
+          "line": 49,
+          "column": 25,
+          "position": 435
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 24,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        _abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.model || !this.config) {\n            throw new Error(\"Google provider not initialized. Call initialize() first.\");\n        }\n\n        const { systemMessage, chatMessages } = this.convertMessages(messages);\n\n        const geminiTools: Tool[] | undefined = tools ? [{\n            functionDeclarations: tools.map((t) => this.convertToolDefinition(t)),\n        }] : undefined;\n\n        const chat = this.model.startChat({\n            history: chatMessages.slice(0, -1),\n            tools: geminiTools,\n            systemInstruction: systemMessage || undefined,\n        });\n\n        const lastMessage = chatMessages[chatMessages.length - 1];\n        const lastParts = lastMessage?.parts || [{ text: \"\" }];\n\n        const result = await chat.sendMessageStream",
+      "tokens": 255,
+      "firstFile": {
+        "name": "src/core/providers/google-provider.ts",
+        "start": 111,
+        "end": 134,
+        "startLoc": {
+          "line": 111,
+          "column": 35,
+          "position": 1085
+        },
+        "endLoc": {
+          "line": 134,
+          "column": 52,
+          "position": 1340
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/google-provider.ts",
+        "start": 51,
+        "end": 74,
+        "startLoc": {
+          "line": 51,
+          "column": 36,
+          "position": 487
+        },
+        "endLoc": {
+          "line": 74,
+          "column": 46,
+          "position": 742
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 21,
+      "fragment": " || 0,\n                };\n            }\n        }\n\n        onChunk({\n            content: \"\",\n            toolCalls: toolCalls.length > 0 ? toolCalls : undefined,\n            isComplete: true,\n            usage,\n        });\n\n        return {\n            content: fullContent,\n            toolCalls,\n            usage,\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    formatToolResult(toolCallId: string, result: string,",
+      "tokens": 129,
+      "firstFile": {
+        "name": "src/core/providers/google-provider.ts",
+        "start": 163,
+        "end": 183,
+        "startLoc": {
+          "line": 163,
+          "column": 69,
+          "position": 1655
+        },
+        "endLoc": {
+          "line": 183,
+          "column": 57,
+          "position": 1784
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/mistral-provider.ts",
+        "start": 183,
+        "end": 192,
+        "startLoc": {
+          "line": 183,
+          "column": 56,
+          "position": 1875
+        },
+        "endLoc": {
+          "line": 192,
+          "column": 57,
+          "position": 1725
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ");\n        }\n        if (!config.model || config.model.trim().length === 0) {\n            errors.push(\"Model name is required\");\n        }\n        return { valid: errors.length === 0, errors };\n    }\n\n    async sendMessage(\n        messages: ProviderMessage[],\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Custom provider not initialized. Call initialize() first.\"",
+      "tokens": 141,
+      "firstFile": {
+        "name": "src/core/providers/custom-provider.ts",
+        "start": 40,
+        "end": 54,
+        "startLoc": {
+          "line": 40,
+          "column": 62,
+          "position": 354
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 88,
+          "position": 495
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 37,
+        "end": 51,
+        "startLoc": {
+          "line": 37,
+          "column": 53,
+          "position": 322
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 88,
+          "position": 463
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 28,
+      "fragment": ");\n        }\n\n        const openaiTools = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const response = await this.client.chat.completions.create(\n            {\n                model: this.config.model,\n                messages: messages as OpenAI.ChatCompletionMessageParam[],\n                tools: openaiTools,\n                temperature: this.config.temperature,\n                max_tokens: this.config.maxTokens,\n            },\n            { signal: abortSignal }\n        );\n\n        const choice = response.choices[0];\n        const message = choice?.message;\n\n        const toolCalls: ProviderToolCall[] =\n            message?.tool_calls?.map((tc: OpenAI",
+      "tokens": 248,
+      "firstFile": {
+        "name": "src/core/providers/custom-provider.ts",
+        "start": 54,
+        "end": 81,
+        "startLoc": {
+          "line": 54,
+          "column": 88,
+          "position": 496
+        },
+        "endLoc": {
+          "line": 81,
+          "column": 49,
+          "position": 744
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 51,
+        "end": 78,
+        "startLoc": {
+          "line": 51,
+          "column": 88,
+          "position": 464
+        },
+        "endLoc": {
+          "line": 78,
+          "column": 46,
+          "position": 712
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 26,
+      "fragment": ") => ({\n                id: tc.id,\n                name: tc.function.name,\n                arguments: tc.function.arguments,\n            })) || [];\n\n        return {\n            content: message?.content || \"\",\n            toolCalls,\n            usage: {\n                promptTokens: response.usage?.prompt_tokens || 0,\n                completionTokens: response.usage?.completion_tokens || 0,\n                totalTokens: response.usage?.total_tokens || 0,\n            },\n            stopReason: this.mapFinishReason(choice?.finish_reason),\n        };\n    }\n\n    async sendMessageStreaming(\n        messages: ProviderMessage[],\n        onChunk: StreamingCallback,\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Custom provider not initialized. Call initialize() first.\"",
+      "tokens": 230,
+      "firstFile": {
+        "name": "src/core/providers/custom-provider.ts",
+        "start": 81,
+        "end": 106,
+        "startLoc": {
+          "line": 81,
+          "column": 79,
+          "position": 747
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 88,
+          "position": 977
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 78,
+        "end": 103,
+        "startLoc": {
+          "line": 78,
+          "column": 46,
+          "position": 713
+        },
+        "endLoc": {
+          "line": 103,
+          "column": 88,
+          "position": 943
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 68,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Custom provider not initialized. Call initialize() first.\");\n        }\n\n        const openaiTools = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream = await this.client.chat.completions.create(\n            {\n                model: this.config.model,\n                messages: messages as OpenAI.ChatCompletionMessageParam[],\n                tools: openaiTools,\n                temperature: this.config.temperature,\n                max_tokens: this.config.maxTokens,\n                stream: true,\n                stream_options: { include_usage: true },\n            },\n            { signal: abortSignal }\n        );\n\n        let fullContent = \"\";\n        const toolCalls: ProviderToolCall[] = [];\n        const toolCallBuffers: Record<string, string> = {};\n        let usage = { promptTokens: 0, completionTokens: 0, totalTokens: 0 };\n\n        for await (const chunk of stream) {\n            const delta = chunk.choices[0]?.delta;\n\n            if (delta?.content) {\n                fullContent += delta.content;\n                onChunk({\n                    content: delta.content,\n                    isComplete: false,\n                });\n            }\n\n            if (delta?.tool_calls) {\n                for (const tc of delta.tool_calls) {\n                    const idx = tc.index ?? 0;\n                    if (tc.id && !toolCallBuffers[idx.toString()]) {\n                        toolCallBuffers[idx.toString()] = \"\";\n                        toolCalls.push({\n                            id: tc.id,\n                            name: tc.function?.name || \"\",\n                            arguments: \"\",\n                        });\n                    }\n                    if (tc.function?.arguments) {\n                        toolCallBuffers[idx.toString()] += tc.function.arguments;\n                        toolCalls[idx] = {\n                            ...toolCalls[idx],\n                            arguments: toolCallBuffers[idx.toString()],\n                        };\n                    }\n                }\n            }\n\n            if (chunk",
+      "tokens": 650,
+      "firstFile": {
+        "name": "src/core/providers/custom-provider.ts",
+        "start": 101,
+        "end": 168,
+        "startLoc": {
+          "line": 101,
+          "column": 35,
+          "position": 921
+        },
+        "endLoc": {
+          "line": 168,
+          "column": 22,
+          "position": 1571
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/custom-provider.ts",
+        "start": 49,
+        "end": 179,
+        "startLoc": {
+          "line": 49,
+          "column": 36,
+          "position": 439
+        },
+        "endLoc": {
+          "line": 179,
+          "column": 21,
+          "position": 1822
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 58,
+      "fragment": "\n                    }\n                }\n            }\n\n            if (chunk.usage) {\n                usage = {\n                    promptTokens: chunk.usage.prompt_tokens,\n                    completionTokens: chunk.usage.completion_tokens,\n                    totalTokens: chunk.usage.total_tokens,\n                };\n            }\n        }\n\n        onChunk({\n            content: \"\",\n            toolCalls: toolCalls.length > 0 ? toolCalls : undefined,\n            isComplete: true,\n            usage,\n        });\n\n        return {\n            content: fullContent,\n            toolCalls,\n            usage,\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    formatToolResult(toolCallId: string, result: string): ProviderMessage {\n        return {\n            role: \"tool\",\n            content: result,\n            tool_call_id: toolCallId,\n        };\n    }\n\n    formatToolCalls(toolCalls: ProviderToolCall[]): string {\n        return toolCalls\n            .map((tc) => `[Tool: ${tc.name}] ${tc.arguments}`)\n            .join(\"\\n\");\n    }\n\n    private mapFinishReason(\n        reason: string | null | undefined\n    ): ProviderResponse[\"stopReason\"] {\n        switch (reason) {\n            case \"stop\":\n                return \"stop\";\n            case \"tool_calls\":\n                return \"tool_use\";\n            case \"length\":\n                return \"max_tokens\";\n            default:\n                return \"stop\";\n        }\n    }\n}",
+      "tokens": 376,
+      "firstFile": {
+        "name": "src/core/providers/custom-provider.ts",
+        "start": 163,
+        "end": 220,
+        "startLoc": {
+          "line": 163,
+          "column": 27,
+          "position": 1556
+        },
+        "endLoc": {
+          "line": 220,
+          "column": 2,
+          "position": 1932
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 163,
+        "end": 220,
+        "startLoc": {
+          "line": 163,
+          "column": 26,
+          "position": 1540
+        },
+        "endLoc": {
+          "line": 220,
+          "column": 2,
+          "position": 1916
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ";\n    readonly supportsTools = true;\n    readonly supportsStreaming = true;\n\n    private client: OpenAI | null = null;\n    private config: ProviderConfig | null = null;\n\n    initialize(config: ProviderConfig): void {\n        this.config = config;\n        if (!config.baseUrl) {\n            throw new Error(\"Azure provider requires an endpoint URL (baseUrl)\"",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 18,
+        "end": 28,
+        "startLoc": {
+          "line": 18,
+          "column": 28,
+          "position": 102
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 80,
+          "position": 203
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/custom-provider.ts",
+        "start": 18,
+        "end": 28,
+        "startLoc": {
+          "line": 18,
+          "column": 29,
+          "position": 102
+        },
+        "endLoc": {
+          "line": 28,
+          "column": 65,
+          "position": 203
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ");\n        }\n        return { valid: errors.length === 0, errors };\n    }\n\n    async sendMessage(\n        messages: ProviderMessage[],\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Azure provider not initialized. Call initialize() first.\"",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 52,
+        "end": 63,
+        "startLoc": {
+          "line": 52,
+          "column": 57,
+          "position": 464
+        },
+        "endLoc": {
+          "line": 63,
+          "column": 87,
+          "position": 565
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 40,
+        "end": 51,
+        "startLoc": {
+          "line": 40,
+          "column": 49,
+          "position": 362
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 88,
+          "position": 463
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": " = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const response = await this.client.chat.completions.create(\n            {\n                model: this.config.model,\n                messages: azureMessages",
+      "tokens": 124,
+      "firstFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 68,
+        "end": 80,
+        "startLoc": {
+          "line": 68,
+          "column": 25,
+          "position": 593
+        },
+        "endLoc": {
+          "line": 80,
+          "column": 40,
+          "position": 717
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 54,
+        "end": 66,
+        "startLoc": {
+          "line": 54,
+          "column": 26,
+          "position": 475
+        },
+        "endLoc": {
+          "line": 66,
+          "column": 35,
+          "position": 599
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 37,
+      "fragment": ",\n                temperature: this.config.temperature,\n                max_tokens: this.config.maxTokens,\n            },\n            { signal: abortSignal }\n        );\n\n        const choice = response.choices[0];\n        const message = choice?.message;\n\n        const toolCalls: ProviderToolCall[] =\n            message?.tool_calls?.map((tc: any) => ({\n                id: tc.id,\n                name: tc.function.name,\n                arguments: tc.function.arguments,\n            })) || [];\n\n        return {\n            content: message?.content || \"\",\n            toolCalls,\n            usage: {\n                promptTokens: response.usage?.prompt_tokens || 0,\n                completionTokens: response.usage?.completion_tokens || 0,\n                totalTokens: response.usage?.total_tokens || 0,\n            },\n            stopReason: this.mapFinishReason(choice?.finish_reason),\n        };\n    }\n\n    async sendMessageStreaming(\n        messages: ProviderMessage[],\n        onChunk: StreamingCallback,\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Azure provider not initialized. Call initialize() first.\"",
+      "tokens": 328,
+      "firstFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 81,
+        "end": 117,
+        "startLoc": {
+          "line": 81,
+          "column": 41,
+          "position": 729
+        },
+        "endLoc": {
+          "line": 117,
+          "column": 87,
+          "position": 1057
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 67,
+        "end": 103,
+        "startLoc": {
+          "line": 67,
+          "column": 35,
+          "position": 615
+        },
+        "endLoc": {
+          "line": 103,
+          "column": 88,
+          "position": 943
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Azure provider not initialized. Call initialize() first.\");\n        }\n\n        const azureMessages = this.convertMessages(messages);\n\n        const azureTools = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream",
+      "tokens": 173,
+      "firstFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 112,
+        "end": 131,
+        "startLoc": {
+          "line": 112,
+          "column": 35,
+          "position": 1001
+        },
+        "endLoc": {
+          "line": 131,
+          "column": 21,
+          "position": 1174
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 58,
+        "end": 77,
+        "startLoc": {
+          "line": 58,
+          "column": 36,
+          "position": 509
+        },
+        "endLoc": {
+          "line": 77,
+          "column": 23,
+          "position": 682
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": " = tools?.map((t) => ({\n            type: \"function\" as const,\n            function: {\n                name: t.name,\n                description: t.description,\n                parameters: t.parameters as unknown as Record<string, unknown>,\n            },\n        }));\n\n        const stream = await this.client.chat.completions.create(\n            {\n                model: this.config.model,\n                messages: azureMessages",
+      "tokens": 124,
+      "firstFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 122,
+        "end": 134,
+        "startLoc": {
+          "line": 122,
+          "column": 25,
+          "position": 1085
+        },
+        "endLoc": {
+          "line": 134,
+          "column": 40,
+          "position": 1209
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 106,
+        "end": 118,
+        "startLoc": {
+          "line": 106,
+          "column": 26,
+          "position": 955
+        },
+        "endLoc": {
+          "line": 118,
+          "column": 35,
+          "position": 1079
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 85,
+      "fragment": ",\n                temperature: this.config.temperature,\n                max_tokens: this.config.maxTokens,\n                stream: true,\n                stream_options: { include_usage: true },\n            },\n            { signal: abortSignal }\n        );\n\n        let fullContent = \"\";\n        const toolCalls: ProviderToolCall[] = [];\n        const toolCallBuffers: Record<string, string> = {};\n        let usage = { promptTokens: 0, completionTokens: 0, totalTokens: 0 };\n\n        for await (const chunk of stream) {\n            const delta = chunk.choices[0]?.delta;\n\n            if (delta?.content) {\n                fullContent += delta.content;\n                onChunk({\n                    content: delta.content,\n                    isComplete: false,\n                });\n            }\n\n            if (delta?.tool_calls) {\n                for (const tc of delta.tool_calls) {\n                    const idx = tc.index ?? 0;\n                    if (tc.id && !toolCallBuffers[idx.toString()]) {\n                        toolCallBuffers[idx.toString()] = \"\";\n                        toolCalls.push({\n                            id: tc.id,\n                            name: tc.function?.name || \"\",\n                            arguments: \"\",\n                        });\n                    }\n                    if (tc.function?.arguments) {\n                        toolCallBuffers[idx.toString()] += tc.function.arguments;\n                        toolCalls[idx] = {\n                            ...toolCalls[idx],\n                            arguments: toolCallBuffers[idx.toString()],\n                        };\n                    }\n                }\n            }\n\n            if (chunk.usage) {\n                usage = {\n                    promptTokens: chunk.usage.prompt_tokens,\n                    completionTokens: chunk.usage.completion_tokens,\n                    totalTokens: chunk.usage.total_tokens,\n                };\n            }\n        }\n\n        onChunk({\n            content: \"\",\n            toolCalls: toolCalls.length > 0 ? toolCalls : undefined,\n            isComplete: true,\n            usage,\n        });\n\n        return {\n            content: fullContent,\n            toolCalls,\n            usage,\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    formatToolResult(toolCallId: string, result: string): ProviderMessage {\n        return {\n            role: \"tool\",\n            content: result,\n            tool_call_id: toolCallId,\n        };\n    }\n\n    formatToolCalls(toolCalls: ProviderToolCall[]): string {\n        return toolCalls\n            .map((tc) => `[Tool: ${tc.name}] ${tc.arguments}`)\n            .join(\"\\n\");\n    }\n\n    private convertMessages(messages: ProviderMessage[]): OpenAI",
+      "tokens": 725,
+      "firstFile": {
+        "name": "src/core/providers/azure-provider.ts",
+        "start": 135,
+        "end": 219,
+        "startLoc": {
+          "line": 135,
+          "column": 41,
+          "position": 1221
+        },
+        "endLoc": {
+          "line": 219,
+          "column": 65,
+          "position": 1946
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 119,
+        "end": 192,
+        "startLoc": {
+          "line": 119,
+          "column": 35,
+          "position": 1095
+        },
+        "endLoc": {
+          "line": 192,
+          "column": 64,
+          "position": 1693
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ");\n        }\n        if (!config.model || config.model.trim().length === 0) {\n            errors.push(\"Model name is required\");\n        }\n        return { valid: errors.length === 0, errors };\n    }\n\n    async sendMessage(\n        messages: ProviderMessage[],\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Anthropic provider not initialized. Call initialize() first.\"",
+      "tokens": 141,
+      "firstFile": {
+        "name": "src/core/providers/anthropic-provider.ts",
+        "start": 36,
+        "end": 50,
+        "startLoc": {
+          "line": 36,
+          "column": 56,
+          "position": 309
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 91,
+          "position": 450
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 37,
+        "end": 51,
+        "startLoc": {
+          "line": 37,
+          "column": 53,
+          "position": 322
+        },
+        "endLoc": {
+          "line": 51,
+          "column": 88,
+          "position": 463
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 23,
+      "fragment": ",\n        tools?: ToolDefinition[],\n        abortSignal?: AbortSignal\n    ): Promise<ProviderResponse> {\n        if (!this.client || !this.config) {\n            throw new Error(\"Anthropic provider not initialized. Call initialize() first.\");\n        }\n\n        const systemMessage = messages.find((m) => m.role === \"system\");\n        const nonSystemMessages = messages.filter((m) => m.role !== \"system\");\n\n        let anthropicMessages: Anthropic.MessageParam[] = nonSystemMessages.map((m) =>\n            this.toAnthropicMessage(m)\n        );\n        anthropicMessages = this.mergeConsecutiveMessages(anthropicMessages);\n\n        const anthropicTools: Anthropic.Tool[] | undefined = tools?.map((t) => ({\n            name: t.name,\n            description: t.description,\n            input_schema: t.parameters as unknown as Anthropic.Tool[\"input_schema\"],\n        }));\n\n        const stream",
+      "tokens": 251,
+      "firstFile": {
+        "name": "src/core/providers/anthropic-provider.ts",
+        "start": 108,
+        "end": 130,
+        "startLoc": {
+          "line": 108,
+          "column": 35,
+          "position": 1031
+        },
+        "endLoc": {
+          "line": 130,
+          "column": 21,
+          "position": 1282
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/anthropic-provider.ts",
+        "start": 45,
+        "end": 67,
+        "startLoc": {
+          "line": 45,
+          "column": 36,
+          "position": 394
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 23,
+          "position": 645
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": "\n\n        onChunk({\n            content: \"\",\n            toolCalls: toolCalls.length > 0 ? toolCalls : undefined,\n            isComplete: true,\n            usage,\n        });\n\n        return {\n            content: fullContent,\n            toolCalls,\n            usage,\n            stopReason: toolCalls.length > 0 ? \"tool_use\" : \"stop\",\n        };\n    }\n\n    formatToolResult(toolCallId: string, result: string): ProviderMessage {\n        return {\n            role: \"user\"",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/core/providers/anthropic-provider.ts",
+        "start": 214,
+        "end": 233,
+        "startLoc": {
+          "line": 214,
+          "column": 73,
+          "position": 2032
+        },
+        "endLoc": {
+          "line": 233,
+          "column": 25,
+          "position": 2162
+        }
+      },
+      "secondFile": {
+        "name": "src/core/providers/openai-provider.ts",
+        "start": 175,
+        "end": 194,
+        "startLoc": {
+          "line": 175,
+          "column": 10,
+          "position": 1611
+        },
+        "endLoc": {
+          "line": 194,
+          "column": 25,
+          "position": 1741
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ");\n                }\n                if (!this.isPathAllowed(filePath, manifest)) {\n                    throw new PluginError(pluginId, `Permission denied: path '${filePath}' is outside allowed scope`);\n                }\n                const root = getWorkspaceRoot();\n                const fullPath = root ? path.join(root, filePath) : filePath;\n                // Final safety check: prevent path traversal\n                if (root && !path.resolve(fullPath).startsWith(path.resolve(root))) {\n                    throw new PluginError(pluginId, `Permission denied: path traversal detected`);\n                }\n                const",
+      "tokens": 133,
+      "firstFile": {
+        "name": "src/core/plugins/plugin-loader.ts",
+        "start": 369,
+        "end": 380,
+        "startLoc": {
+          "line": 369,
+          "column": 105,
+          "position": 3762
+        },
+        "endLoc": {
+          "line": 380,
+          "column": 22,
+          "position": 3895
+        }
+      },
+      "secondFile": {
+        "name": "src/core/plugins/plugin-loader.ts",
+        "start": 353,
+        "end": 364,
+        "startLoc": {
+          "line": 353,
+          "column": 104,
+          "position": 3557
+        },
+        "endLoc": {
+          "line": 364,
+          "column": 23,
+          "position": 3690
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ";\nimport type { ChatManager } from \"../chat/chat-manager\";\nimport type { ToolRegistry } from \"../tools/tool-registry\";\nimport type { ProviderRegistry } from \"../providers/provider-registry\";\nimport type { MemoryManager } from \"../memory/memory-manager\";\nimport type { RAGEngine } from \"../memory/rag-engine\";\nimport type { MCPClient } from \"../tools/mcp-client\";\nimport type * as vscode from \"vscode\";\n\n",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/core/plugins/plugin-api.ts",
+        "start": 1,
+        "end": 10,
+        "startLoc": {
+          "line": 1,
+          "column": 50,
+          "position": 13
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 1,
+          "position": 120
+        }
+      },
+      "secondFile": {
+        "name": "src/core/plugins/plugin-loader.ts",
+        "start": 17,
+        "end": 25,
+        "startLoc": {
+          "line": 17,
+          "column": 43,
+          "position": 148
+        },
+        "endLoc": {
+          "line": 25,
+          "column": 7,
+          "position": 255
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ";\n                        callbacks.onStreaming?.(responseContent, true);\n                        const assistantMessage: ChatMessage = {\n                            id: generateId(),\n                            type: \"assistant\",\n                            content: responseContent,\n                            timestamp: Date.now(),\n                            tokensUsed: result.tokensUsed,\n                        };\n                        this.history.addMessage(assistantMessage);\n                        callbacks.onDone?.(responseContent, result.tokensUsed || 0);\n                        return true;\n                    } catch (err) {\n                        callbacks.onError?.(`Debugger failed: ",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/core/chat/chat-manager.ts",
+        "start": 668,
+        "end": 681,
+        "startLoc": {
+          "line": 668,
+          "column": 88,
+          "position": 5533
+        },
+        "endLoc": {
+          "line": 681,
+          "column": 63,
+          "position": 5663
+        }
+      },
+      "secondFile": {
+        "name": "src/core/chat/chat-manager.ts",
+        "start": 637,
+        "end": 650,
+        "startLoc": {
+          "line": 637,
+          "column": 119,
+          "position": 5208
+        },
+        "endLoc": {
+          "line": 650,
+          "column": 63,
+          "position": 5338
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ";\n                        callbacks.onStreaming?.(responseContent, true);\n                        const assistantMessage: ChatMessage = {\n                            id: generateId(),\n                            type: \"assistant\",\n                            content: responseContent,\n                            timestamp: Date.now(),\n                            tokensUsed: result.tokensUsed,\n                        };\n                        this.history.addMessage(assistantMessage);\n                        callbacks.onDone?.(responseContent, result.tokensUsed || 0);\n                        return true;\n                    } catch (err) {\n                        callbacks.onError?.(`Architect failed: ",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/core/chat/chat-manager.ts",
+        "start": 698,
+        "end": 711,
+        "startLoc": {
+          "line": 698,
+          "column": 97,
+          "position": 5846
+        },
+        "endLoc": {
+          "line": 711,
+          "column": 64,
+          "position": 5976
+        }
+      },
+      "secondFile": {
+        "name": "src/core/chat/chat-manager.ts",
+        "start": 637,
+        "end": 650,
+        "startLoc": {
+          "line": 637,
+          "column": 119,
+          "position": 5208
+        },
+        "endLoc": {
+          "line": 650,
+          "column": 63,
+          "position": 5338
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ";\n                        callbacks.onStreaming?.(responseContent, true);\n                        const assistantMessage: ChatMessage = {\n                            id: generateId(),\n                            type: \"assistant\",\n                            content: responseContent,\n                            timestamp: Date.now(),\n                            tokensUsed: result.tokensUsed,\n                        };\n                        this.history.addMessage(assistantMessage);\n                        callbacks.onDone?.(responseContent, result.tokensUsed || 0);\n                        return true;\n                    } catch (err) {\n                        callbacks.onError?.(`Researcher failed: ",
+      "tokens": 130,
+      "firstFile": {
+        "name": "src/core/chat/chat-manager.ts",
+        "start": 728,
+        "end": 741,
+        "startLoc": {
+          "line": 728,
+          "column": 88,
+          "position": 6151
+        },
+        "endLoc": {
+          "line": 741,
+          "column": 65,
+          "position": 6281
+        }
+      },
+      "secondFile": {
+        "name": "src/core/chat/chat-manager.ts",
+        "start": 637,
+        "end": 650,
+        "startLoc": {
+          "line": 637,
+          "column": 119,
+          "position": 5208
+        },
+        "endLoc": {
+          "line": 650,
+          "column": 63,
+          "position": 5338
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 36,
+      "fragment": ");\n                    const args: string[] = [];\n                    for (const arg of parsedArgs) {\n                        if (typeof arg === 'string') {\n                            args.push(arg);\n                        } else {\n                            throw new Error(\"Shell operators (e.g., &&, |, >) are not supported for security reasons.\");\n                        }\n                    }\n\n                    if (args.length === 0) {\n                        step.result = \"No valid command to execute\";\n                        break;\n                    }\n\n                    const cmd = args[0];\n                    const cmdArgs = args.slice(1);\n\n                    const result = await new Promise<{stdout: string, stderr: string}>((resolve, reject) => {\n                        let stdout = \"\";\n                        let stderr = \"\";\n                        let stdoutLen = 0;\n                        let stderrLen = 0;\n                        const maxBuffer = 1024 * 1024;\n                        let settled = false;\n\n                        const settle = (error: Error | null, result?: {stdout: string, stderr: string}) => {\n                            if (settled) return;\n                            settled = true;\n                            if (error) reject(error);\n                            else resolve(result!);\n                        };\n\n                        const child = spawn(cmd, cmdArgs, {\n                            cwd: workspaceRoot,\n                            timeout: 120000",
+      "tokens": 362,
+      "firstFile": {
+        "name": "src/core/builder/feature-builder.ts",
+        "start": 507,
+        "end": 542,
+        "startLoc": {
+          "line": 507,
+          "column": 57,
+          "position": 4209
+        },
+        "endLoc": {
+          "line": 542,
+          "column": 44,
+          "position": 4571
+        }
+      },
+      "secondFile": {
+        "name": "src/core/builder/feature-builder.ts",
+        "start": 424,
+        "end": 459,
+        "startLoc": {
+          "line": 424,
+          "column": 58,
+          "position": 3390
+        },
+        "endLoc": {
+          "line": 459,
+          "column": 43,
+          "position": 3752
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 34,
+      "fragment": ",\n                        });\n\n                        child.stdout?.on('data', (data: Buffer) => {\n                            stdoutLen += data.length;\n                            if (stdoutLen > maxBuffer) {\n                                child.kill();\n                                settle(new Error(\"maxBuffer exceeded\"));\n                                return;\n                            }\n                            stdout += data.toString();\n                        });\n\n                        child.stderr?.on('data', (data: Buffer) => {\n                            stderrLen += data.length;\n                            if (stderrLen > maxBuffer) {\n                                child.kill();\n                                settle(new Error(\"maxBuffer exceeded\"));\n                                return;\n                            }\n                            stderr += data.toString();\n                        });\n\n                        child.on('error', (err: Error) => settle(err));\n                        child.on('close', (code: number | null) => {\n                            if (code !== 0) {\n                                settle(new Error(`Command failed with exit code ${code}\\nStderr: ${stderr}`));\n                            } else {\n                                settle(null, { stdout, stderr });\n                            }\n                        });\n                    });\n\n                    step.result = result.stdout || result.stderr;",
+      "tokens": 322,
+      "firstFile": {
+        "name": "src/core/builder/feature-builder.ts",
+        "start": 542,
+        "end": 575,
+        "startLoc": {
+          "line": 542,
+          "column": 44,
+          "position": 4572
+        },
+        "endLoc": {
+          "line": 575,
+          "column": 66,
+          "position": 4894
+        }
+      },
+      "secondFile": {
+        "name": "src/core/builder/feature-builder.ts",
+        "start": 459,
+        "end": 492,
+        "startLoc": {
+          "line": 459,
+          "column": 43,
+          "position": 3753
+        },
+        "endLoc": {
+          "line": 492,
+          "column": 66,
+          "position": 4075
+        }
+      }
+    }
+  ]
+}
