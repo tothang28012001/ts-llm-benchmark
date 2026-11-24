@@ -1,0 +1,11 @@
+npm ERR! Error while executing:
+npm ERR! /usr/bin/git ls-remote -h -t git://github.com/CharlesMangwa/simple-markdown.git
+npm ERR! 
+npm ERR! fatal: unable to connect to github.com:
+npm ERR! github.com[0: 140.82.114.3]: errno=Connection refused
+npm ERR! 
+npm ERR! 
+npm ERR! exited with error code: 128
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2026-11-24T09_51_16_985Z-debug.log

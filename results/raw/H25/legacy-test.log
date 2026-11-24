@@ -1,0 +1,78 @@
+
+> express-graphql-typescript-boilerplate@1.0.0-rc.3 test /work
+> NODE_ENV=test ./node_modules/.bin/gulp test
+
+[09:47:01] Using gulpfile /work/gulpfile.js
+[09:47:01] Starting 'test'...
+[09:47:01] Starting 'build'...
+[09:47:01] Starting 'lint'...
+no-use-before-declare is deprecated. Since TypeScript 2.9. Please use the built-in compiler checks instead.
+Warning: The 'no-use-before-declare' rule requires type information.
+ERROR: (semicolon) /work/src/schemas/fields/AuthorField.ts[21, 102]: Missing semicolon
+
+ERROR: (semicolon) /work/src/schemas/fields/BooksField.ts[21, 102]: Missing semicolon
+
+ERROR: (semicolon) /work/src/core/Utils.ts[8, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/core/Utils.ts[12, 6]: Unnecessary semicolon
+
+ERROR: (no-shadowed-variable) /work/src/exceptions/Exception.ts[4, 27]: Shadowed name: 'Exception'
+
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[25, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[29, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[33, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[37, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[41, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[46, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[51, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[55, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[60, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/AuthorModel.ts[65, 6]: Unnecessary semicolon
+
+ERROR: (semicolon) /work/src/models/BookModel.ts[28, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[32, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[36, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[40, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[44, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[48, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[52, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[56, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[61, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[66, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[71, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[76, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[81, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[86, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[91, 6]: Unnecessary semicolon
+ERROR: (semicolon) /work/src/models/BookModel.ts[96, 6]: Unnecessary semicolon
+
+[09:47:02] 'lint' errored after 902 ms
+[09:47:02] [31mError[39m in plugin "[36mgulp-tslint[39m"
+Message:
+    Failed to lint: /work/src/schemas/fields/AuthorField.ts [21, 102]: Missing semicolon, /work/src/schemas/fields/BooksField.ts [21, 102]: Missing semicolon, /work/src/core/Utils.ts [8, 6]: Unnecessary semicolon, /work/src/core/Utils.ts [12, 6]: Unnecessary semicolon, /work/src/exceptions/Exception.ts [4, 27]: Shadowed name: 'Exception', /work/src/models/AuthorModel.ts [25, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [29, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [33, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [37, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [41, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [46, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [51, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [55, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [60, 6]: Unnecessary semicolon, /work/src/models/AuthorModel.ts [65, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [28, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [32, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [36, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [40, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [44, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [48, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [52, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [56, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [61, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [66, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [71, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [76, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [81, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [86, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [91, 6]: Unnecessary semicolon, /work/src/models/BookModel.ts [96, 6]: Unnecessary semicolon.
+[09:47:02] 'test' errored after 906 ms
+[09:47:02] [31mError[39m in plugin "[36mrun-sequence(lint)[39m"
+Error
+    at finish (/work/node_modules/run-sequence/index.js:82:12)
+    at Gulp.onError (/work/node_modules/run-sequence/index.js:93:3)
+    at Gulp.emit (events.js:203:15)
+    at Gulp.Orchestrator._emitTaskDone (/work/node_modules/orchestrator/index.js:264:8)
+    at /work/node_modules/orchestrator/index.js:275:23
+    at finish (/work/node_modules/orchestrator/lib/runTask.js:21:8)
+    at Stream.<anonymous> (/work/node_modules/orchestrator/lib/runTask.js:52:4)
+    at Stream.f (/work/node_modules/once/once.js:17:25)
+    at Stream.emit (events.js:203:15)
+    at Stream.throwErrors (/work/node_modules/gulp-tslint/index.js:205:29)
+[09:47:02] 'build' errored after 906 ms
+[09:47:02] [31mError[39m in plugin "[36mrun-sequence(test)[39m"
+Error
+    at finish (/work/node_modules/run-sequence/index.js:82:12)
+    at Gulp.onError (/work/node_modules/run-sequence/index.js:93:3)
+    at Gulp.emit (events.js:203:15)
+    at Gulp.Orchestrator._emitTaskDone (/work/node_modules/orchestrator/index.js:264:8)
+    at /work/node_modules/orchestrator/index.js:275:23
+    at finish (/work/node_modules/orchestrator/lib/runTask.js:21:8)
+    at cb (/work/node_modules/orchestrator/lib/runTask.js:29:3)
+    at finish (/work/node_modules/run-sequence/index.js:86:4)
+    at Gulp.onError (/work/node_modules/run-sequence/index.js:93:3)
+    at Gulp.emit (events.js:203:15)
+npm ERR! Test failed.  See above for more details.

@@ -1,0 +1,1021 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:05:13.122Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/services/BookService.ts": {
+            "lines": 48,
+            "tokens": 520,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/AuthorService.ts": {
+            "lines": 59,
+            "tokens": 645,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/types/SearchType.ts": {
+            "lines": 19,
+            "tokens": 150,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/types/DateType.ts": {
+            "lines": 58,
+            "tokens": 524,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/types/BookType.ts": {
+            "lines": 29,
+            "tokens": 192,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/types/AuthorType.ts": {
+            "lines": 25,
+            "tokens": 162,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/queries/index.ts": {
+            "lines": 6,
+            "tokens": 44,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/queries/SearchQuery.ts": {
+            "lines": 56,
+            "tokens": 451,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/queries/FindBookByIdQuery.ts": {
+            "lines": 38,
+            "tokens": 427,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 146,
+            "percentage": 28.95,
+            "percentageTokens": 34.19,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/queries/FindAuthorByIdQuery.ts": {
+            "lines": 33,
+            "tokens": 352,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 146,
+            "percentage": 33.33,
+            "percentageTokens": 41.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/queries/FindAllBooksQuery.ts": {
+            "lines": 44,
+            "tokens": 485,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 172,
+            "percentage": 31.82,
+            "percentageTokens": 35.46,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/queries/FindAllAuthorsQuery.ts": {
+            "lines": 40,
+            "tokens": 417,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 172,
+            "percentage": 35,
+            "percentageTokens": 41.25,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/queries/AbstractQuery.ts": {
+            "lines": 111,
+            "tokens": 615,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/mutations/UpdateAuthorMutation.ts": {
+            "lines": 44,
+            "tokens": 415,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/mutations/DeleteAuthorMutation.ts": {
+            "lines": 29,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/mutations/CreateAuthorMutation.ts": {
+            "lines": 55,
+            "tokens": 509,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/mutations/AbstractMutation.ts": {
+            "lines": 8,
+            "tokens": 45,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/index.ts": {
+            "lines": 55,
+            "tokens": 374,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/index.ts": {
+            "lines": 13,
+            "tokens": 107,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/UpdatedAtField.ts": {
+            "lines": 14,
+            "tokens": 80,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/TypeField.ts": {
+            "lines": 12,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/TitleField.ts": {
+            "lines": 12,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/PublishedAtField.ts": {
+            "lines": 14,
+            "tokens": 80,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/PriceField.ts": {
+            "lines": 12,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/LastNameField.ts": {
+            "lines": 12,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/IdField.ts": {
+            "lines": 12,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/FirstNameField.ts": {
+            "lines": 12,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/DescriptionField.ts": {
+            "lines": 12,
+            "tokens": 69,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/CreatedAtField.ts": {
+            "lines": 14,
+            "tokens": 80,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/BooksField.ts": {
+            "lines": 28,
+            "tokens": 290,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/AuthorField.ts": {
+            "lines": 37,
+            "tokens": 308,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/fields/AbstractField.ts": {
+            "lines": 105,
+            "tokens": 567,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/arguments/TextArgument.ts": {
+            "lines": 25,
+            "tokens": 174,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/arguments/OffsetArgument.ts": {
+            "lines": 20,
+            "tokens": 139,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schemas/arguments/LimitArgument.ts": {
+            "lines": 20,
+            "tokens": 139,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/routes/GraphQLRoutes.ts": {
+            "lines": 62,
+            "tokens": 459,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/routes/DefaultRoutes.ts": {
+            "lines": 20,
+            "tokens": 134,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/repositories/BookRepository.ts": {
+            "lines": 48,
+            "tokens": 421,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/repositories/AuthorRepository.ts": {
+            "lines": 64,
+            "tokens": 581,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/repositories/AbstractRepository.ts": {
+            "lines": 8,
+            "tokens": 33,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/BookModel.ts": {
+            "lines": 183,
+            "tokens": 1493,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 101,
+            "percentage": 7.65,
+            "percentageTokens": 6.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/AuthorModel.ts": {
+            "lines": 140,
+            "tokens": 1145,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 101,
+            "percentage": 10,
+            "percentageTokens": 8.82,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/AbstactModel.ts": {
+            "lines": 5,
+            "tokens": 33,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/middlewares/OAuthMiddleware.ts": {
+            "lines": 22,
+            "tokens": 164,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 58,
+            "tokens": 276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/exceptions/index.ts": {
+            "lines": 5,
+            "tokens": 35,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/exceptions/ValidationException.ts": {
+            "lines": 11,
+            "tokens": 52,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/exceptions/NotFoundException.ts": {
+            "lines": 11,
+            "tokens": 60,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/exceptions/FieldException.ts": {
+            "lines": 11,
+            "tokens": 51,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/exceptions/Exception.ts": {
+            "lines": 56,
+            "tokens": 466,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/database/seeds/20170221195948_book.ts": {
+            "lines": 22,
+            "tokens": 219,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/database/seeds/20170220183349_authors.ts": {
+            "lines": 17,
+            "tokens": 128,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/database/migrations/20170221195948_create_books_table.ts": {
+            "lines": 29,
+            "tokens": 282,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/database/migrations/20170220183349_create_authors_table.ts": {
+            "lines": 21,
+            "tokens": 211,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/database/factories/BookFactory.ts": {
+            "lines": 14,
+            "tokens": 139,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/database/factories/AuthorFactory.ts": {
+            "lines": 11,
+            "tokens": 83,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/index.ts": {
+            "lines": 9,
+            "tokens": 46,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/Utils.ts": {
+            "lines": 35,
+            "tokens": 344,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/Tables.ts": {
+            "lines": 5,
+            "tokens": 29,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/Server.ts": {
+            "lines": 65,
+            "tokens": 582,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/Logger.ts": {
+            "lines": 69,
+            "tokens": 702,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/GraphQLErrorHandling.ts": {
+            "lines": 81,
+            "tokens": 671,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/Environment.ts": {
+            "lines": 27,
+            "tokens": 175,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/Database.ts": {
+            "lines": 17,
+            "tokens": 155,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/context/ServicesContext.ts": {
+            "lines": 45,
+            "tokens": 280,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/context/DataloadersContext.ts": {
+            "lines": 50,
+            "tokens": 430,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/context/Context.ts": {
+            "lines": 57,
+            "tokens": 344,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config.ts": {
+            "lines": 94,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 36,
+            "duplicatedTokens": 224,
+            "percentage": 38.3,
+            "percentageTokens": 50.45,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/RootValue.ts": {
+            "lines": 8,
+            "tokens": 32,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "knexfile.ts": {
+            "lines": 8,
+            "tokens": 65,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2519,
+          "tokens": 19805,
+          "sources": 70,
+          "clones": 4,
+          "duplicatedLines": 57,
+          "duplicatedTokens": 531,
+          "percentage": 2.26,
+          "percentageTokens": 2.68,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2519,
+      "tokens": 19805,
+      "sources": 70,
+      "clones": 4,
+      "duplicatedLines": 57,
+      "duplicatedTokens": 531,
+      "percentage": 2.26,
+      "percentageTokens": 2.68,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ";\n    public allow = ['admin'];\n    public args = {\n        id: { type: new GraphQLNonNull(GraphQLID) }\n    };\n\n    public before(context: Context<arguments.ID>, args: arguments.ID): Promise<arguments.ID> {\n        this.log.debug('hook before args', args);\n        return Promise.resolve(args);\n    }\n\n    public async execute(root: RootValue, args: arguments.ID, context: Context<arguments.ID>): Promise<models.author",
+      "tokens": 146,
+      "firstFile": {
+        "name": "src/schemas/queries/FindAuthorByIdQuery.ts",
+        "start": 15,
+        "end": 26,
+        "startLoc": {
+          "line": 15,
+          "column": 29,
+          "position": 145
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 117,
+          "position": 291
+        }
+      },
+      "secondFile": {
+        "name": "src/schemas/queries/FindBookByIdQuery.ts",
+        "start": 15,
+        "end": 26,
+        "startLoc": {
+          "line": 15,
+          "column": 27,
+          "position": 145
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 115,
+          "position": 291
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ");\n    public allow = ['admin'];\n    public args = {\n        limit: new LimitArgument(),\n        offset: new OffsetArgument()\n    };\n\n    public before(context: Context<common.PageinationArguments>, args: common.PageinationArguments): Promise<common.PageinationArguments> {\n        this.log.debug('hook before args', args);\n        LimitArgument.validate(args.limit);\n        OffsetArgument.validate(args.limit);\n        return Promise.resolve(args);\n    }\n\n    public async execute(root: RootValue, args: common.PageinationArguments, context: Context<common.PageinationArguments>): Promise<models.author",
+      "tokens": 172,
+      "firstFile": {
+        "name": "src/schemas/queries/FindAllAuthorsQuery.ts",
+        "start": 16,
+        "end": 30,
+        "startLoc": {
+          "line": 16,
+          "column": 45,
+          "position": 162
+        },
+        "endLoc": {
+          "line": 30,
+          "column": 147,
+          "position": 334
+        }
+      },
+      "secondFile": {
+        "name": "src/schemas/queries/FindAllBooksQuery.ts",
+        "start": 16,
+        "end": 30,
+        "startLoc": {
+          "line": 16,
+          "column": 43,
+          "position": 162
+        },
+        "endLoc": {
+          "line": 30,
+          "column": 145,
+          "position": 334
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ".RawAttributes, isRaw: boolean = true) {\n        if (attributes) {\n            if (isRaw) {\n                this.mapDatabaseObject(attributes);\n            } else {\n                this.mapJson(attributes);\n            }\n        }\n    }\n\n    public get Id(): number {\n        return this.id;\n    };\n\n    public get FirstName",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/models/AuthorModel.ts",
+        "start": 13,
+        "end": 27,
+        "startLoc": {
+          "line": 13,
+          "column": 70,
+          "position": 122
+        },
+        "endLoc": {
+          "line": 27,
+          "column": 25,
+          "position": 223
+        }
+      },
+      "secondFile": {
+        "name": "src/models/BookModel.ts",
+        "start": 16,
+        "end": 30,
+        "startLoc": {
+          "line": 16,
+          "column": 66,
+          "position": 154
+        },
+        "endLoc": {
+          "line": 30,
+          "column": 21,
+          "position": 255
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 19,
+      "fragment": ",\n            client: 'mysql',\n            migrations: {\n                directory: './src/database/migrations',\n                tableName: 'version'\n            },\n            seeds: {\n                directory: './src/database/seeds'\n            }\n        },\n        server: {\n            host: 'localhost',\n            port: process.env.PORT || '3000',\n            graphiql: false\n        },\n        logger: {\n            debug: '',\n            console: {\n                level: 'debug'",
+      "tokens": 112,
+      "firstFile": {
+        "name": "src/config.ts",
+        "start": 71,
+        "end": 89,
+        "startLoc": {
+          "line": 71,
+          "column": 76,
+          "position": 319
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 31,
+          "position": 431
+        }
+      },
+      "secondFile": {
+        "name": "src/config.ts",
+        "start": 40,
+        "end": 58,
+        "startLoc": {
+          "line": 40,
+          "column": 76,
+          "position": 175
+        },
+        "endLoc": {
+          "line": 58,
+          "column": 30,
+          "position": 287
+        }
+      }
+    }
+  ]
+}

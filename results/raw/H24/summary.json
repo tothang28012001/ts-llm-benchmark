@@ -1,0 +1,96 @@
+{
+  "repo_id": "H24",
+  "group": "human",
+  "full_name": "m-inan/react-native-music-app",
+  "stars": "308",
+  "created_at": "2019-05-06",
+  "pin": "925b6437cf91ec2c5ce73064ccd1f5024c8abb13",
+  "fetch": {
+    "sha": "925b6437cf91ec2c5ce73064ccd1f5024c8abb13",
+    "commit_date": "2020-12-29T03:47:17+03:00",
+    "first_commit_date": "2019-05-06T03:51:13+03:00",
+    "commits_to_pin": 146,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 55,
+    "test_files": 1,
+    "skipped": 0,
+    "pm": "yarn",
+    "lockfile": "yarn.lock"
+  },
+  "loc": {
+    "prod": {
+      "files": 55,
+      "lines": 2022,
+      "code": 1590,
+      "comment": 57,
+      "blank": 375
+    },
+    "test": {
+      "files": 1,
+      "lines": 15,
+      "code": 7,
+      "comment": 4,
+      "blank": 4
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack yarn install --frozen-lockfile --ignore-engines --network-timeout 600000",
+        "exit": 0,
+        "seconds": 22.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.9.7",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 1,
+        "errors": 3,
+        "seconds": 2.23
+      }
+    ],
+    "errors_total": 3,
+    "errors_in_project_files": 3,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS6133": 1,
+      "TS2307": 2
+    },
+    "files_with_errors": 3,
+    "timed_out": false,
+    "project_files_checked": 60
+  },
+  "test": {
+    "cmd": "corepack yarn test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 1.4
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "14",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "yarn install --frozen-lockfile --ignore-engines",
+    "passed": false,
+    "exit": 1,
+    "seconds": 2.6
+  }
+}

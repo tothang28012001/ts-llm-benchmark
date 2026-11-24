@@ -1,0 +1,100 @@
+{
+  "repo_id": "H29",
+  "group": "human",
+  "full_name": "JP1016/Markdown-Electron",
+  "stars": "117",
+  "created_at": "2019-10-01",
+  "pin": "07edebb6a59a03012827ceb4a98ad79d654d1e7a",
+  "fetch": {
+    "sha": "07edebb6a59a03012827ceb4a98ad79d654d1e7a",
+    "commit_date": "2019-10-04T13:04:50+05:30",
+    "first_commit_date": "2019-10-01T11:51:21+05:30",
+    "commits_to_pin": 23,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 34,
+    "test_files": 13,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 34,
+      "lines": 1715,
+      "code": 1401,
+      "comment": 84,
+      "blank": 231
+    },
+    "test": {
+      "files": 13,
+      "lines": 335,
+      "code": 246,
+      "comment": 15,
+      "blank": 75
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 1,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 1,
+        "seconds": 1.0
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 0,
+        "seconds": 68.9
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.5.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 1,
+        "seconds": 2.76
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 1,
+    "global_errors": 0,
+    "by_code": {
+      "TS1110": 1
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 46
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 6.0
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "12",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 7.7
+  }
+}

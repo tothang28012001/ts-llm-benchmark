@@ -23,3 +23,51 @@ L09,llm,roboco-io/roboco-cli,13,2026-04-04,143629,53,0.585,claude-code,vitest,7e
 L10,llm,menagerai/menagerai,11,2026-07-08,451510,67,0.507,claude-code,vitest,f016ca7301ed1ab205a9804e1386e027e67d1c4c,2026-11-07
 L11,llm,andrisasuke/podlogs,9,2026-01-09,140726,11,0.727,claude-code,vitest,c70bd05774b24771479d89ae20e835ebce655d87,2026-10-22
 L12,llm,cjy20040604-hub/eyes-training,8,2026-10-01,930055,25,1.0,claude-code,vitest,3a7cb07e409a768037f1f9e1dd8bfda2c4a89e02,2026-10-18
+H13,human,microsoft/clarity-js,220,2017-05-01,237982,211,0.0,,jasmine,9ff9e12c06897ec93fd32ba7335bf36757a84b18,2020-01-09
+H14,human,sigoden/wechatpay,120,2018-05-16,216019,39,0.0,,jest,0dc0afe46db764d03821961641d091973bc6ed6b,2019-06-10
+H15,human,g-plane/rize,175,2018-02-19,160154,269,0.0,,jest,39ed5c6302d3bb078b3d2c11c134e6200cb38d88,2020-05-22
+H16,human,infinitered/ChainReactApp2019,163,2018-04-03,200601,335,0.0,,jest,9dcc2a2b460f35607099c8f563048692f740ed80,2019-12-10
+H17,human,rangle/angular-ssr,277,2017-01-22,204451,365,0.0,,jest,18a8e40a541b3cb840ae7dfaa0abf95e5fab1256,2018-03-16
+H18,human,jhipster/ng-jhipster,120,2016-12-25,196988,557,0.0,,jest,df86c2c50e8bc6c78b34ac7fe4491b7662a21c8a,2020-12-11
+H19,human,5anthosh/fcal,116,2019-10-01,191957,159,0.0,,jest,723305ea9d6f40d085e9a0b5b91ec21d567d5968,2020-10-23
+H20,human,pilagod/js-tracker,398,2016-09-28,187031,639,0.0,,mocha,20b8456857ba1ebd1f32118a26a50744b482ed7c,2018-03-16
+H21,human,uport-project/uport-credentials,134,2017-01-05,67940,673,0.0,,jest,c88050d41a90dacb9d2fa977f56222bab68ab90e,2020-12-31
+H22,human,FinNLP/en-inflectors,347,2017-01-02,186772,72,0.0,,mocha,1fafd5dfb7ef50ebc1962c3498f5488760118d8c,2017-05-05
+H23,human,labs42io/itiriri,178,2018-07-23,182995,297,0.0,,mocha,8ff1ffaa47d8940a7e821cbd80dc9c8972eb4e30,2020-06-02
+H24,human,m-inan/react-native-music-app,308,2019-05-06,77547,192,0.0,,jest,925b6437cf91ec2c5ce73064ccd1f5024c8abb13,2020-12-29
+H25,human,w3tecch/express-graphql-typescript-boilerplate,179,2017-01-06,90703,206,0.0,,jasmine,28b2e84ee0063d6cc464a45bd05be2bc914b3a34,2018-11-11
+H26,human,ForbesLindesay/taxi-rank,344,2017-05-27,49604,38,0.0,,jest,78702e9c008ab5683cb3df7e362ee40444964afd,2018-07-11
+H27,human,vue-styleguidist/vue-docgen-api,105,2017-06-11,168298,195,0.0,,jest,96503d5d37ca8dd61a224cb23e937cad4e47f2f9,2019-03-06
+H28,human,hiroppy/ssr-sample,282,2018-07-30,71080,500,0.0,,jest,50a7e35226ea083cf59a1896e507bf80bdae82e8,2020-04-11
+H29,human,JP1016/Markdown-Electron,117,2019-10-01,55489,23,0.0,,mocha,07edebb6a59a03012827ceb4a98ad79d654d1e7a,2019-10-04
+H30,human,skellock/typescript-with-electron-react-kit,144,2017-07-15,52893,212,0.0,,jest,0acff6b0920d3b3a14ba2f1987a69f502c6c20a8,2018-03-19
+H31,human,staltz/dat-installer,270,2017-10-24,50891,85,0.0,,jest,10b4ceb5d2a73d8c53d5752561f1b9e82e1262a2,2018-09-26
+H32,human,grandjs/grandjs,124,2018-09-11,88029,187,0.0,,mocha,ac7808c34da364f5dd3246a9ca4d3fb8ec3545f5,2020-12-25
+H33,human,xbl/raml-mocker,111,2018-09-13,84395,248,0.0,,ava,e00d775a72ed42b1edb8cc1c2545367378bbee87,2020-09-06
+H34,human,dfrankland/react-amphtml,144,2016-03-26,67224,159,0.0,,jest,30bd69822753a7da8fc9b02e3c1160ae16975a88,2019-08-10
+H35,human,feredean/node-api-starter,114,2019-07-25,81173,158,0.0,,jest,0b9cd4163be88f693cec45f6b8f75ef5a4f266eb,2020-12-01
+H36,human,aluisiora/node-routeros,111,2017-10-23,62026,195,0.0,,mocha,0338cc062c21052a91aa24b2c9b91988ecfdaa31,2020-04-17
+L13,llm,aberemia24/code-executor-MCP,129,2025-11-09,1378697,253,0.66,claude-code,vitest,9421b827dd26de8b441f7c60783f5d61578b2eb2,2025-11-23
+L14,llm,windschord/keyflow,2,2026-06-21,1238887,79,0.519,claude-code;jules,vitest,8a59fc5bf8953ce37876ad21e2a0912b7b720b17,2026-11-14
+L15,llm,OrionArchitekton/proctor,2,2026-06-07,154546,63,0.603,claude-code;gemini,vitest,ed7b11a156cacfc23b646eeb370fab376cbe6d66,2026-07-25
+L16,llm,saltylvn/wellness-tracker,1,2026-10-05,446680,93,0.968,claude-code,vitest,af4f903645ce30f929caf7905e3b5c6867ddd937,2026-11-21
+L17,llm,engelbertgm/Mise-en-place,1,2026-10-13,495264,65,0.615,claude-code,node --test,edb195c576292a8523791386fe57455d43b079f3,2026-11-13
+L18,llm,MatthewRSouth/book-money-tracker,1,2026-03-22,176946,38,0.737,claude-code,vitest,0b7b05125c91c057d97e57d13643aa2c8dd42098,2026-07-30
+L19,llm,saltylvn/dialed-kitchen,1,2026-10-23,421212,35,0.943,claude-code,vitest,61a7b1f68170cddbbef7502f90ab0b1fc4cf9e78,2026-11-21
+L20,llm,jitangupta/content-board,1,2026-02-22,411075,31,0.645,claude-code,vitest,98583b25c3ed09bf316f74d827f04721577058ad,2026-03-31
+L21,llm,swinzy/vibelib,1,2026-09-30,73552,26,0.923,claude-code,node --test,0685867f1796f1e4cb6f5ea0d2083f3c5e6e92aa,2026-11-08
+L22,llm,Mustafa-Hisham1/AI-QA-Engineering-Agent,1,2026-08-12,883598,19,0.526,claude-code,node --test,65894f9bb20aab82c25698b00a82aba0d40a67cc,2026-10-11
+L23,llm,pisan-labs/code-analogy-forge,1,2026-11-02,425043,11,1.0,claude-code,vitest,8c4209811debc55da95da8ce5851937c1056bd8c,2026-11-23
+L24,llm,mrballistic/pi-day-birthday-finder,1,2026-03-14,79533,10,1.0,claude-code,vitest,70d5a12f8cb035fcd684550392cc79b7259d11c6,2026-03-15
+L25,llm,pisan-labs/emoji-lingua,1,2026-11-02,466216,10,1.0,claude-code,vitest,9588ff05b6c3aedeb7ddaf9a2fa873fe9e48806c,2026-11-19
+L26,llm,pisan-labs/mult-streak,1,2026-11-02,50014,10,0.9,claude-code,vitest,36eb334d37648d9e710dd5db3b238badc4729075,2026-11-19
+L27,llm,ohdaveed/candera-payload,0,2026-05-31,1451313,579,0.57,claude-code;copilot;cursor;gemini,vitest,4e4a3755a318f0c891d24b8f3f1d86611c3be263,2026-08-12
+L28,llm,GabrielAustinHenton/AutoTradeApp,0,2026-01-22,375755,226,0.81,claude-code,vitest,59165ae07625ccc9f0d31c3c11486023a623af36,2026-04-21
+L29,llm,paul80nd/forkast,0,2026-06-27,656154,223,0.78,claude-code,vitest,bc21401d87aeb3ebc1dbed84ceeb58e4f89338e2,2026-11-03
+L30,llm,paul80nd/tilth,0,2026-07-14,774849,166,0.79,claude-code,vitest,fd342fef674bf3284117760161576ddd2d7c4753,2026-11-03
+L31,llm,przemekrudzki/Perch,0,2026-04-23,433627,103,0.98,claude-code;codex,vitest,77ba1586c4bad0c31218e72eea464f0826c745ec,2026-11-19
+L32,llm,divadparad-gmail/skills-rules-manager,0,2026-10-16,1357585,82,0.951,claude-code;gemini,node --test,c9718f4b4d7bc32c2e4f03111b6e83c7daffc1ca,2026-11-17
+L33,llm,sid3github/aptask-mail,0,2026-05-18,270355,13,0.923,claude-code,vitest,1568505b04f6bdce1f3de333d30caeb5c0d1bffb,2026-06-17
+L34,llm,DavidNyholm/spinwright,0,2026-10-20,792095,13,1.0,claude-code,vitest,d5504fa119838069641c9482dbe8e65fa10d3d23,2026-10-21
+L35,llm,BreakthruDevelopment/02-notes-kb,0,2026-11-07,333166,13,0.923,claude-code;codex,vitest,0166ac485b9eef2484e03b0ced824b77d6975e78,2026-11-17
+L36,llm,DavidPivert/emdash-plugin-ai-alt-text,0,2026-09-29,87735,10,1.0,claude-code,vitest,bddabe83ae3f211d2e47eb27027409d2cd3af7ba,2026-10-17

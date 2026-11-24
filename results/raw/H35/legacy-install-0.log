@@ -1,0 +1,30 @@
+
+> nodemailer@6.4.6 postinstall /work/node_modules/nodemailer
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96m=== Nodemailer 6.4.6 ===[0m
+[96m[0m
+[96mThank you for using Nodemailer for your email sending needs! While Nodemailer[0m
+[96mitself is mostly meant to be a SMTP client there are other related projects in[0m
+[96mthe Nodemailer project as well.[0m
+[96m[0m
+[96mFor example:[0m
+[96m> IMAP API ( [94m https://imapapi.com [96m ) is a server application to easily access[0m
+[96mIMAP accounts via REST API[0m
+[96m> NodemailerApp ( [94m https://nodemailer.com/app/ [96m ) is a cross platform GUI app to[0m
+[96mdebug emails[0m
+[96m[0m
+
+> bcrypt@5.0.0 install /work/node_modules/bcrypt
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+[bcrypt] Success: "/work/node_modules/bcrypt/lib/binding/napi-v3/bcrypt_lib.node" is installed via remote
+
+> nodemon@2.0.3 postinstall /work/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+[32mLove nodemon? You can now support the project via the open collective:[22m[39m
+ > [96m[1mhttps://opencollective.com/nodemon/donate[0m
+
+added 1416 packages in 21.592s

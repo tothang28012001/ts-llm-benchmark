@@ -1,0 +1,1 @@
+{"prod": ["src/ai.ts", "src/app.ts", "src/index.ts", "src/translate.ts"], "test": ["test/api.test.ts", "test/dictionary.test.ts", "test/page.test.ts", "test/translate.test.ts"], "skipped": 2, "pm": "npm", "lockfile": "package-lock.json", "yarn_berry": false}

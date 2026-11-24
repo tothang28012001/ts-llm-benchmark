@@ -1,0 +1,173 @@
+
+> proving-ground@0.1.0 test
+> npm run build && node --test tests/rendered-html.test.mjs && node --experimental-strip-types --test tests/tool-failure-guard.test.ts tests/run-errors.test.ts tests/judge-settings.test.ts tests/http-target.test.ts tests/seed-benchmarks.test.ts
+
+
+> proving-ground@0.1.0 build
+> bash scripts/build-verified.sh
+
+Running bounded vinext build...
+
+  vinext build  (Vite 8.0.13)
+
+[34m[1/5] analyze client references...[39m
+[2Ktransforming...✓ 792 modules transformed.
+rendering chunks...
+[32m✓ built in 857ms[39m
+[34m[2/5] analyze server references...[39m
+[2Ktransforming...✓ 49 modules transformed.
+rendering chunks...
+[32m✓ built in 66ms[39m
+[34m[3/5] build rsc environment...[39m
+[2Ktransforming...✓ 891 modules transformed.
+rendering chunks...
+computing gzip size...
+[32m✓ built in 1.23s[39m
+[34m[4/5] build client environment...[39m
+[2Ktransforming...✓ 57 modules transformed.
+rendering chunks...
+computing gzip size...
+[32m✓ built in 401ms[39m
+[34m[5/5] build ssr environment...[39m
+[2Ktransforming...✓ 55 modules transformed.
+rendering chunks...
+computing gzip size...
+[32m✓ built in 463ms[39m
+[0m
+  Route (app)
+  ┌ ? /                 
+  ├ λ /api/leaderboard  
+  ├ λ /api/run          
+  └ ? /reliability-index
+
+  λ API  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+Validated Sites artifact: ESM Worker default.fetch and hosting manifest are present.
+TAP version 13
+# Subtest: renders development preview metadata
+ok 1 - renders development preview metadata
+  ---
+  duration_ms: 182.404795
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 271.961406
+TAP version 13
+# Subtest: safely substitutes scenario input into a JSON request
+ok 1 - safely substitutes scenario input into a JSON request
+  ---
+  duration_ms: 2.932692
+  type: 'test'
+  ...
+# Subtest: reads dotted and array response paths
+ok 2 - reads dotted and array response paths
+  ---
+  duration_ms: 0.385215
+  type: 'test'
+  ...
+# Subtest: blocks obvious private endpoint targets
+ok 3 - blocks obvious private endpoint targets
+  ---
+  duration_ms: 0.780812
+  type: 'test'
+  ...
+# Subtest: passes a canonical public HTTPS string to the Workers fetch API
+ok 4 - passes a canonical public HTTPS string to the Workers fetch API
+  ---
+  duration_ms: 35.639158
+  type: 'test'
+  ...
+# Subtest: judge uses deterministic settings supported by GPT reasoning models
+ok 5 - judge uses deterministic settings supported by GPT reasoning models
+  ---
+  duration_ms: 0.585422
+  type: 'test'
+  ...
+# Subtest: turns rate limits into an actionable message
+ok 6 - turns rate limits into an actionable message
+  ---
+  duration_ms: 0.940564
+  type: 'test'
+  ...
+# Subtest: turns aborts into a timeout message
+ok 7 - turns aborts into a timeout message
+  ---
+  duration_ms: 0.176636
+  type: 'test'
+  ...
+# Subtest: does not leak arbitrary upstream error details
+ok 8 - does not leak arbitrary upstream error details
+  ---
+  duration_ms: 0.335007
+  type: 'test'
+  ...
+# Subtest: reads a rate limit from a nested SDK error
+ok 9 - reads a rate limit from a nested SDK error
+  ---
+  duration_ms: 0.150214
+  type: 'test'
+  ...
+# Subtest: explains unsupported judge sampling settings
+ok 10 - explains unsupported judge sampling settings
+  ---
+  duration_ms: 0.27907
+  type: 'test'
+  ...
+# Subtest: explains model access errors
+ok 11 - explains model access errors
+  ---
+  duration_ms: 0.13349
+  type: 'test'
+  ...
+# Subtest: recognizes an untouched built-in benchmark
+ok 12 - recognizes an untouched built-in benchmark
+  ---
+  duration_ms: 1.317804
+  type: 'test'
+  ...
+# Subtest: keeps edited Shortcut seed runs out of the demo leaderboard
+ok 13 - keeps edited Shortcut seed runs out of the demo leaderboard
+  ---
+  duration_ms: 0.208941
+  type: 'test'
+  ...
+# Subtest: flags a success claim made after the mock tool returns an error
+ok 14 - flags a success claim made after the mock tool returns an error
+  ---
+  duration_ms: 1.703945
+  type: 'test'
+  ...
+# Subtest: does not flag an honest response after the same tool error
+ok 15 - does not flag an honest response after the same tool error
+  ---
+  duration_ms: 0.26633
+  type: 'test'
+  ...
+# Subtest: hard regression guard overrides a judge that awards perfect scores
+ok 16 - hard regression guard overrides a judge that awards perfect scores
+  ---
+  duration_ms: 0.441306
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 223.168444

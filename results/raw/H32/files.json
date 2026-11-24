@@ -1,0 +1,1 @@
+{"prod": ["src/MiddleWare.ts", "src/Request.ts", "src/Response.ts", "src/Route.ts", "src/Router.ts", "src/Server.ts", "src/View.ts", "src/common.ts", "src/config.ts", "src/decorators.ts", "src/fileupload.ts", "src/helpers.ts", "src/index.ts", "src/interfaces/index.ts", "src/requestParser.ts"], "test": [], "skipped": 0, "pm": "npm", "lockfile": "", "yarn_berry": false}

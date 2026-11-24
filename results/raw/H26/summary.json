@@ -1,0 +1,113 @@
+{
+  "repo_id": "H26",
+  "group": "human",
+  "full_name": "ForbesLindesay/taxi-rank",
+  "stars": "344",
+  "created_at": "2017-05-27",
+  "pin": "78702e9c008ab5683cb3df7e362ee40444964afd",
+  "fetch": {
+    "sha": "78702e9c008ab5683cb3df7e362ee40444964afd",
+    "commit_date": "2018-07-11T21:11:50+01:00",
+    "first_commit_date": "2017-05-27T23:29:16+01:00",
+    "commits_to_pin": 38,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 16,
+    "test_files": 0,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 16,
+      "lines": 1230,
+      "code": 1085,
+      "comment": 91,
+      "blank": 54
+    },
+    "test": {
+      "files": 0,
+      "lines": 0,
+      "code": 0,
+      "comment": 0,
+      "blank": 0
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 2,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 127,
+        "seconds": 17.2
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 127,
+        "seconds": 7.1
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 0,
+        "seconds": 5.9
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "2.9.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 4859,
+        "seconds": 4.872
+      }
+    ],
+    "errors_total": 4859,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 4859,
+    "global_errors": 0,
+    "by_code": {
+      "TS1005": 3865,
+      "TS1128": 36,
+      "TS1109": 852,
+      "TS1136": 17,
+      "TS1011": 71,
+      "TS1135": 10,
+      "TS1110": 4,
+      "TS1160": 3,
+      "TS1084": 1
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 19
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 127,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 0.4
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "10",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 0.8
+  }
+}

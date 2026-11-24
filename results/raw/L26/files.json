@@ -1,0 +1,1 @@
+{"prod": ["src/app.ts", "src/config.ts", "src/cookie.ts", "src/email.ts", "src/game.ts", "src/index.ts", "src/store.ts"], "test": ["test/app.test.ts", "test/config.test.ts", "test/cookie.test.ts", "test/game.test.ts", "test/store.test.ts"], "skipped": 1, "pm": "npm", "lockfile": "package-lock.json", "yarn_berry": false}

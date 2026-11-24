@@ -1,0 +1,56 @@
+
+> forkast@1.0.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.1.0 [39m[90m/work[39m
+
+ [32m✓[39m features/steps/plan-week.steps.ts [2m([22m[2m64 tests[22m[2m)[22m[32m 63[2mms[22m[39m
+ [32m✓[39m features/steps/curation.steps.ts [2m([22m[2m89 tests[22m[2m)[22m[32m 64[2mms[22m[39m
+ [32m✓[39m features/steps/shop.steps.ts [2m([22m[2m116 tests[22m[2m)[22m[32m 95[2mms[22m[39m
+ [32m✓[39m features/steps/variants.steps.ts [2m([22m[2m63 tests[22m[2m)[22m[32m 61[2mms[22m[39m
+ [32m✓[39m src/lib/suggest.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 19[2mms[22m[39m
+ [32m✓[39m features/steps/suggest-week.steps.ts [2m([22m[2m57 tests[22m[2m)[22m[32m 72[2mms[22m[39m
+ [32m✓[39m src/lib/shopping.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/lib/variants.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m src/lib/similarity.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m src/lib/dataset.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m src/lib/browseFilter.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32m✓[39m src/lib/relatedRecipes.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m src/lib/useUp.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32m✓[39m features/steps/aisles.steps.ts [2m([22m[2m29 tests[22m[2m)[22m[32m 74[2mms[22m[39m
+ [32m✓[39m features/steps/duplicates.steps.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 45[2mms[22m[39m
+ [32m✓[39m features/steps/recipe-edit.steps.ts [2m([22m[2m34 tests[22m[2m)[22m[32m 44[2mms[22m[39m
+ [32m✓[39m features/steps/use-up.steps.ts [2m([22m[2m33 tests[22m[2m)[22m[32m 52[2mms[22m[39m
+ [32m✓[39m features/steps/backup.steps.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 60[2mms[22m[39m
+ [32m✓[39m features/steps/additive-import.steps.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+ [32m✓[39m features/steps/cleanup.steps.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 39[2mms[22m[39m
+ [32m✓[39m features/steps/related-recipes.steps.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 45[2mms[22m[39m
+ [32m✓[39m src/lib/backup.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m features/steps/import-dataset.steps.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32m✓[39m src/lib/storageEstimate.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/lib/tags.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m features/steps/tag-manager.steps.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 44[2mms[22m[39m
+ [32m✓[39m src/lib/parseIngredient.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m src/lib/shoppingExport.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m features/steps/image-pack.steps.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32m✓[39m src/app/images.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 37[2mms[22m[39m
+ [32m✓[39m src/lib/aisles.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m features/steps/seed-demo.steps.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m src/lib/recipeEdit.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/lib/scaleServings.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m features/steps/recipe-images.steps.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32m✓[39m src/lib/duplicates.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m src/lib/assets.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m src/lib/ingredientMatch.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m src/lib/backupNudge.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/lib/units.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m40 passed[39m[22m[90m (40)[39m
+[2m      Tests [22m [1m[32m865 passed[39m[22m[90m (865)[39m
+[2m   Start at [22m 10:06:27
+[2m   Duration [22m 3.14s[2m (import 31%, transform 25%, tests 25%, setup 16%, worker 3%)[22m
+
+[2m    Isolate [22m [33m40 workers spawned[39m[2m · ~107ms startup each (spawn + environment, per file)[22m
+[2m            [22m [2mat least ~1.32s faster with [22m[33misolate: false[39m[2m — reuses workers across files instead of one per file[22m
+

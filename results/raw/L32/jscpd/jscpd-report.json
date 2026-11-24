@@ -1,0 +1,1621 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T10:07:54.900Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/tokenizer.ts": {
+            "lines": 242,
+            "tokens": 1434,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/paths.ts": {
+            "lines": 84,
+            "tokens": 543,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/frontmatter.ts": {
+            "lines": 224,
+            "tokens": 2176,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/debounce.ts": {
+            "lines": 57,
+            "tokens": 411,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/antigravityRules.ts": {
+            "lines": 407,
+            "tokens": 3879,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/vscodeDeployReview.ts": {
+            "lines": 115,
+            "tokens": 995,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/nasHostAuthorization.ts": {
+            "lines": 48,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/discoveryCommands.ts": {
+            "lines": 258,
+            "tokens": 1999,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/claudeWatchers.ts": {
+            "lines": 90,
+            "tokens": 789,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/bancEssaiVsCode.ts": {
+            "lines": 16,
+            "tokens": 165,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/bancEssaiPresentation.ts": {
+            "lines": 46,
+            "tokens": 543,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/bancEssaiParcours.ts": {
+            "lines": 125,
+            "tokens": 1203,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/bancEssaiCommandes.ts": {
+            "lines": 93,
+            "tokens": 875,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/EnvironmentStatusBar.ts": {
+            "lines": 234,
+            "tokens": 1928,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/DiscoveryViewProvider.ts": {
+            "lines": 533,
+            "tokens": 4753,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/index.ts": {
+            "lines": 615,
+            "tokens": 3573,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/settings/vscodeAdapters.ts": {
+            "lines": 66,
+            "tokens": 608,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/settings/userSettingValue.ts": {
+            "lines": 25,
+            "tokens": 136,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/settings/RegistryConfigService.ts": {
+            "lines": 731,
+            "tokens": 6099,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/settings/NasPathService.ts": {
+            "lines": 237,
+            "tokens": 1916,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/nasPathSetting.ts": {
+            "lines": 32,
+            "tokens": 168,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/claudeMemoryItems.ts": {
+            "lines": 131,
+            "tokens": 1221,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/claudeAutoMemory.ts": {
+            "lines": 232,
+            "tokens": 2228,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/bancEssaiFichiers.ts": {
+            "lines": 353,
+            "tokens": 3804,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/antigravityWorkflowItem.ts": {
+            "lines": 93,
+            "tokens": 903,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/antigravitySkillItem.ts": {
+            "lines": 196,
+            "tokens": 2258,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/antigravityRuleSources.ts": {
+            "lines": 196,
+            "tokens": 2156,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/antigravityRuleItem.ts": {
+            "lines": 201,
+            "tokens": 2055,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/antigravityHooks.ts": {
+            "lines": 44,
+            "tokens": 573,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/antigravityDynamicCosts.ts": {
+            "lines": 116,
+            "tokens": 1464,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/antigravityBootCost.ts": {
+            "lines": 52,
+            "tokens": 588,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/WorkspaceDetector.ts": {
+            "lines": 114,
+            "tokens": 999,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/ToggleManager.ts": {
+            "lines": 375,
+            "tokens": 3073,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/StateManager.ts": {
+            "lines": 661,
+            "tokens": 6497,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/NasScanner.ts": {
+            "lines": 353,
+            "tokens": 3446,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 159,
+            "percentage": 4.53,
+            "percentageTokens": 4.61,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/McpScanner.ts": {
+            "lines": 320,
+            "tokens": 3159,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/LocalScanner.ts": {
+            "lines": 930,
+            "tokens": 10133,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 54,
+            "duplicatedTokens": 681,
+            "percentage": 5.81,
+            "percentageTokens": 6.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/IntegrityService.ts": {
+            "lines": 205,
+            "tokens": 1722,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/ImportService.ts": {
+            "lines": 290,
+            "tokens": 3309,
+            "sources": 1,
+            "clones": 10,
+            "duplicatedLines": 96,
+            "duplicatedTokens": 1568,
+            "percentage": 33.1,
+            "percentageTokens": 47.39,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/GlobalScanner.ts": {
+            "lines": 752,
+            "tokens": 7570,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 70,
+            "duplicatedTokens": 840,
+            "percentage": 9.31,
+            "percentageTokens": 11.1,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/DuplicateService.ts": {
+            "lines": 271,
+            "tokens": 2463,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/DeleteService.ts": {
+            "lines": 132,
+            "tokens": 1238,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/search/httpClient.ts": {
+            "lines": 139,
+            "tokens": 1012,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/search/SemanticSearchEngine.ts": {
+            "lines": 355,
+            "tokens": 3834,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/search/RecentSearchesStore.ts": {
+            "lines": 189,
+            "tokens": 1929,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/search/RankingEngine.ts": {
+            "lines": 135,
+            "tokens": 1319,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/search/GeminiClient.ts": {
+            "lines": 139,
+            "tokens": 1355,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/search/FederatedSearchService.ts": {
+            "lines": 346,
+            "tokens": 3038,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/search/FavoritesService.ts": {
+            "lines": 378,
+            "tokens": 3962,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/providers/SidebarViewProvider.ts": {
+            "lines": 298,
+            "tokens": 2468,
+            "sources": 1,
+            "clones": 7,
+            "duplicatedLines": 94,
+            "duplicatedTokens": 927,
+            "percentage": 31.54,
+            "percentageTokens": 37.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/providers/DashboardPanel.ts": {
+            "lines": 307,
+            "tokens": 2511,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 75,
+            "duplicatedTokens": 759,
+            "percentage": 24.43,
+            "percentageTokens": 30.23,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/providers/CheatSheetPanel.ts": {
+            "lines": 158,
+            "tokens": 1414,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 61,
+            "duplicatedTokens": 562,
+            "percentage": 38.61,
+            "percentageTokens": 39.75,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension.ts": {
+            "lines": 214,
+            "tokens": 1624,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/environment/SkillProtocolAdapter.ts": {
+            "lines": 353,
+            "tokens": 2892,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/environment/HostEnvironmentDetector.ts": {
+            "lines": 332,
+            "tokens": 2524,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/environment/AgentRuntimeDetector.ts": {
+            "lines": 195,
+            "tokens": 1618,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/deploy/deployReview.ts": {
+            "lines": 192,
+            "tokens": 1732,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/deploy/MultiTargetDeployService.ts": {
+            "lines": 452,
+            "tokens": 3639,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/common/networkPolicy.ts": {
+            "lines": 189,
+            "tokens": 1885,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/common/eventTypes.ts": {
+            "lines": 155,
+            "tokens": 1130,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/common/discoveryTypes.ts": {
+            "lines": 252,
+            "tokens": 1272,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/common/discoveryMessages.ts": {
+            "lines": 100,
+            "tokens": 1017,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/common/container.ts": {
+            "lines": 78,
+            "tokens": 564,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/common/ExtensionEventBus.ts": {
+            "lines": 435,
+            "tokens": 3372,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/skillPrecedence.ts": {
+            "lines": 152,
+            "tokens": 1682,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/skillListing.ts": {
+            "lines": 80,
+            "tokens": 463,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/ruleFrontmatter.ts": {
+            "lines": 81,
+            "tokens": 545,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/memorySources.ts": {
+            "lines": 119,
+            "tokens": 821,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/memoryImports.ts": {
+            "lines": 346,
+            "tokens": 3383,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/injectedText.ts": {
+            "lines": 132,
+            "tokens": 996,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/claudeWatchTargets.ts": {
+            "lines": 164,
+            "tokens": 1642,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/autoMemory.ts": {
+            "lines": 147,
+            "tokens": 1225,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/claude/agentsMd.ts": {
+            "lines": 97,
+            "tokens": 693,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/antigravity/behaviorProfile.ts": {
+            "lines": 177,
+            "tokens": 1252,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/antigravity/behavior.ts": {
+            "lines": 794,
+            "tokens": 5829,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 17975,
+          "tokens": 159969,
+          "sources": 75,
+          "clones": 19,
+          "duplicatedLines": 233,
+          "duplicatedTokens": 2748,
+          "percentage": 1.3,
+          "percentageTokens": 1.72,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 17975,
+      "tokens": 159969,
+      "sources": 75,
+      "clones": 19,
+      "duplicatedLines": 233,
+      "duplicatedTokens": 2748,
+      "percentage": 1.3,
+      "percentageTokens": 1.72,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": ", 'skills', item.id);\n      if (fs.existsSync(targetDir)) {\n        const activeSkill = path.join(targetDir, 'SKILL.md');\n        const disabledSkill = path.join(targetDir, 'SKILL.md.disabled');\n        if (fs.existsSync(activeSkill) || fs.existsSync(disabledSkill)) {\n          const status = fs.existsSync(activeSkill) ? 'active' : 'désactivée';\n          throw new Error(`La compétence \"${item.name || item.id}\" existe déjà dans le projet local (",
+      "tokens": 124,
+      "firstFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 145,
+        "end": 151,
+        "startLoc": {
+          "line": 145,
+          "column": 44,
+          "position": 1584
+        },
+        "endLoc": {
+          "line": 151,
+          "column": 102,
+          "position": 1708
+        }
+      },
+      "secondFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 62,
+        "end": 68,
+        "startLoc": {
+          "line": 62,
+          "column": 45,
+          "position": 606
+        },
+        "endLoc": {
+          "line": 68,
+          "column": 111,
+          "position": 730
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "\n      const disabledSkillFile = path.join(targetDir, 'SKILL.md.disabled');\n      const activeSkillFile = path.join(targetDir, 'SKILL.md');\n      if (fs.existsSync(disabledSkillFile) && !fs.existsSync(activeSkillFile)) {\n        await fs.promises.rename(disabledSkillFile, activeSkillFile);\n      }\n\n      return { success: true, targetPath: targetDir };\n    } else {\n      // Règle\n      const rulesDir = path.join(agentsDir",
+      "tokens": 121,
+      "firstFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 158,
+        "end": 168,
+        "startLoc": {
+          "line": 158,
+          "column": 38,
+          "position": 1777
+        },
+        "endLoc": {
+          "line": 168,
+          "column": 43,
+          "position": 1898
+        }
+      },
+      "secondFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 75,
+        "end": 85,
+        "startLoc": {
+          "line": 75,
+          "column": 62,
+          "position": 799
+        },
+        "endLoc": {
+          "line": 85,
+          "column": 44,
+          "position": 920
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ", 'rules');\n      await fs.promises.mkdir(rulesDir, { recursive: true });\n      const cleanId = item.id.replace(/\\.disabled$/, '').replace(/\\.md$/, '');\n      const activeFile = path.join(rulesDir, `${cleanId}.md`);\n      const disabledFile = path.join(rulesDir, `${cleanId}.md.disabled`);\n\n      if (fs.existsSync(activeFile) || fs.existsSync(disabledFile)) {\n        const status = fs.existsSync(activeFile) ? 'active' : 'désactivée';\n        throw new Error(`La règle \"${item.name || cleanId}\" existe déjà dans le projet local (",
+      "tokens": 163,
+      "firstFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 168,
+        "end": 176,
+        "startLoc": {
+          "line": 168,
+          "column": 43,
+          "position": 1899
+        },
+        "endLoc": {
+          "line": 176,
+          "column": 95,
+          "position": 2062
+        }
+      },
+      "secondFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 85,
+        "end": 93,
+        "startLoc": {
+          "line": 85,
+          "column": 44,
+          "position": 921
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 104,
+          "position": 1084
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ", 'skills', item.id);\n      if (fs.existsSync(targetDir)) {\n        const activeSkill = path.join(targetDir, 'SKILL.md');\n        const disabledSkill = path.join(targetDir, 'SKILL.md.disabled');\n        if (fs.existsSync(activeSkill) || fs.existsSync(disabledSkill)) {\n          const status = fs.existsSync(activeSkill) ? 'active' : 'désactivée';\n          throw new Error(`La compétence \"${item.name || item.id}\" existe déjà dans le projet local (${status}).`);\n        }\n      }\n\n      await fs.promises.mkdir(targetDir, { recursive: true });\n      await fs.promises.cp(item.path, targetDir, { recursive: true });\n      ",
+      "tokens": 190,
+      "firstFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 205,
+        "end": 217,
+        "startLoc": {
+          "line": 205,
+          "column": 44,
+          "position": 2354
+        },
+        "endLoc": {
+          "line": 217,
+          "column": 7,
+          "position": 2544
+        }
+      },
+      "secondFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 62,
+        "end": 158,
+        "startLoc": {
+          "line": 62,
+          "column": 45,
+          "position": 606
+        },
+        "endLoc": {
+          "line": 158,
+          "column": 1,
+          "position": 1774
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ", 'rules');\n      await fs.promises.mkdir(rulesDir, { recursive: true });\n      const cleanId = item.id.replace(/\\.disabled$/, '').replace(/\\.md$/, '');\n      const activeFile = path.join(rulesDir, `${cleanId}.md`);\n      const disabledFile = path.join(rulesDir, `${cleanId}.md.disabled`);\n\n      if (fs.existsSync(activeFile) || fs.existsSync(disabledFile)) {\n        const status = fs.existsSync(activeFile) ? 'active' : 'désactivée';\n        throw new Error(`La règle \"${item.name || cleanId}\" existe déjà dans le projet local (${status}).`);\n      }\n\n      const targetFile = activeFile;\n      await",
+      "tokens": 186,
+      "firstFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 220,
+        "end": 232,
+        "startLoc": {
+          "line": 220,
+          "column": 43,
+          "position": 2585
+        },
+        "endLoc": {
+          "line": 232,
+          "column": 12,
+          "position": 2771
+        }
+      },
+      "secondFile": {
+        "name": "src/services/ImportService.ts",
+        "start": 85,
+        "end": 180,
+        "startLoc": {
+          "line": 85,
+          "column": 44,
+          "position": 921
+        },
+        "endLoc": {
+          "line": 180,
+          "column": 12,
+          "position": 2085
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "\n    const accountRule = (item: ResourceItem) => {\n      if (!countsAtBoot(item) || !item.charCount) return;\n      rulesCharTotal += item.metadata?.bootCharCount ?? 0;\n      if (item.metadata?.isConditional) {\n        rulesConditionalCharTotal += item.charCount;\n        rulesConditionalCount++;\n      } else {\n        rulesPermanentCount++;\n      }\n    };\n\n    const",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/services/GlobalScanner.ts",
+        "start": 147,
+        "end": 159,
+        "startLoc": {
+          "line": 147,
+          "column": 56,
+          "position": 1256
+        },
+        "endLoc": {
+          "line": 159,
+          "column": 10,
+          "position": 1364
+        }
+      },
+      "secondFile": {
+        "name": "src/services/LocalScanner.ts",
+        "start": 106,
+        "end": 118,
+        "startLoc": {
+          "line": 106,
+          "column": 65,
+          "position": 909
+        },
+        "endLoc": {
+          "line": 118,
+          "column": 110,
+          "position": 1017
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": ";\n            if (metadata.name && typeof metadata.name === 'string') {\n              name = metadata.name;\n            }\n            if (metadata.description && typeof metadata.description === 'string') {\n              description = metadata.description;\n            }\n            if (Array.isArray(metadata.tags)) {\n              tags = metadata.tags;\n            }\n          } catch {\n            // Lecture fallback\n          }\n\n          const lineCount = rawContent ? rawContent.split(/\\r\\n|\\r|\\n/).length : 0;\n          const isWarningLines = lineCount > 500;\n          const isWarningNoDesc",
+      "tokens": 159,
+      "firstFile": {
+        "name": "src/services/GlobalScanner.ts",
+        "start": 249,
+        "end": 265,
+        "startLoc": {
+          "line": 249,
+          "column": 37,
+          "position": 2542
+        },
+        "endLoc": {
+          "line": 265,
+          "column": 32,
+          "position": 2701
+        }
+      },
+      "secondFile": {
+        "name": "src/services/NasScanner.ts",
+        "start": 242,
+        "end": 258,
+        "startLoc": {
+          "line": 242,
+          "column": 64,
+          "position": 2450
+        },
+        "endLoc": {
+          "line": 258,
+          "column": 30,
+          "position": 2609
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\n      }\n    }\n\n    // Les workflows Markdown ne sont pas des skills : ils comptent dans « Other Customizations » (StateManager)\n    const allSkillsList = items.filter((i) => (i.type === 'skill' || i.type === 'workflow') && !i.metadata?.markdownWorkflow);\n    const allRulesList = items.filter((i) => i.type === 'rule');\n    const allSoulList = items.filter((i) => i.type === 'soul');\n\n    // Un skill d'un emplacement non lu (statut not-read) reste affiché, mais n'est ni actif ni compté",
+      "tokens": 116,
+      "firstFile": {
+        "name": "src/services/GlobalScanner.ts",
+        "start": 631,
+        "end": 640,
+        "startLoc": {
+          "line": 631,
+          "column": 10,
+          "position": 6230
+        },
+        "endLoc": {
+          "line": 640,
+          "column": 103,
+          "position": 6346
+        }
+      },
+      "secondFile": {
+        "name": "src/services/LocalScanner.ts",
+        "start": 776,
+        "end": 785,
+        "startLoc": {
+          "line": 776,
+          "column": 12,
+          "position": 8521
+        },
+        "endLoc": {
+          "line": 785,
+          "column": 10,
+          "position": 8637
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ");\n    const activeSkillsCount = activeSkillsList.length;\n    const skillsWarningCount = activeSkillsList.filter((i) => (\n      i.metadata?.warningSizeExceeded ||\n      i.metadata?.warningLinesExceeded ||\n      i.metadata?.warningMcpExceeded ||\n      i.metadata?.warningNoDescription\n    )).length;\n    // Somme directe des tokens réels de chaque élément actif (concordance absolue avec les cartes)\n    const skillsTokenTotal = activeSkillsList.reduce((sum, i) => sum + (i.tokenCount || 0), 0);\n\n    // Les règles ⛔ (ignorées, ne se déclenchant jamais) ne sont pas actives,",
+      "tokens": 123,
+      "firstFile": {
+        "name": "src/services/GlobalScanner.ts",
+        "start": 641,
+        "end": 652,
+        "startLoc": {
+          "line": 641,
+          "column": 94,
+          "position": 6375
+        },
+        "endLoc": {
+          "line": 652,
+          "column": 78,
+          "position": 6498
+        }
+      },
+      "secondFile": {
+        "name": "src/services/LocalScanner.ts",
+        "start": 785,
+        "end": 796,
+        "startLoc": {
+          "line": 785,
+          "column": 67,
+          "position": 8656
+        },
+        "endLoc": {
+          "line": 796,
+          "column": 95,
+          "position": 8779
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n    // - rulesConditionalTokenTotal : somme des tokens BPE réels des cartes conditionnelles\n    const isAntigravity = targetTool === 'antigravity';\n    const bootRules = activeRulesList.filter(countsAtBoot);\n    const activePermanentRules = bootRules.filter((i) => !i.metadata?.isConditional);\n    const activeConditionalRules = bootRules.filter((i) => i.metadata?.isConditional);\n    const permanentRulesTokens = activePermanentRules.reduce((sum, i) => sum + (i.tokenCount || 0), 0);\n    const agyRulesBoot = isAntigravity ? antigravityRulesBootStat(bootRules) : null;\n    const rulesTokenTotal = agyRulesBoot ? agyRulesBoot.tokenCount : permanentRulesTokens;\n    const rulesConditionalTokenTotal = activeConditionalRules.reduce((sum, i) => sum + (i.tokenCount || 0), 0);\n\n",
+      "tokens": 205,
+      "firstFile": {
+        "name": "src/services/GlobalScanner.ts",
+        "start": 663,
+        "end": 674,
+        "startLoc": {
+          "line": 663,
+          "column": 39,
+          "position": 6593
+        },
+        "endLoc": {
+          "line": 674,
+          "column": 1,
+          "position": 6798
+        }
+      },
+      "secondFile": {
+        "name": "src/services/LocalScanner.ts",
+        "start": 807,
+        "end": 817,
+        "startLoc": {
+          "line": 807,
+          "column": 89,
+          "position": 8874
+        },
+        "endLoc": {
+          "line": 817,
+          "column": 5,
+          "position": 9079
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ";\n    const activeSoulCount = activeSoulList.length;\n    const soulWarningCount = activeSoulList.filter((i) => (\n      i.metadata?.warningSizeExceeded ||\n      i.metadata?.warningLinesExceeded ||\n      i.metadata?.warningMcpExceeded ||\n      i.metadata?.warningNoDescription\n    )).length + claudeOversizedWarningCount(allSoulList);\n    // Somme directe des tokens BPE de l'Âme active\n    const soulTokenTotal = activeSoulList.reduce((sum, i) => sum + (i.tokenCount || 0), 0);\n\n    const",
+      "tokens": 129,
+      "firstFile": {
+        "name": "src/services/GlobalScanner.ts",
+        "start": 676,
+        "end": 687,
+        "startLoc": {
+          "line": 676,
+          "column": 95,
+          "position": 6834
+        },
+        "endLoc": {
+          "line": 687,
+          "column": 10,
+          "position": 6963
+        }
+      },
+      "secondFile": {
+        "name": "src/services/LocalScanner.ts",
+        "start": 823,
+        "end": 834,
+        "startLoc": {
+          "line": 823,
+          "column": 73,
+          "position": 9177
+        },
+        "endLoc": {
+          "line": 834,
+          "column": 120,
+          "position": 9306
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "import * as vscode from 'vscode';\nimport * as fs from 'fs';\nimport * as path from 'path';\nimport { WebviewMessage } from '../types';\nimport { StateManager } from '../services/StateManager';\nimport { WorkspaceDetector } from '../services/WorkspaceDetector';\nimport { getUserNasPath } from '../services/nasPathSetting';\nimport { confirmAndAllowNasHost } from '../ui/nasHostAuthorization';\nimport { COMMANDE_VIDER_BANC",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/providers/DashboardPanel.ts",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 29,
+          "position": 108
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/SidebarViewProvider.ts",
+        "start": 1,
+        "end": 9,
+        "startLoc": {
+          "line": 1,
+          "column": 1,
+          "position": 0
+        },
+        "endLoc": {
+          "line": 9,
+          "column": 25,
+          "position": 108
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": "(webview: vscode.Webview): string {\n    const styleUri = webview.asWebviewUri(\n      vscode.Uri.joinPath(this._extensionUri, 'src', 'webview', 'styles.css')\n    );\n    const scriptUri = webview.asWebviewUri(\n      vscode.Uri.joinPath(this._extensionUri, 'src', 'webview', 'main.js')\n    );\n\n    const nonce = this.getNonce();\n\n    const pkgPath = path.join(this._extensionUri.fsPath, 'package.json');\n    let version = '0.2.6';\n    try {\n      const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));\n      if (pkg.version) version = pkg.version;\n    } catch {\n      // Ignorer\n    }\n\n    const templatePath = path.join(this._extensionUri.fsPath, 'src', 'webview', 'dashboard.html'",
+      "tokens": 220,
+      "firstFile": {
+        "name": "src/providers/DashboardPanel.ts",
+        "start": 261,
+        "end": 280,
+        "startLoc": {
+          "line": 261,
+          "column": 29,
+          "position": 2055
+        },
+        "endLoc": {
+          "line": 280,
+          "column": 97,
+          "position": 2275
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/SidebarViewProvider.ts",
+        "start": 252,
+        "end": 271,
+        "startLoc": {
+          "line": 252,
+          "column": 28,
+          "position": 2012
+        },
+        "endLoc": {
+          "line": 271,
+          "column": 95,
+          "position": 2232
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ");\n    let htmlContent = '';\n\n    try {\n      htmlContent = fs.readFileSync(templatePath, 'utf8');\n      htmlContent = htmlContent\n        .replace(/{{cspSource}}/g, webview.cspSource)\n        .replace(/{{nonce}}/g, nonce)\n        .replace(/{{styleUri}}/g, styleUri.toString())\n        .replace(/{{scriptUri}}/g, scriptUri.toString())\n        .replace(/{{version}}/g, 'v' + version);\n    } catch {\n      htmlContent = `<!DOCTYPE html><html><body><h3>Erreur chargement template dashboard</h3></body></html>`",
+      "tokens": 119,
+      "firstFile": {
+        "name": "src/providers/DashboardPanel.ts",
+        "start": 280,
+        "end": 292,
+        "startLoc": {
+          "line": 280,
+          "column": 97,
+          "position": 2276
+        },
+        "endLoc": {
+          "line": 292,
+          "column": 109,
+          "position": 2395
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/SidebarViewProvider.ts",
+        "start": 271,
+        "end": 283,
+        "startLoc": {
+          "line": 271,
+          "column": 95,
+          "position": 2233
+        },
+        "endLoc": {
+          "line": 283,
+          "column": 107,
+          "position": 2352
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ";\n    }\n\n    return htmlContent;\n  }\n\n  private getNonce(): string {\n    let text = '';\n    const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';\n    for (let i = 0; i < 32; i++) {\n      text += possible.charAt(Math.floor(Math.random() * possible.length));\n    }\n    return text;\n  }\n}\n",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/providers/DashboardPanel.ts",
+        "start": 292,
+        "end": 307,
+        "startLoc": {
+          "line": 292,
+          "column": 109,
+          "position": 2396
+        },
+        "endLoc": {
+          "line": 307,
+          "column": 1,
+          "position": 2511
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/SidebarViewProvider.ts",
+        "start": 283,
+        "end": 298,
+        "startLoc": {
+          "line": 283,
+          "column": 107,
+          "position": 2353
+        },
+        "endLoc": {
+          "line": 298,
+          "column": 1,
+          "position": 2468
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 22,
+      "fragment": "(false);\n\n    this._panel.dispose();\n\n    while (this._disposables.length) {\n      const item = this._disposables.pop();\n      if (item) {\n        item.dispose();\n      }\n    }\n  }\n\n  private _update(): void {\n    this._panel.webview.html = this._getHtmlForWebview(this._panel.webview);\n  }\n\n  private _getHtmlForWebview(webview: vscode.Webview): string {\n    const styleUri = webview.asWebviewUri(\n      vscode.Uri.joinPath(this._extensionUri, 'src', 'webview', 'styles.css')\n    );\n    const scriptUri = webview.asWebviewUri(\n      vscode.Uri.joinPath(this._extensionUri, 'src', 'webview', 'cheatsheet.js'",
+      "tokens": 197,
+      "firstFile": {
+        "name": "src/providers/CheatSheetPanel.ts",
+        "start": 96,
+        "end": 117,
+        "startLoc": {
+          "line": 96,
+          "column": 35,
+          "position": 834
+        },
+        "endLoc": {
+          "line": 117,
+          "column": 80,
+          "position": 1031
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/DashboardPanel.ts",
+        "start": 245,
+        "end": 266,
+        "startLoc": {
+          "line": 245,
+          "column": 34,
+          "position": 1939
+        },
+        "endLoc": {
+          "line": 266,
+          "column": 74,
+          "position": 2136
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ")\n    );\n\n    const nonce = this.getNonce();\n\n    const pkgPath = path.join(this._extensionUri.fsPath, 'package.json');\n    let version = '0.2.6';\n    try {\n      const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));\n      if (pkg.version) version = pkg.version;\n    } catch {\n      // Ignorer\n    }\n\n    const templatePath = path.join(this._extensionUri.fsPath, 'src', 'webview', 'cheatsheet.html'",
+      "tokens": 138,
+      "firstFile": {
+        "name": "src/providers/CheatSheetPanel.ts",
+        "start": 117,
+        "end": 131,
+        "startLoc": {
+          "line": 117,
+          "column": 80,
+          "position": 1032
+        },
+        "endLoc": {
+          "line": 131,
+          "column": 98,
+          "position": 1170
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/SidebarViewProvider.ts",
+        "start": 257,
+        "end": 271,
+        "startLoc": {
+          "line": 257,
+          "column": 74,
+          "position": 2094
+        },
+        "endLoc": {
+          "line": 271,
+          "column": 95,
+          "position": 2232
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ");\n    let htmlContent = '';\n\n    try {\n      htmlContent = fs.readFileSync(templatePath, 'utf8');\n      htmlContent = htmlContent\n        .replace(/{{cspSource}}/g, webview.cspSource)\n        .replace(/{{nonce}}/g, nonce)\n        .replace(/{{styleUri}}/g, styleUri.toString())\n        .replace(/{{scriptUri}}/g, scriptUri.toString())\n        .replace(/{{version}}/g, 'v' + version);\n    } catch (",
+      "tokens": 112,
+      "firstFile": {
+        "name": "src/providers/CheatSheetPanel.ts",
+        "start": 131,
+        "end": 142,
+        "startLoc": {
+          "line": 131,
+          "column": 98,
+          "position": 1171
+        },
+        "endLoc": {
+          "line": 142,
+          "column": 14,
+          "position": 1283
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/SidebarViewProvider.ts",
+        "start": 271,
+        "end": 282,
+        "startLoc": {
+          "line": 271,
+          "column": 95,
+          "position": 2233
+        },
+        "endLoc": {
+          "line": 282,
+          "column": 14,
+          "position": 2345
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ";\n    }\n\n    return htmlContent;\n  }\n\n  private getNonce(): string {\n    let text = '';\n    const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';\n    for (let i = 0; i < 32; i++) {\n      text += possible.charAt(Math.floor(Math.random() * possible.length));\n    }\n    return text;\n  }\n}\n",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/providers/CheatSheetPanel.ts",
+        "start": 143,
+        "end": 158,
+        "startLoc": {
+          "line": 143,
+          "column": 120,
+          "position": 1299
+        },
+        "endLoc": {
+          "line": 158,
+          "column": 1,
+          "position": 1414
+        }
+      },
+      "secondFile": {
+        "name": "src/providers/SidebarViewProvider.ts",
+        "start": 283,
+        "end": 298,
+        "startLoc": {
+          "line": 283,
+          "column": 107,
+          "position": 2353
+        },
+        "endLoc": {
+          "line": 298,
+          "column": 1,
+          "position": 2468
+        }
+      }
+    }
+  ]
+}

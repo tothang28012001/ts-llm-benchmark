@@ -1,0 +1,96 @@
+{
+  "repo_id": "H33",
+  "group": "human",
+  "full_name": "xbl/raml-mocker",
+  "stars": "111",
+  "created_at": "2018-09-13",
+  "pin": "e00d775a72ed42b1edb8cc1c2545367378bbee87",
+  "fetch": {
+    "sha": "e00d775a72ed42b1edb8cc1c2545367378bbee87",
+    "commit_date": "2020-09-06T15:57:18+08:00",
+    "first_commit_date": "2018-09-13T15:46:05+08:00",
+    "commits_to_pin": 247,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 34,
+    "test_files": 13,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 34,
+      "lines": 1250,
+      "code": 1039,
+      "comment": 31,
+      "blank": 180
+    },
+    "test": {
+      "files": 13,
+      "lines": 2407,
+      "code": 2221,
+      "comment": 2,
+      "blank": 184
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": false,
+    "level": null,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 124,
+        "seconds": 1800.1
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 124,
+        "seconds": 1800.0
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 124,
+        "seconds": 1800.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 63,
+        "seconds": 1.097
+      }
+    ],
+    "errors_total": 63,
+    "errors_in_project_files": 63,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2580": 10,
+      "TS2584": 11,
+      "TS2307": 39,
+      "TS2304": 3
+    },
+    "files_with_errors": 20,
+    "timed_out": false,
+    "project_files_checked": 34
+  },
+  "test": {
+    "passed": false,
+    "skipped": "install failed"
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  }
+}

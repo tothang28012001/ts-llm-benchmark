@@ -1,0 +1,182 @@
+
+> js-tracker@3.0.1 test
+> karma start ./karma/tracker.js --single-run & karma start ./karma/modules.js --single-run & karma start ./karma/extension.js --single-run
+
+
+START:
+(node:166) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:166) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+
+START:
+
+START:
+(node:165) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:164) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:165) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(node:164) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+[32m24 11 2026 08:59:39.739:INFO [compiler.karma-typescript]: [39mCompiling project using Typescript 2.9.2
+[32m24 11 2026 08:59:39.741:INFO [compiler.karma-typescript]: [39mCompiling project using Typescript 2.9.2
+[32m24 11 2026 08:59:39.743:INFO [compiler.karma-typescript]: [39mCompiling project using Typescript 2.9.2
+[31m24 11 2026 08:59:43.672:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(145,38): error TS2304: Cannot find name 'Omit'.
+
+[31m24 11 2026 08:59:43.673:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(460,13): error TS2304: Cannot find name 'bigint'.
+
+[31m24 11 2026 08:59:43.673:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(681,42): error TS2304: Cannot find name 'Omit'.
+
+[31m24 11 2026 08:59:43.674:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/node/index.d.ts(35,1): error TS1084: Invalid 'reference' directive syntax.
+
+[31m24 11 2026 08:59:43.674:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(10,5): error TS2374: Duplicate string index signature.
+
+[31m24 11 2026 08:59:43.675:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(28,5): error TS2687: All declarations of 'functionName' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.675:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(29,5): error TS2687: All declarations of 'args' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.679:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(145,38): error TS2304: Cannot find name 'Omit'.
+
+[31m24 11 2026 08:59:43.681:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(29,5): error TS2717: Subsequent property declarations must have the same type.  Property 'args' must be of type 'any[]', but here has type 'any'.
+
+[31m24 11 2026 08:59:43.681:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(460,13): error TS2304: Cannot find name 'bigint'.
+
+[31m24 11 2026 08:59:43.681:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(30,5): error TS2687: All declarations of 'fileName' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.682:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(681,42): error TS2304: Cannot find name 'Omit'.
+
+[31m24 11 2026 08:59:43.682:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(31,5): error TS2687: All declarations of 'lineNumber' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.682:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(32,5): error TS2687: All declarations of 'columnNumber' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.683:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/node/index.d.ts(35,1): error TS1084: Invalid 'reference' directive syntax.
+
+[31m24 11 2026 08:59:43.683:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(33,5): error TS2687: All declarations of 'source' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.683:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(34,5): error TS2687: All declarations of 'isEval' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.683:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(10,5): error TS2374: Duplicate string index signature.
+
+[31m24 11 2026 08:59:43.684:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(35,5): error TS2687: All declarations of 'isNative' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.684:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(106,14): error TS2300: Duplicate identifier 'StackTrace'.
+
+[31m24 11 2026 08:59:43.684:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(28,5): error TS2687: All declarations of 'functionName' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.685:ERROR [compiler.karma-typescript]: [39mnode_modules/stacktrace-js/stacktrace-js.d.ts(133,14): error TS2300: Duplicate identifier 'StackTrace'.
+
+[31m24 11 2026 08:59:43.685:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(46,38): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.686:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(48,36): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.685:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(29,5): error TS2687: All declarations of 'args' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.686:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(48,51): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.687:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(77,34): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.687:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(29,5): error TS2717: Subsequent property declarations must have the same type.  Property 'args' must be of type 'any[]', but here has type 'any'.
+
+[31m24 11 2026 08:59:43.687:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(80,41): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.687:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(30,5): error TS2687: All declarations of 'fileName' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.688:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(31,5): error TS2687: All declarations of 'lineNumber' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.688:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(32,5): error TS2687: All declarations of 'columnNumber' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.689:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(33,5): error TS2687: All declarations of 'source' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.689:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(34,5): error TS2687: All declarations of 'isEval' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.689:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(35,5): error TS2687: All declarations of 'isNative' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.690:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(106,14): error TS2300: Duplicate identifier 'StackTrace'.
+
+[31m24 11 2026 08:59:43.690:ERROR [compiler.karma-typescript]: [39mnode_modules/stacktrace-js/stacktrace-js.d.ts(133,14): error TS2300: Duplicate identifier 'StackTrace'.
+
+[31m24 11 2026 08:59:43.690:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(46,38): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.690:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(48,36): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.691:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(48,51): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.691:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(77,34): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.691:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(80,41): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.711:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(145,38): error TS2304: Cannot find name 'Omit'.
+
+[31m24 11 2026 08:59:43.747:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(460,13): error TS2304: Cannot find name 'bigint'.
+
+[31m24 11 2026 08:59:43.747:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/estree/index.d.ts(681,42): error TS2304: Cannot find name 'Omit'.
+
+[31m24 11 2026 08:59:43.748:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/node/index.d.ts(35,1): error TS1084: Invalid 'reference' directive syntax.
+
+[31m24 11 2026 08:59:43.748:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(10,5): error TS2374: Duplicate string index signature.
+
+[31m24 11 2026 08:59:43.749:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(28,5): error TS2687: All declarations of 'functionName' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.749:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(29,5): error TS2687: All declarations of 'args' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.749:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(29,5): error TS2717: Subsequent property declarations must have the same type.  Property 'args' must be of type 'any[]', but here has type 'any'.
+
+[31m24 11 2026 08:59:43.750:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(30,5): error TS2687: All declarations of 'fileName' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.750:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(31,5): error TS2687: All declarations of 'lineNumber' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.751:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(32,5): error TS2687: All declarations of 'columnNumber' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.751:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(33,5): error TS2687: All declarations of 'source' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.751:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(34,5): error TS2687: All declarations of 'isEval' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.751:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(35,5): error TS2687: All declarations of 'isNative' must have identical modifiers.
+
+[31m24 11 2026 08:59:43.752:ERROR [compiler.karma-typescript]: [39mnode_modules/@types/stacktrace-js/index.d.ts(106,14): error TS2300: Duplicate identifier 'StackTrace'.
+
+[31m24 11 2026 08:59:43.752:ERROR [compiler.karma-typescript]: [39mnode_modules/stacktrace-js/stacktrace-js.d.ts(133,14): error TS2300: Duplicate identifier 'StackTrace'.
+
+[31m24 11 2026 08:59:43.752:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(46,38): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.752:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(48,36): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.753:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(48,51): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.753:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(77,34): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[31m24 11 2026 08:59:43.753:ERROR [compiler.karma-typescript]: [39msrc/extension/private/libs/ESTreeNodeFinder.ts(80,41): error TS2339: Property 'loc' does not exist on type 'AssignmentProperty | Property | CatchClause | ClassDeclaration | ClassExpression | ClassBody | Ar...'.
+  Property 'loc' does not exist on type 'ExportSpecifier'.
+
+[32m24 11 2026 08:59:44.096:INFO [compiler.karma-typescript]: [39mCompiled 64 files in 4265 ms.
+[32m24 11 2026 08:59:44.147:INFO [compiler.karma-typescript]: [39mCompiled 64 files in 4312 ms.
+[32m24 11 2026 08:59:44.155:INFO [karma]: [39mKarma v1.7.1 server started at http://0.0.0.0:9878/
+[32m24 11 2026 08:59:44.155:INFO [launcher]: [39mLaunching browser Chrome with unlimited concurrency
+[32m24 11 2026 08:59:44.158:INFO [launcher]: [39mStarting browser Chrome
+[31m24 11 2026 08:59:44.159:ERROR [launcher]: [39mNo binary for Chrome browser on your platform.
+  Please, set "CHROME_BIN" env variable.
+
+Finished in 0 secs / 0 secs @ 08:59:44 GMT+0000 (Coordinated Universal Time)
+
+[32m24 11 2026 08:59:44.168:INFO [compiler.karma-typescript]: [39mCompiled 64 files in 4335 ms.
+[32m24 11 2026 08:59:44.182:INFO [karma]: [39mKarma v1.7.1 server started at http://0.0.0.0:9879/
+[32m24 11 2026 08:59:44.183:INFO [launcher]: [39mLaunching browser Chrome with unlimited concurrency
+[32m24 11 2026 08:59:44.185:INFO [launcher]: [39mStarting browser Chrome
+[31m24 11 2026 08:59:44.186:ERROR [launcher]: [39mNo binary for Chrome browser on your platform.
+  Please, set "CHROME_BIN" env variable.
+
+Finished in 0 secs / 0 secs @ 08:59:44 GMT+0000 (Coordinated Universal Time)
+

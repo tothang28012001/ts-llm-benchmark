@@ -1,0 +1,98 @@
+
+> api@1.0.0 test /work
+> jest --coverage --verbose
+
+PASS test/util/error.test.ts (7.791 s)
+  Util
+    Error
+      ✓ should return one error formated correctly (2 ms)
+      ✓ should return multiple errors formated correctly
+
+PASS test/middleware/index.test.ts (8.281 s)
+  Middlewares
+    404 handler
+      ✓ should return status 404 (4 ms)
+    error handler
+      ✓ should return status 500 and Server Error message (1 ms)
+    isAuthenticated
+      ✓ should call next() (2 ms)
+      ✓ should return status 401 - expired token (1 ms)
+      ✓ should return status 401 - missing authorization header
+    hasPermission
+      ✓ should call next() - token needs admin role - has admin role (1 ms)
+      ✓ should call next() - token needs user role - has admin role
+      ✓ should call next() - token needs user role - has user role (1 ms)
+      ✓ should return 401 - token needs admin role - has admin role but token is expired
+      ✓ should return 403 - token needs admin role - has user role (1 ms)
+      ✓ should return 401 when the authorization header is missing
+
+  ●  process.exit called with "1"
+
+      15 |         "MongoDB connection error. Please make sure MongoDB is running. " + err
+      16 |     );
+    > 17 |     process.exit(1);
+         |             ^
+      18 | });
+      19 | 
+      20 | const app = express();
+
+      at src/app.ts:17:13
+  ●  process.exit called with "1"
+
+      15 |         "MongoDB connection error. Please make sure MongoDB is running. " + err
+      16 |     );
+    > 17 |     process.exit(1);
+         |             ^
+      18 | });
+      19 | 
+      20 | const app = express();
+
+      at src/app.ts:17:13
+  ●  process.exit called with "1"
+
+      15 |         "MongoDB connection error. Please make sure MongoDB is running. " + err
+      16 |     );
+    > 17 |     process.exit(1);
+         |             ^
+      18 | });
+      19 | 
+      20 | const app = express();
+
+      at src/app.ts:17:13
+  ●  process.exit called with "1"
+
+      15 |         "MongoDB connection error. Please make sure MongoDB is running. " + err
+      16 |     );
+    > 17 |     process.exit(1);
+         |             ^
+      18 | });
+      19 | 
+      20 | const app = express();
+
+      at src/app.ts:17:13
+FAIL test/integration/integration.test.ts
+  ● Test suite failed to run
+
+    Call retries were exceeded
+
+      at ChildProcessWorker.initialize (node_modules/jest-worker/build/workers/ChildProcessWorker.js:193:21)
+
+--------------|---------|----------|---------|---------|-------------------
+File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+--------------|---------|----------|---------|---------|-------------------
+All files     |   92.13 |    63.16 |      90 |   92.86 |                   
+ config       |   86.84 |       50 |      50 |   88.89 |                   
+  secrets.ts  |   81.48 |       50 |      50 |      84 | 32,37-40          
+  settings.ts |     100 |      100 |     100 |     100 |                   
+ middleware   |     100 |      100 |     100 |     100 |                   
+  index.ts    |     100 |      100 |     100 |     100 |                   
+ util         |   88.89 |    33.33 |     100 |   86.67 |                   
+  error.ts    |     100 |      100 |     100 |     100 |                   
+  logger.ts   |      80 |    33.33 |     100 |      80 | 7,11              
+--------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 failed, 2 passed, 3 total
+Tests:       13 passed, 13 total
+Snapshots:   0 total
+Time:        136.455 s
+Ran all test suites.
+npm ERR! Test failed.  See above for more details.

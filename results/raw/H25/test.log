@@ -1,0 +1,21 @@
+
+> express-graphql-typescript-boilerplate@1.0.0-rc.3 test
+> NODE_ENV=test ./node_modules/.bin/gulp test
+
+fs.js:44
+} = primordials;
+    ^
+
+ReferenceError: primordials is not defined
+    at fs.js:44:5
+    at req_ (/work/node_modules/natives/index.js:143:24)
+    at Object.req [as require] (/work/node_modules/natives/index.js:55:10)
+    at Object.<anonymous> (/work/node_modules/vinyl-fs/node_modules/graceful-fs/fs.js:1:37)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.require (node:internal/modules/cjs/loader:1527:12)
+
+Node.js v22.23.4

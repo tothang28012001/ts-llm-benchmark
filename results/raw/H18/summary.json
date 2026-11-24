@@ -1,0 +1,118 @@
+{
+  "repo_id": "H18",
+  "group": "human",
+  "full_name": "jhipster/ng-jhipster",
+  "stars": "120",
+  "created_at": "2016-12-25",
+  "pin": "df86c2c50e8bc6c78b34ac7fe4491b7662a21c8a",
+  "fetch": {
+    "sha": "df86c2c50e8bc6c78b34ac7fe4491b7662a21c8a",
+    "commit_date": "2020-12-11T01:16:34Z",
+    "first_commit_date": "2016-12-26T17:07:42+01:00",
+    "commits_to_pin": 554,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 47,
+    "test_files": 29,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 47,
+      "lines": 3132,
+      "code": 1794,
+      "comment": 911,
+      "blank": 428
+    },
+    "test": {
+      "files": 29,
+      "lines": 2122,
+      "code": 1353,
+      "comment": 391,
+      "blank": 378
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 37.8
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.9.5",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 3.577
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 77
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 29.7
+  },
+  "mutation": {
+    "sample_files": [
+      "src/pipe/filter.pipe.ts",
+      "src/directive/maxbytes.directive.ts",
+      "src/service/event-with-content.model.ts",
+      "src/service/event-manager.service.ts",
+      "src/component/metrics/jhi-metrics-cache.component.ts",
+      "src/service/resolve-paging-params.service.ts",
+      "src/pipe/order-by.pipe.ts"
+    ],
+    "sample_lines": 407,
+    "framework_versions": {
+      "vitest": null,
+      "jest": "26.1.0",
+      "mocha": null
+    },
+    "runner": null,
+    "status": "failed",
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 9.904,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "sample",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 22.396,
+        "timed_out": false
+      }
+    ]
+  }
+}

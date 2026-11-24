@@ -1,0 +1,147 @@
+{
+  "repo_id": "H16",
+  "group": "human",
+  "full_name": "infinitered/ChainReactApp2019",
+  "stars": "163",
+  "created_at": "2018-04-03",
+  "pin": "9dcc2a2b460f35607099c8f563048692f740ed80",
+  "fetch": {
+    "sha": "9dcc2a2b460f35607099c8f563048692f740ed80",
+    "commit_date": "2019-12-10T09:28:42-08:00",
+    "first_commit_date": "2018-04-04T10:45:58-07:00",
+    "commits_to_pin": 335,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 198,
+    "test_files": 7,
+    "skipped": 0,
+    "pm": "yarn",
+    "lockfile": "yarn.lock"
+  },
+  "loc": {
+    "prod": {
+      "files": 198,
+      "lines": 7058,
+      "code": 5429,
+      "comment": 870,
+      "blank": 766
+    },
+    "test": {
+      "files": 7,
+      "lines": 129,
+      "code": 95,
+      "comment": 10,
+      "blank": 24
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 2,
+    "attempts": [
+      {
+        "cmd": "corepack yarn install --frozen-lockfile --ignore-engines --network-timeout 600000",
+        "exit": 1,
+        "seconds": 77.2
+      },
+      {
+        "cmd": "corepack yarn install --ignore-engines --network-timeout 600000",
+        "exit": 1,
+        "seconds": 26.4
+      },
+      {
+        "cmd": "corepack yarn install --ignore-engines --ignore-scripts --network-timeout 600000",
+        "exit": 0,
+        "seconds": 20.6
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.5.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 48,
+        "seconds": 6.246
+      }
+    ],
+    "errors_total": 48,
+    "errors_in_project_files": 2,
+    "errors_in_dependencies": 46,
+    "global_errors": 0,
+    "by_code": {
+      "TS2322": 1,
+      "TS1259": 1,
+      "TS2300": 28,
+      "TS2717": 4,
+      "TS2403": 2,
+      "TS2451": 11,
+      "TS2554": 1
+    },
+    "files_with_errors": 2,
+    "timed_out": false,
+    "project_files_checked": 205
+  },
+  "test": {
+    "cmd": "corepack yarn test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 12.5
+  },
+  "mutation": {
+    "sample_files": [
+      "app/components/form-row/form-row.story.tsx",
+      "app/components/checkbox/checkbox.props.ts",
+      "app/components/presented-by/presented-by.tsx",
+      "app/components/screen/screen.props.ts",
+      "app/components/content-link/content-link.story.tsx",
+      "app/models/root-store/root-store.ts",
+      "app/screens/info-screen/info-screen.tsx",
+      "app/env.ts",
+      "app/navigation/stateful-navigator.tsx"
+    ],
+    "sample_lines": 420,
+    "framework_versions": {
+      "vitest": null,
+      "jest": "24.8.0",
+      "mocha": null
+    },
+    "runner": "command",
+    "status": "ok",
+    "disable_type_checks": "sample",
+    "coverage_analysis": "off",
+    "counts": {
+      "Survived": 31,
+      "Killed": 28
+    },
+    "mutants_valid": 59,
+    "mutation_score": 0.4745762711864407,
+    "mutation_score_covered": 0.4745762711864407,
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 19.63,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "sample",
+        "cov": "off",
+        "exit": 0,
+        "seconds": 140.372,
+        "timed_out": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+
+> MarkdownEditor@6.1.0 test
+> npm run postinstall:web && ng test
+
+
+> MarkdownEditor@6.1.0 postinstall:web
+> node postinstall-web
+
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+[32m24 11 2026 09:09:55.671:INFO [karma-server]: [39mKarma v4.2.0 server started at http://0.0.0.0:9876/
+[32m24 11 2026 09:09:55.673:INFO [launcher]: [39mLaunching browsers Chrome with concurrency unlimited
+[32m24 11 2026 09:09:55.682:INFO [launcher]: [39mStarting browser Chrome
+[91m24 11 2026 09:09:55.684:ERROR [launcher]: [39mNo binary for Chrome browser on your platform.
+  Please, set "CHROME_BIN" env variable.

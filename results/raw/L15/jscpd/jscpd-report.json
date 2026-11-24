@@ -1,0 +1,573 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:21:08.397Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "workflows/src/steps.ts": {
+            "lines": 154,
+            "tokens": 942,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "workflows/src/proctorRun.ts": {
+            "lines": 36,
+            "tokens": 248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "workflows/src/proctorCycle.ts": {
+            "lines": 67,
+            "tokens": 527,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "workflows/src/index.ts": {
+            "lines": 23,
+            "tokens": 116,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "workflows/src/deps.ts": {
+            "lines": 204,
+            "tokens": 1643,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 210,
+            "percentage": 10.78,
+            "percentageTokens": 12.78,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "workflows/src/bootstrap.ts": {
+            "lines": 19,
+            "tokens": 110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/uipath/src/testcloud.ts": {
+            "lines": 438,
+            "tokens": 2516,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/uipath/src/local.ts": {
+            "lines": 76,
+            "tokens": 774,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/uipath/src/index.ts": {
+            "lines": 5,
+            "tokens": 59,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/uipath/src/gateway.ts": {
+            "lines": 48,
+            "tokens": 289,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/sut-invoice/src/index.ts": {
+            "lines": 5,
+            "tokens": 67,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/sut-invoice/src/fixtures.ts": {
+            "lines": 31,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/sut-invoice/src/agent.ts": {
+            "lines": 102,
+            "tokens": 778,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/shared/src/types.ts": {
+            "lines": 17,
+            "tokens": 394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/shared/src/schemas.ts": {
+            "lines": 10,
+            "tokens": 199,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/store.ts": {
+            "lines": 110,
+            "tokens": 863,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/runner.ts": {
+            "lines": 131,
+            "tokens": 928,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/risk.ts": {
+            "lines": 69,
+            "tokens": 453,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/learner.ts": {
+            "lines": 110,
+            "tokens": 975,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/invariants.ts": {
+            "lines": 141,
+            "tokens": 1492,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/index.ts": {
+            "lines": 9,
+            "tokens": 71,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/classifier.ts": {
+            "lines": 68,
+            "tokens": 464,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "packages/engine/src/assertions.ts": {
+            "lines": 49,
+            "tokens": 435,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/api/state/route.ts": {
+            "lines": 33,
+            "tokens": 311,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/api/run/route.ts": {
+            "lines": 51,
+            "tokens": 506,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/api/bootstrap/route.ts": {
+            "lines": 19,
+            "tokens": 183,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/api/approve/route.ts": {
+            "lines": 36,
+            "tokens": 398,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2061,
+          "tokens": 16008,
+          "sources": 27,
+          "clones": 1,
+          "duplicatedLines": 11,
+          "duplicatedTokens": 105,
+          "percentage": 0.53,
+          "percentageTokens": 0.66,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "apps/web/app/page.tsx": {
+            "lines": 19,
+            "tokens": 137,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/RunPanel.tsx": {
+            "lines": 26,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/FeedPanel.tsx": {
+            "lines": 14,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/ContractPanel.tsx": {
+            "lines": 39,
+            "tokens": 413,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/ApprovalPanel.tsx": {
+            "lines": 28,
+            "tokens": 339,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 126,
+          "tokens": 1386,
+          "sources": 5,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "apps/web/app/page.tsx": {
+            "lines": 156,
+            "tokens": 1422,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/layout.tsx": {
+            "lines": 20,
+            "tokens": 122,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/RunPanel.tsx": {
+            "lines": 53,
+            "tokens": 486,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/FeedPanel.tsx": {
+            "lines": 121,
+            "tokens": 1321,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/ExplainerCard.tsx": {
+            "lines": 22,
+            "tokens": 254,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/ContractPanel.tsx": {
+            "lines": 77,
+            "tokens": 665,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "apps/web/app/components/ApprovalPanel.tsx": {
+            "lines": 85,
+            "tokens": 785,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 534,
+          "tokens": 5055,
+          "sources": 7,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2721,
+      "tokens": 22449,
+      "sources": 39,
+      "clones": 1,
+      "duplicatedLines": 11,
+      "duplicatedTokens": 105,
+      "percentage": 0.4,
+      "percentageTokens": 0.47,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ";\n  }\n\n  // Real path.\n  const { generateObject } = await import(\"ai\");\n  const { anthropic } = await import(\"@ai-sdk/anthropic\");\n  const { z } = await import(\"zod\");\n\n  const { object } = await generateObject({\n    model: anthropic(\"claude-haiku-4-5\"),\n    schema: z.object({\n      fields",
+      "tokens": 105,
+      "firstFile": {
+        "name": "workflows/src/deps.ts",
+        "start": 176,
+        "end": 187,
+        "startLoc": {
+          "line": 176,
+          "column": 8,
+          "position": 1406
+        },
+        "endLoc": {
+          "line": 187,
+          "column": 13,
+          "position": 1511
+        }
+      },
+      "secondFile": {
+        "name": "workflows/src/deps.ts",
+        "start": 113,
+        "end": 124,
+        "startLoc": {
+          "line": 113,
+          "column": 6,
+          "position": 965
+        },
+        "endLoc": {
+          "line": 124,
+          "column": 11,
+          "position": 1070
+        }
+      }
+    }
+  ]
+}

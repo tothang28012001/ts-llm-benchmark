@@ -1,0 +1,525 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T08:59:09.287Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/tracker/trackers/utils.ts": {
+            "lines": 131,
+            "tokens": 1036,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/trackers/jquery/trackerHelpers.ts": {
+            "lines": 70,
+            "tokens": 532,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/trackers/jquery/tracker.ts": {
+            "lines": 171,
+            "tokens": 1391,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/trackers/jquery/index.ts": {
+            "lines": 34,
+            "tokens": 241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/trackers/dom/trackerHelpers.ts": {
+            "lines": 211,
+            "tokens": 1846,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/trackers/dom/tracker.ts": {
+            "lines": 237,
+            "tokens": 1362,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/public/SourceLocation.ts": {
+            "lines": 23,
+            "tokens": 234,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/public/ActionType.ts": {
+            "lines": 14,
+            "tokens": 136,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/libs/snapshottify.ts": {
+            "lines": 51,
+            "tokens": 457,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/TrackIDFactory.ts": {
+            "lines": 18,
+            "tokens": 86,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/ShadowElement.ts": {
+            "lines": 15,
+            "tokens": 103,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/OwnerManager.ts": {
+            "lines": 73,
+            "tokens": 556,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/Owner.ts": {
+            "lines": 57,
+            "tokens": 330,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/NativeUtils.ts": {
+            "lines": 44,
+            "tokens": 477,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/Anomalies.ts": {
+            "lines": 45,
+            "tokens": 249,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/ActionTagMap.ts": {
+            "lines": 66,
+            "tokens": 574,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/ActionRecorderBrokers.ts": {
+            "lines": 26,
+            "tokens": 187,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/ActionRecorder.ts": {
+            "lines": 101,
+            "tokens": 674,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/private/ActionMap.ts": {
+            "lines": 431,
+            "tokens": 2577,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 182,
+            "duplicatedTokens": 1236,
+            "percentage": 42.23,
+            "percentageTokens": 47.96,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/tracker/index.ts": {
+            "lines": 5,
+            "tokens": 23,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/private/libs/ESTreeNodeFinder.ts": {
+            "lines": 97,
+            "tokens": 961,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/private/ActionRecordStore.ts": {
+            "lines": 253,
+            "tokens": 2211,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/utils.ts": {
+            "lines": 8,
+            "tokens": 52,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/devtoolHelpers.ts": {
+            "lines": 109,
+            "tokens": 878,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/devtool.ts": {
+            "lines": 58,
+            "tokens": 374,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/contentscriptHelpers.ts": {
+            "lines": 88,
+            "tokens": 707,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/contentscript.ts": {
+            "lines": 44,
+            "tokens": 297,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/background.ts": {
+            "lines": 102,
+            "tokens": 845,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/Sidebar/index.ts": {
+            "lines": 14,
+            "tokens": 100,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2596,
+          "tokens": 19496,
+          "sources": 29,
+          "clones": 1,
+          "duplicatedLines": 91,
+          "duplicatedTokens": 618,
+          "percentage": 3.51,
+          "percentageTokens": 3.17,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/extension/Sidebar/SidebarRoot.tsx": {
+            "lines": 7,
+            "tokens": 52,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/Sidebar/SidebarList.tsx": {
+            "lines": 43,
+            "tokens": 319,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/Sidebar/SidebarFilter.tsx": {
+            "lines": 5,
+            "tokens": 41,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 55,
+          "tokens": 412,
+          "sources": 3,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/extension/Sidebar/SidebarRoot.tsx": {
+            "lines": 78,
+            "tokens": 496,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/Sidebar/SidebarList.tsx": {
+            "lines": 177,
+            "tokens": 1265,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/extension/Sidebar/SidebarFilter.tsx": {
+            "lines": 59,
+            "tokens": 415,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 314,
+          "tokens": 2176,
+          "sources": 3,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2965,
+      "tokens": 22084,
+      "sources": 35,
+      "clones": 1,
+      "duplicatedLines": 91,
+      "duplicatedTokens": 618,
+      "percentage": 3.07,
+      "percentageTokens": 2.8,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 92,
+      "fragment": ": Attr,\n\n    'onabort': Event,\n    'onanimationcancel': Event,\n    'onanimationend': Event,\n    'onanimationiteration': Event,\n    'onauxclick': Event,\n    'onblur': Event,\n    'oncancel': Event,\n    'oncanplay': Event,\n    'oncanplaythrough': Event,\n    'onchange': Event,\n    'onclick': Event,\n    'onclose': Event,\n    'oncontextmenu': Event,\n    'oncopy': Event,\n    'oncuechange': Event,\n    'oncut': Event,\n    'ondblclick': Event,\n    'ondrag': Event,\n    'ondragend': Event,\n    'ondragenter': Event,\n    'ondragleave': Event,\n    'ondragover': Event,\n    'ondragstart': Event,\n    'ondrop': Event,\n    'ondurationchange': Event,\n    'onemptied': Event,\n    'onended': Event,\n    'onerror': Event,\n    'onfocus': Event,\n    'ongotpointercapture': Event,\n    'oninput': Event,\n    'oninvalid': Event,\n    'onkeydown': Event,\n    'onkeypress': Event,\n    'onkeyup': Event,\n    'onload': Event,\n    'onloadeddata': Event,\n    'onloadedmetadata': Event,\n    'onloadend': Event,\n    'onloadstart': Event,\n    'onlostpointercapture': Event,\n    'onmousedown': Event,\n    'onmouseenter': Event,\n    'onmouseleave': Event,\n    'onmousemove': Event,\n    'onmouseout': Event,\n    'onmouseover': Event,\n    'onmouseup': Event,\n    'onmousewheel': Event,\n    'onpause': Event,\n    'onplay': Event,\n    'onplaying': Event,\n    'onprogress': Event,\n    'onpaste': Event,\n    'onpointercancel': Event,\n    'onpointerdown': Event,\n    'onpointerenter': Event,\n    'onpointerleave': Event,\n    'onpointermove': Event,\n    'onpointerout': Event,\n    'onpointerover': Event,\n    'onpointerup': Event,\n    'onratechange': Event,\n    'onreset': Event,\n    'onresize': Event,\n    'onscroll': Event,\n    'onseeked': Event,\n    'onseeking': Event,\n    'onselect': Event,\n    'onselectionchange': Event,\n    'onselectstart': Event,\n    'onshow': Event,\n    'onstalled': Event,\n    'onsubmit': Event,\n    'onsuspend': Event,\n    'ontimeupdate': Event,\n    'ontoggle': Event,\n    'ontouchcancel': Event,\n    'ontouchmove': Event,\n    'ontouchstart': Event,\n    'ontransitioncancel': Event,\n    'ontransitionend': Event,\n    'onvolumechange': Event,\n    'onwaiting': Event,\n    'onwheel': Event,\n\n    /* methods */\n\n    'blur': Behav | Event,\n    'focus'",
+      "tokens": 618,
+      "firstFile": {
+        "name": "src/tracker/private/ActionMap.ts",
+        "start": 162,
+        "end": 253,
+        "startLoc": {
+          "line": 162,
+          "column": 15,
+          "position": 967
+        },
+        "endLoc": {
+          "line": 253,
+          "column": 12,
+          "position": 1585
+        }
+      },
+      "secondFile": {
+        "name": "src/tracker/private/ActionMap.ts",
+        "start": 59,
+        "end": 150,
+        "startLoc": {
+          "line": 59,
+          "column": 16,
+          "position": 296
+        },
+        "endLoc": {
+          "line": 150,
+          "column": 12,
+          "position": 914
+        }
+      }
+    }
+  ]
+}

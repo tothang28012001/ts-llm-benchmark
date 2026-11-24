@@ -1,0 +1,550 @@
+
+> vibelib@0.1.0 test
+> node --test "test/**/*.test.ts"
+
+TAP version 13
+# (node:143) ExperimentalWarning: The MockTimers API is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: puts the secret ingredient in front and leaves the prompt alone
+ok 1 - puts the secret ingredient in front and leaves the prompt alone
+  ---
+  duration_ms: 1.163075
+  type: 'test'
+  ...
+# Subtest: keeps multi-line prompts and whitespace exactly as given
+ok 2 - keeps multi-line prompts and whitespace exactly as given
+  ---
+  duration_ms: 0.159322
+  type: 'test'
+  ...
+# Subtest: supercharging twice is twice as effective
+ok 3 - supercharging twice is twice as effective
+  ---
+  duration_ms: 0.095025
+  type: 'test'
+  ...
+# Subtest: saferLlm always declines, whatever you ask
+ok 4 - saferLlm always declines, whatever you ask
+  ---
+  duration_ms: 8.805433
+  type: 'test'
+  ...
+# Subtest: saferLlm never touches the network
+ok 5 - saferLlm never touches the network
+  ---
+  duration_ms: 0.733226
+  type: 'test'
+  ...
+# Subtest: saferLlm picks a random way to say no
+ok 6 - saferLlm picks a random way to say no
+  ---
+  duration_ms: 4.034162
+  type: 'test'
+  ...
+# Subtest: saferDeepThinkingLlm thinks for at least 5 seconds, then declines
+ok 7 - saferDeepThinkingLlm thinks for at least 5 seconds, then declines
+  ---
+  duration_ms: 20.219766
+  type: 'test'
+  ...
+# Subtest: saferDeepThinkingLlm shows ten thoughts before the answer
+ok 8 - saferDeepThinkingLlm shows ten thoughts before the answer
+  ---
+  duration_ms: 11.586505
+  type: 'test'
+  ...
+# Subtest: thoughts keep 'I' capitalised and lower-case everything else
+ok 9 - thoughts keep 'I' capitalised and lower-case everything else
+  ---
+  duration_ms: 28.711109
+  type: 'test'
+  ...
+# Subtest: aiDetection: code without comments is a human gem
+ok 10 - aiDetection: code without comments is a human gem
+  ---
+  duration_ms: 3.965763
+  type: 'test'
+  ...
+# Subtest: aiDetection: comments at 10% of the code mean a 50% AI probability, which counts as AI junk
+ok 11 - aiDetection: comments at 10% of the code mean a 50% AI probability, which counts as AI junk
+  ---
+  duration_ms: 0.200317
+  type: 'test'
+  ...
+# Subtest: aiDetection: the AI probability has no upper limit
+ok 12 - aiDetection: the AI probability has no upper limit
+  ---
+  duration_ms: 0.109802
+  type: 'test'
+  ...
+# Subtest: aiDetection ignores whitespace and comment delimiters
+ok 13 - aiDetection ignores whitespace and comment delimiters
+  ---
+  duration_ms: 0.070308
+  type: 'test'
+  ...
+# Subtest: aiDetection does not mistake strings, templates or regexes for comments
+ok 14 - aiDetection does not mistake strings, templates or regexes for comments
+  ---
+  duration_ms: 0.250609
+  type: 'test'
+  ...
+# Subtest: niceNegotiator supports whatever you ask for
+ok 15 - niceNegotiator supports whatever you ask for
+  ---
+  duration_ms: 4.121027
+  type: 'test'
+  ...
+# Subtest: niceNegotiator even supports nothing
+ok 16 - niceNegotiator even supports nothing
+  ---
+  duration_ms: 0.28647
+  type: 'test'
+  ...
+# Subtest: niceNegotiator doesn't hold on to your array
+ok 17 - niceNegotiator doesn't hold on to your array
+  ---
+  duration_ms: 0.147791
+  type: 'test'
+  ...
+# Subtest: alwaysWorkResolver resolves impossible constraints in the order given
+ok 18 - alwaysWorkResolver resolves impossible constraints in the order given
+  ---
+  duration_ms: 0.231907
+  type: 'test'
+  ...
+# Subtest: alwaysWorkResolver resolves the empty graph too
+ok 19 - alwaysWorkResolver resolves the empty graph too
+  ---
+  duration_ms: 0.381333
+  type: 'test'
+  ...
+# Subtest: sync errors become undefined
+ok 20 - sync errors become undefined
+  ---
+  duration_ms: 1.090297
+  type: 'test'
+  ...
+# Subtest: successful results pass through
+ok 21 - successful results pass through
+  ---
+  duration_ms: 0.222305
+  type: 'test'
+  ...
+# Subtest: async rejections resolve to undefined
+ok 22 - async rejections resolve to undefined
+  ---
+  duration_ms: 0.278549
+  type: 'test'
+  ...
+# Subtest: errorFree wraps a function and keeps this/args
+ok 23 - errorFree wraps a function and keeps this/args
+  ---
+  duration_ms: 0.247276
+  type: 'test'
+  ...
+# Subtest: global removal keeps a crashing process alive
+ok 24 - global removal keeps a crashing process alive
+  ---
+  duration_ms: 322.240223
+  type: 'test'
+  ...
+# Subtest: returns before the async work finishes
+ok 25 - returns before the async work finishes
+  ---
+  duration_ms: 39.911383
+  type: 'test'
+  ...
+# Subtest: sync throws and async rejections do not escape
+ok 26 - sync throws and async rejections do not escape
+  ---
+  duration_ms: 10.492039
+  type: 'test'
+  ...
+# Subtest: passes arguments through
+ok 27 - passes arguments through
+  ---
+  duration_ms: 0.348003
+  type: 'test'
+  ...
+# Subtest: prayAll runs every function even if some fail
+ok 28 - prayAll runs every function even if some fail
+  ---
+  duration_ms: 1.756699
+  type: 'test'
+  ...
+# Subtest: returns the same value, untouched
+ok 29 - returns the same value, untouched
+  ---
+  duration_ms: 2.878321
+  type: 'test'
+  ...
+# Subtest: every call re-manages one more object, even the same one
+ok 30 - every call re-manages one more object, even the same one
+  ---
+  duration_ms: 1.30842
+  type: 'test'
+  ...
+# Subtest: keeps a deep copy, not a reference
+ok 31 - keeps a deep copy, not a reference
+  ---
+  duration_ms: 2.630787
+  type: 'test'
+  ...
+# Subtest: handles cycles and things that can't be cloned
+ok 32 - handles cycles and things that can't be cloned
+  ---
+  duration_ms: 0.604467
+  type: 'test'
+  ...
+# Subtest: there is no way to free anything
+ok 33 - there is no way to free anything
+  ---
+  duration_ms: 0.373837
+  type: 'test'
+  ...
+# Subtest: waitUntilNotNull passes non-null values straight through
+ok 34 - waitUntilNotNull passes non-null values straight through
+  ---
+  duration_ms: 7.542647
+  type: 'test'
+  ...
+# Subtest: waitUntilNotNull with a getter waits until the value shows up
+ok 35 - waitUntilNotNull with a getter waits until the value shows up
+  ---
+  duration_ms: 24.042772
+  type: 'test'
+  ...
+# Subtest: waitUntilNotNull with an async getter
+ok 36 - waitUntilNotNull with an async getter
+  ---
+  duration_ms: 5.703557
+  type: 'test'
+  ...
+# Subtest: waitUntilNotNull(null) keeps the process waiting forever
+ok 37 - waitUntilNotNull(null) keeps the process waiting forever
+  ---
+  duration_ms: 528.775909
+  type: 'test'
+  ...
+# Subtest: nullToUndefined converts null and leaves everything else alone
+ok 38 - nullToUndefined converts null and leaves everything else alone
+  ---
+  duration_ms: 0.834488
+  type: 'test'
+  ...
+# Subtest: replaceNullWithRandom leaves non-null values alone
+ok 39 - replaceNullWithRandom leaves non-null values alone
+  ---
+  duration_ms: 1.687473
+  type: 'test'
+  ...
+# Subtest: replaceNullWithRandom replaces null with a random non-null primitive
+ok 40 - replaceNullWithRandom replaces null with a random non-null primitive
+  ---
+  duration_ms: 18.709199
+  type: 'test'
+  ...
+# Subtest: godRollADie only ever returns primitives
+ok 41 - godRollADie only ever returns primitives
+  ---
+  duration_ms: 64.544683
+  type: 'test'
+  ...
+# Subtest: every primitive type shows up eventually
+ok 42 - every primitive type shows up eventually
+  ---
+  duration_ms: 85.493302
+  type: 'test'
+  ...
+# Subtest: God does not repeat Himself (much)
+ok 43 - God does not repeat Himself (much)
+  ---
+  duration_ms: 8.867754
+  type: 'test'
+  ...
+# Subtest: measureQubit follows the Born rule for basis states
+ok 44 - measureQubit follows the Born rule for basis states
+  ---
+  duration_ms: 7.415506
+  type: 'test'
+  ...
+# Subtest: measureQubit gives roughly 50/50 for |+⟩ and 25/75 for a skewed state
+ok 45 - measureQubit gives roughly 50/50 for |+⟩ and 25/75 for a skewed state
+  ---
+  duration_ms: 202.282628
+  type: 'test'
+  ...
+# Subtest: prepareRandomQubit returns normalised states
+ok 46 - prepareRandomQubit returns normalised states
+  ---
+  duration_ms: 57.145125
+  type: 'test'
+  ...
+# Subtest: prepareRandomQubit is Haar-uniform: |beta|² averages 1/2 with variance 1/12
+ok 47 - prepareRandomQubit is Haar-uniform: |beta|² averages 1/2 with variance 1/12
+  ---
+  duration_ms: 1005.201858
+  type: 'test'
+  ...
+# Subtest: measure calls fn once, ignores what it says, and never lets it throw
+ok 48 - measure calls fn once, ignores what it says, and never lets it throw
+  ---
+  duration_ms: 9.279787
+  type: 'test'
+  ...
+# Subtest: quantumFind finds the one matching item
+ok 49 - quantumFind finds the one matching item
+  ---
+  duration_ms: 18.464153
+  type: 'test'
+  ...
+# Subtest: quantumFind returns one of several matches, and undefined for none
+ok 50 - quantumFind returns one of several matches, and undefined for none
+  ---
+  duration_ms: 0.900171
+  type: 'test'
+  ...
+# Subtest: quantumFind works on tiny arrays
+ok 51 - quantumFind works on tiny arrays
+  ---
+  duration_ms: 0.848921
+  type: 'test'
+  ...
+# Subtest: quantumFind consults the oracle exactly once per item
+ok 52 - quantumFind consults the oracle exactly once per item
+  ---
+  duration_ms: 2.091613
+  type: 'test'
+  ...
+# Subtest: teleportQubit delivers the exact state and collapses the original
+ok 53 - teleportQubit delivers the exact state and collapses the original
+  ---
+  duration_ms: 37.979297
+  type: 'test'
+  ...
+# Subtest: teleport moves an object and destroys the original
+ok 54 - teleport moves an object and destroys the original
+  ---
+  duration_ms: 48.600392
+  type: 'test'
+  ...
+# Subtest: teleport loses what JSON can't carry, and shrugs at frozen objects
+ok 55 - teleport loses what JSON can't carry, and shrugs at frozen objects
+  ---
+  duration_ms: 14.311634
+  type: 'test'
+  ...
+# Subtest: starts in |0…0⟩
+ok 56 - starts in |0…0⟩
+  ---
+  duration_ms: 6.502337
+  type: 'test'
+  ...
+# Subtest: H then H is the identity
+ok 57 - H then H is the identity
+  ---
+  duration_ms: 0.409054
+  type: 'test'
+  ...
+# Subtest: X flips, Z only changes phase
+ok 58 - X flips, Z only changes phase
+  ---
+  duration_ms: 1.621667
+  type: 'test'
+  ...
+# Subtest: H + CNOT makes a Bell pair whose measurements always agree
+ok 59 - H + CNOT makes a Bell pair whose measurements always agree
+  ---
+  duration_ms: 18.611825
+  type: 'test'
+  ...
+# Subtest: measuring collapses and renormalises
+ok 60 - measuring collapses and renormalises
+  ---
+  duration_ms: 0.353504
+  type: 'test'
+  ...
+# Subtest: rejects nonsense
+ok 61 - rejects nonsense
+  ---
+  duration_ms: 60.796038
+  type: 'test'
+  ...
+# Subtest: waitForConsistency actually waits
+ok 62 - waitForConsistency actually waits
+  ---
+  duration_ms: 34.101501
+  type: 'test'
+  ...
+# Subtest: doNotRace waits before calling and keeps this/args
+ok 63 - doNotRace waits before calling and keeps this/args
+  ---
+  duration_ms: 39.888654
+  type: 'test'
+  ...
+# Subtest: removeRaceCondition retries with doubling waits until it works
+ok 64 - removeRaceCondition retries with doubling waits until it works
+  ---
+  duration_ms: 72.692543
+  type: 'test'
+  ...
+# Subtest: removeRaceCondition also handles sync throws
+ok 65 - removeRaceCondition also handles sync throws
+  ---
+  duration_ms: 3.58393
+  type: 'test'
+  ...
+# Subtest: calibrate never speeds things up and scales later waits
+ok 66 - calibrate never speeds things up and scales later waits
+  ---
+  duration_ms: 97.150226
+  type: 'test'
+  ...
+# Subtest: useRealState only updates after enough clicks
+ok 67 - useRealState only updates after enough clicks
+  ---
+  duration_ms: 70.714113
+  type: 'test'
+  ...
+# Subtest: useRealState accepts a lazy initializer
+ok 68 - useRealState accepts a lazy initializer
+  ---
+  duration_ms: 16.198149
+  type: 'test'
+  ...
+# Subtest: useRealCallback runs the latest callback only on the Nth click
+ok 69 - useRealCallback runs the latest callback only on the Nth click
+  ---
+  duration_ms: 23.931885
+  type: 'test'
+  ...
+# Subtest: the gate only opens on the Nth attempt, then starts over
+ok 70 - the gate only opens on the Nth attempt, then starts over
+  ---
+  duration_ms: 12.035948
+  type: 'test'
+  ...
+# Subtest: a realistic threshold is somewhere between 3 and 8, and changes
+ok 71 - a realistic threshold is somewhere between 3 and 8, and changes
+  ---
+  duration_ms: 18.502085
+  type: 'test'
+  ...
+# Subtest: calming down resets frustration
+ok 72 - calming down resets frustration
+  ---
+  duration_ms: 42.736995
+  type: 'test'
+  ...
+# Subtest: rejects nonsense thresholds
+ok 73 - rejects nonsense thresholds
+  ---
+  duration_ms: 0.826658
+  type: 'test'
+  ...
+# Subtest: requireFrustration ignores calls until the user has had enough
+ok 74 - requireFrustration ignores calls until the user has had enough
+  ---
+  duration_ms: 0.4371
+  type: 'test'
+  ...
+# Subtest: createRealState applies only the attempt that breaks the user
+ok 75 - createRealState applies only the attempt that breaks the user
+  ---
+  duration_ms: 0.401595
+  type: 'test'
+  ...
+# Subtest: createRealState does not notify when the value doesn't change
+ok 76 - createRealState does not notify when the value doesn't change
+  ---
+  duration_ms: 0.193148
+  type: 'test'
+  ...
+# Subtest: realTry in development NODE_ENV runs fn and never reports an error
+ok 77 - realTry in development NODE_ENV runs fn and never reports an error
+  ---
+  duration_ms: 7.397106
+  type: 'test'
+  ...
+# Subtest: realTry in unset NODE_ENV runs fn and never reports an error
+ok 78 - realTry in unset NODE_ENV runs fn and never reports an error
+  ---
+  duration_ms: 6.455121
+  type: 'test'
+  ...
+# Subtest: realTry in test NODE_ENV runs fn and never reports an error
+ok 79 - realTry in test NODE_ENV runs fn and never reports an error
+  ---
+  duration_ms: 5.709264
+  type: 'test'
+  ...
+# Subtest: realTry in production never runs fn and sometimes reports a realistic error
+ok 80 - realTry in production never runs fn and sometimes reports a realistic error
+  ---
+  duration_ms: 41.817576
+  type: 'test'
+  ...
+# Subtest: true passes immediately and narrows the type
+ok 81 - true passes immediately and narrows the type
+  ---
+  duration_ms: 3.195443
+  type: 'test'
+  ...
+# Subtest: function conditions are retried until they hold
+ok 82 - function conditions are retried until they hold
+  ---
+  duration_ms: 0.211034
+  type: 'test'
+  ...
+# Subtest: throwing conditions count as false and are retried
+ok 83 - throwing conditions count as false and are retried
+  ---
+  duration_ms: 0.189075
+  type: 'test'
+  ...
+# Subtest: strictAssertEventually lets the event loop make it true
+ok 84 - strictAssertEventually lets the event loop make it true
+  ---
+  duration_ms: 23.439596
+  type: 'test'
+  ...
+# Subtest: strictAssertEventually handles async conditions that reject
+ok 85 - strictAssertEventually handles async conditions that reject
+  ---
+  duration_ms: 9.170631
+  type: 'test'
+  ...
+# Subtest: a plain false never lets the program continue
+ok 86 - a plain false never lets the program continue
+  ---
+  duration_ms: 534.215422
+  type: 'test'
+  ...
+# Subtest: trustMe returns the exact same value
+ok 87 - trustMe returns the exact same value
+  ---
+  duration_ms: 1.021225
+  type: 'test'
+  ...
+# Subtest: assumeType never objects
+ok 88 - assumeType never objects
+  ---
+  duration_ms: 0.560307
+  type: 'test'
+  ...
+# Subtest: TypeTrust.assume narrows through the namespace object
+ok 89 - TypeTrust.assume narrows through the namespace object
+  ---
+  duration_ms: 4.392904
+  type: 'test'
+  ...
+1..89
+# tests 89
+# suites 0
+# pass 89
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3805.442484

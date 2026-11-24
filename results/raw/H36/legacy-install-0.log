@@ -1,0 +1,15 @@
+npm WARN deprecated @types/iconv-lite@0.0.1: This is a stub types definition for iconv-lite (https://github.com/ashtuchkin/iconv-lite). iconv-lite provides its own type definitions, so you don\'t need @types/iconv-lite installed!
+npm WARN deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated glob@7.1.2: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm notice This endpoint is being retired. Use the bulk advisory endpoint instead. See the following docs for more info: https://api-docs.npmjs.com/#tag/Audit
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 48 packages from 383 contributors and audited 49 packages in 3.288s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 4 vulnerabilities (1 low, 1 moderate, 1 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details

@@ -1,0 +1,72 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T08:59:23.753Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/index.ts": {
+            "lines": 6,
+            "tokens": 46,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/Credentials.ts": {
+            "lines": 870,
+            "tokens": 4184,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/Contract.ts": {
+            "lines": 149,
+            "tokens": 1217,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1025,
+          "tokens": 5447,
+          "sources": 3,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1025,
+      "tokens": 5447,
+      "sources": 3,
+      "clones": 0,
+      "duplicatedLines": 0,
+      "duplicatedTokens": 0,
+      "percentage": 0,
+      "percentageTokens": 0,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": []
+}

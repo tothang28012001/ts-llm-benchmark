@@ -95,10 +95,10 @@ def figure(df: pd.DataFrame) -> None:
     panels = [("lint_per_kloc", "Lint violations / KLOC", "log"),
               ("any_per_kloc", "Explicit any / KLOC", "log"),
               ("cc_mean", "Mean cyclomatic compl.", "linear"),
-              ("dup_pct", "Duplicated lines (%)", "linear"),
-              ("test_to_code", "Test-to-code ratio", "linear"),
-              ("mutation_score", "Mutation score (%)", "linear")]
-    fig, axes = plt.subplots(3, 2, figsize=(3.5, 4.6))
+              ("cc_over10_pct", "Functions CC > 10 (%)", "linear"),
+              ("fanout_mean", "Internal fan-out", "linear"),
+              ("test_reach_pct", "Test reach (%)", "linear")]
+    fig, axes = plt.subplots(3, 2, figsize=(3.5, 4.1))
     rng = np.random.default_rng(479)
     for ax, (col, title, scale) in zip(axes.flat, panels):
         for i, g in enumerate(GROUPS):

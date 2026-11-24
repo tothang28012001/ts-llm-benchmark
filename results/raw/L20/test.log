@@ -1,0 +1,102 @@
+
+> content-board@0.0.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv4.0.18 [39m[90m/work[39m
+
+ [32m✓[39m src/features/learn/GlobalLearningsPage.test.tsx [2m([22m[2m16 tests[22m[2m)[22m[33m 2962[2mms[22m[39m
+       [33m[2m✓[22m[39m filters by content item [33m 917[2mms[22m[39m
+       [33m[2m✓[22m[39m filters by date range [33m 494[2mms[22m[39m
+       [33m[2m✓[22m[39m shows no-results message when filters match nothing [33m 315[2mms[22m[39m
+       [33m[2m✓[22m[39m clears all filters when clear button is clicked [33m 416[2mms[22m[39m
+ [32m✓[39m src/features/feedback/GlobalFeedbackPage.test.tsx [2m([22m[2m18 tests[22m[2m)[22m[33m 3691[2mms[22m[39m
+       [33m[2m✓[22m[39m filters by content item [33m 830[2mms[22m[39m
+       [33m[2m✓[22m[39m filters by feedback source [33m 335[2mms[22m[39m
+       [33m[2m✓[22m[39m allows multi-select for source filters [33m 382[2mms[22m[39m
+       [33m[2m✓[22m[39m filters by date range [33m 332[2mms[22m[39m
+       [33m[2m✓[22m[39m combines content and source filters [33m 424[2mms[22m[39m
+       [33m[2m✓[22m[39m clears all filters when clear button is clicked [33m 365[2mms[22m[39m
+ [32m✓[39m src/features/learn/LearningList.test.tsx [2m([22m[2m16 tests[22m[2m)[22m[33m 3726[2mms[22m[39m
+       [33m[2m✓[22m[39m shows Add Learning button in empty state [33m 360[2mms[22m[39m
+       [33m[2m✓[22m[39m calls add with learning data on save [33m 664[2mms[22m[39m
+       [33m[2m✓[22m[39m calls update with new text on save [33m 468[2mms[22m[39m
+       [33m[2m✓[22m[39m calls remove when confirmed [33m 357[2mms[22m[39m
+ [32m✓[39m src/services/firestore.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m src/features/feedback/FeedbackList.test.tsx [2m([22m[2m11 tests[22m[2m)[22m[33m 2816[2mms[22m[39m
+     [33m[2m✓[22m[39m shows add form when Add Feedback is clicked [33m 485[2mms[22m[39m
+     [33m[2m✓[22m[39m adds feedback with source and text [33m 532[2mms[22m[39m
+     [33m[2m✓[22m[39m saves edited feedback [33m 530[2mms[22m[39m
+     [33m[2m✓[22m[39m deletes feedback after confirmation [33m 305[2mms[22m[39m
+ [32m✓[39m src/components/DetailPanel/tabs/ProductionTab.test.tsx [2m([22m[2m13 tests[22m[2m)[22m[33m 1858[2mms[22m[39m
+     [33m[2m✓[22m[39m does not show Save/Discard when no changes are made [33m 417[2mms[22m[39m
+     [33m[2m✓[22m[39m saves thumbnail ideas on Save click [33m 370[2mms[22m[39m
+ [32m✓[39m src/components/DetailPanel/tabs/ContentTab.test.tsx [2m([22m[2m10 tests[22m[2m)[22m[33m 2118[2mms[22m[39m
+     [33m[2m✓[22m[39m does not show Save/Discard when no changes are made [33m 469[2mms[22m[39m
+     [33m[2m✓[22m[39m shows Save/Discard buttons when title is edited [33m 376[2mms[22m[39m
+     [33m[2m✓[22m[39m calls updateContent on Save click with changed title [33m 309[2mms[22m[39m
+     [33m[2m✓[22m[39m calls updateContent on Save click with changed description [33m 372[2mms[22m[39m
+     [33m[2m✓[22m[39m discards changes when Discard is clicked [32m 300[2mms[22m[39m
+ [32m✓[39m src/components/DetailPanel/EmptyStateDashboard.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[33m 1466[2mms[22m[39m
+     [33m[2m✓[22m[39m shows friendly message when no content exists [33m 413[2mms[22m[39m
+     [33m[2m✓[22m[39m create button works in zero-content state [33m 607[2mms[22m[39m
+ [32m✓[39m src/components/DetailPanel/DetailPanel.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[33m 1867[2mms[22m[39m
+     [33m[2m✓[22m[39m renders content details when contentId matches [33m 491[2mms[22m[39m
+     [33m[2m✓[22m[39m shows delete confirmation dialog on delete button click [33m 321[2mms[22m[39m
+     [33m[2m✓[22m[39m calls deleteContent and navigates on confirm delete [33m 579[2mms[22m[39m
+ [32m✓[39m src/features/production/TalkingPointList.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 2164[2mms[22m[39m
+     [33m[2m✓[22m[39m shows inline form when Add Talking Point is clicked [33m 424[2mms[22m[39m
+     [33m[2m✓[22m[39m calls addTalkingPoint with correct data on form submit [33m 682[2mms[22m[39m
+     [33m[2m✓[22m[39m shows delete confirmation and calls removeTalkingPoint [33m 395[2mms[22m[39m
+ [32m✓[39m src/utils/statusHelpers.test.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m src/hooks/useFormDraft.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 99[2mms[22m[39m
+ [32m✓[39m src/components/DetailPanel/StatusTransition.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 2034[2mms[22m[39m
+     [33m[2m✓[22m[39m calls updateStatus with next status on advance click [33m 483[2mms[22m[39m
+     [33m[2m✓[22m[39m shows confirmation dialog on move-back click [33m 441[2mms[22m[39m
+     [33m[2m✓[22m[39m calls updateStatus with previous status on move-back confirm [33m 497[2mms[22m[39m
+     [33m[2m✓[22m[39m does not call updateStatus when move-back is cancelled [33m 452[2mms[22m[39m
+ [32m✓[39m src/features/production/DemoItemList.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 2118[2mms[22m[39m
+     [33m[2m✓[22m[39m shows inline form when Add Demo Item is clicked [33m 690[2mms[22m[39m
+     [33m[2m✓[22m[39m calls addDemoItem with correct data on form submit [33m 657[2mms[22m[39m
+     [33m[2m✓[22m[39m shows delete confirmation dialog and calls removeDemoItem [33m 318[2mms[22m[39m
+ [32m✓[39m src/components/Sidebar/PhaseGroup.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[33m 1284[2mms[22m[39m
+     [33m[2m✓[22m[39m renders the phase label [33m 460[2mms[22m[39m
+ [32m✓[39m src/features/content/contentReducer.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m src/features/content/useContentFilters.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 146[2mms[22m[39m
+ [32m✓[39m src/components/Sidebar/Sidebar.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[33m 1315[2mms[22m[39m
+     [33m[2m✓[22m[39m renders three phase groups [33m 786[2mms[22m[39m
+ [32m✓[39m src/services/auth.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32m✓[39m src/components/Sidebar/ContentItem.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[33m 405[2mms[22m[39m
+     [33m[2m✓[22m[39m navigates to /content/:id on click [33m 323[2mms[22m[39m
+ [32m✓[39m src/components/DetailPanel/TimestampTimeline.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 114[2mms[22m[39m
+ [32m✓[39m src/components/Sidebar/SidebarSearch.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 753[2mms[22m[39m
+     [33m[2m✓[22m[39m renders search input [33m 422[2mms[22m[39m
+ [32m✓[39m src/hooks/useDragAndDrop.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 48[2mms[22m[39m
+ [32m✓[39m src/features/auth/AuthGuard.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 438[2mms[22m[39m
+     [33m[2m✓[22m[39m shows access denied for unauthorized email [33m 353[2mms[22m[39m
+ [32m✓[39m src/hooks/useTheme.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 90[2mms[22m[39m
+ [32m✓[39m src/components/common/ChipInput.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[33m 979[2mms[22m[39m
+     [33m[2m✓[22m[39m adds a chip on Enter [33m 461[2mms[22m[39m
+ [32m✓[39m src/features/auth/LoginPage.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 591[2mms[22m[39m
+     [33m[2m✓[22m[39m renders sign-in button [33m 396[2mms[22m[39m
+ [32m✓[39m src/components/common/FormActions.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 865[2mms[22m[39m
+     [33m[2m✓[22m[39m shows Save and Discard buttons when dirty [33m 472[2mms[22m[39m
+ [32m✓[39m src/components/Sidebar/SidebarFilter.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 2392[2mms[22m[39m
+     [33m[2m✓[22m[39m opens dropdown and shows phase options [33m 960[2mms[22m[39m
+     [33m[2m✓[22m[39m opens dropdown and shows status options [33m 651[2mms[22m[39m
+     [33m[2m✓[22m[39m calls onChange when a filter option is selected [33m 602[2mms[22m[39m
+ [32m✓[39m src/components/ThemeToggle/ThemeToggle.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[33m 1925[2mms[22m[39m
+     [33m[2m✓[22m[39m renders the toggle button with aria-label [33m 501[2mms[22m[39m
+     [33m[2m✓[22m[39m shows Light, Dark, and System options in dropdown [33m 454[2mms[22m[39m
+     [33m[2m✓[22m[39m calls setTheme with "dark" when Dark is clicked [33m 340[2mms[22m[39m
+     [33m[2m✓[22m[39m calls setTheme with "light" when Light is clicked [33m 329[2mms[22m[39m
+ [32m✓[39m src/utils/relativeTime.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 64[2mms[22m[39m
+ [32m✓[39m src/components/DetailPanel/TabNavigation.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 1125[2mms[22m[39m
+     [33m[2m✓[22m[39m renders all five tabs for video content [33m 700[2mms[22m[39m
+ [32m✓[39m src/components/common/StatusBadge.test.tsx [2m([22m[2m13 tests[22m[2m)[22m[32m 119[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m33 passed[39m[22m[90m (33)[39m
+[2m      Tests [22m [1m[32m307 passed[39m[22m[90m (307)[39m
+[2m   Start at [22m 09:34:32
+[2m   Duration [22m 35.75s[2m (transform 2.66s, setup 3.13s, import 17.78s, tests 39.66s, environment 35.56s)[22m
+

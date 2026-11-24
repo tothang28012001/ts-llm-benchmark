@@ -1,0 +1,13 @@
+npm notice This endpoint is being retired. Use the bulk advisory endpoint instead. See the following docs for more info: https://api-docs.npmjs.com/#tag/Audit
+npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+npm WARN lifecycle en-inflectors@1.0.12~prepublish: cannot run in wd en-inflectors@1.0.12 mocha && tsc (wd=/work)
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 27 packages from 61 contributors and audited 27 packages in 2.052s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+

@@ -1,0 +1,697 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:00:13.479Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "lib/utils/iterable.ts": {
+            "lines": 8,
+            "tokens": 64,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterableValue.ts": {
+            "lines": 220,
+            "tokens": 778,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterableTransformation.ts": {
+            "lines": 49,
+            "tokens": 272,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterableSet.ts": {
+            "lines": 67,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterableQuery.ts": {
+            "lines": 81,
+            "tokens": 366,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterablePredicate.ts": {
+            "lines": 26,
+            "tokens": 108,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterablePermutation.ts": {
+            "lines": 32,
+            "tokens": 117,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterableJoin.ts": {
+            "lines": 71,
+            "tokens": 450,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 6,
+            "duplicatedTokens": 100,
+            "percentage": 8.45,
+            "percentageTokens": 22.22,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterableFilter.ts": {
+            "lines": 62,
+            "tokens": 242,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/types/IterableCast.ts": {
+            "lines": 73,
+            "tokens": 365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/toMap.ts": {
+            "lines": 21,
+            "tokens": 209,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/toGroups.ts": {
+            "lines": 24,
+            "tokens": 240,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/toArray.ts": {
+            "lines": 10,
+            "tokens": 77,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/sum.ts": {
+            "lines": 10,
+            "tokens": 101,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/reduce.ts": {
+            "lines": 32,
+            "tokens": 309,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/nth.ts": {
+            "lines": 32,
+            "tokens": 286,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/min.ts": {
+            "lines": 15,
+            "tokens": 135,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 101,
+            "percentage": 46.67,
+            "percentageTokens": 74.81,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/max.ts": {
+            "lines": 15,
+            "tokens": 135,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 101,
+            "percentage": 46.67,
+            "percentageTokens": 74.81,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/length.ts": {
+            "lines": 10,
+            "tokens": 65,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/lastIndexOf.ts": {
+            "lines": 15,
+            "tokens": 125,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/last.ts": {
+            "lines": 10,
+            "tokens": 79,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/indexOf.ts": {
+            "lines": 15,
+            "tokens": 113,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/first.ts": {
+            "lines": 8,
+            "tokens": 59,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/reducers/average.ts": {
+            "lines": 10,
+            "tokens": 113,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/takeWhile.ts": {
+            "lines": 18,
+            "tokens": 144,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/take.ts": {
+            "lines": 37,
+            "tokens": 304,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/splice.ts": {
+            "lines": 44,
+            "tokens": 288,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/slice.ts": {
+            "lines": 32,
+            "tokens": 289,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/skipWhile.ts": {
+            "lines": 20,
+            "tokens": 166,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/skip.ts": {
+            "lines": 29,
+            "tokens": 247,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/shuffle.ts": {
+            "lines": 18,
+            "tokens": 194,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/reverse.ts": {
+            "lines": 13,
+            "tokens": 137,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/map.ts": {
+            "lines": 15,
+            "tokens": 130,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/leftJoin.ts": {
+            "lines": 30,
+            "tokens": 306,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 156,
+            "percentage": 50,
+            "percentageTokens": 50.98,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/join.ts": {
+            "lines": 27,
+            "tokens": 288,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 156,
+            "percentage": 55.56,
+            "percentageTokens": 54.17,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/intersect.ts": {
+            "lines": 24,
+            "tokens": 229,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/groupJoin.ts": {
+            "lines": 23,
+            "tokens": 265,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/flat.ts": {
+            "lines": 10,
+            "tokens": 86,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/filter.ts": {
+            "lines": 17,
+            "tokens": 139,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/fill.ts": {
+            "lines": 31,
+            "tokens": 294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/exclude.ts": {
+            "lines": 22,
+            "tokens": 194,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/distinct.ts": {
+            "lines": 20,
+            "tokens": 165,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/iterators/concat.ts": {
+            "lines": 12,
+            "tokens": 87,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/index.ts": {
+            "lines": 383,
+            "tokens": 4421,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 6,
+            "duplicatedTokens": 100,
+            "percentage": 1.57,
+            "percentageTokens": 2.26,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "index.ts": {
+            "lines": 54,
+            "tokens": 843,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "gulpfile.ts": {
+            "lines": 166,
+            "tokens": 1027,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1961,
+          "tokens": 15326,
+          "sources": 46,
+          "clones": 3,
+          "duplicatedLines": 28,
+          "duplicatedTokens": 357,
+          "percentage": 1.43,
+          "percentageTokens": 2.33,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1961,
+      "tokens": 15326,
+      "sources": 46,
+      "clones": 3,
+      "duplicatedLines": 28,
+      "duplicatedTokens": 357,
+      "percentage": 1.43,
+      "percentageTokens": 2.33,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "<T>(\n  source: Iterable<T>,\n  compareFn: (element1: T, element2: T) => number,\n): T | undefined {\n  let result: T | undefined = undefined;\n\n  for (const element of source) {\n    if (result === undefined || compareFn(element, result) >",
+      "tokens": 101,
+      "firstFile": {
+        "name": "lib/reducers/max.ts",
+        "start": 1,
+        "end": 8,
+        "startLoc": {
+          "line": 1,
+          "column": 20,
+          "position": 5
+        },
+        "endLoc": {
+          "line": 8,
+          "column": 61,
+          "position": 106
+        }
+      },
+      "secondFile": {
+        "name": "lib/reducers/min.ts",
+        "start": 1,
+        "end": 8,
+        "startLoc": {
+          "line": 1,
+          "column": 20,
+          "position": 5
+        },
+        "endLoc": {
+          "line": 8,
+          "column": 61,
+          "position": 106
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ": TRight) => TResult,\n): Iterable<TResult> {\n  return iterable(function* () {\n    let index = 0;\n    const rightMap = toGroups(others, rightKeySelector, x => x);\n\n    for (const element of source) {\n      const leftKey = leftKeySelector(element, index++);\n\n      const rightValues = rightMap.get(leftKey);\n      if (rightValues) {\n        for (const rightMatch of rightValues) {\n          yield joinSelector(element, rightMatch);\n        }\n      }\n",
+      "tokens": 156,
+      "firstFile": {
+        "name": "lib/iterators/join.ts",
+        "start": 9,
+        "end": 24,
+        "startLoc": {
+          "line": 9,
+          "column": 36,
+          "position": 122
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 1,
+          "position": 278
+        }
+      },
+      "secondFile": {
+        "name": "lib/iterators/leftJoin.ts",
+        "start": 9,
+        "end": 23,
+        "startLoc": {
+          "line": 9,
+          "column": 37,
+          "position": 123
+        },
+        "endLoc": {
+          "line": 23,
+          "column": 9,
+          "position": 279
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": "\n  groupJoin<TKey, TRight, TResult>(\n    other: Iterable<TRight>,\n    leftKeySelector: (element: T, index: number) => TKey,\n    rightKeySelector: (element: TRight, index: number) => TKey,\n    joinSelector: (left: T, right: TRight[]) => TResult,\n  ): IterableQuery<TResult> ",
+      "tokens": 100,
+      "firstFile": {
+        "name": "lib/index.ts",
+        "start": 324,
+        "end": 330,
+        "startLoc": {
+          "line": 324,
+          "column": 1,
+          "position": 3736
+        },
+        "endLoc": {
+          "line": 330,
+          "column": 29,
+          "position": 3836
+        }
+      },
+      "secondFile": {
+        "name": "lib/types/IterableJoin.ts",
+        "start": 63,
+        "end": 69,
+        "startLoc": {
+          "line": 63,
+          "column": 6,
+          "position": 347
+        },
+        "endLoc": {
+          "line": 69,
+          "column": 29,
+          "position": 447
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "repo_id": "A21",
+  "group": "llm",
+  "full_name": "irtaza65/lumpmap-3d",
+  "stars": "0",
+  "created_at": "2026-07-21",
+  "pin": "HEAD",
+  "fetch": {
+    "sha": "3043112ba5c9866d377ae314b4cadb797d552499",
+    "commit_date": "2026-07-21T23:22:26+05:00",
+    "first_commit_date": "2026-07-21T14:03:32+05:00",
+    "commits_to_pin": 15,
+    "ai_commits_to_pin": 15,
+    "ai_commit_share": 1.0,
+    "ai_agents": [
+      "codex"
+    ]
+  },
+  "inventory": {
+    "prod_files": 19,
+    "test_files": 6,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 19,
+      "lines": 9386,
+      "code": 8827,
+      "comment": 67,
+      "blank": 492
+    },
+    "test": {
+      "files": 6,
+      "lines": 977,
+      "code": 861,
+      "comment": 0,
+      "blank": 116
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 1,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 1,
+        "seconds": 1.1
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 0,
+        "seconds": 24.9
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 4.027
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 20
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 2.2
+  },
+  "mutation": {
+    "sample_files": [
+      "lib/conditions.ts"
+    ],
+    "sample_lines": 811,
+    "framework_versions": {
+      "vitest": "4.1.10",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "perTest",
+    "counts": {
+      "NoCoverage": 21,
+      "Ignored": 648
+    },
+    "mutants_valid": 21,
+    "mutation_score": 0,
+    "mutation_score_covered": null,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 0,
+        "seconds": 3.021,
+        "timed_out": false
+      }
+    ]
+  }
+}

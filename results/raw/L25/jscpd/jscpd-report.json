@@ -1,0 +1,84 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T10:01:29.398Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/translate.ts": {
+            "lines": 213,
+            "tokens": 2834,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 16,
+            "tokens": 157,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app.ts": {
+            "lines": 72,
+            "tokens": 771,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ai.ts": {
+            "lines": 119,
+            "tokens": 1004,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 420,
+          "tokens": 4766,
+          "sources": 4,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 420,
+      "tokens": 4766,
+      "sources": 4,
+      "clones": 0,
+      "duplicatedLines": 0,
+      "duplicatedTokens": 0,
+      "percentage": 0,
+      "percentageTokens": 0,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": []
+}

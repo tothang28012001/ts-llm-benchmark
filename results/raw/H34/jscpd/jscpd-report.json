@@ -1,0 +1,453 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:12:21.225Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/setup/setup.ts": {
+            "lines": 6,
+            "tokens": 42,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/getScriptSource.ts": {
+            "lines": 18,
+            "tokens": 112,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/contextHelper.ts": {
+            "lines": 22,
+            "tokens": 175,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/helpers/helpers.ts": {
+            "lines": 5,
+            "tokens": 30,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/helpers/Bind.ts": {
+            "lines": 61,
+            "tokens": 498,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/helpers/Action.ts": {
+            "lines": 55,
+            "tokens": 414,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/constants.ts": {
+            "lines": 19,
+            "tokens": 119,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "setupTest.ts": {
+            "lines": 5,
+            "tokens": 37,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/tagNameToComponentName.ts": {
+            "lines": 8,
+            "tokens": 71,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/rules.ts": {
+            "lines": 71,
+            "tokens": 616,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/index.ts": {
+            "lines": 25,
+            "tokens": 96,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/duplicateWrapperComponentCode.ts": {
+            "lines": 117,
+            "tokens": 709,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/constants.ts": {
+            "lines": 226,
+            "tokens": 1483,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/componentCode/templates/mandatoryComponentOverrideTemplate.ts": {
+            "lines": 20,
+            "tokens": 120,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/componentCode/templates/componentTemplate.ts": {
+            "lines": 190,
+            "tokens": 1085,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 21,
+            "duplicatedTokens": 116,
+            "percentage": 11.05,
+            "percentageTokens": 10.69,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/componentCode/templates/componentOverrideTemplate.ts": {
+            "lines": 155,
+            "tokens": 1063,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 21,
+            "duplicatedTokens": 116,
+            "percentage": 13.55,
+            "percentageTokens": 10.91,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/componentCode/lib/propsCodeReducer.ts": {
+            "lines": 129,
+            "tokens": 1000,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/componentCode/index.ts": {
+            "lines": 99,
+            "tokens": 601,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1231,
+          "tokens": 8271,
+          "sources": 18,
+          "clones": 1,
+          "duplicatedLines": 21,
+          "duplicatedTokens": 116,
+          "percentage": 1.71,
+          "percentageTokens": 1.4,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/setup/headerBoilerplate.tsx": {
+            "lines": 17,
+            "tokens": 127,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/setup/AmpScripts.tsx": {
+            "lines": 4,
+            "tokens": 21,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/amphtml/components/Script.tsx": {
+            "lines": 1,
+            "tokens": 12,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/amphtml/components/AmpState.tsx": {
+            "lines": 5,
+            "tokens": 31,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 27,
+          "tokens": 191,
+          "sources": 4,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/setup/headerBoilerplate.tsx": {
+            "lines": 35,
+            "tokens": 241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/setup/AmpScriptsManager.tsx": {
+            "lines": 46,
+            "tokens": 314,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/setup/AmpScripts.tsx": {
+            "lines": 59,
+            "tokens": 459,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/amphtml/components/Script.tsx": {
+            "lines": 61,
+            "tokens": 411,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/amphtml/components/Html.tsx": {
+            "lines": 33,
+            "tokens": 255,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/amphtml/components/AmpState.tsx": {
+            "lines": 54,
+            "tokens": 365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "codegen/componentCode/preamble.tsx": {
+            "lines": 389,
+            "tokens": 3321,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 677,
+          "tokens": 5366,
+          "sources": 7,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1935,
+      "tokens": 13828,
+      "sources": 29,
+      "clones": 1,
+      "duplicatedLines": 21,
+      "duplicatedTokens": 116,
+      "percentage": 1.09,
+      "percentageTokens": 0.84,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 22,
+      "fragment": ");\n  if (defaultPropsEntries.length === 0) return '';\n  const defaultPropsProperties = defaultPropsEntries.reduce(\n    (acc, [key, value]): string => `\n      ${acc}\n      ${key}: ${value},\n    `,\n    '',\n  );\n  return `\n    ${componentName}.defaultProps = {\n      ${defaultPropsProperties}\n    };\n  `;\n};\n\nexport default ({\n  code,\n  tagName,\n  componentName,\n  dupeName,\n  extensionSpec",
+      "tokens": 116,
+      "firstFile": {
+        "name": "codegen/componentCode/templates/componentOverrideTemplate.ts",
+        "start": 86,
+        "end": 107,
+        "startLoc": {
+          "line": 86,
+          "column": 4,
+          "position": 636
+        },
+        "endLoc": {
+          "line": 107,
+          "column": 16,
+          "position": 752
+        }
+      },
+      "secondFile": {
+        "name": "codegen/componentCode/templates/componentTemplate.ts",
+        "start": 88,
+        "end": 109,
+        "startLoc": {
+          "line": 88,
+          "column": 72,
+          "position": 578
+        },
+        "endLoc": {
+          "line": 109,
+          "column": 27,
+          "position": 694
+        }
+      }
+    }
+  ]
+}

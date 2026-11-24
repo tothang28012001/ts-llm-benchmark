@@ -1,0 +1,1125 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T10:27:50.529Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "lib/utils/date.ts": {
+            "lines": 19,
+            "tokens": 219,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/utils/cn.ts": {
+            "lines": 7,
+            "tokens": 65,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/recipients.ts": {
+            "lines": 25,
+            "tokens": 288,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/providers/types.ts": {
+            "lines": 134,
+            "tokens": 1031,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/providers/sanitize.ts": {
+            "lines": 30,
+            "tokens": 201,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/providers/parse.ts": {
+            "lines": 28,
+            "tokens": 350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/providers/index.ts": {
+            "lines": 6,
+            "tokens": 62,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/providers/imap.ts": {
+            "lines": 391,
+            "tokens": 4241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/providers/graph.ts": {
+            "lines": 266,
+            "tokens": 2898,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/providers/gmail.ts": {
+            "lines": 246,
+            "tokens": 2954,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/provider-brand.ts": {
+            "lines": 26,
+            "tokens": 315,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/mime.ts": {
+            "lines": 69,
+            "tokens": 677,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/load.ts": {
+            "lines": 151,
+            "tokens": 1834,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 206,
+            "percentage": 7.95,
+            "percentageTokens": 11.23,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/email/demo-data.ts": {
+            "lines": 268,
+            "tokens": 2021,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/auth/providers-available.ts": {
+            "lines": 19,
+            "tokens": 203,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/auth/imap-session.ts": {
+            "lines": 111,
+            "tokens": 1062,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/auth/config.ts": {
+            "lines": 175,
+            "tokens": 1531,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/auth/authorize.ts": {
+            "lines": 20,
+            "tokens": 126,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/auth/actions.ts": {
+            "lines": 15,
+            "tokens": 110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/ai/text.ts": {
+            "lines": 13,
+            "tokens": 191,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/ai/summarize.ts": {
+            "lines": 43,
+            "tokens": 484,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/ai/search.ts": {
+            "lines": 42,
+            "tokens": 509,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/ai/prioritize.ts": {
+            "lines": 57,
+            "tokens": 547,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/ai/draft.ts": {
+            "lines": 453,
+            "tokens": 4443,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "instrumentation.ts": {
+            "lines": 26,
+            "tokens": 188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/sw.ts": {
+            "lines": 23,
+            "tokens": 160,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/email/send/route.ts": {
+            "lines": 101,
+            "tokens": 1189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/email/modify/route.ts": {
+            "lines": 44,
+            "tokens": 630,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/email/list/route.ts": {
+            "lines": 32,
+            "tokens": 428,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/email/attachment/route.ts": {
+            "lines": 52,
+            "tokens": 547,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/ai/summarize/route.ts": {
+            "lines": 18,
+            "tokens": 231,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/ai/search/route.ts": {
+            "lines": 21,
+            "tokens": 275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/ai/prioritize/route.ts": {
+            "lines": 18,
+            "tokens": 227,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/ai/enrich-batch/route.ts": {
+            "lines": 41,
+            "tokens": 524,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/api/ai/draft/route.ts": {
+            "lines": 18,
+            "tokens": 227,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3008,
+          "tokens": 30988,
+          "sources": 35,
+          "clones": 1,
+          "duplicatedLines": 6,
+          "duplicatedTokens": 103,
+          "percentage": 0.2,
+          "percentageTokens": 0.33,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "components/ui/input.tsx": {
+            "lines": 20,
+            "tokens": 108,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/card.tsx": {
+            "lines": 40,
+            "tokens": 248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/button.tsx": {
+            "lines": 2,
+            "tokens": 21,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/badge.tsx": {
+            "lines": 1,
+            "tokens": 13,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/SideNav.tsx": {
+            "lines": 95,
+            "tokens": 853,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/SearchBar.tsx": {
+            "lines": 17,
+            "tokens": 85,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/AppShell.tsx": {
+            "lines": 77,
+            "tokens": 539,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/AccountSwitcher.tsx": {
+            "lines": 130,
+            "tokens": 1073,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/RichTextEditor.tsx": {
+            "lines": 42,
+            "tokens": 317,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/ProviderTag.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/PriorityBadge.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/MessageView.tsx": {
+            "lines": 184,
+            "tokens": 1741,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailRow.tsx": {
+            "lines": 75,
+            "tokens": 554,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailListEnriched.tsx": {
+            "lines": 4,
+            "tokens": 52,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailList.tsx": {
+            "lines": 2,
+            "tokens": 16,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailFrame.tsx": {
+            "lines": 4,
+            "tokens": 29,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ai/MessageAiEnrichment.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ai/DraftPanel.tsx": {
+            "lines": 90,
+            "tokens": 658,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/page.tsx": {
+            "lines": 404,
+            "tokens": 3059,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/layout.tsx": {
+            "lines": 1,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1191,
+          "tokens": 9402,
+          "sources": 20,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "components/ui/input.tsx": {
+            "lines": 33,
+            "tokens": 207,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/card.tsx": {
+            "lines": 51,
+            "tokens": 325,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/button.tsx": {
+            "lines": 44,
+            "tokens": 311,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/badge.tsx": {
+            "lines": 30,
+            "tokens": 233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/TopProgressBar.tsx": {
+            "lines": 109,
+            "tokens": 1152,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/SideNav.tsx": {
+            "lines": 131,
+            "tokens": 1181,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 56,
+            "duplicatedTokens": 374,
+            "percentage": 42.75,
+            "percentageTokens": 31.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/SearchBar.tsx": {
+            "lines": 45,
+            "tokens": 329,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/AppShell.tsx": {
+            "lines": 105,
+            "tokens": 793,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/layout/AccountSwitcher.tsx": {
+            "lines": 181,
+            "tokens": 1502,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/RichTextEditor.tsx": {
+            "lines": 99,
+            "tokens": 809,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/ProviderTag.tsx": {
+            "lines": 17,
+            "tokens": 118,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/PriorityBadge.tsx": {
+            "lines": 25,
+            "tokens": 166,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/MessageView.tsx": {
+            "lines": 305,
+            "tokens": 3098,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 120,
+            "percentage": 2.62,
+            "percentageTokens": 3.87,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailRow.tsx": {
+            "lines": 103,
+            "tokens": 878,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 120,
+            "percentage": 7.77,
+            "percentageTokens": 13.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailListEnriched.tsx": {
+            "lines": 185,
+            "tokens": 1994,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 157,
+            "percentage": 10.81,
+            "percentageTokens": 7.87,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailList.tsx": {
+            "lines": 30,
+            "tokens": 255,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/email/EmailFrame.tsx": {
+            "lines": 102,
+            "tokens": 781,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ai/MessageAiEnrichment.tsx": {
+            "lines": 105,
+            "tokens": 928,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 157,
+            "percentage": 19.05,
+            "percentageTokens": 16.92,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ai/DraftPanel.tsx": {
+            "lines": 212,
+            "tokens": 1804,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/page.tsx": {
+            "lines": 427,
+            "tokens": 3235,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/layout.tsx": {
+            "lines": 56,
+            "tokens": 374,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2395,
+          "tokens": 20473,
+          "sources": 21,
+          "clones": 3,
+          "duplicatedLines": 56,
+          "duplicatedTokens": 464,
+          "percentage": 2.34,
+          "percentageTokens": 2.27,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 6594,
+      "tokens": 60863,
+      "sources": 76,
+      "clones": 4,
+      "duplicatedLines": 62,
+      "duplicatedTokens": 567,
+      "percentage": 0.94,
+      "percentageTokens": 0.93,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": ");\n  }\n  merged.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));\n  return { messages: merged.slice(0, limit), accounts: r.accounts, isDemo: false };\n}\n\nexport async function providerForMessageId",
+      "tokens": 103,
+      "firstFile": {
+        "name": "lib/email/load.ts",
+        "start": 136,
+        "end": 142,
+        "startLoc": {
+          "line": 136,
+          "column": 57,
+          "position": 1548
+        },
+        "endLoc": {
+          "line": 142,
+          "column": 43,
+          "position": 1651
+        }
+      },
+      "secondFile": {
+        "name": "lib/email/load.ts",
+        "start": 98,
+        "end": 104,
+        "startLoc": {
+          "line": 98,
+          "column": 63,
+          "position": 1093
+        },
+        "endLoc": {
+          "line": 104,
+          "column": 33,
+          "position": 1196
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 29,
+      "fragment": "({\n  Icon,\n  label,\n  active,\n}: {\n  Icon: LucideIcon;\n  label: string;\n  active: boolean;\n}) {\n  const { pending } = useLinkStatus();\n  const on = active || pending;\n  return (\n    <span\n      className={cn(\n        \"flex h-[60px] flex-col items-center justify-center gap-1 text-[10px] font-medium transition-colors active:scale-95\",\n        on ? \"text-accent\" : \"text-fg-muted hover:text-fg\",\n      )}\n    >\n      {pending ? (\n        <Loader2 size={19} className=\"animate-spin\" />\n      ) : (\n        <Icon size={19} strokeWidth={active ? 2.2 : 1.75} />\n      )}\n      {label}\n    </span>\n  );\n}\n\nexport",
+      "tokens": 187,
+      "firstFile": {
+        "name": "components/layout/SideNav.tsx",
+        "start": 48,
+        "end": 76,
+        "startLoc": {
+          "line": 48,
+          "column": 25,
+          "position": 381
+        },
+        "endLoc": {
+          "line": 76,
+          "column": 7,
+          "position": 568
+        }
+      },
+      "secondFile": {
+        "name": "components/layout/SideNav.tsx",
+        "start": 18,
+        "end": 48,
+        "startLoc": {
+          "line": 18,
+          "column": 23,
+          "position": 191
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 9,
+          "position": 378
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": ";\n\nfunction initials(name?: string, email?: string): string {\n  const src = name ?? email ?? \"?\";\n  const parts = src.split(/[\\s@.]+/).filter(Boolean).slice(0, 2);\n  return parts.map((p) => p[0]?.toUpperCase() ?? \"\").join(\"\") || \"?\";\n}\n\nexport function EmailRow",
+      "tokens": 120,
+      "firstFile": {
+        "name": "components/email/EmailRow.tsx",
+        "start": 9,
+        "end": 17,
+        "startLoc": {
+          "line": 9,
+          "column": 36,
+          "position": 109
+        },
+        "endLoc": {
+          "line": 17,
+          "column": 25,
+          "position": 229
+        }
+      },
+      "secondFile": {
+        "name": "components/email/MessageView.tsx",
+        "start": 12,
+        "end": 20,
+        "startLoc": {
+          "line": 12,
+          "column": 42,
+          "position": 172
+        },
+        "endLoc": {
+          "line": 20,
+          "column": 28,
+          "position": 292
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 21,
+      "fragment": ";\n\nfunction readCache(): Record<string, AiResult> {\n  if (typeof window === \"undefined\") return {};\n  try {\n    return JSON.parse(localStorage.getItem(CACHE_KEY) ?? \"{}\");\n  } catch {\n    return {};\n  }\n}\n\nfunction writeCache(next: Record<string, AiResult>) {\n  if (typeof window === \"undefined\") return;\n  try {\n    localStorage.setItem(CACHE_KEY, JSON.stringify(next));\n  } catch {\n    // quota — ignore\n  }\n}\n\nexport",
+      "tokens": 157,
+      "firstFile": {
+        "name": "components/ai/MessageAiEnrichment.tsx",
+        "start": 14,
+        "end": 34,
+        "startLoc": {
+          "line": 14,
+          "column": 40,
+          "position": 101
+        },
+        "endLoc": {
+          "line": 34,
+          "column": 7,
+          "position": 258
+        }
+      },
+      "secondFile": {
+        "name": "components/email/EmailListEnriched.tsx",
+        "start": 25,
+        "end": 45,
+        "startLoc": {
+          "line": 25,
+          "column": 51,
+          "position": 183
+        },
+        "endLoc": {
+          "line": 45,
+          "column": 76,
+          "position": 340
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+
+> angular-ssr@0.10.40 pretest /work
+> npm run lint && npm run build
+
+npm WARN invalid config loglevel="notice"
+
+> angular-ssr@0.10.40 lint /work
+> tslint --project tsconfig.json --type-check
+
+npm WARN invalid config loglevel="notice"
+
+> angular-ssr@0.10.40 prebuild /work
+> rimraf build
+
+
+> angular-ssr@0.10.40 build /work
+> ngc
+
+
+> angular-ssr@0.10.40 test /work
+> jest --coverage=true -w 18
+
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+(node:1269) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:1367) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:1294) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/application/builder/tests/from-source.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1352) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/filesystem/tests/filesystem.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+ FAIL  source/cache/tests/memory-variant-cache.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+ FAIL  source/application/builder/tests/prerenderer.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+ FAIL  source/application/compiler/ngc/tests/compiler.ts
+(node:1333) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+(node:1331) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/application/builder/tests/from-module-factory.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+ FAIL  source/application/static/modules/tests/modules.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1277) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/variants/tests/permutations.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1324) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:1304) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/cache/tests/memory-cache.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+ FAIL  source/runtime/browser-emulation/tests/types.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1298) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/transformation/tests/type-to-function.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1383) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(node:1316) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/application/preboot/tests/schema.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+ FAIL  source/runtime/browser-emulation/tests/window.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1270) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+(node:1268) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/application/builder/tests/from-module.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+ FAIL  source/cache/tests/trie.ts
+(node:1323) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+[BABEL] Note: The code generator has deoptimised the styling of "/work/node_modules/typescript/lib/typescript.js" as it exceeds the max of "500KB".
+ FAIL  source/runtime/browser-emulation/tests/location.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1345) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/route/tests/renderable.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1365) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+ FAIL  source/runtime/browser-emulation/tests/navigator.ts
+  ● Test suite failed to run
+
+    /work/node_modules/domino-modernized/lib/sloppy.js: 'with' in strict mode (10:4)
+         8 |   Window_run: function _run(code, file) {
+         9 |     if (file) code += '\n//@ sourceURL=' + file;
+      > 10 |     with(this) eval(code);
+           |     ^
+        11 |   },
+        12 |   EventHandlerBuilder_build: function build() {
+        13 |     try {
+
+(node:1368) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Test Suites: 18 failed, 18 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        181.249s
+Ran all test suites.
+----------|----------|----------|----------|----------|----------------|
+File      |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------|----------|----------|----------|----------|----------------|
+All files |  Unknown |  Unknown |  Unknown |  Unknown |                |
+----------|----------|----------|----------|----------|----------------|
+npm ERR! Test failed.  See above for more details.

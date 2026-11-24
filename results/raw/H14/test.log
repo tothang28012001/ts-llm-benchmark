@@ -1,0 +1,13 @@
+
+> @sigodenjs/wechatpay@2.1.1 test
+> jest
+
+PASS test/utils.spec.ts
+PASS test/fetch.spec.ts
+PASS test/index.spec.ts
+
+Test Suites: 3 passed, 3 total
+Tests:       19 passed, 19 total
+Snapshots:   0 total
+Time:        4.319s
+Ran all test suites.

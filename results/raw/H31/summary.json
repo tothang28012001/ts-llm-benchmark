@@ -1,0 +1,89 @@
+{
+  "repo_id": "H31",
+  "group": "human",
+  "full_name": "staltz/dat-installer",
+  "stars": "270",
+  "created_at": "2017-10-24",
+  "pin": "10b4ceb5d2a73d8c53d5752561f1b9e82e1262a2",
+  "fetch": {
+    "sha": "10b4ceb5d2a73d8c53d5752561f1b9e82e1262a2",
+    "commit_date": "2018-09-26T14:13:03+03:00",
+    "first_commit_date": "2017-10-12T17:20:08+03:00",
+    "commits_to_pin": 85,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 16,
+    "test_files": 0,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 16,
+      "lines": 1922,
+      "code": 1394,
+      "comment": 312,
+      "blank": 216
+    },
+    "test": {
+      "files": 0,
+      "lines": 0,
+      "code": 0,
+      "comment": 0,
+      "blank": 0
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 29.5
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "2.5.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 1.181
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 21
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 1.1
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "10",
+    "why": "pin-date era",
+    "status": "install-failed"
+  }
+}

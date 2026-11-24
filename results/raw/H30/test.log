@@ -1,0 +1,15 @@
+yarn run v1.22.22
+$ jest
+PASS src/lib/platform/platform.test.ts
+PASS src/main-window/load-url.test.ts
+PASS src/lib/keyboard/keyboard.test.ts
+PASS src/models/database/database.test.ts
+PASS src/main-window/main-window.test.ts
+PASS test/storyshots.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       24 passed, 24 total
+Snapshots:   8 passed, 8 total
+Time:        4.025s
+Ran all test suites.
+Done in 4.52s.

@@ -1,0 +1,24 @@
+
+> DatInstaller@1.1.0 test
+> jest
+
+FAIL __tests__/App.js
+  ● Test suite failed to run
+
+    /work/node_modules/react-native/jest/setup.js: babel-plugin-jest-hoist: The module factory of `jest.mock()` is not allowed to reference any out-of-scope variables.
+    Invalid variable access: console
+    Whitelisted objects: Array, ArrayBuffer, Boolean, DataView, Date, Error, EvalError, Float32Array, Float64Array, Function, Generator, GeneratorFunction, Infinity, Int16Array, Int32Array, Int8Array, InternalError, Intl, JSON, Map, Math, NaN, Number, Object, Promise, Proxy, RangeError, ReferenceError, Reflect, RegExp, Set, String, Symbol, SyntaxError, TypeError, URIError, Uint16Array, Uint32Array, Uint8Array, Uint8ClampedArray, WeakMap, WeakSet, arguments, expect, jest, require, undefined, global, clearImmediate, setImmediate, clearInterval, clearTimeout, setInterval, setTimeout, queueMicrotask, structuredClone, atob, btoa, performance, fetch, navigator, crypto.
+    Note: This is a precaution to guard against uninitialized mock variables. If it is ensured that the mock is required lazily, variable names prefixed with `mock` are permitted.
+      
+      at invariant (node_modules/babel-plugin-jest-hoist/build/index.js:12:11)
+      at newFn (node_modules/babel-traverse/lib/visitors.js:276:21)
+      at NodePath._call (node_modules/babel-traverse/lib/path/context.js:76:18)
+      at NodePath.call (node_modules/babel-traverse/lib/path/context.js:48:17)
+      at NodePath.visit (node_modules/babel-traverse/lib/path/context.js:105:12)
+      at TraversalContext.visitQueue (node_modules/babel-traverse/lib/context.js:150:16)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.265s
+Ran all test suites.

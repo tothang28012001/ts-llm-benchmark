@@ -1,4 +1,4 @@
 group,n,install_ok,tsc_clean,tests_passed,mutation_valid
-human,12,10,7,5,4
-claude,12,12,10,8,8
-other,19,18,8,11,5
+human,36,33,18,13,8
+claude,36,36,28,29,23
+other,21,20,9,13,6

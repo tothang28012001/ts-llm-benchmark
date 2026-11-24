@@ -1,0 +1,5 @@
+
+> en-inflectors@1.0.12 test
+> mocha
+
+sh: 1: mocha: not found

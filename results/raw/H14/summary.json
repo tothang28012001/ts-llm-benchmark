@@ -1,0 +1,139 @@
+{
+  "repo_id": "H14",
+  "group": "human",
+  "full_name": "sigoden/wechatpay",
+  "stars": "120",
+  "created_at": "2018-05-16",
+  "pin": "0dc0afe46db764d03821961641d091973bc6ed6b",
+  "fetch": {
+    "sha": "0dc0afe46db764d03821961641d091973bc6ed6b",
+    "commit_date": "2019-06-10T20:58:20+08:00",
+    "first_commit_date": "2018-05-16T20:34:52+08:00",
+    "commits_to_pin": 39,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 61,
+    "test_files": 3,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 61,
+      "lines": 7724,
+      "code": 1996,
+      "comment": 5361,
+      "blank": 367
+    },
+    "test": {
+      "files": 3,
+      "lines": 310,
+      "code": 288,
+      "comment": 0,
+      "blank": 22
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 2,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 2,
+        "seconds": 29.1
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 2,
+        "seconds": 10.6
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 0,
+        "seconds": 6.2
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.9.10",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 154,
+        "seconds": 3.433
+      }
+    ],
+    "errors_total": 154,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 154,
+    "global_errors": 0,
+    "by_code": {
+      "TS1005": 133,
+      "TS1128": 7,
+      "TS1109": 3,
+      "TS1136": 5,
+      "TS1110": 3,
+      "TS1160": 3
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 61
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 5.3
+  },
+  "mutation": {
+    "sample_files": [
+      "src/pays/Pay.ts",
+      "src/pays/PubPay.ts"
+    ],
+    "sample_lines": 424,
+    "framework_versions": {
+      "vitest": null,
+      "jest": "24.9.0",
+      "mocha": null
+    },
+    "runner": "command",
+    "status": "ok",
+    "disable_type_checks": "sample",
+    "coverage_analysis": "off",
+    "counts": {
+      "Survived": 23,
+      "Killed": 3
+    },
+    "mutants_valid": 26,
+    "mutation_score": 0.11538461538461539,
+    "mutation_score_covered": 0.11538461538461539,
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 13.607,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "sample",
+        "cov": "off",
+        "exit": 0,
+        "seconds": 29.432,
+        "timed_out": false
+      }
+    ]
+  }
+}

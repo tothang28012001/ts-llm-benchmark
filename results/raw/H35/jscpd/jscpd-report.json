@@ -1,0 +1,313 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:13:39.995Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/util/logger.ts": {
+            "lines": 31,
+            "tokens": 242,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/util/error.ts": {
+            "lines": 11,
+            "tokens": 111,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/resources/emails.ts": {
+            "lines": 483,
+            "tokens": 86,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/models/User.ts": {
+            "lines": 111,
+            "tokens": 934,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/middleware/index.ts": {
+            "lines": 65,
+            "tokens": 591,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/settings.ts": {
+            "lines": 13,
+            "tokens": 139,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/secrets.ts": {
+            "lines": 57,
+            "tokens": 475,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/routes.ts": {
+            "lines": 12,
+            "tokens": 137,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/passport.ts": {
+            "lines": 106,
+            "tokens": 405,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/express.ts": {
+            "lines": 42,
+            "tokens": 374,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/server.ts": {
+            "lines": 13,
+            "tokens": 91,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app.ts": {
+            "lines": 29,
+            "tokens": 216,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/users/index.ts": {
+            "lines": 10,
+            "tokens": 78,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/users/controller.ts": {
+            "lines": 22,
+            "tokens": 199,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/upload/index.ts": {
+            "lines": 13,
+            "tokens": 110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/upload/controller.ts": {
+            "lines": 75,
+            "tokens": 495,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/hello/index.ts": {
+            "lines": 8,
+            "tokens": 58,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/hello/controller.ts": {
+            "lines": 7,
+            "tokens": 74,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/account/index.ts": {
+            "lines": 30,
+            "tokens": 211,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/api/v1/account/controller.ts": {
+            "lines": 307,
+            "tokens": 2671,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 30,
+            "duplicatedTokens": 274,
+            "percentage": 9.77,
+            "percentageTokens": 10.26,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1445,
+          "tokens": 7697,
+          "sources": 20,
+          "clones": 1,
+          "duplicatedLines": 15,
+          "duplicatedTokens": 137,
+          "percentage": 1.04,
+          "percentageTokens": 1.78,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1445,
+      "tokens": 7697,
+      "sources": 20,
+      "clones": 1,
+      "duplicatedLines": 15,
+      "duplicatedTokens": 137,
+      "percentage": 1.04,
+      "percentageTokens": 1.78,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": " = async (\n    req: Request,\n    res: Response,\n    next: NextFunction\n): Promise<void> => {\n    try {\n        const validationErrors = [];\n        if (!validator.isLength(req.body.password, { min: 8 })) {\n            validationErrors.push(\n                \"Password must be at least 8 characters long\"\n            );\n        }\n        if (req.body.password !== req.body.confirm) {\n            validationErrors.push(\"Passwords do not match\");\n        }\n        if (validationErrors",
+      "tokens": 137,
+      "firstFile": {
+        "name": "src/api/v1/account/controller.ts",
+        "start": 268,
+        "end": 283,
+        "startLoc": {
+          "line": 268,
+          "column": 22,
+          "position": 2304
+        },
+        "endLoc": {
+          "line": 283,
+          "column": 29,
+          "position": 2441
+        }
+      },
+      "secondFile": {
+        "name": "src/api/v1/account/controller.ts",
+        "start": 180,
+        "end": 195,
+        "startLoc": {
+          "line": 180,
+          "column": 19,
+          "position": 1515
+        },
+        "endLoc": {
+          "line": 195,
+          "column": 14,
+          "position": 1652
+        }
+      }
+    }
+  ]
+}

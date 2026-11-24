@@ -1,0 +1,129 @@
+{
+  "repo_id": "L35",
+  "group": "llm",
+  "full_name": "BreakthruDevelopment/02-notes-kb",
+  "stars": "0",
+  "created_at": "2026-11-07",
+  "pin": "HEAD",
+  "fetch": {
+    "sha": "0166ac485b9eef2484e03b0ced824b77d6975e78",
+    "commit_date": "2026-11-17T10:54:27-06:00",
+    "first_commit_date": "2026-11-07T12:47:06-06:00",
+    "commits_to_pin": 19,
+    "ai_commits_to_pin": 15,
+    "ai_commit_share": 0.7895,
+    "ai_agents": [
+      "claude-code",
+      "codex"
+    ]
+  },
+  "inventory": {
+    "prod_files": 96,
+    "test_files": 23,
+    "skipped": 7,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 96,
+      "lines": 5656,
+      "code": 4664,
+      "comment": 447,
+      "blank": 551
+    },
+    "test": {
+      "files": 23,
+      "lines": 2762,
+      "code": 2381,
+      "comment": 84,
+      "blank": 307
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 0,
+        "seconds": 11.8
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 1,
+        "seconds": 5.788
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 1,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2304": 1
+    },
+    "files_with_errors": 1,
+    "timed_out": false,
+    "project_files_checked": 126
+  },
+  "test": {
+    "cmd": "corepack pnpm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 7.4
+  },
+  "mutation": {
+    "sample_files": [
+      "src/lib/acl.ts",
+      "src/app/notes/new/page.tsx",
+      "src/components/ui/CollapsiblePanel.tsx",
+      "src/lib/auth/permissions.ts",
+      "src/lib/errors.ts",
+      "src/lib/app-config.ts",
+      "src/components/notes/index-pending-notice.tsx",
+      "src/components/sign-out-button.tsx",
+      "src/lib/ask.ts"
+    ],
+    "sample_lines": 553,
+    "framework_versions": {
+      "vitest": "5.1.0",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "perTest",
+    "counts": {
+      "NoCoverage": 238,
+      "Ignored": 22,
+      "Killed": 106,
+      "Survived": 42,
+      "Timeout": 3
+    },
+    "mutants_valid": 389,
+    "mutation_score": 0.2802056555269923,
+    "mutation_score_covered": 0.7218543046357616,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 0,
+        "seconds": 34.705,
+        "timed_out": false
+      }
+    ]
+  }
+}

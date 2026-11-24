@@ -1,0 +1,90 @@
+
+> spinwright@0.1.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90m/work[39m
+
+ [32m✓[39m test/forge.test.ts [2m([22m[2m48 tests[22m[2m)[22m[33m 338[2mms[22m[39m
+ [32m✓[39m test/cascade.test.ts [2m([22m[2m44 tests[22m[2m)[22m[33m 1412[2mms[22m[39m
+   [32m✓[39m playCascade [2m(10)[22m
+     [33m[2m✓[22m[39m obeys every rule over thousands of plays, with every grid and step recorded[33m 399[2mms[22m[39m
+     [33m[2m✓[22m[39m heats faster in the feature when the game says so, and not in the base game[33m 357[2mms[22m[39m
+ [32m✓[39m test/rules.test.ts [2m([22m[2m39 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m test/hold.test.ts [2m([22m[2m55 tests[22m[2m)[22m[33m 5492[2mms[22m[39m
+   [32m✓[39m the rules held over many rounds [2m(5)[22m
+     [33m[2m✓[22m[39m holds on the shipped game: 12,000 rounds at random bets, including 600 or so that start the feature[33m 481[2mms[22m[39m
+     [33m[2m✓[22m[39m holds on the fixture, where the board often fills[33m 2127[2mms[22m[39m
+   [32m✓[39m the exact value of the feature [2m(9)[22m
+     [33m[2m✓[22m[39m is the value the engine plays out: simulated features agree with it, and would not if a coin did not reset the respins[33m 2514[2mms[22m[39m
+ [32m✓[39m test/feature.test.ts [2m([22m[2m25 tests[22m[2m)[22m[33m 5129[2mms[22m[39m
+   [32m✓[39m a feature solved exactly [2m(2)[22m
+     [33m[2m✓[22m[39m averages what the independent calculation says, within sampling error[33m 4739[2mms[22m[39m
+ [32m✓[39m test/guard.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 39[2mms[22m[39m
+ [32m✓[39m test/audio.test.ts [2m([22m[2m99 tests[22m[2m)[22m[33m 4221[2mms[22m[39m
+   [32m✓[39m the sound set [2m(66)[22m
+     [33m[2m✓[22m[39m renders quickly enough to do at start-up[33m 689[2mms[22m[39m
+     [33m[2m✓[22m[39m is deterministic: the same sound every time[33m 3230[2mms[22m[39m
+ [32m✓[39m test/hostileInput.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 928[2mms[22m[39m
+   [32m✓[39m a hostile saved Forge [2m(2)[22m
+     [33m[2m✓[22m[39m is cleaned into a valid save, whatever was written, and an engine can run from it[33m 399[2mms[22m[39m
+ [32m✓[39m test/security.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32m✓[39m test/cascadeExact.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 9436[2mms[22m[39m
+   [32m✓[39m exact solution of a tiny game [2m(3)[22m
+     [33m[2m✓[22m[39m matches the engine's simulated average, feature and heat included[33m 3624[2mms[22m[39m
+     [33m[2m✓[22m[39m matches with the feature taken away[33m 1558[2mms[22m[39m
+   [32m✓[39m scatter probabilities [2m(3)[22m
+     [33m[2m✓[22m[39m give the trigger probability for the toy game, confirmed by simulation[33m 4248[2mms[22m[39m
+ [32m✓[39m test/wallet.test.ts [2m([22m[2m47 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m test/mint.test.ts [2m([22m[2m17 tests[22m[2m)[22m[33m 7727[2mms[22m[39m
+   [32m✓[39m Mint's return [2m(6)[22m
+     [33m[2m✓[22m[39m pays every hold and win at least three times the bet, and every other win more than the bet, over 120,000 rounds[33m 463[2mms[22m[39m
+     [33m[2m✓[22m[39m wins on about three spins in ten, and the biggest of them are a couple in a hundred[33m 1234[2mms[22m[39m
+   [32m✓[39m Mint played, against Mint worked out [2m(4)[22m
+     [33m[2m✓[22m[39m has an opening spin that matches the exact lines to within sampling error[33m 1676[2mms[22m[39m
+     [33m[2m✓[22m[39m has a feature from 6 coins worth what the exact calculation says[33m 969[2mms[22m[39m
+     [33m[2m✓[22m[39m has a feature from 8 coins worth what the exact calculation says[33m 859[2mms[22m[39m
+     [33m[2m✓[22m[39m is reported by the simulator, which exits clean only when every estimate agrees[33m 2468[2mms[22m[39m
+ [32m✓[39m test/holdPlan.test.ts [2m([22m[2m14 tests[22m[2m)[22m[33m 648[2mms[22m[39m
+   [32m✓[39m planHold on the shipped game [2m(1)[22m
+     [33m[2m✓[22m[39m agrees with every feature over thousands of rounds[33m 617[2mms[22m[39m
+ [32m✓[39m test/reelMotion.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32m✓[39m test/forgeMotion.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m test/baseGame.test.ts [2m([22m[2m10 tests[22m[2m)[22m[33m 563[2mms[22m[39m
+   [32m✓[39m the promise that no win pays less than the bet [2m(3)[22m
+     [33m[2m✓[22m[39m holds in play: across thousands of rounds, no spin, opening or free, ever returns less than its bet unless it pays nothing[33m 556[2mms[22m[39m
+ [32m✓[39m test/evaluate.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m test/cascadeMotion.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 2183[2mms[22m[39m
+   [32m✓[39m pieces falling after a removal [2m(4)[22m
+     [33m[2m✓[22m[39m never overlap, whichever cells vanish (thousands of random boards, any density)[33m 2092[2mms[22m[39m
+ [32m✓[39m test/animator.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m test/rng.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 132[2mms[22m[39m
+ [32m✓[39m test/config.test.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m test/bonusBuy.test.ts [2m([22m[2m17 tests[22m[2m)[22m[33m 14259[2mms[22m[39m
+   [32m✓[39m buying Clockwork's free spins [2m(7)[22m
+     [33m[2m✓[22m[39m costs about what it returns: close to, and a little under, the machine's own return[33m 4194[2mms[22m[39m
+     [33m[2m✓[22m[39m pays less than it cost in most buys, so a buy is a gamble and not a refund[33m 1211[2mms[22m[39m
+   [32m✓[39m buying Crucible's furnace [2m(6)[22m
+     [33m[2m✓[22m[39m costs about what it returns: close to, and a little under, the machine's own return[33m 6814[2mms[22m[39m
+     [33m[2m✓[22m[39m pays less than it cost in most buys[33m 2020[2mms[22m[39m
+ [32m✓[39m test/spin.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m test/spinPlan.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m test/forgeDescribe.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m test/catalog.test.ts [2m([22m[2m10 tests[22m[2m)[22m[33m 9330[2mms[22m[39m
+   [32m✓[39m catalog [2m(10)[22m
+     [33m[2m✓[22m[39m shows Clockwork's return as it really is: close to what the engine plays[33m 9286[2mms[22m[39m
+ [32m✓[39m test/router.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m test/launch.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m test/crucible.test.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 9123[2mms[22m[39m
+   [32m✓[39m Crucible [2m(3)[22m
+     [33m[2m✓[22m[39m returns about 95% by parts, and its simulated spins agree with the pieces[33m 8870[2mms[22m[39m
+ [32m✓[39m test/rtp.test.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 26997[2mms[22m[39m
+   [32m✓[39m classic game [2m(2)[22m
+     [33m[2m✓[22m[39m returns about 96% in all: an exact opening spin plus a simulated feature[33m 7385[2mms[22m[39m
+     [33m[2m✓[22m[39m plays end to end to what the exact opening spin and the by-parts feature predict[33m 19607[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m30 passed[39m[22m[90m (30)[39m
+[2m      Tests [22m [1m[32m666 passed[39m[22m[90m (666)[39m
+[2m   Start at [22m 10:29:28
+[2m   Duration [22m 46.72s[2m (tests 96%, import 3%, transform 1%)[22m
+

@@ -1,0 +1,9 @@
+
+> taxi-rank@2.1.0 pretest
+> npm run build
+
+
+> taxi-rank@2.1.0 build
+> rimraf lib && tsc
+
+sh: 1: rimraf: not found

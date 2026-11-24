@@ -1,0 +1,93 @@
+{
+  "repo_id": "H13",
+  "group": "human",
+  "full_name": "microsoft/clarity-js",
+  "stars": "220",
+  "created_at": "2017-05-01",
+  "pin": "9ff9e12c06897ec93fd32ba7335bf36757a84b18",
+  "fetch": {
+    "sha": "9ff9e12c06897ec93fd32ba7335bf36757a84b18",
+    "commit_date": "2020-01-09T15:44:13-08:00",
+    "first_commit_date": "2017-05-01T11:52:39-07:00",
+    "commits_to_pin": 211,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 45,
+    "test_files": 28,
+    "skipped": 0,
+    "pm": "yarn",
+    "lockfile": "yarn.lock"
+  },
+  "loc": {
+    "prod": {
+      "files": 45,
+      "lines": 3929,
+      "code": 3117,
+      "comment": 303,
+      "blank": 510
+    },
+    "test": {
+      "files": 28,
+      "lines": 2442,
+      "code": 1949,
+      "comment": 107,
+      "blank": 391
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack yarn install --frozen-lockfile --ignore-engines --network-timeout 600000",
+        "exit": 0,
+        "seconds": 20.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.5.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 2.12
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 77
+  },
+  "test": {
+    "cmd": "corepack yarn test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 6.3
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "14",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "yarn install --frozen-lockfile --ignore-engines",
+    "passed": false,
+    "exit": 1,
+    "seconds": 5.7
+  }
+}

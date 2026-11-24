@@ -1,0 +1,124 @@
+{
+  "repo_id": "L31",
+  "group": "llm",
+  "full_name": "przemekrudzki/Perch",
+  "stars": "0",
+  "created_at": "2026-04-23",
+  "pin": "HEAD",
+  "fetch": {
+    "sha": "77ba1586c4bad0c31218e72eea464f0826c745ec",
+    "commit_date": "2026-11-19T11:43:24-06:00",
+    "first_commit_date": "2026-04-23T09:35:55-06:00",
+    "commits_to_pin": 104,
+    "ai_commits_to_pin": 102,
+    "ai_commit_share": 0.9808,
+    "ai_agents": [
+      "claude-code",
+      "codex"
+    ]
+  },
+  "inventory": {
+    "prod_files": 57,
+    "test_files": 13,
+    "skipped": 1,
+    "pm": "npm",
+    "lockfile": "bun.lock"
+  },
+  "loc": {
+    "prod": {
+      "files": 57,
+      "lines": 12344,
+      "code": 10895,
+      "comment": 757,
+      "blank": 696
+    },
+    "test": {
+      "files": 13,
+      "lines": 2433,
+      "code": 2205,
+      "comment": 49,
+      "blank": 184
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 0,
+        "seconds": 15.7
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.app.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 3.855
+      },
+      {
+        "tsconfig": "tsconfig.node.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 0.711
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 72
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 2.2
+  },
+  "mutation": {
+    "sample_files": [
+      "src/hooks/usePipeline.ts",
+      "src/hooks/useRerunPipeline.ts",
+      "src/store.ts",
+      "src/components/PRRow.tsx"
+    ],
+    "sample_lines": 687,
+    "framework_versions": {
+      "vitest": "2.1.9",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": null,
+    "status": "timeout",
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 1,
+        "seconds": 3.03,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 143,
+        "seconds": 1225.873,
+        "timed_out": true
+      }
+    ]
+  }
+}

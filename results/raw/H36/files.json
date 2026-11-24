@@ -1,0 +1,1 @@
+{"prod": ["src/Channel.ts", "src/IRosGenericResponse.ts", "src/IRosOptions.ts", "src/RStream.ts", "src/RosException.ts", "src/RouterOSAPI.ts", "src/connector/Connector.ts", "src/connector/Receiver.ts", "src/connector/Transmitter.ts", "src/index.ts", "src/messages.ts", "src/utils.ts"], "test": [], "skipped": 0, "pm": "npm", "lockfile": "", "yarn_berry": false}

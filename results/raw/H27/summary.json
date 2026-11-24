@@ -1,0 +1,120 @@
+{
+  "repo_id": "H27",
+  "group": "human",
+  "full_name": "vue-styleguidist/vue-docgen-api",
+  "stars": "105",
+  "created_at": "2017-06-11",
+  "pin": "96503d5d37ca8dd61a224cb23e937cad4e47f2f9",
+  "fetch": {
+    "sha": "96503d5d37ca8dd61a224cb23e937cad4e47f2f9",
+    "commit_date": "2019-03-06T16:43:50-06:00",
+    "first_commit_date": "2017-06-10T20:25:06-05:00",
+    "commits_to_pin": 195,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 39,
+    "test_files": 42,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 39,
+      "lines": 2672,
+      "code": 2172,
+      "comment": 167,
+      "blank": 334
+    },
+    "test": {
+      "files": 42,
+      "lines": 3206,
+      "code": 2745,
+      "comment": 24,
+      "blank": 437
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 13.9
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.2.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 7,
+        "seconds": 4.762
+      }
+    ],
+    "errors_total": 7,
+    "errors_in_project_files": 7,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2564": 4,
+      "TS7008": 1,
+      "TS1329": 2
+    },
+    "files_with_errors": 1,
+    "timed_out": false,
+    "project_files_checked": 84
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 34.2
+  },
+  "mutation": {
+    "sample_files": [
+      "src/template-handlers/slotHandler.ts",
+      "src/utils/resolveImmediatelyExported.ts",
+      "src/utils/resolveExportedComponent.ts",
+      "src/template-handlers/propHandler.ts",
+      "src/script-handlers/slotHandler.ts"
+    ],
+    "sample_lines": 481,
+    "framework_versions": {
+      "vitest": null,
+      "jest": "24.1.0",
+      "mocha": null
+    },
+    "runner": null,
+    "status": "failed",
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 16.068,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "sample",
+        "cov": "off",
+        "exit": 1,
+        "seconds": 15.233,
+        "timed_out": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+
+> dialed-kitchen@0.1.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.1.0 [39m[90m/work[39m
+
+ [32m✓[39m db/tests/weekShopping.test.ts [2m([22m[2m11 tests[22m[2m)[22m[33m 25448[2mms[22m[39m
+   [32m✓[39m week_shopping [2m(8)[22m
+     [33m[2m✓[22m[39m scales each recipe to the servings planned[33m 3718[2mms[22m[39m
+     [33m[2m✓[22m[39m combines the same ingredient across meals, converting units of the same kind[33m 2083[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps amounts that can't be converted apart, never guessing[33m 2086[2mms[22m[39m
+     [33m[2m✓[22m[39m only counts the chosen week[33m 2123[2mms[22m[39m
+     [33m[2m✓[22m[39m marks what's In stock or already on the list[33m 2195[2mms[22m[39m
+     [33m[2m✓[22m[39m estimates cost from the best price, only when the units convert[33m 2200[2mms[22m[39m
+     [33m[2m✓[22m[39m says where each ingredient is used, in week and meal order[33m 2034[2mms[22m[39m
+     [33m[2m✓[22m[39m shows other households nothing[33m 1999[2mms[22m[39m
+   [32m✓[39m add_week_to_list [2m(3)[22m
+     [33m[2m✓[22m[39m adds what's needed once, from the meal plan, skipping In stock and what's on the list[33m 2703[2mms[22m[39m
+     [33m[2m✓[22m[39m can't add to another household's list[33m 2344[2mms[22m[39m
+     [33m[2m✓[22m[39m is closed to signed-out visitors[33m 1959[2mms[22m[39m
+ [32m✓[39m db/tests/prices.test.ts [2m([22m[2m20 tests[22m[2m)[22m[33m 45596[2mms[22m[39m
+   [32m✓[39m units in SQL match lib/units.ts [2m(1)[22m
+     [33m[2m✓[22m[39m has the same units, dimensions and conversion factors[33m 3521[2mms[22m[39m
+   [32m✓[39m shared between partners, private from everyone else [2m(6)[22m
+     [33m[2m✓[22m[39m lets both partners see and add to the same prices[33m 2167[2mms[22m[39m
+     [33m[2m✓[22m[39m hides one household's data from another[33m 2166[2mms[22m[39m
+     [33m[2m✓[22m[39m won't let anyone write into another household or forge who entered a price[33m 2048[2mms[22m[39m
+     [33m[2m✓[22m[39m won't let a price point at another household's item or store[33m 2072[2mms[22m[39m
+     [33m[2m✓[22m[39m gives signed-out visitors nothing[33m 2325[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps the data with the household creator when a partnership ends[33m 2037[2mms[22m[39m
+   [32m✓[39m unit prices and the best price [2m(3)[22m
+     [33m[2m✓[22m[39m computes each price's unit price in the database, matching lib/units[33m 2061[2mms[22m[39m
+     [33m[2m✓[22m[39m finds the best price by unit price, across package sizes and units[33m 2698[2mms[22m[39m
+     [33m[2m✓[22m[39m prefers the most recent of two equal best prices[33m 2412[2mms[22m[39m
+   [32m✓[39m keeping the data sensible [2m(6)[22m
+     [33m[2m✓[22m[39m rejects a package unit that doesn't fit the item (no pounds of milk)[33m 1924[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects an item whose display unit doesn't match its kind[33m 2250[2mms[22m[39m
+     [33m[2m✓[22m[39m won't switch an item between weight and volume once it has prices[33m 2064[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects zero, negative and absurd prices and quantities[33m 1909[2mms[22m[39m
+     [33m[2m✓[22m[39m treats item names as the same regardless of capitals[33m 2339[2mms[22m[39m
+     [33m[2m✓[22m[39m removes an item's prices along with the item[33m 2584[2mms[22m[39m
+   [32m✓[39m the fixed list of stores [2m(4)[22m
+     [33m[2m✓[22m[39m gives every household exactly the six stores, in order[33m 2570[2mms[22m[39m
+     [33m[2m✓[22m[39m gives a partner who leaves their own six stores[33m 2557[2mms[22m[39m
+     [33m[2m✓[22m[39m won't let the app add, rename or delete stores[33m 2084[2mms[22m[39m
+     [33m[2m✓[22m[39m won't allow any other store, even for an admin[33m 1801[2mms[22m[39m
+ [32m✓[39m db/tests/households.test.ts [2m([22m[2m22 tests[22m[2m)[22m[33m 51417[2mms[22m[39m
+   [32m✓[39m every user has exactly one household [2m(2)[22m
+     [33m[2m✓[22m[39m creates a household of one at sign-up[33m 3687[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses a second membership for the same person, even for an admin[33m 2032[2mms[22m[39m
+   [32m✓[39m privacy (row-level security) [2m(4)[22m
+     [33m[2m✓[22m[39m shows people only their own household[33m 2124[2mms[22m[39m
+     [33m[2m✓[22m[39m shows signed-out visitors nothing[33m 2103[2mms[22m[39m
+     [33m[2m✓[22m[39m never lets the app write to the tables directly[33m 2036[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps the internal helpers private[33m 2282[2mms[22m[39m
+   [32m✓[39m inviting your spouse [2m(9)[22m
+     [33m[2m✓[22m[39m joins the two of you into one shared household[33m 1963[2mms[22m[39m
+     [33m[2m✓[22m[39m only works for the invited email[33m 1883[2mms[22m[39m
+     [33m[2m✓[22m[39m matches the email regardless of capitals or spaces[33m 2934[2mms[22m[39m
+     [33m[2m✓[22m[39m can be used only once[33m 2346[2mms[22m[39m
+     [33m[2m✓[22m[39m expires after 7 days[33m 1944[2mms[22m[39m
+     [33m[2m✓[22m[39m can be cancelled[33m 2150[2mms[22m[39m
+     [33m[2m✓[22m[39m can't be cancelled by someone outside the household[33m 2022[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps only one open invite: a new one cancels the old[33m 1881[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses inviting yourself, bad emails and bad token hashes[33m 2400[2mms[22m[39m
+   [32m✓[39m only two people, one partnership [2m(3)[22m
+     [33m[2m✓[22m[39m won't let you invite anyone once you have a partner[33m 2543[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses a third member even if an admin tries[33m 2472[2mms[22m[39m
+     [33m[2m✓[22m[39m won't let someone who already has a partner accept another invite[33m 2604[2mms[22m[39m
+   [32m✓[39m ending the partnership [2m(3)[22m
+     [33m[2m✓[22m[39m keeps the household with its creator and gives the other partner a fresh one[33m 2149[2mms[22m[39m
+     [33m[2m✓[22m[39m works the same when the creator ends it[33m 1921[2mms[22m[39m
+     [33m[2m✓[22m[39m fails politely without a partner[33m 2194[2mms[22m[39m
+   [32m✓[39m migrating an existing project [2m(1)[22m
+     [33m[2m✓[22m[39m gives users who signed up before the migration a household[33m 3739[2mms[22m[39m
+ [32m✓[39m db/tests/foodLog.test.ts [2m([22m[2m17 tests[22m[2m)[22m[33m 38531[2mms[22m[39m
+   [32m✓[39m log_planned_meal [2m(7)[22m
+     [33m[2m✓[22m[39m copies the recipe's numbers, scaled to the portion[33m 2891[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps unknown numbers unknown, never zero[33m 2079[2mms[22m[39m
+     [33m[2m✓[22m[39m logs a meal once per person: tapping again just changes the portion[33m 2327[2mms[22m[39m
+     [33m[2m✓[22m[39m remembers each person's usual portion[33m 2670[2mms[22m[39m
+     [33m[2m✓[22m[39m is a snapshot: editing the recipe later doesn't rewrite the log[33m 2665[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses someone else's planned meal and silly portions[33m 2723[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses signed-out callers[33m 2112[2mms[22m[39m
+   [32m✓[39m the food log is private [2m(3)[22m
+     [33m[2m✓[22m[39m each partner sees only their own log, even in a shared household[33m 1934[2mms[22m[39m
+     [33m[2m✓[22m[39m only the owner can delete an entry, and nobody can write directly[33m 2287[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps the history when the planned meal or recipe is deleted[33m 2048[2mms[22m[39m
+   [32m✓[39m log_day_as_planned [2m(1)[22m
+     [33m[2m✓[22m[39m logs every unlogged meal of the day at the usual portion, and only once[33m 1971[2mms[22m[39m
+   [32m✓[39m log_quick [2m(3)[22m
+     [33m[2m✓[22m[39m logs something that isn't a recipe[33m 2495[2mms[22m[39m
+     [33m[2m✓[22m[39m needs a name and calories in range[33m 2082[2mms[22m[39m
+     [33m[2m✓[22m[39m stops a runaway button at 60 a day[33m 1776[2mms[22m[39m
+   [32m✓[39m goals [2m(2)[22m
+     [33m[2m✓[22m[39m sets and replaces your own goal, which only you can see[33m 1985[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses unrealistic goals and direct writes[33m 2079[2mms[22m[39m
+   [32m✓[39m the demo reset [2m(1)[22m
+     [33m[2m✓[22m[39m clears the demo account's food log and goal[33m 2400[2mms[22m[39m
+ [32m✓[39m db/tests/recipes.test.ts [2m([22m[2m9 tests[22m[2m)[22m[33m 20214[2mms[22m[39m
+   [32m✓[39m saving recipes [2m(6)[22m
+     [33m[2m✓[22m[39m saves a recipe with its ingredients in order, shared with the partner[33m 3297[2mms[22m[39m
+     [33m[2m✓[22m[39m replaces the ingredients when a recipe is edited[33m 1922[2mms[22m[39m
+     [33m[2m✓[22m[39m saves nothing at all when any part is invalid[33m 1995[2mms[22m[39m
+     [33m[2m✓[22m[39m hides recipes from other households, and won't let them edit or link into yours[33m 2178[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects bad titles, servings, URLs and blank steps[33m 2083[2mms[22m[39m
+     [33m[2m✓[22m[39m lets either partner star a favorite[33m 2254[2mms[22m[39m
+   [32m✓[39m adding a recipe to the grocery list [2m(3)[22m
+     [33m[2m✓[22m[39m adds every ingredient, linked ones by their price-book name, and skips ones already on the list[33m 2609[2mms[22m[39m
+     [33m[2m✓[22m[39m adds an ingredient the recipe names twice only once[33m 1903[2mms[22m[39m
+     [33m[2m✓[22m[39m won't add another household's recipe[33m 1967[2mms[22m[39m
+ [32m✓[39m db/tests/waitlistInvites.test.ts [2m([22m[2m16 tests[22m[2m)[22m[33m 37589[2mms[22m[39m
+   [32m✓[39m the sign-up gate [2m(9)[22m
+     [33m[2m✓[22m[39m refuses a new account with no invite code[33m 2744[2mms[22m[39m
+     [33m[2m✓[22m[39m lets the admin and the demo account sign up without one[33m 3937[2mms[22m[39m
+     [33m[2m✓[22m[39m lets only Google make the admin's account (no password account with that email)[33m 4312[2mms[22m[39m
+     [33m[2m✓[22m[39m waitlist → approve → redeem → sign up, and the code is then used up[33m 1904[2mms[22m[39m
+     [33m[2m✓[22m[39m only works for the email it was made for[33m 2063[2mms[22m[39m
+     [33m[2m✓[22m[39m expires after 7 days[33m 2067[2mms[22m[39m
+     [33m[2m✓[22m[39m approving again replaces the old code[33m 2083[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps only the code's hash[33m 2396[2mms[22m[39m
+     [33m[2m✓[22m[39m never promises more than 25 places (accounts + open codes)[33m 2043[2mms[22m[39m
+   [32m✓[39m the waitlist [2m(4)[22m
+     [33m[2m✓[22m[39m anyone signed out can join; the same email twice is quietly ignored[33m 1924[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses bad input[33m 2060[2mms[22m[39m
+     [33m[2m✓[22m[39m is hidden from everyone but the admin[33m 2426[2mms[22m[39m
+     [33m[2m✓[22m[39m can't be written to directly, even by the admin[33m 1828[2mms[22m[39m
+   [32m✓[39m admin only [2m(3)[22m
+     [33m[2m✓[22m[39m only the admin can approve, see the overview or decline[33m 1854[2mms[22m[39m
+     [33m[2m✓[22m[39m knows who the admin is[33m 2063[2mms[22m[39m
+     [33m[2m✓[22m[39m shows places used and left[33m 1877[2mms[22m[39m
+ [32m✓[39m db/tests/fasterPlanning.test.ts [2m([22m[2m9 tests[22m[2m)[22m[33m 19662[2mms[22m[39m
+   [32m✓[39m plan_leftovers [2m(4)[22m
+     [33m[2m✓[22m[39m plans the same recipe later, linked back to the meal[33m 2964[2mms[22m[39m
+     [33m[2m✓[22m[39m only within the week after the meal, and only your household's meals[33m 2132[2mms[22m[39m
+     [33m[2m✓[22m[39m stay planned as an ordinary meal when the original is removed[33m 2171[2mms[22m[39m
+     [33m[2m✓[22m[39m can't link to another household's meal by hand[33m 2412[2mms[22m[39m
+   [32m✓[39m copy_plan_week [2m(3)[22m
+     [33m[2m✓[22m[39m copies the week day for day, with leftovers pointing at the new meals[33m 2155[2mms[22m[39m
+     [33m[2m✓[22m[39m is safe to tap twice: what's already planned is skipped[33m 1871[2mms[22m[39m
+     [33m[2m✓[22m[39m works from any day, whole weeks apart, and copies nothing for strangers[33m 1872[2mms[22m[39m
+   [32m✓[39m weekly budget [2m(2)[22m
+     [33m[2m✓[22m[39m is shared by the couple and can be cleared[33m 2163[2mms[22m[39m
+     [33m[2m✓[22m[39m must be a sensible amount, and can't be written directly[33m 1916[2mms[22m[39m
+ [32m✓[39m db/tests/groceryList.test.ts [2m([22m[2m8 tests[22m[2m)[22m[33m 18265[2mms[22m[39m
+   [32m✓[39m the shared list [2m(7)[22m
+     [33m[2m✓[22m[39m is shared by both partners and hidden from everyone else[33m 3040[2mms[22m[39m
+     [33m[2m✓[22m[39m stamps the time when something is checked off, and clears it when unchecked[33m 2089[2mms[22m[39m
+     [33m[2m✓[22m[39m won't let the app set the household, author or check time itself[33m 1915[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps a price-book item on the list only once, ticked or not (decision 0038)[33m 2264[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps an entry as plain text if its price-book item is deleted[33m 1959[2mms[22m[39m
+     [33m[2m✓[22m[39m won't link to another household's item[33m 2379[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects nonsense amounts and names[33m 2300[2mms[22m[39m
+   [32m✓[39m last price at each store [2m(1)[22m
+     [33m[2m✓[22m[39m returns the most recent price per item and store[33m 2314[2mms[22m[39m
+ [32m✓[39m lib/recipeImport.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32m✓[39m db/tests/smarterShopping.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 15048[2mms[22m[39m
+   [32m✓[39m item_cheapest_now [2m(2)[22m
+     [33m[2m✓[22m[39m uses each store's latest price, so an old sale no longer wins[33m 3171[2mms[22m[39m
+     [33m[2m✓[22m[39m is only the household's own[33m 2072[2mms[22m[39m
+   [32m✓[39m week_shopping costs the week at today's cheapest price [2m(1)[22m
+     [33m[2m✓[22m[39m estimates with the cheapest latest price, not the best ever[33m 2252[2mms[22m[39m
+   [32m✓[39m restock [2m(4)[22m
+     [33m[2m✓[22m[39m puts what was bought In stock and takes it off the list[33m 2123[2mms[22m[39m
+     [33m[2m✓[22m[39m is harmless to repeat and ignores blanks[33m 1791[2mms[22m[39m
+     [33m[2m✓[22m[39m touches only the caller's household[33m 1986[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses an oversized batch and signed-out callers[33m 1651[2mms[22m[39m
+ [32m✓[39m db/tests/listOneEntryPerName.test.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 8623[2mms[22m[39m
+   [32m✓[39m one entry per name [2m(3)[22m
+     [33m[2m✓[22m[39m refuses the same thing again, whatever the capitals or details after a comma[33m 2980[2mms[22m[39m
+     [33m[2m✓[22m[39m still allows different things, and the same thing in another household[33m 2004[2mms[22m[39m
+     [33m[2m✓[22m[39m lets a recipe add only what isn't on the list yet[33m 1886[2mms[22m[39m
+   [32m✓[39m the migration [2m(1)[22m
+     [33m[2m✓[22m[39m merges duplicates (keeping the linked one, else the oldest) and un-ticks old kart entries[33m 1749[2mms[22m[39m
+ [32m✓[39m db/tests/inStock.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 15329[2mms[22m[39m
+   [32m✓[39m matching names [2m(1)[22m
+     [33m[2m✓[22m[39m uses the same rule in SQL as lib/ingredients[33m 3144[2mms[22m[39m
+   [32m✓[39m marking In stock [2m(4)[22m
+     [33m[2m✓[22m[39m records it once for the household and takes it off the list[33m 2281[2mms[22m[39m
+     [33m[2m✓[22m[39m can be undone when something is used up[33m 2010[2mms[22m[39m
+     [33m[2m✓[22m[39m is private to the household[33m 2262[2mms[22m[39m
+     [33m[2m✓[22m[39m won't let the app set the key or the household itself[33m 1947[2mms[22m[39m
+   [32m✓[39m after shopping [2m(1)[22m
+     [33m[2m✓[22m[39m clearing bought items puts them In stock and leaves the rest on the list[33m 1859[2mms[22m[39m
+   [32m✓[39m recipes add only what's needed [2m(1)[22m
+     [33m[2m✓[22m[39m skips ingredients that are In stock[33m 1822[2mms[22m[39m
+ [32m✓[39m lib/receipt.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m db/tests/receiptAliases.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 14361[2mms[22m[39m
+   [32m✓[39m receipt aliases [2m(6)[22m
+     [33m[2m✓[22m[39m are shared by both partners[33m 3582[2mms[22m[39m
+     [33m[2m✓[22m[39m are replaced, not duplicated, when a line is matched again[33m 2104[2mms[22m[39m
+     [33m[2m✓[22m[39m are invisible to another household, which can't point at your items[33m 2100[2mms[22m[39m
+     [33m[2m✓[22m[39m only store the canonical form: capitals, single spaces, trimmed[33m 2296[2mms[22m[39m
+     [33m[2m✓[22m[39m are forgotten with their item[33m 2126[2mms[22m[39m
+     [33m[2m✓[22m[39m can't have their household or date set by the app[33m 2149[2mms[22m[39m
+ [32m✓[39m lib/ingredients.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 13[2mms[22m[39m
+ [32m✓[39m db/tests/demoAccount.test.ts [2m([22m[2m7 tests[22m[2m)[22m[33m 16265[2mms[22m[39m
+   [32m✓[39m who can create accounts [2m(1)[22m
+     [33m[2m✓[22m[39m refuses password (or any non-Google) accounts, except the demo[33m 3194[2mms[22m[39m
+   [32m✓[39m demo sample data [2m(4)[22m
+     [33m[2m✓[22m[39m fills the demo household on the first sign-in of the day, once[33m 2483[2mms[22m[39m
+     [33m[2m✓[22m[39m links ingredients to the price book, so the week has a cost[33m 2110[2mms[22m[39m
+     [33m[2m✓[22m[39m puts everything back after a day, whatever visitors changed[33m 2112[2mms[22m[39m
+     [33m[2m✓[22m[39m never touches anyone else, and does nothing when they call it[33m 2472[2mms[22m[39m
+   [32m✓[39m demo guard rails [2m(2)[22m
+     [33m[2m✓[22m[39m can't send partner invites[33m 2157[2mms[22m[39m
+     [33m[2m✓[22m[39m gets a small shared AI allowance; real users keep theirs[33m 1734[2mms[22m[39m
+ [32m✓[39m lib/ai/receiptFromImage.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m lib/units.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m lib/priceTrends.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m db/tests/itemPhotos.test.ts [2m([22m[2m9 tests[22m[2m)[22m[33m 20429[2mms[22m[39m
+   [32m✓[39m item photos [2m(9)[22m
+     [33m[2m✓[22m[39m can be added by either partner and seen by both[33m 3621[2mms[22m[39m
+     [33m[2m✓[22m[39m are invisible to another household[33m 2069[2mms[22m[39m
+     [33m[2m✓[22m[39m can't be attached to another household's item[33m 2102[2mms[22m[39m
+     [33m[2m✓[22m[39m gets a new updated_at when replaced[33m 1983[2mms[22m[39m
+     [33m[2m✓[22m[39m go away with their item[33m 2148[2mms[22m[39m
+     [33m[2m✓[22m[39m refuse anything that isn't a JPEG[33m 2205[2mms[22m[39m
+     [33m[2m✓[22m[39m refuse photos over 100 KB[33m 1769[2mms[22m[39m
+     [33m[2m✓[22m[39m can't have their item changed (the app replaces a photo by updating only photo)[33m 2092[2mms[22m[39m
+     [33m[2m✓[22m[39m can't have their household or date set by the app[33m 2435[2mms[22m[39m
+ [32m✓[39m lib/ai/recipeFromImage.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m db/tests/recipeNutrition.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 14659[2mms[22m[39m
+   [32m✓[39m recipe nutrition [2m(6)[22m
+     [33m[2m✓[22m[39m saves with the recipe and is shared with the partner[33m 3292[2mms[22m[39m
+     [33m[2m✓[22m[39m is optional, value by value[33m 2118[2mms[22m[39m
+     [33m[2m✓[22m[39m is replaced (or cleared) on edit[33m 2736[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses impossible values, and then saves nothing at all[33m 2273[2mms[22m[39m
+     [33m[2m✓[22m[39m can't touch another household's recipe[33m 2069[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps the older 8-argument save working (during a deploy)[33m 2169[2mms[22m[39m
+ [32m✓[39m features/prices/schema.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m lib/pricing.test.ts [2m([22m[2m12 tests[22m[2m)[22m[32m 11[2mms[22m[39m
+ [32m✓[39m lib/security/webhookSignature.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 95[2mms[22m[39m
+ [32m✓[39m db/tests/mealPlan.test.ts [2m([22m[2m8 tests[22m[2m)[22m[33m 18546[2mms[22m[39m
+   [32m✓[39m meal_plan_entries [2m(8)[22m
+     [33m[2m✓[22m[39m is shared by the couple[33m 2919[2mms[22m[39m
+     [33m[2m✓[22m[39m is invisible and untouchable to anyone else[33m 2382[2mms[22m[39m
+     [33m[2m✓[22m[39m can't point at someone else's recipe[33m 2432[2mms[22m[39m
+     [33m[2m✓[22m[39m allows only the four meals, sensible servings and dates[33m 2408[2mms[22m[39m
+     [33m[2m✓[22m[39m leaves the plan when the recipe is deleted[33m 2067[2mms[22m[39m
+     [33m[2m✓[22m[39m can't be moved to another household or forged[33m 2181[2mms[22m[39m
+     [33m[2m✓[22m[39m stops runaway inserts on one day[33m 1986[2mms[22m[39m
+     [33m[2m✓[22m[39m is closed to signed-out visitors[33m 2161[2mms[22m[39m
+ [32m✓[39m lib/plan.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32m✓[39m lib/weekCost.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m db/tests/accountLimit.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 14442[2mms[22m[39m
+   [32m✓[39m account limit [2m(6)[22m
+     [33m[2m✓[22m[39m allows the 25th account, then refuses the 26th[33m 3361[2mms[22m[39m
+     [33m[2m✓[22m[39m still gives every allowed account its own household[33m 2376[2mms[22m[39m
+     [33m[2m✓[22m[39m frees a place when an account is deleted[33m 2196[2mms[22m[39m
+     [33m[2m✓[22m[39m only answers yes or no, and users can't run or replace the gate[33m 2172[2mms[22m[39m
+     [33m[2m✓[22m[39m lets the sign-up gate's login run the two sign-up functions and nothing else[33m 1932[2mms[22m[39m
+     [33m[2m✓[22m[39m finishing a sign-up twice changes nothing[33m 2400[2mms[22m[39m
+ [32m✓[39m lib/security/csp.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32m✓[39m lib/contrast.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m lib/foodEmoji.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m lib/nutrition.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32m✓[39m lib/device.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m lib/ai/priceEstimate.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m db/tests/priceEstimates.test.ts [2m([22m[2m4 tests[22m[2m)[22m[33m 9463[2mms[22m[39m
+   [32m✓[39m price_estimates [2m(4)[22m
+     [33m[2m✓[22m[39m are shared by the couple and hidden from everyone else[33m 2712[2mms[22m[39m
+     [33m[2m✓[22m[39m are updated in place, one per ingredient and measure[33m 2203[2mms[22m[39m
+     [33m[2m✓[22m[39m refuse odd keys, measures and prices[33m 2287[2mms[22m[39m
+     [33m[2m✓[22m[39m can't be written into another household[33m 2259[2mms[22m[39m
+ [32m✓[39m lib/foodCategory.test.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m db/tests/recipeMeals.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 14696[2mms[22m[39m
+   [32m✓[39m recipe meals [2m(6)[22m
+     [33m[2m✓[22m[39m saves in meal order, each once, shared with the partner[33m 2820[2mms[22m[39m
+     [33m[2m✓[22m[39m can be changed or cleared on edit[33m 2285[2mms[22m[39m
+     [33m[2m✓[22m[39m starts empty (not sorted yet) for recipes saved the older ways[33m 2255[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses anything but the four meals, and then saves nothing[33m 2237[2mms[22m[39m
+     [33m[2m✓[22m[39m is checked by the table too[33m 2276[2mms[22m[39m
+     [33m[2m✓[22m[39m can't touch another household's recipe[33m 2822[2mms[22m[39m
+ [32m✓[39m lib/shopTrip.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m lib/packageSize.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 16[2mms[22m[39m
+ [32m✓[39m lib/foodLog.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m lib/list.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 33[2mms[22m[39m
+ [32m✓[39m features/food-log/schema.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32m✓[39m db/tests/safeUpdates.test.ts [2m([22m[2m2 tests[22m[2m)[22m[33m 4445[2mms[22m[39m
+   [32m✓[39m safe updates [2m(2)[22m
+     [33m[2m✓[22m[39m no database function updates or deletes without a WHERE clause[33m 4438[2mms[22m[39m
+ [2m[90m↓[39m[22m lib/server/safeFetch.network.test.ts [2m([22m[2m5 tests[22m[2m | [22m[33m5 skipped[39m[2m)[22m
+ [32m✓[39m lib/ai/nutritionEstimate.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32m✓[39m lib/server/env.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 33[2mms[22m[39m
+ [32m✓[39m lib/photos.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+ [32m✓[39m lib/security/publicAddress.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 33[2mms[22m[39m
+ [2m[90m↓[39m[22m lib/server/gemini.network.test.ts [2m([22m[2m1 test[22m[2m | [22m[33m1 skipped[39m[2m)[22m
+ [32m✓[39m lib/invites.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32m✓[39m lib/appIcon.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m db/tests/itemEmoji.test.ts [2m([22m[2m8 tests[22m[2m)[22m[33m 21737[2mms[22m[39m
+   [32m✓[39m item emoji [2m(8)[22m
+     [33m[2m✓[22m[39m starts empty (the automatic emoji is used)[33m 2768[2mms[22m[39m
+     [33m[2m✓[22m[39m can be set and cleared by either partner[33m 2246[2mms[22m[39m
+     [33m[2m✓[22m[39m can't be changed by another household[33m 2322[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses ""[33m 2262[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses "hello"[33m 2983[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses "🧻 x"[33m 3304[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses "<b>"[33m 3404[2mms[22m[39m
+     [33m[2m✓[22m[39m refuses "🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻🧻"[33m 2446[2mms[22m[39m
+ [32m✓[39m lib/signupCodes.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+ [32m✓[39m db/tests/aiRequests.test.ts [2m([22m[2m6 tests[22m[2m)[22m[33m 17309[2mms[22m[39m
+   [32m✓[39m take_ai_request [2m(6)[22m
+     [33m[2m✓[22m[39m allows requests up to the limit, then refuses[33m 2962[2mms[22m[39m
+     [33m[2m✓[22m[39m counts each person separately[33m 2447[2mms[22m[39m
+     [33m[2m✓[22m[39m frees up requests older than 24 hours[33m 3245[2mms[22m[39m
+     [33m[2m✓[22m[39m can't be used by signed-out visitors, or to forge or erase requests[33m 3430[2mms[22m[39m
+     [33m[2m✓[22m[39m shows people only their own requests[33m 2870[2mms[22m[39m
+     [33m[2m✓[22m[39m rejects nonsense limits[33m 2347[2mms[22m[39m
+ [32m✓[39m features/list/schema.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m features/plan/schema.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m lib/mainStores.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m lib/security/fetchUrl.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m lib/dates.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 20[2mms[22m[39m
+ [32m✓[39m lib/ai/modelChain.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m lib/tabs.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m lib/weekShopping.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m lib/security/sameOrigin.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m lib/security/cookies.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m lib/security/returnTo.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m lib/priceBook.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m lib/actionResult.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m lib/budget.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 5[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m67 passed[39m[22m[2m | [22m[33m2 skipped[39m[90m (69)[39m
+[2m      Tests [22m [1m[32m522 passed[39m[22m[2m | [22m[33m6 skipped[39m[90m (528)[39m
+[2m   Start at [22m 09:25:16
+[2m   Duration [22m 160.09s[2m (tests 99%, import 1%)[22m
+

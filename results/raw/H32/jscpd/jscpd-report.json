@@ -1,0 +1,469 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:10:49.148Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/interfaces/index.ts": {
+            "lines": 202,
+            "tokens": 1592,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/requestParser.ts": {
+            "lines": 213,
+            "tokens": 1973,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 24,
+            "duplicatedTokens": 200,
+            "percentage": 11.27,
+            "percentageTokens": 10.14,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 25,
+            "tokens": 257,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/helpers.ts": {
+            "lines": 399,
+            "tokens": 3505,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 25,
+            "duplicatedTokens": 321,
+            "percentage": 6.27,
+            "percentageTokens": 9.16,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/fileupload.ts": {
+            "lines": 102,
+            "tokens": 941,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/decorators.ts": {
+            "lines": 76,
+            "tokens": 823,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config.ts": {
+            "lines": 97,
+            "tokens": 875,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/common.ts": {
+            "lines": 164,
+            "tokens": 1355,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/View.ts": {
+            "lines": 282,
+            "tokens": 2885,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/Server.ts": {
+            "lines": 195,
+            "tokens": 2091,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 8,
+            "duplicatedTokens": 124,
+            "percentage": 4.1,
+            "percentageTokens": 5.93,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/Router.ts": {
+            "lines": 474,
+            "tokens": 5352,
+            "sources": 1,
+            "clones": 9,
+            "duplicatedLines": 93,
+            "duplicatedTokens": 1159,
+            "percentage": 19.62,
+            "percentageTokens": 21.66,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/Route.ts": {
+            "lines": 86,
+            "tokens": 810,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/Response.ts": {
+            "lines": 77,
+            "tokens": 528,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/Request.ts": {
+            "lines": 124,
+            "tokens": 1081,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/MiddleWare.ts": {
+            "lines": 62,
+            "tokens": 497,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2578,
+          "tokens": 24565,
+          "sources": 15,
+          "clones": 7,
+          "duplicatedLines": 75,
+          "duplicatedTokens": 902,
+          "percentage": 2.91,
+          "percentageTokens": 3.67,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2578,
+      "tokens": 24565,
+      "sources": 15,
+      "clones": 7,
+      "duplicatedLines": 75,
+      "duplicatedTokens": 902,
+      "percentage": 2.91,
+      "percentageTokens": 3.67,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ".parse(comingData);\n                    }\n                    req.data = data;\n                    req.body = data;\n                } catch (err) {\n                    req.data = data;\n                    req.body = data;\n                }\n                req.files = files;\n                return MiddeWare.next(matchedRoute, req, res);\n            });\n        }\n        // method to parse json",
+      "tokens": 100,
+      "firstFile": {
+        "name": "src/requestParser.ts",
+        "start": 173,
+        "end": 185,
+        "startLoc": {
+          "line": 173,
+          "column": 36,
+          "position": 1622
+        },
+        "endLoc": {
+          "line": 185,
+          "column": 32,
+          "position": 1722
+        }
+      },
+      "secondFile": {
+        "name": "src/requestParser.ts",
+        "start": 77,
+        "end": 89,
+        "startLoc": {
+          "line": 77,
+          "column": 43,
+          "position": 632
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 44,
+          "position": 732
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ").map((route:any) => {\n      if(route instanceof Route) {\n        return route;\n      }\n      route.handler = route.handler.bind(this);\n      let parsedRoute = new Route(route, this.base);\n      let corsObject = Object.assign({}, route.cors, this.cors);\n      parsedRoute.setCors(corsObject);\n      return parsedRoute;\n    })\n    this.patchRouters",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/Router.ts",
+        "start": 255,
+        "end": 265,
+        "startLoc": {
+          "line": 255,
+          "column": 49,
+          "position": 2890
+        },
+        "endLoc": {
+          "line": 265,
+          "column": 22,
+          "position": 3010
+        }
+      },
+      "secondFile": {
+        "name": "src/Router.ts",
+        "start": 245,
+        "end": 255,
+        "startLoc": {
+          "line": 245,
+          "column": 51,
+          "position": 2759
+        },
+        "endLoc": {
+          "line": 255,
+          "column": 20,
+          "position": 2879
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ").map((route:any) => {\n      if(route instanceof Route) {\n        return route;\n      }\n      route.handler = route.handler.bind(this);\n      let parsedRoute = new Route(route, this.base);\n      let corsObject = Object.assign({}, route.cors, this.cors);\n      parsedRoute.setCors(corsObject);\n      return parsedRoute;\n    })\n    this.deleteRouters",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/Router.ts",
+        "start": 265,
+        "end": 275,
+        "startLoc": {
+          "line": 265,
+          "column": 53,
+          "position": 3021
+        },
+        "endLoc": {
+          "line": 275,
+          "column": 23,
+          "position": 3141
+        }
+      },
+      "secondFile": {
+        "name": "src/Router.ts",
+        "start": 245,
+        "end": 255,
+        "startLoc": {
+          "line": 245,
+          "column": 51,
+          "position": 2759
+        },
+        "endLoc": {
+          "line": 255,
+          "column": 20,
+          "position": 2879
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ").map((route:any) => {\n      if(route instanceof Route) {\n        return route;\n      }\n      route.handler = route.handler.bind(this);\n      let parsedRoute = new Route(route, this.base);\n      let corsObject = Object.assign({}, route.cors, this.cors);\n      parsedRoute.setCors(corsObject);\n      return parsedRoute;\n    })\n  ",
+      "tokens": 117,
+      "firstFile": {
+        "name": "src/Router.ts",
+        "start": 275,
+        "end": 285,
+        "startLoc": {
+          "line": 275,
+          "column": 55,
+          "position": 3152
+        },
+        "endLoc": {
+          "line": 285,
+          "column": 3,
+          "position": 3269
+        }
+      },
+      "secondFile": {
+        "name": "src/Router.ts",
+        "start": 245,
+        "end": 255,
+        "startLoc": {
+          "line": 245,
+          "column": 51,
+          "position": 2759
+        },
+        "endLoc": {
+          "line": 255,
+          "column": 5,
+          "position": 2876
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "\n  async serveAssets(req: Request, res: Response, next: Function) {\n    try {\n      let staticFolder = this.staticFolder;\n      if (staticFolder) {\n        let sourceFolder = path.resolve(\"/\", staticFolder.path);\n        let pathname = req.pathname.split(staticFolder.url)[1];\n        let mimeTypes: any = config",
+      "tokens": 104,
+      "firstFile": {
+        "name": "src/Router.ts",
+        "start": 404,
+        "end": 411,
+        "startLoc": {
+          "line": 404,
+          "column": 4,
+          "position": 4594
+        },
+        "endLoc": {
+          "line": 411,
+          "column": 36,
+          "position": 4698
+        }
+      },
+      "secondFile": {
+        "name": "src/helpers.ts",
+        "start": 331,
+        "end": 338,
+        "startLoc": {
+          "line": 331,
+          "column": 5,
+          "position": 2781
+        },
+        "endLoc": {
+          "line": 338,
+          "column": 35,
+          "position": 2885
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 19,
+      "fragment": ".mimeTypes\n        let dirName = path.join(\"\", `${sourceFolder}`);\n        let fileSource;\n        fileSource = path.join(staticFolder.path, pathname);\n        fileSource = fileSource.split(path.sep).join(\"/\");\n        let promisifiedState = util.promisify(fs.lstat);\n        let fileState = (await promisifiedState(fileSource));\n        if (fileState.isFile()) {\n          let fileStream = fs.createReadStream(fileSource);\n          let extName: any = path.extname(pathname);\n          let headers = {\n            \"Content-Type\": mimeTypes[extName] || 'application/octet-stream',\n            // 'Cache-Control': `public, max-age=${cacheControl || 'no-cache'}`,\n            'Content-Length': fileState.size\n          };\n          res.writeHead(200, headers);\n          return fileStream.pipe(res);\n        } else {\n          ",
+      "tokens": 217,
+      "firstFile": {
+        "name": "src/Router.ts",
+        "start": 411,
+        "end": 429,
+        "startLoc": {
+          "line": 411,
+          "column": 36,
+          "position": 4699
+        },
+        "endLoc": {
+          "line": 429,
+          "column": 11,
+          "position": 4916
+        }
+      },
+      "secondFile": {
+        "name": "src/helpers.ts",
+        "start": 338,
+        "end": 356,
+        "startLoc": {
+          "line": 338,
+          "column": 35,
+          "position": 2886
+        },
+        "endLoc": {
+          "line": 356,
+          "column": 3,
+          "position": 3103
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "// static method to serve static files\n    static(options:{url:string, path:string, absolute?:boolean, middleWares?:[]}) {\n        options.absolute = options.absolute || true;\n        let middleWares = options.middleWares || [];\n        let route =  {\n            url: `/${options.url}${options.absolute ? \"/*\": \"\"}`,\n            method: \"GET\",\n            middleWares: middleWares,\n            handler: helpers.serveAssets.bind({",
+      "tokens": 124,
+      "firstFile": {
+        "name": "src/Router.ts",
+        "start": 442,
+        "end": 450,
+        "startLoc": {
+          "line": 442,
+          "column": 3,
+          "position": 5019
+        },
+        "endLoc": {
+          "line": 450,
+          "column": 48,
+          "position": 5143
+        }
+      },
+      "secondFile": {
+        "name": "src/Server.ts",
+        "start": 179,
+        "end": 187,
+        "startLoc": {
+          "line": 179,
+          "column": 5,
+          "position": 1869
+        },
+        "endLoc": {
+          "line": 187,
+          "column": 53,
+          "position": 1993
+        }
+      }
+    }
+  ]
+}

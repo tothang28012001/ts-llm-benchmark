@@ -1,0 +1,103 @@
+{
+  "repo_id": "H22",
+  "group": "human",
+  "full_name": "FinNLP/en-inflectors",
+  "stars": "347",
+  "created_at": "2017-01-02",
+  "pin": "1fafd5dfb7ef50ebc1962c3498f5488760118d8c",
+  "fetch": {
+    "sha": "1fafd5dfb7ef50ebc1962c3498f5488760118d8c",
+    "commit_date": "2017-05-05T23:36:05+03:00",
+    "first_commit_date": "2017-01-04T04:27:59+03:00",
+    "commits_to_pin": 72,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 16,
+    "test_files": 8,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 16,
+      "lines": 2121,
+      "code": 1912,
+      "comment": 120,
+      "blank": 89
+    },
+    "test": {
+      "files": 8,
+      "lines": 589,
+      "code": 557,
+      "comment": 9,
+      "blank": 23
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 2,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 127,
+        "seconds": 1.2
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 127,
+        "seconds": 0.6
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps --ignore-scripts",
+        "exit": 0,
+        "seconds": 0.6
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 1.685
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 16
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 127,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 0.3
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "8",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 0.7
+  }
+}

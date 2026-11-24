@@ -1,0 +1,323 @@
+results\testability.csv 72
+repo_id  fanout_mean  ext_fanout_mean  direct_test_pct  test_reach_pct  n_prod_files  n_test_files
+    H01        1.692            0.538            61.64          100.00            13             7
+    H02        4.062            1.494            83.49           95.24            81            29
+    H03        2.370            1.370            57.02           65.39            46            23
+    H04        3.954            0.989            14.01           36.80            87            15
+    H05        4.410            3.467             0.00            0.00           105             0
+    H06        3.725            2.850            61.25           96.22            40            20
+    H07        3.506            2.831            27.57           28.90            89            25
+    H08        2.008            0.968            62.49           92.70           247           107
+    H09        2.082            1.767            10.08           93.72            73             8
+    H10        2.151            1.245            72.30           99.01           106            53
+    H11        2.118            0.941            32.93           41.35            34             7
+    H12        2.656            1.203             2.64           10.46           128             6
+    H13        2.133            1.200            54.23           96.67            45            28
+    H14        2.426            0.148             4.54          100.00            61             3
+    H15        2.125            1.500            65.90          100.00             8             9
+    H16        1.909            1.263             0.02            1.18           198             7
+    H17        2.541            0.871            14.64           92.27           170            29
+    H18        1.830            1.298            55.99           61.69            47            29
+    H19        4.524            0.429            37.11          100.00            21            13
+    H20        1.583            0.361            72.02           96.12            36            18
+    H21        1.000            2.667            13.89          100.00             3             2
+    H22        1.438            0.062             1.43          100.00            16             8
+    H23        1.673            0.265            51.79           88.54            49            48
+    H24        1.909            1.455             6.80            6.80            55             1
+    H25        2.177            0.873            11.11           48.67            79             8
+    H26        1.312            0.750             0.00            0.00            16             0
+    H27        2.436            1.974            86.36           98.42            39            42
+    H28        1.596            1.766            61.38           94.57            47            32
+    H29        1.529            2.647            49.80           71.16            34            13
+    H30        1.197            1.098            11.95           12.85            61            11
+    H31        1.438            3.562             0.00            0.00            16             0
+    H32        4.600            3.000             0.00            0.00            15             0
+    H33        2.412            1.029            65.89           69.35            34            13
+    H34        1.615            0.885            11.05           22.72            26             5
+    H35        1.952            1.762            16.63           19.67            21             5
+    H36        2.083            1.750             0.00            0.00            12             0
+    L01        2.375            0.125            24.94          100.00             8             2
+    L02        3.044            1.648            60.10           78.34            91            35
+    L03        1.667            0.467            70.03           72.63            15             9
+    L04        3.036            1.009            64.24           98.97           111            90
+    L05        2.566            0.949            39.47           64.98            99            63
+    L06        1.642            0.094            97.04           97.04            53           158
+    L07        2.985            0.324            87.10           94.16            68            65
+    L08        2.765            1.412            96.17           97.49            17            14
+    L09        3.167            0.500            52.56           56.26            24            12
+    L10        3.618            0.927            71.95           97.51            55            29
+    L11        3.121            1.788            16.44           48.42            33             3
+    L12        3.876            0.857            82.33           99.84           105            52
+    L13        2.038            1.613            66.84           93.34            80            76
+    L14        2.184            0.621            88.08           96.27            87            71
+    L15        1.972            0.583            62.85           71.59            36            12
+    L16        2.572            0.750            27.44           27.68           152            46
+    L17        3.026            0.231            72.34           73.36            39            20
+    L18        1.885            1.077            17.46           60.19            52            12
+    L19        2.784            0.939            26.15           26.15           148            71
+    L20        3.013            1.474            59.93           91.23            78            34
+    L21        1.812            0.062             8.67          100.00            16            13
+    L22        2.209            0.164            61.12           68.73            67            70
+    L23        1.947            0.000            26.49           92.68            19             8
+    L24        1.450            1.450            26.99           26.99            20             9
+    L25        1.250            0.250            96.51           96.51             4             4
+    L26        1.429            0.143            94.84           94.84             7             5
+    L27        2.273            1.514            23.91           29.28           319            37
+    L28        1.833            0.694             7.38           42.49            36             2
+    L29        3.288            0.990            18.94           19.04           104            24
+    L30        3.328            0.802            34.97           52.64           131            52
+    L31        2.702            0.965            17.04           20.96            57            13
+    L32        3.855            1.513            89.82          100.00            76            54
+    L33        1.824            1.191            40.83           43.52            68            16
+    L34        3.303            0.258            30.16           46.63            89            33
+    L35        2.312            0.771            46.19           50.71            96            23
+    L36        2.500            0.750            58.26           60.86             8             2
+results\agents\testability.csv 22
+repo_id  fanout_mean  ext_fanout_mean  direct_test_pct  test_reach_pct  n_prod_files  n_test_files
+    A01        3.276            1.487            16.64           53.14            76             8
+    A02        2.561            0.805            69.80           76.66           164            79
+    A03        2.423            0.577            79.17           90.79            26            29
+    A04        0.641            2.700            30.37           41.64           220            84
+    A05        1.214            1.214             8.13           11.66            14             4
+    A06        2.510            1.275            72.78           73.44            51            32
+    A07        2.836            0.793            64.93           79.33           140            72
+    A08        2.655            0.483            79.07           98.86            29            12
+    A09        0.827            3.252             8.59            9.09           139            13
+    A10        2.652            0.386            50.70           61.93           132            59
+    A11        3.171            1.543             7.22            7.22            35             3
+    A12        1.429            0.571            35.04           35.04             7             5
+    A13        1.913            0.135            62.34           65.38           126            78
+    A14        1.913            0.884            13.20           15.31            69             7
+    A15        3.898            1.096             6.12            8.34           167             7
+    A16        2.306            1.537            35.78           42.36           147            31
+    A17        1.714            0.143            39.89           52.27            14             5
+    A18        2.154            1.000            55.07           80.82            13           152
+    A19        2.100            0.600             0.00            0.00            20             0
+    A20        1.930            0.783            15.52           20.87           129            15
+    A21        1.632            1.263            38.60           38.80            19             6
+    A22        1.167            0.667            17.75           24.83            18             5
+repo_id                                      full_name  prod_kloc  lint_per_kloc  cc_mean  dup_pct  comment_density  test_to_code  install_ok  tsc_errors  tsc_errors_project
+    H01                            Lucifier129/bistate       0.53         167.29    2.153     0.00           0.0327         2.991        True           0                   0
+    H02                   ionic-team/ionic-app-scripts       8.65          88.41    2.014     0.75           0.0669         0.685        True         136                   0
+    H03                helios1138/graphql-typed-client       1.36          45.55    2.264     0.00           0.0000         0.799        True           0                   0
+    H04                                HadoukenIO/core      12.45          57.12    1.915     0.18           0.0837         0.125        True          15                  15
+    H05                   HSEIreland/covid-tracker-app      17.04          17.66    2.451     1.57           0.0018         0.000        True          50                   0
+    H06             microsoft/vscode-chrome-debug-core       6.52          40.04    2.113     0.00           0.1817         0.545        True           0                   0
+    H07                                    yuche/gouqi      11.06          30.82    1.461     4.15           0.0211         0.342       False         722                 722
+    H08                        monicahq/old_mobile_app       6.21          36.24    1.772     2.70           0.0148         1.047        True           0                   0
+    H09         tsukhu/nxplorerjs-microservice-starter       3.61          49.27    1.384    11.33           0.1203         0.096        True           0                   0
+    H10                         r-park/soundcloud-ngrx       2.48          31.91    1.377     0.88           0.0244         1.531       False           2                   0
+    H11                  hastic-zzz/hastic-grafana-app       4.25          77.63    2.090     0.00           0.0404         0.033        True           0                   0
+    H12                         samuelmeuli/mini-diary       5.99          22.38    1.464     0.00           0.1115         0.016        True           0                   0
+    H13                           microsoft/clarity-js       3.12         123.20    2.677     1.55           0.0886         0.625        True           0                   0
+    H14                              sigoden/wechatpay       2.00          48.10    1.288     0.00           0.7287         0.144        True         154                   0
+    H15                                   g-plane/rize       1.78          99.44    1.222     3.83           0.5618         1.133        True           0                   0
+    H16                  infinitered/ChainReactApp2019       5.43          40.15    1.598     0.43           0.1381         0.017        True          48                   2
+    H17                             rangle/angular-ssr       3.95          49.14    1.639     0.19           0.0557         0.323        True           0                   0
+    H18                           jhipster/ng-jhipster       1.79          44.04    2.051     0.35           0.3368         0.754        True           0                   0
+    H19                                  5anthosh/fcal       3.58          14.51    2.239     2.09           0.0945         0.491        True          40                   0
+    H20                             pilagod/js-tracker       2.25          62.19    1.371     3.07           0.0934         1.150        True           1                   0
+    H21                uport-project/uport-credentials       0.57          49.47    3.448     0.00           0.3953         1.845        True           0                   0
+    H22                           FinNLP/en-inflectors       1.91          35.04    2.183     0.33           0.0591         0.291        True           0                   0
+    H23                               labs42io/itiriri       1.14          21.97    1.727     1.43           0.3099         2.977        True           0                   0
+    H24                  m-inan/react-native-music-app       1.59          29.56    1.691     0.45           0.0346         0.004        True           3                   3
+    H25 w3tecch/express-graphql-typescript-boilerplate       1.78          39.35    1.214     2.26           0.1101         0.235        True        2521                   0
+    H26                       ForbesLindesay/taxi-rank       1.08          49.77    1.723     9.00           0.0774         0.000        True        4859                   0
+    H27                vue-styleguidist/vue-docgen-api       2.17          21.64    3.306     0.00           0.0714         1.264        True           7                   7
+    H28                             hiroppy/ssr-sample       1.28          26.52    1.600     0.00           0.0461         0.733        True           0                   0
+    H29                       JP1016/Markdown-Electron       1.40          84.94    1.504     0.00           0.0566         0.176        True           1                   0
+    H30    skellock/typescript-with-electron-react-kit       1.15          17.41    1.424     2.44           0.1367         0.143        True           0                   0
+    H31                           staltz/dat-installer       1.39          56.67    1.367     0.00           0.1829         0.000        True           0                   0
+    H32                                grandjs/grandjs       2.25         226.16    2.310     2.91           0.1012         0.000        True           2                   2
+    H33                                xbl/raml-mocker       1.04          36.57    1.746     0.00           0.0290         2.138       False          63                  63
+    H34                       dfrankland/react-amphtml       1.52         133.29    2.386     1.09           0.1297         0.246        True          10                  10
+    H35                      feredean/node-api-starter       1.21           9.08    2.231     1.04           0.0561         0.587        True           0                   0
+    H36                        aluisiora/node-routeros       1.23          24.49    1.979     0.00           0.3328         0.000        True           1                   0
+    L01                 tamaratran/fast-jev-compaction       1.07           0.94    2.859     0.00           0.0808         0.494        True           0                   0
+    L02                                    UfoMiao/zcf      11.06           6.15    2.830     0.44           0.1130         0.789        True           0                   0
+    L03                   hoquanghai/Auto-Create-Video       1.33          10.51    3.156     0.52           0.1401         0.405        True           0                   0
+    L04                              agent-era/devteam      14.02          27.97    3.554     0.54           0.0896         1.010        True           0                   0
+    L05                              mcollina/githuman      14.21           5.07    2.744     2.08           0.0782         0.700        True           0                   0
+    L06                            maksutovic/joycraft       8.53          12.90    4.885     0.89           0.1052         2.280        True           4                   4
+    L07                              prodlint/prodlint       7.16          31.58    5.715     1.77           0.1025         1.308        True           0                   0
+    L08                             Sqcows/forgejo-mcp      10.25           1.56    2.217     0.81           0.0648         0.357        True           0                   0
+    L09                           roboco-io/roboco-cli       2.40           4.59    4.076     0.28           0.0378         0.546        True           0                   0
+    L10                            menagerai/menagerai       4.75          10.53    2.840     0.08           0.1776         0.736        True           0                   0
+    L11                            andrisasuke/podlogs       3.42           4.39    2.381     2.05           0.0237         0.084        True           3                   3
+    L12                  cjy20040604-hub/eyes-training      15.23           8.99    2.469     0.55           0.0726         0.444        True           0                   0
+    L13                   aberemia24/code-executor-MCP      11.60          11.73    2.811     2.23           0.3761         1.407        True           1                   1
+    L14                             windschord/keyflow       8.94           4.25    2.348     0.44           0.2209         1.633        True           1                   1
+    L15                       OrionArchitekton/proctor       1.83           3.27    2.560     0.40           0.2003         0.568        True           1                   1
+    L16                      saltylvn/wellness-tracker       9.14           7.11    3.189     0.59           0.1228         0.411        True           0                   0
+    L17                      engelbertgm/Mise-en-place       5.30          28.87    3.018     0.00           0.0643         0.543        True           0                   0
+    L18               MatthewRSouth/book-money-tracker       3.87           2.84    2.077     2.33           0.0135         0.166        True           0                   0
+    L19                        saltylvn/dialed-kitchen      10.12           5.43    2.697     0.20           0.0913         0.515        True          17                  17
+    L20                       jitangupta/content-board       6.92           0.00    1.945     2.45           0.0080         0.661        True           0                   0
+    L21                                 swinzy/vibelib       0.92           6.55    2.141     0.00           0.2379         0.810        True           0                   0
+    L22        Mustafa-Hisham1/AI-QA-Engineering-Agent       8.85          14.91    3.399     0.57           0.2432         0.643        True           0                   0
+    L23                  pisan-labs/code-analogy-forge       5.16           3.49    2.703     0.00           0.0132         0.108        True           0                   0
+    L24             mrballistic/pi-day-birthday-finder       1.31           9.13    2.300     0.00           0.1388         0.488        True           0                   0
+    L25                        pisan-labs/emoji-lingua       0.32           9.49    4.679     0.00           0.1528         1.051        True           0                   0
+    L26                         pisan-labs/mult-streak       0.54           0.00    2.963     0.00           0.1690         1.261        True           0                   0
+    L27                       ohdaveed/candera-payload      32.92           3.98    2.623     5.63           0.0566         0.094        True           0                   0
+    L28               GabrielAustinHenton/AutoTradeApp       7.39          17.46    2.893     0.91           0.1184         0.027        True          77                  77
+    L29                               paul80nd/forkast      11.83           3.47    1.865     1.06           0.1132         0.158        True           0                   0
+    L30                                 paul80nd/tilth      11.74           5.45    1.976     2.52           0.1353         0.265        True           0                   0
+    L31                            przemekrudzki/Perch      10.89           6.06    2.961     0.21           0.0650         0.202        True           0                   0
+    L32          divadparad-gmail/skills-rules-manager      13.72          14.79    3.750     1.30           0.1959         1.495        True           0                   0
+    L33                         sid3github/aptask-mail       5.68           9.85    3.300     0.94           0.0527         0.137        True           0                   0
+    L34                         DavidNyholm/spinwright       9.58           6.05    2.083     0.99           0.1277         0.543        True           0                   0
+    L35               BreakthruDevelopment/02-notes-kb       4.66           5.36    2.821     0.08           0.0875         0.511        True           1                   1
+    L36          DavidPivert/emdash-plugin-ai-alt-text       0.96          13.60    5.078     0.00           0.1434         0.698        True           0                   0
+ rq                                metric                            column  n_human  n_llm  median_human  median_llm    iqr_human     iqr_llm  mwu_p  cliffs_delta_llm_vs_human     effect  holm_p
+RQ1                Lint violations / KLOC                     lint_per_kloc       36     36        42.095       6.105  28.80-58.39  4.18-10.83 0.0000                     -0.932      large  0.0000
+RQ1        Problem-type violations / KLOC             lint_problem_per_kloc       36     36         9.600       1.795   6.62-19.83   0.73-3.76 0.0000                     -0.813      large  0.0000
+RQ1     Suggestion-type violations / KLOC          lint_suggestion_per_kloc       36     36        26.845       4.705  18.95-40.80   2.99-7.32 0.0000                     -0.833      large  0.0000
+RQ1         Era-neutral violations / KLOC         lint_era_neutral_per_kloc       36     36        16.630       6.055   8.40-20.70   3.73-9.58 0.0000                     -0.586      large  0.0000
+RQ1 Era-neutral problem violations / KLOC lint_era_neutral_problem_per_kloc       36     36         5.790       1.795   3.62-14.63   0.72-3.50 0.0000                     -0.655      large  0.0000
+RQ1                 Explicit `any` / KLOC                      any_per_kloc       36     36        14.250       0.000   6.00-21.43   0.00-0.63 0.0000                     -0.867      large  0.0000
+RQ2                      Functions / KLOC                functions_per_kloc       36     36        97.000      80.450 74.03-122.92 67.78-96.42 0.0839                     -0.238      small  0.7551
+RQ2 Mean cyclomatic complexity / function                           cc_mean       36     36         1.759       2.826    1.46-2.19   2.37-3.22 0.0000                      0.767      large  0.0000
+RQ2              % functions with CC > 10                     cc_over10_pct       36     36         0.150       3.870    0.00-1.12   2.20-5.62 0.0000                      0.874      large  0.0000
+RQ2  Mean cognitive complexity / function                    cognitive_mean       36     36         0.744       1.619    0.39-1.26   1.20-2.03 0.0000                      0.630      large  0.0000
+RQ2       % functions with cognitive > 15              cognitive_over15_pct       36     36         0.000       1.425    0.00-0.83   0.52-2.55 0.0000                      0.575      large  0.0000
+RQ2                  Duplicated lines (%)                           dup_pct       36     36         0.440       0.545    0.00-2.13   0.08-1.12 0.9773                     -0.005 negligible  1.0000
+RQ2                       Comment density                   comment_density       36     36         0.086       0.109    0.04-0.14   0.06-0.15 0.3499                      0.129 negligible  1.0000
+RQ2                Test-to-code LOC ratio                      test_to_code       36     36         0.332       0.543    0.08-0.86   0.33-0.79 0.2259                      0.167      small  1.0000
+RQ2             Internal fan-out / module                       fanout_mean       36     36         2.101       2.533    1.66-2.46   1.93-3.04 0.1188                      0.215      small  0.9504
+RQ2            External packages / module                   ext_fanout_mean       36     36         1.254       0.786    0.88-1.77   0.31-1.11 0.0013                     -0.442     medium  0.0143
+RQ2     % code imported directly by tests                   direct_test_pct       36     36        22.100      55.410   6.23-61.28 26.40-72.05 0.0040                      0.395     medium  0.0400
+RQ2           % code reachable from tests                    test_reach_pct       36     36        70.255      72.110  17.96-96.33 47.97-96.33 0.4881                      0.096 negligible  1.0000
+RQ3    tsc errors in project files / KLOC               tsc_errors_per_kloc       36     36         0.000       0.000    0.00-0.00   0.00-0.00 0.7628                     -0.031 negligible  1.0000
+RQ2              Test pass rate (Node 22)                    test_pass_rate       36     36         0.009       1.000    0.00-1.00   1.00-1.00 0.0001                      0.476      large  0.0012
+RQ2                        Mutation score                    mutation_score        8     23         0.429       0.262    0.30-0.74   0.14-0.48 0.2224                     -0.299      small  1.0000
+RQ2          Mutation score, covered code            mutation_score_covered        8     22         0.429       0.682    0.30-0.74   0.36-0.77 0.5895                      0.136 negligible  1.0000
+tsc clean: {True: {'human': 18, 'llm': 28}, False: {'human': 18, 'llm': 8}} fisher p = 0.026307624639488148
+repo_id main_agent                                                       full_name  prod_kloc  lint_per_kloc  cc_mean  dup_pct  install_ok  tsc_clean  tests_passed  mutation_score
+    A01      jules                                             shenald-dev/shen-ai      20.83          12.72    3.047     3.91        True       True          True             NaN
+    A02    copilot                                               primer/agent-eval      14.66           4.77    2.545     1.81        True      False         False             NaN
+    A03      devin                                        galiprandi/acp-connector       5.88          15.14    3.775     2.36        True       True          True        0.440000
+    A04      jules                                                arii/tech-dancer      25.36           4.69    3.047     1.51       False      False         False             NaN
+    A05    copilot                                     stacktora/parts-ledger-demo       0.65           0.00    1.759     0.00        True      False          True             NaN
+    A06     cursor                                     jzhen648-creator/pathfinder       4.95           1.41    3.610     4.43        True       True          True        0.000000
+    A07      devin                                           llecalvez-dotcom/nami      12.90          10.23    3.135     0.53        True      False          True        0.150852
+    A08    copilot                                     maorun/buisness-calculation       7.48           3.08    3.927     3.12        True      False          True             NaN
+    A09      devin                                              Butlr-app/my-butlr      28.56           4.69    2.238     2.61        True       True          True             NaN
+    A11      devin                                           pranjalken32/HPA_CABS       9.53           5.88    2.676     0.98        True       True          True             NaN
+    A12      jules                                           g1gowda123/Neoblocker       2.54          13.40    3.276     0.00        True       True          True        0.329439
+    A13     cursor                                          daniel-saezv/proto-lab      24.99           7.16    3.422     2.80        True      False         False             NaN
+    A14     cursor                                            LucasBallario/Costly       4.61           2.60    2.496     1.77        True      False         False             NaN
+    A15     cursor                                            weijhih0403/chunmade      15.93           3.52    2.733     1.44        True      False         False             NaN
+    A16  openhands                                                 itzebe/Casefile      17.12           9.64    3.190     1.21        True      False          True             NaN
+    A17  openhands                                                  tofarr/galexp3       3.90           3.84    2.348     0.00        True       True          True        0.150376
+    A18     cursor                                            andrewkchan/pufflang       7.47          17.80    5.024     2.28        True      False         False             NaN
+    A19     cursor DrunkCodes/Multi-Store-Price-Tracker-Amazon-eBay-Newegg-Shopify       3.23           9.61    6.072     0.00        True       True         False             NaN
+    A20     cursor                                       lelion13/app-telemedicina       7.47           2.01    2.716     2.53        True      False         False             NaN
+    A21      codex                                             irtaza65/lumpmap-3d       8.83           5.78    3.176     0.00        True       True          True        0.000000
+    A22      codex                                   thenugasivaraj/proving-ground       0.85          15.26    3.225     0.00        True      False          True             NaN
+                               metric  median_human  median_claude  median_other  holm_p_other_vs_human  cliffs_delta_other_vs_human  holm_p_other_vs_claude  cliffs_delta_other_vs_claude
+               Lint violations / KLOC        42.095          6.105         5.780                 0.0000                       -0.966                  1.0000                        -0.077
+       Problem-type violations / KLOC         9.600          1.795         0.770                 0.0000                       -0.933                  0.5508                        -0.343
+    Suggestion-type violations / KLOC        26.845          4.705         5.350                 0.0000                       -0.853                  1.0000                         0.032
+        Era-neutral violations / KLOC        16.630          6.055         5.670                 0.0000                       -0.701                  1.0000                        -0.079
+Era-neutral problem violations / KLOC         5.790          1.795         0.770                 0.0000                       -0.882                  0.5256                        -0.349
+                Explicit `any` / KLOC        14.250          0.000         0.000                 0.0000                       -0.870                  1.0000                        -0.065
+                     Functions / KLOC        97.000         80.450        62.000                 0.0418                       -0.464                  0.5508                        -0.343
+Mean cyclomatic complexity / function         1.759          2.826         3.135                 0.0000                        0.844                  1.0000                         0.200
+             % functions with CC > 10         0.150          3.870         4.310                 0.0000                        0.851                  1.0000                         0.079
+ Mean cognitive complexity / function         0.744          1.619         1.681                 0.0013                        0.622                  1.0000                         0.011
+      % functions with cognitive > 15         0.000          1.425         1.870                 0.0000                        0.692                  1.0000                         0.112
+                 Duplicated lines (%)         0.440          0.545         1.510                 1.0000                        0.177                  1.0000                         0.274
+                      Comment density         0.086          0.109         0.023                 0.0156                       -0.517                  0.0022                        -0.631
+               Test-to-code LOC ratio         0.332          0.543         0.223                 1.0000                       -0.118                  0.2014                        -0.410
+            Internal fan-out / module         2.101          2.533         2.100                 1.0000                       -0.056                  0.9632                        -0.292
+           External packages / module         1.254          0.786         0.884                 0.7848                       -0.266                  1.0000                         0.192
+    % code imported directly by tests        22.100         55.410        35.040                 1.0000                        0.128                  0.6930                        -0.320
+          % code reachable from tests        70.255         72.110        41.640                 0.7848                       -0.245                  0.0693                        -0.471
+   tsc errors in project files / KLOC         0.000          0.000         0.060                 0.1935                        0.315                  0.0940                         0.386
+             Test pass rate (Node 22)         0.009          1.000         1.000                 0.0620                        0.396                  1.0000                        -0.097
+                       Mutation score         0.429          0.262         0.151                 0.7848                       -0.542                  1.0000                        -0.333
+         Mutation score, covered code         0.429          0.682         0.438                 1.0000                       -0.125                  1.0000                        -0.364
+ group  n  install_ok  tsc_clean  tests_passed  mutation_valid
+ human 36          33         18            13               8
+claude 36          36         28            29              23
+ other 21          20          9            13               6
+--- paired
+ rq                                metric                            column  n_pairs  median_diff  wilcoxon_p  rank_biserial  llm_higher_pairs  holm_p
+RQ1                Lint violations / KLOC                     lint_per_kloc       36      -31.450      0.0000         -0.997                 1  0.0000
+RQ1        Problem-type violations / KLOC             lint_problem_per_kloc       36       -7.820      0.0000         -0.907                 5  0.0000
+RQ1     Suggestion-type violations / KLOC          lint_suggestion_per_kloc       36      -21.040      0.0000         -0.967                 3  0.0000
+RQ1         Era-neutral violations / KLOC         lint_era_neutral_per_kloc       36       -7.785      0.0000         -0.742                 9  0.0000
+RQ1 Era-neutral problem violations / KLOC lint_era_neutral_problem_per_kloc       36       -3.885      0.0000         -0.787                 6  0.0000
+RQ1                 Explicit `any` / KLOC                      any_per_kloc       36      -13.345      0.0000         -1.000                 0  0.0000
+RQ2                      Functions / KLOC                functions_per_kloc       36      -17.550      0.1189         -0.300                12  1.0000
+RQ2 Mean cyclomatic complexity / function                           cc_mean       36        0.990      0.0000          0.877                33  0.0000
+RQ2              % functions with CC > 10                     cc_over10_pct       36        2.905      0.0000          0.943                34  0.0000
+RQ2  Mean cognitive complexity / function                    cognitive_mean       36        0.926      0.0000          0.751                30  0.0000
+RQ2       % functions with cognitive > 15              cognitive_over15_pct       36        1.160      0.0000          0.819                27  0.0000
+RQ2                  Duplicated lines (%)                           dup_pct       36        0.000      0.5021         -0.137                17  1.0000
+RQ2                       Comment density                   comment_density       36        0.007      0.8951          0.027                19  1.0000
+RQ2                Test-to-code LOC ratio                      test_to_code       36        0.162      0.5601          0.114                22  1.0000
+RQ2             Internal fan-out / module                       fanout_mean       36        0.255      0.2716          0.213                21  1.0000
+RQ2            External packages / module                   ext_fanout_mean       36       -0.486      0.0008         -0.641                10  0.0088
+RQ2     % code imported directly by tests                   direct_test_pct       36       19.650      0.0175          0.450                22  0.1750
+RQ2           % code reachable from tests                    test_reach_pct       36        2.480      0.2485          0.227                19  1.0000
+RQ3    tsc errors in project files / KLOC               tsc_errors_per_kloc       36        0.000      0.3225         -0.294                 8  1.0000
+RQ2              Test pass rate (Node 22)                    test_pass_rate       36        0.856      0.0001          0.860                21  0.0012
+RQ2                        Mutation score                    mutation_score        7       -0.178      0.3750         -0.429                 3  1.0000
+RQ2          Mutation score, covered code            mutation_score_covered        6        0.246      0.4375          0.429                 4  1.0000
+--- pooled
+ rq                                metric                            column  n_human  n_ai  median_human  median_ai  mwu_p  cliffs_delta_ai_vs_human     effect  holm_p
+RQ1                Lint violations / KLOC                     lint_per_kloc       36    57        42.095      6.050 0.0000                    -0.944      large  0.0000
+RQ1        Problem-type violations / KLOC             lint_problem_per_kloc       36    57         9.600      1.200 0.0000                    -0.857      large  0.0000
+RQ1     Suggestion-type violations / KLOC          lint_suggestion_per_kloc       36    57        26.845      4.900 0.0000                    -0.840      large  0.0000
+RQ1         Era-neutral violations / KLOC         lint_era_neutral_per_kloc       36    57        16.630      5.900 0.0000                    -0.629      large  0.0000
+RQ1 Era-neutral problem violations / KLOC lint_era_neutral_problem_per_kloc       36    57         5.790      1.200 0.0000                    -0.739      large  0.0000
+RQ1                 Explicit `any` / KLOC                      any_per_kloc       36    57        14.250      0.000 0.0000                    -0.868      large  0.0000
+RQ2                      Functions / KLOC                functions_per_kloc       36    57        97.000     77.700 0.0095                    -0.321      small  0.0950
+RQ2 Mean cyclomatic complexity / function                           cc_mean       36    57         1.759      2.859 0.0000                     0.795      large  0.0000
+RQ2              % functions with CC > 10                     cc_over10_pct       36    57         0.150      4.000 0.0000                     0.865      large  0.0000
+RQ2  Mean cognitive complexity / function                    cognitive_mean       36    57         0.744      1.637 0.0000                     0.627      large  0.0000
+RQ2       % functions with cognitive > 15              cognitive_over15_pct       36    57         0.000      1.500 0.0000                     0.618      large  0.0000
+RQ2                  Duplicated lines (%)                           dup_pct       36    57         0.440      0.810 0.6121                     0.062 negligible  1.0000
+RQ2                       Comment density                   comment_density       36    57         0.086      0.078 0.3791                    -0.109 negligible  1.0000
+RQ2                Test-to-code LOC ratio                      test_to_code       36    57         0.332      0.494 0.6192                     0.062 negligible  1.0000
+RQ2             Internal fan-out / module                       fanout_mean       36    57         2.101      2.312 0.3540                     0.115 negligible  1.0000
+RQ2            External packages / module                   ext_fanout_mean       36    57         1.254      0.805 0.0023                    -0.377     medium  0.0253
+RQ2     % code imported directly by tests                   direct_test_pct       36    57        22.100     39.890 0.0165                     0.297      small  0.1485
+RQ2           % code reachable from tests                    test_reach_pct       36    57        70.255     60.860 0.8128                    -0.030 negligible  1.0000
+RQ3    tsc errors in project files / KLOC               tsc_errors_per_kloc       36    57         0.000      0.000 0.3384                     0.096 negligible  1.0000
+RQ2              Test pass rate (Node 22)                    test_pass_rate       36    57         0.009      1.000 0.0000                     0.446     medium  0.0000
+RQ2                        Mutation score                    mutation_score        8    29         0.429      0.243 0.1392                    -0.349     medium  1.0000
+RQ2          Mutation score, covered code            mutation_score_covered        8    27         0.429      0.645 0.7235                     0.088 negligible  1.0000
+--- size_adjusted
+ rq                                metric                            column  n  llm_rank_shift  size_coef      p  holm_p
+RQ1                Lint violations / KLOC                     lint_per_kloc 72          -0.471      0.007 0.0000  0.0000
+RQ1        Problem-type violations / KLOC             lint_problem_per_kloc 72          -0.396     -0.014 0.0000  0.0000
+RQ1     Suggestion-type violations / KLOC          lint_suggestion_per_kloc 72          -0.432      0.022 0.0000  0.0000
+RQ1         Era-neutral violations / KLOC         lint_era_neutral_per_kloc 72          -0.295      0.003 0.0000  0.0000
+RQ1 Era-neutral problem violations / KLOC lint_era_neutral_problem_per_kloc 72          -0.305     -0.030 0.0000  0.0000
+RQ1                 Explicit `any` / KLOC                      any_per_kloc 72          -0.455      0.028 0.0000  0.0000
+RQ2                      Functions / KLOC                functions_per_kloc 72          -0.114     -0.006 0.1221  0.9064
+RQ2 Mean cyclomatic complexity / function                           cc_mean 72           0.406     -0.029 0.0000  0.0000
+RQ2              % functions with CC > 10                     cc_over10_pct 72           0.423      0.019 0.0000  0.0000
+RQ2  Mean cognitive complexity / function                    cognitive_mean 72           0.344     -0.038 0.0000  0.0000
+RQ2       % functions with cognitive > 15              cognitive_over15_pct 72           0.261      0.035 0.0001  0.0011
+RQ2                  Duplicated lines (%)                           dup_pct 72          -0.099      0.128 0.1433  0.9064
+RQ2                       Comment density                   comment_density 72           0.116     -0.069 0.1133  0.9064
+RQ2                Test-to-code LOC ratio                      test_to_code 72           0.136     -0.070 0.0626  0.5634
+RQ2             Internal fan-out / module                       fanout_mean 72          -0.035      0.189 0.5420  1.0000
+RQ2            External packages / module                   ext_fanout_mean 72          -0.286      0.087 0.0000  0.0000
+RQ2     % code imported directly by tests                   direct_test_pct 72           0.207     -0.012 0.0044  0.0440
+RQ2           % code reachable from tests                    test_reach_pct 72           0.086     -0.051 0.2456  1.0000
+RQ3    tsc errors in project files / KLOC               tsc_errors_per_kloc 72          -0.035      0.026 0.5210  1.0000
+RQ2              Test pass rate (Node 22)                    test_pass_rate 72           0.271     -0.044 0.0000  0.0000
+RQ2                        Mutation score                    mutation_score 31          -0.120     -0.044 0.3453  1.0000
+RQ2          Mutation score, covered code            mutation_score_covered 30           0.083     -0.022 0.5265  1.0000
+{'primary': {'n1': 36, 'n2': 36, 'cohens_d': 0.7, 'cliffs_delta': 0.38}, 'milestone_12': {'n1': 12, 'n2': 12, 'cohens_d': 1.3, 'cliffs_delta': 0.64}, 'pooled': {'n1': 36, 'n2': 57, 'cohens_d': 0.65, 'cliffs_delta': 0.35}}
+wrote C:\SFU\Ending\CMPT479 presentation\ts-llm-benchmark\report\slides\quality.png
+wrote C:\SFU\Ending\CMPT479 presentation\ts-llm-benchmark\report\slides\complexity.png
+wrote C:\SFU\Ending\CMPT479 presentation\ts-llm-benchmark\report\slides\testability.png
+C:\SFU\Ending\CMPT479 presentation\ts-llm-benchmark\report\paper.py:82: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  leg_h = int(H.tests_passed_legacy.fillna(False).astype(bool).sum()) if "tests_passed_legacy" in H else 0
+wrote C:\SFU\Ending\CMPT479 presentation\ts-llm-benchmark\report\CMPT479 - Final Paper.pdf and C:\SFU\Ending\CMPT479 presentation\ts-llm-benchmark\report\paper.tex

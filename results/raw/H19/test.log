@@ -1,0 +1,184 @@
+
+> fcal@0.4.2 test
+> jest --config jestconfig.json
+
+PASS src/__test__/scale.test.ts (21.205s)
+  ✓ Number Literal (205ms)
+  ✓ Units (91ms)
+  ✓ Percentage (12ms)
+  ✓ Register scale (14ms)
+
+PASS src/__test__/variable.test.ts (21.797s)
+  ✓ Assignment (183ms)
+  ✓ Invalid assignment (221ms)
+  ✓ Undefined variable (79ms)
+  ✓ Set Values decimal (1ms)
+  ✓ E in number literal (10ms)
+  ✓ Last created variable _ (4ms)
+  ✓ Set values (2ms)
+  ✓ Set values (Sync) (1ms)
+  ✓ Set values (no Sync) (4ms)
+  ✓  Assignment + operator (82ms)
+
+PASS src/__test__/ns.test.ts (21.3s)
+  ✓ Number system (379ms)
+  ✓ Invalid number literal (Number system) (227ms)
+  ✓ Number system conversion (72ms)
+
+PASS src/__test__/constant.test.ts (21.478s)
+  ✓ create new Constant (84ms)
+  ✓ create already created constant (196ms)
+  ✓ Reassign the constants (23ms)
+
+PASS src/__test__/unit.test.ts (21.995s)
+  ✓ Time units addition (96ms)
+  ✓ Time units addition In operator (197ms)
+  ✓ Time units addition as operator (80ms)
+  ✓ Invalid unit operations (98ms)
+  ✓ Time units addition In operator (4ms)
+  ✓ units division (101ms)
+  ✓ units power and modulo (98ms)
+  ✓ Singular and Plural units phrases (2ms)
+  ✓ Add new unit type to Existing Unit (1ms)
+  ✓ Create whole new unit (94ms)
+  ✓ Add already existing unit (4ms)
+  ✓ Mass units (2ms)
+
+PASS src/__test__/logical.test.ts (22.715s)
+  ✓ Decimal number equality (116ms)
+  ✓ Decimal number not (1ms)
+  ✓ Decimal number comparison (104ms)
+  ✓ Probability equality (95ms)
+  ✓ Probability not (1ms)
+  ✓ Probability comparison (98ms)
+  ✓ Units equality (82ms)
+  ✓ units not (1ms)
+  ✓ Units comparison (303ms)
+  ✓ Logical and or (386ms)
+  ✓ Test ternary operation (10ms)
+
+PASS src/__test__/percentage.test.ts (21.602s)
+  ✓ Percentage addition (16ms)
+  ✓ Percentage sub (103ms)
+  ✓ Percentage divide and multiplication (109ms)
+  ✓ Percentage power and modulo (88ms)
+  ✓ Percentage of (2ms)
+  ✓ Percentage of with units (2ms)
+  ✓ Percentage sub variable (12ms)
+  ✓ Percentage with units 2 (2ms)
+  ✓ Percentage with percentage values (1ms)
+  ✓ Percentage operation with sync (1ms)
+
+PASS src/__test__/function.test.ts (22.393s)
+  ✓ Default functions (780ms)
+  ✓ Register new function (15ms)
+  ✓ Register function with invalid arity (187ms)
+  ✓ Register function with number return  (1ms)
+  ✓ Function already registered (115ms)
+  ✓ function call from another function (184ms)
+  ✓ function call with different args (2ms)
+  ✓ Not callable (17ms)
+  ✓ Registered function return null value` (81ms)
+  ✓ Registered function return invalid return value` (6ms)
+
+PASS src/__test__/error.test.ts (23.209s)
+  ✓ Power result in imaginary number (515ms)
+  ✓ Unexpected Token (19ms)
+  ✓ Undefined variable (63ms)
+  ✓ Modulus with Infinity is indeterminate (100ms)
+  ✓ Division between Infinity is indeterminate (3ms)
+  ✓ Division between Infinity is indeterminate (Floor divide) (2ms)
+  ✓ Subtraction between Infinity is indeterminate (14ms)
+  ✓ Subtraction between Infinity is indeterminate 2 (189ms)
+  ✓ Expected expression (192ms)
+  ✓ Invalid number literal (104ms)
+  ✓ Invalid number literal 2 (2ms)
+  ✓ Invalid number literal 3 (6ms)
+  ✓ Change value of Constant (86ms)
+  ✓ Strict mode units (15ms)
+  ✓ Strict mode types 2 (3ms)
+  ✓ Strict mode types (Not)  (195ms)
+  ✓ Boolean in percentage operation (90ms)
+  ✓ Percentage value in left side  (2ms)
+  ✓ Percentage value with different units (15ms)
+  ✓ Improper number system numbers (79ms)
+  ✓ _ in unexpected places (642ms)
+
+PASS src/__test__/symboltable.test.ts (22.008s)
+  ✓ create variable with already used phrases (817ms)
+  ✓ create variable with already used phrases (Fcal obj using variables) (101ms)
+  ✓ create variable with already used phrases (Fcal obj using variables) (89ms)
+  ✓ set phrase after create variable using fcal obj ) (90ms)
+  ✓ create unit with already used phrases (7ms)
+  ✓ create function with already used phrases (11ms)
+  ✓ create constant with already used phrases (15ms)
+  ✓ create constant with already used phrases (3ms)
+
+PASS src/__test__/fcal.test.ts (22.496s)
+  ✓ Run initialize twice (66ms)
+  ✓ Simple arithmetic operation (99ms)
+  ✓ Divide By Zero (1ms)
+  ✓ Phrases (216ms)
+  ✓ Modulo Operation (3ms)
+  ✓ Floor division (15ms)
+  ✓ New line (375ms)
+  ✓ Parser error Expect expression (1ms)
+  ✓ Lex error unexpected token (89ms)
+  ✓ PI area of the circle (2ms)
+  ✓ Default functions (624ms)
+  ✓ Expression (1ms)
+  ✓ Expression Sync (1ms)
+  ✓ Temperature (75ms)
+  ✓ Infinity (14ms)
+  ✓ ToNumber (95ms)
+  ✓ Fcal getUnit
+  ✓ Value toString() (1ms)
+  ✓ AST print() (1ms)
+
+PASS src/__test__/converter.test.ts
+  ✓ Conversion number (14ms)
+  ✓ Conversion percentage (2ms)
+  ✓ Conversion sync (15ms)
+
+PASS src/__test__/json.test.ts
+  ✓ Import and export json (66ms)
+
+A worker process has failed to exit gracefully and has been force exited. This is likely caused by tests leaking due to improper teardown. Try running with --runInBand --detectOpenHandles to find leaks.
+------------------|---------|----------|---------|---------|---------------------------------------------
+File              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                           
+------------------|---------|----------|---------|---------|---------------------------------------------
+All files         |   97.62 |    97.95 |   94.33 |   97.61 |                                             
+ src              |    92.2 |    95.23 |   68.62 |   91.83 |                                             
+  fcal.ts         |    92.2 |    95.23 |   68.62 |   91.83 | 126-168,364,431,454-466                     
+ src/default      |     100 |      100 |     100 |     100 |                                             
+  functions.ts    |     100 |      100 |     100 |     100 |                                             
+  units.ts        |     100 |      100 |     100 |     100 |                                             
+ src/evaluator    |   97.75 |    94.49 |      96 |   97.74 |                                             
+  constants.ts    |     100 |      100 |     100 |     100 |                                             
+  converter.ts    |     100 |      100 |     100 |     100 |                                             
+  environment.ts  |     100 |      100 |     100 |     100 |                                             
+  evaluator.ts    |   95.31 |    93.15 |   90.47 |   95.31 | 51-55,115,123,216,244                       
+  function.ts     |     100 |     90.9 |     100 |     100 | 72                                          
+  scale.ts        |     100 |      100 |     100 |     100 |                                             
+  symboltable.ts  |     100 |      100 |     100 |     100 |                                             
+ src/json         |   90.15 |      100 |     100 |   90.07 |                                             
+  JSONParser.ts   |   83.75 |      100 |     100 |   83.75 | 33,39,44,50,57,66,89,97,102,113,120,128-130 
+  toJSON.ts       |     100 |      100 |     100 |     100 |                                             
+ src/parser       |   99.38 |       98 |   98.59 |   99.38 |                                             
+  astPrinter.ts   |     100 |      100 |     100 |     100 |                                             
+  expr.ts         |     100 |       80 |     100 |     100 | 42                                          
+  parser.ts       |   98.93 |      100 |   96.29 |   98.93 | 52,125                                      
+ src/parser/lex   |   98.08 |      100 |   95.65 |   98.07 |                                             
+  lex.ts          |    97.6 |      100 |      95 |    97.6 | 87-92,389                                   
+  token.ts        |     100 |      100 |     100 |     100 |                                             
+ src/types        |     100 |    98.42 |     100 |     100 |                                             
+  datatype.ts     |     100 |    99.13 |     100 |     100 | 31                                          
+  numberSystem.ts |     100 |      100 |     100 |     100 |                                             
+  phrase.ts       |     100 |      100 |     100 |     100 |                                             
+  units.ts        |     100 |    91.66 |     100 |     100 | 113                                         
+------------------|---------|----------|---------|---------|---------------------------------------------
+Test Suites: 13 passed, 13 total
+Tests:       115 passed, 115 total
+Snapshots:   0 total
+Time:        37.227s
+Ran all test suites.

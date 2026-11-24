@@ -1,0 +1,1765 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:16:50.326Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/version.ts": {
+            "lines": 9,
+            "tokens": 13,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validation/security-validator.ts": {
+            "lines": 236,
+            "tokens": 1593,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validation/schema-validator.ts": {
+            "lines": 181,
+            "tokens": 1473,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validation/schema-cache.ts": {
+            "lines": 312,
+            "tokens": 2366,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validation/network-security.ts": {
+            "lines": 462,
+            "tokens": 3048,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validation/content-filter.ts": {
+            "lines": 120,
+            "tokens": 717,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/validation/ajv-error-formatter.ts": {
+            "lines": 302,
+            "tokens": 2159,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 206,
+            "percentage": 5.96,
+            "percentageTokens": 9.54,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/utils.ts": {
+            "lines": 322,
+            "tokens": 2079,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/filesystem.ts": {
+            "lines": 120,
+            "tokens": 527,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/docker-detection.ts": {
+            "lines": 81,
+            "tokens": 214,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/discovery.ts": {
+            "lines": 202,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/content-filter-interface.ts": {
+            "lines": 45,
+            "tokens": 121,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types.ts": {
+            "lines": 429,
+            "tokens": 1813,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/lock-file.ts": {
+            "lines": 215,
+            "tokens": 1460,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/config-manager.ts": {
+            "lines": 196,
+            "tokens": 1295,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/security/rate-limiter.ts": {
+            "lines": 349,
+            "tokens": 2058,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/security/per-client-rate-limiter.ts": {
+            "lines": 188,
+            "tokens": 1204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/security/circuit-breaker.ts": {
+            "lines": 56,
+            "tokens": 167,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/security/circuit-breaker-factory.ts": {
+            "lines": 230,
+            "tokens": 1352,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/security/auth-validator.ts": {
+            "lines": 43,
+            "tokens": 98,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sampling/providers/types.ts": {
+            "lines": 92,
+            "tokens": 390,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sampling/providers/openai.ts": {
+            "lines": 128,
+            "tokens": 1208,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 211,
+            "percentage": 15.63,
+            "percentageTokens": 17.47,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sampling/providers/gemini.ts": {
+            "lines": 149,
+            "tokens": 1286,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 101,
+            "percentage": 6.04,
+            "percentageTokens": 7.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sampling/providers/factory.ts": {
+            "lines": 43,
+            "tokens": 387,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sampling/providers/anthropic.ts": {
+            "lines": 109,
+            "tokens": 975,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 110,
+            "percentage": 10.09,
+            "percentageTokens": 11.28,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/observability/sampling-audit-logger.ts": {
+            "lines": 158,
+            "tokens": 540,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/observability/metrics-exporter.ts": {
+            "lines": 362,
+            "tokens": 1913,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/observability/interfaces/rate-limiter.ts": {
+            "lines": 58,
+            "tokens": 155,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/observability/interfaces/metrics-exporter.ts": {
+            "lines": 84,
+            "tokens": 253,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/observability/interfaces/audit-logger.ts": {
+            "lines": 87,
+            "tokens": 278,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/observability/audit-logger.ts": {
+            "lines": 279,
+            "tokens": 1356,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/mcp/wrapper-generator.ts": {
+            "lines": 340,
+            "tokens": 2592,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/mcp/proxy-helpers.ts": {
+            "lines": 144,
+            "tokens": 956,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/mcp/connection-queue.ts": {
+            "lines": 195,
+            "tokens": 1003,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/mcp/connection-pool.ts": {
+            "lines": 160,
+            "tokens": 904,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/mcp/client-pool.ts": {
+            "lines": 780,
+            "tokens": 5171,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 885,
+            "tokens": 6011,
+            "sources": 1,
+            "clones": 10,
+            "duplicatedLines": 228,
+            "duplicatedTokens": 2064,
+            "percentage": 25.76,
+            "percentageTokens": 34.34,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/executors/sandbox-executor.ts": {
+            "lines": 688,
+            "tokens": 2324,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 117,
+            "duplicatedTokens": 921,
+            "percentage": 17.01,
+            "percentageTokens": 39.63,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/executors/python-executor.ts": {
+            "lines": 265,
+            "tokens": 1644,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 61,
+            "duplicatedTokens": 443,
+            "percentage": 23.02,
+            "percentageTokens": 26.95,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/executors/pyodide-executor.ts": {
+            "lines": 521,
+            "tokens": 2228,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 56,
+            "duplicatedTokens": 478,
+            "percentage": 10.75,
+            "percentageTokens": 21.45,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/executors/deno-checker.ts": {
+            "lines": 130,
+            "tokens": 768,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/server/mcp-proxy-server.ts": {
+            "lines": 410,
+            "tokens": 2466,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/server/health-check.ts": {
+            "lines": 319,
+            "tokens": 2031,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/server/graceful-shutdown-handler.ts": {
+            "lines": 257,
+            "tokens": 1229,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/middleware/streaming-proxy.ts": {
+            "lines": 152,
+            "tokens": 1051,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/middleware/http-auth-middleware.ts": {
+            "lines": 171,
+            "tokens": 871,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/middleware/correlation-id-middleware.ts": {
+            "lines": 190,
+            "tokens": 633,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/handlers/tool-execution-handler.ts": {
+            "lines": 222,
+            "tokens": 1388,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/handlers/request-handler.interface.ts": {
+            "lines": 59,
+            "tokens": 134,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/handlers/metrics-request-handler.ts": {
+            "lines": 77,
+            "tokens": 271,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/handlers/health-check-handler.ts": {
+            "lines": 109,
+            "tokens": 436,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core/handlers/discovery-request-handler.ts": {
+            "lines": 260,
+            "tokens": 1529,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/types.ts": {
+            "lines": 168,
+            "tokens": 1317,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/schemas.ts": {
+            "lines": 174,
+            "tokens": 1346,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 102,
+            "duplicatedTokens": 662,
+            "percentage": 58.62,
+            "percentageTokens": 49.18,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/loader.ts": {
+            "lines": 406,
+            "tokens": 2139,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/discovery.ts": {
+            "lines": 372,
+            "tokens": 2809,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/wrapper-generator.ts": {
+            "lines": 530,
+            "tokens": 3221,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/types.ts": {
+            "lines": 488,
+            "tokens": 986,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/tool-registry.ts": {
+            "lines": 125,
+            "tokens": 634,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/tool-detector.ts": {
+            "lines": 105,
+            "tokens": 490,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/templates/mcp-config-template.ts": {
+            "lines": 284,
+            "tokens": 1818,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/sync-wrappers-cli.ts": {
+            "lines": 99,
+            "tokens": 761,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/self-installer.ts": {
+            "lines": 132,
+            "tokens": 756,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/schemas/setup-config.schema.ts": {
+            "lines": 64,
+            "tokens": 282,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/schedulers/task-scheduler.ts": {
+            "lines": 253,
+            "tokens": 1034,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 46,
+            "duplicatedTokens": 404,
+            "percentage": 18.18,
+            "percentageTokens": 39.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/schedulers/systemd-scheduler.ts": {
+            "lines": 294,
+            "tokens": 1435,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 56,
+            "duplicatedTokens": 509,
+            "percentage": 19.05,
+            "percentageTokens": 35.47,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/schedulers/launchd-scheduler.ts": {
+            "lines": 246,
+            "tokens": 1300,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 44,
+            "duplicatedTokens": 417,
+            "percentage": 17.89,
+            "percentageTokens": 32.08,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/platform-scheduler.ts": {
+            "lines": 171,
+            "tokens": 482,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/module-detector.ts": {
+            "lines": 210,
+            "tokens": 760,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/mcp-discovery.ts": {
+            "lines": 278,
+            "tokens": 1829,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 36,
+            "duplicatedTokens": 294,
+            "percentage": 12.95,
+            "percentageTokens": 16.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/index.ts": {
+            "lines": 355,
+            "tokens": 2805,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/dependency-checker.ts": {
+            "lines": 242,
+            "tokens": 1502,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 208,
+            "percentage": 9.09,
+            "percentageTokens": 13.85,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/daily-sync.ts": {
+            "lines": 499,
+            "tokens": 2657,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/config-location-detector.ts": {
+            "lines": 254,
+            "tokens": 1766,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/caching/redis-cache-provider.ts": {
+            "lines": 357,
+            "tokens": 1783,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/caching/lru-cache-provider.ts": {
+            "lines": 82,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/caching/cache-provider.ts": {
+            "lines": 46,
+            "tokens": 144,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "race-condition-test.ts": {
+            "lines": 343,
+            "tokens": 2850,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 18558,
+          "tokens": 105710,
+          "sources": 78,
+          "clones": 22,
+          "duplicatedLines": 413,
+          "duplicatedTokens": 3514,
+          "percentage": 2.23,
+          "percentageTokens": 3.32,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 18558,
+      "tokens": 105710,
+      "sources": 78,
+      "clones": 22,
+      "duplicatedLines": 413,
+      "duplicatedTokens": 3514,
+      "percentage": 2.23,
+      "percentageTokens": 3.32,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "(\n    errors: ErrorObject[],\n    schema: any,\n    lines: string[],\n    suggestions: string[]\n  ): void {\n    for (const error of errors) {\n      const paramPath = error.instancePath.replace(/^\\//, '').replace(/\\//g, '.');\n      const paramName = paramPath || 'root';\n      const pattern",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/validation/ajv-error-formatter.ts",
+        "start": 223,
+        "end": 232,
+        "startLoc": {
+          "line": 223,
+          "column": 30,
+          "position": 1571
+        },
+        "endLoc": {
+          "line": 232,
+          "column": 20,
+          "position": 1674
+        }
+      },
+      "secondFile": {
+        "name": "src/validation/ajv-error-formatter.ts",
+        "start": 196,
+        "end": 205,
+        "startLoc": {
+          "line": 196,
+          "column": 27,
+          "position": 1342
+        },
+        "endLoc": {
+          "line": 205,
+          "column": 26,
+          "position": 1445
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\n    }\n\n    async *streamMessage(\n        messages: LLMMessage[],\n        systemPrompt: string | undefined,\n        model: string,\n        maxTokens: number\n    ): AsyncGenerator<{ type: 'chunk'; content: string } | { type: 'usage'; inputTokens: number; outputTokens: number }, void, unknown> {\n        const genModel",
+      "tokens": 101,
+      "firstFile": {
+        "name": "src/sampling/providers/gemini.ts",
+        "start": 71,
+        "end": 80,
+        "startLoc": {
+          "line": 71,
+          "column": 10,
+          "position": 541
+        },
+        "endLoc": {
+          "line": 80,
+          "column": 23,
+          "position": 642
+        }
+      },
+      "secondFile": {
+        "name": "src/sampling/providers/openai.ts",
+        "start": 45,
+        "end": 54,
+        "startLoc": {
+          "line": 45,
+          "column": 11,
+          "position": 379
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 29,
+          "position": 480
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": ",\n            },\n        };\n    }\n\n    async *streamMessage(\n        messages: LLMMessage[],\n        systemPrompt: string | undefined,\n        model: string,\n        maxTokens: number\n    ): AsyncGenerator<{ type: 'chunk'; content: string } | { type: 'usage'; inputTokens: number; outputTokens: number }, void, unknown> {\n        const anthropicMessages",
+      "tokens": 110,
+      "firstFile": {
+        "name": "src/sampling/providers/anthropic.ts",
+        "start": 41,
+        "end": 52,
+        "startLoc": {
+          "line": 41,
+          "column": 59,
+          "position": 368
+        },
+        "endLoc": {
+          "line": 52,
+          "column": 32,
+          "position": 478
+        }
+      },
+      "secondFile": {
+        "name": "src/sampling/providers/openai.ts",
+        "start": 43,
+        "end": 54,
+        "startLoc": {
+          "line": 43,
+          "column": 69,
+          "position": 370
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 29,
+          "position": 480
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "),\n          allowedTools: z.array(z.string()).default([]).describe('MCP tools whitelist'),\n          timeoutMs: z.number().int().min(1000).default(30000).describe('Timeout in milliseconds'),\n          permissions: z.object({\n            read: z.array(z.string()).optional(),\n            write: z.array(z.string()).optional(),\n            net: z.array(z.string()).optional(),\n          }).default({}).describe('Subprocess permissions'",
+      "tokens": 142,
+      "firstFile": {
+        "name": "src/index.ts",
+        "start": 463,
+        "end": 470,
+        "startLoc": {
+          "line": 463,
+          "column": 68,
+          "position": 2870
+        },
+        "endLoc": {
+          "line": 470,
+          "column": 59,
+          "position": 3012
+        }
+      },
+      "secondFile": {
+        "name": "src/index.ts",
+        "start": 207,
+        "end": 214,
+        "startLoc": {
+          "line": 207,
+          "column": 83,
+          "position": 1156
+        },
+        "endLoc": {
+          "line": 214,
+          "column": 61,
+          "position": 1298
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": "),\n          skipDangerousPatternCheck: z.boolean().optional().describe('Skip dangerous pattern validation (defense-in-depth only)'),\n          enableSampling: z.boolean().optional().default(false).describe('Enable LLM sampling (llm.ask/llm.think helpers)'),\n          maxSamplingRounds: z.number().int().min(1).max(100).optional().default(10).describe('Max sampling rounds'),\n          maxSamplingTokens: z.number().int().min(100).max(100000).optional().default(10000).describe('Max sampling tokens'),\n          samplingSystemPrompt: z.string().optional().describe('Custom system prompt for sampling'),\n          allowedSamplingModels: z.array(z.string()).optional().describe('Allowed Claude models for sampling'),\n        },\n        outputSchema: ExecutionResultSchema.shape,\n        annotations: {\n          readOnlyHint: false,\n          destructiveHint: false,\n          idempotentHint: false,\n          openWorldHint: true,\n        },\n      };\n\n      const pythonToolHandler",
+      "tokens": 230,
+      "firstFile": {
+        "name": "src/index.ts",
+        "start": 470,
+        "end": 487,
+        "startLoc": {
+          "line": 470,
+          "column": 59,
+          "position": 3013
+        },
+        "endLoc": {
+          "line": 487,
+          "column": 30,
+          "position": 3243
+        }
+      },
+      "secondFile": {
+        "name": "src/index.ts",
+        "start": 214,
+        "end": 231,
+        "startLoc": {
+          "line": 214,
+          "column": 61,
+          "position": 1299
+        },
+        "endLoc": {
+          "line": 231,
+          "column": 34,
+          "position": 1529
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 44,
+      "fragment": ".safeParse(args);\n          if (!parseResult.success) {\n            return {\n              content: [{\n                type: 'text' as const,\n                text: JSON.stringify({\n                  success: false,\n                  output: '',\n                  error: `Input validation failed: ${parseResult.error.message}`,\n                  executionTimeMs: 0,\n                }, null, 2),\n              }],\n              isError: true,\n            };\n          }\n          const input = parseResult.data;\n\n          // Validate security\n          this.securityValidator.validateAllowlist(input.allowedTools);\n          await this.securityValidator.validatePermissions(input.permissions);\n\n          // Hybrid skip logic:\n          // 1. Config/Env variable ONLY (Issue #56 - Security Fix)\n          // User input is ignored to prevent security bypass\n          const skipPatternCheck = shouldSkipDangerousPatternCheck();\n          const codeValidation = this.securityValidator.validateCode(input.code, skipPatternCheck);\n\n          if (!codeValidation.valid) {\n            return {\n              content: [{\n                type: 'text' as const,\n                text: JSON.stringify({\n                  success: false,\n                  output: '',\n                  error: codeValidation.errors.join('\\n'),\n                  executionTimeMs: 0,\n                }, null, 2),\n              }],\n              isError: true,\n            };\n          }\n\n          // Execute code with connection pooling\n          // Use Pyodide (secure) when PYTHON_SANDBOX_READY, otherwise native (insecure)",
+      "tokens": 322,
+      "firstFile": {
+        "name": "src/index.ts",
+        "start": 496,
+        "end": 539,
+        "startLoc": {
+          "line": 496,
+          "column": 55,
+          "position": 3338
+        },
+        "endLoc": {
+          "line": 539,
+          "column": 89,
+          "position": 3660
+        }
+      },
+      "secondFile": {
+        "name": "src/index.ts",
+        "start": 240,
+        "end": 283,
+        "startLoc": {
+          "line": 240,
+          "column": 59,
+          "position": 1624
+        },
+        "endLoc": {
+          "line": 283,
+          "column": 16,
+          "position": 1946
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 22,
+      "fragment": "(\n              {\n                code: input.code,\n                allowedTools: input.allowedTools,\n                timeoutMs: input.timeoutMs,\n                permissions: input.permissions,\n                skipDangerousPatternCheck: skipPatternCheck,\n                enableSampling: input.enableSampling,\n                maxSamplingRounds: input.maxSamplingRounds,\n                maxSamplingTokens: input.maxSamplingTokens,\n                samplingSystemPrompt: input.samplingSystemPrompt,\n                allowedSamplingModels: input.allowedSamplingModels,\n              },\n              this.mcpClientPool,\n              this.server.server  // Pass underlying Server instance with request() method for MCP sampling\n            );\n          });\n\n          // Audit log\n          await this.securityValidator.auditLog(\n            {\n              executor: 'python'",
+      "tokens": 142,
+      "firstFile": {
+        "name": "src/index.ts",
+        "start": 545,
+        "end": 566,
+        "startLoc": {
+          "line": 545,
+          "column": 48,
+          "position": 3713
+        },
+        "endLoc": {
+          "line": 566,
+          "column": 33,
+          "position": 3855
+        }
+      },
+      "secondFile": {
+        "name": "src/index.ts",
+        "start": 284,
+        "end": 305,
+        "startLoc": {
+          "line": 284,
+          "column": 52,
+          "position": 1975
+        },
+        "endLoc": {
+          "line": 305,
+          "column": 37,
+          "position": 2117
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 27,
+      "fragment": ",\n              allowedTools: input.allowedTools,\n              toolsCalled: result.toolCallsMade ?? [],\n              executionTimeMs: result.executionTimeMs,\n              success: result.success,\n              error: result.error,\n              clientId: 'default', // MCP servers run locally\n              memoryUsage: process.memoryUsage().heapUsed,\n            },\n            input.code\n          );\n\n          return {\n            content: [{\n              type: 'text' as const,\n              text: formatExecutionResultForCli(result),\n            }],\n            structuredContent: result as MCPExecutionResult,\n            isError: !result.success,\n          };\n        } catch (error) {\n          return this.handleToolError(error, ErrorType.EXECUTION);\n        }\n      };\n\n      this.server.registerTool(\n        'executePython'",
+      "tokens": 196,
+      "firstFile": {
+        "name": "src/index.ts",
+        "start": 566,
+        "end": 592,
+        "startLoc": {
+          "line": 566,
+          "column": 33,
+          "position": 3856
+        },
+        "endLoc": {
+          "line": 592,
+          "column": 24,
+          "position": 4052
+        }
+      },
+      "secondFile": {
+        "name": "src/index.ts",
+        "start": 305,
+        "end": 331,
+        "startLoc": {
+          "line": 305,
+          "column": 37,
+          "position": 2118
+        },
+        "endLoc": {
+          "line": 331,
+          "column": 28,
+          "position": 2314
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 20,
+      "fragment": "\n): Promise<ExecutionResult> {\n  const startTime = Date.now();\n\n  // Start streaming proxy if enabled\n  let streamingProxy: StreamingProxy | null = null;\n  let streamUrl: string | undefined;\n\n  if (options.streaming) {\n    streamingProxy = new StreamingProxy();\n    try {\n      await streamingProxy.start();\n      streamUrl = streamingProxy.getUrl();\n    } catch (error) {\n      console.error('Failed to start streaming proxy:', error);\n      // Continue without streaming (non-critical failure)\n    }\n  }\n\n  // Start MCP proxy server (shared with TypeScript executor)",
+      "tokens": 144,
+      "firstFile": {
+        "name": "src/executors/python-executor.ts",
+        "start": 71,
+        "end": 90,
+        "startLoc": {
+          "line": 71,
+          "column": 84,
+          "position": 237
+        },
+        "endLoc": {
+          "line": 90,
+          "column": 62,
+          "position": 381
+        }
+      },
+      "secondFile": {
+        "name": "src/executors/sandbox-executor.ts",
+        "start": 31,
+        "end": 50,
+        "startLoc": {
+          "line": 31,
+          "column": 61,
+          "position": 259
+        },
+        "endLoc": {
+          "line": 50,
+          "column": 77,
+          "position": 403
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 23,
+      "fragment": "\n  const proxyServer = new MCPProxyServer(mcpClientPool, options.allowedTools);\n  let proxyPort: number;\n  let authToken: string;\n\n  try {\n    const proxyInfo = await proxyServer.start();\n    proxyPort = proxyInfo.port;\n    authToken = proxyInfo.authToken;\n  } catch (error) {\n    if (streamingProxy) {\n      await streamingProxy.stop();\n    }\n    return {\n      success: false,\n      output: '',\n      error: normalizeError(error, 'Failed to start MCP proxy server').message,\n      executionTimeMs: Date.now() - startTime,\n      streamUrl,\n    };\n  }\n\n  // Temp file for user code (will be cleaned up in finally)",
+      "tokens": 176,
+      "firstFile": {
+        "name": "src/executors/python-executor.ts",
+        "start": 90,
+        "end": 112,
+        "startLoc": {
+          "line": 90,
+          "column": 62,
+          "position": 382
+        },
+        "endLoc": {
+          "line": 112,
+          "column": 61,
+          "position": 558
+        }
+      },
+      "secondFile": {
+        "name": "src/executors/sandbox-executor.ts",
+        "start": 65,
+        "end": 87,
+        "startLoc": {
+          "line": 65,
+          "column": 52,
+          "position": 544
+        },
+        "endLoc": {
+          "line": 87,
+          "column": 57,
+          "position": 720
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 21,
+      "fragment": ",\n            executionTimeMs: Date.now() - startTime,\n            toolCallsMade: proxyServer.getToolCalls(),\n            toolCallSummary: proxyServer.getToolCallSummary(),\n            streamUrl,\n          });\n        }, options.timeoutMs);\n      }),\n    ]);\n\n    return result;\n  } finally {\n    // Stop streaming proxy\n    if (streamingProxy) {\n      await streamingProxy.stop();\n    }\n\n    // Stop MCP proxy server\n    await proxyServer.stop();\n\n    // Clean up temp file",
+      "tokens": 123,
+      "firstFile": {
+        "name": "src/executors/python-executor.ts",
+        "start": 234,
+        "end": 254,
+        "startLoc": {
+          "line": 234,
+          "column": 82,
+          "position": 1458
+        },
+        "endLoc": {
+          "line": 254,
+          "column": 26,
+          "position": 1581
+        }
+      },
+      "secondFile": {
+        "name": "src/executors/sandbox-executor.ts",
+        "start": 650,
+        "end": 670,
+        "startLoc": {
+          "line": 650,
+          "column": 82,
+          "position": 2109
+        },
+        "endLoc": {
+          "line": 670,
+          "column": 35,
+          "position": 2232
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 19,
+      "fragment": "(\n  options: SandboxOptions,\n  mcpClientPool: MCPClientPool,\n  mcpServer?: McpServer  // Optional MCP server for sampling\n): Promise<ExecutionResult> {\n  const startTime = Date.now();\n\n  // Start streaming proxy if enabled\n  let streamingProxy: StreamingProxy | null = null;\n  let streamUrl: string | undefined;\n\n  if (options.streaming) {\n    streamingProxy = new StreamingProxy();\n    try {\n      await streamingProxy.start();\n      streamUrl = streamingProxy.getUrl();\n    } catch (error) {\n      console.error('Failed to start streaming proxy:', error);\n      // Continue without streaming (non-critical)",
+      "tokens": 158,
+      "firstFile": {
+        "name": "src/executors/pyodide-executor.ts",
+        "start": 82,
+        "end": 100,
+        "startLoc": {
+          "line": 82,
+          "column": 45,
+          "position": 368
+        },
+        "endLoc": {
+          "line": 100,
+          "column": 51,
+          "position": 526
+        }
+      },
+      "secondFile": {
+        "name": "src/executors/sandbox-executor.ts",
+        "start": 28,
+        "end": 46,
+        "startLoc": {
+          "line": 28,
+          "column": 49,
+          "position": 235
+        },
+        "endLoc": {
+          "line": 46,
+          "column": 59,
+          "position": 393
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 24,
+      "fragment": "\n  let samplingBridge: SamplingBridgeServer | null = null;\n  let samplingConfig: SamplingConfig | null = null;\n  let samplingPort: number | null = null;\n  let samplingToken: string | null = null;\n  // T093: Docker detection - use host.docker.internal in Docker, localhost otherwise\n  const bridgeHostname = getBridgeHostname();\n\n  if (options.enableSampling) {\n    // Create sampling configuration from options and defaults\n    const baseConfig = getSamplingConfig();\n    samplingConfig = {\n      ...baseConfig,\n      enabled: true,\n      maxRoundsPerExecution: options.maxSamplingRounds || baseConfig.maxRoundsPerExecution,\n      maxTokensPerExecution: options.maxSamplingTokens || baseConfig.maxTokensPerExecution,\n      allowedSystemPrompts: baseConfig.allowedSystemPrompts,\n      contentFilteringEnabled: baseConfig.contentFilteringEnabled,\n      allowedModels: options.allowedSamplingModels || baseConfig.allowedModels\n    };\n\n    // Use real MCP server if provided (must have createMessage method), otherwise sampling will require API key\n    // MCP server enables free sampling via MCP SDK (createMessage capability)\n    const",
+      "tokens": 204,
+      "firstFile": {
+        "name": "src/executors/pyodide-executor.ts",
+        "start": 104,
+        "end": 127,
+        "startLoc": {
+          "line": 104,
+          "column": 80,
+          "position": 537
+        },
+        "endLoc": {
+          "line": 127,
+          "column": 10,
+          "position": 741
+        }
+      },
+      "secondFile": {
+        "name": "src/executors/sandbox-executor.ts",
+        "start": 87,
+        "end": 110,
+        "startLoc": {
+          "line": 87,
+          "column": 57,
+          "position": 721
+        },
+        "endLoc": {
+          "line": 110,
+          "column": 70,
+          "position": 925
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "\n    const hasValidMcpServer = mcpServer && typeof mcpServer.createMessage === 'function';\n\n    // Note: We no longer check for API keys here because the SamplingBridgeServer\n    // will check for the configured provider's API key during initialization or execution.\n    // If no provider key is available and no MCP server is present, it will fail gracefully later.\n\n    samplingBridge = new SamplingBridgeServer(hasValidMcpServer ? mcpServer : {}, samplingConfig);\n\n    try {\n      const bridgeInfo = await samplingBridge.start();\n      samplingPort = bridgeInfo.port;\n      samplingToken = bridgeInfo.authToken;\n    } catch (error) {\n      // Clean up on failure\n      if",
+      "tokens": 116,
+      "firstFile": {
+        "name": "src/executors/pyodide-executor.ts",
+        "start": 126,
+        "end": 141,
+        "startLoc": {
+          "line": 126,
+          "column": 79,
+          "position": 739
+        },
+        "endLoc": {
+          "line": 141,
+          "column": 9,
+          "position": 855
+        }
+      },
+      "secondFile": {
+        "name": "src/executors/sandbox-executor.ts",
+        "start": 110,
+        "end": 125,
+        "startLoc": {
+          "line": 110,
+          "column": 70,
+          "position": 926
+        },
+        "endLoc": {
+          "line": 125,
+          "column": 12,
+          "position": 1042
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "),\n\n  allowedTools: z.array(z.string())\n    .default([])\n    .describe('MCP tools allowed to be called (security whitelist). Format: mcp__<server>__<tool>. Default: [] (no tools allowed)'),\n\n  timeoutMs: z.number()\n    .int()\n    .min(1000, 'Timeout must be at least 1 second')\n    .max(MAX_TIMEOUT_MS, `Timeout cannot exceed ${MAX_TIMEOUT_MS}ms (5 minutes)`)\n    .default(DEFAULT_TIMEOUT_MS)\n    .describe(`Execution timeout in milliseconds (default: ${DEFAULT_TIMEOUT_MS}ms)`),\n\n  permissions: SandboxPermissionsSchema\n    .default({})\n    .describe('Python subprocess permissions (limited filesystem/network access)'",
+      "tokens": 114,
+      "firstFile": {
+        "name": "src/config/schemas.ts",
+        "start": 78,
+        "end": 93,
+        "startLoc": {
+          "line": 78,
+          "column": 53,
+          "position": 547
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 82,
+          "position": 661
+        }
+      },
+      "secondFile": {
+        "name": "src/config/schemas.ts",
+        "start": 23,
+        "end": 38,
+        "startLoc": {
+          "line": 23,
+          "column": 65,
+          "position": 174
+        },
+        "endLoc": {
+          "line": 38,
+          "column": 76,
+          "position": 288
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 37,
+      "fragment": "),\n\n  skipDangerousPatternCheck: z.boolean()\n    .optional()\n    .describe('Skip dangerous pattern validation (defense-in-depth only). Default: false (validation enabled). Can be overridden by CODE_EXECUTOR_SKIP_DANGEROUS_PATTERNS env var or config file.'),\n\n  // MCP Sampling parameters (optional, disabled by default)\n  enableSampling: z.boolean()\n    .default(false)\n    .describe('Enable MCP Sampling (recursive LLM calls). Default: false'),\n\n  maxSamplingRounds: z.number()\n    .int()\n    .min(1)\n    .max(100)\n    .optional()\n    .describe('Override maximum sampling rounds per execution. Default: 10'),\n\n  maxSamplingTokens: z.number()\n    .int()\n    .min(1000)\n    .max(100000)\n    .optional()\n    .describe('Override maximum sampling tokens per execution. Default: 10000'),\n\n  samplingSystemPrompt: z.string()\n    .optional()\n    .describe('System prompt for sampling calls. Must be in allowlist if specified.'),\n\n  allowedSamplingModels: z.array(z.string())\n    .default(['claude-3-5-haiku-20241022', 'claude-3-5-sonnet-20241022'])\n    .describe('Allowlist of permitted LLM models for sampling. Default: Haiku + Sonnet'),\n}).strict();\n\n/**\n * Execution result schema\n */",
+      "tokens": 217,
+      "firstFile": {
+        "name": "src/config/schemas.ts",
+        "start": 93,
+        "end": 129,
+        "startLoc": {
+          "line": 93,
+          "column": 82,
+          "position": 662
+        },
+        "endLoc": {
+          "line": 129,
+          "column": 4,
+          "position": 879
+        }
+      },
+      "secondFile": {
+        "name": "src/config/schemas.ts",
+        "start": 38,
+        "end": 74,
+        "startLoc": {
+          "line": 38,
+          "column": 76,
+          "position": 289
+        },
+        "endLoc": {
+          "line": 74,
+          "column": 4,
+          "position": 506
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ");\n    }\n\n    // Validation: syncTime format (HH:MM)\n    const timeRegex = /^(\\d{2}):(\\d{2})$/;\n    const match = syncTime.match(timeRegex);\n    if (!match) {\n      throw new Error('syncTime must be in HH:MM format');\n    }\n\n    const hours = parseInt(match[1]!, 10);\n    const minutes = parseInt(match[2]!, 10);\n\n    // Validation: syncTime must be 4-6 AM range",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/cli/schedulers/systemd-scheduler.ts",
+        "start": 82,
+        "end": 95,
+        "startLoc": {
+          "line": 82,
+          "column": 84,
+          "position": 407
+        },
+        "endLoc": {
+          "line": 95,
+          "column": 49,
+          "position": 509
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/schedulers/task-scheduler.ts",
+        "start": 67,
+        "end": 80,
+        "startLoc": {
+          "line": 67,
+          "column": 52,
+          "position": 229
+        },
+        "endLoc": {
+          "line": 80,
+          "column": 61,
+          "position": 331
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": "], {\n        stdio: ['ignore', 'pipe', 'pipe'],\n      });\n\n      let stdout = '';\n      let stderr = '';\n\n      proc.stdout?.on('data', (data) => {\n        stdout += data.toString();\n      });\n\n      proc.stderr?.on('data', (data) => {\n        stderr += data.toString();\n      });\n\n      proc.on('close', (code) => {\n        if (code !== 0 ",
+      "tokens": 146,
+      "firstFile": {
+        "name": "src/cli/schedulers/systemd-scheduler.ts",
+        "start": 264,
+        "end": 280,
+        "startLoc": {
+          "line": 264,
+          "column": 57,
+          "position": 1173
+        },
+        "endLoc": {
+          "line": 280,
+          "column": 24,
+          "position": 1319
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/schedulers/task-scheduler.ts",
+        "start": 222,
+        "end": 238,
+        "startLoc": {
+          "line": 222,
+          "column": 7,
+          "position": 769
+        },
+        "endLoc": {
+          "line": 238,
+          "column": 24,
+          "position": 915
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 28,
+      "fragment": "\n  async install(scriptPath: string, syncTime: string): Promise<void> {\n    // Validation: scriptPath must be absolute\n    if (!path.isAbsolute(scriptPath)) {\n      throw new Error('scriptPath must be absolute');\n    }\n\n    // Validation: scriptPath must not contain quotes or newlines (defense-in-depth)\n    if (scriptPath.includes(\"'\") || scriptPath.includes('\"') || scriptPath.includes('\\n')) {\n      throw new Error('scriptPath contains invalid characters (quotes or newlines)');\n    }\n\n    // Validation: syncTime format (HH:MM)\n    const timeRegex = /^(\\d{2}):(\\d{2})$/;\n    const match = syncTime.match(timeRegex);\n    if (!match) {\n      throw new Error('syncTime must be in HH:MM format');\n    }\n\n    const hours = parseInt(match[1]!, 10);\n    const minutes = parseInt(match[2]!, 10);\n\n    // Validation: syncTime must be 4-6 AM range (inclusive)\n    if (hours < 4 || hours > 6 || (hours === 6 && minutes > 0)) {\n      throw new Error('syncTime must be between 04:00 and 06:00 (inclusive)');\n    }\n\n    // Create ~/Library/LaunchAgents/ directory if it doesn't exist",
+      "tokens": 261,
+      "firstFile": {
+        "name": "src/cli/schedulers/launchd-scheduler.ts",
+        "start": 68,
+        "end": 95,
+        "startLoc": {
+          "line": 68,
+          "column": 6,
+          "position": 267
+        },
+        "endLoc": {
+          "line": 95,
+          "column": 68,
+          "position": 528
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/schedulers/systemd-scheduler.ts",
+        "start": 73,
+        "end": 85,
+        "startLoc": {
+          "line": 73,
+          "column": 6,
+          "position": 305
+        },
+        "endLoc": {
+          "line": 85,
+          "column": 50,
+          "position": 388
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": ", {\n        stdio: ['ignore', 'pipe', 'pipe'],\n      });\n\n      let stdout = '';\n      let stderr = '';\n\n      proc.stdout?.on('data', (data) => {\n        stdout += data.toString();\n      });\n\n      proc.stderr?.on('data', (data) => {\n        stderr += data.toString();\n      });\n\n      proc.on('close', (code) => {\n        if (code !== 0) {\n          const errorMsg = `launchctl ",
+      "tokens": 156,
+      "firstFile": {
+        "name": "src/cli/schedulers/launchd-scheduler.ts",
+        "start": 215,
+        "end": 232,
+        "startLoc": {
+          "line": 215,
+          "column": 43,
+          "position": 1022
+        },
+        "endLoc": {
+          "line": 232,
+          "column": 39,
+          "position": 1178
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/schedulers/task-scheduler.ts",
+        "start": 222,
+        "end": 239,
+        "startLoc": {
+          "line": 222,
+          "column": 8,
+          "position": 770
+        },
+        "endLoc": {
+          "line": 239,
+          "column": 61,
+          "position": 926
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 19,
+      "fragment": "\n        return [];\n      }\n\n      // Extract server configurations\n      const servers: MCPServerConfig[] = [];\n      for (const [name, serverConfig] of Object.entries(config.mcpServers)) {\n        // Validate required command field\n        if (!serverConfig.command) {\n          console.warn(`Skipping MCP server '${name}' in ${configPath}: missing 'command' field`);\n          continue; // Skip invalid server\n        }\n\n        servers.push({\n          name,\n          command: serverConfig.command,\n          args: serverConfig.args || [],\n          env: serverConfig.env,\n          sourceTool: 'project'",
+      "tokens": 147,
+      "firstFile": {
+        "name": "src/cli/mcp-discovery.ts",
+        "start": 196,
+        "end": 214,
+        "startLoc": {
+          "line": 196,
+          "column": 64,
+          "position": 1293
+        },
+        "endLoc": {
+          "line": 214,
+          "column": 32,
+          "position": 1440
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/mcp-discovery.ts",
+        "start": 80,
+        "end": 98,
+        "startLoc": {
+          "line": 80,
+          "column": 73,
+          "position": 506
+        },
+        "endLoc": {
+          "line": 98,
+          "column": 27,
+          "position": 653
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "${versionString}`,\n        };\n      }\n\n      // Use direct index access to satisfy TypeScript strict mode\n      const major = parseInt(match[1]!, 10);\n      const minor = parseInt(match[2]!, 10);\n      const patch = parseInt(match[3]!, 10);\n      const version = `${major}.${minor}.${patch}`;\n\n      // Check minimum version\n      const",
+      "tokens": 104,
+      "firstFile": {
+        "name": "src/cli/dependency-checker.ts",
+        "start": 103,
+        "end": 114,
+        "startLoc": {
+          "line": 103,
+          "column": 58,
+          "position": 609
+        },
+        "endLoc": {
+          "line": 114,
+          "column": 12,
+          "position": 713
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/dependency-checker.ts",
+        "start": 43,
+        "end": 54,
+        "startLoc": {
+          "line": 43,
+          "column": 59,
+          "position": 207
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 9,
+          "position": 311
+        }
+      }
+    }
+  ]
+}

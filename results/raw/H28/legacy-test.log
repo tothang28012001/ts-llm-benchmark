@@ -1,0 +1,953 @@
+
+> ssr-sample@1.0.0 test /work
+> jest
+
+FAIL src/server/router.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/Apollo/Apollo.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/Saga/Saga.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/graphql/schema.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/actions/pages.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/controllers/renderer/renderer.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/CodeSamplesBox/CodeSamplesBox.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/actions/fetchSaga.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/reducers/pages.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/sagas/pages.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/sagas/fetchSaga.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/reducers/sagaPage.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/router/routes.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/Top/Top.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/renderFullPage.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/NotFound/NotFound.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/sagas/index.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/selectors/selectors.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/controllers/saga/saga.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/controllers/health/health.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/reducers/index.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/csp.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/router/Router.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/App/App.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/storyshots.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/store/configureStore.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+Failed to collect coverage from /work/src/client/reducers/sagaPage.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/sagas/pages.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/sagas/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/Apollo/Apollo.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/Apollo/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/NotFound/NotFound.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/App/App.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/Saga/Saga.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/NotFound/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/App/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/Saga/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/Top/Top.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/pages/Top/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/CodeSamplesBox/CodeSamplesBox.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/CodeSamplesBox/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/Head/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/Head/Head.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/router/Router.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/router/routes.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/router/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/selectors/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/selectors/selectors.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/graphql/constants.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/graphql/client.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/graphql/schema.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/controllers/renderer/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/controllers/renderer/renderer.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/controllers/health/health.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/controllers/health/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/controllers/saga/saga.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/reducers/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/apollo.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/controllers/saga/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/renderFullPage.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/responseSchema.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/router.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/server/csp.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/actions/fetchSaga.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/sagas/fetchSaga.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/Header/index.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/store/configureStore.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/components/Header/Header.tsx
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/reducers/pages.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+Failed to collect coverage from /work/src/client/actions/pages.ts
+ERROR: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+STACK: Error: Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+    at createEsmNotFoundErr (internal/modules/cjs/loader.js:958:15)
+    at finalizeEsmResolution (internal/modules/cjs/loader.js:951:15)
+    at resolveExports (internal/modules/cjs/loader.js:478:14)
+    at Function.Module._findPath (internal/modules/cjs/loader.js:518:31)
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:917:27)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:27)
+    at Module.require (internal/modules/cjs/loader.js:1003:19)
+    at require (internal/modules/cjs/helpers.js:107:18)
+    at Object.<anonymous> (/work/node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+Summary of all failing tests
+FAIL src/server/router.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/Apollo/Apollo.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/Saga/Saga.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/graphql/schema.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/actions/pages.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/controllers/renderer/renderer.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/CodeSamplesBox/CodeSamplesBox.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/actions/fetchSaga.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/reducers/pages.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/sagas/pages.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/sagas/fetchSaga.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/reducers/sagaPage.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/router/routes.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/Top/Top.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/renderFullPage.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/pages/NotFound/NotFound.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/sagas/index.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/selectors/selectors.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/controllers/saga/saga.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/controllers/health/health.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/reducers/index.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/server/csp.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/router/Router.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/App/App.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/components/storyshots.test.tsx
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+FAIL src/client/store/configureStore.test.ts
+  ● Test suite failed to run
+
+    Cannot find module '/work/node_modules/@babel/compat-data/data/corejs3-shipped-proposals'
+
+      at Object.<anonymous> (node_modules/@babel/preset-env/lib/polyfills/corejs3/usage-plugin.js:10:55)
+
+
+Test Suites: 26 failed, 26 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        14.174s
+Ran all test suites.
+npm ERR! Test failed.  See above for more details.

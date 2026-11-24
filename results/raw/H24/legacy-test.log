@@ -1,0 +1,33 @@
+yarn run v1.22.19
+$ jest
+FAIL __tests__/App-test.tsx
+  ● Test suite failed to run
+
+    SyntaxError: /work/node_modules/react-native/Libraries/polyfills/error-guard.js: Unexpected token, expected ";" (14:5)
+
+      12 | let _inGuard = 0;
+      13 | 
+    > 14 | type ErrorHandler = (error: mixed, isFatal: boolean) => void;
+         |      ^
+      15 | type Fn<Args, Return> = (...Args) => Return;
+      16 | 
+      17 | /**
+
+      at Parser._raise (node_modules/@babel/parser/lib/index.js:790:17)
+      at Parser.raiseWithData (node_modules/@babel/parser/lib/index.js:783:17)
+      at Parser.raise (node_modules/@babel/parser/lib/index.js:777:17)
+      at Parser.unexpected (node_modules/@babel/parser/lib/index.js:9095:16)
+      at Parser.semicolon (node_modules/@babel/parser/lib/index.js:9077:40)
+      at Parser.parseExpressionStatement (node_modules/@babel/parser/lib/index.js:12179:10)
+      at Parser.parseStatementContent (node_modules/@babel/parser/lib/index.js:11775:19)
+      at Parser.parseStatement (node_modules/@babel/parser/lib/index.js:11639:17)
+      at Parser.parseBlockOrModuleBlockBody (node_modules/@babel/parser/lib/index.js:12221:25)
+      at Parser.parseBlockBody (node_modules/@babel/parser/lib/index.js:12207:10)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.85s
+Ran all test suites.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

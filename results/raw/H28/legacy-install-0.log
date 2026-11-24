@@ -1,0 +1,164 @@
+
+> styled-components@4.4.1 postinstall /work/node_modules/styled-components
+> node ./scripts/postinstall.js || exit 0
+
+Use styled-components at work? Consider supporting our development efforts at https://opencollective.com/styled-components
+
+> core-js@3.6.4 postinstall /work/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> @apollo/protobufjs@1.0.3 postinstall /work/node_modules/@apollo/protobufjs
+> node scripts/postinstall
+
+
+> core-js@2.6.11 postinstall /work/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/utils/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/core/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/custom/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/jimp/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/bmp/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/types/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/tiff/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/png/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/jpeg/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/gif/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-blit/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugins/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-scale/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-rotate/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-resize/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-print/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-normalize/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-mask/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-invert/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-gaussian/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-flip/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-dither/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-displace/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-crop/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-cover/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-contain/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-color/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /work/node_modules/@jimp/plugin-blur/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> fsevents@1.2.9 install /work/node_modules/fsevents
+> node install
+
+
+> core-js@2.6.10 postinstall /work/node_modules/redux-saga-test-plan/node_modules/core-js
+> node postinstall || echo "ignore"
+
+
+> nodemon@2.0.2 postinstall /work/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+[32mLove nodemon? You can now support the project via the open collective:[22m[39m
+ > [96m[1mhttps://opencollective.com/nodemon/donate[0m
+
+
+> husky@4.2.3 install /work/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+fatal: not a git repository (or any of the parent directories): .git
+husky > Failed to install
+
+> husky@4.2.3 postinstall /work/node_modules/husky
+> opencollective-postinstall || exit 0
+
+
+> ejs@2.7.4 postinstall /work/node_modules/@storybook/core/node_modules/ejs
+> node ./postinstall.js
+
+
+> core-js-pure@3.6.4 postinstall /work/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+added 3564 packages in 60.402s

@@ -1,0 +1,3909 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T10:06:23.319Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/schema/userData.ts": {
+            "lines": 128,
+            "tokens": 558,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/schema/plant.ts": {
+            "lines": 253,
+            "tokens": 1093,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/tree.ts": {
+            "lines": 161,
+            "tokens": 1794,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/text.ts": {
+            "lines": 7,
+            "tokens": 46,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/taxonomy.ts": {
+            "lines": 118,
+            "tokens": 903,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 169,
+            "percentage": 14.41,
+            "percentageTokens": 18.72,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/taxonNames.ts": {
+            "lines": 173,
+            "tokens": 1353,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/tags.ts": {
+            "lines": 25,
+            "tokens": 289,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/storageEstimate.ts": {
+            "lines": 76,
+            "tokens": 649,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/spacing.ts": {
+            "lines": 73,
+            "tokens": 597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/sizeEdit.ts": {
+            "lines": 33,
+            "tokens": 258,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/size.ts": {
+            "lines": 25,
+            "tokens": 213,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/seasonalEdit.ts": {
+            "lines": 66,
+            "tokens": 619,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/rotation.ts": {
+            "lines": 171,
+            "tokens": 1461,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 169,
+            "percentage": 9.94,
+            "percentageTokens": 11.57,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/positionSplit.ts": {
+            "lines": 53,
+            "tokens": 544,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/positionEdit.ts": {
+            "lines": 55,
+            "tokens": 442,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/plot.ts": {
+            "lines": 145,
+            "tokens": 1456,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/plantForm.ts": {
+            "lines": 112,
+            "tokens": 1252,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/plantColor.ts": {
+            "lines": 22,
+            "tokens": 143,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/neighbourhood.ts": {
+            "lines": 66,
+            "tokens": 654,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/naming.ts": {
+            "lines": 52,
+            "tokens": 418,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/merge.ts": {
+            "lines": 92,
+            "tokens": 706,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/lifecycle.ts": {
+            "lines": 37,
+            "tokens": 320,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/jobs.ts": {
+            "lines": 314,
+            "tokens": 2987,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/importDiff.ts": {
+            "lines": 71,
+            "tokens": 620,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/factsEdit.ts": {
+            "lines": 47,
+            "tokens": 438,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/equal.ts": {
+            "lines": 23,
+            "tokens": 276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/editNode.ts": {
+            "lines": 59,
+            "tokens": 502,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/edibilityEdit.ts": {
+            "lines": 29,
+            "tokens": 204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/dataset.ts": {
+            "lines": 214,
+            "tokens": 2079,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/cx.ts": {
+            "lines": 6,
+            "tokens": 53,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/conditionsEdit.ts": {
+            "lines": 47,
+            "tokens": 360,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/conditions.ts": {
+            "lines": 144,
+            "tokens": 1662,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/companions.ts": {
+            "lines": 177,
+            "tokens": 2209,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/colour.ts": {
+            "lines": 51,
+            "tokens": 349,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/careEdit.ts": {
+            "lines": 85,
+            "tokens": 878,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calendarEdit.ts": {
+            "lines": 50,
+            "tokens": 488,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/calendar.ts": {
+            "lines": 107,
+            "tokens": 1021,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/browse.ts": {
+            "lines": 55,
+            "tokens": 624,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/backupNudge.ts": {
+            "lines": 46,
+            "tokens": 390,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/backup.ts": {
+            "lines": 91,
+            "tokens": 859,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/assets.ts": {
+            "lines": 12,
+            "tokens": 71,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useStorageEstimate.ts": {
+            "lines": 71,
+            "tokens": 626,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePersistentState.ts": {
+            "lines": 29,
+            "tokens": 232,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useBackupStatus.ts": {
+            "lines": 46,
+            "tokens": 335,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/db/seed.ts": {
+            "lines": 42,
+            "tokens": 405,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/db/db.ts": {
+            "lines": 60,
+            "tokens": 480,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/useIsNarrow.ts": {
+            "lines": 26,
+            "tokens": 196,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/useEditorDraft.ts": {
+            "lines": 66,
+            "tokens": 597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/theme.ts": {
+            "lines": 35,
+            "tokens": 261,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/taxonNames.ts": {
+            "lines": 71,
+            "tokens": 713,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/tasks.ts": {
+            "lines": 23,
+            "tokens": 224,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/plants.ts": {
+            "lines": 89,
+            "tokens": 891,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/jobs.ts": {
+            "lines": 42,
+            "tokens": 412,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/importReview.ts": {
+            "lines": 75,
+            "tokens": 754,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/garden.ts": {
+            "lines": 294,
+            "tokens": 3220,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/editNode.ts": {
+            "lines": 127,
+            "tokens": 1039,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 12,
+            "duplicatedTokens": 230,
+            "percentage": 9.45,
+            "percentageTokens": 22.14,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dataset.ts": {
+            "lines": 76,
+            "tokens": 624,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/dataSource.ts": {
+            "lines": 22,
+            "tokens": 131,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/backup.ts": {
+            "lines": 86,
+            "tokens": 741,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/taxonomy.steps.ts": {
+            "lines": 151,
+            "tokens": 2172,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/seed-demo.steps.ts": {
+            "lines": 80,
+            "tokens": 1052,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 250,
+            "percentage": 25,
+            "percentageTokens": 23.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/seasonal-interest.steps.ts": {
+            "lines": 164,
+            "tokens": 2259,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/neighbourhood.steps.ts": {
+            "lines": 60,
+            "tokens": 846,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/merge-import.steps.ts": {
+            "lines": 191,
+            "tokens": 3082,
+            "sources": 1,
+            "clones": 9,
+            "duplicatedLines": 88,
+            "duplicatedTokens": 1357,
+            "percentage": 46.07,
+            "percentageTokens": 44.03,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/manage-plants.steps.ts": {
+            "lines": 126,
+            "tokens": 1888,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 48,
+            "duplicatedTokens": 664,
+            "percentage": 38.1,
+            "percentageTokens": 35.17,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/jobs.steps.ts": {
+            "lines": 273,
+            "tokens": 3602,
+            "sources": 1,
+            "clones": 12,
+            "duplicatedLines": 126,
+            "duplicatedTokens": 1610,
+            "percentage": 46.15,
+            "percentageTokens": 44.7,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/import-review.steps.ts": {
+            "lines": 102,
+            "tokens": 1513,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 42,
+            "duplicatedTokens": 573,
+            "percentage": 41.18,
+            "percentageTokens": 37.87,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/garden-plan.steps.ts": {
+            "lines": 279,
+            "tokens": 3718,
+            "sources": 1,
+            "clones": 15,
+            "duplicatedLines": 124,
+            "duplicatedTokens": 1970,
+            "percentage": 44.44,
+            "percentageTokens": 52.99,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/edit-size.steps.ts": {
+            "lines": 92,
+            "tokens": 1285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/edit-position.steps.ts": {
+            "lines": 128,
+            "tokens": 1850,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/edit-facts.steps.ts": {
+            "lines": 79,
+            "tokens": 1156,
+            "sources": 1,
+            "clones": 3,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 414,
+            "percentage": 27.85,
+            "percentageTokens": 35.81,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/edit-edibility.steps.ts": {
+            "lines": 86,
+            "tokens": 1250,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/edit-conditions.steps.ts": {
+            "lines": 99,
+            "tokens": 1384,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/edit-care.steps.ts": {
+            "lines": 82,
+            "tokens": 1276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/edit-calendar.steps.ts": {
+            "lines": 105,
+            "tokens": 1397,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 260,
+            "percentage": 17.14,
+            "percentageTokens": 18.61,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/crop-rotation.steps.ts": {
+            "lines": 215,
+            "tokens": 3291,
+            "sources": 1,
+            "clones": 18,
+            "duplicatedLines": 218,
+            "duplicatedTokens": 3213,
+            "percentage": 101.4,
+            "percentageTokens": 97.63,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/companion-planting.steps.ts": {
+            "lines": 161,
+            "tokens": 2325,
+            "sources": 1,
+            "clones": 11,
+            "duplicatedLines": 120,
+            "duplicatedTokens": 1697,
+            "percentage": 74.53,
+            "percentageTokens": 72.99,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/common-names.steps.ts": {
+            "lines": 72,
+            "tokens": 1102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/cheatsheet.steps.ts": {
+            "lines": 123,
+            "tokens": 1413,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/browse.steps.ts": {
+            "lines": 89,
+            "tokens": 1122,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 38,
+            "duplicatedTokens": 472,
+            "percentage": 42.7,
+            "percentageTokens": 42.07,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "features/steps/backup.steps.ts": {
+            "lines": 130,
+            "tokens": 1596,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 7738,
+          "tokens": 84298,
+          "sources": 81,
+          "clones": 45,
+          "duplicatedLines": 455,
+          "duplicatedTokens": 6524,
+          "percentage": 5.88,
+          "percentageTokens": 7.74,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/pages/TaxonomyPage.tsx": {
+            "lines": 397,
+            "tokens": 5243,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/PlantFormPage.tsx": {
+            "lines": 314,
+            "tokens": 2859,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/JobsPage.tsx": {
+            "lines": 171,
+            "tokens": 1632,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/GardenPage.tsx": {
+            "lines": 256,
+            "tokens": 2370,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/CheatsheetPage.tsx": {
+            "lines": 54,
+            "tokens": 388,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/BrowsePage.tsx": {
+            "lines": 91,
+            "tokens": 690,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useToast.tsx": {
+            "lines": 12,
+            "tokens": 84,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/fields.tsx": {
+            "lines": 9,
+            "tokens": 78,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/PlotSizeModal.tsx": {
+            "lines": 81,
+            "tokens": 760,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/PlotCanvas.tsx": {
+            "lines": 558,
+            "tokens": 9350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/Palette.tsx": {
+            "lines": 36,
+            "tokens": 315,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/MobileDrawer.tsx": {
+            "lines": 14,
+            "tokens": 100,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/Inspector.tsx": {
+            "lines": 199,
+            "tokens": 2613,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/BottomSheet.tsx": {
+            "lines": 9,
+            "tokens": 42,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/icons.tsx": {
+            "lines": 18,
+            "tokens": 176,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Toast.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ThemeToggle.tsx": {
+            "lines": 3,
+            "tokens": 39,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/StorageUsage.tsx": {
+            "lines": 24,
+            "tokens": 147,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SizeEditor.tsx": {
+            "lines": 14,
+            "tokens": 204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SizeCard.tsx": {
+            "lines": 143,
+            "tokens": 1977,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SeasonalInterestEditor.tsx": {
+            "lines": 37,
+            "tokens": 409,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SeasonStrip.tsx": {
+            "lines": 83,
+            "tokens": 850,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PositionEditor.tsx": {
+            "lines": 26,
+            "tokens": 352,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PositionCard.tsx": {
+            "lines": 225,
+            "tokens": 2831,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PlantCard.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Placeholders.tsx": {
+            "lines": 1,
+            "tokens": 8,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/NeighbourhoodCard.tsx": {
+            "lines": 50,
+            "tokens": 510,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/KeyFacts.tsx": {
+            "lines": 41,
+            "tokens": 434,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ImportPanel.tsx": {
+            "lines": 170,
+            "tokens": 1776,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FilterPopover.tsx": {
+            "lines": 25,
+            "tokens": 185,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FieldEditorModal.tsx": {
+            "lines": 16,
+            "tokens": 124,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FactsEditor.tsx": {
+            "lines": 47,
+            "tokens": 466,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FactsCard.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ErrorBoundary.tsx": {
+            "lines": 8,
+            "tokens": 63,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EditorControls.tsx": {
+            "lines": 37,
+            "tokens": 245,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EdibilityEditor.tsx": {
+            "lines": 25,
+            "tokens": 304,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ConditionsEditor.tsx": {
+            "lines": 26,
+            "tokens": 352,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ConditionsCard.tsx": {
+            "lines": 122,
+            "tokens": 1295,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CommonNamesEditor.tsx": {
+            "lines": 68,
+            "tokens": 850,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Chip.tsx": {
+            "lines": 2,
+            "tokens": 16,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CheatsheetModal.tsx": {
+            "lines": 27,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Cheatsheet.tsx": {
+            "lines": 310,
+            "tokens": 2906,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CareEditor.tsx": {
+            "lines": 94,
+            "tokens": 773,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CalendarEditor.tsx": {
+            "lines": 51,
+            "tokens": 555,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CalendarBar.tsx": {
+            "lines": 91,
+            "tokens": 893,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BackupRestore.tsx": {
+            "lines": 36,
+            "tokens": 341,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BackupNudge.tsx": {
+            "lines": 1,
+            "tokens": 5,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 55,
+            "tokens": 549,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4080,
+          "tokens": 46441,
+          "sources": 48,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/pages/TaxonomyPage.tsx": {
+            "lines": 479,
+            "tokens": 6212,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/PlantFormPage.tsx": {
+            "lines": 351,
+            "tokens": 3361,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/JobsPage.tsx": {
+            "lines": 232,
+            "tokens": 2260,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/GardenPage.tsx": {
+            "lines": 497,
+            "tokens": 5303,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/DataPage.tsx": {
+            "lines": 28,
+            "tokens": 204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/CheatsheetPage.tsx": {
+            "lines": 72,
+            "tokens": 589,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/BrowsePage.tsx": {
+            "lines": 167,
+            "tokens": 1470,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useToast.tsx": {
+            "lines": 59,
+            "tokens": 448,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/fields.tsx": {
+            "lines": 44,
+            "tokens": 417,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/PlotSizeModal.tsx": {
+            "lines": 109,
+            "tokens": 981,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 133,
+            "percentage": 13.76,
+            "percentageTokens": 13.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/PlotCanvas.tsx": {
+            "lines": 617,
+            "tokens": 9904,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 224,
+            "percentage": 2.59,
+            "percentageTokens": 2.26,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/Palette.tsx": {
+            "lines": 100,
+            "tokens": 980,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/MobileDrawer.tsx": {
+            "lines": 37,
+            "tokens": 227,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/Inspector.tsx": {
+            "lines": 303,
+            "tokens": 3650,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/plot/BottomSheet.tsx": {
+            "lines": 41,
+            "tokens": 253,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/icons.tsx": {
+            "lines": 174,
+            "tokens": 1176,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Toast.tsx": {
+            "lines": 49,
+            "tokens": 270,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ThemeToggle.tsx": {
+            "lines": 30,
+            "tokens": 343,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/StorageUsage.tsx": {
+            "lines": 79,
+            "tokens": 585,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SizeEditor.tsx": {
+            "lines": 69,
+            "tokens": 715,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SizeCard.tsx": {
+            "lines": 185,
+            "tokens": 2284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SeasonalInterestEditor.tsx": {
+            "lines": 127,
+            "tokens": 1213,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/SeasonStrip.tsx": {
+            "lines": 157,
+            "tokens": 1833,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PositionEditor.tsx": {
+            "lines": 117,
+            "tokens": 1215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PositionCard.tsx": {
+            "lines": 268,
+            "tokens": 3079,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PlantCard.tsx": {
+            "lines": 52,
+            "tokens": 438,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Placeholders.tsx": {
+            "lines": 24,
+            "tokens": 198,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/NeighbourhoodCard.tsx": {
+            "lines": 106,
+            "tokens": 948,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/KeyFacts.tsx": {
+            "lines": 77,
+            "tokens": 660,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ImportPanel.tsx": {
+            "lines": 292,
+            "tokens": 3363,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FilterPopover.tsx": {
+            "lines": 72,
+            "tokens": 562,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FieldEditorModal.tsx": {
+            "lines": 93,
+            "tokens": 619,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FactsEditor.tsx": {
+            "lines": 111,
+            "tokens": 1076,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/FactsCard.tsx": {
+            "lines": 18,
+            "tokens": 190,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ErrorBoundary.tsx": {
+            "lines": 67,
+            "tokens": 497,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EditorControls.tsx": {
+            "lines": 80,
+            "tokens": 540,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/EdibilityEditor.tsx": {
+            "lines": 78,
+            "tokens": 768,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ConditionsEditor.tsx": {
+            "lines": 99,
+            "tokens": 1048,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ConditionsCard.tsx": {
+            "lines": 188,
+            "tokens": 2054,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CommonNamesEditor.tsx": {
+            "lines": 116,
+            "tokens": 1362,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Chip.tsx": {
+            "lines": 29,
+            "tokens": 164,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CheatsheetModal.tsx": {
+            "lines": 72,
+            "tokens": 668,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 15,
+            "duplicatedTokens": 133,
+            "percentage": 20.83,
+            "percentageTokens": 19.91,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Cheatsheet.tsx": {
+            "lines": 424,
+            "tokens": 4362,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CareEditor.tsx": {
+            "lines": 182,
+            "tokens": 1656,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CalendarEditor.tsx": {
+            "lines": 128,
+            "tokens": 1302,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CalendarBar.tsx": {
+            "lines": 158,
+            "tokens": 1467,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BackupRestore.tsx": {
+            "lines": 130,
+            "tokens": 1204,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BackupNudge.tsx": {
+            "lines": 35,
+            "tokens": 225,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 50,
+            "tokens": 337,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 79,
+            "tokens": 729,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 7151,
+          "tokens": 75409,
+          "sources": 50,
+          "clones": 2,
+          "duplicatedLines": 23,
+          "duplicatedTokens": 245,
+          "percentage": 0.32,
+          "percentageTokens": 0.32,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 18969,
+      "tokens": 206148,
+      "sources": 179,
+      "clones": 47,
+      "duplicatedLines": 478,
+      "duplicatedTokens": 6769,
+      "percentage": 2.52,
+      "percentageTokens": 3.28,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": "<K extends keyof PlantNode>(\n  startId: string,\n  byId: Map<string, PlantNode>,\n  field: K,\n): PlantNode[K] | undefined {\n  let current = byId.get(startId)\n  const seen = new Set<string>()\n  while (current && !seen.has(current.id)) {\n    if (current[field] !== undefined) return current[field]\n    seen.add(current.id)\n    current = current.parentId ? byId.get(current.parentId) : undefined\n  }\n  return undefined\n}\n\n/** Does this holding take part in rotation? Only veg that isn't *exclusively* perennial — a plant\n *  that can be grown as an annual (lifecycle unknown, or listing annual/biennial among its cycles)\n *  rotates; a perennial-only veg (rhubarb, asparagus) stays put and is excluded. */",
+      "tokens": 169,
+      "firstFile": {
+        "name": "src/lib/rotation.ts",
+        "start": 66,
+        "end": 83,
+        "startLoc": {
+          "line": 66,
+          "column": 22,
+          "position": 250
+        },
+        "endLoc": {
+          "line": 83,
+          "column": 85,
+          "position": 419
+        }
+      },
+      "secondFile": {
+        "name": "src/lib/taxonomy.ts",
+        "start": 41,
+        "end": 56,
+        "startLoc": {
+          "line": 41,
+          "column": 26,
+          "position": 134
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 7,
+          "position": 303
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 9,
+      "fragment": "}\n        {selection?.type === 'placement' &&\n          (() => {\n            const h = placements.find((x) => x.id === selection.id)\n            if (!h || !h.region) return null\n            const bed = bedById(h.bedId)\n            if (!bed) return null\n            const region = placementRegion(h)\n            const p",
+      "tokens": 112,
+      "firstFile": {
+        "name": "src/components/plot/PlotCanvas.tsx",
+        "start": 579,
+        "end": 587,
+        "startLoc": {
+          "line": 579,
+          "column": 102,
+          "position": 9281
+        },
+        "endLoc": {
+          "line": 587,
+          "column": 20,
+          "position": 9393
+        }
+      },
+      "secondFile": {
+        "name": "src/components/plot/PlotCanvas.tsx",
+        "start": 544,
+        "end": 552,
+        "startLoc": {
+          "line": 544,
+          "column": 102,
+          "position": 8624
+        },
+        "endLoc": {
+          "line": 552,
+          "column": 25,
+          "position": 8736
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": ")\n\n  useEffect(() => {\n    function onKey(e: KeyboardEvent) {\n      if (e.key === 'Escape') onClose()\n    }\n    document.addEventListener('keydown', onKey)\n    const prevOverflow = document.body.style.overflow\n    document.body.style.overflow = 'hidden'\n    return () => {\n      document.removeEventListener('keydown', onKey)\n      document.body.style.overflow = prevOverflow\n    }\n  }, [onClose])\n\n  // On swap, jump back to the top so the new plant reads from its masthead.",
+      "tokens": 133,
+      "firstFile": {
+        "name": "src/components/CheatsheetModal.tsx",
+        "start": 17,
+        "end": 32,
+        "startLoc": {
+          "line": 17,
+          "column": 48,
+          "position": 183
+        },
+        "endLoc": {
+          "line": 32,
+          "column": 77,
+          "position": 316
+        }
+      },
+      "secondFile": {
+        "name": "src/components/plot/PlotSizeModal.tsx",
+        "start": 39,
+        "end": 54,
+        "startLoc": {
+          "line": 39,
+          "column": 56,
+          "position": 387
+        },
+        "endLoc": {
+          "line": 54,
+          "column": 9,
+          "position": 520
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": "\n  await db.transaction('rw', db.nodes, db.settings, async () => {\n    const node = await db.nodes.get(id)\n    if (!node) return\n    const provenance: Record<string, FieldSource> = { ...(node.provenance ?? {}) }\n    const bag = node as unknown as Record<string, unknown>\n    for",
+      "tokens": 115,
+      "firstFile": {
+        "name": "src/app/editNode.ts",
+        "start": 83,
+        "end": 89,
+        "startLoc": {
+          "line": 83,
+          "column": 99,
+          "position": 650
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 8,
+          "position": 765
+        }
+      },
+      "secondFile": {
+        "name": "src/app/editNode.ts",
+        "start": 58,
+        "end": 64,
+        "startLoc": {
+          "line": 58,
+          "column": 104,
+          "position": 405
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 7,
+          "position": 520
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "('the bundled demo dataset has {int} nodes', (_, count: number) => stubDemoFetch(count))\n    When('the app runs its first-run seed', () => seedDemoIfEmpty())\n    Then('the store holds {int} nodes', async (_, count: number) => {\n      expect(await db.nodes.count()).toBe(count)\n    })\n    And('the data source is marked as demo', async () => {\n      expect(await dataSource()).toBe('demo')\n    })\n  })\n\n  Scenario(\"The seed never clobbers a user's own import\"",
+      "tokens": 125,
+      "firstFile": {
+        "name": "features/steps/seed-demo.steps.ts",
+        "start": 53,
+        "end": 63,
+        "startLoc": {
+          "line": 53,
+          "column": 8,
+          "position": 673
+        },
+        "endLoc": {
+          "line": 63,
+          "column": 57,
+          "position": 798
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/seed-demo.steps.ts",
+        "start": 37,
+        "end": 47,
+        "startLoc": {
+          "line": 37,
+          "column": 10,
+          "position": 429
+        },
+        "endLoc": {
+          "line": 47,
+          "column": 63,
+          "position": 554
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": " }) => {\n    Given('I import from {string} a node {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await importNode(source, id, rows[0])\n    })\n    When('I import from {string} a node {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await importNode(source, id, rows[0])\n    })\n    Then('node {string} has commonName {string}', async (_, id: string, value: string) => {\n      expect((await db.nodes.get(id))?.commonName).toBe(value)\n    })\n  ",
+      "tokens": 179,
+      "firstFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 83,
+        "end": 93,
+        "startLoc": {
+          "line": 83,
+          "column": 100,
+          "position": 1143
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 3,
+          "position": 1322
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 65,
+        "end": 75,
+        "startLoc": {
+          "line": 65,
+          "column": 106,
+          "position": 818
+        },
+        "endLoc": {
+          "line": 75,
+          "column": 5,
+          "position": 997
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, When, Then, And }) => {\n    Given('I import from {string} a node {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await importNode(source, id, rows[0])\n    })\n    When('I import from {string} a node {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await importNode(source, id, rows[0])\n    })\n    Then('node {string} field {string} came from {string}'",
+      "tokens": 140,
+      "firstFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 95,
+        "end": 102,
+        "startLoc": {
+          "line": 95,
+          "column": 65,
+          "position": 1331
+        },
+        "endLoc": {
+          "line": 102,
+          "column": 59,
+          "position": 1471
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 65,
+        "end": 72,
+        "startLoc": {
+          "line": 65,
+          "column": 79,
+          "position": 803
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 49,
+          "position": 943
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, When, Then, And }) => {\n    Given('I import from {string} a node {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await importNode(source, id, rows[0])\n    })\n    When('I import from {string} a node {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await importNode(source, id, rows[0])\n    })\n    Then('node {string} fact {string} is {string}'",
+      "tokens": 140,
+      "firstFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 137,
+        "end": 144,
+        "startLoc": {
+          "line": 137,
+          "column": 90,
+          "position": 2128
+        },
+        "endLoc": {
+          "line": 144,
+          "column": 51,
+          "position": 2268
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 65,
+        "end": 72,
+        "startLoc": {
+          "line": 65,
+          "column": 79,
+          "position": 803
+        },
+        "endLoc": {
+          "line": 72,
+          "column": 49,
+          "position": 943
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 19,
+      "fragment": ")\n}\n\nasync function dataSource(): Promise<unknown> {\n  return (await db.settings.get('dataSource'))?.value\n}\n\ndescribeFeature(feature, ({ Background, Scenario }) => {\n  Background(({ Given }) => {\n    Given('the store starts empty', async () => {\n      await db.nodes.clear()\n      await db.guides.clear()\n      await db.tasks.clear()\n      await db.settings.clear()\n      expect(await db.nodes.count()).toBe(0)\n    })\n  })\n\n  Scenario('Adding a plant stamps its fields as hand-entered and protects the store'",
+      "tokens": 168,
+      "firstFile": {
+        "name": "features/steps/manage-plants.steps.ts",
+        "start": 21,
+        "end": 39,
+        "startLoc": {
+          "line": 21,
+          "column": 48,
+          "position": 294
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 85,
+          "position": 462
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 47,
+        "end": 65,
+        "startLoc": {
+          "line": 47,
+          "column": 3,
+          "position": 634
+        },
+        "endLoc": {
+          "line": 65,
+          "column": 79,
+          "position": 802
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": " }) => {\n    Given('I import from {string} a node {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await importNode(source, id, rows[0])\n    })\n    When('I edit node {string} setting commonName {string}', async (_, id: string, value: string) => {\n      await editField(id, 'commonName', value)\n    })\n    Then('node {string} field {string} came from {string}'",
+      "tokens": 114,
+      "firstFile": {
+        "name": "features/steps/manage-plants.steps.ts",
+        "start": 82,
+        "end": 89,
+        "startLoc": {
+          "line": 82,
+          "column": 85,
+          "position": 1215
+        },
+        "endLoc": {
+          "line": 89,
+          "column": 59,
+          "position": 1329
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/manage-plants.steps.ts",
+        "start": 64,
+        "end": 71,
+        "startLoc": {
+          "line": 64,
+          "column": 114,
+          "position": 900
+        },
+        "endLoc": {
+          "line": 71,
+          "column": 49,
+          "position": 1014
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ")\n    })\n    Then('node {string} has commonName {string}', async (_, id: string, value: string) => {\n      expect((await db.nodes.get(id))?.commonName).toBe(value)\n    })\n    And('node {string} field {string} came from {string}', async (_, id: string, field: string, source: string) => {\n      expect((await db.nodes.get(id))?.provenance?.[field]?.source).toBe(source)\n    })\n  ",
+      "tokens": 134,
+      "firstFile": {
+        "name": "features/steps/manage-plants.steps.ts",
+        "start": 116,
+        "end": 124,
+        "startLoc": {
+          "line": 116,
+          "column": 33,
+          "position": 1748
+        },
+        "endLoc": {
+          "line": 124,
+          "column": 3,
+          "position": 1882
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/manage-plants.steps.ts",
+        "start": 41,
+        "end": 49,
+        "startLoc": {
+          "line": 41,
+          "column": 42,
+          "position": 524
+        },
+        "endLoc": {
+          "line": 49,
+          "column": 5,
+          "position": 658
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "('I grow {string}', async (_, nodeId: string) => {\n      await grow(nodeId)\n    })\n    And('a maintenance task {string} on {string} in months {string}', async (_, action: string, scope: string, months: string) => {\n      await addTask(action, scope, months)\n    })\n    When('I list the jobs', list)\n    Then('{string} includes the job {string} for {string}', (_, month: string, action: string, subject: string) => {\n      expectJobInMonth(month, action, subject)\n    })\n    And('{string} has {int} job'",
+      "tokens": 144,
+      "firstFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 135,
+        "end": 145,
+        "startLoc": {
+          "line": 135,
+          "column": 8,
+          "position": 1606
+        },
+        "endLoc": {
+          "line": 145,
+          "column": 33,
+          "position": 1750
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 113,
+        "end": 123,
+        "startLoc": {
+          "line": 113,
+          "column": 10,
+          "position": 1311
+        },
+        "endLoc": {
+          "line": 123,
+          "column": 58,
+          "position": 1455
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('I grow {string}', async (_, nodeId: string) => {\n      await grow(nodeId)\n    })\n    And('a maintenance task {string} on {string} in months {string}', async (_, action: string, scope: string, months: string) => {\n      await addTask(action, scope, months)\n    })\n    When('I list the jobs', list)\n    Then('the anytime list includes {string}'",
+      "tokens": 121,
+      "firstFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 154,
+        "end": 162,
+        "startLoc": {
+          "line": 154,
+          "column": 79,
+          "position": 1885
+        },
+        "endLoc": {
+          "line": 162,
+          "column": 46,
+          "position": 2006
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 112,
+        "end": 120,
+        "startLoc": {
+          "line": 112,
+          "column": 101,
+          "position": 1286
+        },
+        "endLoc": {
+          "line": 120,
+          "column": 59,
+          "position": 1407
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ")\n    })\n    And('I grow {string}', async (_, nodeId: string) => {\n      await grow(nodeId)\n    })\n    And('a maintenance task {string} on {string} in months {string}', async (_, action: string, scope: string, months: string) => {\n      await addTask(action, scope, months)\n    })\n    When('I list the jobs', list)\n    Then('{string} includes the job {string} for {string}', (_, month: string, action: string, subject: string) => {\n      expectJobInMonth(month, action, subject)\n    })\n    And('{string} has no jobs'",
+      "tokens": 152,
+      "firstFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 172,
+        "end": 184,
+        "startLoc": {
+          "line": 172,
+          "column": 58,
+          "position": 2178
+        },
+        "endLoc": {
+          "line": 184,
+          "column": 31,
+          "position": 2330
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 133,
+        "end": 123,
+        "startLoc": {
+          "line": 133,
+          "column": 24,
+          "position": 1598
+        },
+        "endLoc": {
+          "line": 123,
+          "column": 58,
+          "position": 1455
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('I grow {string}', async (_, nodeId: string) => {\n      await grow(nodeId)\n    })\n    And('a maintenance task {string} on {string} in months {string}', async (_, action: string, scope: string, months: string) => {\n      await addTask(action, scope, months)\n    })\n    And",
+      "tokens": 110,
+      "firstFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 202,
+        "end": 209,
+        "startLoc": {
+          "line": 202,
+          "column": 80,
+          "position": 2554
+        },
+        "endLoc": {
+          "line": 209,
+          "column": 8,
+          "position": 2664
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 112,
+        "end": 119,
+        "startLoc": {
+          "line": 112,
+          "column": 101,
+          "position": 1286
+        },
+        "endLoc": {
+          "line": 119,
+          "column": 9,
+          "position": 1396
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "('I grow {string}', async (_, nodeId: string) => {\n      await grow(nodeId)\n    })\n    And('a maintenance task {string} on {string} in months {string}', async (_, action: string, scope: string, months: string) => {\n      await addTask(action, scope, months)\n    })\n    And('another maintenance task {string} on {string} in months {string}', async (_, action: string, scope: string, months: string) => {\n      await addTask(action, scope, months)\n    })\n    When('I group the jobs for {string}', async (_, month: string) => {\n      await groupFor(month)\n    })\n    Then('there are {int} plant rows'",
+      "tokens": 173,
+      "firstFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 233,
+        "end": 245,
+        "startLoc": {
+          "line": 233,
+          "column": 8,
+          "position": 3011
+        },
+        "endLoc": {
+          "line": 245,
+          "column": 38,
+          "position": 3184
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 203,
+        "end": 215,
+        "startLoc": {
+          "line": 203,
+          "column": 10,
+          "position": 2579
+        },
+        "endLoc": {
+          "line": 215,
+          "column": 36,
+          "position": 2752
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": "\n}\n\ndescribeFeature(feature, ({ Background, Scenario }) => {\n  Background(({ Given }) => {\n    Given('the store starts empty', async () => {\n      await db.nodes.clear()\n      await db.guides.clear()\n      await db.tasks.clear()\n      await db.settings.clear()\n      expect(await db.nodes.count()).toBe(0)\n    })\n  })\n\n  Scenario('The review classifies each incoming field as new, changed or unchanged'",
+      "tokens": 129,
+      "firstFile": {
+        "name": "features/steps/import-review.steps.ts",
+        "start": 28,
+        "end": 42,
+        "startLoc": {
+          "line": 28,
+          "column": 71,
+          "position": 398
+        },
+        "endLoc": {
+          "line": 42,
+          "column": 84,
+          "position": 527
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 51,
+        "end": 65,
+        "startLoc": {
+          "line": 51,
+          "column": 54,
+          "position": 673
+        },
+        "endLoc": {
+          "line": 65,
+          "column": 79,
+          "position": 802
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": " }) => {\n    Given('a node {string} exists with commonName {string} and family {string}', async (_, id: string, cn: string, fam: string) => {\n      await seedNode(id, cn, fam)\n    })\n    When('I build an import review from a {string} fragment for {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await build(source, id, rows[0])\n    })\n    And",
+      "tokens": 118,
+      "firstFile": {
+        "name": "features/steps/import-review.steps.ts",
+        "start": 54,
+        "end": 61,
+        "startLoc": {
+          "line": 54,
+          "column": 115,
+          "position": 760
+        },
+        "endLoc": {
+          "line": 61,
+          "column": 8,
+          "position": 878
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/import-review.steps.ts",
+        "start": 42,
+        "end": 49,
+        "startLoc": {
+          "line": 42,
+          "column": 106,
+          "position": 540
+        },
+        "endLoc": {
+          "line": 49,
+          "column": 9,
+          "position": 658
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "\n    When('I build an import review from a {string} fragment for {string} with:', async (_, source: string, id: string, rows: Row[]) => {\n      await build(source, id, rows[0])\n    })\n    And('I apply the review keeping only {string} for {string}', async (_, fields: string, id: string) => {\n      await apply(id, fields)\n    })\n    Then('the data source is marked as user-owned'",
+      "tokens": 104,
+      "firstFile": {
+        "name": "features/steps/import-review.steps.ts",
+        "start": 90,
+        "end": 97,
+        "startLoc": {
+          "line": 90,
+          "column": 98,
+          "position": 1362
+        },
+        "endLoc": {
+          "line": 97,
+          "column": 51,
+          "position": 1466
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/import-review.steps.ts",
+        "start": 57,
+        "end": 64,
+        "startLoc": {
+          "line": 57,
+          "column": 7,
+          "position": 819
+        },
+        "endLoc": {
+          "line": 64,
+          "column": 44,
+          "position": 923
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": "\n\nasync function clearAll(): Promise<void> {\n  await Promise.all([\n    db.nodes.clear(),\n    db.guides.clear(),\n    db.tasks.clear(),\n    db.holdings.clear(),\n    db.beds.clear(),\n    db.jobLog.clear(),\n    db.settings.clear(),\n  ])\n}\n\nasync",
+      "tokens": 104,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 25,
+        "end": 39,
+        "startLoc": {
+          "line": 25,
+          "column": 39,
+          "position": 159
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 6,
+          "position": 263
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 15,
+        "end": 29,
+        "startLoc": {
+          "line": 15,
+          "column": 24,
+          "position": 160
+        },
+        "endLoc": {
+          "line": 29,
+          "column": 88,
+          "position": 264
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ", ({ Given, When, Then }) => {\n    Given('a {string} bed {string} measuring {string} by {string}', async (_, _mode: string, id: string, w: string, h: string) => {\n      await addFreeBed(id, w, h)\n    })\n    When('I place {string} on {string} as a {string} over the whole bed', async (_, node: string, bed: string, shape: string) => {\n      await placeWholeBed(node, bed, shape as PlacementShape)\n    })\n    Then('that planting is a {string} holding with quantity {int}', async (_, shape: string, qty: number) => {\n      const h = await reloadPlacement()\n      expect(h.shape).toBe(shape)\n      expect(h.quantity).toBe(qty)\n    })\n  })\n\n  Scenario('Converting an area block to a pot drops it to one plant'",
+      "tokens": 213,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 115,
+        "end": 129,
+        "startLoc": {
+          "line": 115,
+          "column": 63,
+          "position": 1276
+        },
+        "endLoc": {
+          "line": 129,
+          "column": 69,
+          "position": 1489
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 101,
+        "end": 115,
+        "startLoc": {
+          "line": 101,
+          "column": 58,
+          "position": 1062
+        },
+        "endLoc": {
+          "line": 115,
+          "column": 63,
+          "position": 1275
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": " }) => {\n    Given('a {string} bed {string} measuring {string} by {string}', async (_, _mode: string, id: string, w: string, h: string) => {\n      await addFreeBed(id, w, h)\n    })\n    When('I place {string} on {string} over the whole bed', async (_, node: string, bed: string) => {\n      await placeWholeBed(node, bed)\n    })\n    Then('that planting is a holding of {string} with quantity {int}'",
+      "tokens": 112,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 146,
+        "end": 153,
+        "startLoc": {
+          "line": 146,
+          "column": 91,
+          "position": 1750
+        },
+        "endLoc": {
+          "line": 153,
+          "column": 70,
+          "position": 1862
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 81,
+        "end": 88,
+        "startLoc": {
+          "line": 81,
+          "column": 104,
+          "position": 780
+        },
+        "endLoc": {
+          "line": 88,
+          "column": 40,
+          "position": 892
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('a {string} bed {string} measuring {string} by {string}', async (_, _mode: string, id: string, w: string, h: string) => {\n      await addFreeBed(id, w, h)\n    })\n    And('I have placed {string} on {string} over the whole bed', async (_, node: string, bed: string) => {\n      await placeWholeBed(node, bed)\n    })\n    When('I move that placement to a region {string} by {string}'",
+      "tokens": 127,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 160,
+        "end": 167,
+        "startLoc": {
+          "line": 160,
+          "column": 53,
+          "position": 1939
+        },
+        "endLoc": {
+          "line": 167,
+          "column": 66,
+          "position": 2066
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 129,
+        "end": 136,
+        "startLoc": {
+          "line": 129,
+          "column": 69,
+          "position": 1490
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 48,
+          "position": 1617
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('a {string} bed {string} measuring {string} by {string}', async (_, _mode: string, id: string, w: string, h: string) => {\n      await addFreeBed(id, w, h)\n    })\n    And('I have placed {string} on {string} over the whole bed', async (_, node: string, bed: string) => {\n      await placeWholeBed(node, bed)\n    })\n    When('I set the placement quantity to {int}'",
+      "tokens": 127,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 175,
+        "end": 182,
+        "startLoc": {
+          "line": 175,
+          "column": 41,
+          "position": 2194
+        },
+        "endLoc": {
+          "line": 182,
+          "column": 49,
+          "position": 2321
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 129,
+        "end": 136,
+        "startLoc": {
+          "line": 129,
+          "column": 69,
+          "position": 1490
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 48,
+          "position": 1617
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('a {string} bed {string} measuring {string} by {string}', async (_, _mode: string, id: string, w: string, h: string) => {\n      await addFreeBed(id, w, h)\n    })\n    And('I have placed {string} on {string} over the whole bed', async (_, node: string, bed: string) => {\n      await placeWholeBed(node, bed)\n    })\n    When('I set the placement colour to {string}'",
+      "tokens": 127,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 190,
+        "end": 197,
+        "startLoc": {
+          "line": 190,
+          "column": 64,
+          "position": 2412
+        },
+        "endLoc": {
+          "line": 197,
+          "column": 50,
+          "position": 2539
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 129,
+        "end": 136,
+        "startLoc": {
+          "line": 129,
+          "column": 69,
+          "position": 1490
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 48,
+          "position": 1617
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('a {string} bed {string} measuring {string} by {string}', async (_, _mode: string, id: string, w: string, h: string) => {\n      await addFreeBed(id, w, h)\n    })\n    And('I have placed {string} on {string} over the whole bed', async (_, node: string, bed: string) => {\n      await placeWholeBed(node, bed)\n    })\n    When('I remove bed {string}'",
+      "tokens": 127,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 211,
+        "end": 218,
+        "startLoc": {
+          "line": 211,
+          "column": 71,
+          "position": 2700
+        },
+        "endLoc": {
+          "line": 218,
+          "column": 33,
+          "position": 2827
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 129,
+        "end": 136,
+        "startLoc": {
+          "line": 129,
+          "column": 69,
+          "position": 1490
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 48,
+          "position": 1617
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 7,
+      "fragment": "('a {string} bed {string} measuring {string} by {string}', async (_, _mode: string, id: string, w: string, h: string) => {\n      await addFreeBed(id, w, h)\n    })\n    And('I have placed {string} on {string} over the whole bed', async (_, node: string, bed: string) => {\n      await placeWholeBed(node, bed)\n    })\n    And",
+      "tokens": 100,
+      "firstFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 264,
+        "end": 270,
+        "startLoc": {
+          "line": 264,
+          "column": 8,
+          "position": 3492
+        },
+        "endLoc": {
+          "line": 270,
+          "column": 8,
+          "position": 3592
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/garden-plan.steps.ts",
+        "start": 130,
+        "end": 136,
+        "startLoc": {
+          "line": 130,
+          "column": 10,
+          "position": 1515
+        },
+        "endLoc": {
+          "line": 136,
+          "column": 9,
+          "position": 1615
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ")\n    })\n    Then('node {string} fact {string} is {string}', async (_, id: string, key: string, value: string) => {\n      expect((await db.nodes.get(id))?.facts?.[key]).toBe(value)\n    })\n    And('node {string} fact {string} is {string}', async (_, id: string, key: string, value: string) => {\n      expect((await db.nodes.get(id))?.facts?.[key]).toBe(value)\n    })\n    ",
+      "tokens": 142,
+      "firstFile": {
+        "name": "features/steps/edit-facts.steps.ts",
+        "start": 38,
+        "end": 46,
+        "startLoc": {
+          "line": 38,
+          "column": 30,
+          "position": 481
+        },
+        "endLoc": {
+          "line": 46,
+          "column": 5,
+          "position": 623
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/merge-import.steps.ts",
+        "start": 142,
+        "end": 150,
+        "startLoc": {
+          "line": 142,
+          "column": 43,
+          "position": 2259
+        },
+        "endLoc": {
+          "line": 150,
+          "column": 3,
+          "position": 2401
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ When, Then, And }) => {\n    When('I set node {string} facts to:', async (_, id: string, rows: Row[]) => {\n      await setFacts(id, rows)\n    })\n    Then('node {string} fact {string} is {string}', async (_, id: string, key: string, value: string) => {\n      expect((await db.nodes.get(id))?.facts?.[key]).toBe(value)\n    })\n    And('node {string} has no fact {string}'",
+      "tokens": 136,
+      "firstFile": {
+        "name": "features/steps/edit-facts.steps.ts",
+        "start": 51,
+        "end": 58,
+        "startLoc": {
+          "line": 51,
+          "column": 49,
+          "position": 695
+        },
+        "endLoc": {
+          "line": 58,
+          "column": 45,
+          "position": 831
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/edit-facts.steps.ts",
+        "start": 36,
+        "end": 43,
+        "startLoc": {
+          "line": 36,
+          "column": 70,
+          "position": 422
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 50,
+          "position": 558
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "('node {string} has harvest in months {string}', async (_, id: string, monthList: string) => {\n      expect(await savedMonths(id, 'harvest')).toEqual(months(monthList))\n    })\n    And('node {string} calendar is sourced from {string}', async (_, id: string, source: string) => {\n      const saved = await db.nodes.get(id)\n      expect(saved!.provenance?.calendar?.source).toBe(source)\n    })\n  })\n\n  Scenario(\"Clearing a cultivar's calendar override re-inherits from the species\"",
+      "tokens": 130,
+      "firstFile": {
+        "name": "features/steps/edit-calendar.steps.ts",
+        "start": 79,
+        "end": 88,
+        "startLoc": {
+          "line": 79,
+          "column": 8,
+          "position": 978
+        },
+        "endLoc": {
+          "line": 88,
+          "column": 82,
+          "position": 1108
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/edit-calendar.steps.ts",
+        "start": 62,
+        "end": 71,
+        "startLoc": {
+          "line": 62,
+          "column": 9,
+          "position": 725
+        },
+        "endLoc": {
+          "line": 71,
+          "column": 79,
+          "position": 855
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": "[]\n\nasync function clearAll(): Promise<void> {\n  await Promise.all([\n    db.nodes.clear(),\n    db.guides.clear(),\n    db.tasks.clear(),\n    db.holdings.clear(),\n    db.beds.clear(),\n    db.jobLog.clear(),\n    db.settings.clear(),\n  ])\n}\n\n/** Place a plant over the whole of the current bed, stamped with `year`. */",
+      "tokens": 106,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 15,
+        "end": 29,
+        "startLoc": {
+          "line": 15,
+          "column": 31,
+          "position": 129
+        },
+        "endLoc": {
+          "line": 29,
+          "column": 77,
+          "position": 235
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/jobs.steps.ts",
+        "start": 15,
+        "end": 29,
+        "startLoc": {
+          "line": 15,
+          "column": 22,
+          "position": 158
+        },
+        "endLoc": {
+          "line": 29,
+          "column": 88,
+          "position": 264
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    And('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    When('I check rotation for {int}', async (_, year: number) => {\n      rotation = await listRotation(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} is not warned'",
+      "tokens": 178,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 97,
+        "end": 107,
+        "startLoc": {
+          "line": 97,
+          "column": 53,
+          "position": 1429
+        },
+        "endLoc": {
+          "line": 107,
+          "column": 34,
+          "position": 1607
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 77,
+        "end": 87,
+        "startLoc": {
+          "line": 77,
+          "column": 58,
+          "position": 1111
+        },
+        "endLoc": {
+          "line": 87,
+          "column": 30,
+          "position": 1289
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    And('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    When('I check rotation for {int}', async (_, year: number) => {\n      rotation = await listRotation(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} is not warned', (_, bed: string) => {\n      expect(bedRotation(bed)?.conflicts ?? []).toEqual([])\n    })\n  })\n\n  Scenario('Perennials never trigger a rotation warning'",
+      "tokens": 231,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 112,
+        "end": 127,
+        "startLoc": {
+          "line": 112,
+          "column": 62,
+          "position": 1661
+        },
+        "endLoc": {
+          "line": 127,
+          "column": 57,
+          "position": 1892
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 77,
+        "end": 112,
+        "startLoc": {
+          "line": 77,
+          "column": 58,
+          "position": 1111
+        },
+        "endLoc": {
+          "line": 112,
+          "column": 62,
+          "position": 1660
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    And('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    When('I check rotation for {int}', async (_, year: number) => {\n      rotation = await listRotation(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} is not warned', (_, bed: string) => {\n      expect(bedRotation(bed)?.conflicts ?? []).toEqual([])\n    })\n  })\n\n  Scenario('A container bed never warns — pots get fresh compost each year'",
+      "tokens": 231,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 127,
+        "end": 142,
+        "startLoc": {
+          "line": 127,
+          "column": 57,
+          "position": 1893
+        },
+        "endLoc": {
+          "line": 142,
+          "column": 76,
+          "position": 2124
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 77,
+        "end": 112,
+        "startLoc": {
+          "line": 77,
+          "column": 58,
+          "position": 1111
+        },
+        "endLoc": {
+          "line": 112,
+          "column": 62,
+          "position": 1660
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": "\n      await place(node, bed, year)\n    })\n    And('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    When('I check rotation for {int}', async (_, year: number) => {\n      rotation = await listRotation(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} is not warned', (_, bed: string) => {\n      expect(bedRotation(bed)?.conflicts ?? []).toEqual([])\n    })\n  })\n\n  Scenario('A perennial-only veg is exempt'",
+      "tokens": 175,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 144,
+        "end": 158,
+        "startLoc": {
+          "line": 144,
+          "column": 34,
+          "position": 2198
+        },
+        "endLoc": {
+          "line": 158,
+          "column": 44,
+          "position": 2373
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 78,
+        "end": 112,
+        "startLoc": {
+          "line": 78,
+          "column": 106,
+          "position": 1167
+        },
+        "endLoc": {
+          "line": 112,
+          "column": 62,
+          "position": 1660
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    And('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    When('I check rotation for {int}', async (_, year: number) => {\n      rotation = await listRotation(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} is not warned', (_, bed: string) => {\n      expect(bedRotation(bed)?.conflicts ?? []).toEqual([])\n    })\n  })\n\n  Scenario('Rolling a year forward seeds next year and surfaces the clash'",
+      "tokens": 231,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 158,
+        "end": 173,
+        "startLoc": {
+          "line": 158,
+          "column": 44,
+          "position": 2374
+        },
+        "endLoc": {
+          "line": 173,
+          "column": 75,
+          "position": 2605
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 77,
+        "end": 112,
+        "startLoc": {
+          "line": 77,
+          "column": 58,
+          "position": 1111
+        },
+        "endLoc": {
+          "line": 112,
+          "column": 62,
+          "position": 1660
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ")\n    })\n    When('I check rotation for {int}', async (_, year: number) => {\n      rotation = await listRotation(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} is warned', (_, bed: string) => {\n      expect(bedRotation(bed)?.conflicts.length ?? 0).toBeGreaterThan(0)\n    })\n    And('the warning names family {string} last grown in {int}', (_, family: string, year: number) => {\n      const c = bedRotation('bed1')!.conflicts.find((x) => x.family === family)\n      expect(c?",
+      "tokens": 164,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 186,
+        "end": 196,
+        "startLoc": {
+          "line": 186,
+          "column": 42,
+          "position": 2868
+        },
+        "endLoc": {
+          "line": 196,
+          "column": 16,
+          "position": 3032
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 82,
+        "end": 92,
+        "startLoc": {
+          "line": 82,
+          "column": 34,
+          "position": 1232
+        },
+        "endLoc": {
+          "line": 92,
+          "column": 16,
+          "position": 1396
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    And('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    When('I roll the {int} plot over into {int}'",
+      "tokens": 130,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 200,
+        "end": 207,
+        "startLoc": {
+          "line": 200,
+          "column": 74,
+          "position": 3055
+        },
+        "endLoc": {
+          "line": 207,
+          "column": 49,
+          "position": 3185
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 77,
+        "end": 84,
+        "startLoc": {
+          "line": 77,
+          "column": 58,
+          "position": 1111
+        },
+        "endLoc": {
+          "line": 84,
+          "column": 38,
+          "position": 1241
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "('{string} placed on {string} in {int}', async (_, node: string, bed: string, year: number) => {\n      await place(node, bed, year)\n    })\n    When('I roll the {int} plot over into {int}', async (_, from: number, to: number) => {\n      await rollOverYear(from, to, CURRENT_YEAR)\n    })\n    Then('{string} holds {int} planting for {int}', async (_, bed: string, n: number, year: number) => {\n      expect(await countInBedForYear(bed, year)).toBe(n)\n    })\n  ",
+      "tokens": 153,
+      "firstFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 204,
+        "end": 213,
+        "startLoc": {
+          "line": 204,
+          "column": 8,
+          "position": 3132
+        },
+        "endLoc": {
+          "line": 213,
+          "column": 3,
+          "position": 3285
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 174,
+        "end": 183,
+        "startLoc": {
+          "line": 174,
+          "column": 10,
+          "position": 2631
+        },
+        "endLoc": {
+          "line": 183,
+          "column": 5,
+          "position": 2784
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": "[] = []\n\nasync function clearAll(): Promise<void> {\n  await Promise.all([\n    db.nodes.clear(),\n    db.guides.clear(),\n    db.tasks.clear(),\n    db.holdings.clear(),\n    db.beds.clear(),\n    db.jobLog.clear(),\n    db.settings.clear(),\n  ])\n}\n\nasync function addFreeBed(id: string)",
+      "tokens": 121,
+      "firstFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 10,
+        "end": 24,
+        "startLoc": {
+          "line": 10,
+          "column": 30,
+          "position": 103
+        },
+        "endLoc": {
+          "line": 24,
+          "column": 38,
+          "position": 224
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/crop-rotation.steps.ts",
+        "start": 15,
+        "end": 39,
+        "startLoc": {
+          "line": 15,
+          "column": 26,
+          "position": 124
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 38,
+          "position": 273
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    And('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    When('I check companions for {int}', async (_, year: number) => {\n      companions = await listCompanions(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} warns against {string} next to {string}'",
+      "tokens": 160,
+      "firstFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 83,
+        "end": 93,
+        "startLoc": {
+          "line": 83,
+          "column": 51,
+          "position": 1212
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 60,
+          "position": 1372
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 68,
+        "end": 78,
+        "startLoc": {
+          "line": 68,
+          "column": 59,
+          "position": 987
+        },
+        "endLoc": {
+          "line": 78,
+          "column": 54,
+          "position": 1147
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    And('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    When('I check companions for {int}', async (_, year: number) => {\n      companions = await listCompanions(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} recommends {string} with {string}', (_, bed: string, x: string, y: string) => {\n      expect(hasPairing(bed, 'good', x, y)).toBe(true)\n    })\n  })\n\n  Scenario('Plants in separate beds are not companions'",
+      "tokens": 224,
+      "firstFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 101,
+        "end": 116,
+        "startLoc": {
+          "line": 101,
+          "column": 54,
+          "position": 1480
+        },
+        "endLoc": {
+          "line": 116,
+          "column": 56,
+          "position": 1704
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 68,
+        "end": 83,
+        "startLoc": {
+          "line": 68,
+          "column": 59,
+          "position": 987
+        },
+        "endLoc": {
+          "line": 83,
+          "column": 51,
+          "position": 1211
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ")\n    })\n    And('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    When('I check companions for {int}', async (_, year: number) => {\n      companions = await listCompanions(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('there are no companion pairings'",
+      "tokens": 100,
+      "firstFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 121,
+        "end": 129,
+        "startLoc": {
+          "line": 121,
+          "column": 26,
+          "position": 1805
+        },
+        "endLoc": {
+          "line": 129,
+          "column": 43,
+          "position": 1905
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 70,
+        "end": 78,
+        "startLoc": {
+          "line": 70,
+          "column": 28,
+          "position": 1047
+        },
+        "endLoc": {
+          "line": 78,
+          "column": 54,
+          "position": 1147
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ", ({ Given, And, When, Then }) => {\n    Given('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    And('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    When('I check companions for {int}', async (_, year: number) => {\n      companions = await listCompanions(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} has no companion notes'",
+      "tokens": 160,
+      "firstFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 146,
+        "end": 156,
+        "startLoc": {
+          "line": 146,
+          "column": 51,
+          "position": 2111
+        },
+        "endLoc": {
+          "line": 156,
+          "column": 43,
+          "position": 2271
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 68,
+        "end": 78,
+        "startLoc": {
+          "line": 68,
+          "column": 59,
+          "position": 987
+        },
+        "endLoc": {
+          "line": 78,
+          "column": 54,
+          "position": 1147
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": "('{string} placed on {string}', async (_, node: string, bed: string) => {\n      await place(node, bed)\n    })\n    When('I check companions for {int}', async (_, year: number) => {\n      companions = await listCompanions(year, { currentYear: CURRENT_YEAR })\n    })\n    Then('{string} has no companion notes', (_, bed: string) => {\n      expect(companions.find((b) => b.bedId === bed)).toBeUndefined()\n    })\n  })\n}",
+      "tokens": 144,
+      "firstFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 150,
+        "end": 160,
+        "startLoc": {
+          "line": 150,
+          "column": 8,
+          "position": 2179
+        },
+        "endLoc": {
+          "line": 160,
+          "column": 2,
+          "position": 2323
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/companion-planting.steps.ts",
+        "start": 135,
+        "end": 146,
+        "startLoc": {
+          "line": 135,
+          "column": 10,
+          "position": 1962
+        },
+        "endLoc": {
+          "line": 146,
+          "column": 1,
+          "position": 2106
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ", ({ When, Then }) => {\n    let result: string[] = []\n    When('I search browse for {string}', async (_, query: string) => {\n      result = await browse({ query })\n    })\n    Then('I see plants {string}', (_, list: string) => {\n      expect(result).toEqual(ids(list))\n    })\n  })\n\n  Scenario('Search by an old botanical synonym'",
+      "tokens": 120,
+      "firstFile": {
+        "name": "features/steps/browse.steps.ts",
+        "start": 69,
+        "end": 79,
+        "startLoc": {
+          "line": 69,
+          "column": 38,
+          "position": 883
+        },
+        "endLoc": {
+          "line": 79,
+          "column": 48,
+          "position": 1003
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/browse.steps.ts",
+        "start": 59,
+        "end": 69,
+        "startLoc": {
+          "line": 59,
+          "column": 36,
+          "position": 762
+        },
+        "endLoc": {
+          "line": 69,
+          "column": 38,
+          "position": 882
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ", ({ When, Then }) => {\n    let result: string[] = []\n    When('I search browse for {string}', async (_, query: string) => {\n      result = await browse({ query })\n    })\n    Then('I see plants {string}', (_, list: string) => {\n      expect(result).toEqual(ids(list))\n    })\n  })\n}",
+      "tokens": 116,
+      "firstFile": {
+        "name": "features/steps/browse.steps.ts",
+        "start": 79,
+        "end": 88,
+        "startLoc": {
+          "line": 79,
+          "column": 48,
+          "position": 1004
+        },
+        "endLoc": {
+          "line": 88,
+          "column": 2,
+          "position": 1120
+        }
+      },
+      "secondFile": {
+        "name": "features/steps/browse.steps.ts",
+        "start": 59,
+        "end": 69,
+        "startLoc": {
+          "line": 59,
+          "column": 36,
+          "position": 762
+        },
+        "endLoc": {
+          "line": 69,
+          "column": 1,
+          "position": 878
+        }
+      }
+    }
+  ]
+}

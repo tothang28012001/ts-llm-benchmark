@@ -1,0 +1,95 @@
+{
+  "repo_id": "H20",
+  "group": "human",
+  "full_name": "pilagod/js-tracker",
+  "stars": "398",
+  "created_at": "2016-09-28",
+  "pin": "20b8456857ba1ebd1f32118a26a50744b482ed7c",
+  "fetch": {
+    "sha": "20b8456857ba1ebd1f32118a26a50744b482ed7c",
+    "commit_date": "2018-03-16T20:51:43+08:00",
+    "first_commit_date": "2016-07-06T11:49:18+08:00",
+    "commits_to_pin": 639,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 36,
+    "test_files": 18,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 36,
+      "lines": 2924,
+      "code": 2251,
+      "comment": 232,
+      "blank": 447
+    },
+    "test": {
+      "files": 18,
+      "lines": 3387,
+      "code": 2588,
+      "comment": 85,
+      "blank": 722
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 0,
+        "seconds": 26.7
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "2.9.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 1,
+        "seconds": 1.799
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 1,
+    "global_errors": 0,
+    "by_code": {
+      "TS1084": 1
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 64
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 5.7
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "10",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 13.6
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "repo_id": "H15",
+  "group": "human",
+  "full_name": "g-plane/rize",
+  "stars": "175",
+  "created_at": "2018-02-19",
+  "pin": "39ed5c6302d3bb078b3d2c11c134e6200cb38d88",
+  "fetch": {
+    "sha": "39ed5c6302d3bb078b3d2c11c134e6200cb38d88",
+    "commit_date": "2020-05-22T11:10:57+08:00",
+    "first_commit_date": "2018-02-17T12:34:57+08:00",
+    "commits_to_pin": 269,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 8,
+    "test_files": 9,
+    "skipped": 0,
+    "pm": "yarn",
+    "lockfile": "yarn.lock"
+  },
+  "loc": {
+    "prod": {
+      "files": 8,
+      "lines": 4466,
+      "code": 1780,
+      "comment": 2282,
+      "blank": 405
+    },
+    "test": {
+      "files": 9,
+      "lines": 2147,
+      "code": 2016,
+      "comment": 6,
+      "blank": 129
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack yarn install --frozen-lockfile --ignore-engines --network-timeout 600000",
+        "exit": 0,
+        "seconds": 35.6
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 1.044
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 8
+  },
+  "test": {
+    "cmd": "corepack yarn test",
+    "exit": 124,
+    "passed": false,
+    "timed_out": true,
+    "seconds": 902.3
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "14",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "yarn install --frozen-lockfile --ignore-engines",
+    "passed": false,
+    "exit": 124,
+    "seconds": 904.2
+  }
+}

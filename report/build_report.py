@@ -75,8 +75,9 @@ def pval(p):
 class Out:
     """Writes the same content to the PDF and to LaTeX."""
 
-    def __init__(self, pdf_path: Path):
+    def __init__(self, pdf_path: Path, tex_name: str = "milestone.tex", refs: list[str] | None = None):
         self.pdf = Doc(str(pdf_path), TITLE, AUTHORS)
+        self.tex_name, self.refs_list = tex_name, refs or REFS
         self.tex: list[str] = []
         self.fig_n = 0
         self.tab_n = 0
@@ -128,8 +129,8 @@ class Out:
                      body[0], r"\midrule", *body[1:], r"\bottomrule", r"\end{tabular}", r"\end{table}", ""]
 
     def refs(self):
-        self.pdf.references([to_rl(r) for r in REFS])
-        self.tex += [r"\begin{thebibliography}{99}"] + [f"\\bibitem{{r{i}}} " + to_tex(r) for i, r in enumerate(REFS, 1)] + [r"\end{thebibliography}"]
+        self.pdf.references([to_rl(r) for r in self.refs_list])
+        self.tex += [r"\begin{thebibliography}{99}"] + [f"\\bibitem{{r{i}}} " + to_tex(r) for i, r in enumerate(self.refs_list, 1)] + [r"\end{thebibliography}"]
 
     def save(self):
         self.pdf.build()
@@ -138,4 +139,4 @@ class Out:
                f"\\title{{{to_tex(TITLE)}}}",
                r"\author{\IEEEauthorblockN{" + to_tex(AUTHORS) + r"}\IEEEauthorblockA{" + to_tex(AFFIL) + "}}",
                r"\maketitle", ""]
-        (OUT_DIR / "milestone.tex").write_text("\n".join(pre + self.tex + [r"\end{document}", ""]), encoding="utf-8")
+        (OUT_DIR / self.tex_name).write_text("\n".join(pre + self.tex + [r"\end{document}", ""]), encoding="utf-8")

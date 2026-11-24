@@ -1,0 +1,31 @@
+[02:18:41] H13: era-matched test re-run
+[02:19:32] H13: node 14 (pin-date era): ok passed=False
+[02:19:32] H15: era-matched test re-run
+[02:35:24] H15: node 14 (pin-date era): ok passed=False
+[02:35:24] H17: era-matched test re-run
+[02:42:55] H17: node 10 (pin-date era): ok passed=False
+[02:42:55] H20: era-matched test re-run
+[02:44:01] H20: node 10 (pin-date era): ok passed=False
+[02:44:01] H22: era-matched test re-run
+[02:44:45] H22: node 8 (pin-date era): ok passed=False
+[02:44:45] H24: era-matched test re-run
+[02:46:27] H24: node 14 (pin-date era): ok passed=False
+[02:46:27] H25: era-matched test re-run
+[02:47:03] H25: node 10 (pin-date era): ok passed=False
+[02:47:03] H26: era-matched test re-run
+[02:47:30] H26: node 10 (pin-date era): ok passed=False
+[02:47:30] H28: era-matched test re-run
+[02:48:54] H28: node 14 (pin-date era): ok passed=False
+[02:48:54] H29: era-matched test re-run
+[02:50:28] H29: node 12 (pin-date era): ok passed=False
+[02:50:28] H31: era-matched test re-run
+[02:51:40] H31: node 10 (pin-date era): install-failed passed=None
+[02:51:40] H32: era-matched test re-run
+[02:51:55] H32: node 14 (pin-date era): ok passed=False
+[02:51:55] H34: era-matched test re-run
+[02:52:18] H34: node 12 (pin-date era): ok passed=False
+[02:52:18] H35: era-matched test re-run
+[02:55:01] H35: node 12 (.nvmrc): ok passed=False
+[02:55:01] H36: era-matched test re-run
+[02:55:09] H36: node 14 (pin-date era): ok passed=False
+EXIT 0

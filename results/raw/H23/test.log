@@ -1,0 +1,777 @@
+
+> itiriri@2.0.1 test
+> gulp test
+
+[09:00:30] Requiring external module ts-node/register
+[09:00:31] Using gulpfile /work/gulpfile.ts
+[09:00:31] Starting 'test'...
+[09:00:31] Starting 'clean'...
+[09:00:31] Finished 'clean' after 6.74 ms
+[09:00:31] Starting 'compile'...
+[09:00:34] Finished 'compile' after 2.29 s
+[09:00:34] Starting 'unit'...
+
+
+  Itiriri
+    When calling constructor
+      ✓ Should return an Itiriri
+      ✓ Iteration should be deferred
+    When calling skip + take
+      ✓ Should return 4 elemens
+      ✓ Should return 1 element
+    When calling take + sort
+      ✓ Should return 5 elements
+
+  Itiriri (cast)
+    When calling toArray
+      ✓ Should return the array
+      ✓ Should return the array of transformed items
+      ✓ Should iterate once
+    When calling toMap
+      ✓ Should throw error
+      ✓ Should return map of 3 elements
+      ✓ Should return map of 4 elements
+      ✓ Should iterate once
+    When calling toSet
+      ✓ Should return map of 4 elements
+      ✓ Should return map of 2 elements
+      ✓ Should iterate once
+    When calling toGroups
+      ✓ Should return map of 2 groups
+      ✓ Should return map of 3 groups
+      ✓ Should return map of 4 groups
+      ✓ Should iterate once
+    When calling toString
+      ✓ Should return string of 3 elements
+      ✓ Should return empty string
+      ✓ Should return string of 5 elements
+      ✓ Should return string of 4 elements
+      ✓ Should iterate once
+
+  Itiriri (filter)
+    When calling filter
+      ✓ Should be a deferred method
+      ✓ Should return array of 3 elements
+      ✓ Should return array of 1 element
+      ✓ Should return array of 1 object
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling skip
+      ✓ Should be a deferred method
+      ✓ Should return 5 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling slice
+      ✓ Should be a deferred method
+      ✓ Should return 3 elements
+      ✓ Should return empty source
+      ✓ Should return no elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling splice
+      ✓ Should be a deferred method
+      ✓ Should return 5 elemens
+      ✓ Should return 3 elemens
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling takeWhile
+      ✓ Should be a deferred method
+      ✓ Should return all elements
+      ✓ Should return no elements
+      ✓ Should return first elements that satisfy condition
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling skipWhile
+      ✓ Should be a deferred method
+      ✓ Should skip all elements
+      ✓ Should return all elements
+      ✓ Should skip first elements that satisfy condition
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+
+  Itiriri (itiriri)
+    When calling entries
+      ✓ Should be a deferred method
+      ✓ Should return 4 key/value pairs
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling keys
+      ✓ Should be a deferred method
+      ✓ Should return the keys
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling values
+      ✓ Should be a deferred method
+      ✓ Should return a new itiriri with same values
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling concat
+      ✓ Should be a deferred method
+      ✓ Should return 10 elements
+      ✓ Should return 2 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling prepend
+      ✓ Should be a deferred method
+      ✓ Should return 6 elemnts
+      ✓ Should return 2 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling fill with positive indexes
+      ✓ Should be a deferred method
+      ✓ Should return 5 elements
+      ✓ Should return 4 elements
+      ✓ Should return same elements
+      ✓ Should return 10 elements
+      ✓ Should return 4 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling fill with negative indexes
+      - Should return 5 elements
+      - Should return 4 elements
+      - Should return same elements
+      - Should return 4 elements
+    When calling fill with mixed indexes
+      - Should return 5 elements
+      - Should return 4 elements
+      - Should return 6 elements
+
+  Itiriri (join)
+    When calling join
+      ✓ Should be a deferred method
+      ✓ Should return array of 2 elements
+      ✓ Should return array of 3 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling leftJoin
+      ✓ Should be a deferred method
+      ✓ Should return array of 4 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling rightJoin
+      ✓ Should be a deferred method
+      ✓ Should return array of 4 elements
+      ✓ Should return array of 4 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling groupJoin
+      ✓ Should be a deferred method
+      ✓ Should return array of 1 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+
+  Itiriri (permutation)
+    When calling sort
+      ✓ Should be a deferred method
+      ✓ Should return array of 6 elements
+      ✓ Should return array of 3 objects
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling reverse
+      ✓ Should be a deferred method
+      ✓ Should return array of 6 elements
+      ✓ Should return array of 3 objects
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling shuffle
+      ✓ Should be a deferred method
+      ✓ Should return array of 6 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+
+  Itiriri (predicate)
+    When calling includes
+      ✓ Should return true on array
+      ✓ Should return false on empty source
+      ✓ Should return false when using fromIndex
+      ✓ Should iterate once
+    When calling every
+      ✓ Should return true on array
+      ✓ Should return true on empty source
+      ✓ Should return false on array of objects
+      ✓ Should return true on array of objects
+      ✓ Should iterate once
+    When calling some
+      ✓ Should return true on array
+      ✓ Should return true on empty source
+      ✓ Should return false on array of objects
+      ✓ Should return true on array of objects
+      ✓ Should iterate once
+
+  Itiriri (set)
+    When calling distinct
+      ✓ Should be a deferred method
+      ✓ Should return array of 2 elements
+      ✓ Should return array of 3 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling exclude
+      ✓ Should be a deferred method
+      ✓ Should return array of 2 elements
+      ✓ Should return array of 3 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling intersect
+      ✓ Should be a deferred method
+      ✓ Should return array of 2 elements
+      ✓ Should return array of 1 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling union
+      ✓ Should be a deferred method
+      ✓ Should return array of 4 elements
+      ✓ Should return array of 3 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+
+  Itiriri (transformation)
+    When calling map
+      ✓ Should be a deferred method
+      ✓ Should return array of 3 elements
+      ✓ Should return array of 4 element
+      ✓ Should return array of 1 object
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling groupBy
+      ✓ Should be a deferred method
+      ✓ Should return array of 2 groups
+      ✓ Should return array of 3 groups
+      ✓ Should return array of 2 groups
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+    When calling flat
+      ✓ Should be a deferred method
+      ✓ Should return array of 5 elements
+      ✓ Should be iterable multiple times
+      ✓ Should iterate once
+
+  Itiriri (value)
+    When calling nth
+      ✓ Should iterate once
+      When positive index
+        ✓ Should return first element
+      When negative index
+        ✓ Should return last element
+    When calling indexOf
+      ✓ Should return first element index
+      ✓ Should return 5th element index
+      ✓ Should return 2nd element index
+      ✓ Should iterate once
+    When calling lastIndexOf
+      ✓ Should return first element index
+      ✓ Should return last element index
+      ✓ Should return 5th element index
+      ✓ Should return -1
+      ✓ Should iterate once
+    When calling findIndex
+      ✓ Should return first element index
+      ✓ Should return last element index
+      ✓ Should return 5th element index
+      ✓ Should return -1
+      ✓ Should iterate once
+    When calling findLastIndex
+      ✓ Should return first element index
+      ✓ Should return last element index
+      ✓ Should return 5th element index
+      ✓ Should return -1
+      ✓ Should iterate once
+    When calling length
+      ✓ Should return 6
+      ✓ Should return 1
+      ✓ Should return 3
+      ✓ Should iterate once
+    When calling first
+      ✓ Should return 6
+      ✓ Should return undefined
+      ✓ Should return 3
+      ✓ Should iterate once
+    When calling find
+      ✓ Should return 33
+      ✓ Should return undefined
+      ✓ Should return first element
+      ✓ Should return 33
+      ✓ Should iterate once
+    When calling last
+      ✓ Should return 4
+      ✓ Should return undefined
+      ✓ Should iterate once
+    When calling findLast
+      ✓ Should return 33
+      ✓ Should return undefined
+      ✓ Should return first element
+      ✓ Should iterate once
+    When calling average
+      ✓ Should return 33
+      ✓ Should return undefined
+      ✓ Should return 10
+      ✓ Should iterate once
+    When calling min
+      ✓ Should return -1
+      ✓ Should return undefined
+      ✓ Should return first element
+      ✓ Should iterate once
+    When calling max
+      ✓ Should return 30
+      ✓ Should return undefined
+      ✓ Should return first element
+      ✓ Should iterate once
+    When calling sum
+      ✓ Should return 30
+      ✓ Should return undefined
+      ✓ Should iterate once
+    When calling reduce
+      ✓ Should return 0
+      ✓ Should throw exception
+      ✓ Should return 20
+      ✓ Should return abc
+      ✓ Should iterate once
+    When calling reduceRight
+      ✓ Should return 0
+      ✓ Should throw exception
+      ✓ Should return 20
+      ✓ Should return cba
+      ✓ Should iterate once
+    When calling forEach
+      ✓ Should return 4 transformed elements
+      ✓ Should return 3 transformed elements
+      ✓ Should iterate once
+
+  iterators/concat
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When left and right are empty
+      ✓ Should return a completed iterator
+    When only left is empty
+      ✓ Should return items from right
+    When only right is empty
+      ✓ Should return items from left
+    When left and right have elements
+      ✓ Should iterate over concatenated elements
+
+  iterators/distinct
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When source is empty
+      ✓ Should return completed iterator
+    When source has unique elements
+      ✓ Should return the elements
+    When source has unique element keys
+      ✓ Should return the elements
+    When source has all elements same
+      ✓ Should return the unique element
+    When source has duplicate elements
+      ✓ Should return unique elements
+    When source has all element keys same
+      ✓ Should return the unique element
+    When source has duplicate element keys
+      ✓ Should return unique elements by their first occurence
+
+  iterators/exclude
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When source is empty
+      ✓ Should return completed iterator
+      ✓ Should return completed iterator for non-empty exclusions
+    When source has elemements
+      And exclusion is empty
+        ✓ Should return elements from source
+      And is disjoint with exclusion
+        ✓ Should return elements from source
+      And source has same elements
+        ✓ Should return empty iterator
+      And source has some elements in common
+        ✓ Should return correct result
+      And source has some elements in common
+        ✓ Should return correct result for a key selector
+      And source has some duplicate elements in common
+        ✓ Should return correct result
+
+  iterators/fill
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When start is greater than end
+      ✓ Should return the same source
+    When called with negative start
+      ✓ Should throw exception
+    When called with negative end
+      ✓ Should throw exception
+    When called without start and end
+      ✓ Should fill the whole array
+    When called with start only
+      ✓ Should return array of 4 elements
+    When called with start and end
+      ✓ Should return array of 5 elements
+
+  iterators/filter
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When source is empty
+      ✓ Should return completed iterator
+    When predicate is always true
+      ✓ Should return all elements
+    When predicate is always false
+      ✓ Should return completed iterator
+    When predicate matches odd indexes
+      ✓ Should return elements
+
+  iterators/flat
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When source is empty
+      ✓ Should return completed iterator
+    When left source is empty
+      ✓ Should return elements from right source
+    When right source is empty
+      ✓ Should return elements from left source
+    When has multiple iterables with elements
+      ✓ Should return elements from left source
+
+  iterators/groupJoin
+    When called on empty sources
+      ✓ Should return empty sources
+    When called on some sources
+      ✓ Should return 3 grupped elemnts
+      ✓ Should return 2 grupped elemnts
+
+  iterators/intersect
+    When called on empty sources
+      ✓ Should return empty source
+    When called on some sources
+      ✓ Should return all 3 elements
+      ✓ Should return all 4 elements
+      ✓ Should return 2 elements
+      ✓ Should return 1 element
+      ✓ Should return empty source
+      ✓ Should return empty source
+
+  iterators/join
+    When called on empty source
+      ✓ Should return empty source
+    When called on some source
+      ✓ Should return common values
+      ✓ Should return objects with common property
+
+  iterators/leftJoin
+    When called on empty source
+      ✓ Should return empty source
+    When called on some source
+      ✓ Should return 3 joined items
+      ✓ Should return 2 joined items
+      ✓ Should return 4 joined items
+
+  iterators/map
+    When applying identity transformation
+      ✓ Should return the same elements
+      ✓ Should return the same elements
+    When applying linear transformation
+      ✓ Should return the elements modified
+      ✓ Should return the elements modified
+    When called on empty source
+      ✓ Should return empty source
+    When applying index transformation
+      ✓ Should return the array indexes
+    When applying index and value transformation
+      ✓ Should return the index+value array
+      ✓ Should return the object.property + 2*index
+
+  iterators/reverse
+    When reversing empty array
+      ✓ Should return empty array
+    When reversing one element
+      ✓ Should return the same element
+    When reversing multiple elements
+      ✓ Should return elements in reverse order
+      ✓ Should return elements in reverse order
+      ✓ Should return elements in reverse order
+
+  iterators/shuffle
+    When shuffle an array
+      ✓ Should contain the same 5 integers
+      ✓ Should contain the same 3 floats
+      ✓ Should contain the same 4 strings
+      ✓ Should contain the same 4 objecs
+
+  iterators/skip
+    When called on empty array
+      ✓ Should return empty array
+    When skipping all elements
+      ✓ Should return empty array
+    When skipping some elements
+      ✓ Should return the remaining array
+      ✓ Should return the remaining array
+      ✓ Should return the remaining array
+    When skipping negative count
+      ✓ Should return first 3 elements
+      ✓ Should return first 2 elements
+      ✓ Should return empty source
+      ✓ Should return first element
+      ✓ Should return first 6 elements
+
+  iterators/skipWhile
+    When don't have searched elements
+      ✓ Should return all elements
+    When skip some elements
+      ✓ Should skip first even elements
+      ✓ Should skip first positive elemts
+    When predicate is false for first element
+      ✓ Should return all elements
+    When skip all elements
+      ✓ Should return empty source
+    When skip elements from empty source
+      ✓ Should return empty source
+    When take elements by index
+      ✓ Should return 3 elements
+    When take elements by object property
+      ✓ Should return 2 elements
+
+  iterators/slice
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When called without start and end
+      ✓ Should return the same source
+    When start is negative
+      ✓ Should throw error
+    When start is undefined and end is provided
+      ✓ Should return array of 3 elements
+    When end is negative
+      ✓ Should throw exception
+    When called with start only
+      ✓ Should return array of 3 elements
+    When called with start and end
+      ✓ Should return array of 2 elements
+
+  iterators/splice
+    when called multiple times
+      ✓ Should return new iterator on each call
+    When start is negative
+      ✓ Should throw error
+    When delete count is negative
+      ✓ Should throw exception
+    When called with zero delete count
+      ✓ Should return array of 3 elements
+      ✓ Should return array of 5 elements
+    When called with non-zero delete count
+      ✓ Should return array of 2 elements
+      ✓ Should return array of 4 elements
+      ✓ Should return array of 5 elements
+
+  iterators/take
+    When take 0 elements
+      ✓ Should return empty source
+    When take some elements
+      ✓ Should return 4 elements from front
+      ✓ Should return 2 elements from front
+      ✓ Should return 1 element from front
+    When take all elements
+      ✓ Should return all elements
+    When take more than all elements
+      ✓ Should return all elements
+    When take negative count
+      ✓ Should return 3 elements from tail
+      ✓ Should return 5 elements from tail
+      ✓ Should return 1 element from tail
+    When take negative count of source size
+      ✓ Should return the whole source
+    When take negative count of more than source size
+      ✓ Should return the whole source
+    When take positive count from empty source
+      ✓ Should return empty source
+    When take negative count from empty source
+      ✓ Should return empty source
+
+  iterators/takeWhile
+    When don't have searched elements
+      ✓ Should return empty source
+    When take some elements
+      ✓ Should return first even elements
+      ✓ Should return first positive elements
+    When predicate is false for first element
+      ✓ Should return empty source
+    When take all elements
+      ✓ Should return all elements
+    When take elements from empty source
+      ✓ Should return empty source
+    When take elements by index
+      ✓ Should return 3 elements
+    When take elements by object property
+      ✓ Should return 2 elements
+
+  utils/isIterable
+    When called on array
+      ✓ Should return true on empty array
+      ✓ Should return true on non-empty array
+    When called on string
+      ✓ Should return true on empty string
+      ✓ Should return true on non-empty string
+    When called on Itiriri
+      ✓ Should return true
+    When called on Number
+      ✓ Should return false
+    When called on Object
+      ✓ Should return false
+
+  iterators/iterator
+    When called on empty array
+      ✓ Should return an iterator
+      ✓ Should return completed iterator
+      ✓ Should return undefined next value
+    When called on array with one element
+      ✓ Should iterate through element
+    When called on array with multiple elements
+      ✓ Should iterate through elements
+    When called multiple times
+      ✓ Should return new iterator on each call
+
+  reducers/average
+    When calling on some integer array
+      ✓ Should return the average of 4 elements
+      ✓ Should return the average of 1 element
+      ✓ Should return the average of 2 elements
+      ✓ Should return the average of 5 elements
+    When calling on empty source
+      ✓ Should return undefined
+
+  reducers/first
+    When calling on some source
+      ✓ Should return the first element
+      ✓ Should return the first negative element
+      ✓ Should return the first object element
+    When calling on empty source
+      ✓ Should return undefined
+
+  reducers/indexOf
+    When called on empty array
+      ✓ Should return -1
+    When called on some array
+      ✓ Should return the index 3
+      ✓ Should return the index 0
+      ✓ Should return -1 if elements does not exist
+      ✓ Should return the index of last element
+    When called with index depending predicate
+      ✓ Should return first index
+      ✓ Should return last index
+      ✓ Should return the middle index
+
+  reducers/last
+    When called on empty array
+      ✓ Should return undefined
+    When called on array with one element
+      ✓ Should return the element
+    When called on array with multiple elements
+      ✓ Should return the last element (4th)
+    When called on array with multiple elements
+      ✓ Should return the last element (5th)
+
+  reducers/lastIndexOf
+    When called on empty array
+      ✓ Should return -1
+    When called on some array
+      ✓ Should return the index 3
+      ✓ Should return the index 2
+      ✓ Should return -1 if elements does not exist
+    When called with index depending predicate
+      ✓ Should return first index
+      ✓ Should return last index
+      ✓ Should return last index for multiple matches
+      ✓ Should return the middle index
+
+  reducers/length
+    When called on empty source
+      ✓ Should return 0
+    When called on a non-empty source
+      ✓ Should return length for 4 elements
+      ✓ Should return length for 1 element
+      ✓ Should return length for 6 elements
+
+  reducers/max
+    When called on empty array
+      ✓ Should return undefined
+    When calle on some array
+      ✓ Should return the first element
+      ✓ Should return the last element
+      ✓ Should return the middle element
+      ✓ Should return 10.99
+
+  reducers/min
+    When called on empty array
+      ✓ Should return undefined
+    When called on some array
+      ✓ Should return the first element
+      ✓ Should return the last element
+      ✓ Should return the middle element
+
+  reducers/at
+    When accessing an element that exists
+      ✓ Should return the element from first position
+      ✓ Should return the element from a middle position
+      ✓ Should return the element from last position
+    When accessing an element that does not exist
+      ✓ Should return undefined (positive index)
+      ✓ Should return undefined (negative index)
+    When accessing negative index element
+      ✓ Should return last element
+      ✓ Should return a middle element
+      ✓ Should return first element
+
+  reducers/reduce
+    When called without initial value
+      ✓ Should throw on empty source
+      ✓ Should calculate the sum of elements
+      ✓ Should calculate the sum of squares
+      ✓ Should calculate sum of indexes multiplied by 2
+    When called with initial value
+      ✓ Should return the initial value on an empty source
+      ✓ Should calculate the sum of elements plus 4
+      ✓ Should calculate the sum of squares plus 100
+      ✓ Should calculate sum of indexes multiplied by 2
+
+  reducers/sum
+    When called on empty array
+      ✓ Should return undefined
+    When called on some array
+      ✓ Should return 3
+      ✓ Should return -40
+      ✓ Should return 100.5
+
+  reducers/toArray
+    When called on empty source
+      ✓ Should return empty source
+    When called on some source
+      ✓ Should return a copy
+      ✓ Should return array of 3 elements
+      ✓ Should return array of 4 elements
+      ✓ Should return array of 5 elements
+      ✓ Should return array from a generator
+
+  reducers/toMap
+    When called on empty source
+      ✓ Should return empty source
+    When called on some source
+      ✓ Should return set of 3 elements
+      ✓ Should return set of 4 elements
+      ✓ Should return set of 5 elements
+      ✓ Should throw an error for duplicate keys
+
+  reducers/toGroups
+    When called on empty source
+      ✓ Should return empty source
+    When called on some source
+      ✓ Should return map of 3 elements
+      ✓ Should return map of 4 elements
+      ✓ Should return map of 5 elements
+
+  reducers/toSet
+    When called on empty source
+      ✓ Should return empty source
+    When called on some source
+      ✓ Should return array of 3 elements
+      ✓ Should return array of 4 elements
+      ✓ Should return array of 5 elements
+      ✓ Should return array of distinct elements
+
+
+  461 passing (103ms)
+  7 pending
+
+[09:00:34] Finished 'unit' after 353 ms
+[09:00:34] Finished 'test' after 2.65 s

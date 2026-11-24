@@ -1,0 +1,1537 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T10:29:16.782Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/ui/art/reelBed.ts": {
+            "lines": 60,
+            "tokens": 753,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/art/palette.ts": {
+            "lines": 23,
+            "tokens": 132,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/art/mint.ts": {
+            "lines": 271,
+            "tokens": 4665,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 118,
+            "percentage": 3.32,
+            "percentageTokens": 2.53,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/art/metal.ts": {
+            "lines": 117,
+            "tokens": 1453,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/art/foundry.ts": {
+            "lines": 159,
+            "tokens": 2501,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/art/clockwork.ts": {
+            "lines": 263,
+            "tokens": 4607,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 9,
+            "duplicatedTokens": 118,
+            "percentage": 3.42,
+            "percentageTokens": 2.56,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/theme.ts": {
+            "lines": 60,
+            "tokens": 542,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/spinPlan.ts": {
+            "lines": 37,
+            "tokens": 394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/slotView.ts": {
+            "lines": 387,
+            "tokens": 4835,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/reelMotion.ts": {
+            "lines": 157,
+            "tokens": 1438,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/reel.ts": {
+            "lines": 149,
+            "tokens": 1494,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/layout.ts": {
+            "lines": 21,
+            "tokens": 314,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/infoDialog.ts": {
+            "lines": 69,
+            "tokens": 905,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/hud.ts": {
+            "lines": 216,
+            "tokens": 2276,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/holdPlan.ts": {
+            "lines": 107,
+            "tokens": 1294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/holdLayer.ts": {
+            "lines": 474,
+            "tokens": 6290,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/forgeScene.ts": {
+            "lines": 589,
+            "tokens": 8100,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/forgeMotion.ts": {
+            "lines": 155,
+            "tokens": 1780,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/featureLayer.ts": {
+            "lines": 170,
+            "tokens": 1967,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/emblems.ts": {
+            "lines": 129,
+            "tokens": 2057,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/dom.ts": {
+            "lines": 41,
+            "tokens": 344,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/debugPanel.ts": {
+            "lines": 74,
+            "tokens": 733,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/cascadeView.ts": {
+            "lines": 592,
+            "tokens": 8983,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/cascadeMotion.ts": {
+            "lines": 93,
+            "tokens": 1110,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/banner.ts": {
+            "lines": 77,
+            "tokens": 864,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ui/animator.ts": {
+            "lines": 78,
+            "tokens": 776,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sim/stats.ts": {
+            "lines": 99,
+            "tokens": 1078,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 5,
+            "duplicatedTokens": 105,
+            "percentage": 5.05,
+            "percentageTokens": 9.74,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sim/running.ts": {
+            "lines": 22,
+            "tokens": 199,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sim/lineSim.ts": {
+            "lines": 139,
+            "tokens": 2176,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 253,
+            "percentage": 12.95,
+            "percentageTokens": 11.63,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sim/holdSim.ts": {
+            "lines": 130,
+            "tokens": 2053,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 133,
+            "percentage": 5.38,
+            "percentageTokens": 6.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sim/cli.ts": {
+            "lines": 75,
+            "tokens": 951,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sim/cascadeStats.ts": {
+            "lines": 77,
+            "tokens": 837,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 5,
+            "duplicatedTokens": 105,
+            "percentage": 6.49,
+            "percentageTokens": 12.54,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/sim/cascadeSim.ts": {
+            "lines": 91,
+            "tokens": 1463,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 120,
+            "percentage": 12.09,
+            "percentageTokens": 8.2,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/topbar.ts": {
+            "lines": 71,
+            "tokens": 852,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/machinePage.ts": {
+            "lines": 329,
+            "tokens": 3826,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/lobbyPage.ts": {
+            "lines": 49,
+            "tokens": 579,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/forgePage.ts": {
+            "lines": 435,
+            "tokens": 5250,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/symbols.ts": {
+            "lines": 49,
+            "tokens": 784,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/soundsPage.ts": {
+            "lines": 171,
+            "tokens": 2800,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.ts": {
+            "lines": 186,
+            "tokens": 2185,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/machines/mint.ts": {
+            "lines": 365,
+            "tokens": 4639,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 48,
+            "duplicatedTokens": 602,
+            "percentage": 13.15,
+            "percentageTokens": 12.98,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/machines/index.ts": {
+            "lines": 29,
+            "tokens": 365,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/machines/crucible.ts": {
+            "lines": 169,
+            "tokens": 2087,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 30,
+            "duplicatedTokens": 302,
+            "percentage": 17.75,
+            "percentageTokens": 14.47,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/machines/clockwork.ts": {
+            "lines": 317,
+            "tokens": 4079,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 48,
+            "duplicatedTokens": 616,
+            "percentage": 15.14,
+            "percentageTokens": 15.1,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/games/paylines.ts": {
+            "lines": 24,
+            "tokens": 387,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/games/mint.ts": {
+            "lines": 88,
+            "tokens": 749,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/games/index.ts": {
+            "lines": 25,
+            "tokens": 332,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/games/crucible.ts": {
+            "lines": 42,
+            "tokens": 644,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/games/classic.ts": {
+            "lines": 72,
+            "tokens": 564,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/forge/guard.ts": {
+            "lines": 121,
+            "tokens": 1244,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/forge/engine.ts": {
+            "lines": 332,
+            "tokens": 4033,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/forge/describe.ts": {
+            "lines": 50,
+            "tokens": 614,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/forge/config.ts": {
+            "lines": 153,
+            "tokens": 1320,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/hold/types.ts": {
+            "lines": 105,
+            "tokens": 588,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/hold/play.ts": {
+            "lines": 146,
+            "tokens": 2127,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/hold/index.ts": {
+            "lines": 6,
+            "tokens": 122,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/hold/config.ts": {
+            "lines": 80,
+            "tokens": 1114,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 26,
+            "duplicatedTokens": 216,
+            "percentage": 32.5,
+            "percentageTokens": 19.39,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/hold/analytic.ts": {
+            "lines": 128,
+            "tokens": 1518,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/cascade/types.ts": {
+            "lines": 123,
+            "tokens": 793,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/cascade/play.ts": {
+            "lines": 160,
+            "tokens": 1964,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/cascade/index.ts": {
+            "lines": 17,
+            "tokens": 160,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/cascade/grid.ts": {
+            "lines": 225,
+            "tokens": 2681,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/cascade/config.ts": {
+            "lines": 122,
+            "tokens": 1721,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 109,
+            "percentage": 10.66,
+            "percentageTokens": 6.33,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/cascade/analytic.ts": {
+            "lines": 44,
+            "tokens": 571,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/types.ts": {
+            "lines": 100,
+            "tokens": 600,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/spin.ts": {
+            "lines": 67,
+            "tokens": 738,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/rng.ts": {
+            "lines": 104,
+            "tokens": 1097,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/index.ts": {
+            "lines": 21,
+            "tokens": 251,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/feature.ts": {
+            "lines": 202,
+            "tokens": 2353,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/evaluate.ts": {
+            "lines": 110,
+            "tokens": 1205,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/config.ts": {
+            "lines": 153,
+            "tokens": 1994,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 13,
+            "duplicatedTokens": 107,
+            "percentage": 8.5,
+            "percentageTokens": 5.37,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/engine/analytic.ts": {
+            "lines": 127,
+            "tokens": 1484,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/audio/wav.ts": {
+            "lines": 42,
+            "tokens": 746,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/audio/sounds.ts": {
+            "lines": 398,
+            "tokens": 7019,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/audio/sfx.ts": {
+            "lines": 128,
+            "tokens": 1012,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/audio/player.ts": {
+            "lines": 196,
+            "tokens": 2134,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/audio/dsp.ts": {
+            "lines": 285,
+            "tokens": 3707,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/winCount.ts": {
+            "lines": 9,
+            "tokens": 102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/wallet.ts": {
+            "lines": 95,
+            "tokens": 994,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/storage.ts": {
+            "lines": 59,
+            "tokens": 502,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/settings.ts": {
+            "lines": 13,
+            "tokens": 96,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/rules.ts": {
+            "lines": 417,
+            "tokens": 5027,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/router.ts": {
+            "lines": 39,
+            "tokens": 432,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/qa.ts": {
+            "lines": 9,
+            "tokens": 35,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/prefs.ts": {
+            "lines": 36,
+            "tokens": 397,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/machine.ts": {
+            "lines": 61,
+            "tokens": 470,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/launch.ts": {
+            "lines": 27,
+            "tokens": 217,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/catalog.ts": {
+            "lines": 103,
+            "tokens": 1022,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/app/about.ts": {
+            "lines": 6,
+            "tokens": 32,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 12241,
+          "tokens": 153722,
+          "sources": 89,
+          "clones": 12,
+          "duplicatedLines": 121,
+          "duplicatedTokens": 1452,
+          "percentage": 0.99,
+          "percentageTokens": 0.94,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 12241,
+      "tokens": 153722,
+      "sources": 89,
+      "clones": 12,
+      "duplicatedLines": 121,
+      "duplicatedTokens": 1452,
+      "percentage": 0.99,
+      "percentageTokens": 0.94,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ";\n  const container = new Container();\n  for (const [radius, alpha] of [\n    [76, 0.06],\n    [68, 0.09],\n    [60, 0.12],\n  ] as const) {\n    container.addChild(new Graphics().circle(0, -8, radius).fill({ color: PALETTE.amber, alpha }));\n  }\n  const seal",
+      "tokens": 118,
+      "firstFile": {
+        "name": "src/ui/art/clockwork.ts",
+        "start": 166,
+        "end": 175,
+        "startLoc": {
+          "line": 166,
+          "column": 99,
+          "position": 3078
+        },
+        "endLoc": {
+          "line": 175,
+          "column": 13,
+          "position": 3196
+        }
+      },
+      "secondFile": {
+        "name": "src/ui/art/mint.ts",
+        "start": 224,
+        "end": 233,
+        "startLoc": {
+          "line": 224,
+          "column": 27,
+          "position": 4094
+        },
+        "endLoc": {
+          "line": 233,
+          "column": 13,
+          "position": 4212
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "\nconst MAX_Z = 4;\n\nconst percent = (fraction: number, digits = 2): string => `${(fraction * 100).toFixed(digits)}%`;\nconst oneIn = (fraction: number): string => (fraction > 0 ? `1 in ${(1 / fraction).toFixed(1)}` : \"never\");\nconst count = (n: number): string => n.toLocaleString(\"en-US\");\n\nexport interface HoldSimOptions",
+      "tokens": 133,
+      "firstFile": {
+        "name": "src/sim/holdSim.ts",
+        "start": 7,
+        "end": 14,
+        "startLoc": {
+          "line": 7,
+          "column": 111,
+          "position": 75
+        },
+        "endLoc": {
+          "line": 14,
+          "column": 32,
+          "position": 208
+        }
+      },
+      "secondFile": {
+        "name": "src/sim/lineSim.ts",
+        "start": 6,
+        "end": 13,
+        "startLoc": {
+          "line": 6,
+          "column": 115,
+          "position": 86
+        },
+        "endLoc": {
+          "line": 13,
+          "column": 32,
+          "position": 219
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 6,
+      "fragment": ": readonly { readonly label: string; readonly min: number }[] = [\n  { label: \"no win\", min: 0 },\n  { label: \"< 1x\", min: Number.MIN_VALUE },\n  { label: \"1x - 2x\", min: 1 },\n  { label: \"2x - 5x\", min: 2 },\n  { label: \"5x - 20x\"",
+      "tokens": 105,
+      "firstFile": {
+        "name": "src/sim/cascadeStats.ts",
+        "start": 7,
+        "end": 12,
+        "startLoc": {
+          "line": 7,
+          "column": 31,
+          "position": 46
+        },
+        "endLoc": {
+          "line": 12,
+          "column": 22,
+          "position": 151
+        }
+      },
+      "secondFile": {
+        "name": "src/sim/stats.ts",
+        "start": 5,
+        "end": 10,
+        "startLoc": {
+          "line": 5,
+          "column": 23,
+          "position": 39
+        },
+        "endLoc": {
+          "line": 10,
+          "column": 22,
+          "position": 144
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n\nconst percent = (fraction: number, digits = 2): string => `${(fraction * 100).toFixed(digits)}%`;\nconst oneIn = (fraction: number): string => (fraction > 0 ? `1 in ${(1 / fraction).toFixed(1)}` : \"never\");\nconst count = (n: number): string => n.toLocaleString(\"en-US\");\n\n/**\n * Simulates a cascade game and prints a report. The return is estimated two ways: by playing whole\n * bets end to end, and by combining the exact chance of the feature with the value of feature\n * sessions simulated on their own. They must agree; if they do not, the feature logic is wrong.\n * Returns true if they agree.\n */",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/sim/cascadeSim.ts",
+        "start": 15,
+        "end": 26,
+        "startLoc": {
+          "line": 15,
+          "column": 2,
+          "position": 133
+        },
+        "endLoc": {
+          "line": 26,
+          "column": 4,
+          "position": 253
+        }
+      },
+      "secondFile": {
+        "name": "src/sim/lineSim.ts",
+        "start": 7,
+        "end": 13,
+        "startLoc": {
+          "line": 7,
+          "column": 17,
+          "position": 95
+        },
+        "endLoc": {
+          "line": 13,
+          "column": 7,
+          "position": 215
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ";\n    const app = new Application();\n    await app.init({\n      ...size,\n      backgroundAlpha: 0,\n      antialias: true,\n      resolution: Math.min(window.devicePixelRatio || 1, MAX_PIXEL_RATIO),\n      autoDensity: true,\n    });\n    app.canvas.style.width = \"100%\";\n    app.canvas.style.height = \"auto\";\n    app.canvas.setAttribute(\"role\", \"img\");\n    host.append(app.canvas);\n    this.#app = app;\n\n    const pieces",
+      "tokens": 144,
+      "firstFile": {
+        "name": "src/machines/crucible.ts",
+        "start": 47,
+        "end": 62,
+        "startLoc": {
+          "line": 47,
+          "column": 63,
+          "position": 638
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 17,
+          "position": 782
+        }
+      },
+      "secondFile": {
+        "name": "src/machines/mint.ts",
+        "start": 111,
+        "end": 126,
+        "startLoc": {
+          "line": 111,
+          "column": 84,
+          "position": 1343
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 19,
+          "position": 1487
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ".name).join(\", \")}`).join(\". \");\n\nfunction describeStep(step: WinStep, result: SpinResult): string {\n  switch (step.kind) {\n    case \"all\":\n      return `You won ${formatCredits(result.totalWin)} credits`;\n    case \"line\":\n      return `Line ${step.win.line + 1}: ${step.win.count} × ${CLOCKWORK",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/machines/clockwork.ts",
+        "start": 36,
+        "end": 43,
+        "startLoc": {
+          "line": 36,
+          "column": 71,
+          "position": 407
+        },
+        "endLoc": {
+          "line": 43,
+          "column": 73,
+          "position": 509
+        }
+      },
+      "secondFile": {
+        "name": "src/machines/mint.ts",
+        "start": 46,
+        "end": 53,
+        "startLoc": {
+          "line": 46,
+          "column": 66,
+          "position": 496
+        },
+        "endLoc": {
+          "line": 53,
+          "column": 68,
+          "position": 598
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ";\n\nfunction cellsShowing(grid: readonly (readonly string[])[], symbol: string): Position[] {\n  const cells: Position[] = [];\n  grid.forEach((column, reel) => column.forEach((cell, row) => cell === symbol && cells.push([reel, row])));\n  return cells;\n}\n\n/** What the feature sequence needs: the feature, what it was worth, and the opening spin that started it (none if it was bought). */",
+      "tokens": 111,
+      "firstFile": {
+        "name": "src/machines/clockwork.ts",
+        "start": 50,
+        "end": 58,
+        "startLoc": {
+          "line": 50,
+          "column": 147,
+          "position": 650
+        },
+        "endLoc": {
+          "line": 58,
+          "column": 134,
+          "position": 761
+        }
+      },
+      "secondFile": {
+        "name": "src/machines/mint.ts",
+        "start": 59,
+        "end": 67,
+        "startLoc": {
+          "line": 59,
+          "column": 101,
+          "position": 717
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 142,
+          "position": 828
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": ".rows);\n    const app = new Application();\n    await app.init({\n      ...size,\n      backgroundAlpha: 0,\n      antialias: true,\n      resolution: Math.min(window.devicePixelRatio || 1, MAX_PIXEL_RATIO),\n      autoDensity: true,\n    });\n    app.canvas.style.width = \"100%\";\n    app.canvas.style.height = \"auto\";\n    app.canvas.setAttribute(\"role\", \"img\");\n    host.append(app.canvas);\n    this.#app = app;\n\n    const textures = createSymbolTextures(app.renderer, CLOCKWORK",
+      "tokens": 158,
+      "firstFile": {
+        "name": "src/machines/clockwork.ts",
+        "start": 107,
+        "end": 122,
+        "startLoc": {
+          "line": 107,
+          "column": 44,
+          "position": 1292
+        },
+        "endLoc": {
+          "line": 122,
+          "column": 66,
+          "position": 1450
+        }
+      },
+      "secondFile": {
+        "name": "src/machines/crucible.ts",
+        "start": 47,
+        "end": 126,
+        "startLoc": {
+          "line": 47,
+          "column": 57,
+          "position": 635
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 61,
+          "position": 1498
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "(game, rng, unitBet);\n    const { base, feature } = round;\n    return {\n      totalBet: round.totalBet,\n      totalWin: round.totalWin,\n      summary: {\n        stops: base.stops,\n        grid: base.grid,\n        lineWins: base.lineWins.map(({ line, symbol, count, win }) => ({ line, symbol, count, win })),\n        scatterWin",
+      "tokens": 124,
+      "firstFile": {
+        "name": "src/machines/clockwork.ts",
+        "start": 132,
+        "end": 141,
+        "startLoc": {
+          "line": 132,
+          "column": 105,
+          "position": 1679
+        },
+        "endLoc": {
+          "line": 141,
+          "column": 19,
+          "position": 1803
+        }
+      },
+      "secondFile": {
+        "name": "src/machines/mint.ts",
+        "start": 151,
+        "end": 160,
+        "startLoc": {
+          "line": 151,
+          "column": 113,
+          "position": 1882
+        },
+        "endLoc": {
+          "line": 160,
+          "column": 16,
+          "position": 2006
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": "\"No win this spin.\");\n      return;\n    }\n    const jingle = winSound(round.totalWin, round.totalBet);\n    if (jingle !== null) this.#sfx?.play(jingle);\n    hooks.setWin(round.totalWin, this.#reduceMotion ? 0 : winCountDuration(round.totalWin, round.totalBet));\n    view.presentWins(base, (step) => hooks.setMessage(describeStep(step, base)));\n  }\n\n  /** The opening spin's win and its scatters (if there was an opening spin), then the banner, then each free spin in turn. */",
+      "tokens": 121,
+      "firstFile": {
+        "name": "src/machines/clockwork.ts",
+        "start": 239,
+        "end": 248,
+        "startLoc": {
+          "line": 239,
+          "column": 24,
+          "position": 2913
+        },
+        "endLoc": {
+          "line": 248,
+          "column": 127,
+          "position": 3034
+        }
+      },
+      "secondFile": {
+        "name": "src/machines/mint.ts",
+        "start": 242,
+        "end": 251,
+        "startLoc": {
+          "line": 242,
+          "column": 115,
+          "position": 2932
+        },
+        "endLoc": {
+          "line": 251,
+          "column": 144,
+          "position": 3053
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": ");\n\n  return problems;\n}\n\nfunction deepFreeze<T>(value: T): T {\n  if (typeof value === \"object\" && value !== null && !Object.isFrozen(value)) {\n    Object.freeze(value);\n    for (const child of Object.values(value)) deepFreeze(child);\n  }\n  return value;\n}\n\n/** Validates `config` and returns it deeply frozen. Throws CascadeConfigError listing every problem. */",
+      "tokens": 109,
+      "firstFile": {
+        "name": "src/engine/cascade/config.ts",
+        "start": 103,
+        "end": 116,
+        "startLoc": {
+          "line": 103,
+          "column": 124,
+          "position": 1542
+        },
+        "endLoc": {
+          "line": 116,
+          "column": 105,
+          "position": 1651
+        }
+      },
+      "secondFile": {
+        "name": "src/engine/hold/config.ts",
+        "start": 61,
+        "end": 74,
+        "startLoc": {
+          "line": 61,
+          "column": 137,
+          "position": 933
+        },
+        "endLoc": {
+          "line": 74,
+          "column": 100,
+          "position": 1042
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "\n\n  return problems;\n}\n\nfunction deepFreeze<T>(value: T): T {\n  if (typeof value === \"object\" && value !== null && !Object.isFrozen(value)) {\n    Object.freeze(value);\n    for (const child of Object.values(value)) deepFreeze(child);\n  }\n  return value;\n}\n\n/** Validates `config` and returns it deeply frozen. Throws ConfigError listing every problem. */",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/engine/config.ts",
+        "start": 134,
+        "end": 147,
+        "startLoc": {
+          "line": 134,
+          "column": 4,
+          "position": 1817
+        },
+        "endLoc": {
+          "line": 147,
+          "column": 98,
+          "position": 1924
+        }
+      },
+      "secondFile": {
+        "name": "src/engine/hold/config.ts",
+        "start": 61,
+        "end": 74,
+        "startLoc": {
+          "line": 61,
+          "column": 139,
+          "position": 935
+        },
+        "endLoc": {
+          "line": 74,
+          "column": 100,
+          "position": 1042
+        }
+      }
+    }
+  ]
+}

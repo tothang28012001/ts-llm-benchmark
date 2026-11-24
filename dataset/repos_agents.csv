@@ -19,3 +19,5 @@ A17,llm,tofarr/galexp3,0,2026-06-28,280364,23,1.0,openhands,openhands,,vitest,c0
 A18,llm,andrewkchan/pufflang,0,2025-12-29,560872,15,0.933,cursor,cursor,,jest,9c320f70d8fa8c01c21a2b5adc0896112e971ef5,2026-01-01
 A19,llm,DrunkCodes/Multi-Store-Price-Tracker-Amazon-eBay-Newegg-Shopify,0,2026-06-30,213276,14,1.0,cursor,cursor,,jest,868ec84a8888edac4f98ac437bf03d7e64c32081,2026-07-07
 A20,llm,lelion13/app-telemedicina,0,2026-06-29,291479,12,0.583,cursor,cursor,,vitest,14805006b4a1775757debc206efb5aeb63e563c4,2026-07-03
+A21,llm,irtaza65/lumpmap-3d,0,2026-07-21,350517,15,1.0,codex,codex,,vitest,3043112ba5c9866d377ae314b4cadb797d552499,2026-07-21
+A22,llm,thenugasivaraj/proving-ground,0,2026-07-18,67697,13,1.0,codex,codex,,node --test,9d6a57807f24424fef16050a26836256a65373b8,2026-07-22

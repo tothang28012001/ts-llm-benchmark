@@ -1,0 +1,1 @@
+{"prod": ["src/admin.ts", "src/claude.ts", "src/entries.ts", "src/library.ts", "src/log.ts", "src/media.ts", "src/plugin.ts", "src/settings.ts"], "test": ["tests/plugin.test.ts", "tests/unit.test.ts"], "skipped": 1, "pm": "pnpm", "lockfile": "pnpm-lock.yaml", "yarn_berry": false}

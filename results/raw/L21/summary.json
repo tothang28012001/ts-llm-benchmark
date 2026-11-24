@@ -1,0 +1,111 @@
+{
+  "repo_id": "L21",
+  "group": "llm",
+  "full_name": "swinzy/vibelib",
+  "stars": "1",
+  "created_at": "2026-09-30",
+  "pin": "HEAD",
+  "fetch": {
+    "sha": "0685867f1796f1e4cb6f5ea0d2083f3c5e6e92aa",
+    "commit_date": "2026-11-08T20:04:07+11:00",
+    "first_commit_date": "2026-10-01T00:17:16+10:00",
+    "commits_to_pin": 27,
+    "ai_commits_to_pin": 25,
+    "ai_commit_share": 0.9259,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 16,
+    "test_files": 13,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 16,
+      "lines": 1353,
+      "code": 916,
+      "comment": 286,
+      "blank": 153
+    },
+    "test": {
+      "files": 13,
+      "lines": 857,
+      "code": 742,
+      "comment": 6,
+      "blank": 110
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 6.6
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 2.744
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 16
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 4.6
+  },
+  "mutation": {
+    "sample_files": [
+      "src/raceConditionRemover.ts",
+      "src/execAndPray.ts",
+      "src/nullRemover.ts",
+      "src/util.ts",
+      "src/quantumRegister.ts",
+      "src/quantumRandom.ts"
+    ],
+    "sample_lines": 408,
+    "framework_versions": {
+      "vitest": null,
+      "jest": null,
+      "mocha": null
+    },
+    "runner": null,
+    "status": "timeout",
+    "attempts": [
+      {
+        "runner": "command",
+        "dtc": "default",
+        "cov": "off",
+        "exit": 143,
+        "seconds": 1206.119,
+        "timed_out": true
+      }
+    ]
+  }
+}

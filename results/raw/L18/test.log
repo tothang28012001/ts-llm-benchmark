@@ -1,0 +1,24 @@
+
+> book-money-tracker-scaffold@0.1.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv4.1.0 [39m[90m/work[39m
+
+ [32m✓[39m tests/actions/groups.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/components/RecordPaymentModal.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 294[2mms[22m[39m
+ [32m✓[39m tests/components/DropdownMenu.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 239[2mms[22m[39m
+ [32m✓[39m tests/actions/students.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/actions/books.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m tests/components/ClassTabs.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 154[2mms[22m[39m
+ [32m✓[39m tests/actions/payments.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/components/DashboardClient.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 540[2mms[22m[39m
+ [32m✓[39m tests/actions/toggle.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m tests/utils/formatYen.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m tests/components/ConfirmDialog.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 139[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m11 passed[39m[22m[90m (11)[39m
+[2m      Tests [22m [1m[32m62 passed[39m[22m[90m (62)[39m
+[2m   Start at [22m 09:23:28
+[2m   Duration [22m 1.93s[2m (transform 487ms, setup 533ms, import 1.33s, tests 1.41s, environment 1.25s)[22m
+

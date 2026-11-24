@@ -1,0 +1,5 @@
+
+> node-routeros@1.6.8 test
+> rimraf ./dist && tsc && ENV=testing mocha
+
+node_modules/iconv-lite/lib/index.d.ts(1,1): error TS1370: Only ECMAScript imports may use 'import type'.

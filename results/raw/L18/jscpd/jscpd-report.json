@@ -1,0 +1,1389 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:23:00.528Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "types/index.ts": {
+            "lines": 64,
+            "tokens": 385,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "proxy.ts": {
+            "lines": 29,
+            "tokens": 233,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/utils/formatYen.ts": {
+            "lines": 5,
+            "tokens": 64,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/supabase/session.ts": {
+            "lines": 20,
+            "tokens": 128,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/supabase/server.ts": {
+            "lines": 27,
+            "tokens": 188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/supabase/middleware.ts": {
+            "lines": 45,
+            "tokens": 348,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/supabase/client.ts": {
+            "lines": 9,
+            "tokens": 52,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/toggle.ts": {
+            "lines": 17,
+            "tokens": 153,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/students.ts": {
+            "lines": 65,
+            "tokens": 628,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/search.ts": {
+            "lines": 26,
+            "tokens": 250,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/rollover.ts": {
+            "lines": 89,
+            "tokens": 1151,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/payments.ts": {
+            "lines": 23,
+            "tokens": 203,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/import.ts": {
+            "lines": 25,
+            "tokens": 292,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/history.ts": {
+            "lines": 54,
+            "tokens": 625,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/groups.ts": {
+            "lines": 60,
+            "tokens": 728,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/bulk.ts": {
+            "lines": 19,
+            "tokens": 197,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "lib/actions/books.ts": {
+            "lines": 92,
+            "tokens": 1013,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 669,
+          "tokens": 6638,
+          "sources": 17,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "components/ui/Spinner.tsx": {
+            "lines": 1,
+            "tokens": 7,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/Modal.tsx": {
+            "lines": 10,
+            "tokens": 70,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/DropdownMenu.tsx": {
+            "lines": 40,
+            "tokens": 266,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/ConfirmDialog.tsx": {
+            "lines": 16,
+            "tokens": 115,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/SummaryBar.tsx": {
+            "lines": 19,
+            "tokens": 206,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/StudentTable.tsx": {
+            "lines": 338,
+            "tokens": 2812,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/StudentHistoryModal.tsx": {
+            "lines": 24,
+            "tokens": 268,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/RecordPaymentModal.tsx": {
+            "lines": 49,
+            "tokens": 353,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/MoveStudentModal.tsx": {
+            "lines": 43,
+            "tokens": 401,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ManageGroupsTable.tsx": {
+            "lines": 234,
+            "tokens": 1974,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/LogoutButton.tsx": {
+            "lines": 2,
+            "tokens": 15,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ImportStudentsModal.tsx": {
+            "lines": 92,
+            "tokens": 994,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/GlobalSearch.tsx": {
+            "lines": 28,
+            "tokens": 248,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/EditStudentModal.tsx": {
+            "lines": 51,
+            "tokens": 386,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/EditGroupModal.tsx": {
+            "lines": 27,
+            "tokens": 191,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/EditBookModal.tsx": {
+            "lines": 41,
+            "tokens": 314,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/DashboardClient.tsx": {
+            "lines": 20,
+            "tokens": 102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ClassTabs.tsx": {
+            "lines": 27,
+            "tokens": 218,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/BulkReceiveModal.tsx": {
+            "lines": 52,
+            "tokens": 458,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/BookCheckbox.tsx": {
+            "lines": 17,
+            "tokens": 83,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/BalanceCell.tsx": {
+            "lines": 2,
+            "tokens": 31,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/AddStudentModal.tsx": {
+            "lines": 42,
+            "tokens": 308,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/AddGroupModal.tsx": {
+            "lines": 28,
+            "tokens": 197,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/AddBookModal.tsx": {
+            "lines": 44,
+            "tokens": 317,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/rollover/page.tsx": {
+            "lines": 7,
+            "tokens": 60,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/rollover/RolloverClient.tsx": {
+            "lines": 67,
+            "tokens": 607,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/overview/page.tsx": {
+            "lines": 262,
+            "tokens": 2953,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/overview/loading.tsx": {
+            "lines": 12,
+            "tokens": 140,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/manage/page.tsx": {
+            "lines": 31,
+            "tokens": 305,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/manage/loading.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/login/page.tsx": {
+            "lines": 34,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/layout.tsx": {
+            "lines": 1,
+            "tokens": 9,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/dashboard/page.tsx": {
+            "lines": 130,
+            "tokens": 1211,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/dashboard/loading.tsx": {
+            "lines": 11,
+            "tokens": 95,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1803,
+          "tokens": 15939,
+          "sources": 34,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "components/ui/Spinner.tsx": {
+            "lines": 13,
+            "tokens": 151,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/Modal.tsx": {
+            "lines": 46,
+            "tokens": 341,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/DropdownMenu.tsx": {
+            "lines": 134,
+            "tokens": 1306,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ui/ConfirmDialog.tsx": {
+            "lines": 50,
+            "tokens": 302,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/SummaryBar.tsx": {
+            "lines": 56,
+            "tokens": 478,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/StudentTable.tsx": {
+            "lines": 595,
+            "tokens": 5576,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/StudentHistoryModal.tsx": {
+            "lines": 72,
+            "tokens": 666,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/RecordPaymentModal.tsx": {
+            "lines": 131,
+            "tokens": 953,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/MoveStudentModal.tsx": {
+            "lines": 105,
+            "tokens": 919,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ManageGroupsTable.tsx": {
+            "lines": 302,
+            "tokens": 2557,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/LogoutButton.tsx": {
+            "lines": 25,
+            "tokens": 154,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ImportStudentsModal.tsx": {
+            "lines": 227,
+            "tokens": 2454,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/GlobalSearch.tsx": {
+            "lines": 96,
+            "tokens": 909,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/EditStudentModal.tsx": {
+            "lines": 126,
+            "tokens": 953,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 51,
+            "duplicatedTokens": 275,
+            "percentage": 40.48,
+            "percentageTokens": 28.86,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/EditGroupModal.tsx": {
+            "lines": 85,
+            "tokens": 618,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 39,
+            "duplicatedTokens": 242,
+            "percentage": 45.88,
+            "percentageTokens": 39.16,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/EditBookModal.tsx": {
+            "lines": 109,
+            "tokens": 832,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 44,
+            "duplicatedTokens": 249,
+            "percentage": 40.37,
+            "percentageTokens": 29.93,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/DashboardClient.tsx": {
+            "lines": 88,
+            "tokens": 819,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/ClassTabs.tsx": {
+            "lines": 53,
+            "tokens": 375,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/BulkReceiveModal.tsx": {
+            "lines": 106,
+            "tokens": 849,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/BookCheckbox.tsx": {
+            "lines": 38,
+            "tokens": 222,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/BalanceCell.tsx": {
+            "lines": 35,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/AddStudentModal.tsx": {
+            "lines": 111,
+            "tokens": 801,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 18,
+            "duplicatedTokens": 108,
+            "percentage": 16.22,
+            "percentageTokens": 13.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/AddGroupModal.tsx": {
+            "lines": 80,
+            "tokens": 592,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 31,
+            "duplicatedTokens": 211,
+            "percentage": 38.75,
+            "percentageTokens": 35.64,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "components/AddBookModal.tsx": {
+            "lines": 113,
+            "tokens": 818,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 19,
+            "duplicatedTokens": 113,
+            "percentage": 16.81,
+            "percentageTokens": 13.81,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/rollover/page.tsx": {
+            "lines": 57,
+            "tokens": 573,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/rollover/RolloverClient.tsx": {
+            "lines": 152,
+            "tokens": 1468,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/page.tsx": {
+            "lines": 9,
+            "tokens": 40,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/overview/page.tsx": {
+            "lines": 294,
+            "tokens": 3203,
+            "sources": 1,
+            "clones": 5,
+            "duplicatedLines": 74,
+            "duplicatedTokens": 687,
+            "percentage": 25.17,
+            "percentageTokens": 21.45,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/overview/loading.tsx": {
+            "lines": 34,
+            "tokens": 327,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 147,
+            "percentage": 41.18,
+            "percentageTokens": 44.95,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/manage/page.tsx": {
+            "lines": 61,
+            "tokens": 553,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/manage/loading.tsx": {
+            "lines": 19,
+            "tokens": 157,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/login/page.tsx": {
+            "lines": 82,
+            "tokens": 637,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/layout.tsx": {
+            "lines": 28,
+            "tokens": 188,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/dashboard/page.tsx": {
+            "lines": 175,
+            "tokens": 1556,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "app/dashboard/loading.tsx": {
+            "lines": 32,
+            "tokens": 277,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3739,
+          "tokens": 32891,
+          "sources": 35,
+          "clones": 8,
+          "duplicatedLines": 145,
+          "duplicatedTokens": 1016,
+          "percentage": 3.88,
+          "percentageTokens": 3.09,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 6211,
+      "tokens": 55468,
+      "sources": 86,
+      "clones": 8,
+      "duplicatedLines": 145,
+      "duplicatedTokens": 1016,
+      "percentage": 2.33,
+      "percentageTokens": 1.83,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "tsx",
+      "lines": 27,
+      "fragment": "\"\n          />\n        </div>\n\n        {error && <p className=\"text-sm text-red-500\">{error}</p>}\n\n        <div className=\"flex gap-3 pt-1\">\n          <button\n            type=\"button\"\n            onClick={handleClose}\n            className=\"flex-1 px-4 py-2 text-sm border border-border rounded-lg text-muted hover:bg-background transition-colors\"\n          >\n            Cancel\n          </button>\n          <button\n            type=\"submit\"\n            disabled={loading}\n            className=\"flex-1 px-4 py-2 text-sm bg-primary hover:bg-primary-hover text-white font-medium rounded-lg transition-colors disabled:opacity-50\"\n          >\n            {loading ? 'Saving…' : 'Save'}\n          </button>\n        </div>\n      </form>\n    </Modal>\n  );\n}\n",
+      "tokens": 139,
+      "firstFile": {
+        "name": "components/EditGroupModal.tsx",
+        "start": 59,
+        "end": 85,
+        "startLoc": {
+          "line": 59,
+          "column": 162,
+          "position": 479
+        },
+        "endLoc": {
+          "line": 85,
+          "column": 1,
+          "position": 618
+        }
+      },
+      "secondFile": {
+        "name": "components/EditStudentModal.tsx",
+        "start": 100,
+        "end": 126,
+        "startLoc": {
+          "line": 100,
+          "column": 59,
+          "position": 814
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 1,
+          "position": 953
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 26,
+      "fragment": "\n        </div>\n\n        {error && <p className=\"text-sm text-red-500\">{error}</p>}\n\n        <div className=\"flex gap-3 pt-1\">\n          <button\n            type=\"button\"\n            onClick={handleClose}\n            className=\"flex-1 px-4 py-2 text-sm border border-border rounded-lg text-muted hover:bg-background transition-colors\"\n          >\n            Cancel\n          </button>\n          <button\n            type=\"submit\"\n            disabled={loading}\n            className=\"flex-1 px-4 py-2 text-sm bg-primary hover:bg-primary-hover text-white font-medium rounded-lg transition-colors disabled:opacity-50\"\n          >\n            {loading ? 'Saving…' : 'Save'}\n          </button>\n        </div>\n      </form>\n    </Modal>\n  );\n}\n",
+      "tokens": 136,
+      "firstFile": {
+        "name": "components/EditBookModal.tsx",
+        "start": 84,
+        "end": 109,
+        "startLoc": {
+          "line": 84,
+          "column": 15,
+          "position": 696
+        },
+        "endLoc": {
+          "line": 109,
+          "column": 1,
+          "position": 832
+        }
+      },
+      "secondFile": {
+        "name": "components/EditStudentModal.tsx",
+        "start": 101,
+        "end": 126,
+        "startLoc": {
+          "line": 101,
+          "column": 13,
+          "position": 817
+        },
+        "endLoc": {
+          "line": 126,
+          "column": 1,
+          "position": 953
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 14,
+      "fragment": ");\n    setError('');\n    onClose();\n  }\n\n  async function handleSubmit(e: React.FormEvent) {\n    e.preventDefault();\n    setError('');\n    if (!name.trim()) {\n      setError('Group name is required.');\n      return;\n    }\n    setLoading(true);\n    const { error: err } = await addGroup",
+      "tokens": 103,
+      "firstFile": {
+        "name": "components/AddGroupModal.tsx",
+        "start": 19,
+        "end": 32,
+        "startLoc": {
+          "line": 19,
+          "column": 15,
+          "position": 174
+        },
+        "endLoc": {
+          "line": 32,
+          "column": 42,
+          "position": 277
+        }
+      },
+      "secondFile": {
+        "name": "components/EditGroupModal.tsx",
+        "start": 26,
+        "end": 39,
+        "startLoc": {
+          "line": 26,
+          "column": 23,
+          "position": 208
+        },
+        "endLoc": {
+          "line": 39,
+          "column": 45,
+          "position": 311
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 19,
+      "fragment": "\n        </div>\n\n        {error && <p className=\"text-sm text-red-500\">{error}</p>}\n\n        <div className=\"flex gap-3 pt-1\">\n          <button\n            type=\"button\"\n            onClick={handleClose}\n            className=\"flex-1 px-4 py-2 text-sm border border-border rounded-lg text-muted hover:bg-background transition-colors\"\n          >\n            Cancel\n          </button>\n          <button\n            type=\"submit\"\n            disabled={loading}\n            className=\"flex-1 px-4 py-2 text-sm bg-primary hover:bg-primary-hover text-white font-medium rounded-lg transition-colors disabled:opacity-50\"\n          >\n            {loading ? 'Adding…' : 'Add group'",
+      "tokens": 108,
+      "firstFile": {
+        "name": "components/AddGroupModal.tsx",
+        "start": 55,
+        "end": 73,
+        "startLoc": {
+          "line": 55,
+          "column": 13,
+          "position": 456
+        },
+        "endLoc": {
+          "line": 73,
+          "column": 47,
+          "position": 564
+        }
+      },
+      "secondFile": {
+        "name": "components/AddStudentModal.tsx",
+        "start": 86,
+        "end": 104,
+        "startLoc": {
+          "line": 86,
+          "column": 87,
+          "position": 665
+        },
+        "endLoc": {
+          "line": 104,
+          "column": 49,
+          "position": 773
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 20,
+      "fragment": "\n          </p>\n        </div>\n\n        {error && <p className=\"text-sm text-red-500\">{error}</p>}\n\n        <div className=\"flex gap-3 pt-1\">\n          <button\n            type=\"button\"\n            onClick={handleClose}\n            className=\"flex-1 px-4 py-2 text-sm border border-border rounded-lg text-muted hover:bg-background transition-colors\"\n          >\n            Cancel\n          </button>\n          <button\n            type=\"submit\"\n            disabled={loading}\n            className=\"flex-1 px-4 py-2 text-sm bg-primary hover:bg-primary-hover text-white font-medium rounded-lg transition-colors disabled:opacity-50\"\n          >\n            {loading ? 'Adding…' : 'Add book'",
+      "tokens": 113,
+      "firstFile": {
+        "name": "components/AddBookModal.tsx",
+        "start": 87,
+        "end": 106,
+        "startLoc": {
+          "line": 87,
+          "column": 60,
+          "position": 677
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 46,
+          "position": 790
+        }
+      },
+      "secondFile": {
+        "name": "components/EditBookModal.tsx",
+        "start": 83,
+        "end": 104,
+        "startLoc": {
+          "line": 83,
+          "column": 111,
+          "position": 691
+        },
+        "endLoc": {
+          "line": 104,
+          "column": 49,
+          "position": 773
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": "\">{formatYen(s.balance_yen)}</span>\n                </div>\n              ))}\n            </div>\n            {/* Desktop table */}\n            <div className=\"hidden sm:block overflow-x-auto\">\n              <table className=\"w-full text-sm\">\n                <thead>\n                  <tr className=\"border-b border-border bg-background/70\">\n                    <th className=\"px-4 py-3 text-left text-xs font-medium text-muted uppercase tracking-wide whitespace-nowrap\">Student</th>\n                    <th className=\"px-4 py-3 text-left text-xs font-medium text-muted uppercase tracking-wide whitespace-nowrap\">Group</th>\n                    <th className=\"px-4 py-3 text-left text-xs font-medium text-muted uppercase tracking-wide whitespace-nowrap\">Balance</th>\n                  </tr>\n                </thead>\n                <tbody className=\"divide-y divide-border\">\n                  {noBooks",
+      "tokens": 140,
+      "firstFile": {
+        "name": "app/overview/page.tsx",
+        "start": 187,
+        "end": 202,
+        "startLoc": {
+          "line": 187,
+          "column": 68,
+          "position": 2104
+        },
+        "endLoc": {
+          "line": 202,
+          "column": 27,
+          "position": 2244
+        }
+      },
+      "secondFile": {
+        "name": "app/overview/page.tsx",
+        "start": 141,
+        "end": 156,
+        "startLoc": {
+          "line": 141,
+          "column": 77,
+          "position": 1597
+        },
+        "endLoc": {
+          "line": 156,
+          "column": 36,
+          "position": 1737
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 16,
+      "fragment": "</span>\n                </div>\n              ))}\n            </div>\n            {/* Desktop table */}\n            <div className=\"hidden sm:block overflow-x-auto\">\n              <table className=\"w-full text-sm\">\n                <thead>\n                  <tr className=\"border-b border-border bg-background/70\">\n                    <th className=\"px-4 py-3 text-left text-xs font-medium text-muted uppercase tracking-wide whitespace-nowrap\">Student</th>\n                    <th className=\"px-4 py-3 text-left text-xs font-medium text-muted uppercase tracking-wide whitespace-nowrap\">Group</th>\n                    <th className=\"px-4 py-3 text-left text-xs font-medium text-muted uppercase tracking-wide whitespace-nowrap\">Balance</th>\n                  </tr>\n                </thead>\n                <tbody className=\"divide-y divide-border\">\n                  {fullyDistributed",
+      "tokens": 130,
+      "firstFile": {
+        "name": "app/overview/page.tsx",
+        "start": 235,
+        "end": 250,
+        "startLoc": {
+          "line": 235,
+          "column": 19,
+          "position": 2638
+        },
+        "endLoc": {
+          "line": 250,
+          "column": 36,
+          "position": 2768
+        }
+      },
+      "secondFile": {
+        "name": "app/overview/page.tsx",
+        "start": 141,
+        "end": 156,
+        "startLoc": {
+          "line": 141,
+          "column": 105,
+          "position": 1607
+        },
+        "endLoc": {
+          "line": 156,
+          "column": 36,
+          "position": 1737
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 15,
+      "fragment": "\n      {Array.from({ length: 2 }).map((_, i) => (\n        <section key={i} className=\"mb-8\">\n          <div className=\"h-3 w-40 rounded bg-card border border-border mb-3\" />\n          <div className=\"rounded-xl bg-card border border-border overflow-hidden\">\n            {Array.from({ length: 4 }).map((_, r) => (\n              <div key={r} className=\"h-11 border-b border-border last:border-b-0\" />\n            ))}\n          </div>\n        </section>\n      ))}\n    </div>\n  );\n}\n",
+      "tokens": 147,
+      "firstFile": {
+        "name": "app/overview/loading.tsx",
+        "start": 20,
+        "end": 34,
+        "startLoc": {
+          "line": 20,
+          "column": 29,
+          "position": 180
+        },
+        "endLoc": {
+          "line": 34,
+          "column": 1,
+          "position": 327
+        }
+      },
+      "secondFile": {
+        "name": "app/overview/page.tsx",
+        "start": 280,
+        "end": 294,
+        "startLoc": {
+          "line": 280,
+          "column": 17,
+          "position": 3056
+        },
+        "endLoc": {
+          "line": 294,
+          "column": 1,
+          "position": 3203
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1057 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T09:45:27.539Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/text/markdown-to-html.ts": {
+            "lines": 97,
+            "tokens": 328,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/text/html-to-markdown.ts": {
+            "lines": 454,
+            "tokens": 4779,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/testcases/store.ts": {
+            "lines": 529,
+            "tokens": 4922,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/testcases/regeneration.ts": {
+            "lines": 128,
+            "tokens": 910,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/testcases/model.ts": {
+            "lines": 112,
+            "tokens": 568,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/testcases/csv.ts": {
+            "lines": 132,
+            "tokens": 976,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/testcases/csv-artifact.ts": {
+            "lines": 211,
+            "tokens": 2069,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/testcases/artifact.ts": {
+            "lines": 493,
+            "tokens": 3523,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reporting/report-files.ts": {
+            "lines": 49,
+            "tokens": 279,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reporting/html.ts": {
+            "lines": 149,
+            "tokens": 992,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/reporting/bug-report.ts": {
+            "lines": 193,
+            "tokens": 2257,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/projects/active-project.ts": {
+            "lines": 377,
+            "tokens": 2411,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/execution/run-policy.ts": {
+            "lines": 122,
+            "tokens": 891,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/execution/manual-results.ts": {
+            "lines": 594,
+            "tokens": 7536,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/execution/manual-report.ts": {
+            "lines": 251,
+            "tokens": 2843,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/verify-automation-artifacts.ts": {
+            "lines": 186,
+            "tokens": 1806,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/test-cases.ts": {
+            "lines": 178,
+            "tokens": 1961,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 113,
+            "percentage": 6.18,
+            "percentageTokens": 5.76,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/run-automation.ts": {
+            "lines": 62,
+            "tokens": 534,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 11,
+            "duplicatedTokens": 129,
+            "percentage": 17.74,
+            "percentageTokens": 24.16,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/read-story.ts": {
+            "lines": 240,
+            "tokens": 2307,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/publish-test-cases.ts": {
+            "lines": 449,
+            "tokens": 4215,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/publish-bug.ts": {
+            "lines": 392,
+            "tokens": 3540,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/execution-report.ts": {
+            "lines": 133,
+            "tokens": 1420,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 58,
+            "duplicatedTokens": 606,
+            "percentage": 43.61,
+            "percentageTokens": 42.68,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/check-test-cases.ts": {
+            "lines": 174,
+            "tokens": 1666,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 20,
+            "duplicatedTokens": 220,
+            "percentage": 11.49,
+            "percentageTokens": 13.21,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/check-connection.ts": {
+            "lines": 187,
+            "tokens": 1454,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/automation-scope.ts": {
+            "lines": 98,
+            "tokens": 1076,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/automation-report.ts": {
+            "lines": 88,
+            "tokens": 973,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 22,
+            "duplicatedTokens": 249,
+            "percentage": 25,
+            "percentageTokens": 25.59,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/api-read.ts": {
+            "lines": 106,
+            "tokens": 1481,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/cli/analysis-preflight.ts": {
+            "lines": 166,
+            "tokens": 1774,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 153,
+            "percentage": 9.64,
+            "percentageTokens": 8.62,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/reporting/writer.ts": {
+            "lines": 105,
+            "tokens": 1002,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/reporting/reporter.ts": {
+            "lines": 196,
+            "tokens": 2026,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/reporting/not-automated.ts": {
+            "lines": 81,
+            "tokens": 868,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/reporting/model.ts": {
+            "lines": 132,
+            "tokens": 928,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/reporting/generator.ts": {
+            "lines": 292,
+            "tokens": 2968,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/reporting/classify.ts": {
+            "lines": 72,
+            "tokens": 523,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/reporting/build.ts": {
+            "lines": 500,
+            "tokens": 5360,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/traceability.ts": {
+            "lines": 53,
+            "tokens": 343,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/sessions.ts": {
+            "lines": 116,
+            "tokens": 874,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/scope.ts": {
+            "lines": 166,
+            "tokens": 1086,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/sanitizer.ts": {
+            "lines": 67,
+            "tokens": 207,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/runner.ts": {
+            "lines": 41,
+            "tokens": 356,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/global-setup.ts": {
+            "lines": 25,
+            "tokens": 178,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/fixtures.ts": {
+            "lines": 126,
+            "tokens": 995,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/config.ts": {
+            "lines": 279,
+            "tokens": 2126,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/code-safety.ts": {
+            "lines": 79,
+            "tokens": 574,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/artifact-policy.ts": {
+            "lines": 46,
+            "tokens": 168,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/automation/artifact-check/sentinels.ts": {
+            "lines": 10,
+            "tokens": 44,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/analysis/sources.ts": {
+            "lines": 218,
+            "tokens": 2086,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/analysis/api-spec.ts": {
+            "lines": 528,
+            "tokens": 6316,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/write-client.ts": {
+            "lines": 233,
+            "tokens": 1558,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/user-story.ts": {
+            "lines": 369,
+            "tokens": 3236,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/test-case.ts": {
+            "lines": 155,
+            "tokens": 1022,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/http.ts": {
+            "lines": 266,
+            "tokens": 1782,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/http-write.ts": {
+            "lines": 316,
+            "tokens": 1961,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/fields.ts": {
+            "lines": 120,
+            "tokens": 440,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/errors.ts": {
+            "lines": 91,
+            "tokens": 583,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/config.ts": {
+            "lines": 322,
+            "tokens": 2441,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 254,
+            "percentage": 4.35,
+            "percentageTokens": 10.41,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/client.ts": {
+            "lines": 466,
+            "tokens": 3654,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/ado/bug.ts": {
+            "lines": 409,
+            "tokens": 2705,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Company/Operating-Country/support/operating-country.ts": {
+            "lines": 135,
+            "tokens": 1405,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Company/Operating-Country/pages/Toast.ts": {
+            "lines": 55,
+            "tokens": 383,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Company/Operating-Country/pages/OperatingCountryListPage.ts": {
+            "lines": 301,
+            "tokens": 3477,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Company/Operating-Country/pages/OperatingCountryFormPage.ts": {
+            "lines": 234,
+            "tokens": 2471,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Company/Operating-Country/pages/NavigationMenu.ts": {
+            "lines": 32,
+            "tokens": 298,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Company/Operating-Country/pages/ConfirmDialog.ts": {
+            "lines": 59,
+            "tokens": 520,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Company/Operating-Country/pages/AccessDeniedPage.ts": {
+            "lines": 16,
+            "tokens": 112,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Authentication/support/session-api.ts": {
+            "lines": 111,
+            "tokens": 940,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "automation/NBO/Authentication/pages/LoginPage.ts": {
+            "lines": 136,
+            "tokens": 1106,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 13308,
+          "tokens": 118613,
+          "sources": 67,
+          "clones": 6,
+          "duplicatedLines": 76,
+          "duplicatedTokens": 862,
+          "percentage": 0.57,
+          "percentageTokens": 0.73,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 13308,
+      "tokens": 118613,
+      "sources": 67,
+      "clones": 6,
+      "duplicatedLines": 76,
+      "duplicatedTokens": 862,
+      "percentage": 0.57,
+      "percentageTokens": 0.73,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "\n  return 0;\n}\n\ntry {\n  process.exitCode = main();\n} catch (error) {\n  if (error instanceof ProjectError) {\n    console.error(`Active project problem: ${error.message}`);\n    for (const detail of error.details) console.error(`  ${detail}`);\n    process.exitCode = 2;\n  } else if (error instanceof ManualResultsError",
+      "tokens": 113,
+      "firstFile": {
+        "name": "src/cli/execution-report.ts",
+        "start": 110,
+        "end": 121,
+        "startLoc": {
+          "line": 110,
+          "column": 74,
+          "position": 1168
+        },
+        "endLoc": {
+          "line": 121,
+          "column": 49,
+          "position": 1281
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/test-cases.ts",
+        "start": 158,
+        "end": 169,
+        "startLoc": {
+          "line": 158,
+          "column": 4,
+          "position": 1743
+        },
+        "endLoc": {
+          "line": 169,
+          "column": 44,
+          "position": 1856
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 21,
+      "fragment": ");\n  return 0;\n}\n\ntry {\n  process.exitCode = main();\n} catch (error) {\n  if (error instanceof ProjectError) {\n    console.error(`Active project problem: ${error.message}`);\n    for (const detail of error.details) console.error(`  ${detail}`);\n    process.exitCode = 2;\n  } else if (error instanceof ArtifactError) {\n    console.error(`Artifact problem: ${error.message}`);\n    for (const detail of error.details) console.error(`  ${detail}`);\n    process.exitCode = 2;\n  } else {\n    console.error(`Unexpected failure: ${error instanceof Error ? error.message : String(error)}`);\n    process.exitCode = 1;\n  }\n}\n",
+      "tokens": 220,
+      "firstFile": {
+        "name": "src/cli/check-test-cases.ts",
+        "start": 154,
+        "end": 174,
+        "startLoc": {
+          "line": 154,
+          "column": 30,
+          "position": 1446
+        },
+        "endLoc": {
+          "line": 174,
+          "column": 1,
+          "position": 1666
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/execution-report.ts",
+        "start": 110,
+        "end": 178,
+        "startLoc": {
+          "line": 110,
+          "column": 72,
+          "position": 1166
+        },
+        "endLoc": {
+          "line": 178,
+          "column": 1,
+          "position": 1961
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "${pathToFileURL(resolve(htmlPath)).href}`);\n  return 0;\n}\n\ntry {\n  process.exitCode = main();\n} catch (error) {\n  if (error instanceof ProjectError) {\n    console.error(`Active project problem: ${error.message}`);\n    for (const detail of error.details) console.error(`  ${detail}`);\n    process.exitCode = 2;\n  } else {",
+      "tokens": 120,
+      "firstFile": {
+        "name": "src/cli/automation-report.ts",
+        "start": 72,
+        "end": 83,
+        "startLoc": {
+          "line": 72,
+          "column": 24,
+          "position": 810
+        },
+        "endLoc": {
+          "line": 83,
+          "column": 11,
+          "position": 930
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/execution-report.ts",
+        "start": 110,
+        "end": 169,
+        "startLoc": {
+          "line": 110,
+          "column": 31,
+          "position": 1154
+        },
+        "endLoc": {
+          "line": 169,
+          "column": 12,
+          "position": 1849
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": " main();\n} catch (error) {\n  if (error instanceof ProjectError) {\n    console.error(`Active project problem: ${error.message}`);\n    for (const detail of error.details) console.error(`  ${detail}`);\n    process.exitCode = 2;\n  } else {\n    console.error(`Unexpected failure: ${error instanceof Error ? error.message : String(error)}`);\n    process.exitCode = 1;\n  }\n}\n",
+      "tokens": 129,
+      "firstFile": {
+        "name": "src/cli/automation-report.ts",
+        "start": 77,
+        "end": 88,
+        "startLoc": {
+          "line": 77,
+          "column": 21,
+          "position": 844
+        },
+        "endLoc": {
+          "line": 88,
+          "column": 1,
+          "position": 973
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/run-automation.ts",
+        "start": 51,
+        "end": 62,
+        "startLoc": {
+          "line": 51,
+          "column": 27,
+          "position": 405
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 1,
+          "position": 534
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 17,
+      "fragment": "}`);\n  return 0;\n}\n\ntry {\n  process.exitCode = main();\n} catch (error) {\n  if (error instanceof ProjectError) {\n    console.error(`Active project problem: ${error.message}`);\n    for (const detail of error.details) console.error(`  ${detail}`);\n    process.exitCode = 2;\n  } else {\n    console.error(`Unexpected failure: ${error instanceof Error ? error.message : String(error)}`);\n    process.exitCode = 1;\n  }\n}\n",
+      "tokens": 153,
+      "firstFile": {
+        "name": "src/cli/analysis-preflight.ts",
+        "start": 150,
+        "end": 166,
+        "startLoc": {
+          "line": 150,
+          "column": 55,
+          "position": 1621
+        },
+        "endLoc": {
+          "line": 166,
+          "column": 1,
+          "position": 1774
+        }
+      },
+      "secondFile": {
+        "name": "src/cli/execution-report.ts",
+        "start": 110,
+        "end": 62,
+        "startLoc": {
+          "line": 110,
+          "column": 70,
+          "position": 1164
+        },
+        "endLoc": {
+          "line": 62,
+          "column": 1,
+          "position": 534
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ".map((name) => ({ name, state: classifyVar(name) }));\n  const problems = states.filter((entry) => entry.state !== 'ok');\n\n  if (problems.length > 0) {\n    const hasEmpty = problems.some((entry) => entry.state === 'empty');\n    const hasUnset = problems.some((entry) => entry.state === 'unset');\n\n    throw",
+      "tokens": 127,
+      "firstFile": {
+        "name": "src/ado/config.ts",
+        "start": 274,
+        "end": 281,
+        "startLoc": {
+          "line": 274,
+          "column": 26,
+          "position": 2002
+        },
+        "endLoc": {
+          "line": 281,
+          "column": 10,
+          "position": 2129
+        }
+      },
+      "secondFile": {
+        "name": "src/ado/config.ts",
+        "start": 175,
+        "end": 182,
+        "startLoc": {
+          "line": 175,
+          "column": 31,
+          "position": 1334
+        },
+        "endLoc": {
+          "line": 182,
+          "column": 78,
+          "position": 1461
+        }
+      }
+    }
+  ]
+}

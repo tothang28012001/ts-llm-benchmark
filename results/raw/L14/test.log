@@ -1,0 +1,2079 @@
+
+> keyflow@0.1.0 pretest
+> npm run generate:licenses
+
+
+> keyflow@0.1.0 generate:licenses
+> node scripts/generate-licenses.mjs
+
+Generated /work/src/renderer/src/generated/licenses.json (7 packages)
+
+> keyflow@0.1.0 test
+> vitest run --passWithNoTests
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/work[39m
+
+[90mstderr[2m | src/renderer/src/components/ScoreRenderer/osmd-controller.test.ts[2m > [22m[2mOSMDController setGrayedOutNotes (REQ-002-007, note単位グレーアウト TASK-048/060: 音符自体の減光)[2m > [22m[2mskips a note when getSVGGElement() throws, and still dims the remaining notes
+[22m[39m[OSMDController] renderGrayoutLayer: failed to get SVG element for noteId=P1-M1-N0; skipping. Error: getSVGGElement failed
+    at Object.<anonymous> [90m(/work/[39msrc/renderer/src/components/ScoreRenderer/osmd-controller.test.ts:214:40[90m)[39m
+    at Object.Mock [as getSVGGElement] [90m(file:///work/[39mnode_modules/[4m@vitest/spy[24m/dist/index.js:332:34[90m)[39m
+    at OSMDController.renderGrayoutLayer [90m(/work/[39msrc/renderer/src/components/ScoreRenderer/osmd-controller.ts:404:36[90m)[39m
+    at OSMDController.setGrayedOutNotes [90m(/work/[39msrc/renderer/src/components/ScoreRenderer/osmd-controller.ts:370:10[90m)[39m
+    at [90m/work/[39msrc/renderer/src/components/ScoreRenderer/osmd-controller.test.ts:318:29
+    at Proxy.assertThrows [90m(file:///work/[39mnode_modules/[4mchai[24m/index.js:2798:5[90m)[39m
+    at Proxy.methodWrapper [90m(file:///work/[39mnode_modules/[4mchai[24m/index.js:1700:25[90m)[39m
+    at Proxy.<anonymous> [90m(file:///work/[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:1216:12[90m)[39m
+    at Proxy.overwritingMethodWrapper [90m(file:///work/[39mnode_modules/[4mchai[24m/index.js:1750:33[90m)[39m
+    at Proxy.<anonymous> [90m(file:///work/[39mnode_modules/[4m@vitest/expect[24m/dist/index.js:1552:16[90m)[39m
+
+[90mstderr[2m | src/renderer/src/lib/audio-engine/audio-engine.test.ts[2m > [22m[2mAudioEngineService[2m > [22m[2mplayback voice switching (TASK-071, REQ-013-001/002/003)[2m > [22m[2mfalls back to the synth preset and still resolves ensurePlaybackVoiceLoaded() when a Sampler reports a load error (missing sample file)
+[22m[39m[AudioEngineService] Failed to load Salamander piano samples; falling back to the synth preset Error: 404 Not Found
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1341:52
+    at Array.forEach (<anonymous>)
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1341:23
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:302:11
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:1903:26
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2323:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+
+[90mstderr[2m | src/renderer/src/lib/audio-engine/audio-engine.test.ts[2m > [22m[2mAudioEngineService[2m > [22m[2mplayback voice switching (TASK-071, REQ-013-001/002/003)[2m > [22m[2mdisposes the failed grand-piano Sampler pair when falling back to the synth preset (CodeRabbit PR#28指摘#5(a))
+[22m[39m[AudioEngineService] Failed to load Salamander piano samples; falling back to the synth preset Error: 404 Not Found
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1360:52
+    at Array.forEach (<anonymous>)
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1360:23
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:302:11
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:1903:26
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2323:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+
+[90mstderr[2m | src/renderer/src/lib/audio-engine/audio-engine.test.ts[2m > [22m[2mAudioEngineService[2m > [22m[2mplayback voice switching (TASK-071, REQ-013-001/002/003)[2m > [22m[2msetPlaybackVoiceを連続呼び出しした場合、最後に呼び出した音色が最終的に反映される（CodeRabbit PR#28指摘#5(b)）
+[22m[39m[AudioEngineService] Failed to load Salamander piano samples; falling back to the synth preset Error: stale 404
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1378:57
+    at Array.forEach (<anonymous>)
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1378:28
+[90m    at processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+
+[90mstderr[2m | src/renderer/src/lib/audio-engine/audio-engine.test.ts[2m > [22m[2mAudioEngineService[2m > [22m[2mplayback voice switching (TASK-071, REQ-013-001/002/003)[2m > [22m[2m古い世代のonerrorフォールバックが生成した破棄済みインスタンスをリークさせない（CodeRabbit PR#28指摘#5(b)）
+[22m[39m[AudioEngineService] Failed to load Salamander piano samples; falling back to the synth preset Error: stale 404
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1392:57
+    at Array.forEach (<anonymous>)
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/audio-engine.test.ts:1392:28
+[90m    at processTicksAndRejections (node:internal/process/task_queues:103:5)[39m
+
+[90mstderr[2m | src/renderer/src/lib/audio-engine/audio-engine.test.ts[2m > [22m[2mAudioEngineService[2m > [22m[2mplayback voice switching (TASK-071, REQ-013-001/002/003)[2m > [22m[2mTASK-106: サンプルロードの決着保証[2m > [22m[2monload/onerrorがどちらも返らないまま上限時間を超えたらsynthへフォールバックし、ensurePlaybackVoiceLoaded()を解決する
+[22m[39m[AudioEngineService] Failed to load Salamander piano samples; falling back to the synth preset TimeoutError: Loading the piano samples did not settle within 20000ms
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/index.ts:258:29
+    at callTimer [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:1773:25[90m)[39m
+    at doTickInner [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:2444:30[90m)[39m
+    at doTick [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:2525:21[90m)[39m
+    at Immediate._onImmediate [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:2546:34[90m)[39m
+[90m    at processImmediate (node:internal/timers:484:21)[39m
+
+[90mstderr[2m | src/renderer/src/lib/audio-engine/audio-engine.test.ts[2m > [22m[2mAudioEngineService[2m > [22m[2mplayback voice switching (TASK-071, REQ-013-001/002/003)[2m > [22m[2mTASK-106: サンプルロードの決着保証[2m > [22m[2mタイムアウトでのフォールバック時もローディング状態をfalseへ戻す（再生ボタンが無効のまま固まらない）
+[22m[39m[AudioEngineService] Failed to load Salamander piano samples; falling back to the synth preset TimeoutError: Loading the piano samples did not settle within 20000ms
+    at [90m/work/[39msrc/renderer/src/lib/audio-engine/index.ts:258:29
+    at callTimer [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:1773:25[90m)[39m
+    at doTickInner [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:2444:30[90m)[39m
+    at doTick [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:2525:21[90m)[39m
+    at Immediate._onImmediate [90m(file:///work/[39mnode_modules/[4mvitest[24m/dist/chunks/test.DNmyFkvJ.js:2546:34[90m)[39m
+[90m    at processImmediate (node:internal/timers:484:21)[39m
+
+ [32m✓[39m src/renderer/src/lib/audio-engine/audio-engine.test.ts [2m([22m[2m97 tests[22m[2m)[22m[32m 136[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/ScoreRenderer/osmd-controller.test.ts [2m([22m[2m52 tests[22m[2m)[22m[32m 140[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mrenders correctly with layout components
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mpasses an onOpenFile handler to Header
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mtriggers electronAPI file methods when Open File button is clicked
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mtriggers electronAPI file methods when Open File button is clicked
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mtriggers electronAPI file methods correctly when opening an .mxl file
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mtriggers electronAPI file methods correctly when opening an .mxl file
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mhandles user canceling Open File dialog
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mcalls audioEngine.loadScore() when a score is opened
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mcalls audioEngine.loadScore() when a score is opened
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store bpm changes to audioEngine.setBpm
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store bpm changes to audioEngine.setBpm
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store metronomeEnabled changes to audioEngine.setMetronomeEnabled
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store metronomeEnabled changes to audioEngine.setMetronomeEnabled
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store playbackVoice changes to audioEngine.setPlaybackVoice (TASK-073)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store playbackVoice changes to audioEngine.setPlaybackVoice (TASK-073)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store metronomeVoice changes to audioEngine.setMetronomeVoice (TASK-073)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2msyncs store metronomeVoice changes to audioEngine.setMetronomeVoice (TASK-073)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mplays correct/incorrect feedback sounds based on the MIDI note judgement result
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mplays correct/incorrect feedback sounds based on the MIDI note judgement result
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted "metronome enabled by default" setting to the ui-slice on startup
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted "metronome enabled by default" setting to the ui-slice on startup
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted "metronome accent enabled" setting to the ui-slice on startup (TASK-063)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted "metronome accent enabled" setting to the ui-slice on startup (TASK-063)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mkeeps metronomeAccentEnabled at its store default (true) when the persisted practice settings lack the key (backward compatibility, TASK-063)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted "default error mode" setting to the practice-slice on startup (TASK-040)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted ui.zoom / ui.pianoHeight settings to the store on startup (TASK-045)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted ui.zoom / ui.pianoHeight settings to the store on startup (TASK-045)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted ui.volume setting to the store on startup (TASK-052)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted audio.playbackVoice / audio.metronomeVoice settings to AudioEngine on startup (TASK-073)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted audio.playbackVoice / audio.metronomeVoice settings to AudioEngine on startup (TASK-073)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mkeeps playbackVoice/metronomeVoice at their store defaults when the persisted audio settings are absent (backward compatibility, TASK-073)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted midi.selectedDeviceId setting to WebMidiService via useMidi on startup (TASK-045, REQ-004-008)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mapplies the persisted midi.selectedDeviceId setting to WebMidiService via useMidi on startup (TASK-045, REQ-004-008)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mdoes not throw when electronAPI is unavailable while loading the default metronome setting
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mpasses loopRange=null to ScoreRenderer when the loop is disabled
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mpasses loopRange derived from loopStart/loopEnd to ScoreRenderer when the loop is enabled
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp[2m > [22m[2mpasses loopRange derived from loopStart/loopEnd to ScoreRenderer when the loop is enabled
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-055: 運指の一括表示/非表示トグル[2m > [22m[2mpasses an empty annotations array to ScoreRenderer and PianoKeyboard when showFingerings is turned off (data is not mutated in annotation-store)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-055: 運指の一括表示/非表示トグル[2m > [22m[2mrestores the real annotations to ScoreRenderer and PianoKeyboard immediately when showFingerings is turned back on
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-055: 運指の一括表示/非表示トグル[2m > [22m[2mautomatically turns showFingerings back on when a fingering suggestion is applied while it is off (so the result is visible)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-055: 運指の一括表示/非表示トグル[2m > [22m[2mapplies the persisted ui.showFingerings setting to the store on startup
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-056: 画面下キーボードの鍵盤数指定[2m > [22m[2mpasses the current ui-slice keyboardSize to PianoKeyboard (default 88)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-056: 画面下キーボードの鍵盤数指定[2m > [22m[2mpasses the updated keyboardSize to PianoKeyboard immediately when the store changes (SettingsModal結線の検証)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-056: 画面下キーボードの鍵盤数指定[2m > [22m[2mapplies the persisted ui.keyboardSize setting to the store (and to PianoKeyboard) on startup
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-056: 画面下キーボードの鍵盤数指定[2m > [22m[2mdoes not throw when electronAPI is unavailable while loading the default keyboardSize setting
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - soundingNotesの伝搬（TASK-057）[2m > [22m[2mpasses an empty soundingNotes set to PianoKeyboard initially (no playback in progress)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mshows a drop hint placeholder while no score is loaded
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mshows a drop hint placeholder while no score is loaded
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mshows a drag-active visual overlay on dragenter and clears it on dragleave
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mprevents the default browser behavior on dragover so a drop can occur
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mopens a dropped .xml file through the same pipeline as the dialog and registers it for annotation writes
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mopens a dropped .xml file through the same pipeline as the dialog and registers it for annotation writes
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mopens a dropped .mxl file via the binary read path
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mopens a dropped .mxl file via the binary read path
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mrejects a dropped file with an unsupported extension without calling the open pipeline
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mconsiders only the first dropped file when multiple files are dropped, rejecting when it is unsupported
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mnotifies the user when the main process rejects registering the dropped path (defense in depth)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - drag & drop file open (TASK-053)[2m > [22m[2mshows an alert when electronAPI is unavailable at drop time
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mmoves the cursor to the clicked note's own judgement group, not the measure head (REQ-002-004)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mmoves the cursor to the clicked note's own judgement group, not the measure head (REQ-002-004)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mkeeps the cursor at group index 0 when the clicked note is the first judgement group (regression)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mkeeps the cursor at group index 0 when the clicked note is the first judgement group (regression)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mstarts playback from the current cursor position tick when playing from a stopped state (REQ-010-001)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mstarts playback from the current cursor position tick when playing from a stopped state (REQ-010-001)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mresumes from the current cursor position tick even from a paused state (paused中のカーソル移動を反映)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - TASK-051: playback practice-mode filter / cursor-position playback / note-level cursor movement[2m > [22m[2mresumes from the current cursor position tick even from a paused state (paused中のカーソル移動を反映)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - note context menu (TASK-044, US-008)[2m > [22m[2mopens the context menu on right-click and saves a selected finger number via annotation-store (REQ-008-001)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - note context menu (TASK-044, US-008)[2m > [22m[2mremoves an existing finger number via the context menu (REQ-008-006)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - note context menu (TASK-044, US-008)[2m > [22m[2madds and edits a text comment via the context menu (REQ-008-003)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstdout[2m | src/renderer/src/components/SettingsModal/SettingsModal.test.tsx
+[22m[39m * Tone.js v15.1.22 * 
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - note context menu (TASK-044, US-008)[2m > [22m[2mapproves an AI-suggested annotation via the context menu, reflected as isApproved in showFingerings data (REQ-009-005)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - note context menu (TASK-044, US-008)[2m > [22m[2mkeeps a manually approved annotation when new AI suggestions are applied afterwards (REQ-009-006 regression)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - Aboutモーダル結線（TASK-082, US-015）[2m > [22m[2m起動直後はAboutモーダルを表示しない
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - Aboutモーダル結線（TASK-082, US-015）[2m > [22m[2melectronAPI.menu.onOpenAbout経由のコールバック発火でAboutモーダルが表示される
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - Aboutモーダル結線（TASK-082, US-015）[2m > [22m[2mアンマウント時にonOpenAboutの購読解除関数を呼ぶ（StrictMode耐性）
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - Aboutモーダル結線（TASK-082, US-015）[2m > [22m[2melectronAPI.menuが利用できない場合でも例外を投げない
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - __e2eStore__ instrumentation guard (TASK-088)[2m > [22m[2mdoes not expose __e2eStore__ on window when electronAPI.isE2E is not true
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - __e2eStore__ instrumentation guard (TASK-088)[2m > [22m[2mexposes __e2eStore__ on window when electronAPI.isE2E is true
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - 言語切り替え (TASK-098, US-016)[2m > [22m[2mshows the English drop hint when the store language is "en"
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mshows the LibraryView on startup, before any score is opened (REQ-017-010)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mshows the LibraryView on startup, before any score is opened (REQ-017-010)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mregisters the score opened via the file dialog to the library with title/composer/path (REQ-017-001)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mregisters the score opened via the file dialog to the library with title/composer/path (REQ-017-001)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mfalls back to the file name (without extension) as the library title when the score has no title (REQ-017-001)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mfalls back to the file name (without extension) as the library title when the score has no title (REQ-017-001)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mregisters a score dropped via drag & drop to the library through the same success point as the dialog (REQ-017-001)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mregisters a score dropped via drag & drop to the library through the same success point as the dialog (REQ-017-001)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mdoes not throw and still opens the score when electronAPI.library is unavailable (backward compatibility)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mdoes not throw and still opens the score when electronAPI.library is unavailable (backward compatibility)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mswitches to the score view once a score has been successfully opened, hiding the LibraryView (REQ-017-010)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mswitches to the score view once a score has been successfully opened, hiding the LibraryView (REQ-017-010)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mswitches back to the library view when the Header library button is clicked (US-017 acceptance)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mswitches back to the library view when the Header library button is clicked (US-017 acceptance)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2m楽譜へ戻る導線 (TASK-105, REQ-017-012)[2m > [22m[2mpasses isReturnToScoreMode=false to Header and does not switch away from library when no score is loaded
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2m楽譜へ戻る導線 (TASK-105, REQ-017-012)[2m > [22m[2mpasses isReturnToScoreMode=true to Header once a score is loaded and the library is shown, and toggles back to score on click
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2m楽譜へ戻る導線 (TASK-105, REQ-017-012)[2m > [22m[2mpasses isReturnToScoreMode=true to Header once a score is loaded and the library is shown, and toggles back to score on click
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2m楽譜へ戻る導線 (TASK-105, REQ-017-012)[2m > [22m[2mpasses onReturnToScore to LibraryView only when a score is loaded
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2m楽譜へ戻る導線 (TASK-105, REQ-017-012)[2m > [22m[2mpasses onReturnToScore to LibraryView only when a score is loaded
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mopens a score selected from the library via electronAPI.library.open then the standard read/parse pipeline (REQ-017-007)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mopens a score selected from the library via electronAPI.library.open then the standard read/parse pipeline (REQ-017-007)
+[22m[39mAn update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mreuses the file dialog handler for the LibraryView empty-state "open file" button
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mshows an error and a delete-confirmation dialog when a library entry file is missing, and removes it on confirmation (REQ-017-008)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mshows an alert when electronAPI.library.open itself throws (CodeRabbit #46指摘3)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mshows an alert when electronAPI.library.open itself throws (CodeRabbit #46指摘3)
+[22m[39mFailed to open the library entry: Error: ipc failure
+    at [90m/work/[39msrc/renderer/src/App.test.tsx:2175:39
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:302:11
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:1903:26
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2323:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2272:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2956:64
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mclears the missing mark and triggers a library reload after confirming removal of a missing entry (CodeRabbit #46指摘4)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mdoes not clear the missing mark or trigger a reload when removing a missing entry fails (CodeRabbit #46指摘4)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mdoes not clear the missing mark or trigger a reload when removing a missing entry fails (CodeRabbit #46指摘4)
+[22m[39mFailed to remove the missing library entry: Error: boom
+    at [90m/work/[39msrc/renderer/src/App.test.tsx:2232:41
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:302:11
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:1903:26
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2323:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout [90m(file:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2272:10[90m)[39m
+    at [90mfile:///work/[39mnode_modules/[4m@vitest/runner[24m/dist/chunk-artifact.js:2956:64
+
+[90mstderr[2m | src/renderer/src/App.test.tsx[2m > [22m[2mApp - ライブラリ統合（TASK-103, US-017）[2m > [22m[2mkeeps the library entry when the user cancels the missing-file removal confirmation (REQ-017-008)
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15718:11[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+
+ [32m✓[39m src/renderer/src/App.test.tsx [2m([22m[2m77 tests[22m[2m)[22m[33m 1573[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/musicxml-parser/parser.test.ts [2m([22m[2m62 tests[22m[2m)[22m[33m 1087[2mms[22m[39m
+     [33m[2m✓[22m[39m 展開後サイズが上限を超える.mxlを拒否する（zip爆弾対策） [33m 875[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/SettingsModal/SettingsModal.test.tsx [2m([22m[2m32 tests[22m[2m)[22m[33m 1152[2mms[22m[39m
+ [32m✓[39m src/renderer/src/hooks/usePractice.test.ts [2m([22m[2m37 tests[22m[2m)[22m[32m 118[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/PianoKeyboard/PianoKeyboard.test.tsx [2m([22m[2m39 tests[22m[2m)[22m[32m 134[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/practice-engine/practice-engine.test.ts [2m([22m[2m25 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32m✓[39m src/renderer/src/store/slices/ui-slice.test.ts [2m([22m[2m39 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/Toolbar/PlaybackControls.test.tsx [2m([22m[2m25 tests[22m[2m)[22m[32m 297[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/components/ScoreRenderer/ScoreRenderer.test.tsx[2m > [22m[2mScoreRenderer[2m > [22m[2mrenders container when score is provided
+[22m[39mAn update to ScoreRenderer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/components/ScoreRenderer/ScoreRenderer.test.tsx[2m > [22m[2mScoreRenderer[2m > [22m[2mhas a single scroll container (outer div) and no nested scroll/height on the inner osmd-container
+[22m[39mAn update to ScoreRenderer inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m src/renderer/src/components/ScoreRenderer/ScoreRenderer.test.tsx [2m([22m[2m15 tests[22m[2m)[22m[33m 381[2mms[22m[39m
+ [32m✓[39m src/renderer/src/workers/fingering/dp-solver.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 18[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/components/Header/Header.test.tsx[2m > [22m[2mHeader[2m > [22m[2m練習対象 (PracticeModeSelector integration)[2m > [22m[2mchanges practice mode via buttons
+[22m[39mRemoving a style property during rerender (borderColor) when a conflicting property is set (border) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+[90mstderr[2m | src/renderer/src/components/Header/Header.test.tsx[2m > [22m[2mHeader[2m > [22m[2m練習対象 (PracticeModeSelector integration)[2m > [22m[2mchanges practice mode via keyboard shortcuts
+[22m[39mRemoving a style property during rerender (borderColor) when a conflicting property is set (border) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+Removing a style property during rerender (borderColor) when a conflicting property is set (border) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values.
+
+ [32m✓[39m src/renderer/src/components/Header/Header.test.tsx [2m([22m[2m32 tests[22m[2m)[22m[33m 1543[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/tests/integration/practice-flow.test.tsx[2m > [22m[2mアプリ経路の初期化（スコア読み込み→練習セッション初期化）[2m > [22m[2mOpen FileでMusicXMLを読み込むと、テスト側でresetToMeasureを呼ばなくてもexpectedNotesが初期化される
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15519:11[90m)[39m
+    at flushPassiveEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:18432:9[90m)[39m
+
+[90mstderr[2m | src/renderer/src/tests/integration/practice-flow.test.tsx[2m > [22m[2mアプリ経路の初期化（スコア読み込み→練習セッション初期化）[2m > [22m[2mテンポ指定ありのMusicXMLを読み込むと、originalBpm/bpmが楽譜のテンポになる
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15519:11[90m)[39m
+    at flushPassiveEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:18432:9[90m)[39m
+
+[90mstderr[2m | src/renderer/src/tests/integration/practice-flow.test.tsx[2m > [22m[2mアプリ経路の初期化（スコア読み込み→練習セッション初期化）[2m > [22m[2mテンポ指定なしのMusicXMLを読み込むと、originalBpm/bpmはパーサーのデフォルト値(120)になる
+[22m[39mFailed to initialize WebMIDI: TypeError: navigator.requestMIDIAccess is not a function
+    at WebMidiService.initialize [90m(/work/[39msrc/renderer/src/lib/midi/web-midi.ts:16:35[90m)[39m
+    at [90m/work/[39msrc/renderer/src/hooks/useMidi.ts:18:20
+    at Object.react_stack_bottom_frame [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:25989:20[90m)[39m
+    at runWithFiberInDEV [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:874:13[90m)[39m
+    at commitHookEffectListMount [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13249:29[90m)[39m
+    at commitHookPassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:13336:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15484:13[90m)[39m
+    at recursivelyTraversePassiveMountEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15439:11[90m)[39m
+    at commitPassiveMountOnFiber [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:15519:11[90m)[39m
+    at flushPassiveEffects [90m(/work/[39mnode_modules/[4mreact-dom[24m/cjs/react-dom-client.development.js:18432:9[90m)[39m
+
+ [32m✓[39m src/renderer/src/tests/integration/practice-flow.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 233[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/PianoKeyboard/keyboard-renderer.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/LibraryView/LibraryView.test.tsx [2m([22m[2m21 tests[22m[2m)[22m[33m 1095[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/annotation-store/annotation-store.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 15[2mms[22m[39m
+ [32m✓[39m src/main/file-handlers.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m src/main/library-handlers.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/audio-engine/pedal-extension.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/NoteContextMenu/NoteContextMenu.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[32m 241[2mms[22m[39m
+ [32m✓[39m scripts/generate-licenses.test.mjs [2m([22m[2m7 tests[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/midi/web-midi.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/main/menu.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/Toolbar/VolumeControl.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[32m 200[2mms[22m[39m
+ [32m✓[39m src/renderer/src/workers/fingering/cost-functions.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/components/Header/QuickPanel.test.tsx[2m > [22m[2mQuickPanel[2m > [22m[2mtoggles the store metronomeAccentEnabled state when the accent checkbox is operated
+[22m[39mAn update to VolumeControl inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to ZoomControl inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to FingeringToggle inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to MetronomeAccentToggle inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m src/renderer/src/components/Header/QuickPanel.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 206[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/FingeringPanel/FingeringPanel.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 175[2mms[22m[39m
+ [32m✓[39m src/main/settings-handlers.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/audio-engine/metronome-voices.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m src/main/library.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 47[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/audio-engine/voices.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/Toolbar/FingeringToggle.test.tsx [2m([22m[2m11 tests[22m[2m)[22m[32m 186[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/LibraryView/library-utils.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32m✓[39m src/renderer/src/hooks/useMidi.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/components/AboutPanel/AboutModal.test.tsx[2m > [22m[2mAboutModal (TASK-082, US-015)[2m > [22m[2mshows English strings when the store language is "en" (TASK-098)
+[22m[39mAn update to AboutPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to AboutModal inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m src/renderer/src/components/AboutPanel/AboutModal.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 319[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/Header/Popover.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 104[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/PianoKeyboard/key-layout.test.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/FingeringPanel/FingeringPanel.wiring.test.tsx [2m([22m[2m1 test[22m[2m)[22m[32m 99[2mms[22m[39m
+ [32m✓[39m src/renderer/src/tests/integration/musicxml-parser-integration.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 52[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/practice-engine/note-grouping.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/main/path-allowlist.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/components/Header/MetronomeToggle.test.tsx[2m > [22m[2mMetronomeToggle (ヘッダー常駐、ON/OFFのみ)[2m > [22m[2mcalls setMetronomeEnabled and updates the store when clicked
+[22m[39mAn update to MetronomeToggle inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/components/Header/MetronomeToggle.test.tsx[2m > [22m[2mMetronomeToggle (ヘッダー常駐、ON/OFFのみ)[2m > [22m[2mremains operable regardless of playbackState (現行仕様維持、再生中も操作可能)
+[22m[39mAn update to MetronomeToggle inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/components/Header/MetronomeToggle.test.tsx[2m > [22m[2mMetronomeAccentToggle (QuickPanel、1拍目強調のみ)[2m > [22m[2mcalls setMetronomeAccentEnabled and updates the store when the checkbox is clicked
+[22m[39mAn update to MetronomeAccentToggle inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m src/renderer/src/components/Header/MetronomeToggle.test.tsx [2m([22m[2m8 tests[22m[2m)[22m[32m 105[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/Toolbar/TempoControl.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 256[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/fingering-engine/fingering-engine.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 14[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/components/AboutPanel/AboutPanel.test.tsx[2m > [22m[2mAboutPanel[2m > [22m[2mshows English strings when the store language is "en" (TASK-098)
+[22m[39mAn update to AboutPanel inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m src/renderer/src/components/AboutPanel/AboutPanel.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 135[2mms[22m[39m
+ [32m✓[39m src/main/dock-icon.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m src/renderer/src/store/slices/practice-slice.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/main/navigation-policy.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m src/main/settings.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32m✓[39m src/renderer/src/store/store.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/renderer/src/tests/integration/fingering-benchmark.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/i18n/index.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/Toolbar/LoopControl.test.tsx [2m([22m[2m5 tests[22m[2m)[22m[32m 212[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/i18n/resolve-language.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/StatsDisplay/StatsDisplay.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 62[2mms[22m[39m
+ [32m✓[39m src/renderer/src/components/Toolbar/ZoomControl.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[32m 100[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/audio-engine/with-timeout.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 24[2mms[22m[39m
+ [32m✓[39m src/main/window-options.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m src/renderer/src/workers/fingering/scale-patterns.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m src/main/locale.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/renderer/src/lib/i18n/format.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/renderer/src/tests/branding.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+[90mstderr[2m | src/renderer/src/components/Toolbar/PracticeModeSelector.test.tsx[2m > [22m[2mPracticeModeSelector labels and tooltips[2m > [22m[2mshows a tooltip on the group container distinguishing this control from fingering target selection
+[22m[39mAn update to PracticeModeSelector inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+[90mstderr[2m | src/renderer/src/components/Toolbar/PracticeModeSelector.test.tsx[2m > [22m[2mPracticeModeSelector labels and tooltips[2m > [22m[2mshows Japanese labels with keyboard shortcut hints for each mode button
+[22m[39mAn update to PracticeModeSelector inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+ [32m✓[39m src/renderer/src/components/Toolbar/PracticeModeSelector.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 109[2mms[22m[39m
+ [32m✓[39m src/renderer/src/types/score.test.ts [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m src/main/permission-policy.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m66 passed[39m[22m[90m (66)[39m
+[2m      Tests [22m [1m[32m965 passed[39m[22m[90m (965)[39m
+[2m   Start at [22m 09:20:26
+[2m   Duration [22m 25.49s[2m (transform 2.34s, setup 3.22s, import 5.66s, tests 10.92s, environment 45.44s)[22m
+

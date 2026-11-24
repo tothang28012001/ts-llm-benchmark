@@ -1,0 +1,98 @@
+{
+  "repo_id": "H17",
+  "group": "human",
+  "full_name": "rangle/angular-ssr",
+  "stars": "277",
+  "created_at": "2017-01-22",
+  "pin": "18a8e40a541b3cb840ae7dfaa0abf95e5fab1256",
+  "fetch": {
+    "sha": "18a8e40a541b3cb840ae7dfaa0abf95e5fab1256",
+    "commit_date": "2018-03-16T20:54:02Z",
+    "first_commit_date": "2017-01-22T03:05:18-05:00",
+    "commits_to_pin": 365,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 170,
+    "test_files": 29,
+    "skipped": 33,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 170,
+      "lines": 5358,
+      "code": 3948,
+      "comment": 233,
+      "blank": 1192
+    },
+    "test": {
+      "files": 29,
+      "lines": 1530,
+      "code": 1274,
+      "comment": 6,
+      "blank": 253
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 1,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 1,
+        "seconds": 52.3
+      },
+      {
+        "cmd": "npm install --legacy-peer-deps",
+        "exit": 0,
+        "seconds": 17.0
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "2.3.2",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 2.238
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 199
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 1,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 140.3
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "10",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm ci",
+    "passed": false,
+    "exit": 1,
+    "seconds": 214.5
+  }
+}

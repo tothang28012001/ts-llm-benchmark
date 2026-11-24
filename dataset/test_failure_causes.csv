@@ -1,12 +1,31 @@
 repo_id,cause_category,evidence
-H02,environment drift,"node-sass binary unsupported on Node 22 (6 suites fail to load); all tests pass on Node 14"
-H04,genuine failure,"test script runs a build first; tsc reports TS2307/TS2538 in project files on Node 22 and Node 12"
-H05,environment (device-only),"only suite is a Detox end-to-end test (ReferenceError: device is not defined); needs a mobile device"
-H07,dependency rot,"dependency sc-domain@1.0.1 returns 404 from the npm registry (unpublished); cannot install on any Node"
+H02,environment drift,node-sass binary unsupported on Node 22 (6 suites fail to load); all tests pass on Node 14
+H04,genuine failure,test script runs a build first; tsc reports TS2307/TS2538 in project files on Node 22 and Node 12
+H05,environment (device-only),only suite is a Detox end-to-end test (ReferenceError: device is not defined); needs a mobile device
+H07,dependency rot,dependency sc-domain@1.0.1 returns 404 from the npm registry (unpublished); cannot install on any Node
 H09,external service,"2 tests call http://swapi.co, which now answers 403 Forbidden; 17 of 19 tests pass"
-H10,dependency rot,"lockfile git dependency can no longer be fetched (git exit 128) on Node 22 or Node 8"
-H11,genuine failure,"both suites crash on 'Cannot assign to read only property asyncIterator' on Node 22 and Node 14"
+H10,dependency rot,lockfile git dependency can no longer be fetched (git exit 128) on Node 22 or Node 8
+H11,genuine failure,both suites crash on 'Cannot assign to read only property asyncIterator' on Node 22 and Node 14
+H13,environment (browser),karma launcher: no Chrome binary in the container; also fails on Node 14
+H15,environment (browser),110 of 112 browser-automation tests get zero assertion calls without a browser; times out on Node 14
+H17,dependency rot,18 suites fail to load: dependency domino-modernized uses 'with' in strict mode under today's Babel; also fails on Node 10
+H20,dependency rot,karma-typescript reports TS2339 in project files against today's @types/estree (unpinned range); also needs Chrome
+H22,undeclared tool,"test script calls mocha, which package.json does not declare (sh: mocha: not found)"
+H24,dependency rot,react-native's Flow-typed polyfill no longer parses under the installed Babel; 0 tests run
+H25,dependency rot,gulp 3 crashes with 'primordials is not defined' on Node 22; also fails on Node 10
+H26,undeclared tool,"test script calls rimraf, which package.json does not declare (sh: rimraf: not found)"
+H28,dependency rot,26 suites fail: @babel/compat-data no longer ships corejs3-shipped-proposals
+H29,environment (browser),karma launcher: no Chrome binary in the container; also fails on Node 12
+H31,dependency rot,react-native jest setup rejected by today's babel-plugin-jest-hoist (out-of-scope variable in jest.mock); era Node install fails
+H32,build artefact missing,"tests import ../lib/Grand, which is only produced by a separate build step"
+H33,dependency rot,".npmrc points at registry.npm.taobao.org, a retired npm mirror (certificate expired); no install level succeeds"
+H34,build artefact missing,1 of 5 suites imports a generated ../amphtml/amphtml module; the other 4 suites (4 tests) pass
+H35,external service,"integration suite cannot start (jest worker call retries exceeded, needs a database); 13 of 13 unit tests pass"
+H36,dependency rot,"today's iconv-lite type definitions use 'import type', which the pinned TypeScript cannot parse"
 L03,environment (system binary),"2 tests spawn ffmpeg, which is not installed in the container; 42 of 44 tests pass"
-L05,genuine failure,"8 failing node:test subtests in .gitignore pattern handling; 364 of 372 pass"
-L06,genuine failure,"8 failing assertions across 26 test files (e.g. expected function to throw); 3359 of 3367 pass"
-L07,genuine failure,"8 failing CLI tests (e.g. --help output missing --sarif flag); 1076 of 1084 pass"
+L05,genuine failure,8 failing node:test subtests in .gitignore pattern handling; 364 of 372 pass
+L06,genuine failure,8 failing assertions across 26 test files (e.g. expected function to throw); 3359 of 3367 pass
+L07,genuine failure,8 failing CLI tests (e.g. --help output missing --sarif flag); 1076 of 1084 pass
+L13,genuine failure,"70 of 768 vitest tests fail on assertions (e.g. expected false to be true), some because systemctl is missing; 626 pass"
+L27,undeclared tool,test script wraps vitest in pass-cli (a secrets manager CLI) that package.json does not declare (sh: pass-cli: not found)
+L28,genuine failure,3 failing assertions in TradeHistory summary/filter tests; 13 of 16 pass

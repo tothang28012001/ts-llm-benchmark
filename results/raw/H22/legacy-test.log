@@ -1,0 +1,6 @@
+
+> en-inflectors@1.0.12 test /work
+> mocha
+
+sh: 1: mocha: not found
+npm ERR! Test failed.  See above for more details.

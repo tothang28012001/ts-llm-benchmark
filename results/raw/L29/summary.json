@@ -1,0 +1,124 @@
+{
+  "repo_id": "L29",
+  "group": "llm",
+  "full_name": "paul80nd/forkast",
+  "stars": "0",
+  "created_at": "2026-06-27",
+  "pin": "HEAD",
+  "fetch": {
+    "sha": "bc21401d87aeb3ebc1dbed84ceeb58e4f89338e2",
+    "commit_date": "2026-11-03T21:26:09Z",
+    "first_commit_date": "2026-06-27T14:57:03+01:00",
+    "commits_to_pin": 223,
+    "ai_commits_to_pin": 201,
+    "ai_commit_share": 0.9013,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 104,
+    "test_files": 24,
+    "skipped": 5,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 104,
+      "lines": 14458,
+      "code": 11830,
+      "comment": 1510,
+      "blank": 1144
+    },
+    "test": {
+      "files": 24,
+      "lines": 2188,
+      "code": 1872,
+      "comment": 62,
+      "blank": 268
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 2.2
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "toolchain",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.app.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 3.424
+      },
+      {
+        "tsconfig": "tsconfig.node.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 0.798
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 130
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 3.8
+  },
+  "mutation": {
+    "sample_files": [
+      "src/lib/parseIngredient.ts",
+      "src/pages/RefinePage.tsx"
+    ],
+    "sample_lines": 515,
+    "framework_versions": {
+      "vitest": "5.1.0",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "perTest",
+    "counts": {
+      "NoCoverage": 279,
+      "Ignored": 18,
+      "Killed": 23,
+      "Survived": 11
+    },
+    "mutants_valid": 313,
+    "mutation_score": 0.07348242811501597,
+    "mutation_score_covered": 0.6764705882352942,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 0,
+        "seconds": 5.334,
+        "timed_out": false
+      }
+    ]
+  }
+}

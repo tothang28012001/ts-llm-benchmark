@@ -1,0 +1,95 @@
+{
+  "repo_id": "H36",
+  "group": "human",
+  "full_name": "aluisiora/node-routeros",
+  "stars": "111",
+  "created_at": "2017-10-23",
+  "pin": "0338cc062c21052a91aa24b2c9b91988ecfdaa31",
+  "fetch": {
+    "sha": "0338cc062c21052a91aa24b2c9b91988ecfdaa31",
+    "commit_date": "2020-04-17T20:22:36Z",
+    "first_commit_date": "2017-10-02T11:08:48-03:00",
+    "commits_to_pin": 194,
+    "ai_commits_to_pin": 0,
+    "ai_commit_share": 0.0,
+    "ai_agents": []
+  },
+  "inventory": {
+    "prod_files": 12,
+    "test_files": 0,
+    "skipped": 0,
+    "pm": "npm",
+    "lockfile": ""
+  },
+  "loc": {
+    "prod": {
+      "files": 12,
+      "lines": 2089,
+      "code": 1225,
+      "comment": 611,
+      "blank": 257
+    },
+    "test": {
+      "files": 0,
+      "lines": 0,
+      "code": 0,
+      "comment": 0,
+      "blank": 0
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm install",
+        "exit": 0,
+        "seconds": 2.9
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "3.9.10",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 1,
+        "seconds": 1.59
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 1,
+    "global_errors": 0,
+    "by_code": {
+      "TS1370": 1
+    },
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 12
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 2,
+    "passed": false,
+    "timed_out": false,
+    "seconds": 2.2
+  },
+  "mutation": {
+    "status": "tests-not-passing"
+  },
+  "test_legacy": {
+    "node": "14",
+    "why": "pin-date era",
+    "status": "ok",
+    "install": "npm install",
+    "passed": false,
+    "exit": 1,
+    "seconds": 3.1
+  }
+}

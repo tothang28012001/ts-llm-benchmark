@@ -136,6 +136,11 @@ def repo_metrics(d: Path) -> tuple[dict, dict, dict]:
         "mutants": mut.get("mutants_valid"), "mutation_runner": mut.get("runner"),
         "mutation_status": mut.get("status", "not-run") if _mut_valid(mut) or mut.get("status") != "ok" else "invalid-timeouts",
     }
+    # structural testability (RQ2) from the static import graph (bench/testability.py)
+    from bench.testability import analyse
+    t = analyse(s["repo_id"], d.parent) or {}
+    for k in ("fanout_mean", "ext_fanout_mean", "direct_test_pct", "test_reach_pct"):
+        m[k] = t.get(k, np.nan)
     return m, viol, tsc.get("by_code", {})
 
 
@@ -166,6 +171,10 @@ METRICS = [  # (column, label, research question)
     ("dup_pct", "Duplicated lines (%)", "RQ2"),
     ("comment_density", "Comment density", "RQ2"),
     ("test_to_code", "Test-to-code LOC ratio", "RQ2"),
+    ("fanout_mean", "Internal fan-out / module", "RQ2"),
+    ("ext_fanout_mean", "External packages / module", "RQ2"),
+    ("direct_test_pct", "% code imported directly by tests", "RQ2"),
+    ("test_reach_pct", "% code reachable from tests", "RQ2"),
     ("tsc_errors_per_kloc", "tsc errors in project files / KLOC", "RQ3"),
     ("test_pass_rate", "Test pass rate (Node 22)", "RQ2"),
     ("mutation_score", "Mutation score", "RQ2"),

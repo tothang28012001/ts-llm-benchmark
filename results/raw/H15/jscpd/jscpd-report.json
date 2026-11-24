@@ -1,0 +1,265 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T08:51:02.416Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/error.ts": {
+            "lines": 35,
+            "tokens": 241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/retrieval.ts": {
+            "lines": 379,
+            "tokens": 3105,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 98,
+            "duplicatedTokens": 678,
+            "percentage": 25.86,
+            "percentageTokens": 21.84,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/page.ts": {
+            "lines": 246,
+            "tokens": 2123,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/infrastructure.ts": {
+            "lines": 78,
+            "tokens": 590,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/basic.ts": {
+            "lines": 56,
+            "tokens": 444,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/assertions.ts": {
+            "lines": 560,
+            "tokens": 4302,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 30,
+            "duplicatedTokens": 290,
+            "percentage": 5.36,
+            "percentageTokens": 6.74,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/actions.ts": {
+            "lines": 315,
+            "tokens": 2375,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1669,
+          "tokens": 13180,
+          "sources": 7,
+          "clones": 4,
+          "duplicatedLines": 64,
+          "duplicatedTokens": 484,
+          "percentage": 3.83,
+          "percentageTokens": 3.67,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 1669,
+      "tokens": 13180,
+      "sources": 7,
+      "clones": 4,
+      "duplicatedLines": 64,
+      "duplicatedTokens": 484,
+      "percentage": 3.83,
+      "percentageTokens": 3.67,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 22,
+      "fragment": ",\n        index,\n        random\n      )\n    })\n\n    const returnValue: T = fn.call(this, `[data-rize=\"${random}\"]`, ...args)\n\n    this.push(async () => {\n      await this.page.$$eval(\n        `[data-rize=\"${random}\"]`,\n        /* istanbul ignore next, Instrumenting cannot be executed in browser. */\n        elements => Array\n          .from(elements)\n          .forEach(element => element.removeAttribute('data-rize'))\n      )\n    })\n\n    return returnValue\n  }\n\n  findWithText",
+      "tokens": 129,
+      "firstFile": {
+        "name": "src/retrieval.ts",
+        "start": 314,
+        "end": 335,
+        "startLoc": {
+          "line": 314,
+          "column": 19,
+          "position": 2588
+        },
+        "endLoc": {
+          "line": 335,
+          "column": 15,
+          "position": 2717
+        }
+      },
+      "secondFile": {
+        "name": "src/retrieval.ts",
+        "start": 266,
+        "end": 287,
+        "startLoc": {
+          "line": 266,
+          "column": 52,
+          "position": 2198
+        },
+        "endLoc": {
+          "line": 287,
+          "column": 14,
+          "position": 2327
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ": string,\n    index: number,\n    fn: ((selector: string, ...args: U) => T),\n    ...args: U\n  ): T {\n    const random = crypto.randomBytes(10).toString('hex')\n    this.push(async () => {\n      await this.page.evaluate(\n        /* Instrumenting cannot be executed in browser. */\n        /* istanbul ignore next */\n        (sel",
+      "tokens": 103,
+      "firstFile": {
+        "name": "src/retrieval.ts",
+        "start": 337,
+        "end": 347,
+        "startLoc": {
+          "line": 337,
+          "column": 9,
+          "position": 2742
+        },
+        "endLoc": {
+          "line": 347,
+          "column": 13,
+          "position": 2845
+        }
+      },
+      "secondFile": {
+        "name": "src/retrieval.ts",
+        "start": 288,
+        "end": 298,
+        "startLoc": {
+          "line": 288,
+          "column": 15,
+          "position": 2345
+        },
+        "endLoc": {
+          "line": 298,
+          "column": 14,
+          "position": 2448
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 19,
+      "fragment": ",\n        random\n      )\n    })\n\n    const returnValue: T = fn.call(this, `[data-rize=\"${random}\"]`, ...args)\n\n    this.push(async () => {\n      await this.page.$eval(\n        `[data-rize=\"${random}\"]`,\n        /* istanbul ignore next, Instrumenting cannot be executed in browser. */\n        element => element.removeAttribute('data-rize')\n      )\n    })\n\n    return returnValue\n  }\n\n  viewport",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/retrieval.ts",
+        "start": 355,
+        "end": 373,
+        "startLoc": {
+          "line": 355,
+          "column": 14,
+          "position": 2946
+        },
+        "endLoc": {
+          "line": 373,
+          "column": 11,
+          "position": 3053
+        }
+      },
+      "secondFile": {
+        "name": "src/retrieval.ts",
+        "start": 235,
+        "end": 253,
+        "startLoc": {
+          "line": 235,
+          "column": 63,
+          "position": 1942
+        },
+        "endLoc": {
+          "line": 253,
+          "column": 10,
+          "position": 2049
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "(selector: string, value: string) {\n    this.push(async () => {\n      const element = await this.page.$(selector)\n      assert.ok(element, `Element \"${selector}\" cannot be found.`)\n\n      const actual: boolean = await this.page.evaluate(\n        /* istanbul ignore next, instrumenting cannot be executed in browser */\n        (sel, val) => document\n          .querySelector<HTMLSelectElement>(sel)!\n          .querySelector<HTMLOptionElement>(`[value=${val}]`)!\n          .selected,\n        selector,\n        value\n      )\n      assert.ok(\n        !",
+      "tokens": 145,
+      "firstFile": {
+        "name": "src/assertions.ts",
+        "start": 477,
+        "end": 492,
+        "startLoc": {
+          "line": 477,
+          "column": 20,
+          "position": 3717
+        },
+        "endLoc": {
+          "line": 492,
+          "column": 10,
+          "position": 3862
+        }
+      },
+      "secondFile": {
+        "name": "src/assertions.ts",
+        "start": 454,
+        "end": 469,
+        "startLoc": {
+          "line": 454,
+          "column": 17,
+          "position": 3534
+        },
+        "endLoc": {
+          "line": 469,
+          "column": 15,
+          "position": 3679
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+
+> fsevents@1.1.2 install /work/node_modules/fsevents
+> node install
+
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall /work/node_modules/uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+
+> node-sass@4.5.3 install /work/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.5.3/linux-x64-64_binding.node
+Cannot download "https://github.com/sass/node-sass/releases/download/v4.5.3/linux-x64-64_binding.node": 
+
+HTTP error 404 Not Found
+
+Hint: If github.com is not accessible in your location
+      try setting a proxy via HTTP_PROXY, e.g. 
+
+      export HTTP_PROXY=http://example.com:1234
+
+or configure npm proxy via
+
+      npm config set proxy http://example.com:8080
+
+> node-sass@4.5.3 postinstall /work/node_modules/node-sass
+> node scripts/build.js
+
+Building: /usr/local/bin/node /work/node_modules/node-gyp/bin/node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [ '/usr/local/bin/node',
+gyp verb cli   '/work/node_modules/node-gyp/bin/node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library=' ]
+gyp info using node-gyp@3.6.2
+gyp info using node@10.24.1 | linux | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable "python2" in the PATH
+gyp verb `which` succeeded python2 /usr/bin/python2
+gyp verb check python version `/usr/bin/python2 -c "import platform; print(platform.python_version());"` returned: "2.7.13\n"
+gyp verb get node dir no --target version specified, falling back to host node version: 10.24.1
+gyp verb command install [ '10.24.1' ]
+gyp verb install input version string "10.24.1"
+gyp verb install installing version: 10.24.1
+gyp verb install --ensure was passed, so won't reinstall if already installed
+gyp verb install version not already installed, continuing with install 10.24.1
+gyp verb ensuring nodedir is created /root/.node-gyp/10.24.1
+gyp verb created nodedir /root/.node-gyp
+gyp http GET https://nodejs.org/download/release/v10.24.1/node-v10.24.1-headers.tar.gz
+gyp http 200 https://nodejs.org/download/release/v10.24.1/node-v10.24.1-headers.tar.gz
+gyp verb extracted file from tarball include/node/common.gypi
+gyp verb extracted file from tarball include/node/config.gypi
+gyp verb extracted file from tarball include/node/node.h
+gyp verb extracted file from tarball include/node/node_api.h
+gyp verb extracted file from tarball include/node/node_api_types.h
+gyp verb extracted file from tarball include/node/node_buffer.h
+gyp verb extracted file from tarball include/node/node_object_wrap.h
+gyp verb extracted file from tarball include/node/node_version.h
+gyp verb extracted file from tarball include/node/v8-value-serializer-version.h
+gyp verb extracted file from tarball include/node/v8-inspector-protocol.h
+gyp verb extracted file from tarball include/node/v8-inspector.h
+gyp verb extracted file from tarball include/node/v8-platform.h
+gyp verb extracted file from tarball include/node/v8-profiler.h
+gyp verb extracted file from tarball include/node/v8-testing.h
+gyp verb extracted file from tarball include/node/v8-util.h
+gyp verb extracted file from tarball include/node/v8-version-string.h
+gyp verb extracted file from tarball include/node/v8-version.h
+gyp verb extracted file from tarball include/node/v8.h
+gyp verb extracted file from tarball include/node/v8config.h
+gyp verb extracted file from tarball include/node/libplatform/libplatform-export.h
+gyp verb extracted file from tarball include/node/libplatform/libplatform.h
+gyp verb extracted file from tarball include/node/libplatform/v8-tracing.h
+gyp verb extracted file from tarball include/node/uv/aix.h
+gyp verb extracted file from tarball include/node/uv/android-ifaddrs.h
+gyp verb extracted file from tarball include/node/uv/bsd.h
+gyp verb extracted file from tarball include/node/uv/darwin.h
+gyp verb extracted file from tarball include/node/uv/linux.h
+gyp verb extracted file from tarball include/node/uv/os390.h
+gyp verb extracted file from tarball include/node/uv/posix.h
+gyp verb extracted file from tarball include/node/uv/stdint-msvc2008.h
+gyp verb extracted file from tarball include/node/uv/sunos.h
+gyp verb extracted file from tarball include/node/uv/threadpool.h
+gyp verb extracted file from tarball include/node/uv/tree.h
+gyp verb extracted file from tarball include/node/uv/errno.h
+gyp verb extracted file from tarball include/node/uv/unix.h
+gyp verb extracted file from tarball include/node/uv/version.h
+gyp verb extracted file from tarball include/node/uv/win.h
+gyp verb extracted file from tarball include/node/uv.h
+gyp verb extracted file from tarball include/node/openssl/aes.h
+gyp verb extracted file from tarball include/node/openssl/asn1.h
+gyp verb extracted file from tarball include/node/openssl/asn1_mac.h
+gyp verb extracted file from tarball include/node/openssl/asn1t.h
+gyp verb extracted file from tarball include/node/openssl/async.h
+gyp verb extracted file from tarball include/node/openssl/asyncerr.h
+gyp verb extracted file from tarball include/node/openssl/bio.h
+gyp verb extracted file from tarball include/node/openssl/bioerr.h
+gyp verb extracted file from tarball include/node/openssl/blowfish.h
+gyp verb extracted file from tarball include/node/openssl/bnerr.h
+gyp verb extracted file from tarball include/node/openssl/buffer.h
+gyp verb extracted file from tarball include/node/openssl/buffererr.h
+gyp verb extracted file from tarball include/node/openssl/camellia.h
+gyp verb extracted file from tarball include/node/openssl/cast.h
+gyp verb extracted file from tarball include/node/openssl/cmac.h
+gyp verb extracted file from tarball include/node/openssl/cms.h
+gyp verb extracted file from tarball include/node/openssl/cmserr.h
+gyp verb extracted file from tarball include/node/openssl/comp.h
+gyp verb extracted file from tarball include/node/openssl/comperr.h
+gyp verb extracted file from tarball include/node/openssl/conf.h
+gyp verb extracted file from tarball include/node/openssl/conf_api.h
+gyp verb extracted file from tarball include/node/openssl/conferr.h
+gyp verb extracted file from tarball include/node/openssl/cryptoerr.h
+gyp verb extracted file from tarball include/node/openssl/ct.h
+gyp verb extracted file from tarball include/node/openssl/cterr.h
+gyp verb extracted file from tarball include/node/openssl/des.h
+gyp verb extracted file from tarball include/node/openssl/dh.h
+gyp verb extracted file from tarball include/node/openssl/dherr.h
+gyp verb extracted file from tarball include/node/openssl/dsa.h
+gyp verb extracted file from tarball include/node/openssl/dsaerr.h
+gyp verb extracted file from tarball include/node/openssl/dtls1.h
+gyp verb extracted file from tarball include/node/openssl/ebcdic.h
+gyp verb extracted file from tarball include/node/openssl/ecdh.h
+gyp verb extracted file from tarball include/node/openssl/ecdsa.h
+gyp verb extracted file from tarball include/node/openssl/engine.h
+gyp verb extracted file from tarball include/node/openssl/engineerr.h
+gyp verb extracted file from tarball include/node/openssl/err.h
+gyp verb extracted file from tarball include/node/openssl/sslerr.h
+gyp verb extracted file from tarball include/node/openssl/hmac.h
+gyp verb extracted file from tarball include/node/openssl/idea.h
+gyp verb extracted file from tarball include/node/openssl/kdf.h
+gyp verb extracted file from tarball include/node/openssl/kdferr.h
+gyp verb extracted file from tarball include/node/openssl/lhash.h
+gyp verb extracted file from tarball include/node/openssl/md2.h
+gyp verb extracted file from tarball include/node/openssl/md4.h
+gyp verb extracted file from tarball include/node/openssl/md5.h
+gyp verb extracted file from tarball include/node/openssl/mdc2.h
+gyp verb extracted file from tarball include/node/openssl/modes.h
+gyp verb extracted file from tarball include/node/openssl/objects.h
+gyp verb extracted file from tarball include/node/openssl/objectserr.h
+gyp verb extracted file from tarball include/node/openssl/ocsp.h
+gyp verb extracted file from tarball include/node/openssl/ocsperr.h
+gyp verb extracted file from tarball include/node/openssl/x509err.h
+gyp verb extracted file from tarball include/node/openssl/crypto.h
+gyp verb extracted file from tarball include/node/openssl/pem.h
+gyp verb extracted file from tarball include/node/openssl/pem2.h
+gyp verb extracted file from tarball include/node/openssl/pkcs12.h
+gyp verb extracted file from tarball include/node/openssl/pkcs12err.h
+gyp verb extracted file from tarball include/node/openssl/pkcs7.h
+gyp verb extracted file from tarball include/node/openssl/pkcs7err.h
+gyp verb extracted file from tarball include/node/openssl/rand.h
+gyp verb extracted file from tarball include/node/openssl/rand_drbg.h
+gyp verb extracted file from tarball include/node/openssl/randerr.h
+gyp verb extracted file from tarball include/node/openssl/rc2.h
+gyp verb extracted file from tarball include/node/openssl/rc4.h
+gyp verb extracted file from tarball include/node/openssl/rc5.h
+gyp verb extracted file from tarball include/node/openssl/ripemd.h
+gyp verb extracted file from tarball include/node/openssl/rsa.h
+gyp verb extracted file from tarball include/node/openssl/rsaerr.h
+gyp verb extracted file from tarball include/node/openssl/safestack.h
+gyp verb extracted file from tarball include/node/openssl/seed.h
+gyp verb extracted file from tarball include/node/openssl/sha.h
+gyp verb extracted file from tarball include/node/openssl/srp.h
+gyp verb extracted file from tarball include/node/openssl/srtp.h
+gyp verb extracted file from tarball include/node/openssl/ssl2.h
+gyp verb extracted file from tarball include/node/openssl/evperr.h
+gyp verb extracted file from tarball include/node/openssl/stack.h
+gyp verb extracted file from tarball include/node/openssl/store.h
+gyp verb extracted file from tarball include/node/openssl/storeerr.h
+gyp verb extracted file from tarball include/node/openssl/symhacks.h
+gyp verb extracted file from tarball include/node/openssl/ts.h
+gyp verb extracted file from tarball include/node/openssl/tserr.h
+gyp verb extracted file from tarball include/node/openssl/txt_db.h
+gyp verb extracted file from tarball include/node/openssl/ui.h
+gyp verb extracted file from tarball include/node/openssl/uierr.h
+gyp verb extracted file from tarball include/node/openssl/whrlpool.h
+gyp verb extracted file from tarball include/node/openssl/ec.h
+gyp verb extracted file from tarball include/node/openssl/x509v3.h
+gyp verb extracted file from tarball include/node/openssl/x509v3err.h
+gyp verb extracted file from tarball include/node/openssl/tls1.h
+gyp verb extracted file from tarball include/node/openssl/opensslv.h
+gyp verb extracted file from tarball include/node/openssl/pemerr.h
+gyp verb extracted file from tarball include/node/openssl/ssl3.h
+gyp verb extracted file from tarball include/node/openssl/evp.h
+gyp verb extracted file from tarball include/node/openssl/ossl_typ.h
+gyp verb extracted file from tarball include/node/openssl/ecerr.h
+gyp verb extracted file from tarball include/node/openssl/ssl.h
+gyp verb extracted file from tarball include/node/openssl/x509.h
+gyp verb extracted file from tarball include/node/openssl/x509_vfy.h
+gyp verb extracted file from tarball include/node/openssl/asn1err.h
+gyp verb extracted file from tarball include/node/openssl/bn.h
+gyp verb extracted file from tarball include/node/openssl/e_os2.h
+gyp verb extracted file from tarball include/node/openssl/obj_mac.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-elf/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64le/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/BSD-x86_64/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64A/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix64-gcc/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris-x86-gcc/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin64-x86_64-cc/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/aix-gcc/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/darwin-i386-cc/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x86_64/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/solaris64-x86_64-gcc/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-aarch64/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-armv4/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm_avx2/include/openssl/opensslconf.h
+gyp verb content checksum node-v10.24.1-headers.tar.gz d38ae7bed508836129fac4163f3db5a0df5ea1dd26bf4a66f88146cbe770b788
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux32-s390x/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-ppc64/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux-x32/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN32/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm_avx2/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm_avx2/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm_avx2/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm_avx2/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm_avx2/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/linux64-s390x/asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64-ARM/no-asm/crypto/include/internal/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64-ARM/no-asm/crypto/include/internal/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64-ARM/no-asm/crypto/buildinf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64-ARM/no-asm/include/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/archs/VC-WIN64-ARM/no-asm/include/progs.h
+gyp verb extracted file from tarball include/node/openssl/bn_conf.h
+gyp verb extracted file from tarball include/node/openssl/dso_conf.h
+gyp verb extracted file from tarball include/node/openssl/opensslconf.h
+gyp verb extracted file from tarball include/node/openssl/opensslconf_asm.h
+gyp verb extracted file from tarball include/node/openssl/opensslconf_no-asm.h
+gyp verb extracted file from tarball include/node/openssl/bn_conf_no-asm.h
+gyp verb extracted file from tarball include/node/openssl/dso_conf_asm.h
+gyp verb extracted file from tarball include/node/openssl/bn_conf_asm.h
+gyp verb extracted file from tarball include/node/openssl/dso_conf_no-asm.h
+gyp verb extracted file from tarball include/node/zconf.h
+gyp verb extracted file from tarball include/node/zlib.h
+gyp verb tarball done parsing tarball
+gyp verb check download content checksum, need to download `SHASUMS256.txt`... 
+gyp verb checksum url https://nodejs.org/download/release/v10.24.1/SHASUMS256.txt
+gyp http GET https://nodejs.org/download/release/v10.24.1/SHASUMS256.txt
+gyp http 200 https://nodejs.org/download/release/v10.24.1/SHASUMS256.txt
+gyp verb checksum data {"node-v10.24.1-aix-ppc64.tar.gz":"fc9ba4f3ba0be4a4495dd4fc7aa1e608f74a1440264518da760b246417077c3f","node-v10.24.1-darwin-x64.tar.gz":"8088968a896e17c21b98187f8083291df9c88d0baa100a6cb9553e53c4fb17f8","node-v10.24.1-darwin-x64.tar.xz":"8edae5060c7513de8e764cdbb61daea5ae652b7a3a457d412a7e08c04e5202da","node-v10.24.1-headers.tar.gz":"d38ae7bed508836129fac4163f3db5a0df5ea1dd26bf4a66f88146cbe770b788","node-v10.24.1-headers.tar.xz":"1149f00ce0cec044e60deb723d1c1e682083c9ec6edc05cd1326f2031412a68e","node-v10.24.1-linux-arm64.tar.gz":"0ae4931d0ea779ecb237c1fc9f4a27271b0054b1efabc783863478913fe6caa6","node-v10.24.1-linux-arm64.tar.xz":"b11ce837867e50d1b2bf09da6a85336bedfa257bf92f34712aeb94360c0bcd6e","node-v10.24.1-linux-armv6l.tar.gz":"cf19f1965bca6b4ade9396e31f9490448ded2402713fdfe2d43410da037d9b5c","node-v10.24.1-linux-armv6l.tar.xz":"01c992bb0ec60552dbe3c96b5333bc0bb0c0eda9077af532c8869f82d49a63c8","node-v10.24.1-linux-armv7l.tar.gz":"5b156bbd04adfaad2184b4d1e8324b21b546b40fb46e7105fa39f5ad2f34ddf3","node-v10.24.1-linux-armv7l.tar.xz":"0d2c8991598c15f1efe31d6986f50d46016f74876194c257d7d0108c2c9de2da","node-v10.24.1-linux-ppc64le.tar.gz":"8dc58449fe7b0368c417bb6ead8197bf1549e4502b42e62f3e51dce11b37fcd0","node-v10.24.1-linux-ppc64le.tar.xz":"e99c2e7115361ab02e320053d2ee3619445349fa02b5082a12560014c0decf6a","node-v10.24.1-linux-s390x.tar.gz":"7ec1bd172b58bc9d7782d2d4428a298167b7297b8f1812a21eb6e4285bbe9ef2","node-v10.24.1-linux-s390x.tar.xz":"aff7f704dc27da4bb6c0b8df83d0eeac2cf4c97825be0994fbdc14319da7a29c","node-v10.24.1-linux-x64.tar.gz":"7a70083a73719a3c7846533923d5c4e955405c2b4ba1c1abd95ed21ae8b52775","node-v10.24.1-linux-x64.tar.xz":"a3b9b97c23bcdc64334be6b02422e9014f040d59dcf604563ffda48003419356","node-v10.24.1.pkg":"49f4e193b049a401a2f1fd98e3a7471d038418d81a37df2b64e88543f43b08a9","node-v10.24.1-sunos-x64.tar.gz":"20f0a296f544b5f5cb4122cb1c2aa080d83f0212c279147df4373d988b466657","node-v10.24.1-sunos-x64.tar.xz":"3daf48c796f3edfc67cd25516fe7ff3a2a33c4da449f5c5c29dce98ba5e51834","node-v10.24.1.tar.gz":"95c7cfc4b5ad0b5a62bd553b30840db66f21217fbeb769ab27dac8019a4ebe5d","node-v10.24.1.tar.xz":"d72fc2c244603b4668da94081dc4d6067d467fdfa026e06a274012f16600480c","node-v10.24.1-win-x64.7z":"af98dda863785269a2db1bea8c3931e34d53f495f21d27fe8472154ee9a67cc4","node-v10.24.1-win-x64.zip":"ae0af1b5e0c131dd0df1b3e4713c36e5d7f652ab6ca273ce46d39d4df8522bb0","node-v10.24.1-win-x86.7z":"746db6e34b0d46695789fed30962f570fb5ee699590627459148d6e639eed55e","node-v10.24.1-win-x86.zip":"e39380da3a5f859f98b5a07e153e062c7fca852077693f99ad528705f5c0deb5","node-v10.24.1-x64.msi":"dab263436eeda26c9c4809ba4d93e607dcffb3735b9a1866c77afb242a832dbd","node-v10.24.1-x86.msi":"dbddbb2e29da2e4c060510d3a466895555f458b5eb090756c9aad52858a9d61b","win-x64/node.exe":"6664cc00232d95f73e050f25b1dd1000b44f63e35f051734c9bee478cd3574c7","win-x64/node.lib":"7688ed23318d253aa98ee198f94983e4b563fab188e6fd9dd32955e77111096a","win-x64/node_pdb.7z":"3bff6336aa859467f7710aad3286706306d165041af5ea2daaec3e1fa0fe86c7","win-x64/node_pdb.zip":"36d49e29a33ee0fbb229fb2abee8bf093b3ea7fe70e7b31215c38f64900d435e","win-x86/node.exe":"6f1cf2bc2b17d51478f9f17db6ae51e1cc4126bc7f5a967a95c5ab5c8d9a26c0","win-x86/node.lib":"de1f3445597cbbee2e5eac435651f5dcab049a2d8bd3636877ab5803a87e269e","win-x86/node_pdb.7z":"4d3f9bd319fe33f8a5991712264d3feb0247caa1bc9da2f47f6cb83386baf1bd","win-x86/node_pdb.zip":"9bd12506802cc20fbaa398c5dcc6ba4a72bffca9cc7cd526f7c69582eb526b53"}
+gyp verb download contents checksum {"node-v10.24.1-headers.tar.gz":"d38ae7bed508836129fac4163f3db5a0df5ea1dd26bf4a66f88146cbe770b788"}
+gyp verb validating download checksum for node-v10.24.1-headers.tar.gz (d38ae7bed508836129fac4163f3db5a0df5ea1dd26bf4a66f88146cbe770b788 == d38ae7bed508836129fac4163f3db5a0df5ea1dd26bf4a66f88146cbe770b788)
+gyp verb get node dir target node version installed: 10.24.1
+gyp verb build dir attempting to create "build" dir: /work/node_modules/node-sass/build
+gyp verb build dir "build" dir needed to be created? /work/node_modules/node-sass/build
+gyp verb build/config.gypi creating config file
+gyp verb build/config.gypi writing out config file: /work/node_modules/node-sass/build/config.gypi
+gyp verb config.gypi checking for gypi file: /work/node_modules/node-sass/config.gypi
+gyp verb common.gypi checking for gypi file: /work/node_modules/node-sass/common.gypi
+gyp verb gyp gyp format was not specified; forcing "make"
+gyp info spawn /usr/bin/python2
+gyp info spawn args [ '/work/node_modules/node-gyp/gyp/gyp_main.py',
+gyp info spawn args   'binding.gyp',
+gyp info spawn args   '-f',
+gyp info spawn args   'make',
+gyp info spawn args   '-I',
+gyp info spawn args   '/work/node_modules/node-sass/build/config.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/work/node_modules/node-gyp/addon.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/root/.node-gyp/10.24.1/include/node/common.gypi',
+gyp info spawn args   '-Dlibrary=shared_library',
+gyp info spawn args   '-Dvisibility=default',
+gyp info spawn args   '-Dnode_root_dir=/root/.node-gyp/10.24.1',
+gyp info spawn args   '-Dnode_gyp_dir=/work/node_modules/node-gyp',
+gyp info spawn args   '-Dnode_lib_file=/root/.node-gyp/10.24.1/<(target_arch)/node.lib',
+gyp info spawn args   '-Dmodule_root_dir=/work/node_modules/node-sass',
+gyp info spawn args   '-Dnode_engine=v8',
+gyp info spawn args   '--depth=.',
+gyp info spawn args   '--no-parallel',
+gyp info spawn args   '--generator-output',
+gyp info spawn args   'build',
+gyp info spawn args   '-Goutput_dir=.' ]
+gyp verb command build []
+gyp verb build type Release
+gyp verb architecture x64
+gyp verb node dev dir /root/.node-gyp/10.24.1
+gyp verb `which` succeeded for `make` /usr/bin/make
+make: Entering directory '/work/node_modules/node-sass/build'
+gyp   g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/ast.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/ast.o ../src/libsass/src/ast.cpp
+info spawn make
+gyp info spawn args [ 'V=1', 'BUILDTYPE=Release', '-C', 'build' ]
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/ast_fwd_decl.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/ast_fwd_decl.o ../src/libsass/src/ast_fwd_decl.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/base64vlq.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/base64vlq.o ../src/libsass/src/base64vlq.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/bind.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/bind.o ../src/libsass/src/bind.cpp
+  cc '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer  -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/cencode.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/cencode.o ../src/libsass/src/cencode.c
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/check_nesting.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/check_nesting.o ../src/libsass/src/check_nesting.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/color_maps.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/color_maps.o ../src/libsass/src/color_maps.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/constants.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/constants.o ../src/libsass/src/constants.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/context.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/context.o ../src/libsass/src/context.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/cssize.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/cssize.o ../src/libsass/src/cssize.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/emitter.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/emitter.o ../src/libsass/src/emitter.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/environment.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/environment.o ../src/libsass/src/environment.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/error_handling.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/error_handling.o ../src/libsass/src/error_handling.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/eval.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/eval.o ../src/libsass/src/eval.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/expand.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/expand.o ../src/libsass/src/expand.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/extend.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/extend.o ../src/libsass/src/extend.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/file.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/file.o ../src/libsass/src/file.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/functions.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/functions.o ../src/libsass/src/functions.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/inspect.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/inspect.o ../src/libsass/src/inspect.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/json.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/json.o ../src/libsass/src/json.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/lexer.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/lexer.o ../src/libsass/src/lexer.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/listize.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/listize.o ../src/libsass/src/listize.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/memory/SharedPtr.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/memory/SharedPtr.o ../src/libsass/src/memory/SharedPtr.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/node.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/node.o ../src/libsass/src/node.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/output.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/output.o ../src/libsass/src/output.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/parser.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/parser.o ../src/libsass/src/parser.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/plugins.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/plugins.o ../src/libsass/src/plugins.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/position.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/position.o ../src/libsass/src/position.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/prelexer.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/prelexer.o ../src/libsass/src/prelexer.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/remove_placeholders.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/remove_placeholders.o ../src/libsass/src/remove_placeholders.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/sass.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/sass.o ../src/libsass/src/sass.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/sass2scss.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/sass2scss.o ../src/libsass/src/sass2scss.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_context.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/sass_context.o ../src/libsass/src/sass_context.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_functions.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/sass_functions.o ../src/libsass/src/sass_functions.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_util.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/sass_util.o ../src/libsass/src/sass_util.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/sass_values.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/sass_values.o ../src/libsass/src/sass_values.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/source_map.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/source_map.o ../src/libsass/src/source_map.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/subset_map.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/subset_map.o ../src/libsass/src/subset_map.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/to_c.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/to_c.o ../src/libsass/src/to_c.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/to_value.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/to_value.o ../src/libsass/src/to_value.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/units.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/units.o ../src/libsass/src/units.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/utf8_string.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/utf8_string.o ../src/libsass/src/utf8_string.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/util.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/util.o ../src/libsass/src/util.cpp
+  g++ '-DNODE_GYP_MODULE_NAME=libsass' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DLIBSASS_VERSION="3.5.0.beta.2"' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=gnu++1y -std=c++0x -fexceptions -frtti -MMD -MF ./Release/.deps/Release/obj.target/libsass/src/libsass/src/values.o.d.raw   -c -o Release/obj.target/libsass/src/libsass/src/values.o ../src/libsass/src/values.cpp
+  rm -f Release/obj.target/src/sass.a && ar crs Release/obj.target/src/sass.a Release/obj.target/libsass/src/libsass/src/ast.o Release/obj.target/libsass/src/libsass/src/ast_fwd_decl.o Release/obj.target/libsass/src/libsass/src/base64vlq.o Release/obj.target/libsass/src/libsass/src/bind.o Release/obj.target/libsass/src/libsass/src/cencode.o Release/obj.target/libsass/src/libsass/src/check_nesting.o Release/obj.target/libsass/src/libsass/src/color_maps.o Release/obj.target/libsass/src/libsass/src/constants.o Release/obj.target/libsass/src/libsass/src/context.o Release/obj.target/libsass/src/libsass/src/cssize.o Release/obj.target/libsass/src/libsass/src/emitter.o Release/obj.target/libsass/src/libsass/src/environment.o Release/obj.target/libsass/src/libsass/src/error_handling.o Release/obj.target/libsass/src/libsass/src/eval.o Release/obj.target/libsass/src/libsass/src/expand.o Release/obj.target/libsass/src/libsass/src/extend.o Release/obj.target/libsass/src/libsass/src/file.o Release/obj.target/libsass/src/libsass/src/functions.o Release/obj.target/libsass/src/libsass/src/inspect.o Release/obj.target/libsass/src/libsass/src/json.o Release/obj.target/libsass/src/libsass/src/lexer.o Release/obj.target/libsass/src/libsass/src/listize.o Release/obj.target/libsass/src/libsass/src/memory/SharedPtr.o Release/obj.target/libsass/src/libsass/src/node.o Release/obj.target/libsass/src/libsass/src/output.o Release/obj.target/libsass/src/libsass/src/parser.o Release/obj.target/libsass/src/libsass/src/plugins.o Release/obj.target/libsass/src/libsass/src/position.o Release/obj.target/libsass/src/libsass/src/prelexer.o Release/obj.target/libsass/src/libsass/src/remove_placeholders.o Release/obj.target/libsass/src/libsass/src/sass.o Release/obj.target/libsass/src/libsass/src/sass2scss.o Release/obj.target/libsass/src/libsass/src/sass_context.o Release/obj.target/libsass/src/libsass/src/sass_functions.o Release/obj.target/libsass/src/libsass/src/sass_util.o Release/obj.target/libsass/src/libsass/src/sass_values.o Release/obj.target/libsass/src/libsass/src/source_map.o Release/obj.target/libsass/src/libsass/src/subset_map.o Release/obj.target/libsass/src/libsass/src/to_c.o Release/obj.target/libsass/src/libsass/src/to_value.o Release/obj.target/libsass/src/libsass/src/units.o Release/obj.target/libsass/src/libsass/src/utf8_string.o Release/obj.target/libsass/src/libsass/src/util.o Release/obj.target/libsass/src/libsass/src/values.o
+  rm -rf "Release/sass.a" && cp -af "Release/obj.target/src/sass.a" "Release/sass.a"
+  g++ '-DNODE_GYP_MODULE_NAME=binding' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DOPENSSL_NO_PINSHARED' '-DBUILDING_NODE_EXTENSION' -I/root/.node-gyp/10.24.1/include/node -I/root/.node-gyp/10.24.1/src -I/root/.node-gyp/10.24.1/deps/uv/include -I/root/.node-gyp/10.24.1/deps/v8/include -I../../nan -I../src/libsass/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -MMD -MF ./Release/.deps/Release/obj.target/binding/src/binding.o.d.raw   -c -o Release/obj.target/binding/src/binding.o ../src/binding.cpp
+In file included from ../../nan/nan.h:192:0,
+                 from ../src/binding.cpp:1:
+../../nan/nan_maybe_43_inl.h: In function 'Nan::Maybe<bool> Nan::ForceSet(v8::Local<v8::Object>, v8::Local<v8::Value>, v8::Local<v8::Value>, v8::PropertyAttribute)':
+../../nan/nan_maybe_43_inl.h:112:15: error: 'class v8::Object' has no member named 'ForceSet'
+   return obj->ForceSet(isolate->GetCurrentContext(), key, value, attribs);
+               ^~~~~~~~
+In file included from ../src/binding.cpp:1:0:
+../../nan/nan.h: In function 'v8::Local<v8::Value> Nan::MakeCallback(v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*)':
+../../nan/nan.h:835:60: warning: 'v8::Local<v8::Value> node::MakeCallback(v8::Isolate*, v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*)' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]
+         v8::Isolate::GetCurrent(), target, func, argc, argv);
+                                                            ^
+In file included from ../../nan/nan.h:49:0,
+                 from ../src/binding.cpp:1:
+/root/.node-gyp/10.24.1/include/node/node.h:177:50: note: declared here
+                 NODE_EXTERN v8::Local<v8::Value> MakeCallback(
+                                                  ^
+/root/.node-gyp/10.24.1/include/node/node.h:91:42: note: in definition of macro 'NODE_DEPRECATED'
+     __attribute__((deprecated(message))) declarator
+                                          ^~~~~~~~~~
+In file included from ../src/binding.cpp:1:0:
+../../nan/nan.h: In function 'v8::Local<v8::Value> Nan::MakeCallback(v8::Local<v8::Object>, v8::Local<v8::String>, int, v8::Local<v8::Value>*)':
+../../nan/nan.h:850:62: warning: 'v8::Local<v8::Value> node::MakeCallback(v8::Isolate*, v8::Local<v8::Object>, v8::Local<v8::String>, int, v8::Local<v8::Value>*)' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]
+         v8::Isolate::GetCurrent(), target, symbol, argc, argv);
+                                                              ^
+In file included from ../../nan/nan.h:49:0,
+                 from ../src/binding.cpp:1:
+/root/.node-gyp/10.24.1/include/node/node.h:170:50: note: declared here
+                 NODE_EXTERN v8::Local<v8::Value> MakeCallback(
+                                                  ^
+/root/.node-gyp/10.24.1/include/node/node.h:91:42: note: in definition of macro 'NODE_DEPRECATED'
+     __attribute__((deprecated(message))) declarator
+                                          ^~~~~~~~~~
+In file included from ../src/binding.cpp:1:0:
+../../nan/nan.h: In function 'v8::Local<v8::Value> Nan::MakeCallback(v8::Local<v8::Object>, const char*, int, v8::Local<v8::Value>*)':
+../../nan/nan.h:865:62: warning: 'v8::Local<v8::Value> node::MakeCallback(v8::Isolate*, v8::Local<v8::Object>, const char*, int, v8::Local<v8::Value>*)' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]
+         v8::Isolate::GetCurrent(), target, method, argc, argv);
+                                                              ^
+In file included from ../../nan/nan.h:49:0,
+                 from ../src/binding.cpp:1:
+/root/.node-gyp/10.24.1/include/node/node.h:163:50: note: declared here
+                 NODE_EXTERN v8::Local<v8::Value> MakeCallback(
+                                                  ^
+/root/.node-gyp/10.24.1/include/node/node.h:91:42: note: in definition of macro 'NODE_DEPRECATED'
+     __attribute__((deprecated(message))) declarator
+                                          ^~~~~~~~~~
+In file included from ../src/binding.cpp:1:0:
+../../nan/nan.h: In member function 'v8::Local<v8::Value> Nan::Callback::Call_(v8::Isolate*, v8::Local<v8::Object>, int, v8::Local<v8::Value>*) const':
+../../nan/nan.h:1479:5: warning: 'v8::Local<v8::Value> node::MakeCallback(v8::Isolate*, v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*)' is deprecated: Use MakeCallback(..., async_context) [-Wdeprecated-declarations]
+     ));
+     ^
+In file included from ../../nan/nan.h:49:0,
+                 from ../src/binding.cpp:1:
+/root/.node-gyp/10.24.1/include/node/node.h:177:50: note: declared here
+                 NODE_EXTERN v8::Local<v8::Value> MakeCallback(
+                                                  ^
+/root/.node-gyp/10.24.1/include/node/node.h:91:42: note: in definition of macro 'NODE_DEPRECATED'
+     __attribute__((deprecated(message))) declarator
+                                          ^~~~~~~~~~
+binding.target.mk:117: recipe for target 'Release/obj.target/binding/src/binding.o' failed
+make: *** [Release/obj.target/binding/src/binding.o] Error 1
+make: Leaving directory '/work/node_modules/node-sass/build'
+gyp ERR! build error 
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack     at ChildProcess.onExit (/work/node_modules/node-gyp/lib/build.js:258:23)
+gyp ERR! stack     at ChildProcess.emit (events.js:198:13)
+gyp ERR! stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+gyp ERR! System Linux 6.6.87.2-microsoft-standard-WSL2
+gyp ERR! command "/usr/local/bin/node" "/work/node_modules/node-gyp/bin/node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+gyp ERR! cwd /work/node_modules/node-sass
+gyp ERR! node -v v10.24.1
+gyp ERR! node-gyp -v v3.6.2
+gyp ERR! not ok 
+Build failed with error code: 1
+added 1059 packages in 182.065s

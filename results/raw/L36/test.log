@@ -1,0 +1,177 @@
+
+> @lasymphonie/emdash-plugin-ai-alt-text@0.3.0 test /work
+> emdash-plugin validate && vitest run
+
+[success] Manifest is valid: [2m/work/emdash-plugin.jsonc[22m
+[info] Default release hosting: publisher PDS blobs
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.11 [39m[90m/work[39m
+
+[34mℹ[39m entry: [34msrc/plugin.ts[39m
+[34mℹ[39m tsconfig: [34mtsconfig.json[39m
+[34mℹ[39m Build start
+[34mℹ[39m entry: [34msrc/plugin.ts[39m
+[34mℹ[39m tsconfig: [34mtsconfig.json[39m
+[34mℹ[39m Build start
+[34mℹ[39m [2m../tmp/emdash-build-XLfgFb/runtime/[22m[1mplugin.mjs[22m  [2m20.77 kB[22m [2m│ gzip: 7.71 kB[22m
+[34mℹ[39m 1 files, total: 20.77 kB
+[34mℹ[39m [2m../tmp/emdash-build-f3OhL5/runtime/[22m[1mplugin.mjs[22m  [2m20.77 kB[22m [2m│ gzip: 7.71 kB[22m
+[34mℹ[39m 1 files, total: 20.77 kB
+[32m✔[39m Build complete in [32m101ms[39m
+[32m✔[39m Build complete in [32m111ms[39m
+[34mℹ[39m entry: [34msrc/plugin.ts[39m
+[34mℹ[39m tsconfig: [34mtsconfig.json[39m
+[34mℹ[39m Build start
+[34mℹ[39m entry: [34msrc/plugin.ts[39m
+[34mℹ[39m tsconfig: [34mtsconfig.json[39m
+[34mℹ[39m Build start
+[34mℹ[39m [2m../tmp/emdash-build-XLfgFb/runtime/[22m[32m[1mplugin.d.mts[22m[39m  [2m0.16 kB[22m [2m│ gzip: 0.13 kB[22m
+[34mℹ[39m 1 files, total: 0.16 kB
+[32m✔[39m Build complete in [32m1440ms[39m
+[34mℹ[39m [2m../tmp/emdash-build-f3OhL5/runtime/[22m[32m[1mplugin.d.mts[22m[39m  [2m0.16 kB[22m [2m│ gzip: 0.13 kB[22m
+[34mℹ[39m 1 files, total: 0.16 kB
+[32m✔[39m Build complete in [32m1380ms[39m
+[34mℹ[39m entry: [34msrc/plugin.ts[39m
+[34mℹ[39m tsconfig: [34mtsconfig.json[39m
+[34mℹ[39m Build start
+[34mℹ[39m entry: [34msrc/plugin.ts[39m
+[34mℹ[39m tsconfig: [34mtsconfig.json[39m
+[34mℹ[39m Build start
+[34mℹ[39m [2m../tmp/emdash-build-XLfgFb/plugin-probe/[22m[1mplugin.mjs[22m  [2m37.78 kB[22m [2m│ gzip: 11.56 kB[22m
+[34mℹ[39m 1 files, total: 37.78 kB
+[32m✔[39m Build complete in [32m10ms[39m
+[34mℹ[39m [2m../tmp/emdash-build-f3OhL5/plugin-probe/[22m[1mplugin.mjs[22m  [2m37.78 kB[22m [2m│ gzip: 11.56 kB[22m
+[34mℹ[39m 1 files, total: 37.78 kB
+[32m✔[39m Build complete in [32m13ms[39m
+ [32m✓[39m tests/unit.test.ts [2m([22m[2m32 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mentries in the media library language[2m > [22m[2minherit the media library alt text without calling Claude
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mentries in the media library language[2m > [22m[2mget a description, stored in the media library too, when the image has none
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mentries in the media library language[2m > [22m[2mget a description during the save when an existing entry gets an image without alt text
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mnew images[2m > [22m[2mare described on upload, in the media library language, from their bytes
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mnew images[2m > [22m[2mkeep the alt text given with the upload
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mnew images[2m > [22m[2mare left alone when description on upload is off
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mnew images[2m > [22m[2mare uploaded anyway when Claude fails
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mnew images[2m > [22m[2mare not read when Claude cannot take their format
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mentries in another language[2m > [22m[2mget the media library alt text translated into their language, without touching the media library
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mentries in another language[2m > [22m[2mget the alt text of the entry they translate translated, when a person wrote one
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mentries in another language[2m > [22m[2mget a description in their language when the image has no alt text anywhere
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2mentries in another language[2m > [22m[2mkeep alt text a person wrote for them
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2msafety[2m > [22m[2msaves the entry anyway when Claude fails
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstderr[2m | tests/plugin.test.ts[2m > [22m[2msafety[2m > [22m[2msaves the entry anyway when Claude fails
+[22m[39m[plugin:ai-alt-text] ai-alt-text: no alt text written {
+  collection: [32m'albums'[39m,
+  field: [32m'cover'[39m,
+  reason: [32m'Anthropic API 529 overloaded_error: Overloaded'[39m
+}
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2msafety[2m > [22m[2mdoes nothing without an API key
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2msafety[2m > [22m[2mkeeps saves and the admin page working when the stored key can no longer be decrypted
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+uncaught exception; source = Uncaught (in promise); stack = PluginSettingEncryptionError: Plugin secret setting was encrypted with an unavailable key
+    at decryptPluginSetting (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:143:9)
+    at decodePluginSettingValue (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:225:20)
+    at Object.list (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:297:13)
+    at PluginBridge.kvList (/work/node_modules/.pnpm/@emdash-cms+cloudflare@1.3.0_8c3d09bac6c1bb821f15d041581fd8a2/node_modules/@emdash-cms/cloudflare/dist/sandbox/bridge.mjs:423:33)
+    at PluginBridge.settingsList (/work/node_modules/.pnpm/@emdash-cms+cloudflare@1.3.0_8c3d09bac6c1bb821f15d041581fd8a2/node_modules/@emdash-cms/cloudflare/dist/sandbox/bridge.mjs:453:11)
+uncaught exception; source = Uncaught (in promise); stack = PluginSettingEncryptionError: Plugin secret setting was encrypted with an unavailable key
+    at decryptPluginSetting (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:143:9)
+    at decodePluginSettingValue (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:225:20)
+    at PluginBridge.kvGet (/work/node_modules/.pnpm/@emdash-cms+cloudflare@1.3.0_8c3d09bac6c1bb821f15d041581fd8a2/node_modules/@emdash-cms/cloudflare/dist/sandbox/bridge.mjs:360:18)
+uncaught exception; source = Uncaught (in promise); stack = PluginSettingEncryptionError: Plugin secret setting was encrypted with an unavailable key
+    at decryptPluginSetting (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:143:9)
+    at decodePluginSettingValue (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:225:20)
+    at Object.list (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:297:13)
+    at PluginBridge.kvList (/work/node_modules/.pnpm/@emdash-cms+cloudflare@1.3.0_8c3d09bac6c1bb821f15d041581fd8a2/node_modules/@emdash-cms/cloudflare/dist/sandbox/bridge.mjs:423:33)
+    at PluginBridge.settingsList (/work/node_modules/.pnpm/@emdash-cms+cloudflare@1.3.0_8c3d09bac6c1bb821f15d041581fd8a2/node_modules/@emdash-cms/cloudflare/dist/sandbox/bridge.mjs:453:11)
+uncaught exception; source = Uncaught (in promise); stack = PluginSettingEncryptionError: Plugin secret setting was encrypted with an unavailable key
+    at decryptPluginSetting (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:143:9)
+    at decodePluginSettingValue (/work/node_modules/.pnpm/emdash@1.3.0_@astrojs+react@7.0.0_@types+node@26.6.3_@types+react-dom@19.3.0_@types+rea_89241bdf2fa315a8e1316c7335864408/node_modules/emdash/src/plugins/settings.ts:225:20)
+    at PluginBridge.kvGet (/work/node_modules/.pnpm/@emdash-cms+cloudflare@1.3.0_8c3d09bac6c1bb821f15d041581fd8a2/node_modules/@emdash-cms/cloudflare/dist/sandbox/bridge.mjs:360:18)
+uncaught exception; exception = workerd/io/io-context.c++:1688: failed: jsg.Error: The Workers runtime canceled this request because it detected that your Worker's code had hung and would never generate a response. Refer to: https://developers.cloudflare.com/workers/observability/errors/
+stack: /work/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260926.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3450967
+uncaught exception; exception = workerd/io/io-context.c++:1688: failed: jsg.Error: The Workers runtime canceled this request because it detected that your Worker's code had hung and would never generate a response. Refer to: https://developers.cloudflare.com/workers/observability/errors/
+stack: /work/node_modules/.pnpm/@cloudflare+workerd-linux-64@1.20260926.1/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3450967
+[90mstderr[2m | tests/plugin.test.ts[2m > [22m[2msafety[2m > [22m[2mkeeps saves and the admin page working when the stored key can no longer be decrypted
+[22m[39m[plugin:ai-alt-text] ai-alt-text: the Anthropic API key cannot be read; enter it again in the plugin settings {
+  error: [32m'PluginSettingEncryptionError: Plugin secret setting was encrypted with an unavailable key'[39m
+}
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2msafety[2m > [22m[2mstores the API key encrypted
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2madmin[2m > [22m[2mwarns without a key and offers the media library and the collections
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2madmin[2m > [22m[2mcompletes an entry in another language from the admin
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2madmin[2m > [22m[2mfinds media library images without alt text and describes them two at a time
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2madmin[2m > [22m[2mdescribes one media library image from its row, and leaves images that got alt text since
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2madmin[2m > [22m[2mleaves media library images too large for the sandbox to the entries that use them
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+[90mstdout[2m | tests/plugin.test.ts[2m > [22m[2madmin[2m > [22m[2mshows recent activity in the dashboard widget
+[22m[39mEmDash: Loaded sandboxed plugin ai-alt-text:0.3.0 with capabilities: [content:read, content:write, schema:read, media:read, media:bytes:read, media:metadata:write, network:request]
+
+ [32m✓[39m tests/plugin.test.ts [2m([22m[2m22 tests[22m[2m)[22m[33m 40891[2mms[22m[39m
+     [33m[2m✓[22m[39m inherit the media library alt text without calling Claude [33m 2610[2mms[22m[39m
+     [33m[2m✓[22m[39m get a description, stored in the media library too, when the image has none [33m 1749[2mms[22m[39m
+     [33m[2m✓[22m[39m get a description during the save when an existing entry gets an image without alt text [33m 2193[2mms[22m[39m
+     [33m[2m✓[22m[39m are described on upload, in the media library language, from their bytes [33m 1525[2mms[22m[39m
+     [33m[2m✓[22m[39m keep the alt text given with the upload [33m 1929[2mms[22m[39m
+     [33m[2m✓[22m[39m are left alone when description on upload is off [33m 1996[2mms[22m[39m
+     [33m[2m✓[22m[39m are uploaded anyway when Claude fails [33m 1673[2mms[22m[39m
+     [33m[2m✓[22m[39m are not read when Claude cannot take their format [33m 1886[2mms[22m[39m
+     [33m[2m✓[22m[39m get the media library alt text translated into their language, without touching the media library [33m 2459[2mms[22m[39m
+     [33m[2m✓[22m[39m get the alt text of the entry they translate translated, when a person wrote one [33m 2295[2mms[22m[39m
+     [33m[2m✓[22m[39m get a description in their language when the image has no alt text anywhere [33m 1699[2mms[22m[39m
+     [33m[2m✓[22m[39m keep alt text a person wrote for them [33m 2018[2mms[22m[39m
+     [33m[2m✓[22m[39m saves the entry anyway when Claude fails [33m 1602[2mms[22m[39m
+     [33m[2m✓[22m[39m does nothing without an API key [33m 1962[2mms[22m[39m
+     [33m[2m✓[22m[39m keeps saves and the admin page working when the stored key can no longer be decrypted [33m 1999[2mms[22m[39m
+     [33m[2m✓[22m[39m stores the API key encrypted [33m 1489[2mms[22m[39m
+     [33m[2m✓[22m[39m warns without a key and offers the media library and the collections [33m 1394[2mms[22m[39m
+     [33m[2m✓[22m[39m completes an entry in another language from the admin [33m 2023[2mms[22m[39m
+     [33m[2m✓[22m[39m finds media library images without alt text and describes them two at a time [33m 1499[2mms[22m[39m
+     [33m[2m✓[22m[39m describes one media library image from its row, and leaves images that got alt text since [33m 1615[2mms[22m[39m
+     [33m[2m✓[22m[39m leaves media library images too large for the sandbox to the entries that use them [33m 1576[2mms[22m[39m
+     [33m[2m✓[22m[39m shows recent activity in the dashboard widget [33m 1698[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[32m54 passed[39m[22m[90m (54)[39m
+[2m   Start at [22m 10:36:04
+[2m   Duration [22m 58.92s[2m (transform 8.14s, setup 0ms, import 17.18s, tests 40.92s, environment 0ms)[22m
+

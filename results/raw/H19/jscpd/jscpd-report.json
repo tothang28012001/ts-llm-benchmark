@@ -1,0 +1,613 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T08:57:22.481Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/types/units.ts": {
+            "lines": 160,
+            "tokens": 1260,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/phrase.ts": {
+            "lines": 26,
+            "tokens": 238,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/numberSystem.ts": {
+            "lines": 45,
+            "tokens": 425,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/datatype.ts": {
+            "lines": 709,
+            "tokens": 7642,
+            "sources": 1,
+            "clones": 12,
+            "duplicatedLines": 94,
+            "duplicatedTokens": 1752,
+            "percentage": 13.26,
+            "percentageTokens": 22.93,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/parser/lex/token.ts": {
+            "lines": 68,
+            "tokens": 554,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/parser/lex/lex.ts": {
+            "lines": 394,
+            "tokens": 4262,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/parser/parser.ts": {
+            "lines": 374,
+            "tokens": 3987,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/parser/expr.ts": {
+            "lines": 245,
+            "tokens": 2318,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 26,
+            "duplicatedTokens": 290,
+            "percentage": 10.61,
+            "percentageTokens": 12.51,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/parser/astPrinter.ts": {
+            "lines": 121,
+            "tokens": 1488,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/json/toJSON.ts": {
+            "lines": 133,
+            "tokens": 1407,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/json/JSONParser.ts": {
+            "lines": 135,
+            "tokens": 1602,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/fcal.ts": {
+            "lines": 514,
+            "tokens": 3614,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/evaluator/symboltable.ts": {
+            "lines": 71,
+            "tokens": 533,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/evaluator/scale.ts": {
+            "lines": 66,
+            "tokens": 457,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 31,
+            "duplicatedTokens": 264,
+            "percentage": 46.97,
+            "percentageTokens": 57.77,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/evaluator/function.ts": {
+            "lines": 128,
+            "tokens": 828,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/evaluator/evaluator.ts": {
+            "lines": 294,
+            "tokens": 3115,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/evaluator/environment.ts": {
+            "lines": 91,
+            "tokens": 736,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 106,
+            "percentage": 15.38,
+            "percentageTokens": 14.4,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/evaluator/converter.ts": {
+            "lines": 41,
+            "tokens": 241,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/evaluator/constants.ts": {
+            "lines": 54,
+            "tokens": 453,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 17,
+            "duplicatedTokens": 158,
+            "percentage": 31.48,
+            "percentageTokens": 34.88,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/default/units.ts": {
+            "lines": 441,
+            "tokens": 3010,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/default/functions.ts": {
+            "lines": 243,
+            "tokens": 2439,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4353,
+          "tokens": 40609,
+          "sources": 21,
+          "clones": 9,
+          "duplicatedLines": 91,
+          "duplicatedTokens": 1285,
+          "percentage": 2.09,
+          "percentageTokens": 3.16,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 4353,
+      "tokens": 40609,
+      "sources": 21,
+      "clones": 9,
+      "duplicatedLines": 91,
+      "duplicatedTokens": 1285,
+      "percentage": 2.09,
+      "percentageTokens": 3.16,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(value: Numeric): Numeric {\n      let left: Numeric;\n      let right: Numeric;\n      [left, right] = this.lf ? [this, value] : [value, this];\n      if (value instanceof UnitNumber) {\n        const left1: UnitNumber = left as UnitNumber;\n        const right1: UnitNumber = right as UnitNumber;\n        if (left1.unit.id === right1.unit.id) {\n          return new FcalBoolean(left1.convert(right1.ratio(), right1.bias()).gte",
+      "tokens": 156,
+      "firstFile": {
+        "name": "src/types/datatype.ts",
+        "start": 517,
+        "end": 525,
+        "startLoc": {
+          "line": 517,
+          "column": 15,
+          "position": 5267
+        },
+        "endLoc": {
+          "line": 525,
+          "column": 82,
+          "position": 5423
+        }
+      },
+      "secondFile": {
+        "name": "src/types/datatype.ts",
+        "start": 503,
+        "end": 511,
+        "startLoc": {
+          "line": 503,
+          "column": 14,
+          "position": 5068
+        },
+        "endLoc": {
+          "line": 511,
+          "column": 81,
+          "position": 5224
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(value: Numeric): Numeric {\n      let left: Numeric;\n      let right: Numeric;\n      [left, right] = this.lf ? [this, value] : [value, this];\n      if (value instanceof UnitNumber) {\n        const left1: UnitNumber = left as UnitNumber;\n        const right1: UnitNumber = right as UnitNumber;\n        if (left1.unit.id === right1.unit.id) {\n          return new FcalBoolean(left1.convert(right1.ratio(), right1.bias()).lt",
+      "tokens": 156,
+      "firstFile": {
+        "name": "src/types/datatype.ts",
+        "start": 531,
+        "end": 539,
+        "startLoc": {
+          "line": 531,
+          "column": 14,
+          "position": 5466
+        },
+        "endLoc": {
+          "line": 539,
+          "column": 81,
+          "position": 5622
+        }
+      },
+      "secondFile": {
+        "name": "src/types/datatype.ts",
+        "start": 503,
+        "end": 511,
+        "startLoc": {
+          "line": 503,
+          "column": 14,
+          "position": 5068
+        },
+        "endLoc": {
+          "line": 511,
+          "column": 81,
+          "position": 5224
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(value: Numeric): Numeric {\n      let left: Numeric;\n      let right: Numeric;\n      [left, right] = this.lf ? [this, value] : [value, this];\n      if (value instanceof UnitNumber) {\n        const left1: UnitNumber = left as UnitNumber;\n        const right1: UnitNumber = right as UnitNumber;\n        if (left1.unit.id === right1.unit.id) {\n          return new FcalBoolean(left1.convert(right1.ratio(), right1.bias()).lte",
+      "tokens": 156,
+      "firstFile": {
+        "name": "src/types/datatype.ts",
+        "start": 545,
+        "end": 553,
+        "startLoc": {
+          "line": 545,
+          "column": 15,
+          "position": 5665
+        },
+        "endLoc": {
+          "line": 553,
+          "column": 82,
+          "position": 5821
+        }
+      },
+      "secondFile": {
+        "name": "src/types/datatype.ts",
+        "start": 503,
+        "end": 511,
+        "startLoc": {
+          "line": 503,
+          "column": 14,
+          "position": 5068
+        },
+        "endLoc": {
+          "line": 511,
+          "column": 81,
+          "position": 5224
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(value: Numeric): Numeric {\n      let left: Numeric;\n      let right: Numeric;\n      [left, right] = this.lf ? [this, value] : [value, this];\n      if (value instanceof UnitNumber) {\n        const left1: UnitNumber = left as UnitNumber;\n        const right1: UnitNumber = right as UnitNumber;\n        if (left1.unit.id === right1.unit.id) {\n          return new FcalBoolean(left1.convert(right1.ratio(), right1.bias()).eq",
+      "tokens": 156,
+      "firstFile": {
+        "name": "src/types/datatype.ts",
+        "start": 559,
+        "end": 567,
+        "startLoc": {
+          "line": 559,
+          "column": 14,
+          "position": 5864
+        },
+        "endLoc": {
+          "line": 567,
+          "column": 81,
+          "position": 6020
+        }
+      },
+      "secondFile": {
+        "name": "src/types/datatype.ts",
+        "start": 503,
+        "end": 511,
+        "startLoc": {
+          "line": 503,
+          "column": 14,
+          "position": 5068
+        },
+        "endLoc": {
+          "line": 511,
+          "column": 81,
+          "position": 5224
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "(value: Numeric): Numeric {\n      let left: Numeric;\n      let right: Numeric;\n      [left, right] = this.lf ? [this, value] : [value, this];\n      if (value instanceof UnitNumber) {\n        const left1: UnitNumber = left as UnitNumber;\n        const right1: UnitNumber = right as UnitNumber;\n        if (left1.unit.unitType",
+      "tokens": 118,
+      "firstFile": {
+        "name": "src/types/datatype.ts",
+        "start": 599,
+        "end": 606,
+        "startLoc": {
+          "line": 599,
+          "column": 15,
+          "position": 6394
+        },
+        "endLoc": {
+          "line": 606,
+          "column": 32,
+          "position": 6512
+        }
+      },
+      "secondFile": {
+        "name": "src/types/datatype.ts",
+        "start": 503,
+        "end": 510,
+        "startLoc": {
+          "line": 503,
+          "column": 14,
+          "position": 5068
+        },
+        "endLoc": {
+          "line": 510,
+          "column": 26,
+          "position": 5186
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "(value: Numeric): Numeric {\n      let left: Numeric;\n      let right: Numeric;\n      [left, right] = this.lf ? [this, value] : [value, this];\n      if (value instanceof UnitNumber) {\n        const left1: UnitNumber = left as UnitNumber;\n        const right1: UnitNumber = right as UnitNumber;\n        if (left1.unit.unitType === right1.unit.unitType) {\n          return left1",
+      "tokens": 134,
+      "firstFile": {
+        "name": "src/types/datatype.ts",
+        "start": 617,
+        "end": 625,
+        "startLoc": {
+          "line": 617,
+          "column": 15,
+          "position": 6661
+        },
+        "endLoc": {
+          "line": 625,
+          "column": 23,
+          "position": 6795
+        }
+      },
+      "secondFile": {
+        "name": "src/types/datatype.ts",
+        "start": 503,
+        "end": 607,
+        "startLoc": {
+          "line": 503,
+          "column": 14,
+          "position": 5068
+        },
+        "endLoc": {
+          "line": 607,
+          "column": 21,
+          "position": 6528
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": " extends Expr {\n    public left: Expr;\n    public operator: Token;\n    public right: Expr;\n\n    constructor(left: Expr, operator: Token, right: Expr, start?: number, end?: number) {\n      super(start, end);\n      this.left = left;\n      this.operator = operator;\n      this.right = right;\n    }\n\n    public accept<T>(visitor: Expr.IVisitor<T>): T {\n      return visitor.visitLogicalExpr",
+      "tokens": 145,
+      "firstFile": {
+        "name": "src/parser/expr.ts",
+        "start": 77,
+        "end": 90,
+        "startLoc": {
+          "line": 77,
+          "column": 23,
+          "position": 727
+        },
+        "endLoc": {
+          "line": 90,
+          "column": 38,
+          "position": 872
+        }
+      },
+      "secondFile": {
+        "name": "src/parser/expr.ts",
+        "start": 43,
+        "end": 56,
+        "startLoc": {
+          "line": 43,
+          "column": 22,
+          "position": 399
+        },
+        "endLoc": {
+          "line": 56,
+          "column": 37,
+          "position": 544
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ", key: string) => {\n        this.set(key, value);\n      });\n      return;\n    }\n    for (const key in values) {\n      if (values.hasOwnProperty(key)) {\n        const element = values[key];\n        this.set(key, element);\n      }\n    }\n  }\n}\n\nexport { Environment",
+      "tokens": 106,
+      "firstFile": {
+        "name": "src/evaluator/environment.ts",
+        "start": 76,
+        "end": 90,
+        "startLoc": {
+          "line": 76,
+          "column": 42,
+          "position": 623
+        },
+        "endLoc": {
+          "line": 90,
+          "column": 21,
+          "position": 729
+        }
+      },
+      "secondFile": {
+        "name": "src/evaluator/scale.ts",
+        "start": 51,
+        "end": 65,
+        "startLoc": {
+          "line": 51,
+          "column": 62,
+          "position": 347
+        },
+        "endLoc": {
+          "line": 65,
+          "column": 15,
+          "position": 453
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 18,
+      "fragment": "\n  public use(values: EnvInputType): void {\n    if (values instanceof Map) {\n      values.forEach((value: Type | Decimal | number | string, key: string) => {\n        this.set(key, value);\n      });\n      return;\n    }\n    for (const key in values) {\n      if (values.hasOwnProperty(key)) {\n        const element = values[key];\n        this.set(key, element);\n      }\n    }\n  }\n}\n\nexport { Constant",
+      "tokens": 158,
+      "firstFile": {
+        "name": "src/evaluator/constants.ts",
+        "start": 36,
+        "end": 53,
+        "startLoc": {
+          "line": 36,
+          "column": 6,
+          "position": 291
+        },
+        "endLoc": {
+          "line": 53,
+          "column": 18,
+          "position": 449
+        }
+      },
+      "secondFile": {
+        "name": "src/evaluator/scale.ts",
+        "start": 48,
+        "end": 65,
+        "startLoc": {
+          "line": 48,
+          "column": 6,
+          "position": 295
+        },
+        "endLoc": {
+          "line": 65,
+          "column": 15,
+          "position": 453
+        }
+      }
+    }
+  ]
+}

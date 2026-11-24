@@ -1,0 +1,121 @@
+{
+  "repo_id": "L15",
+  "group": "llm",
+  "full_name": "OrionArchitekton/proctor",
+  "stars": "2",
+  "created_at": "2026-06-07",
+  "pin": "HEAD",
+  "fetch": {
+    "sha": "ed7b11a156cacfc23b646eeb370fab376cbe6d66",
+    "commit_date": "2026-07-25T08:21:14-07:00",
+    "first_commit_date": "2026-06-05T16:14:04-07:00",
+    "commits_to_pin": 63,
+    "ai_commits_to_pin": 20,
+    "ai_commit_share": 0.3175,
+    "ai_agents": [
+      "claude-code",
+      "gemini"
+    ]
+  },
+  "inventory": {
+    "prod_files": 36,
+    "test_files": 12,
+    "skipped": 5,
+    "pm": "pnpm",
+    "lockfile": "pnpm-lock.yaml"
+  },
+  "loc": {
+    "prod": {
+      "files": 36,
+      "lines": 2601,
+      "code": 1833,
+      "comment": 459,
+      "blank": 313
+    },
+    "test": {
+      "files": 12,
+      "lines": 1324,
+      "code": 1042,
+      "comment": 81,
+      "blank": 207
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "corepack pnpm install --frozen-lockfile",
+        "exit": 0,
+        "seconds": 12.7
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 2,
+        "errors": 1,
+        "seconds": 2.084
+      }
+    ],
+    "errors_total": 1,
+    "errors_in_project_files": 1,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {
+      "TS2307": 1
+    },
+    "files_with_errors": 1,
+    "timed_out": false,
+    "project_files_checked": 42
+  },
+  "test": {
+    "cmd": "corepack pnpm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 2.3
+  },
+  "mutation": {
+    "sample_files": [
+      "packages/sut-invoice/src/fixtures.ts",
+      "packages/uipath/src/testcloud.ts"
+    ],
+    "sample_lines": 469,
+    "framework_versions": {
+      "vitest": "3.2.6",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "perTest",
+    "counts": {
+      "NoCoverage": 160,
+      "Survived": 19,
+      "Killed": 10,
+      "Ignored": 2
+    },
+    "mutants_valid": 189,
+    "mutation_score": 0.05291005291005291,
+    "mutation_score_covered": 0.3448275862068966,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 0,
+        "seconds": 6.309,
+        "timed_out": false
+      }
+    ]
+  }
+}

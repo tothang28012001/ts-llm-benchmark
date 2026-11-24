@@ -1,0 +1,7 @@
+[WARN] Unsupported engine: wanted: {"node":"24.x"} (current: {"node":"v22.23.4","pnpm":"11.8.0"})
+$ pnpm run test:int && pnpm run test:e2e
+[WARN] Unsupported engine: wanted: {"node":"24.x"} (current: {"node":"v22.23.4","pnpm":"11.8.0"})
+$ pass-cli run --env-file .env -- vp test run --config ./vitest.config.mts
+sh: 1: pass-cli: not found
+[ELIFECYCLE] Command failed.
+[ELIFECYCLE] Test failed. See above for more details.

@@ -1,0 +1,178 @@
+
+> lumpmap-3d@1.0.0 test
+> npm run test:unit
+
+
+> lumpmap-3d@1.0.0 test:unit
+> vitest run --config tests/vitest.config.ts && node --import tsx --test tests/api-route.test.ts
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.10 [39m[90m/work[39m
+
+ [32m✓[39m tests/medical-matching.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m tests/medical-triage.test.ts [2m([22m[2m16 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m tests/medical-content.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m tests/medical-visit-note.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[32m33 passed[39m[22m[90m (33)[39m
+[2m   Start at [22m 10:44:09
+[2m   Duration [22m 529ms[2m (transform 434ms, setup 0ms, import 496ms, tests 31ms, environment 0ms)[22m
+
+TAP version 13
+# Subtest: rejects malformed, empty, extra-field, and oversized input
+    # Subtest: malformed JSON
+    ok 1 - malformed JSON
+      ---
+      duration_ms: 51.962918
+      type: 'test'
+      ...
+    # Subtest: blank text
+    ok 2 - blank text
+      ---
+      duration_ms: 3.922901
+      type: 'test'
+      ...
+    # Subtest: unknown request fields
+    ok 3 - unknown request fields
+      ---
+      duration_ms: 2.626024
+      type: 'test'
+      ...
+    # Subtest: oversized description
+    ok 4 - oversized description
+      ---
+      duration_ms: 1.634359
+      type: 'test'
+      ...
+    # Subtest: oversized byte payload
+    ok 5 - oversized byte payload
+      ---
+      duration_ms: 1.654587
+      type: 'test'
+      ...
+    1..5
+ok 1 - rejects malformed, empty, extra-field, and oversized input
+  ---
+  duration_ms: 63.498275
+  type: 'test'
+  ...
+# Subtest: no-key Demo Mode returns strict extraction with no urgency field
+ok 2 - no-key Demo Mode returns strict extraction with no urgency field
+  ---
+  duration_ms: 143.202662
+  type: 'test'
+  ...
+# Subtest: explicit emergency wording survives Demo Mode extraction
+ok 3 - explicit emergency wording survives Demo Mode extraction
+  ---
+  duration_ms: 131.20845
+  type: 'test'
+  ...
+# Subtest: Demo Mode preserves every emergency rule family from plain text
+    # Subtest: I have sudden severe pain with a lump inside my testicle.
+    ok 1 - I have sudden severe pain with a lump inside my testicle.
+      ---
+      duration_ms: 9.70516
+      type: 'test'
+      ...
+    # Subtest: I have a lump and trouble breathing.
+    ok 2 - I have a lump and trouble breathing.
+      ---
+      duration_ms: 37.858361
+      type: 'test'
+      ...
+    # Subtest: The redness is spreading and I have severe whole-body symptoms.
+    ok 3 - The redness is spreading and I have severe whole-body symptoms.
+      ---
+      duration_ms: 2.87849
+      type: 'test'
+      ...
+    # Subtest: The skin is black and numb around a rapidly worsening painful area.
+    ok 4 - The skin is black and numb around a rapidly worsening painful area.
+      ---
+      duration_ms: 2.895232
+      type: 'test'
+      ...
+    # Subtest: The pain is much worse than it looks.
+    ok 5 - The pain is much worse than it looks.
+      ---
+      duration_ms: 4.256144
+      type: 'test'
+      ...
+    1..5
+ok 4 - Demo Mode preserves every emergency rule family from plain text
+  ---
+  duration_ms: 59.427758
+  type: 'test'
+  ...
+# Subtest: OpenAI request uses strict Responses output, no storage, and the safe fallback model
+ok 5 - OpenAI request uses strict Responses output, no storage, and the safe fallback model
+  ---
+  duration_ms: 22.912847
+  type: 'test'
+  ...
+# Subtest: unusable Demo Mode text stays unknown and asks a safe clarification
+ok 6 - unusable Demo Mode text stays unknown and asks a safe clarification
+  ---
+  duration_ms: 3.267229
+  type: 'test'
+  ...
+# Subtest: OPENAI_MODEL overrides the fallback without becoming client input
+ok 7 - OPENAI_MODEL overrides the fallback without becoming client input
+  ---
+  duration_ms: 5.793531
+  type: 'test'
+  ...
+# Subtest: model extraction cannot erase explicit deterministic warning facts
+ok 8 - model extraction cannot erase explicit deterministic warning facts
+  ---
+  duration_ms: 7.455449
+  type: 'test'
+  ...
+# Subtest: Demo Mode preserves unknowns instead of inventing missing symptoms
+ok 9 - Demo Mode preserves unknowns instead of inventing missing symptoms
+  ---
+  duration_ms: 7.226231
+  type: 'test'
+  ...
+# Subtest: originalText preserves the user's exact submitted wording
+ok 10 - originalText preserves the user's exact submitted wording
+  ---
+  duration_ms: 2.076105
+  type: 'test'
+  ...
+# Subtest: Demo Mode keeps scrotal skin distinct from inside-testicle wording
+    # Subtest: scrotal skin
+    ok 1 - scrotal skin
+      ---
+      duration_ms: 1.767406
+      type: 'test'
+      ...
+    # Subtest: inside testicle
+    ok 2 - inside testicle
+      ---
+      duration_ms: 3.348892
+      type: 'test'
+      ...
+    1..2
+ok 11 - Demo Mode keeps scrotal skin distinct from inside-testicle wording
+  ---
+  duration_ms: 5.79
+  type: 'test'
+  ...
+# Subtest: rate limits a repeated client without echoing private input
+ok 12 - rate limits a repeated client without echoing private input
+  ---
+  duration_ms: 23.716664
+  type: 'test'
+  ...
+1..12
+# tests 24
+# suites 0
+# pass 24
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 874.590412

@@ -1,0 +1,19 @@
+yarn run v1.22.22
+$ NODE_ENV=test TZ=America/Los_Angeles jest
+warn The following packages use deprecated "rnpm" config that will stop working from next release:
+  - @mapbox/react-native-mapbox-gl: https://npmjs.com/package/@mapbox/react-native-mapbox-gl
+  - appcenter: https://github.com/Microsoft/appcenter-sdk-react-native/blob/master/appcenter/README.md
+  - appcenter-analytics: https://github.com/Microsoft/appcenter-sdk-react-native/blob/master/appcenter-analytics/README.md
+  - appcenter-crashes: https://github.com/Microsoft/appcenter-sdk-react-native/blob/master/appcenter-crashes/README.md
+  - appcenter-push: https://github.com/Microsoft/appcenter-sdk-react-native/blob/master/appcenter-push/README.md
+  - lottie-react-native: https://github.com/airbnb/lottie-react-native#readme
+Please notify their maintainers about it. You can find more details at https://react-native-community/cli/docs/configuration.md#migration-guide.
+PASS app/utils/storage/storage.test.ts
+PASS test/storyshots.test.ts (9.035s)
+
+Test Suites: 2 passed, 2 total
+Tests:       39 passed, 39 total
+Snapshots:   29 passed, 29 total
+Time:        10.215s
+Ran all test suites.
+Done in 12.18s.

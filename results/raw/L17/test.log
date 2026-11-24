@@ -1,0 +1,1846 @@
+$ pnpm build
+$ esbuild engine/src/cli.ts --bundle --platform=node --format=esm --target=node20 --outfile=engine/dist/mep.mjs --banner:js="import { createRequire } from 'node:module'; const require = createRequire(import.meta.url);"
+
+  engine/dist/mep.mjs  479.3kb
+
+⚡ Done in 16ms
+$ node --test --experimental-strip-types tests/*.spec.ts
+TAP version 13
+# Subtest: init
+    # Subtest: writes profile, brief, ADRs, CLAUDE.md (keeping what was there) and CI
+    ok 1 - writes profile, brief, ADRs, CLAUDE.md (keeping what was there) and CI
+      ---
+      duration_ms: 998.875115
+      type: 'test'
+      ...
+    # Subtest: rejects values outside dimensions.yaml
+    ok 2 - rejects values outside dimensions.yaml
+      ---
+      duration_ms: 426.28673
+      type: 'test'
+      ...
+    1..2
+ok 1 - init
+  ---
+  duration_ms: 1426.164634
+  type: 'suite'
+  ...
+# Subtest: skip / override
+    # Subtest: skip accepts only recommended items
+    ok 1 - skip accepts only recommended items
+      ---
+      duration_ms: 1399.50542
+      type: 'test'
+      ...
+    # Subtest: override rejects locked items and needs explicit confirmation
+    ok 2 - override rejects locked items and needs explicit confirmation
+      ---
+      duration_ms: 2112.334604
+      type: 'test'
+      ...
+    1..2
+ok 2 - skip / override
+  ---
+  duration_ms: 3512.017396
+  type: 'suite'
+  ...
+# Subtest: add
+    # Subtest: shows only the diff and applies it on request
+    ok 1 - shows only the diff and applies it on request
+      ---
+      duration_ms: 1377.613322
+      type: 'test'
+      ...
+    1..1
+ok 3 - add
+  ---
+  duration_ms: 1377.735542
+  type: 'suite'
+  ...
+# Subtest: check / verify / phase
+    # Subtest: check groups by sub-phase and warns about signals the profile lacks
+    ok 1 - check groups by sub-phase and warns about signals the profile lacks
+      ---
+      duration_ms: 979.28235
+      type: 'test'
+      ...
+    # Subtest: verify --prod exits 1 with pending required items
+    ok 2 - verify --prod exits 1 with pending required items
+      ---
+      duration_ms: 3197.093537
+      type: 'test'
+      ...
+    # Subtest: phase shows what is missing to close the active sub-phase
+    ok 3 - phase shows what is missing to close the active sub-phase
+      ---
+      duration_ms: 4251.097406
+      type: 'test'
+      ...
+    1..3
+ok 4 - check / verify / phase
+  ---
+  duration_ms: 8428.064425
+  type: 'suite'
+  ...
+# Subtest: security record
+    # Subtest: only for security items, only for files that exist
+    ok 1 - only for security items, only for files that exist
+      ---
+      duration_ms: 2253.398557
+      type: 'test'
+      ...
+    1..1
+ok 5 - security record
+  ---
+  duration_ms: 2253.731223
+  type: 'suite'
+  ...
+# Subtest: classic hooks
+    # Subtest: never act in a repo without .mep/
+    ok 1 - never act in a repo without .mep/
+      ---
+      duration_ms: 1644.323548
+      type: 'test'
+      ...
+    # Subtest: session-start reminds the posture (guidelines, no placeholders) and lists no items to clear
+    ok 2 - session-start reminds the posture (guidelines, no placeholders) and lists no items to clear
+      ---
+      duration_ms: 899.90464
+      type: 'test'
+      ...
+    # Subtest: the project's CLAUDE.md block frames BRIEF.md as guidelines and forbids filler to pass a check
+    ok 3 - the project's CLAUDE.md block frames BRIEF.md as guidelines and forbids filler to pass a check
+      ---
+      duration_ms: 496.005683
+      type: 'test'
+      ...
+    # Subtest: the walking skeleton is optional: a placeholder page is never required
+    ok 4 - the walking skeleton is optional: a placeholder page is never required
+      ---
+      duration_ms: 956.360122
+      type: 'test'
+      ...
+    # Subtest: session-start shows the active sub-phase and its pending counts
+    ok 5 - session-start shows the active sub-phase and its pending counts
+      ---
+      duration_ms: 922.415182
+      type: 'test'
+      ...
+    # Subtest: stop does not block on the active sub-phase; it blocks on a regression in a closed one
+    ok 6 - stop does not block on the active sub-phase; it blocks on a regression in a closed one
+      ---
+      duration_ms: 2504.705179
+      type: 'test'
+      ...
+    # Subtest: pre-bash denies a production deploy with pending required items, ignores other commands
+    ok 7 - pre-bash denies a production deploy with pending required items, ignores other commands
+      ---
+      duration_ms: 4477.746602
+      type: 'test'
+      ...
+    # Subtest: post-edit asks for a mep-security audit on sensitive files only
+    ok 8 - post-edit asks for a mep-security audit on sensitive files only
+      ---
+      duration_ms: 1477.634482
+      type: 'test'
+      ...
+    1..8
+ok 6 - classic hooks
+  ---
+  duration_ms: 13379.569886
+  type: 'suite'
+  ...
+# Subtest: the CLAUDE.md block follows the plugin version
+    # Subtest: an older block between the markers is replaced at session start; what the person wrote around it stays
+    ok 1 - an older block between the markers is replaced at session start; what the person wrote around it stays
+      ---
+      duration_ms: 1547.367676
+      type: 'test'
+      ...
+    1..1
+ok 7 - the CLAUDE.md block follows the plugin version
+  ---
+  duration_ms: 1547.484336
+  type: 'suite'
+  ...
+# Subtest: the real catalog
+    # Subtest: every item has exactly one home and the links point at real subdomains
+    ok 1 - every item has exactly one home and the links point at real subdomains
+      ---
+      duration_ms: 343.531291
+      type: 'test'
+      ...
+    # Subtest: a catalog without a home for an item does not load
+    ok 2 - a catalog without a home for an item does not load
+      ---
+      duration_ms: 30.274358
+      type: 'test'
+      ...
+    1..2
+ok 8 - the real catalog
+  ---
+  duration_ms: 374.509266
+  type: 'suite'
+  ...
+# Subtest: switching a domain off
+    # Subtest: a domain or a subdomain turns its items off; a locked item stays on
+    ok 1 - a domain or a subdomain turns its items off; a locked item stays on
+      ---
+      duration_ms: 9.747816
+      type: 'test'
+      ...
+    # Subtest: an item off does not block anything, and its reason says why
+    ok 2 - an item off does not block anything, and its reason says why
+      ---
+      duration_ms: 3.309969
+      type: 'test'
+      ...
+    1..2
+ok 9 - switching a domain off
+  ---
+  duration_ms: 13.2138
+  type: 'suite'
+  ...
+# Subtest: deferring until go-live
+    # Subtest: a deferred 🔴 does not stop closing the sub-phase, but production still needs it
+    ok 1 - a deferred 🔴 does not stop closing the sub-phase, but production still needs it
+      ---
+      duration_ms: 6.862605
+      type: 'test'
+      ...
+    1..1
+ok 10 - deferring until go-live
+  ---
+  duration_ms: 6.979136
+  type: 'suite'
+  ...
+# Subtest: go-live
+    # Subtest: launch runs the full gate and only then the project is live
+    ok 1 - launch runs the full gate and only then the project is live
+      ---
+      duration_ms: 6.032251
+      type: 'test'
+      ...
+    1..1
+ok 11 - go-live
+  ---
+  duration_ms: 6.249787
+  type: 'suite'
+  ...
+# Subtest: the CLI
+    # Subtest: while building, CI integrates (exit 0) even with 🔴 pending; live, it is the full gate
+    ok 1 - while building, CI integrates (exit 0) even with 🔴 pending; live, it is the full gate
+      ---
+      duration_ms: 6290.17956
+      type: 'test'
+      ...
+    # Subtest: defer, domain off and the way back are the person's: the agent cannot
+    ok 2 - defer, domain off and the way back are the person's: the agent cannot
+      ---
+      duration_ms: 9440.43899
+      type: 'test'
+      ...
+    # Subtest: domains and focus show where things are, including what is linked from elsewhere
+    ok 3 - domains and focus show where things are, including what is linked from elsewhere
+      ---
+      duration_ms: 2054.077827
+      type: 'test'
+      ...
+    # Subtest: the pre-bash hook lets a push to main through while building, and stops it once live
+    ok 4 - the pre-bash hook lets a push to main through while building, and stops it once live
+      ---
+      duration_ms: 3513.535288
+      type: 'test'
+      ...
+    1..4
+ok 12 - the CLI
+  ---
+  duration_ms: 21298.688507
+  type: 'suite'
+  ...
+# Subtest: summaries
+    # Subtest: per domain and subdomain: what applies, how much is done, what is deferred
+    ok 1 - per domain and subdomain: what applies, how much is done, what is deferred
+      ---
+      duration_ms: 3.090268
+      type: 'test'
+      ...
+    # Subtest: focus lists linked items from other domains with their origin
+    ok 2 - focus lists linked items from other domains with their origin
+      ---
+      duration_ms: 2.601103
+      type: 'test'
+      ...
+    # Subtest: the bar fills in braille and moves from red to green
+    ok 3 - the bar fills in braille and moves from red to green
+      ---
+      duration_ms: 0.564616
+      type: 'test'
+      ...
+    1..3
+ok 13 - summaries
+  ---
+  duration_ms: 6.451119
+  type: 'suite'
+  ...
+# Subtest: test project: Estudio (SaaS, auth + payments, MX + USA:CA + EU:DE)
+    # Subtest: 1. /mep:audit infers the profile from the code without writing anything
+    ok 1 - 1. /mep:audit infers the profile from the code without writing anything
+      ---
+      duration_ms: 495.301435
+      type: 'test'
+      ...
+    # Subtest: 2. /mep:scope: profile, brief, ADRs, CLAUDE.md, CI and the first quote
+    ok 2 - 2. /mep:scope: profile, brief, ADRs, CLAUDE.md, CI and the first quote
+      ---
+      duration_ms: 1519.405939
+      type: 'test'
+      ...
+    # Subtest: 3. nothing blocks Stop while foundation.setup is the active sub-phase
+    ok 3 - 3. nothing blocks Stop while foundation.setup is the active sub-phase
+      ---
+      duration_ms: 475.050586
+      type: 'test'
+      ...
+    # Subtest: 4. closing foundation.setup needs the mep-security audit and the manual confirmations
+    ok 4 - 4. closing foundation.setup needs the mep-security audit and the manual confirmations
+      ---
+      duration_ms: 12284.710857
+      type: 'test'
+      ...
+    # Subtest: 5. a regression in a closed sub-phase blocks Stop; MEP_BYPASS lets it through and is logged
+    ok 5 - 5. a regression in a closed sub-phase blocks Stop; MEP_BYPASS lets it through and is logged
+      ---
+      duration_ms: 1609.594439
+      type: 'test'
+      ...
+    # Subtest: 6. a secret in the code does not block while building, but blocks the production gate even with MEP_BYPASS
+    ok 6 - 6. a secret in the code does not block while building, but blocks the production gate even with MEP_BYPASS
+      ---
+      duration_ms: 3346.549296
+      type: 'test'
+      ...
+    # Subtest: 7. editing a sensitive file asks for a mep-security audit
+    ok 7 - 7. editing a sensitive file asks for a mep-security audit
+      ---
+      duration_ms: 451.74299
+      type: 'test'
+      ...
+    # Subtest: 8. production deploys are denied while any 🔴 is pending; CI fails the same way
+    ok 8 - 8. production deploys are denied while any 🔴 is pending; CI fails the same way
+      ---
+      duration_ms: 5379.206721
+      type: 'test'
+      ...
+    # Subtest: 9. /mep:add shows only the diff and its impact; applying it saves a new internal quote outside the repo
+    ok 9 - 9. /mep:add shows only the diff and its impact; applying it saves a new internal quote outside the repo
+      ---
+      duration_ms: 1233.253501
+      type: 'test'
+      ...
+    # Subtest: 10. the client quote hides rate, margins and buffer
+    ok 10 - 10. the client quote hides rate, margins and buffer
+      ---
+      duration_ms: 1047.100353
+      type: 'test'
+      ...
+    # Subtest: 11. /mep:export: versioned client brief as .docx and .pdf
+    ok 11 - 11. /mep:export: versioned client brief as .docx and .pdf
+      ---
+      duration_ms: 1547.223127
+      type: 'test'
+      ...
+    # Subtest: 12. /mep:update brings the new catalog items, with grace in closed sub-phases
+    ok 12 - 12. /mep:update brings the new catalog items, with grace in closed sub-phases
+      ---
+      duration_ms: 1102.204101
+      type: 'test'
+      ...
+    # Subtest: 13. the log has every override, bypass and phase change
+    ok 13 - 13. the log has every override, bypass and phase change
+      ---
+      duration_ms: 0.346153
+      type: 'test'
+      ...
+    1..13
+ok 14 - test project: Estudio (SaaS, auth + payments, MX + USA:CA + EU:DE)
+  ---
+  duration_ms: 30495.597864
+  type: 'suite'
+  ...
+# Subtest: conditions
+    # Subtest: a list means "contains all"
+    ok 1 - a list means "contains all"
+      ---
+      duration_ms: 7.517947
+      type: 'test'
+      ...
+    # Subtest: any / none / scalar
+    ok 2 - any / none / scalar
+      ---
+      duration_ms: 0.419624
+      type: 'test'
+      ...
+    # Subtest: all / any / not combine
+    ok 3 - all / any / not combine
+      ---
+      duration_ms: 0.290146
+      type: 'test'
+      ...
+    # Subtest: parent market covers its children, a child does not cover the parent
+    ok 4 - parent market covers its children, a child does not cover the parent
+      ---
+      duration_ms: 0.652684
+      type: 'test'
+      ...
+    # Subtest: signals compare by value
+    ok 5 - signals compare by value
+      ---
+      duration_ms: 0.30741
+      type: 'test'
+      ...
+    1..5
+ok 15 - conditions
+  ---
+  duration_ms: 10.164159
+  type: 'suite'
+  ...
+# Subtest: evaluate
+    # Subtest: same profile, same items
+    ok 1 - same profile, same items
+      ---
+      duration_ms: 17.221203
+      type: 'test'
+      ...
+    # Subtest: capabilities imply signals and other capabilities
+    ok 2 - capabilities imply signals and other capabilities
+      ---
+      duration_ms: 1.872904
+      type: 'test'
+      ...
+    # Subtest: conditional items apply only when their condition holds
+    ok 3 - conditional items apply only when their condition holds
+      ---
+      duration_ms: 1.998346
+      type: 'test'
+      ...
+    # Subtest: level overrides raise the level
+    ok 4 - level overrides raise the level
+      ---
+      duration_ms: 9.933817
+      type: 'test'
+      ...
+    # Subtest: selection states: skipped, overridden, offered; locked ignores overrides
+    ok 5 - selection states: skipped, overridden, offered; locked ignores overrides
+      ---
+      duration_ms: 12.693244
+      type: 'test'
+      ...
+    # Subtest: diff shows only what changed
+    ok 6 - diff shows only what changed
+      ---
+      duration_ms: 6.350538
+      type: 'test'
+      ...
+    # Subtest: stack: rules recommend with a reason; the profile decides
+    ok 7 - stack: rules recommend with a reason; the profile decides
+      ---
+      duration_ms: 0.69775
+      type: 'test'
+      ...
+    1..7
+ok 16 - evaluate
+  ---
+  duration_ms: 51.353652
+  type: 'suite'
+  ...
+# Subtest: catalog
+    # Subtest: every item has why, how, verify, effort and phase (the loader rejects otherwise)
+    ok 1 - every item has why, how, verify, effort and phase (the loader rejects otherwise)
+      ---
+      duration_ms: 0.315939
+      type: 'test'
+      ...
+    # Subtest: the five presets load a valid profile
+    ok 2 - the five presets load a valid profile
+      ---
+      duration_ms: 1.376436
+      type: 'test'
+      ...
+    # Subtest: the secret pattern in the catalog is the one the gate mod uses
+    ok 3 - the secret pattern in the catalog is the one the gate mod uses
+      ---
+      duration_ms: 0.14909
+      type: 'test'
+      ...
+    # Subtest: every item belongs to a released catalog version
+    ok 4 - every item belongs to a released catalog version
+      ---
+      duration_ms: 0.771224
+      type: 'test'
+      ...
+    # Subtest: legal items cite an official source
+    ok 5 - legal items cite an official source
+      ---
+      duration_ms: 0.585087
+      type: 'test'
+      ...
+    # Subtest: a new market (CN) only needs catalog files, not engine changes
+    ok 6 - a new market (CN) only needs catalog files, not engine changes
+      ---
+      duration_ms: 280.348186
+      type: 'test'
+      ...
+    # Subtest: invalid values are rejected
+    ok 7 - invalid values are rejected
+      ---
+      duration_ms: 21.88399
+      type: 'test'
+      ...
+    1..7
+ok 17 - catalog
+  ---
+  duration_ms: 305.714765
+  type: 'suite'
+  ...
+# Subtest: every skill of the plugin has a command in the flow line (the guide skill `mep` is not a command)
+ok 18 - every skill of the plugin has a command in the flow line (the guide skill `mep` is not a command)
+  ---
+  duration_ms: 8.479819
+  type: 'test'
+  ...
+# Subtest: what a click writes is the command the label shows, without its <placeholders>
+ok 19 - what a click writes is the command the label shows, without its <placeholders>
+  ---
+  duration_ms: 0.577507
+  type: 'test'
+  ...
+# Subtest: 1. markets bring their languages
+    # Subtest: MX + USA:CA activates es-MX, en-US and i18n; one language does not
+    ok 1 - MX + USA:CA activates es-MX, en-US and i18n; one language does not
+      ---
+      duration_ms: 3.358804
+      type: 'test'
+      ...
+    # Subtest: a higher count given by the person is kept
+    ok 2 - a higher count given by the person is kept
+      ---
+      duration_ms: 0.334173
+      type: 'test'
+      ...
+    1..2
+ok 20 - 1. markets bring their languages
+  ---
+  duration_ms: 4.87954
+  type: 'suite'
+  ...
+# Subtest: 2. quality thresholds from the profile
+    # Subtest: the linter must enforce the profile thresholds or stricter ones
+    ok 1 - the linter must enforce the profile thresholds or stricter ones
+      ---
+      duration_ms: 5.675619
+      type: 'test'
+      ...
+    # Subtest: relaxing a threshold needs a reason and confirmation, and shows in the brief
+    ok 2 - relaxing a threshold needs a reason and confirmation, and shows in the brief
+      ---
+      duration_ms: 3138.779222
+      type: 'test'
+      ...
+    1..2
+ok 21 - 2. quality thresholds from the profile
+  ---
+  duration_ms: 3144.688533
+  type: 'suite'
+  ...
+# Subtest: 3. design checks that used to be manual
+    # Subtest: font families from next/font, @fontsource and CSS
+    ok 1 - font families from next/font, @fontsource and CSS
+      ---
+      duration_ms: 3.513968
+      type: 'test'
+      ...
+    # Subtest: font weights count 500 and 600 as one step
+    ok 2 - font weights count 500 and 600 as one step
+      ---
+      duration_ms: 2.260876
+      type: 'test'
+      ...
+    # Subtest: the catalog flags raw palette text colors and links without hover
+    ok 3 - the catalog flags raw palette text colors and links without hover
+      ---
+      duration_ms: 1.030845
+      type: 'test'
+      ...
+    1..3
+ok 22 - 3. design checks that used to be manual
+  ---
+  duration_ms: 7.249591
+  type: 'suite'
+  ...
+# Subtest: 4. responsive test template
+    # Subtest: /mep:scope installs tests/responsive.spec.ts and its script, keeping what exists
+    ok 1 - /mep:scope installs tests/responsive.spec.ts and its script, keeping what exists
+      ---
+      duration_ms: 576.03073
+      type: 'test'
+      ...
+    1..1
+ok 23 - 4. responsive test template
+  ---
+  duration_ms: 576.342975
+  type: 'suite'
+  ...
+# Subtest: 5. estimated schedule
+    # Subtest: weeks per phase from hours and weekly capacity, in the client view
+    ok 1 - weeks per phase from hours and weekly capacity, in the client view
+      ---
+      duration_ms: 20.521813
+      type: 'test'
+      ...
+    1..1
+ok 24 - 5. estimated schedule
+  ---
+  duration_ms: 20.906904
+  type: 'suite'
+  ...
+# Subtest: 6. has_long_forms is detected
+    # Subtest: from an editor dependency or a form with 8+ fields
+    ok 1 - from an editor dependency or a form with 8+ fields
+      ---
+      duration_ms: 11.896292
+      type: 'test'
+      ...
+    1..1
+ok 25 - 6. has_long_forms is detected
+  ---
+  duration_ms: 12.022977
+  type: 'suite'
+  ...
+# Subtest: 7. review before a PR into main
+    # Subtest: which commands count
+    ok 1 - which commands count
+      ---
+      duration_ms: 0.561359
+      type: 'test'
+      ...
+    # Subtest: held until a current branch review is recorded; a second attempt alone never goes through
+    ok 2 - held until a current branch review is recorded; a second attempt alone never goes through
+      ---
+      duration_ms: 1053.076738
+      type: 'test'
+      ...
+    1..2
+ok 26 - 7. review before a PR into main
+  ---
+  duration_ms: 1053.831701
+  type: 'suite'
+  ...
+# Subtest: 8. no database by default; payment links are not an integrated checkout
+    # Subtest: a landing that sells with a payment link: no database, no checkout security, but the consumer rules
+    ok 1 - a landing that sells with a payment link: no database, no checkout security, but the consumer rules
+      ---
+      duration_ms: 2.088163
+      type: 'test'
+      ...
+    # Subtest: integrated payments no longer imply a database; storing orders is explicit
+    ok 2 - integrated payments no longer imply a database; storing orders is explicit
+      ---
+      duration_ms: 1.661846
+      type: 'test'
+      ...
+    # Subtest: /mep:audit: the stripe dependency alone is not payments; a buy link is payment-links
+    ok 3 - /mep:audit: the stripe dependency alone is not payments; a buy link is payment-links
+      ---
+      duration_ms: 25.684613
+      type: 'test'
+      ...
+    1..3
+ok 27 - 8. no database by default; payment links are not an integrated checkout
+  ---
+  duration_ms: 29.753403
+  type: 'suite'
+  ...
+# Subtest: 9. launch rules: legal, privacy and conversion
+    # Subtest: a landing that sells by link and collects emails gets every rule it needs
+    ok 1 - a landing that sells by link and collects emails gets every rule it needs
+      ---
+      duration_ms: 2.698427
+      type: 'test'
+      ...
+    # Subtest: outside the EU, DPAs are recommended; sticky CTA is required only on landings
+    ok 2 - outside the EU, DPAs are recommended; sticky CTA is required only on landings
+      ---
+      duration_ms: 1.179912
+      type: 'test'
+      ...
+    1..2
+ok 28 - 9. launch rules: legal, privacy and conversion
+  ---
+  duration_ms: 4.031007
+  type: 'suite'
+  ...
+# Subtest: 10. things to avoid: empty source, SPA without SSR, AI blocked, source maps, giant bundle
+    # Subtest: a Vite + React SPA without SSR fails; Next.js or Vite with SSR pass
+    ok 1 - a Vite + React SPA without SSR fails; Next.js or Vite with SSR pass
+      ---
+      duration_ms: 1.933635
+      type: 'test'
+      ...
+    # Subtest: an empty HTML shell fails has_text
+    ok 2 - an empty HTML shell fails has_text
+      ---
+      duration_ms: 2.680398
+      type: 'test'
+      ...
+    # Subtest: robots.txt that blocks everyone or an AI crawler fails; partial blocks pass
+    ok 3 - robots.txt that blocks everyone or an AI crawler fails; partial blocks pass
+      ---
+      duration_ms: 3.961131
+      type: 'test'
+      ...
+    # Subtest: public source maps and oversized JS chunks fail
+    ok 4 - public source maps and oversized JS chunks fail
+      ---
+      duration_ms: 124.111462
+      type: 'test'
+      ...
+    # Subtest: the catalog asks for llms.txt, structured data, no source maps and no console errors on public sites
+    ok 5 - the catalog asks for llms.txt, structured data, no source maps and no console errors on public sites
+      ---
+      duration_ms: 1.760314
+      type: 'test'
+      ...
+    1..5
+ok 29 - 10. things to avoid: empty source, SPA without SSR, AI blocked, source maps, giant bundle
+  ---
+  duration_ms: 134.75111
+  type: 'suite'
+  ...
+# Subtest: 11. the scope decides what applies; the code is evidence
+    # Subtest: explain shows each part of the condition and the level change
+    ok 1 - explain shows each part of the condition and the level change
+      ---
+      duration_ms: 0.942251
+      type: 'test'
+      ...
+    # Subtest: applicability counts what the scope activates, and a landing activates far less than a SaaS
+    ok 2 - applicability counts what the scope activates, and a landing activates far less than a SaaS
+      ---
+      duration_ms: 1.062092
+      type: 'test'
+      ...
+    # Subtest: audit --from compares the scope with the code and reports only what the scope activates
+    ok 3 - audit --from compares the scope with the code and reports only what the scope activates
+      ---
+      duration_ms: 3063.195454
+      type: 'test'
+      ...
+    1..3
+ok 30 - 11. the scope decides what applies; the code is evidence
+  ---
+  duration_ms: 3065.358046
+  type: 'suite'
+  ...
+# Subtest: 12. SCOPE.md: the scope in plain words
+    # Subtest: says what is in, what is out, the stack and how many rules apply
+    ok 1 - says what is in, what is out, the stack and how many rules apply
+      ---
+      duration_ms: 4.541926
+      type: 'test'
+      ...
+    # Subtest: init creates it and /mep:add regenerates it
+    ok 2 - init creates it and /mep:add regenerates it
+      ---
+      duration_ms: 1186.261912
+      type: 'test'
+      ...
+    1..2
+ok 31 - 12. SCOPE.md: the scope in plain words
+  ---
+  duration_ms: 1190.964308
+  type: 'suite'
+  ...
+# Subtest: 13. Ponytail is detected from the Claude Code settings
+    # Subtest: enabled in project settings, disabled explicitly, or only installed
+    ok 1 - enabled in project settings, disabled explicitly, or only installed
+      ---
+      duration_ms: 2.873056
+      type: 'test'
+      ...
+    1..1
+ok 32 - 13. Ponytail is detected from the Claude Code settings
+  ---
+  duration_ms: 3.04402
+  type: 'suite'
+  ...
+# Subtest: 14. systems design and honesty rules follow the scope
+    # Subtest: scale rules only appear with high_traffic; the rest rise to required
+    ok 1 - scale rules only appear with high_traffic; the rest rise to required
+      ---
+      duration_ms: 4.746411
+      type: 'test'
+      ...
+    # Subtest: a static landing gets no queue, cache or idempotency rules, but does get honesty rules
+    ok 2 - a static landing gets no queue, cache or idempotency rules, but does get honesty rules
+      ---
+      duration_ms: 1.858072
+      type: 'test'
+      ...
+    # Subtest: idempotency keys: required with payments, recommended with only a public API
+    ok 3 - idempotency keys: required with payments, recommended with only a public API
+      ---
+      duration_ms: 1.864713
+      type: 'test'
+      ...
+    # Subtest: the audit never reports high_traffic as missing from the code
+    ok 4 - the audit never reports high_traffic as missing from the code
+      ---
+      duration_ms: 5.184528
+      type: 'test'
+      ...
+    1..4
+ok 33 - 14. systems design and honesty rules follow the scope
+  ---
+  duration_ms: 13.90182
+  type: 'suite'
+  ...
+# Subtest: gate
+    # Subtest: does nothing in a repo without .mep/
+    ok 1 - does nothing in a repo without .mep/
+      ---
+      duration_ms: 1.635548
+      type: 'test'
+      ...
+    # Subtest: stop: required items of the active sub-phase are info, not blockers
+    ok 2 - stop: required items of the active sub-phase are info, not blockers
+      ---
+      duration_ms: 9.465942
+      type: 'test'
+      ...
+    # Subtest: stop: a closed sub-phase blocks on regressions and not when they are met
+    ok 3 - stop: a closed sub-phase blocks on regressions and not when they are met
+      ---
+      duration_ms: 11.093615
+      type: 'test'
+      ...
+    # Subtest: a locked violation blocks in any sub-phase and ignores MEP_BYPASS
+    ok 4 - a locked violation blocks in any sub-phase and ignores MEP_BYPASS
+      ---
+      duration_ms: 5.670978
+      type: 'test'
+      ...
+    # Subtest: MEP_BYPASS skips regular blockers and is logged
+    ok 5 - MEP_BYPASS skips regular blockers and is logged
+      ---
+      duration_ms: 5.671512
+      type: 'test'
+      ...
+    # Subtest: prod: blocks on every pending required item of every sub-phase
+    ok 6 - prod: blocks on every pending required item of every sub-phase
+      ---
+      duration_ms: 3.778391
+      type: 'test'
+      ...
+    # Subtest: overridden required items do not block
+    ok 7 - overridden required items do not block
+      ---
+      duration_ms: 4.297548
+      type: 'test'
+      ...
+    1..7
+ok 34 - gate
+  ---
+  duration_ms: 42.878196
+  type: 'suite'
+  ...
+# Subtest: phase close
+    # Subtest: closes only when its required items pass, then moves to the next sub-phase
+    ok 1 - closes only when its required items pass, then moves to the next sub-phase
+      ---
+      duration_ms: 25.576347
+      type: 'test'
+      ...
+    1..1
+ok 35 - phase close
+  ---
+  duration_ms: 25.887385
+  type: 'suite'
+  ...
+# Subtest: deploy detection
+    # Subtest: production: explicit deploys always; a push to main only once the project is live
+    ok 1 - production: explicit deploys always; a push to main only once the project is live
+      ---
+      duration_ms: 1.733862
+      type: 'test'
+      ...
+    # Subtest: integrate: while building, a push to main only stops on regressions
+    ok 2 - integrate: while building, a push to main only stops on regressions
+      ---
+      duration_ms: 0.718214
+      type: 'test'
+      ...
+    # Subtest: preview and non-deploys
+    ok 3 - preview and non-deploys
+      ---
+      duration_ms: 0.408505
+      type: 'test'
+      ...
+    1..3
+ok 36 - deploy detection
+  ---
+  duration_ms: 3.114578
+  type: 'suite'
+  ...
+# Subtest: secrets
+    # Subtest: known shapes are found, placeholders are not
+    ok 1 - known shapes are found, placeholders are not
+      ---
+      duration_ms: 0.831607
+      type: 'test'
+      ...
+    1..1
+ok 37 - secrets
+  ---
+  duration_ms: 0.922656
+  type: 'suite'
+  ...
+# Subtest: 1. state changes only through the CLI
+    # Subtest: file tools on state files are denied; generated files are not state
+    ok 1 - file tools on state files are denied; generated files are not state
+      ---
+      duration_ms: 0.966658
+      type: 'test'
+      ...
+    # Subtest: shell writes into .mep are denied; reads and lone engine calls are not
+    ok 2 - shell writes into .mep are denied; reads and lone engine calls are not
+      ---
+      duration_ms: 1.859741
+      type: 'test'
+      ...
+    # Subtest: the classic hooks deny the same
+    ok 3 - the classic hooks deny the same
+      ---
+      duration_ms: 2028.843888
+      type: 'test'
+      ...
+    # Subtest: an edit outside the CLI breaks the seal: verify blocks, MEP_BYPASS does not help, no writer seals over it
+    ok 4 - an edit outside the CLI breaks the seal: verify blocks, MEP_BYPASS does not help, no writer seals over it
+      ---
+      duration_ms: 2938.968995
+      type: 'test'
+      ...
+    # Subtest: appending a forged line to the log breaks the seal too
+    ok 5 - appending a forged line to the log breaks the seal too
+      ---
+      duration_ms: 631.442991
+      type: 'test'
+      ...
+    # Subtest: a 0.1.x repo without a seal is sealed once, and the event is logged
+    ok 6 - a 0.1.x repo without a seal is sealed once, and the event is logged
+      ---
+      duration_ms: 652.601736
+      type: 'test'
+      ...
+    1..6
+ok 38 - 1. state changes only through the CLI
+  ---
+  duration_ms: 6256.109812
+  type: 'suite'
+  ...
+# Subtest: 2. actions only the person takes
+    # Subtest: the agent cannot run them from Bash, nor pass the human flag or MEP_BYPASS
+    ok 1 - the agent cannot run them from Bash, nor pass the human flag or MEP_BYPASS
+      ---
+      duration_ms: 0.308989
+      type: 'test'
+      ...
+    # Subtest: confirm takes who from git, never from an argument, and is logged
+    ok 2 - confirm takes who from git, never from an argument, and is logged
+      ---
+      duration_ms: 1866.090912
+      type: 'test'
+      ...
+    1..2
+ok 39 - 2. actions only the person takes
+  ---
+  duration_ms: 1866.717973
+  type: 'suite'
+  ...
+# Subtest: 3. a security report always covers its sensitive files
+    # Subtest: --files can add files, never leave out the item group
+    ok 1 - --files can add files, never leave out the item group
+      ---
+      duration_ms: 1685.910148
+      type: 'test'
+      ...
+    1..1
+ok 40 - 3. a security report always covers its sensitive files
+  ---
+  duration_ms: 1686.269207
+  type: 'suite'
+  ...
+# Subtest: 4. more deploy platforms
+    # Subtest: production, preview, and what is not a deploy
+    ok 1 - production, preview, and what is not a deploy
+      ---
+      duration_ms: 2.191845
+      type: 'test'
+      ...
+    1..1
+ok 41 - 4. more deploy platforms
+  ---
+  duration_ms: 2.355996
+  type: 'suite'
+  ...
+# Subtest: 5. every state change shows in the PR summary
+    # Subtest: changes since the base branch, without seal lines
+    ok 1 - changes since the base branch, without seal lines
+      ---
+      duration_ms: 1355.109552
+      type: 'test'
+      ...
+    1..1
+ok 42 - 5. every state change shows in the PR summary
+  ---
+  duration_ms: 1355.313844
+  type: 'suite'
+  ...
+# Subtest: live checks against the deployed site
+    # Subtest: a site that does it right passes every rule
+    ok 1 - a site that does it right passes every rule
+      ---
+      duration_ms: 953.379403
+      type: 'test'
+      ...
+    # Subtest: a site that does it wrong fails each rule, saying what is wrong
+    ok 2 - a site that does it wrong fails each rule, saying what is wrong
+      ---
+      duration_ms: 742.453341
+      type: 'test'
+      ...
+    # Subtest: without a site to check, live checks are skipped: they never pass or fail an item alone
+    ok 3 - without a site to check, live checks are skipped: they never pass or fail an item alone
+      ---
+      duration_ms: 34.087989
+      type: 'test'
+      ...
+    # Subtest: MEP_URL overrides the profile (CI against a preview)
+    ok 4 - MEP_URL overrides the profile (CI against a preview)
+      ---
+      duration_ms: 11.940296
+      type: 'test'
+      ...
+    1..4
+ok 43 - live checks against the deployed site
+  ---
+  duration_ms: 1858.414381
+  type: 'suite'
+  ...
+# Subtest: DNS for email
+    # Subtest: SPF: one record, never +all
+    ok 1 - SPF: one record, never +all
+      ---
+      duration_ms: 0.649608
+      type: 'test'
+      ...
+    # Subtest: DMARC: a record with a policy; p=none passes and says so
+    ok 2 - DMARC: a record with a policy; p=none passes and says so
+      ---
+      duration_ms: 0.448788
+      type: 'test'
+      ...
+    1..2
+ok 44 - DNS for email
+  ---
+  duration_ms: 1.313402
+  type: 'suite'
+  ...
+# Subtest: clean internal links (build output)
+    # Subtest: uppercase, underscores, .php and bare IDs are flagged
+    ok 1 - uppercase, underscores, .php and bare IDs are flagged
+      ---
+      duration_ms: 3.147267
+      type: 'test'
+      ...
+    1..1
+ok 45 - clean internal links (build output)
+  ---
+  duration_ms: 3.553191
+  type: 'suite'
+  ...
+# Subtest: /mep:update
+    # Subtest: versions compare by parts
+    ok 1 - versions compare by parts
+      ---
+      duration_ms: 0.86788
+      type: 'test'
+      ...
+    # Subtest: shows only new or modified items that apply to this profile
+    ok 2 - shows only new or modified items that apply to this profile
+      ---
+      duration_ms: 9.671508
+      type: 'test'
+      ...
+    # Subtest: new required items in a closed sub-phase get grace: no Stop block, but production and the next close require them
+    ok 3 - new required items in a closed sub-phase get grace: no Stop block, but production and the next close require them
+      ---
+      duration_ms: 29.846792
+      type: 'test'
+      ...
+    1..3
+ok 46 - /mep:update
+  ---
+  duration_ms: 41.508042
+  type: 'suite'
+  ...
+# Subtest: /mep:audit
+    # Subtest: infers capabilities, signals, counts and stack from the code, with evidence
+    ok 1 - infers capabilities, signals, counts and stack from the code, with evidence
+      ---
+      duration_ms: 17.439471
+      type: 'test'
+      ...
+    # Subtest: the gap report changes nothing in the repo
+    ok 2 - the gap report changes nothing in the repo
+      ---
+      duration_ms: 2618.843598
+      type: 'test'
+      ...
+    1..2
+ok 47 - /mep:audit
+  ---
+  duration_ms: 2636.549161
+  type: 'suite'
+  ...
+# Subtest: CODEMAP.md and REGISTRY.md
+    # Subtest: registry --check fails on an export without entry, without description, or an entry pointing to nothing
+    ok 1 - registry --check fails on an export without entry, without description, or an entry pointing to nothing
+      ---
+      duration_ms: 5.945526
+      type: 'test'
+      ...
+    # Subtest: codemap lists folders and keeps manual notes
+    ok 2 - codemap lists folders and keeps manual notes
+      ---
+      duration_ms: 10.78958
+      type: 'test'
+      ...
+    1..2
+ok 48 - CODEMAP.md and REGISTRY.md
+  ---
+  duration_ms: 17.133885
+  type: 'suite'
+  ...
+# Subtest: quote
+    # Subtest: same profile and rates, same quote; scales_with multiplies; custom work is marked
+    ok 1 - same profile and rates, same quote; scales_with multiplies; custom work is marked
+      ---
+      duration_ms: 1.620525
+      type: 'test'
+      ...
+    # Subtest: the client view shows no rate, margins or buffer
+    ok 2 - the client view shows no rate, margins or buffer
+      ---
+      duration_ms: 8.74439
+      type: 'test'
+      ...
+    # Subtest: log-time stays outside the repo; calibrate suggests a range with 3+ measurements
+    ok 3 - log-time stays outside the repo; calibrate suggests a range with 3+ measurements
+      ---
+      duration_ms: 5.469481
+      type: 'test'
+      ...
+    # Subtest: /mep:add shows the impact in hours and price
+    ok 4 - /mep:add shows the impact in hours and price
+      ---
+      duration_ms: 1311.271153
+      type: 'test'
+      ...
+    1..4
+ok 49 - quote
+  ---
+  duration_ms: 1327.444046
+  type: 'suite'
+  ...
+# Subtest: /mep:export
+    # Subtest: the Markdown subset parses into blocks
+    ok 1 - the Markdown subset parses into blocks
+      ---
+      duration_ms: 1.5531
+      type: 'test'
+      ...
+    # Subtest: produces a valid .docx (zip with the document) and a .pdf
+    ok 2 - produces a valid .docx (zip with the document) and a .pdf
+      ---
+      duration_ms: 4.087909
+      type: 'test'
+      ...
+    # Subtest: versions and changes against the previous export
+    ok 3 - versions and changes against the previous export
+      ---
+      duration_ms: 25.550708
+      type: 'test'
+      ...
+    1..3
+ok 50 - /mep:export
+  ---
+  duration_ms: 31.503267
+  type: 'suite'
+  ...
+# Subtest: images in the client documents
+    # Subtest: markdown image line becomes an image block
+    ok 1 - markdown image line becomes an image block
+      ---
+      duration_ms: 0.649396
+      type: 'test'
+      ...
+    # Subtest: docx embeds the PNG
+    ok 2 - docx embeds the PNG
+      ---
+      duration_ms: 4.543718
+      type: 'test'
+      ...
+    # Subtest: pdf embeds RGB and RGBA PNGs
+    ok 3 - pdf embeds RGB and RGBA PNGs
+      ---
+      duration_ms: 14.918441
+      type: 'test'
+      ...
+    # Subtest: links render as their text; external links keep the address
+    ok 4 - links render as their text; external links keep the address
+      ---
+      duration_ms: 0.35955
+      type: 'test'
+      ...
+    # Subtest: image lines with a title or an angle-bracket path become image blocks
+    ok 5 - image lines with a title or an angle-bracket path become image blocks
+      ---
+      duration_ms: 1.17926
+      type: 'test'
+      ...
+    # Subtest: a tall image is shrunk to fit the page height in Word
+    ok 6 - a tall image is shrunk to fit the page height in Word
+      ---
+      duration_ms: 7.62427
+      type: 'test'
+      ...
+    # Subtest: missing image fails with its path
+    ok 7 - missing image fails with its path
+      ---
+      duration_ms: 1.549221
+      type: 'test'
+      ...
+    # Subtest: an unsupported or broken PNG fails in loadImages, naming the file
+    ok 8 - an unsupported or broken PNG fails in loadImages, naming the file
+      ---
+      duration_ms: 1.35812
+      type: 'test'
+      ...
+    # Subtest: mep export with a broken image writes nothing
+    ok 9 - mep export with a broken image writes nothing
+      ---
+      duration_ms: 536.146483
+      type: 'test'
+      ...
+    # Subtest: exporting a client plan document does not touch the brief export record
+    ok 10 - exporting a client plan document does not touch the brief export record
+      ---
+      duration_ms: 503.400242
+      type: 'test'
+      ...
+    # Subtest: mep export stops on a missing image and names it
+    ok 11 - mep export stops on a missing image and names it
+      ---
+      duration_ms: 593.78501
+      type: 'test'
+      ...
+    1..11
+ok 51 - images in the client documents
+  ---
+  duration_ms: 1666.331271
+  type: 'suite'
+  ...
+# Subtest: quiet chat, full panel
+    # Subtest: Stop says nothing while the active sub-phase has pending items that do not block
+    ok 1 - Stop says nothing while the active sub-phase has pending items that do not block
+      ---
+      duration_ms: 1018.035051
+      type: 'test'
+      ...
+    # Subtest: check --json --detail carries what each item asks, why, and every finding
+    ok 2 - check --json --detail carries what each item asks, why, and every finding
+      ---
+      duration_ms: 1169.69306
+      type: 'test'
+      ...
+    1..2
+ok 52 - quiet chat, full panel
+  ---
+  duration_ms: 2189.106823
+  type: 'suite'
+  ...
+# Subtest: plan documents
+    # Subtest: missing document fails with its path
+    ok 1 - missing document fails with its path
+      ---
+      duration_ms: 3.102127
+      type: 'test'
+      ...
+    # Subtest: sections are found by marker, in any language, with CRLF
+    ok 2 - sections are found by marker, in any language, with CRLF
+      ---
+      duration_ms: 1.753028
+      type: 'test'
+      ...
+    # Subtest: custom_work titles must appear (case-insensitive)
+    ok 3 - custom_work titles must appear (case-insensitive)
+      ---
+      duration_ms: 1.268461
+      type: 'test'
+      ...
+    # Subtest: stack decisions must appear in TRD
+    ok 4 - stack decisions must appear in TRD
+      ---
+      duration_ms: 1.88942
+      type: 'test'
+      ...
+    # Subtest: phases: every listed phase as a code heading in the fases section; build.data only with has_db
+    ok 5 - phases: every listed phase as a code heading in the fases section; build.data only with has_db
+      ---
+      duration_ms: 2.595808
+      type: 'test'
+      ...
+    # Subtest: diagrams: required types by file name, linked images must exist
+    ok 6 - diagrams: required types by file name, linked images must exist
+      ---
+      duration_ms: 4.868975
+      type: 'test'
+      ...
+    # Subtest: diagrams: if_capabilities skips the requirement when no capability matches
+    ok 7 - diagrams: if_capabilities skips the requirement when no capability matches
+      ---
+      duration_ms: 2.093747
+      type: 'test'
+      ...
+    1..7
+ok 53 - plan documents
+  ---
+  duration_ms: 19.566444
+  type: 'suite'
+  ...
+# Subtest: plan drift against the code
+    # Subtest: routes: every page route appears in code in the pantallas section
+    ok 1 - routes: every page route appears in code in the pantallas section
+      ---
+      duration_ms: 23.030049
+      type: 'test'
+      ...
+    # Subtest: tables: migrations and SCHEMA list the same tables, normalized
+    ok 2 - tables: migrations and SCHEMA list the same tables, normalized
+      ---
+      duration_ms: 7.512116
+      type: 'test'
+      ...
+    # Subtest: codemap lists the same pages after the pageRoutes refactor
+    ok 3 - codemap lists the same pages after the pageRoutes refactor
+      ---
+      duration_ms: 239.25156
+      type: 'test'
+      ...
+    1..3
+ok 54 - plan drift against the code
+  ---
+  duration_ms: 270.297324
+  type: 'suite'
+  ...
+# Subtest: plan catalog and templates
+    # Subtest: every template has every marker the catalog requires
+    ok 1 - every template has every marker the catalog requires
+      ---
+      duration_ms: 0.675475
+      type: 'test'
+      ...
+    # Subtest: phases lists in plan.yaml are a subset of dimensions.phases
+    ok 2 - phases lists in plan.yaml are a subset of dimensions.phases
+      ---
+      duration_ms: 0.195079
+      type: 'test'
+      ...
+    1..2
+ok 55 - plan catalog and templates
+  ---
+  duration_ms: 0.996451
+  type: 'suite'
+  ...
+# Subtest: client versions of the plan
+    # Subtest: client templates exist and never mention internal diagrams
+    ok 1 - client templates exist and never mention internal diagrams
+      ---
+      duration_ms: 0.328296
+      type: 'test'
+      ...
+    1..1
+ok 56 - client versions of the plan
+  ---
+  duration_ms: 0.406876
+  type: 'suite'
+  ...
+# Subtest: final review fixes
+    # Subtest: diagrams: image links inside HTML comments are ignored
+    ok 1 - diagrams: image links inside HTML comments are ignored
+      ---
+      duration_ms: 1.239221
+      type: 'test'
+      ...
+    # Subtest: stack: internal names match product names (nextjs ↔ Next.js), and none is not required
+    ok 2 - stack: internal names match product names (nextjs ↔ Next.js), and none is not required
+      ---
+      duration_ms: 0.960887
+      type: 'test'
+      ...
+    # Subtest: routes: error pages (/404, /500) are not screens
+    ok 3 - routes: error pages (/404, /500) are not screens
+      ---
+      duration_ms: 1.516002
+      type: 'test'
+      ...
+    1..3
+ok 57 - final review fixes
+  ---
+  duration_ms: 3.940329
+  type: 'suite'
+  ...
+# Subtest: deferred minors
+    # Subtest: section() ignores \#\# lines inside fenced code blocks
+    ok 1 - section() ignores \#\# lines inside fenced code blocks
+      ---
+      duration_ms: 0.195513
+      type: 'test'
+      ...
+    # Subtest: diagrams: titled and angle-bracket image links count; external images are not local files
+    ok 2 - diagrams: titled and angle-bracket image links count; external images are not local files
+      ---
+      duration_ms: 1.527885
+      type: 'test'
+      ...
+    # Subtest: routes: static .html files in public/ are not screens
+    ok 3 - routes: static .html files in public/ are not screens
+      ---
+      duration_ms: 2.096808
+      type: 'test'
+      ...
+    1..3
+ok 58 - deferred minors
+  ---
+  duration_ms: 3.990317
+  type: 'suite'
+  ...
+# Subtest: the checklist
+    # Subtest: it has the 16 lines and every item in it exists and is security or auth
+    ok 1 - it has the 16 lines and every item in it exists and is security or auth
+      ---
+      duration_ms: 1.624258
+      type: 'test'
+      ...
+    # Subtest: the four items it adds are required, security, and checked right before going live
+    ok 2 - the four items it adds are required, security, and checked right before going live
+      ---
+      duration_ms: 0.495635
+      type: 'test'
+      ...
+    # Subtest: uploads: the allowlist, the content hardening and the safe serving are required, and the review line holds all six
+    ok 3 - uploads: the allowlist, the content hardening and the safe serving are required, and the review line holds all six
+      ---
+      duration_ms: 1.6075
+      type: 'test'
+      ...
+    # Subtest: uploads: user-generated content or a marketplace makes the antivirus required; a plain site keeps it recommended
+    ok 4 - uploads: user-generated content or a marketplace makes the antivirus required; a plain site keeps it recommended
+      ---
+      duration_ms: 35.024582
+      type: 'test'
+      ...
+    # Subtest: uploads: a wide-open accept or an allowlist with a wildcard is caught; a real allowlist is not
+    ok 5 - uploads: a wide-open accept or an allowlist with a wildcard is caught; a real allowlist is not
+      ---
+      duration_ms: 0.697567
+      type: 'test'
+      ...
+    # Subtest: debug mode: a development NODE_ENV or DEBUG=true in the production config is found
+    ok 6 - debug mode: a development NODE_ENV or DEBUG=true in the production config is found
+      ---
+      duration_ms: 0.727452
+      type: 'test'
+      ...
+    1..6
+ok 59 - the checklist
+  ---
+  duration_ms: 42.064198
+  type: 'suite'
+  ...
+# Subtest: the review, line by line
+    # Subtest: a line that applies to nothing in the scope is n/a; one that applies is done only when all its items pass
+    ok 1 - a line that applies to nothing in the scope is n/a; one that applies is done only when all its items pass
+      ---
+      duration_ms: 10.873181
+      type: 'test'
+      ...
+    # Subtest: with accounts, uploads and payments the lines come back, and a missing one says what
+    ok 2 - with accounts, uploads and payments the lines come back, and a missing one says what
+      ---
+      duration_ms: 8.483949
+      type: 'test'
+      ...
+    1..2
+ok 60 - the review, line by line
+  ---
+  duration_ms: 19.652433
+  type: 'suite'
+  ...
+# Subtest: the CLI
+    # Subtest: mep prelaunch prints the review, changes nothing and works while building
+    ok 1 - mep prelaunch prints the review, changes nothing and works while building
+      ---
+      duration_ms: 1890.393302
+      type: 'test'
+      ...
+    1..1
+ok 61 - the CLI
+  ---
+  duration_ms: 1890.879196
+  type: 'suite'
+  ...
+# Subtest: Python code quality
+    # Subtest: Ruff enforces the profile thresholds and the C90, PLR and S rule sets
+    ok 1 - Ruff enforces the profile thresholds and the C90, PLR and S rule sets
+      ---
+      duration_ms: 3.519281
+      type: 'test'
+      ...
+    # Subtest: a laxer threshold, a missing setting or a missing rule set fails and says which
+    ok 2 - a laxer threshold, a missing setting or a missing rule set fails and says which
+      ---
+      duration_ms: 2.741574
+      type: 'test'
+      ...
+    # Subtest: a relaxed profile threshold is respected
+    ok 3 - a relaxed profile threshold is respected
+      ---
+      duration_ms: 0.816117
+      type: 'test'
+      ...
+    # Subtest: Python files longer than max_lines fail; virtual environments and caches are ignored
+    ok 4 - Python files longer than max_lines fail; virtual environments and caches are ignored
+      ---
+      duration_ms: 2.985197
+      type: 'test'
+      ...
+    # Subtest: has_python is detected from pyproject.toml, requirements or uv.lock
+    ok 5 - has_python is detected from pyproject.toml, requirements or uv.lock
+      ---
+      duration_ms: 16.9502
+      type: 'test'
+      ...
+    # Subtest: every py-* item applies only to Python projects
+    ok 6 - every py-* item applies only to Python projects
+      ---
+      duration_ms: 1.887738
+      type: 'test'
+      ...
+    1..6
+ok 62 - Python code quality
+  ---
+  duration_ms: 30.2959
+  type: 'suite'
+  ...
+# Subtest: mep does not scope projects for minors or that verify age
+    # Subtest: a profile with minors or age-verification is invalid, with the reason
+    ok 1 - a profile with minors or age-verification is invalid, with the reason
+      ---
+      duration_ms: 3.547708
+      type: 'test'
+      ...
+    1..1
+ok 63 - mep does not scope projects for minors or that verify age
+  ---
+  duration_ms: 4.576571
+  type: 'suite'
+  ...
+# Subtest: rules by project type apply only to their type
+    # Subtest: SaaS, ecommerce, marketplace, blog, directory, portfolio and internal apps
+    ok 1 - SaaS, ecommerce, marketplace, blog, directory, portfolio and internal apps
+      ---
+      duration_ms: 30.774119
+      type: 'test'
+      ...
+    1..1
+ok 64 - rules by project type apply only to their type
+  ---
+  duration_ms: 30.969611
+  type: 'suite'
+  ...
+# Subtest: usage billing ("RaaS")
+    # Subtest: implies payments and a database, and brings its rules
+    ok 1 - implies payments and a database, and brings its rules
+      ---
+      duration_ms: 1.270156
+      type: 'test'
+      ...
+    1..1
+ok 65 - usage billing ("RaaS")
+  ---
+  duration_ms: 1.515036
+  type: 'suite'
+  ...
+# Subtest: operations
+    # Subtest: uptime monitoring is required where an outage costs money, recommended elsewhere
+    ok 1 - uptime monitoring is required where an outage costs money, recommended elsewhere
+      ---
+      duration_ms: 2.575123
+      type: 'test'
+      ...
+    1..1
+ok 66 - operations
+  ---
+  duration_ms: 2.81541
+  type: 'suite'
+  ...
+# Subtest: sensitive data
+    # Subtest: health data: HIPAA in USA, article 9 in the EU, consent in MX, and no tracking pixels
+    ok 1 - health data: HIPAA in USA, article 9 in the EU, consent in MX, and no tracking pixels
+      ---
+      duration_ms: 6.010324
+      type: 'test'
+      ...
+    1..1
+ok 67 - sensitive data
+  ---
+  duration_ms: 6.371101
+  type: 'suite'
+  ...
+# Subtest: fitting the catalog to the scope
+    # Subtest: a SaaS gets the SaaS rules by default; the scope can take out the ones that do not fit
+    ok 1 - a SaaS gets the SaaS rules by default; the scope can take out the ones that do not fit
+      ---
+      duration_ms: 13.87363
+      type: 'test'
+      ...
+    # Subtest: only real, unlocked items with a reason can be fitted out; notes need a real item
+    ok 2 - only real, unlocked items with a reason can be fitted out; notes need a real item
+      ---
+      duration_ms: 2.226912
+      type: 'test'
+      ...
+    # Subtest: a locked item cannot be fitted out even if the profile says so
+    ok 3 - a locked item cannot be fitted out even if the profile says so
+      ---
+      duration_ms: 2.581931
+      type: 'test'
+      ...
+    # Subtest: /mep:add shows a fitted-out item as "deja de aplicar" and bringing it back as new
+    ok 4 - /mep:add shows a fitted-out item as "deja de aplicar" and bringing it back as new
+      ---
+      duration_ms: 4.664416
+      type: 'test'
+      ...
+    # Subtest: the BRIEF says how an item applies here and lists what did not fit; the panel and counts skip it
+    ok 5 - the BRIEF says how an item applies here and lists what did not fit; the panel and counts skip it
+      ---
+      duration_ms: 23.710282
+      type: 'test'
+      ...
+    # Subtest: the proposal is grouped by domain and lists the fitted-out items apart
+    ok 6 - the proposal is grouped by domain and lists the fitted-out items apart
+      ---
+      duration_ms: 3.081242
+      type: 'test'
+      ...
+    1..6
+ok 68 - fitting the catalog to the scope
+  ---
+  duration_ms: 51.413684
+  type: 'suite'
+  ...
+# Subtest: the CLI
+    # Subtest: init takes the tailoring from the draft, and add can change it with a diff
+    ok 1 - init takes the tailoring from the draft, and add can change it with a diff
+      ---
+      duration_ms: 1305.446253
+      type: 'test'
+      ...
+    1..1
+ok 69 - the CLI
+  ---
+  duration_ms: 1305.914485
+  type: 'suite'
+  ...
+# Subtest: glob
+    # Subtest: **, *, nested braces
+    ok 1 - **, *, nested braces
+      ---
+      duration_ms: 1.23948
+      type: 'test'
+      ...
+    1..1
+ok 70 - glob
+  ---
+  duration_ms: 2.172652
+  type: 'suite'
+  ...
+# Subtest: file_exists
+    # Subtest: any of several paths, with globs
+    ok 1 - any of several paths, with globs
+      ---
+      duration_ms: 1.480304
+      type: 'test'
+      ...
+    1..1
+ok 71 - file_exists
+  ---
+  duration_ms: 1.62217
+  type: 'suite'
+  ...
+# Subtest: route_exists
+    # Subtest: Next.js app router, route groups, dynamic segments and metadata routes
+    ok 1 - Next.js app router, route groups, dynamic segments and metadata routes
+      ---
+      duration_ms: 4.227831
+      type: 'test'
+      ...
+    # Subtest: Next.js pages router, Astro, Vite + React Router, public files
+    ok 2 - Next.js pages router, Astro, Vite + React Router, public files
+      ---
+      duration_ms: 5.700893
+      type: 'test'
+      ...
+    1..2
+ok 72 - route_exists
+  ---
+  duration_ms: 10.227882
+  type: 'suite'
+  ...
+# Subtest: grep
+    # Subtest: present
+    ok 1 - present
+      ---
+      duration_ms: 1.225753
+      type: 'test'
+      ...
+    # Subtest: absent: a match is a violation, with file and line
+    ok 2 - absent: a match is a violation, with file and line
+      ---
+      duration_ms: 0.653315
+      type: 'test'
+      ...
+    # Subtest: exclude
+    ok 3 - exclude
+      ---
+      duration_ms: 0.509076
+      type: 'test'
+      ...
+    1..3
+ok 73 - grep
+  ---
+  duration_ms: 3.169201
+  type: 'suite'
+  ...
+# Subtest: json_key
+    # Subtest: reads JSONC, checks key and value
+    ok 1 - reads JSONC, checks key and value
+      ---
+      duration_ms: 0.482118
+      type: 'test'
+      ...
+    1..1
+ok 74 - json_key
+  ---
+  duration_ms: 0.693893
+  type: 'suite'
+  ...
+# Subtest: command
+    # Subtest: exit 0 passes, other codes fail, fast mode defers
+    ok 1 - exit 0 passes, other codes fail, fast mode defers
+      ---
+      duration_ms: 5.842166
+      type: 'test'
+      ...
+    1..1
+ok 75 - command
+  ---
+  duration_ms: 6.01212
+  type: 'suite'
+  ...
+# Subtest: html (on the build output)
+    # Subtest: without a build it is unknown, not a pass
+    ok 1 - without a build it is unknown, not a pass
+      ---
+      duration_ms: 0.923017
+      type: 'test'
+      ...
+    # Subtest: single_h1, heading_order, unique_title, meta, absolute og:image
+    ok 2 - single_h1, heading_order, unique_title, meta, absolute og:image
+      ---
+      duration_ms: 3.641873
+      type: 'test'
+      ...
+    # Subtest: two h1 fail
+    ok 3 - two h1 fail
+      ---
+      duration_ms: 1.025381
+      type: 'test'
+      ...
+    1..3
+ok 76 - html (on the build output)
+  ---
+  duration_ms: 5.81142
+  type: 'suite'
+  ...
+# Subtest: sql (RLS in migrations)
+    # Subtest: a table without RLS is a violation; policies per operation
+    ok 1 - a table without RLS is a violation; policies per operation
+      ---
+      duration_ms: 4.774851
+      type: 'test'
+      ...
+    1..1
+ok 77 - sql (RLS in migrations)
+  ---
+  duration_ms: 4.91688
+  type: 'suite'
+  ...
+# Subtest: manual
+    # Subtest: pending until a person confirms it
+    ok 1 - pending until a person confirms it
+      ---
+      duration_ms: 0.589892
+      type: 'test'
+      ...
+    1..1
+ok 78 - manual
+  ---
+  duration_ms: 0.688144
+  type: 'suite'
+  ...
+# Subtest: security items need a valid mep-security report
+    # Subtest: verify passing is not enough; a report ties it to the files it read and expires when they change
+    ok 1 - verify passing is not enough; a report ties it to the files it read and expires when they change
+      ---
+      duration_ms: 39.319513
+      type: 'test'
+      ...
+    1..1
+ok 79 - security items need a valid mep-security report
+  ---
+  duration_ms: 39.443135
+  type: 'suite'
+  ...
+1..79
+# tests 215
+# suites 77
+# pass 215
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 42469.608192

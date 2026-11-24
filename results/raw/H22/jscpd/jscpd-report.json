@@ -1,0 +1,265 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T08:59:53.674Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/verb/try_similar.ts": {
+            "lines": 27,
+            "tokens": 207,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/verb/try_present.ts": {
+            "lines": 47,
+            "tokens": 724,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/verb/transform.ts": {
+            "lines": 50,
+            "tokens": 597,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/verb/solve_regex.ts": {
+            "lines": 117,
+            "tokens": 1412,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 14,
+            "duplicatedTokens": 224,
+            "percentage": 11.97,
+            "percentageTokens": 15.86,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/verb/solve_lookup.ts": {
+            "lines": 624,
+            "tokens": 26434,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/noun/transform.ts": {
+            "lines": 23,
+            "tokens": 351,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/noun/regexps_transformation.ts": {
+            "lines": 334,
+            "tokens": 1875,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/noun/regexps_detection.ts": {
+            "lines": 65,
+            "tokens": 330,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/noun/list_uncountable.ts": {
+            "lines": 291,
+            "tokens": 1417,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/noun/list_exceptions.ts": {
+            "lines": 359,
+            "tokens": 3699,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/noun/detect_singular_plural.ts": {
+            "lines": 30,
+            "tokens": 372,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/noun/detect_countable.ts": {
+            "lines": 11,
+            "tokens": 89,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 36,
+            "tokens": 545,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/adjective/transform.ts": {
+            "lines": 36,
+            "tokens": 293,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/adjective/regexp_rules.ts": {
+            "lines": 53,
+            "tokens": 651,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/adjective/list_irregulars.ts": {
+            "lines": 18,
+            "tokens": 177,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2121,
+          "tokens": 39173,
+          "sources": 16,
+          "clones": 1,
+          "duplicatedLines": 7,
+          "duplicatedTokens": 112,
+          "percentage": 0.33,
+          "percentageTokens": 0.29,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 2121,
+      "tokens": 39173,
+      "sources": 16,
+      "clones": 1,
+      "duplicatedLines": 7,
+      "duplicatedTokens": 112,
+      "percentage": 0.33,
+      "percentageTokens": 0.29,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ",\r\n\t\ttransform: function (vb: string, to: string): string {\r\n\t\t\tif (to === \"VBZ\") return vb + 's';\r\n\t\t\tif (to === \"VBG\") return vb + 'ing';\r\n\t\t\tif (to === \"VBN\" || to === \"VBD\") return vb + 'ed';\r\n\t\t\treturn vb;\r\n\t\t}\r\n\t}\r",
+      "tokens": 112,
+      "firstFile": {
+        "name": "src/verb/solve_regex.ts",
+        "start": 98,
+        "end": 105,
+        "startLoc": {
+          "line": 98,
+          "column": 12,
+          "position": 1174
+        },
+        "endLoc": {
+          "line": 105,
+          "column": 4,
+          "position": 1286
+        }
+      },
+      "secondFile": {
+        "name": "src/verb/solve_regex.ts",
+        "start": 5,
+        "end": 12,
+        "startLoc": {
+          "line": 5,
+          "column": 366,
+          "position": 24
+        },
+        "endLoc": {
+          "line": 12,
+          "column": 4,
+          "position": 136
+        }
+      }
+    }
+  ]
+}

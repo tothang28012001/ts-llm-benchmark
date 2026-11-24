@@ -1,0 +1,356 @@
+npm WARN deprecated uuid@3.4.0: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+npm WARN deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated babel-eslint@7.2.3: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated abab@1.0.4: Use your platform's native atob() and btoa() methods instead
+npm WARN deprecated content-type-parser@1.0.2: Use whatwg-mimetype instead
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated whatwg-encoding@1.0.5: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated domexception@1.0.1: Use your platform's native DOMException instead
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated fsevents@1.2.13: Upgrade to fsevents v2 to mitigate potential security issues
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm notice This endpoint is being retired. Use the bulk advisory endpoint instead. See the following docs for more info: https://api-docs.npmjs.com/#tag/Audit
+
+> @parcel/watcher@2.6.0 install /work/node_modules/@parcel/watcher
+> node scripts/build-from-source.js
+
+
+> core-js@2.6.12 postinstall /work/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> es5-ext@0.10.64 postinstall /work/node_modules/es5-ext
+>  node -e "try{require('./_postinstall')}catch(e){}" || exit 0
+
+npm WARN prepublish-on-install As of npm@5, `prepublish` scripts are deprecated.
+npm WARN prepublish-on-install Use `prepare` for build steps and `prepublishOnly` for upload-only.
+npm WARN prepublish-on-install See the deprecation note in `npm help scripts` for more information.
+npm WARN lifecycle taxi-rank@2.1.0~prepublish: cannot run in wd taxi-rank@2.1.0 npm run build (wd=/work)
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN notsup Unsupported engine for sax@1.6.1: wanted: {"node":">=11.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: sax@1.6.1
+npm WARN notsup Unsupported engine for babel-jest@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: babel-jest@30.5.2
+npm WARN notsup Unsupported engine for eslint@10.15.0: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: eslint@10.15.0
+npm WARN notsup Unsupported engine for jest@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest@30.5.2
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN notsup Unsupported engine for babel-preset-jest@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: babel-preset-jest@30.5.0
+npm WARN notsup Unsupported engine for @jest/transform@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/transform@30.5.2
+npm WARN notsup Unsupported engine for babel-plugin-istanbul@8.0.0: wanted: {"node":">=18"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: babel-plugin-istanbul@8.0.0
+npm WARN notsup Unsupported engine for jest-util@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-util@30.5.1
+npm WARN notsup Unsupported engine for @jest/types@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/types@30.5.1
+npm WARN notsup Unsupported engine for jest-haste-map@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-haste-map@30.5.1
+npm WARN notsup Unsupported engine for jest-regex-util@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-regex-util@30.5.0
+npm WARN notsup Unsupported engine for write-file-atomic@5.0.1: wanted: {"node":"^14.17.0 || ^16.13.0 || >=18.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: write-file-atomic@5.0.1
+npm WARN notsup Unsupported engine for node-releases@2.0.65: wanted: {"node":">=18"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: node-releases@2.0.65
+npm WARN notsup Unsupported engine for @jest/pattern@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/pattern@30.5.0
+npm WARN notsup Unsupported engine for @jest/schemas@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/schemas@30.5.0
+npm WARN notsup Unsupported engine for test-exclude@7.0.2: wanted: {"node":">=18"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: test-exclude@7.0.2
+npm WARN notsup Unsupported engine for minimatch@10.2.6: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minimatch@10.2.6
+npm WARN notsup Unsupported engine for minimatch@9.0.9: wanted: {"node":">=16 || 14 >=14.17"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minimatch@9.0.9
+npm WARN notsup Unsupported engine for minipass@7.1.3: wanted: {"node":">=16 || 14 >=14.17"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minipass@7.1.3
+npm WARN notsup Unsupported engine for path-scurry@1.11.1: wanted: {"node":">=16 || 14 >=14.18"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: path-scurry@1.11.1
+npm WARN notsup Unsupported engine for foreground-child@3.3.1: wanted: {"node":">=14"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: foreground-child@3.3.1
+npm WARN notsup Unsupported engine for signal-exit@4.1.0: wanted: {"node":">=14"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: signal-exit@4.1.0
+npm WARN notsup Unsupported engine for @pkgjs/parseargs@0.11.0: wanted: {"node":">=14"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @pkgjs/parseargs@0.11.0
+npm WARN notsup Unsupported engine for @isaacs/cliui@8.0.2: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @isaacs/cliui@8.0.2
+npm WARN notsup Unsupported engine for wrap-ansi@8.1.0: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: wrap-ansi@8.1.0
+npm WARN notsup Unsupported engine for strip-ansi@7.2.0: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: strip-ansi@7.2.0
+npm WARN notsup Unsupported engine for string-width@5.1.2: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: string-width@5.1.2
+npm WARN notsup Unsupported engine for strip-ansi@7.2.0: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: strip-ansi@7.2.0
+npm WARN notsup Unsupported engine for ansi-regex@6.6.0: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: ansi-regex@6.6.0
+npm WARN notsup Unsupported engine for ansi-regex@6.6.0: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: ansi-regex@6.6.0
+npm WARN notsup Unsupported engine for strip-ansi@7.2.0: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: strip-ansi@7.2.0
+npm WARN notsup Unsupported engine for ansi-styles@6.2.3: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: ansi-styles@6.2.3
+npm WARN notsup Unsupported engine for ansi-regex@6.6.0: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: ansi-regex@6.6.0
+npm WARN notsup Unsupported engine for brace-expansion@5.1.0: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: brace-expansion@5.1.0
+npm WARN notsup Unsupported engine for balanced-match@4.0.4: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: balanced-match@4.0.4
+npm WARN notsup Unsupported engine for fdir@6.5.0: wanted: {"node":">=12.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: fdir@6.5.0
+npm WARN notsup Unsupported engine for picomatch@4.0.7: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: picomatch@4.0.7
+npm WARN notsup Unsupported engine for jest-worker@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-worker@30.5.1
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-darwin-x64@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-darwin-x64@2.6.0: wanted {"os":"darwin","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-darwin-arm64@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-darwin-arm64@2.6.0: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-win32-x64@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-win32-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-win32-x64@2.6.0: wanted {"os":"win32","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-win32-arm64@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-win32-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-win32-arm64@2.6.0: wanted {"os":"win32","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-linux-arm64-glibc@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-linux-arm64-glibc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-linux-arm64-glibc@2.6.0: wanted {"os":"linux","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-linux-arm64-musl@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-linux-arm64-musl@2.6.0: wanted {"os":"linux","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-linux-arm-musl@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-linux-arm-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-linux-arm-musl@2.6.0: wanted {"os":"linux","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-android-arm64@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-android-arm64@2.6.0: wanted {"os":"android","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-linux-arm-glibc@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-linux-arm-glibc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-linux-arm-glibc@2.6.0: wanted {"os":"linux","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @parcel/watcher-freebsd-x64@2.6.0 (node_modules/@parcel/watcher/node_modules/@parcel/watcher-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @parcel/watcher-freebsd-x64@2.6.0: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN notsup Unsupported engine for babel-plugin-jest-hoist@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: babel-plugin-jest-hoist@30.5.0
+npm WARN notsup Unsupported engine for minimatch@11.0.9: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minimatch@11.0.9
+npm WARN notsup Unsupported engine for espree@11.2.0: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: espree@11.2.0
+npm WARN notsup Unsupported engine for @eslint/core@1.2.1: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @eslint/core@1.2.1
+npm WARN notsup Unsupported engine for @humanfs/node@0.16.8: wanted: {"node":">=18.18.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @humanfs/node@0.16.8
+npm WARN notsup Unsupported engine for eslint-scope@9.1.2: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: eslint-scope@9.1.2
+npm WARN notsup Unsupported engine for @eslint/plugin-kit@0.7.3: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @eslint/plugin-kit@0.7.3
+npm WARN notsup Unsupported engine for eslint-visitor-keys@5.0.1: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: eslint-visitor-keys@5.0.1
+npm WARN notsup Unsupported engine for @humanwhocodes/retry@0.4.3: wanted: {"node":">=18.18"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @humanwhocodes/retry@0.4.3
+npm WARN notsup Unsupported engine for @eslint/config-array@0.23.6: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @eslint/config-array@0.23.6
+npm WARN notsup Unsupported engine for @eslint/config-helpers@0.7.0: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @eslint/config-helpers@0.7.0
+npm WARN notsup Unsupported engine for @humanwhocodes/module-importer@1.0.1: wanted: {"node":">=12.22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @humanwhocodes/module-importer@1.0.1
+npm WARN notsup Unsupported engine for @eslint-community/eslint-utils@4.10.1: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @eslint-community/eslint-utils@4.10.1
+npm WARN notsup Unsupported engine for @eslint-community/regexpp@4.12.3: wanted: {"node":"^12.0.0 || ^14.0.0 || >=16.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @eslint-community/regexpp@4.12.3
+npm WARN notsup Unsupported engine for eslint-visitor-keys@3.4.3: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: eslint-visitor-keys@3.4.3
+npm WARN notsup Unsupported engine for minimatch@11.0.9: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minimatch@11.0.9
+npm WARN notsup Unsupported engine for @eslint/object-schema@3.0.5: wanted: {"node":"^20.19.0 || ^22.13.0 || >=24"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @eslint/object-schema@3.0.5
+npm WARN notsup Unsupported engine for brace-expansion@5.1.0: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: brace-expansion@5.1.0
+npm WARN notsup Unsupported engine for balanced-match@4.0.4: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: balanced-match@4.0.4
+npm WARN notsup Unsupported engine for @humanfs/core@0.19.2: wanted: {"node":">=18.18.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @humanfs/core@0.19.2
+npm WARN notsup Unsupported engine for @humanfs/types@0.15.0: wanted: {"node":">=18.18.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @humanfs/types@0.15.0
+npm WARN notsup Unsupported engine for qified@0.10.1: wanted: {"node":">=20"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: qified@0.10.1
+npm WARN notsup Unsupported engine for @keyv/bigmap@1.3.1: wanted: {"node":">= 18"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @keyv/bigmap@1.3.1
+npm WARN notsup Unsupported engine for hashery@1.5.1: wanted: {"node":">=20"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: hashery@1.5.1
+npm WARN notsup Unsupported engine for brace-expansion@5.1.0: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: brace-expansion@5.1.0
+npm WARN notsup Unsupported engine for balanced-match@4.0.4: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: balanced-match@4.0.4
+npm WARN notsup Unsupported engine for jest-cli@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-cli@30.5.2
+npm WARN notsup Unsupported engine for @jest/core@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/core@30.5.2
+npm WARN notsup Unsupported engine for jest-config@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-config@30.5.2
+npm WARN notsup Unsupported engine for jest-runner@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-runner@30.5.2
+npm WARN notsup Unsupported engine for jest-resolve@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-resolve@30.5.1
+npm WARN notsup Unsupported engine for jest-watcher@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-watcher@30.5.2
+npm WARN notsup Unsupported engine for @jest/console@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/console@30.5.2
+npm WARN notsup Unsupported engine for jest-runtime@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-runtime@30.5.2
+npm WARN notsup Unsupported engine for jest-validate@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-validate@30.5.1
+npm WARN notsup Unsupported engine for @jest/reporters@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/reporters@30.5.2
+npm WARN notsup Unsupported engine for @jest/test-result@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/test-result@30.5.2
+npm WARN notsup Unsupported engine for jest-snapshot@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-snapshot@30.5.2
+npm WARN notsup Unsupported engine for pretty-format@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: pretty-format@30.5.1
+npm WARN notsup Unsupported engine for jest-message-util@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-message-util@30.5.1
+npm WARN notsup Unsupported engine for jest-changed-files@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-changed-files@30.5.1
+npm WARN notsup Unsupported engine for jest-resolve-dependencies@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-resolve-dependencies@30.5.2
+npm WARN notsup Unsupported engine for glob@13.0.7: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: glob@13.0.7
+npm WARN notsup Unsupported engine for path-scurry@2.0.2: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: path-scurry@2.0.2
+npm WARN notsup Unsupported engine for minimatch@10.2.6: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minimatch@10.2.6
+npm WARN notsup Unsupported engine for brace-expansion@5.1.0: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: brace-expansion@5.1.0
+npm WARN notsup Unsupported engine for balanced-match@4.0.4: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: balanced-match@4.0.4
+npm WARN notsup Unsupported engine for lru-cache@11.5.3: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: lru-cache@11.5.3
+npm WARN notsup Unsupported engine for glob@13.0.7: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: glob@13.0.7
+npm WARN notsup Unsupported engine for jest-circus@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-circus@30.5.2
+npm WARN notsup Unsupported engine for @jest/get-type@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/get-type@30.5.0
+npm WARN notsup Unsupported engine for jest-docblock@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-docblock@30.5.0
+npm WARN notsup Unsupported engine for @jest/test-sequencer@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/test-sequencer@30.5.2
+npm WARN notsup Unsupported engine for jest-environment-node@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-environment-node@30.5.2
+npm WARN notsup Unsupported engine for minimatch@10.2.6: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minimatch@10.2.6
+npm WARN notsup Unsupported engine for path-scurry@2.0.2: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: path-scurry@2.0.2
+npm WARN notsup Unsupported engine for brace-expansion@5.1.0: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: brace-expansion@5.1.0
+npm WARN notsup Unsupported engine for balanced-match@4.0.4: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: balanced-match@4.0.4
+npm WARN notsup Unsupported engine for lru-cache@11.5.3: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: lru-cache@11.5.3
+npm WARN notsup Unsupported engine for @jest/expect@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/expect@30.5.2
+npm WARN notsup Unsupported engine for @jest/environment@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/environment@30.5.2
+npm WARN notsup Unsupported engine for jest-each@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-each@30.5.2
+npm WARN notsup Unsupported engine for jest-matcher-utils@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-matcher-utils@30.5.2
+npm WARN notsup Unsupported engine for jest-mock@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-mock@30.5.2
+npm WARN notsup Unsupported engine for @jest/fake-timers@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/fake-timers@30.5.2
+npm WARN notsup Unsupported engine for @jest/expect-utils@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/expect-utils@30.5.2
+npm WARN notsup Unsupported engine for expect@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: expect@30.5.2
+npm WARN notsup Unsupported engine for jest-diff@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-diff@30.5.2
+npm WARN notsup Unsupported engine for @jest/diff-sequences@30.5.0: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/diff-sequences@30.5.0
+npm WARN notsup Unsupported engine for synckit@0.11.13: wanted: {"node":"^14.18.0 || >=16.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: synckit@0.11.13
+npm WARN notsup Unsupported engine for @jest/snapshot-utils@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/snapshot-utils@30.5.1
+npm WARN notsup Unsupported engine for @pkgr/core@0.3.6: wanted: {"node":"^14.18.0 || >=16.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @pkgr/core@0.3.6
+npm WARN notsup Unsupported engine for @jest/globals@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/globals@30.5.2
+npm WARN notsup Unsupported engine for @jest/source-map@30.5.2: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: @jest/source-map@30.5.2
+npm WARN notsup Unsupported engine for glob@13.0.7: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: glob@13.0.7
+npm WARN notsup Unsupported engine for minimatch@10.2.6: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: minimatch@10.2.6
+npm WARN notsup Unsupported engine for path-scurry@2.0.2: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: path-scurry@2.0.2
+npm WARN notsup Unsupported engine for brace-expansion@5.1.0: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: brace-expansion@5.1.0
+npm WARN notsup Unsupported engine for balanced-match@4.0.4: wanted: {"node":"18 || 20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: balanced-match@4.0.4
+npm WARN notsup Unsupported engine for lru-cache@11.5.3: wanted: {"node":"20 || >=22"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: lru-cache@11.5.3
+npm WARN notsup Unsupported engine for napi-postinstall@0.3.8: wanted: {"node":"^12.20.0 || ^14.18.0 || >=16.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: napi-postinstall@0.3.8
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-darwin-arm64@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-darwin-arm64@1.13.0: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-freebsd-x64@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-freebsd-x64@1.13.0: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-android-arm64@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-android-arm64@1.13.0: wanted {"os":"android","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-darwin-x64@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-darwin-x64@1.13.0: wanted {"os":"darwin","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-win32-x64-msvc@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-win32-x64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-win32-x64-msvc@1.13.0: wanted {"os":"win32","arch":"x64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-arm64-gnu@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-arm64-gnu@1.13.0: wanted {"os":"linux","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-ppc64-gnu@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-ppc64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-ppc64-gnu@1.13.0: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-s390x-gnu@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-s390x-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-s390x-gnu@1.13.0: wanted {"os":"linux","arch":"s390x"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-android-arm-eabi@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-android-arm-eabi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-android-arm-eabi@1.13.0: wanted {"os":"android","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-arm64-musl@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-arm64-musl@1.13.0: wanted {"os":"linux","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-loong64-gnu@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-loong64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-loong64-gnu@1.13.0: wanted {"os":"linux","arch":"loong64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-riscv64-gnu@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-riscv64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-riscv64-gnu@1.13.0: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-win32-ia32-msvc@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-win32-ia32-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-win32-ia32-msvc@1.13.0: wanted {"os":"win32","arch":"ia32"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-openharmony-arm64@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-openharmony-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-openharmony-arm64@1.13.0: wanted {"os":"openharmony","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-win32-arm64-msvc@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-win32-arm64-msvc@1.13.0: wanted {"os":"win32","arch":"arm64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-riscv64-musl@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-riscv64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-riscv64-musl@1.13.0: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-loong64-musl@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-loong64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-loong64-musl@1.13.0: wanted {"os":"linux","arch":"loong64"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-arm-gnueabihf@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-arm-gnueabihf@1.13.0: wanted {"os":"linux","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @unrs/resolver-binding-linux-arm-musleabihf@1.13.0 (node_modules/unrs-resolver/node_modules/@unrs/resolver-binding-linux-arm-musleabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @unrs/resolver-binding-linux-arm-musleabihf@1.13.0: wanted {"os":"linux","arch":"arm"} (current: {"os":"linux","arch":"x64"})
+npm WARN notsup Unsupported engine for emittery@0.13.1: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: emittery@0.13.1
+npm WARN notsup Unsupported engine for jest-leak-detector@30.5.1: wanted: {"node":"^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: jest-leak-detector@30.5.1
+npm WARN notsup Unsupported engine for yargs@17.7.3: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: yargs@17.7.3
+npm WARN notsup Unsupported engine for cliui@8.0.1: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: cliui@8.0.1
+npm WARN notsup Unsupported engine for yargs-parser@21.1.1: wanted: {"node":">=12"} (current: {"node":"10.24.1","npm":"6.14.12"})
+npm WARN notsup Not compatible with your version of node/npm: yargs-parser@21.1.1
+npm WARN acorn-jsx@5.3.2 requires a peer of acorn@^6.0.0 || ^7.0.0 || ^8.0.0 but none is installed. You must install peer dependencies yourself.
+
+added 983 packages from 619 contributors and audited 1019 packages in 21.56s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+found 83 vulnerabilities (67 moderate, 10 high, 6 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details

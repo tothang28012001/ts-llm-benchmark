@@ -1,0 +1,117 @@
+{
+  "repo_id": "L23",
+  "group": "llm",
+  "full_name": "pisan-labs/code-analogy-forge",
+  "stars": "1",
+  "created_at": "2026-11-02",
+  "pin": "HEAD",
+  "fetch": {
+    "sha": "8c4209811debc55da95da8ce5851937c1056bd8c",
+    "commit_date": "2026-11-23T02:47:45Z",
+    "first_commit_date": "2026-08-25T20:09:27Z",
+    "commits_to_pin": 17,
+    "ai_commits_to_pin": 11,
+    "ai_commit_share": 0.6471,
+    "ai_agents": [
+      "claude-code"
+    ]
+  },
+  "inventory": {
+    "prod_files": 19,
+    "test_files": 8,
+    "skipped": 2,
+    "pm": "npm",
+    "lockfile": "package-lock.json"
+  },
+  "loc": {
+    "prod": {
+      "files": 19,
+      "lines": 5355,
+      "code": 5160,
+      "comment": 69,
+      "blank": 126
+    },
+    "test": {
+      "files": 8,
+      "lines": 662,
+      "code": 558,
+      "comment": 3,
+      "blank": 101
+    }
+  },
+  "lint_ok": true,
+  "dup_ok": true,
+  "install": {
+    "ok": true,
+    "level": 0,
+    "attempts": [
+      {
+        "cmd": "npm ci",
+        "exit": 0,
+        "seconds": 4.7
+      }
+    ],
+    "static_only": false
+  },
+  "tsc": {
+    "ts_version": "5.9.3",
+    "ts_source": "repository",
+    "projects": [
+      {
+        "tsconfig": "tsconfig.json",
+        "exit": 0,
+        "errors": 0,
+        "seconds": 1.182
+      }
+    ],
+    "errors_total": 0,
+    "errors_in_project_files": 0,
+    "errors_in_dependencies": 0,
+    "global_errors": 0,
+    "by_code": {},
+    "files_with_errors": 0,
+    "timed_out": false,
+    "project_files_checked": 29
+  },
+  "test": {
+    "cmd": "npm test",
+    "exit": 0,
+    "passed": true,
+    "timed_out": false,
+    "seconds": 1.5
+  },
+  "mutation": {
+    "sample_files": [
+      "src/core/corpus/web.ts",
+      "src/main.ts",
+      "src/core/types.ts"
+    ],
+    "sample_lines": 439,
+    "framework_versions": {
+      "vitest": "2.1.9",
+      "jest": null,
+      "mocha": null
+    },
+    "runner": "vitest",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "perTest",
+    "counts": {
+      "NoCoverage": 7,
+      "Ignored": 381
+    },
+    "mutants_valid": 7,
+    "mutation_score": 0,
+    "mutation_score_covered": null,
+    "attempts": [
+      {
+        "runner": "vitest",
+        "dtc": "default",
+        "cov": "perTest",
+        "exit": 0,
+        "seconds": 4.044,
+        "timed_out": false
+      }
+    ]
+  }
+}

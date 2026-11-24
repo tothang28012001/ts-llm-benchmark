@@ -1,0 +1,60 @@
+
+> grandjs@2.2.25 test
+> mocha
+
+/work/node_modules/yargs/yargs.js:1172
+      else throw err
+           ^
+
+Error: Cannot find module '../lib/Grand'
+Require stack:
+- /work/test/appTest.js
+- /work/node_modules/mocha/lib/mocha.js
+- /work/node_modules/mocha/lib/cli/one-and-dones.js
+- /work/node_modules/mocha/lib/cli/options.js
+- /work/node_modules/mocha/bin/mocha
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1430:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1040:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1045:22)
+    at Function._load (node:internal/modules/cjs/loader:1216:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.require (node:internal/modules/cjs/loader:1527:12)
+    at require (node:internal/modules/helpers:147:16)
+    at Object.<anonymous> (/work/test/appTest.js:2:13)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Module.require (node:internal/modules/cjs/loader:1527:12)
+    at require (node:internal/modules/helpers:147:16)
+    at /work/node_modules/mocha/lib/mocha.js:334:36
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/work/node_modules/mocha/lib/mocha.js:331:14)
+    at Mocha.run (/work/node_modules/mocha/lib/mocha.js:809:10)
+    at exports.singleRun (/work/node_modules/mocha/lib/cli/run-helpers.js:108:16)
+    at exports.runMocha (/work/node_modules/mocha/lib/cli/run-helpers.js:142:13)
+    at exports.handler (/work/node_modules/mocha/lib/cli/run.js:292:3)
+    at Object.runCommand (/work/node_modules/yargs/lib/command.js:242:26)
+    at Object.parseArgs [as _parseArgs] (/work/node_modules/yargs/yargs.js:1113:24)
+    at Object.parse (/work/node_modules/yargs/yargs.js:575:25)
+    at exports.main (/work/node_modules/mocha/lib/cli/cli.js:68:6)
+    at Object.<anonymous> (/work/node_modules/mocha/bin/mocha:162:29)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/work/test/appTest.js',
+    '/work/node_modules/mocha/lib/mocha.js',
+    '/work/node_modules/mocha/lib/cli/one-and-dones.js',
+    '/work/node_modules/mocha/lib/cli/options.js',
+    '/work/node_modules/mocha/bin/mocha'
+  ]
+}
+
+Node.js v22.23.4

@@ -1,0 +1,16 @@
+yarn run v1.22.22
+$ karma start karma/configs/headless.js
+(node:161) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:161) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+[33m24 11 2026 08:51:27.123:WARN [filelist]: [39mPattern "/work/build/clarity.min.js" does not match any file.
+[32m24 11 2026 08:51:27.410:INFO [compiler.karma-typescript]: [39mCompiling project using Typescript 3.5.3
+[32m24 11 2026 08:51:29.899:INFO [compiler.karma-typescript]: [39mCompiled 77 files in 2479 ms.
+[32m24 11 2026 08:51:32.185:INFO [bundler.karma-typescript]: [39mBundled imports for 68 file(s) in 1784 ms.
+[32m24 11 2026 08:51:32.196:INFO [karma-server]: [39mKarma v4.2.0 server started at http://0.0.0.0:9876/
+[32m24 11 2026 08:51:32.197:INFO [launcher]: [39mLaunching browsers ChromeHeadless with concurrency 1
+[32m24 11 2026 08:51:32.200:INFO [launcher]: [39mStarting browser Chrome
+[91m24 11 2026 08:51:32.202:ERROR [launcher]: [39mNo binary for Chrome browser on your platform.
+  Please, set "CHROME_BIN" env variable.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

@@ -1,0 +1,1041 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T10:06:46.300Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/types/github.ts": {
+            "lines": 168,
+            "tokens": 1268,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/diff.ts": {
+            "lines": 58,
+            "tokens": 266,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/dashboard.ts": {
+            "lines": 139,
+            "tokens": 800,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/commits.ts": {
+            "lines": 36,
+            "tokens": 195,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/viewedFiles.ts": {
+            "lines": 67,
+            "tokens": 548,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/transform.ts": {
+            "lines": 519,
+            "tokens": 5154,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/storage.ts": {
+            "lines": 149,
+            "tokens": 1348,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/seen.ts": {
+            "lines": 56,
+            "tokens": 561,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/reviewActions.ts": {
+            "lines": 21,
+            "tokens": 116,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/rerun.ts": {
+            "lines": 113,
+            "tokens": 847,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/polling.ts": {
+            "lines": 77,
+            "tokens": 1105,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/pipeline.ts": {
+            "lines": 101,
+            "tokens": 1058,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/notifications.ts": {
+            "lines": 141,
+            "tokens": 1017,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/jira.ts": {
+            "lines": 19,
+            "tokens": 159,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/github.ts": {
+            "lines": 435,
+            "tokens": 1638,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/filtering.ts": {
+            "lines": 46,
+            "tokens": 414,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/diff.ts": {
+            "lines": 216,
+            "tokens": 1757,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/conversationImages.ts": {
+            "lines": 61,
+            "tokens": 816,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/commits.ts": {
+            "lines": 142,
+            "tokens": 1004,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/lib/bucketing.ts": {
+            "lines": 226,
+            "tokens": 1840,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useVersionCheck.ts": {
+            "lines": 51,
+            "tokens": 385,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useTitleAndFavicon.ts": {
+            "lines": 143,
+            "tokens": 1330,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useSubmitReview.ts": {
+            "lines": 48,
+            "tokens": 337,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useSetDraftState.ts": {
+            "lines": 40,
+            "tokens": 263,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useRerunPipeline.ts": {
+            "lines": 43,
+            "tokens": 298,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePipeline.ts": {
+            "lines": 33,
+            "tokens": 344,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePRs.ts": {
+            "lines": 106,
+            "tokens": 1264,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePRDiff.ts": {
+            "lines": 48,
+            "tokens": 362,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 110,
+            "percentage": 20.83,
+            "percentageTokens": 30.39,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePRConversation.ts": {
+            "lines": 21,
+            "tokens": 220,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePRCommits.ts": {
+            "lines": 36,
+            "tokens": 342,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 110,
+            "percentage": 27.78,
+            "percentageTokens": 32.16,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useNewPRs.ts": {
+            "lines": 65,
+            "tokens": 487,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useNewComments.ts": {
+            "lines": 97,
+            "tokens": 849,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useMergePullRequest.ts": {
+            "lines": 38,
+            "tokens": 294,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useKeyboardNav.ts": {
+            "lines": 183,
+            "tokens": 1509,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 16,
+            "duplicatedTokens": 200,
+            "percentage": 8.74,
+            "percentageTokens": 13.25,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useDesktopNotifications.ts": {
+            "lines": 92,
+            "tokens": 734,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/version.ts": {
+            "lines": 8,
+            "tokens": 56,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/store.ts": {
+            "lines": 147,
+            "tokens": 1585,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3989,
+          "tokens": 32570,
+          "sources": 37,
+          "clones": 2,
+          "duplicatedLines": 18,
+          "duplicatedTokens": 210,
+          "percentage": 0.45,
+          "percentageTokens": 0.64,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/components/primitives.tsx": {
+            "lines": 545,
+            "tokens": 3716,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/UpdateAvailableChip.tsx": {
+            "lines": 32,
+            "tokens": 170,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/TokenSetup.tsx": {
+            "lines": 260,
+            "tokens": 1816,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Sidebar.tsx": {
+            "lines": 279,
+            "tokens": 1678,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Settings.tsx": {
+            "lines": 435,
+            "tokens": 2832,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PipelineChecks.tsx": {
+            "lines": 201,
+            "tokens": 1797,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PRRow.tsx": {
+            "lines": 349,
+            "tokens": 2460,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/LoadingSkeleton.tsx": {
+            "lines": 57,
+            "tokens": 532,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HelpOverlay.tsx": {
+            "lines": 109,
+            "tokens": 734,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HeadlineBand.tsx": {
+            "lines": 84,
+            "tokens": 583,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Header.tsx": {
+            "lines": 301,
+            "tokens": 1856,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ErrorBanner.tsx": {
+            "lines": 9,
+            "tokens": 76,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Dashboard.tsx": {
+            "lines": 231,
+            "tokens": 1596,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CommitsTab.tsx": {
+            "lines": 417,
+            "tokens": 2926,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CommentBody.tsx": {
+            "lines": 77,
+            "tokens": 915,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BucketSection.tsx": {
+            "lines": 126,
+            "tokens": 813,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3513,
+          "tokens": 24503,
+          "sources": 17,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/components/primitives.tsx": {
+            "lines": 605,
+            "tokens": 4275,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/UpdateAvailableChip.tsx": {
+            "lines": 49,
+            "tokens": 267,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/TokenSetup.tsx": {
+            "lines": 309,
+            "tokens": 2330,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Sidebar.tsx": {
+            "lines": 380,
+            "tokens": 2618,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Settings.tsx": {
+            "lines": 518,
+            "tokens": 3651,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 108,
+            "percentage": 1.35,
+            "percentageTokens": 2.96,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PipelineChecks.tsx": {
+            "lines": 260,
+            "tokens": 2292,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/PRRow.tsx": {
+            "lines": 464,
+            "tokens": 3343,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/LoadingSkeleton.tsx": {
+            "lines": 65,
+            "tokens": 580,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HelpOverlay.tsx": {
+            "lines": 161,
+            "tokens": 1378,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/HeadlineBand.tsx": {
+            "lines": 133,
+            "tokens": 962,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Header.tsx": {
+            "lines": 377,
+            "tokens": 2581,
+            "sources": 1,
+            "clones": 1,
+            "duplicatedLines": 7,
+            "duplicatedTokens": 108,
+            "percentage": 1.86,
+            "percentageTokens": 4.18,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ErrorBanner.tsx": {
+            "lines": 83,
+            "tokens": 557,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/Dashboard.tsx": {
+            "lines": 416,
+            "tokens": 3683,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CommitsTab.tsx": {
+            "lines": 497,
+            "tokens": 3649,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/CommentBody.tsx": {
+            "lines": 119,
+            "tokens": 1434,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/BucketSection.tsx": {
+            "lines": 202,
+            "tokens": 1384,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 16,
+            "tokens": 108,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 24,
+            "tokens": 184,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 4678,
+          "tokens": 35276,
+          "sources": 18,
+          "clones": 1,
+          "duplicatedLines": 7,
+          "duplicatedTokens": 108,
+          "percentage": 0.15,
+          "percentageTokens": 0.31,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 12180,
+      "tokens": 92349,
+      "sources": 72,
+      "clones": 3,
+      "duplicatedLines": 25,
+      "duplicatedTokens": 318,
+      "percentage": 0.21,
+      "percentageTokens": 0.34,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 11,
+      "fragment": ");\n    },\n    retry: (failureCount, err) => {\n      const msg = String(err?.message ?? err);\n      if (msg.toLowerCase().includes('bad credentials')) return false;\n      if (msg.includes('401') || msg.includes('404')) return false;\n      return failureCount < 2;\n    },\n  });\n}\n",
+      "tokens": 110,
+      "firstFile": {
+        "name": "src/hooks/usePRCommits.ts",
+        "start": 26,
+        "end": 36,
+        "startLoc": {
+          "line": 26,
+          "column": 49,
+          "position": 232
+        },
+        "endLoc": {
+          "line": 36,
+          "column": 1,
+          "position": 342
+        }
+      },
+      "secondFile": {
+        "name": "src/hooks/usePRDiff.ts",
+        "start": 38,
+        "end": 48,
+        "startLoc": {
+          "line": 38,
+          "column": 76,
+          "position": 252
+        },
+        "endLoc": {
+          "line": 48,
+          "column": 1,
+          "position": 362
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": "\n          if (flatList.length === 0) return;\n          const i = currentIndex();\n          const next = Math.min(flatList.length - 1, i < 0 ? 0 : i + 1);\n          setSelectedPRId(flatList[next]!.id);\n          e.preventDefault();\n          break;\n        }\n        case 'ArrowUp'",
+      "tokens": 100,
+      "firstFile": {
+        "name": "src/hooks/useKeyboardNav.ts",
+        "start": 119,
+        "end": 127,
+        "startLoc": {
+          "line": 119,
+          "column": 35,
+          "position": 1020
+        },
+        "endLoc": {
+          "line": 127,
+          "column": 23,
+          "position": 1120
+        }
+      },
+      "secondFile": {
+        "name": "src/hooks/useKeyboardNav.ts",
+        "start": 97,
+        "end": 105,
+        "startLoc": {
+          "line": 97,
+          "column": 20,
+          "position": 789
+        },
+        "endLoc": {
+          "line": 105,
+          "column": 17,
+          "position": 889
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 8,
+      "fragment": ");\n  const theme = useUIStore((s) => s.theme);\n  const setTheme = useUIStore((s) => s.setTheme);\n  const scope = useUIStore((s) => s.scope);\n  const setScope = useUIStore((s) => s.setScope);\n  const orgs = useUIStore((s) => s.orgs);\n\n",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/components/Header.tsx",
+        "start": 42,
+        "end": 49,
+        "startLoc": {
+          "line": 42,
+          "column": 62,
+          "position": 346
+        },
+        "endLoc": {
+          "line": 49,
+          "column": 1,
+          "position": 454
+        }
+      },
+      "secondFile": {
+        "name": "src/components/Settings.tsx",
+        "start": 17,
+        "end": 23,
+        "startLoc": {
+          "line": 17,
+          "column": 48,
+          "position": 230
+        },
+        "endLoc": {
+          "line": 23,
+          "column": 3,
+          "position": 338
+        }
+      }
+    }
+  ]
+}

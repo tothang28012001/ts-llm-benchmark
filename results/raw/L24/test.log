@@ -1,0 +1,21 @@
+
+> pi-birthday-finder@0.1.0 test
+> vitest run
+
+
+[1m[46m RUN [49m[22m [36mv4.1.0 [39m[90m/work[39m
+
+ [32m✓[39m src/lib/__tests__/searchStrategies.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/utils.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m src/hooks/__tests__/useScanAnimation.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 64[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/piLoader.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/funFacts.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32m✓[39m src/hooks/__tests__/usePiSearch.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 241[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/piTrivia.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m src/lib/__tests__/constants.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m8 passed[39m[22m[90m (8)[39m
+[2m      Tests [22m [1m[32m80 passed[39m[22m[90m (80)[39m
+[2m   Start at [22m 10:00:41
+[2m   Duration [22m 3.22s[2m (transform 747ms, setup 1.32s, import 855ms, tests 381ms, environment 5.25s)[22m
+

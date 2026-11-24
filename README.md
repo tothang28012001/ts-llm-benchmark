@@ -1,73 +1,126 @@
 # ts-llm-benchmark
 
-An empirical study comparing **human-written** and **LLM-agent-generated** TypeScript projects on
-compilation, code quality, maintainability and test effectiveness. The study is observational: it
-measures existing open-source projects rather than scoring models on fixed tasks. What others can
-reuse is the automated, containerised measurement pipeline and the frozen dataset.
+An empirical study comparing **human-written** and **LLM-agent-built** TypeScript projects on
+code quality, complexity, structural testability, test effectiveness and compilation. The study is
+observational: it measures existing open-source projects rather than scoring models on fixed
+tasks. Every studied project is TypeScript; Python is only the language of the measurement
+pipeline. What others can reuse is the automated, containerised pipeline and the frozen dataset.
 
 CMPT 479 D100 course project (Simon Fraser University). Authors: Simon Xie, Sukhdip Kandola, Thang To.
-Licensed under MIT (see `LICENSE`). Milestone report: [`report/CMPT479 - Milestone Progress Report.pdf`](report/CMPT479%20-%20Milestone%20Progress%20Report.pdf).
+Licensed under MIT (see `LICENSE`).
+
+* **Final paper:** [`report/CMPT479 - Final Paper.pdf`](report/CMPT479%20-%20Final%20Paper.pdf)
+  (LaTeX source: `report/paper.tex`, `\documentclass[10pt,conference]{IEEEtran}`)
+* Milestone report: [`report/CMPT479 - Milestone Progress Report.pdf`](report/CMPT479%20-%20Milestone%20Progress%20Report.pdf)
 
 ## Research questions
 
-1. How does code quality differ between human-written and LLM-generated TypeScript projects?
-2. How do complexity, maintainability and structural testability differ?
-3. Do LLM-generated projects have more compilation errors?
+1. **RQ1** How does code quality (lint violations) differ between human-written and LLM-generated TypeScript projects?
+2. **RQ2** How do complexity, maintainability and structural testability differ?
+3. **RQ3** Do LLM-generated projects have more compilation errors?
+
+## Dataset at a glance
+
+| Group | IDs | n | How it is defined | File |
+|---|---|---|---|---|
+| Human-written | H01–H36 | 36 | pinned to the last commit before 2021-01-01 (before Copilot and ChatGPT) | `dataset/repos.csv` |
+| Claude Code | L01–L36 | 36 | ≥50% of the last 100 commits carry Claude Code's co-author trailer; each paired with a human project | `dataset/repos.csv`, `dataset/pairs.csv` |
+| Other agents | A01–A22 | 22 | built mainly by Cursor, Copilot, Devin, Jules, OpenHands or Codex, by the same trailer rule; unmatched | `dataset/repos_agents.csv` |
+
+* H01–H12 / L01–L12 are the milestone pairs (matched by size). H13–H36 / L13–L36 were added for the
+  final study and are matched by **project kind** (library, CLI, service, UI app, extension, from
+  `package.json`, `dataset/kinds.csv`) and **size**. Every pair is in `dataset/pairs.csv`.
+* Every analysed commit SHA is frozen in the dataset CSVs. `dataset/screened*.csv` records every
+  screening decision and its reason. Exclusions with reasons: `dataset/agents_exclusions.csv`
+  (not measurable) and `dataset/mutation_exclusions.csv` (mutation score not meaningful).
+* Projects without a real `test` script are excluded at screening. A suite that cannot run counts
+  as 0% passing and gets no mutation score.
 
 ## Pipeline
 
 ```
-discover ──► screen ──► select ──► run (per repo, fresh Docker container) ──► analyze
-GitHub       GraphQL     size-       fetch → inventory → loc → lint → dup →     stats +
-search       filters     matched     install → tsc → test → mutate              figures
+discover ──► screen ──► kind ──► select ──► run (per repo, fresh Docker container) ──► analyze ──► paper
+GitHub       GraphQL    package   kind+size   fetch → inventory → loc → lint → dup →      stats,
+search       filters    .json     matched     install → tsc → test → mutate               figures
 ```
 
 | Stage | Tool | Output |
 |---|---|---|
-| Discovery | GitHub search API (`bench/discover.py`) | `dataset/candidates.csv` |
-| Discovery by agent signature | GitHub commit search for each agent's own trailer: aider, OpenHands, Gemini, Jules, Codex, Copilot, Cursor, Devin, Windsurf (`bench/discover.py --by-trailer`) | `dataset/candidates_trailers.csv` |
-| Screening | GitHub GraphQL: package.json, tsconfig, test runner, TS size, AI-commit share, pre-2021 pin (`bench/screen.py`) | `dataset/screened.csv` |
-| Selection | Most-starred eligible LLM repos + nearest-size human match (`bench/select_repos.py`) | `dataset/repos.csv` |
+| Discovery | GitHub search API: README phrases, and each agent's commit signature (`bench/discover.py [--by-trailer]`) | `dataset/candidates*.csv` |
+| Screening | GitHub GraphQL: package.json, tsconfig, test runner, TS size, AI-commit share, pre-2021 pin (`bench/screen.py`) | `dataset/screened*.csv` |
+| Project kind | rules over the root package.json (`bench/kind.py`) | `dataset/kinds.csv` |
+| Selection | every eligible Claude Code project + kind- and size-matched human project (`bench/select_repos.py --extend`); other agents (`--agents`) | `dataset/repos.csv`, `pairs.csv`, `repos_agents.csv` |
 | Authorship | AI-agent commit trailers over the full history (`bench/authorship.py`) | `summary.json → fetch` |
 | Size / comments | TypeScript parser (`tools/loc.mjs`) | `loc.json` |
-| Code quality | ESLint 9 + typescript-eslint + SonarJS rules, identical config, inline disables ignored (`tools/lint.mjs`) | `lint.json` |
-| Complexity | ESLint `complexity` (cyclomatic) and `sonarjs/cognitive-complexity`, per function | `lint.json` |
-| Duplication | jscpd, 100-token / 5-line threshold | `jscpd/jscpd-report.json` |
-| Compilation | the project's own `tsc` + `tsconfig.json` (`tools/tscheck.mjs`) | `tsc.json` |
-| Tests | the project's own `test` script | `test.log` |
-| Test effectiveness | StrykerJS 10 on a seeded 400-line file sample (`tools/mutate.mjs`) | `stryker.json` |
+| Code quality (RQ1) | one ESLint 9 config for all: typescript-eslint + SonarJS recommended, inline disables ignored (`tools/lint.mjs`) | `lint.json` |
+| Complexity (RQ2) | ESLint `complexity` (cyclomatic) and `sonarjs/cognitive-complexity`, per function | `lint.json` |
+| Duplication (RQ2) | jscpd, 100-token / 5-line threshold | `jscpd/jscpd-report.json` |
+| Structural testability (RQ2) | import graph: internal fan-out per module, % code imported directly by tests, % code reachable from tests (`bench/testability.py`) | `results/testability.csv` |
+| Compilation (RQ3) | install from the project's own lockfile, then its own `tsc` + `tsconfig.json` (`tools/tscheck.mjs`) | `tsc.json` |
+| Tests (RQ2) | the project's own `test` script; failing suites re-run on an era-matched Node (`bench/legacy_tests.py`) | `test.log` |
+| Test effectiveness (RQ2) | StrykerJS 10 on a seeded sample of up to 10 production files (`tools/mutate.mjs`) | `stryker.json` |
 
 Every repository is analysed in a fresh container built from `docker/Dockerfile`. The host
 checkout is mounted read-only, and the container is deleted afterwards.
 
-## Reproducing
+### Statistics
 
-Requirements: Python 3.11 (`pip install -r requirements.txt`), Node 22+, Docker, and an
-authenticated `gh` CLI (only needed for discovery and screening).
+* `bench/analyze.py`: human vs. Claude Code. Two-sided Mann–Whitney U, Cliff's δ, Holm correction.
+* `bench/compare_agents.py`: other agents vs. each group, with the same tests.
+* `bench/final_stats.py`: robustness checks:
+  * Wilcoxon signed-rank tests over the matched pairs
+  * a rank regression on group and log size (size control)
+  * human vs. all agent-built projects
+  * a power simulation for the actual group sizes
+
+## Setup
+
+Requirements: Python 3.11+, Node 22+, Docker, and an authenticated `gh` CLI (only for discovery,
+screening and `bench.kind`).
 
 ```bash
+pip install -r requirements.txt
 cd tools && npm ci && cd ..
 docker build -t ts-llm-bench:1 -f docker/Dockerfile .
+```
 
-# optional: rebuild the dataset from scratch (dataset/*.csv is committed)
+## Reproducing the results
+
+The dataset CSVs and all per-project results are committed, so the statistics, figures and
+paper can be regenerated without re-running any project:
+
+```bash
+python -m bench.testability      # import-graph testability (needs the clones in work/repos/, see below)
+python -m bench.analyze          # results/metrics.csv, group_stats.csv, figures
+python -m bench.compare_agents   # results/agents/
+python -m bench.final_stats      # results/final/ (paired, pooled, size-adjusted, power)
+python -m report.paper           # report/CMPT479 - Final Paper.pdf and report/paper.tex
+```
+
+Re-measuring the projects (executes their code in Docker; a few hours with mutation testing):
+
+```bash
+python -m bench.run --jobs 3                       # H01-H36 and L01-L36 (clones into work/repos/)
+BENCH_RAW=$PWD/results/raw_agents python -m bench.run --dataset dataset/repos_agents.csv --jobs 3
+python -m bench.legacy_tests                       # failing suites again, on a Node version from the project's era
+python -m bench.run --static-only --jobs 3         # alternative: static stages only, no repository code runs
+```
+
+On PowerShell, set the variable with `$env:BENCH_RAW = "$PWD/results/raw_agents"` and clear it with
+`Remove-Item Env:BENCH_RAW` before running `bench.analyze`.
+
+Rebuilding the dataset from scratch (GitHub search results change over time, so this will not
+give exactly the frozen dataset):
+
+```bash
 GH_TOKEN=$(gh auth token) python -m bench.discover
-GH_TOKEN=$(gh auth token) python -m bench.screen
-python -m bench.select_repos
-
-# optional: reach agents and models beyond Claude Code through commit signatures
 GH_TOKEN=$(gh auth token) python -m bench.discover --by-trailer
+GH_TOKEN=$(gh auth token) python -m bench.screen
 GH_TOKEN=$(gh auth token) python -m bench.screen --input dataset/candidates_trailers.csv --output dataset/screened_trailers.csv
-python -m bench.select_repos --agents   # -> dataset/repos_agents.csv (A01...)
-$env:BENCH_RAW = "$PWD/results/raw_agents"; python -m bench.run --dataset dataset/repos_agents.csv --jobs 3 --force
-Remove-Item Env:BENCH_RAW; python -m bench.compare_agents   # human vs Claude Code vs other agents -> results/agents/
-
-# static stages only: no repository code is executed
-python -m bench.run --static-only --jobs 3
-# all stages, including the projects' tests and mutation testing (executes repository code in Docker)
-python -m bench.run --jobs 3 --force
-python -m bench.legacy_tests          # failing suites again, on a Node version from the project's era
-python -m bench.analyze
-python -m report.content              # rebuild the report
+GH_TOKEN=$(gh auth token) python -m bench.kind
+python -m bench.select_repos            # milestone pairs H01-H12 / L01-L12
+python -m bench.select_repos --agents   # other agents A01...
+python -m bench.select_repos --extend   # final study: H13.. / L13.., kind- and size-matched; A21.. (Codex)
 ```
 
 ### Quick demo (about one minute)
@@ -82,50 +135,41 @@ $env:BENCH_RAW = "$PWD\demo\raw"; python -m bench.run --only L01 --force --jobs 
 
 ### Explore the projects in a browser
 
-A small local web app for clicking through the 24 projects: each project's pipeline result
-stage by stage, its position against the human and AI medians, its real source with every
-counted lint problem underlined and every mutant the tests missed marked, its test logs, and
-a button that re-runs the pipeline on it (into `demo/raw/`) and compares the new numbers with
-the stored ones. It reads `results/raw/` and the clones in `work/repos/`; Python standard
+A small local web app for clicking through the projects: each project's pipeline result stage by
+stage, its position against the human and AI medians, its real source with every counted lint
+problem underlined and every mutant the tests missed marked, its test logs, and a button that
+re-runs the pipeline on it (into `demo/raw/`) and compares the new numbers with the stored ones.
+It reads `results/raw/`, `results/raw_agents/` and the clones in `work/repos/`; Python standard
 library only.
 
 ```powershell
-python -m explorer.prepare   # once: records where each lint problem is (~3 min, same rules as the pipeline)
+python -m explorer.prepare   # once: records where each lint problem is (same rules as the pipeline)
 python -m explorer.server    # then open http://localhost:8479
 ```
 
-## Dataset
+## Results
 
-`dataset/repos.csv` freezes the 24 repositories (12 per group) and the exact commit each was analysed at.
-
-* **Human group:** created between 2016 and mid-2020, last pushed before 2022, and pinned to the last
-  commit before **2021-01-01**. That is before GitHub Copilot's preview (June 2021) and ChatGPT
-  (Nov 2022), so the analysed code cannot be LLM-generated.
-* **LLM group:** created in 2025 or later. At least 50% of the latest 100 commits must carry an
-  AI-agent attribution trailer (e.g. `Co-Authored-By: Claude`). The full-history share is
-  recomputed at the pin.
-
-## Results and report
-
-* `results/metrics.csv`: every derived metric, one row per repository
-* `results/group_stats.csv`: group medians, Mann–Whitney U, Cliff's δ, Holm-adjusted p
+* `results/metrics.csv`, `results/group_stats.csv`: every metric per repository; group medians,
+  Mann–Whitney U, Cliff's δ, Holm-adjusted p (human vs. Claude Code)
+* `results/agents/`: the same for all three groups, other agents vs. each group
+* `results/final/`: paired Wilcoxon, pooled, size-adjusted tests and the power estimate
+* `results/testability.csv`, `results/agents/testability.csv`: structural testability per project
 * `results/top_rules.csv`, `results/tsc_codes.csv`: most frequent lint rules and compiler diagnostics
-* `results/figures/`: figures used in the report
-* `results/raw/<id>/`: raw artefacts (lint/tsc/loc/jscpd/stryker JSON, install and test logs)
-* `dataset/test_failure_causes.csv`: manual diagnosis of every failing test suite
-
-`python -m report.content` regenerates the milestone report from these files, as both
-`report/CMPT479 - Milestone Progress Report.pdf` and `report/milestone.tex` (IEEEtran, for Overleaf).
+* `results/figures/`: figures used in the paper; `report/slides/`: figures used in the presentation
+* `results/raw/<id>/`, `results/raw_agents/<id>/`: raw artefacts (lint/tsc/loc/jscpd/stryker JSON, test logs)
 
 ## Layout
 
 ```
-bench/      Python orchestration (discover, screen, select_repos, run, analyze, authorship)
+bench/      Python orchestration (discover, screen, kind, select_repos, run, legacy_tests,
+            testability, analyze, compare_agents, final_stats, authorship)
 tools/      pinned Node analysis toolchain + in-container stage scripts
 docker/     benchmark image
-dataset/    candidates, screening decisions, final frozen dataset
-results/    raw per-repository artefacts, metrics.csv, group_stats.csv, figures/
+dataset/    candidates, screening decisions, kinds, pairs, frozen datasets
+results/    raw per-repository artefacts, metrics, statistics, figures
+report/     paper and milestone report generators (every number is read from results/)
+explorer/   local web app for browsing per-project results
 ```
 
-Full StrykerJS JSON reports (`results/raw/*/mutation-*.json`, ~56 MB) are not committed because they
+Full StrykerJS JSON reports (`results/raw*/*/mutation-*.json`) are not committed because they
 embed copies of the analysed projects' source; `stryker.json` in each folder keeps the scores.

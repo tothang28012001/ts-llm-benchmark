@@ -1,0 +1,90 @@
+
+> tradeapp@0.0.0 test
+> vitest
+
+
+[1m[46m RUN [49m[22m [36mv4.0.17 [39m[90m/work[39m
+
+ [31m❯[39m src/pages/TradeHistory.test.tsx [2m([22m[2m16 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[32m 240[2mms[22m[39m
+       [32m✓[39m should show paper trades by default when in paper trading mode[32m 53[2mms[22m[39m
+       [32m✓[39m should switch to live trades when clicking Live Trades tab[32m 22[2mms[22m[39m
+       [32m✓[39m should show "Currently Active" indicator for active trading mode[32m 8[2mms[22m[39m
+[31m       [31m×[31m should calculate correct stats for paper trades[39m[32m 19[2mms[22m[39m
+[31m       [31m×[31m should calculate correct stats for live trades[39m[32m 15[2mms[22m[39m
+[31m       [31m×[31m should filter trades by type[39m[32m 18[2mms[22m[39m
+       [32m✓[39m should show clear filters button when filters are active[32m 10[2mms[22m[39m
+       [32m✓[39m should clear filters when clicking Clear Filters[32m 14[2mms[22m[39m
+       [32m✓[39m should show paper-specific empty message when no paper trades[32m 4[2mms[22m[39m
+       [32m✓[39m should show live-specific empty message when no live trades[32m 8[2mms[22m[39m
+       [32m✓[39m should show filter empty message when filters exclude all trades[32m 8[2mms[22m[39m
+       [32m✓[39m should not show delete button for paper trades[32m 6[2mms[22m[39m
+       [32m✓[39m should show delete button for live trades[32m 13[2mms[22m[39m
+       [32m✓[39m should sort by date descending by default[32m 17[2mms[22m[39m
+       [32m✓[39m should toggle sort order when clicking same column[32m 12[2mms[22m[39m
+       [32m✓[39m should change sort column when clicking different column[32m 10[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 3 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m src/pages/TradeHistory.test.tsx[2m > [22mTradeHistory[2m > [22mSummary stats[2m > [22mshould calculate correct stats for paper trades
+[31m[1mAssertionError[22m: expected undefined to be '2' // Object.is equality[39m
+
+[32m- Expected:[39m 
+"2"
+
+[31m+ Received:[39m 
+undefined
+
+[36m [2m❯[22m src/pages/TradeHistory.test.tsx:[2m130:45[22m[39m
+    [90m128| [39m      [35mconst[39m totalTradesLabel [33m=[39m screen[33m.[39m[34mgetByText[39m([32m'Total Trades'[39m)[33m;[39m
+    [90m129| [39m      const totalTradesValue = totalTradesLabel.parentElement?.querySe…
+    [90m130| [39m      [34mexpect[39m(totalTradesValue[33m?.[39mtextContent)[33m.[39m[34mtoBe[39m([32m'2'[39m)[33m;[39m
+    [90m   | [39m                                            [31m^[39m
+    [90m131| [39m    })[33m;[39m
+    [90m132| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m src/pages/TradeHistory.test.tsx[2m > [22mTradeHistory[2m > [22mSummary stats[2m > [22mshould calculate correct stats for live trades
+[31m[1mAssertionError[22m: expected undefined to be '3' // Object.is equality[39m
+
+[32m- Expected:[39m 
+"3"
+
+[31m+ Received:[39m 
+undefined
+
+[36m [2m❯[22m src/pages/TradeHistory.test.tsx:[2m142:45[22m[39m
+    [90m140| [39m      [35mconst[39m totalTradesLabel [33m=[39m screen[33m.[39m[34mgetByText[39m([32m'Total Trades'[39m)[33m;[39m
+    [90m141| [39m      const totalTradesValue = totalTradesLabel.parentElement?.querySe…
+    [90m142| [39m      [34mexpect[39m(totalTradesValue[33m?.[39mtextContent)[33m.[39m[34mtoBe[39m([32m'3'[39m)[33m;[39m
+    [90m   | [39m                                            [31m^[39m
+    [90m143| [39m    })[33m;[39m
+    [90m144| [39m  })[33m;[39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m src/pages/TradeHistory.test.tsx[2m > [22mTradeHistory[2m > [22mFiltering[2m > [22mshould filter trades by type
+[31m[1mAssertionError[22m: expected undefined to be '2' // Object.is equality[39m
+
+[32m- Expected:[39m 
+"2"
+
+[31m+ Received:[39m 
+undefined
+
+[36m [2m❯[22m src/pages/TradeHistory.test.tsx:[2m163:45[22m[39m
+    [90m161| [39m      [35mconst[39m totalTradesLabel [33m=[39m screen[33m.[39m[34mgetByText[39m([32m'Total Trades'[39m)[33m;[39m
+    [90m162| [39m      const totalTradesValue = totalTradesLabel.parentElement?.querySe…
+    [90m163| [39m      [34mexpect[39m(totalTradesValue[33m?.[39mtextContent)[33m.[39m[34mtoBe[39m([32m'2'[39m)[33m;[39m
+    [90m   | [39m                                            [31m^[39m
+    [90m164| [39m    })[33m;[39m
+    [90m165| [39m
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m3 failed[39m[22m[2m | [22m[1m[32m13 passed[39m[22m[90m (16)[39m
+[2m   Start at [22m 10:06:09
+[2m   Duration [22m 1.13s[2m (transform 137ms, setup 63ms, import 186ms, tests 240ms, environment 514ms)[22m
+

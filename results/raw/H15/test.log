@@ -1,0 +1,2071 @@
+yarn run v1.22.22
+$ jest --maxWorkers=1
+FAIL tests/actions.test.ts
+  ✕ click on an element (24 ms)
+  ✕ double click on an element (4 ms)
+  ✕ right click on an element (3 ms)
+  ✕ click a link (3 ms)
+  ✕ hover on an element (3 ms)
+  ✕ type text to an element (2 ms)
+  ✕ send character to an element (3 ms)
+  ✕ clear text on an element (3 ms)
+  ✕ focus on an element (3 ms)
+  ✕ blur an element (4 ms)
+  ✕ select values on an element (4 ms)
+  ✕ check a checkbox (5 ms)
+  ✕ uncheck a checkbox (3 ms)
+  ✕ check a radio (3 ms)
+  ✕ press a key on an element (3 ms)
+  ✕ key down on an element (4 ms)
+  ✕ key up on an element (4 ms)
+  ✕ move mouse (1 ms)
+  ✕ click mouse button (1 ms)
+  ✕ mouse button down (1 ms)
+  ✕ mouse button up (1 ms)
+  ✕ upload file (4 ms)
+  ✕ add class (3 ms)
+  ✕ remove class (5 ms)
+  ✕ toggle class (7 ms)
+  ✕ set cookies (3 ms)
+  ✕ delete cookies (11 ms)
+
+  ● click on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● click on an element
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      4 | 
+      5 | test('click on an element', async () => {
+    > 6 |   expect.assertions(2)
+        |          ^
+      7 |   const port = await getPort()
+      8 |   const server = http.createServer((req, res) => res.end(`
+      9 |     <html>
+
+      at tests/actions.test.ts:6:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:5:40)
+
+  ● double click on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● double click on an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      42 | 
+      43 | test('double click on an element', async () => {
+    > 44 |   expect.assertions(1)
+         |          ^
+      45 |   const port = await getPort()
+      46 |   const server = http.createServer((req, res) => res.end(`
+      47 |     <html>
+
+      at tests/actions.test.ts:44:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:43:47)
+
+  ● right click on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● right click on an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      71 | 
+      72 | test('right click on an element', async () => {
+    > 73 |   expect.assertions(1)
+         |          ^
+      74 |   const port = await getPort()
+      75 |   const server = http.createServer((req, res) => res.end(`
+      76 |     <html>
+
+      at tests/actions.test.ts:73:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:72:46)
+
+  ● click a link
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● click a link
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      102 | 
+      103 | test('click a link', async () => {
+    > 104 |   expect.assertions(1)
+          |          ^
+      105 |   const port = await getPort()
+      106 |   const server = http.createServer((req, res) => res.end(`
+      107 |     <html>
+
+      at tests/actions.test.ts:104:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:103:33)
+
+  ● hover on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● hover on an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      132 | 
+      133 | test('hover on an element', async () => {
+    > 134 |   expect.assertions(1)
+          |          ^
+      135 |   const port = await getPort()
+      136 |   const server = http.createServer((req, res) => res.end(`
+      137 |     <html>
+
+      at tests/actions.test.ts:134:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:133:40)
+
+  ● type text to an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● type text to an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      161 | 
+      162 | test('type text to an element', async () => {
+    > 163 |   expect.assertions(1)
+          |          ^
+      164 |   const port = await getPort()
+      165 |   const server = http.createServer((req, res) => res.end(`
+      166 |     <html>
+
+      at tests/actions.test.ts:163:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:162:44)
+
+  ● send character to an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● send character to an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      184 | 
+      185 | test('send character to an element', async () => {
+    > 186 |   expect.assertions(1)
+          |          ^
+      187 |   const port = await getPort()
+      188 |   const server = http.createServer((req, res) => res.end(`
+      189 |     <html><input></html>
+
+      at tests/actions.test.ts:186:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:185:49)
+
+  ● clear text on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● clear text on an element
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      209 | 
+      210 | test('clear text on an element', async () => {
+    > 211 |   expect.assertions(3)
+          |          ^
+      212 |   const port = await getPort()
+      213 |   const server = http.createServer((req, res) => res.end(`
+      214 |     <html>
+
+      at tests/actions.test.ts:211:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:210:45)
+
+  ● focus on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● focus on an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      248 | 
+      249 | test('focus on an element', async () => {
+    > 250 |   expect.assertions(1)
+          |          ^
+      251 |   const port = await getPort()
+      252 |   const server = http.createServer((req, res) => res.end(`
+      253 |     <html>
+
+      at tests/actions.test.ts:250:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:249:40)
+
+  ● blur an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● blur an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      277 | 
+      278 | test('blur an element', async () => {
+    > 279 |   expect.assertions(1)
+          |          ^
+      280 |   const port = await getPort()
+      281 |   const server = http.createServer((req, res) => res.end(`
+      282 |     <html>
+
+      at tests/actions.test.ts:279:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:278:36)
+
+  ● select values on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● select values on an element
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      312 | 
+      313 | test('select values on an element', async () => {
+    > 314 |   expect.assertions(2)
+          |          ^
+      315 |   const port = await getPort()
+      316 |   const server = http.createServer((req, res) => res.end(`
+      317 |     <html>
+
+      at tests/actions.test.ts:314:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:313:48)
+
+  ● check a checkbox
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● check a checkbox
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      359 | 
+      360 | test('check a checkbox', async () => {
+    > 361 |   expect.assertions(2)
+          |          ^
+      362 |   const port = await getPort()
+      363 |   const server = http.createServer((req, res) => res.end(`
+      364 |     <html>
+
+      at tests/actions.test.ts:361:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:360:37)
+
+  ● uncheck a checkbox
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● uncheck a checkbox
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      389 | 
+      390 | test('uncheck a checkbox', async () => {
+    > 391 |   expect.assertions(2)
+          |          ^
+      392 |   const port = await getPort()
+      393 |   const server = http.createServer((req, res) => res.end(`
+      394 |     <html>
+
+      at tests/actions.test.ts:391:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:390:39)
+
+  ● check a radio
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● check a radio
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      419 | 
+      420 | test('check a radio', async () => {
+    > 421 |   expect.assertions(2)
+          |          ^
+      422 |   const port = await getPort()
+      423 |   const server = http.createServer((req, res) => res.end(`
+      424 |     <html>
+
+      at tests/actions.test.ts:421:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:420:34)
+
+  ● press a key on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● press a key on an element
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      449 | 
+      450 | test('press a key on an element', async () => {
+    > 451 |   expect.assertions(2)
+          |          ^
+      452 |   const port = await getPort()
+      453 |   const server = http.createServer((req, res) => res.end(`
+      454 |     <html>
+
+      at tests/actions.test.ts:451:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:450:46)
+
+  ● key down on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● key down on an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      501 | 
+      502 | test('key down on an element', async () => {
+    > 503 |   expect.assertions(1)
+          |          ^
+      504 |   const port = await getPort()
+      505 |   const server = http.createServer((req, res) => res.end(`
+      506 |     <html>
+
+      at tests/actions.test.ts:503:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:502:43)
+
+  ● key up on an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● key up on an element
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      533 | 
+      534 | test('key up on an element', async () => {
+    > 535 |   expect.assertions(1)
+          |          ^
+      536 |   const port = await getPort()
+      537 |   const server = http.createServer((req, res) => res.end(`
+      538 |     <html>
+
+      at tests/actions.test.ts:535:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:534:41)
+
+  ● move mouse
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● move mouse
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      565 | 
+      566 | test('move mouse', async () => {
+    > 567 |   expect.assertions(1)
+          |          ^
+      568 |   const instance = new Rize()
+      569 |   await instance
+      570 |     .execute(() => {
+
+      at tests/actions.test.ts:567:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:566:31)
+
+  ● click mouse button
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● click mouse button
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      579 | 
+      580 | test('click mouse button', async () => {
+    > 581 |   expect.assertions(1)
+          |          ^
+      582 |   const instance = new Rize()
+      583 |   await instance
+      584 |     .execute(() => {
+
+      at tests/actions.test.ts:581:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:580:39)
+
+  ● mouse button down
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● mouse button down
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      593 | 
+      594 | test('mouse button down', async () => {
+    > 595 |   expect.assertions(2)
+          |          ^
+      596 |   const instance = new Rize()
+      597 |   await instance
+      598 |     .execute(() => {
+
+      at tests/actions.test.ts:595:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:594:38)
+
+  ● mouse button up
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● mouse button up
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      613 | 
+      614 | test('mouse button up', async () => {
+    > 615 |   expect.assertions(2)
+          |          ^
+      616 |   const instance = new Rize()
+      617 |   await instance
+      618 |     .execute(() => {
+
+      at tests/actions.test.ts:615:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:614:36)
+
+  ● upload file
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● add class
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● add class
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      648 | 
+      649 | test('add class', async () => {
+    > 650 |   expect.assertions(1)
+          |          ^
+      651 |   const port = await getPort()
+      652 |   const server = http.createServer((req, res) => res.end(`
+      653 |     <html><body></body></html>
+
+      at tests/actions.test.ts:650:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:649:30)
+
+  ● remove class
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● remove class
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      668 | 
+      669 | test('remove class', async () => {
+    > 670 |   expect.assertions(1)
+          |          ^
+      671 |   const port = await getPort()
+      672 |   const server = http.createServer((req, res) => res.end(`
+      673 |     <html><body class="rize"></body></html>
+
+      at tests/actions.test.ts:670:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:669:33)
+
+  ● toggle class
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● toggle class
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      688 | 
+      689 | test('toggle class', async () => {
+    > 690 |   expect.assertions(2)
+          |          ^
+      691 |   const port = await getPort()
+      692 |   const server = http.createServer((req, res) => res.end(`
+      693 |     <html><body></body></html>
+
+      at tests/actions.test.ts:690:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:689:33)
+
+  ● set cookies
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● set cookies
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      715 | 
+      716 | test('set cookies', async () => {
+    > 717 |   expect.assertions(1)
+          |          ^
+      718 |   const port = await getPort()
+      719 |   const server = http.createServer((req, res) => res.end('')).listen(port)
+      720 |   const instance = new Rize()
+
+      at tests/actions.test.ts:717:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:716:32)
+
+  ● delete cookies
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● delete cookies
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      736 | 
+      737 | test('delete cookies', async () => {
+    > 738 |   expect.assertions(1)
+          |          ^
+      739 |   const port = await getPort()
+      740 |   const server = http.createServer((req, res) => res.end('')).listen(port)
+      741 |   const instance = new Rize()
+
+      at tests/actions.test.ts:738:10
+      at tests/actions.test.ts:8:71
+      at __awaiter (tests/actions.test.ts:4:12)
+      at Object.<anonymous> (tests/actions.test.ts:737:35)
+
+FAIL tests/assertions.test.ts
+  ✕ assert url (1 ms)
+  ✕ assert url matches a regular expression (1 ms)
+  ✕ assert url path (5 ms)
+  ✕ assert url path starts with a specified string (5 ms)
+  ✕ assert url hash (6 ms)
+  ✕ assert url hash begins with a specified string (6 ms)
+  ✕ assert title (1 ms)
+  ✕ assert title contains a string (1 ms)
+  ✕ assert title matches a regular expression (1 ms)
+  ✕ assert query string has key and value (6 ms)
+  ✕ assert query string does not have a key (9 ms)
+  ✕ assert has cookie (13 ms)
+  ✕ see some text in page (6 ms)
+  ✕ do not see some text in page (5 ms)
+  ✕ see some text in an element (6 ms)
+  ✕ do not see some text in an element (9 ms)
+  ✕ assert attribute of an element (5 ms)
+  ✕ assert an element has a class (6 ms)
+  ✕ assert an element do not have a class (6 ms)
+  ✕ assert style of an element (6 ms)
+  ✕ assert value is (7 ms)
+  ✕ assert value is not (5 ms)
+  ✕ assert value contains (5 ms)
+  ✕ assert checkbox checked (6 ms)
+  ✕ assert checkbox not checked (5 ms)
+  ✕ assert radio button selected (4 ms)
+  ✕ assert radio button not selected (7 ms)
+  ✕ assert option selected (11 ms)
+  ✕ assert option not selected (30 ms)
+  ✕ assert element is visible (4 ms)
+  ✕ assert element is hidden (5 ms)
+  ✕ assert element is present (6 ms)
+  ✕ assert element is missing (5 ms)
+
+  ● assert url
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert url matches a regular expression
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert url path
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert url path starts with a specified string
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert url hash
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert url hash begins with a specified string
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert title
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert title contains a string
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert title matches a regular expression
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert query string has key and value
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert query string does not have a key
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert has cookie
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● see some text in page
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● do not see some text in page
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● see some text in an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● do not see some text in an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert attribute of an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert an element has a class
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert an element do not have a class
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert style of an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert value is
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert value is not
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert value contains
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert checkbox checked
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert checkbox not checked
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert radio button selected
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert radio button not selected
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert option selected
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert option not selected
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert element is visible
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert element is hidden
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert element is present
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● assert element is missing
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+FAIL tests/retrieval.test.ts
+  ✕ retrieve title (7 ms)
+  ✕ retrieve text (5 ms)
+  ✕ retrieve html (8 ms)
+  ✕ retrieve attribute (6 ms)
+  ✕ retrieve style (5 ms)
+  ✕ retrieve box model (6 ms)
+  ✕ retrieve value (6 ms)
+  ✕ retrieve if an element has a class (5 ms)
+  ✕ retrieve url
+  ✕ retrieve query string (5 ms)
+  ✕ retrieve cookie (5 ms)
+  ✕ retrieve cookies (5 ms)
+  ✕ retrieve if an element is visible (6 ms)
+  ✕ retrieve if an element is present (8 ms)
+  ✕ find an element by CSS selector (9 ms)
+  ✕ find elements with index by CSS selector (6 ms)
+  ✕ find elements with index by XPath (7 ms)
+  ✕ find elements with text (8 ms)
+  ✕ retrieve viewport info (1 ms)
+
+  ● retrieve title
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve title
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      4 | 
+      5 | test('retrieve title', async () => {
+    > 6 |   expect.assertions(2)
+        |          ^
+      7 |   const port = await getPort()
+      8 |   const server = http.createServer((req, res) => res.end(`
+      9 |     <html><title>rize</title></html>
+
+      at tests/retrieval.test.ts:6:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:5:35)
+
+  ● retrieve text
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve text
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      23 | 
+      24 | test('retrieve text', async () => {
+    > 25 |   expect.assertions(3)
+         |          ^
+      26 |   const port = await getPort()
+      27 |   const server = http.createServer((req, res) => res.end(`
+      28 |     <html><body><div>rize</div></body></html>
+
+      at tests/retrieval.test.ts:25:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:24:34)
+
+  ● retrieve html
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve html
+
+    expect.assertions(4)
+
+    Expected four assertions to be called but received zero assertion calls.
+
+      38 | 
+      39 | test('retrieve html', async () => {
+    > 40 |   expect.assertions(4)
+         |          ^
+      41 |   const port = await getPort()
+      42 |   const server = http.createServer((req, res) => res.end(`
+      43 |     <html><body><div>rize</div></body></html>
+
+      at tests/retrieval.test.ts:40:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:39:34)
+
+  ● retrieve attribute
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve attribute
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      58 | 
+      59 | test('retrieve attribute', async () => {
+    > 60 |   expect.assertions(3)
+         |          ^
+      61 |   const port = await getPort()
+      62 |   const server = http.createServer((req, res) => res.end(`
+      63 |     <html><body><div class="rize"></div></body></html>
+
+      at tests/retrieval.test.ts:60:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:59:39)
+
+  ● retrieve style
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve style
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      73 | 
+      74 | test('retrieve style', async () => {
+    > 75 |   expect.assertions(2)
+         |          ^
+      76 |   const port = await getPort()
+      77 |   const server = http.createServer((req, res) => res.end(`
+      78 |     <html><body><div style="font-size: 5px"></div></body></html>
+
+      at tests/retrieval.test.ts:75:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:74:35)
+
+  ● retrieve box model
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve value
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve value
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      104 | 
+      105 | test('retrieve value', async () => {
+    > 106 |   expect.assertions(3)
+          |          ^
+      107 |   const port = await getPort()
+      108 |   const server = http.createServer((req, res) => res.end(`
+      109 |     <html><body><input value="rize" /></body></html>
+
+      at tests/retrieval.test.ts:106:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:105:35)
+
+  ● retrieve if an element has a class
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve if an element has a class
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      127 | 
+      128 | test('retrieve if an element has a class', async () => {
+    > 129 |   expect.assertions(3)
+          |          ^
+      130 |   const port = await getPort()
+      131 |   const server = http.createServer((req, res) => res.end(`
+      132 |     <html><body><div class="rize"></div></body></html>
+
+      at tests/retrieval.test.ts:129:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:128:55)
+
+  ● retrieve url
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve url
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      142 | 
+      143 | test('retrieve url', async () => {
+    > 144 |   expect.assertions(1)
+          |          ^
+      145 |   const instance = new Rize()
+      146 |   await expect(instance.url()).resolves.toBe('about:blank')
+      147 |   await instance.end()
+
+      at tests/retrieval.test.ts:144:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:143:33)
+
+  ● retrieve query string
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve query string
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      149 | 
+      150 | test('retrieve query string', async () => {
+    > 151 |   expect.assertions(3)
+          |          ^
+      152 |   const port = await getPort()
+      153 |   const server = http.createServer((req, res) => res.end('')).listen(port)
+      154 |   const instance = new Rize()
+
+      at tests/retrieval.test.ts:151:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:150:42)
+
+  ● retrieve cookie
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve cookie
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      162 | 
+      163 | test('retrieve cookie', async () => {
+    > 164 |   expect.assertions(2)
+          |          ^
+      165 |   const port = await getPort()
+      166 |   const server = http.createServer((req, res) => res.end('')).listen(port)
+      167 |   const instance = new Rize()
+
+      at tests/retrieval.test.ts:164:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:163:36)
+
+  ● retrieve cookies
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve cookies
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      183 | 
+      184 | test('retrieve cookies', async () => {
+    > 185 |   expect.assertions(2)
+          |          ^
+      186 |   const port = await getPort()
+      187 |   const server = http.createServer((req, res) => res.end('')).listen(port)
+      188 |   const instance = new Rize()
+
+      at tests/retrieval.test.ts:185:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:184:37)
+
+  ● retrieve if an element is visible
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve if an element is visible
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      208 | 
+      209 | test('retrieve if an element is visible', async () => {
+    > 210 |   expect.assertions(3)
+          |          ^
+      211 |   const port = await getPort()
+      212 |   const server = http.createServer((req, res) => res.end(`
+      213 |     <html><body><div style="display: none"></div><p></p></body></html>
+
+      at tests/retrieval.test.ts:210:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:209:54)
+
+  ● retrieve if an element is present
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve if an element is present
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      223 | 
+      224 | test('retrieve if an element is present', async () => {
+    > 225 |   expect.assertions(3)
+          |          ^
+      226 |   const port = await getPort()
+      227 |   const server = http.createServer((req, res) => res.end(`
+      228 |     <html><body><div style="display: none"></div></body></html>
+
+      at tests/retrieval.test.ts:225:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:224:54)
+
+  ● find an element by CSS selector
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● find an element by CSS selector
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      243 | 
+      244 | test('find an element by CSS selector', async () => {
+    > 245 |   expect.assertions(3)
+          |          ^
+      246 |   const port = await getPort()
+      247 |   const server = http.createServer((req, res) => res.end(`
+      248 |     <html><body><div style="font-size: 5px">rize</div></body></html>
+
+      at tests/retrieval.test.ts:245:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:244:52)
+
+  ● find elements with index by CSS selector
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● find elements with index by CSS selector
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      264 | 
+      265 | test('find elements with index by CSS selector', async () => {
+    > 266 |   expect.assertions(3)
+          |          ^
+      267 |   const port = await getPort()
+      268 |   const server = http.createServer((req, res) => res.end(`
+      269 |     <html>
+
+      at tests/retrieval.test.ts:266:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:265:61)
+
+  ● find elements with index by XPath
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● find elements with index by XPath
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      290 | 
+      291 | test('find elements with index by XPath', async () => {
+    > 292 |   expect.assertions(3)
+          |          ^
+      293 |   const port = await getPort()
+      294 |   const server = http.createServer((req, res) => res.end(`
+      295 |     <html>
+
+      at tests/retrieval.test.ts:292:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:291:54)
+
+  ● find elements with text
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● find elements with text
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      316 | 
+      317 | test('find elements with text', async () => {
+    > 318 |   expect.assertions(2)
+          |          ^
+      319 |   const port = await getPort()
+      320 |   const server = http.createServer((req, res) => res.end(`
+      321 |     <html>
+
+      at tests/retrieval.test.ts:318:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:317:44)
+
+  ● retrieve viewport info
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● retrieve viewport info
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      338 | 
+      339 | test('retrieve viewport info', async () => {
+    > 340 |   expect.assertions(1)
+          |          ^
+      341 |   const instance = new Rize()
+      342 |   await expect(instance.viewport()).resolves.toEqual(
+      343 |     expect.objectContaining({ width: 1280, height: 720 })
+
+      at tests/retrieval.test.ts:340:10
+      at tests/retrieval.test.ts:8:71
+      at __awaiter (tests/retrieval.test.ts:4:12)
+      at Object.<anonymous> (tests/retrieval.test.ts:339:43)
+
+FAIL tests/page.test.ts
+  ✕ go to a specified url (2 ms)
+  ✕ open a new page (11 ms)
+  ✕ switch page (9 ms)
+  ✕ close page (1 ms)
+  ✕ count pages (1 ms)
+  ✕ go forward (1 ms)
+  ✕ go back (1 ms)
+  ✕ refresh page (1 ms)
+  ✕ evaluate a function (1 ms)
+  ✕ evaluate a funtion and retrieve return value (7 ms)
+  ✕ use user agent (1 ms)
+  ✕ generate a screenshot (1 ms)
+  ✕ generate a PDF (1 ms)
+  ✕ wait for navigation
+  ✕ wait for an element (6 ms)
+  ✕ wait for a function and an expression (1 ms)
+  ✕ authentication (1 ms)
+  ✕ set headers (1 ms)
+  ✕ add script tag (1 ms)
+  ✕ add style tag (1 ms)
+
+  ● go to a specified url
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● go to a specified url
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+       7 |   'go to a specified url',
+       8 |   async () => {
+    >  9 |     expect.assertions(1)
+         |            ^
+      10 |     const instance = new Rize({
+      11 |       afterLaunched() {
+      12 |         jest
+
+      at tests/page.test.ts:9:12
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:8:14)
+
+  ● open a new page
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● open a new page
+
+    expect.assertions(7)
+
+    Expected seven assertions to be called but received zero assertion calls.
+
+      26 | 
+      27 | test('open a new page', async () => {
+    > 28 |   expect.assertions(7)
+         |          ^
+      29 |   const port = await getPort()
+      30 |   const server = http.createServer((_, res) => res.end('')).listen(port)
+      31 |   const instance = new Rize()
+
+      at tests/page.test.ts:28:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:27:36)
+
+  ● switch page
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● switch page
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      59 | 
+      60 | test('switch page', async () => {
+    > 61 |   expect.assertions(2)
+         |          ^
+      62 |   const port = await getPort()
+      63 |   const server = http.createServer((req, res) => res.end('')).listen(port)
+      64 |   const instance = new Rize()
+
+      at tests/page.test.ts:61:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:60:32)
+
+  ● close page
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● close page
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      77 | 
+      78 | test('close page', async () => {
+    > 79 |   expect.assertions(2)
+         |          ^
+      80 |   const instance = new Rize()
+      81 |   await instance
+      82 |     .closePage()
+
+      at tests/page.test.ts:79:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:78:31)
+
+  ● count pages
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● go forward
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● go forward
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      104 | 
+      105 | test('go forward', async () => {
+    > 106 |   expect.assertions(2)
+          |          ^
+      107 |   const instance = new Rize({
+      108 |     afterLaunched() {
+      109 |       jest
+
+      at tests/page.test.ts:106:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:105:31)
+
+  ● go back
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● go back
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      130 | 
+      131 | test('go back', async () => {
+    > 132 |   expect.assertions(2)
+          |          ^
+      133 |   const instance = new Rize({
+      134 |     afterLaunched() {
+      135 |       jest
+
+      at tests/page.test.ts:132:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:131:28)
+
+  ● refresh page
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● refresh page
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      156 | 
+      157 | test('refresh page', async () => {
+    > 158 |   expect.assertions(2)
+          |          ^
+      159 |   const instance = new Rize({
+      160 |     afterLaunched() {
+      161 |       jest
+
+      at tests/page.test.ts:158:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:157:33)
+
+  ● evaluate a function
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● evaluate a function
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      182 | 
+      183 | test('evaluate a function', async () => {
+    > 184 |   expect.assertions(3)
+          |          ^
+      185 |   const instance = new Rize()
+      186 |   await instance
+      187 |     .evaluate(text => document.write(`<div>${text}</div>`), 'rize')
+
+      at tests/page.test.ts:184:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:183:40)
+
+  ● evaluate a funtion and retrieve return value
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● use user agent
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● use user agent
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      233 | 
+      234 | test('use user agent', async () => {
+    > 235 |   expect.assertions(1)
+          |          ^
+      236 |   const instance = new Rize()
+      237 |   await instance
+      238 |     .withUserAgent('Chrome')
+
+      at tests/page.test.ts:235:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:234:35)
+
+  ● generate a screenshot
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● generate a screenshot
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      245 | 
+      246 | test('generate a screenshot', async () => {
+    > 247 |   expect.assertions(2)
+          |          ^
+      248 |   const instance = new Rize({
+      249 |     afterLaunched() {
+      250 |       jest
+
+      at tests/page.test.ts:247:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:246:42)
+
+  ● generate a PDF
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● generate a PDF
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      269 | 
+      270 | test('generate a PDF', async () => {
+    > 271 |   expect.assertions(2)
+          |          ^
+      272 |   const instance = new Rize({
+      273 |     afterLaunched() {
+      274 |       jest
+
+      at tests/page.test.ts:271:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:270:35)
+
+  ● wait for navigation
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● wait for navigation
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      296 | 
+      297 | test('wait for navigation', async () => {
+    > 298 |   expect.assertions(1)
+          |          ^
+      299 |   const port1 = 2333
+      300 |   const port2 = 23333
+      301 |   const server1 = http
+
+      at tests/page.test.ts:298:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:297:40)
+
+  ● wait for an element
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● wait for a function and an expression
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● authentication
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● authentication
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      353 | 
+      354 | test('authentication', async () => {
+    > 355 |   expect.assertions(1)
+          |          ^
+      356 |   const instance = new Rize({
+      357 |     afterLaunched() {
+      358 |       this.page.authenticate = jest.fn()
+
+      at tests/page.test.ts:355:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:354:35)
+
+  ● set headers
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● set headers
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      371 | 
+      372 | test('set headers', async () => {
+    > 373 |   expect.assertions(1)
+          |          ^
+      374 |   const instance = new Rize()
+      375 |   await instance
+      376 |     .execute(() => {
+
+      at tests/page.test.ts:373:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:372:32)
+
+  ● add script tag
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● add script tag
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      387 | 
+      388 | test('add script tag', async () => {
+    > 389 |   expect.assertions(2)
+          |          ^
+      390 |   const instance = new Rize()
+      391 |   await instance
+      392 |     .addScriptTag('content', 'document.body.textContent = "rize"')
+
+      at tests/page.test.ts:389:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:388:35)
+
+  ● add style tag
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● add style tag
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      406 | 
+      407 | test('add style tag', async () => {
+    > 408 |   expect.assertions(1)
+          |          ^
+      409 |   const instance = new Rize()
+      410 |   await instance
+      411 |     .addStyleTag('content', 'div { font-size: 5px; }')
+
+      at tests/page.test.ts:408:10
+      at tests/page.test.ts:8:71
+      at __awaiter (tests/page.test.ts:4:12)
+      at Object.<anonymous> (tests/page.test.ts:407:34)
+
+FAIL tests/hooks.test.ts
+  ✕ call a function before browser launch (1 ms)
+  ✕ call a function after browser launched (2 ms)
+  ✕ call a function before each step
+  ✕ call a function after each step (1 ms)
+  ✕ call a function before browser exit (1 ms)
+
+  ● call a function before browser launch
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● call a function before browser launch
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      2 | 
+      3 | test('call a function before browser launch', async () => {
+    > 4 |   expect.assertions(1)
+        |          ^
+      5 |   const fn = jest.fn()
+      6 |   const instance = new Rize({ beforeLaunch: fn })
+      7 |   await instance
+
+      at tests/hooks.test.ts:4:10
+      at tests/hooks.test.ts:8:71
+      at __awaiter (tests/hooks.test.ts:4:12)
+      at Object.<anonymous> (tests/hooks.test.ts:3:58)
+
+  ● call a function after browser launched
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● call a function before each step
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● call a function after each step
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● call a function before browser exit
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+FAIL tests/basic.test.ts
+  ✕ sleep for a short time (4 ms)
+  ✕ execute a function (1 ms)
+  ✕ exit browser (1 ms)
+  ✕ await promise (1 ms)
+
+  ● sleep for a short time
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● sleep for a short time
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      2 | 
+      3 | test('sleep for a short time', async () => {
+    > 4 |   expect.assertions(1)
+        |          ^
+      5 |   const instance = new Rize()
+      6 |   const mock = jest.fn()
+      7 |   instance.execute(() => (instance.page.waitFor = mock))
+
+      at tests/basic.test.ts:4:10
+      at tests/basic.test.ts:8:71
+      at __awaiter (tests/basic.test.ts:4:12)
+      at Object.<anonymous> (tests/basic.test.ts:3:43)
+
+  ● execute a function
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● execute a function
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      15 | 
+      16 | test('execute a function', async () => {
+    > 17 |   expect.assertions(3)
+         |          ^
+      18 |   const instance = new Rize()
+      19 |   await instance
+      20 |     .execute(function (browser, page) {
+
+      at tests/basic.test.ts:17:10
+      at tests/basic.test.ts:8:71
+      at __awaiter (tests/basic.test.ts:4:12)
+      at Object.<anonymous> (tests/basic.test.ts:16:39)
+
+  ● exit browser
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● exit browser
+
+    expect.assertions(2)
+
+    Expected two assertions to be called but received zero assertion calls.
+
+      27 | 
+      28 | test('exit browser', async done => {
+    > 29 |   expect.assertions(2)
+         |          ^
+      30 |   let instance = new Rize()
+      31 |   await expect(instance.end()).resolves.toBeUndefined()
+      32 | 
+
+      at tests/basic.test.ts:29:10
+      at tests/basic.test.ts:8:71
+      at __awaiter (tests/basic.test.ts:4:12)
+      at Object.<anonymous> (tests/basic.test.ts:28:35)
+
+  ● await promise
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● await promise
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      41 | 
+      42 | test('await promise', async () => {
+    > 43 |   expect.assertions(1)
+         |          ^
+      44 |   const instance = new Rize()
+      45 |   await instance.awaitPromise()
+      46 |   expect(instance.browser).toBeDefined()
+
+      at tests/basic.test.ts:43:10
+      at tests/basic.test.ts:8:71
+      at __awaiter (tests/basic.test.ts:4:12)
+      at Object.<anonymous> (tests/basic.test.ts:42:34)
+
+PASS tests/utils/error.test.ts
+  ✓ beautify error stack (1 ms)
+  ✓ throw assertion error (1 ms)
+
+FAIL tests/options.test.ts
+  ✕ pass an existing puppeteer browser (3 ms)
+  ✕ set viewport (1 ms)
+
+  ● pass an existing puppeteer browser
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● pass an existing puppeteer browser
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      3 | 
+      4 | test('pass an existing puppeteer browser', async () => {
+    > 5 |   expect.assertions(1)
+        |          ^
+      6 |   const browser = await puppeteer.launch({ args: ['--no-sandbox'] })
+      7 |   const instance = new Rize({ browser })
+      8 |   instance.execute(() => expect(instance.browser).toBe(browser))
+
+      at tests/options.test.ts:5:10
+      at tests/options.test.ts:8:71
+      at __awaiter (tests/options.test.ts:4:12)
+      at Object.<anonymous> (tests/options.test.ts:4:55)
+
+  ● set viewport
+
+    Could not find browser revision 756035. Run "npm install" or "yarn install" to download a browser binary.
+
+      at ChromeLauncher.launch (node_modules/puppeteer/lib/Launcher.js:59:23)
+
+  ● set viewport
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      11 | 
+      12 | test('set viewport', async () => {
+    > 13 |   expect.assertions(1)
+         |          ^
+      14 |   const instance = new Rize({ width: 1920, height: 1080 })
+      15 |   await instance
+      16 |     .execute((browser, page) => {
+
+      at tests/options.test.ts:13:10
+      at tests/options.test.ts:8:71
+      at __awaiter (tests/options.test.ts:4:12)
+      at Object.<anonymous> (tests/options.test.ts:12:33)
+
+Test Suites: 7 failed, 1 passed, 8 total
+Tests:       110 failed, 2 passed, 112 total
+Snapshots:   0 total
+Time:        3.396 s
+Ran all test suites.
+Jest did not exit one second after the test run has completed.
+
+This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.

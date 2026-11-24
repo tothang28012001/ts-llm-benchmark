@@ -1,0 +1,84 @@
+
+> tilth@1.0.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.1.0 [39m[90m/work[39m
+
+ [32m✓[39m [30m[45m dom [49m[39m src/components/plot/Inspector.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[32m 291[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/SizeEditor.test.tsx [2m([22m[2m9 tests[22m[2m)[22m[33m 402[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/CareEditor.test.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 428[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/useEditorDraft.test.tsx [2m([22m[2m6 tests[22m[2m)[22m[32m 34[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/FieldEditorModal.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 228[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/Cheatsheet.test.tsx [2m([22m[2m10 tests[22m[2m)[22m[33m 780[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/hooks/useToast.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 200[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/pages/PlantFormPage.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 547[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/plot/BottomSheet.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 166[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/plot/MobileDrawer.test.tsx [2m([22m[2m3 tests[22m[2m)[22m[32m 194[2mms[22m[39m
+ [32m✓[39m [30m[45m dom [49m[39m src/components/ErrorBoundary.test.tsx [2m([22m[2m2 tests[22m[2m)[22m[32m 155[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/garden-plan.steps.ts [2m([22m[2m81 tests[22m[2m)[22m[32m 75[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/jobs.test.ts [2m([22m[2m24 tests[22m[2m)[22m[32m 22[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/jobs.steps.ts [2m([22m[2m72 tests[22m[2m)[22m[32m 73[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/crop-rotation.steps.ts [2m([22m[2m92 tests[22m[2m)[22m[32m 65[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/rotation.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/merge-import.steps.ts [2m([22m[2m42 tests[22m[2m)[22m[32m 51[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/seasonal-interest.steps.ts [2m([22m[2m26 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/companions.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/companion-planting.steps.ts [2m([22m[2m43 tests[22m[2m)[22m[32m 55[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/tree.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/taxonomy.steps.ts [2m([22m[2m30 tests[22m[2m)[22m[32m 46[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/edit-position.steps.ts [2m([22m[2m22 tests[22m[2m)[22m[32m 45[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/manage-plants.steps.ts [2m([22m[2m27 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/merge.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/dataset.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/taxonomy.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/plantForm.test.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/plot.test.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/backup.steps.ts [2m([22m[2m28 tests[22m[2m)[22m[32m 52[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/taxonNames.test.ts [2m([22m[2m17 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/edit-calendar.steps.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 41[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/import-review.steps.ts [2m([22m[2m20 tests[22m[2m)[22m[32m 41[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/cheatsheet.steps.ts [2m([22m[2m21 tests[22m[2m)[22m[32m 55[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/edit-conditions.steps.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 35[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/edit-edibility.steps.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 38[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/edit-size.steps.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 36[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/conditions.test.ts [2m([22m[2m14 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/edit-care.steps.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 31[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/common-names.steps.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 42[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/edit-facts.steps.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 44[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/seed-demo.steps.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 32[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/careEdit.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/browse.steps.ts [2m([22m[2m15 tests[22m[2m)[22m[32m 54[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/editNode.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/importDiff.test.ts [2m([22m[2m8 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/calendar.test.ts [2m([22m[2m9 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/backup.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/calendarEdit.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/spacing.test.ts [2m([22m[2m13 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/neighbourhood.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 9[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/equal.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/positionSplit.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m features/steps/neighbourhood.steps.ts [2m([22m[2m11 tests[22m[2m)[22m[32m 30[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/seasonalEdit.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/tags.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/storageEstimate.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/factsEdit.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 10[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/positionEdit.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/backupNudge.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/naming.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/browse.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/conditionsEdit.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/edibilityEdit.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/lifecycle.test.ts [2m([22m[2m6 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/size.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/sizeEdit.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/plantColor.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/colour.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/cx.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32m✓[39m [30m[43m node [49m[39m src/lib/text.test.ts [2m([22m[2m2 tests[22m[2m)[22m[32m 3[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m71 passed[39m[22m[90m (71)[39m
+[2m      Tests [22m [1m[32m1035 passed[39m[22m[90m (1035)[39m
+[2m   Start at [22m 10:06:34
+[2m   Duration [22m 8.79s[2m (environment 37%, tests 26%, setup 13%, transform 11%, import 11%, worker 1%)[22m
+

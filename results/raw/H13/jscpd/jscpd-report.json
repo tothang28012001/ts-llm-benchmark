@@ -1,0 +1,745 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T08:51:02.853Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "webpack/globalize.ts": {
+            "lines": 8,
+            "tokens": 49,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "webpack/configs/prod.ts": {
+            "lines": 37,
+            "tokens": 184,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "webpack/configs/index.ts": {
+            "lines": 26,
+            "tokens": 127,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "webpack/configs/dev.ts": {
+            "lines": 20,
+            "tokens": 102,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "webpack/configs/base.ts": {
+            "lines": 33,
+            "tokens": 189,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/pointer/touch.ts": {
+            "lines": 32,
+            "tokens": 484,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/pointer/pointer.ts": {
+            "lines": 99,
+            "tokens": 1132,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/pointer/mouse.ts": {
+            "lines": 23,
+            "tokens": 284,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/states/text.ts": {
+            "lines": 23,
+            "tokens": 252,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/states/style.ts": {
+            "lines": 52,
+            "tokens": 443,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/states/stateprovider.ts": {
+            "lines": 41,
+            "tokens": 353,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/states/ignore.ts": {
+            "lines": 42,
+            "tokens": 351,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/states/generic.ts": {
+            "lines": 30,
+            "tokens": 242,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/states/element.ts": {
+            "lines": 141,
+            "tokens": 1438,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/states/doctype.ts": {
+            "lines": 13,
+            "tokens": 115,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/shadowdom.ts": {
+            "lines": 413,
+            "tokens": 3869,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/nodeinfo.ts": {
+            "lines": 32,
+            "tokens": 340,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/layout/layout.ts": {
+            "lines": 345,
+            "tokens": 3380,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/viewport.ts": {
+            "lines": 86,
+            "tokens": 1012,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/performance.ts": {
+            "lines": 175,
+            "tokens": 1599,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins/errors.ts": {
+            "lines": 39,
+            "tokens": 285,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/converters/toarray.ts": {
+            "lines": 47,
+            "tokens": 425,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/converters/schema.ts": {
+            "lines": 97,
+            "tokens": 920,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/converters/fromarray.ts": {
+            "lines": 68,
+            "tokens": 663,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils.ts": {
+            "lines": 130,
+            "tokens": 1329,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/upload.ts": {
+            "lines": 158,
+            "tokens": 1584,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/plugins.ts": {
+            "lines": 20,
+            "tokens": 157,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/index.ts": {
+            "lines": 5,
+            "tokens": 38,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/core.ts": {
+            "lines": 439,
+            "tokens": 3487,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config.ts": {
+            "lines": 34,
+            "tokens": 278,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/compressionworker.ts": {
+            "lines": 111,
+            "tokens": 1013,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/compress.ts": {
+            "lines": 239,
+            "tokens": 2267,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 70,
+            "duplicatedTokens": 650,
+            "percentage": 29.29,
+            "percentageTokens": 28.67,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/clarity.ts": {
+            "lines": 30,
+            "tokens": 277,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/proxyapis/worker.ts": {
+            "lines": 71,
+            "tokens": 599,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/proxyapis/performance.ts": {
+            "lines": 19,
+            "tokens": 139,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/proxyapis/mutationobserver.ts": {
+            "lines": 25,
+            "tokens": 237,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/proxyapis/jasmineclock.ts": {
+            "lines": 25,
+            "tokens": 229,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/proxyapis/eventlistener.ts": {
+            "lines": 86,
+            "tokens": 690,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/watch.ts": {
+            "lines": 97,
+            "tokens": 923,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/uncompress.ts": {
+            "lines": 191,
+            "tokens": 1793,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 52,
+            "duplicatedTokens": 560,
+            "percentage": 27.23,
+            "percentageTokens": 31.23,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/testasync.ts": {
+            "lines": 10,
+            "tokens": 80,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/pubsub.ts": {
+            "lines": 104,
+            "tokens": 748,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/page.ts": {
+            "lines": 52,
+            "tokens": 396,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "karma/setup/clarity.ts": {
+            "lines": 157,
+            "tokens": 1460,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 3925,
+          "tokens": 35962,
+          "sources": 44,
+          "clones": 5,
+          "duplicatedLines": 61,
+          "duplicatedTokens": 605,
+          "percentage": 1.55,
+          "percentageTokens": 1.68,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 3925,
+      "tokens": 35962,
+      "sources": 44,
+      "clones": 5,
+      "duplicatedLines": 61,
+      "duplicatedTokens": 605,
+      "percentage": 1.55,
+      "percentageTokens": 1.68,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "; i++) {\n            context_data_val = (context_data_val << 1) | (value & 1);\n            if (context_data_position == bitsPerChar - 1) {\n              context_data_position = 0;\n              context_data.push(getCharFromInt(context_data_val));\n              context_data_val = 0;\n            } else {\n              context_data_position++;\n            }\n            value = value >> 1;\n          }\n        }\n",
+      "tokens": 109,
+      "firstFile": {
+        "name": "src/compress.ts",
+        "start": 81,
+        "end": 93,
+        "startLoc": {
+          "line": 81,
+          "column": 29,
+          "position": 778
+        },
+        "endLoc": {
+          "line": 93,
+          "column": 1,
+          "position": 887
+        }
+      },
+      "secondFile": {
+        "name": "src/compress.ts",
+        "start": 56,
+        "end": 67,
+        "startLoc": {
+          "line": 56,
+          "column": 28,
+          "position": 514
+        },
+        "endLoc": {
+          "line": 67,
+          "column": 11,
+          "position": 623
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 12,
+      "fragment": "; i++) {\n          context_data_val = (context_data_val << 1) | (value & 1);\n          if (context_data_position == bitsPerChar - 1) {\n            context_data_position = 0;\n            context_data.push(getCharFromInt(context_data_val));\n            context_data_val = 0;\n          } else {\n            context_data_position++;\n          }\n          value = value >> 1;\n        }\n      ",
+      "tokens": 107,
+      "firstFile": {
+        "name": "src/compress.ts",
+        "start": 141,
+        "end": 152,
+        "startLoc": {
+          "line": 141,
+          "column": 26,
+          "position": 1345
+        },
+        "endLoc": {
+          "line": 152,
+          "column": 7,
+          "position": 1452
+        }
+      },
+      "secondFile": {
+        "name": "src/compress.ts",
+        "start": 101,
+        "end": 113,
+        "startLoc": {
+          "line": 101,
+          "column": 40,
+          "position": 973
+        },
+        "endLoc": {
+          "line": 113,
+          "column": 1,
+          "position": 1080
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": "; i++) {\n          context_data_val = (context_data_val << 1) | (value & 1);\n          if (context_data_position == bitsPerChar - 1) {\n            context_data_position = 0;\n            context_data.push(getCharFromInt(context_data_val));\n            context_data_val = 0;\n          } else {\n            context_data_position++;\n          }\n          value = value >> 1;\n        }\n      }\n",
+      "tokens": 109,
+      "firstFile": {
+        "name": "src/compress.ts",
+        "start": 166,
+        "end": 178,
+        "startLoc": {
+          "line": 166,
+          "column": 27,
+          "position": 1609
+        },
+        "endLoc": {
+          "line": 178,
+          "column": 1,
+          "position": 1718
+        }
+      },
+      "secondFile": {
+        "name": "src/compress.ts",
+        "start": 101,
+        "end": 152,
+        "startLoc": {
+          "line": 101,
+          "column": 40,
+          "position": 973
+        },
+        "endLoc": {
+          "line": 152,
+          "column": 9,
+          "position": 1454
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 15,
+      "fragment": ");\n      power = 1;\n      while (power != maxpower) {\n        resb = data.val & data.position;\n        data.position >>= 1;\n        if (data.position == 0) {\n          data.position = resetValue;\n          data.val = getNextValue(data.index++);\n        }\n        bits |= (resb > 0 ? 1 : 0) * power;\n        power <<= 1;\n      }\n      c = f(bits);\n      break;\n    case 2",
+      "tokens": 149,
+      "firstFile": {
+        "name": "karma/setup/uncompress.ts",
+        "start": 80,
+        "end": 94,
+        "startLoc": {
+          "line": 80,
+          "column": 32,
+          "position": 783
+        },
+        "endLoc": {
+          "line": 94,
+          "column": 11,
+          "position": 932
+        }
+      },
+      "secondFile": {
+        "name": "karma/setup/uncompress.ts",
+        "start": 64,
+        "end": 78,
+        "startLoc": {
+          "line": 64,
+          "column": 31,
+          "position": 610
+        },
+        "endLoc": {
+          "line": 78,
+          "column": 11,
+          "position": 759
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 13,
+      "fragment": ");\n        power = 1;\n        while (power != maxpower) {\n          resb = data.val & data.position;\n          data.position >>= 1;\n          if (data.position == 0) {\n            data.position = resetValue;\n            data.val = getNextValue(data.index++);\n          }\n          bits |= (resb > 0 ? 1 : 0) * power;\n          power <<= 1;\n        }\n        ",
+      "tokens": 131,
+      "firstFile": {
+        "name": "karma/setup/uncompress.ts",
+        "start": 141,
+        "end": 153,
+        "startLoc": {
+          "line": 141,
+          "column": 34,
+          "position": 1394
+        },
+        "endLoc": {
+          "line": 153,
+          "column": 9,
+          "position": 1525
+        }
+      },
+      "secondFile": {
+        "name": "karma/setup/uncompress.ts",
+        "start": 122,
+        "end": 135,
+        "startLoc": {
+          "line": 122,
+          "column": 33,
+          "position": 1199
+        },
+        "endLoc": {
+          "line": 135,
+          "column": 1,
+          "position": 1330
+        }
+      }
+    }
+  ]
+}

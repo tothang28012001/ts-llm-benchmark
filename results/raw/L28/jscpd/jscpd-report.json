@@ -1,0 +1,945 @@
+{
+  "statistics": {
+    "detectionDate": "2026-11-24T10:05:44.932Z",
+    "formats": {
+      "typescript": {
+        "sources": {
+          "src/utils/logger.ts": {
+            "lines": 167,
+            "tokens": 1583,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/utils/exportPortfolio.ts": {
+            "lines": 294,
+            "tokens": 2188,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 10,
+            "duplicatedTokens": 216,
+            "percentage": 3.4,
+            "percentageTokens": 9.87,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/types/index.ts": {
+            "lines": 300,
+            "tokens": 2062,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/technicalIndicators.ts": {
+            "lines": 333,
+            "tokens": 2659,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/positionMonitor.ts": {
+            "lines": 632,
+            "tokens": 6261,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 28,
+            "duplicatedTokens": 426,
+            "percentage": 4.43,
+            "percentageTokens": 6.8,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/orbScanner.ts": {
+            "lines": 357,
+            "tokens": 3426,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/marketRegime.ts": {
+            "lines": 32,
+            "tokens": 331,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/indicators.ts": {
+            "lines": 253,
+            "tokens": 2688,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/historicalDataCache.ts": {
+            "lines": 106,
+            "tokens": 1047,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/github.ts": {
+            "lines": 155,
+            "tokens": 1550,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/firestoreSync.ts": {
+            "lines": 174,
+            "tokens": 1443,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/backtester.ts": {
+            "lines": 752,
+            "tokens": 7641,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/autoTrader.ts": {
+            "lines": 307,
+            "tokens": 3376,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/alphaVantage.ts": {
+            "lines": 616,
+            "tokens": 5660,
+            "sources": 1,
+            "clones": 4,
+            "duplicatedLines": 48,
+            "duplicatedTokens": 504,
+            "percentage": 7.79,
+            "percentageTokens": 8.9,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/services/alpaca.ts": {
+            "lines": 521,
+            "tokens": 5515,
+            "sources": 1,
+            "clones": 6,
+            "duplicatedLines": 56,
+            "duplicatedTokens": 688,
+            "percentage": 10.75,
+            "percentageTokens": 12.48,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/usePositionMonitor.ts": {
+            "lines": 30,
+            "tokens": 207,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/hooks/useOrbScanner.ts": {
+            "lines": 85,
+            "tokens": 855,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/yahooHistorical.ts": {
+            "lines": 26,
+            "tokens": 257,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/data/historical2008.ts": {
+            "lines": 286,
+            "tokens": 3490,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/watchlist.ts": {
+            "lines": 26,
+            "tokens": 90,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/firebase.ts": {
+            "lines": 43,
+            "tokens": 315,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/config/curatedStrategies.ts": {
+            "lines": 114,
+            "tokens": 872,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 5609,
+          "tokens": 53516,
+          "sources": 22,
+          "clones": 8,
+          "duplicatedLines": 71,
+          "duplicatedTokens": 917,
+          "percentage": 1.27,
+          "percentageTokens": 1.71,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "javascript": {
+        "sources": {
+          "src/pages/TradeHistory.tsx": {
+            "lines": 220,
+            "tokens": 1904,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Settings.tsx": {
+            "lines": 256,
+            "tokens": 2810,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Dashboard.tsx": {
+            "lines": 406,
+            "tokens": 4571,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Auth.tsx": {
+            "lines": 163,
+            "tokens": 1099,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/AuthContext.tsx": {
+            "lines": 1,
+            "tokens": 3,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/portfolio/WatchlistCard.tsx": {
+            "lines": 58,
+            "tokens": 427,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Sidebar.tsx": {
+            "lines": 55,
+            "tokens": 387,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/MobileNav.tsx": {
+            "lines": 10,
+            "tokens": 51,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/alerts/AlertToast.tsx": {
+            "lines": 19,
+            "tokens": 167,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ErrorBoundary.tsx": {
+            "lines": 21,
+            "tokens": 129,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 4,
+            "tokens": 100,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 1213,
+          "tokens": 11648,
+          "sources": 11,
+          "clones": 0,
+          "duplicatedLines": 0,
+          "duplicatedTokens": 0,
+          "percentage": 0,
+          "percentageTokens": 0,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      },
+      "tsx": {
+        "sources": {
+          "src/pages/TradeHistory.tsx": {
+            "lines": 360,
+            "tokens": 3394,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Settings.tsx": {
+            "lines": 374,
+            "tokens": 4081,
+            "sources": 1,
+            "clones": 2,
+            "duplicatedLines": 26,
+            "duplicatedTokens": 380,
+            "percentage": 6.95,
+            "percentageTokens": 9.31,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Dashboard.tsx": {
+            "lines": 616,
+            "tokens": 6998,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/pages/Auth.tsx": {
+            "lines": 279,
+            "tokens": 2200,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/contexts/AuthContext.tsx": {
+            "lines": 186,
+            "tokens": 1460,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/portfolio/WatchlistCard.tsx": {
+            "lines": 90,
+            "tokens": 670,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Sidebar.tsx": {
+            "lines": 96,
+            "tokens": 755,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/MobileNav.tsx": {
+            "lines": 40,
+            "tokens": 350,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/layout/Layout.tsx": {
+            "lines": 28,
+            "tokens": 177,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/alerts/AlertToast.tsx": {
+            "lines": 87,
+            "tokens": 844,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/components/ErrorBoundary.tsx": {
+            "lines": 73,
+            "tokens": 577,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/main.tsx": {
+            "lines": 14,
+            "tokens": 91,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          },
+          "src/App.tsx": {
+            "lines": 130,
+            "tokens": 1044,
+            "sources": 1,
+            "clones": 0,
+            "duplicatedLines": 0,
+            "duplicatedTokens": 0,
+            "percentage": 0,
+            "percentageTokens": 0,
+            "newDuplicatedLines": 0,
+            "newClones": 0
+          }
+        },
+        "total": {
+          "lines": 2373,
+          "tokens": 22641,
+          "sources": 13,
+          "clones": 1,
+          "duplicatedLines": 13,
+          "duplicatedTokens": 190,
+          "percentage": 0.55,
+          "percentageTokens": 0.84,
+          "newDuplicatedLines": 0,
+          "newClones": 0
+        }
+      }
+    },
+    "total": {
+      "lines": 9195,
+      "tokens": 87805,
+      "sources": 46,
+      "clones": 9,
+      "duplicatedLines": 84,
+      "duplicatedTokens": 1107,
+      "percentage": 0.91,
+      "percentageTokens": 1.26,
+      "newDuplicatedLines": 0,
+      "newClones": 0
+    }
+  },
+  "duplicates": [
+    {
+      "format": "typescript",
+      "lines": 6,
+      "fragment": "(data: PortfolioExportData): void {\n  const { positions, trades, cashBalance, totalValue, exportDate, portfolioType } = data;\n\n  const positionsValue = positions.reduce((sum, p) => sum + p.totalValue, 0);\n  const totalGain = positions.reduce((sum, p) => sum + p.totalGain, 0);\n  ",
+      "tokens": 108,
+      "firstFile": {
+        "name": "src/utils/exportPortfolio.ts",
+        "start": 133,
+        "end": 138,
+        "startLoc": {
+          "line": 133,
+          "column": 38,
+          "position": 1110
+        },
+        "endLoc": {
+          "line": 138,
+          "column": 3,
+          "position": 1218
+        }
+      },
+      "secondFile": {
+        "name": "src/utils/exportPortfolio.ts",
+        "start": 60,
+        "end": 66,
+        "startLoc": {
+          "line": 60,
+          "column": 28,
+          "position": 537
+        },
+        "endLoc": {
+          "line": 66,
+          "column": 1,
+          "position": 645
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": ": true, reason: 'stop_loss', targetPrice: target.stopLossPrice };\n  }\n\n  // Check time-based exit (close after X hours if no significant movement)\n  if (target.openedAt) {\n    const hoursOpen = (Date.now() - new Date(target.openedAt).getTime()) / (1000 * 60 * 60);\n    if (hoursOpen >= TIME_BASED_EXIT_HOURS) {\n      return { cover",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/services/positionMonitor.ts",
+        "start": 251,
+        "end": 258,
+        "startLoc": {
+          "line": 251,
+          "column": 19,
+          "position": 2412
+        },
+        "endLoc": {
+          "line": 258,
+          "column": 21,
+          "position": 2514
+        }
+      },
+      "secondFile": {
+        "name": "src/services/positionMonitor.ts",
+        "start": 99,
+        "end": 106,
+        "startLoc": {
+          "line": 99,
+          "column": 18,
+          "position": 808
+        },
+        "endLoc": {
+          "line": 106,
+          "column": 20,
+          "position": 910
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "${currentPrice.toFixed(2)}`);\n  console.log(`   ---`);\n  console.log(`   P/L: ${profitLoss >= 0 ? '+' : ''}$${profitLoss.toFixed(2)} (${profitLossPercent >= 0 ? '+' : ''}${profitLossPercent.toFixed(2)}%)`);\n  console.log(`${'='.repeat(60)}\\n`);\n\n  logger.info(\n    'PositionMonitor',\n    `${reasonLabel} triggered for SHORT ",
+      "tokens": 111,
+      "firstFile": {
+        "name": "src/services/positionMonitor.ts",
+        "start": 307,
+        "end": 314,
+        "startLoc": {
+          "line": 307,
+          "column": 33,
+          "position": 3020
+        },
+        "endLoc": {
+          "line": 314,
+          "column": 41,
+          "position": 3131
+        }
+      },
+      "secondFile": {
+        "name": "src/services/positionMonitor.ts",
+        "start": 157,
+        "end": 164,
+        "startLoc": {
+          "line": 157,
+          "column": 33,
+          "position": 1453
+        },
+        "endLoc": {
+          "line": 164,
+          "column": 35,
+          "position": 1564
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 10,
+      "fragment": ",\n        outputsize: outputSize,\n        apikey: apiKey,\n      },\n    });\n\n    const data = response.data;\n    if (!data || data.status === 'error' || !data.values || data.values.length === 0) {\n      const errorMsg = data?.message || 'No data';\n      logger.warn('API', `Twelve Data no candle data for ",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/services/alphaVantage.ts",
+        "start": 440,
+        "end": 449,
+        "startLoc": {
+          "line": 440,
+          "column": 17,
+          "position": 4097
+        },
+        "endLoc": {
+          "line": 449,
+          "column": 58,
+          "position": 4199
+        }
+      },
+      "secondFile": {
+        "name": "src/services/alphaVantage.ts",
+        "start": 395,
+        "end": 404,
+        "startLoc": {
+          "line": 395,
+          "column": 25,
+          "position": 3649
+        },
+        "endLoc": {
+          "line": 404,
+          "column": 57,
+          "position": 3751
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 16,
+      "fragment": "\n      return [];\n    }\n\n    return Object.entries(timeSeries)\n      .map(([timestamp, values]: [string, any]) => ({\n        timestamp,\n        open: parseFloat(values['1. open']),\n        high: parseFloat(values['2. high']),\n        low: parseFloat(values['3. low']),\n        close: parseFloat(values['4. close']),\n        volume: parseInt(values['5. volume']),\n      }))\n      .reverse(); // Oldest first\n  } catch (error) {\n    logger.error('API', 'Error fetching daily data'",
+      "tokens": 150,
+      "firstFile": {
+        "name": "src/services/alphaVantage.ts",
+        "start": 530,
+        "end": 545,
+        "startLoc": {
+          "line": 530,
+          "column": 63,
+          "position": 4981
+        },
+        "endLoc": {
+          "line": 545,
+          "column": 52,
+          "position": 5131
+        }
+      },
+      "secondFile": {
+        "name": "src/services/alphaVantage.ts",
+        "start": 488,
+        "end": 503,
+        "startLoc": {
+          "line": 488,
+          "column": 23,
+          "position": 4567
+        },
+        "endLoc": {
+          "line": 503,
+          "column": 55,
+          "position": 4717
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 9,
+      "fragment": ">> {\n    const creds = isPaper ? this.paperCreds : this.liveCreds;\n    if (!creds || !creds.keyId || !creds.secretKey) {\n      throw new Error(`Alpaca ${isPaper ? 'paper' : 'live'} credentials not configured`);\n    }\n\n    const params = new URLSearchParams({\n      symbols: symbols.join(','),\n      feed",
+      "tokens": 102,
+      "firstFile": {
+        "name": "src/services/alpaca.ts",
+        "start": 335,
+        "end": 343,
+        "startLoc": {
+          "line": 335,
+          "column": 32,
+          "position": 3503
+        },
+        "endLoc": {
+          "line": 343,
+          "column": 11,
+          "position": 3605
+        }
+      },
+      "secondFile": {
+        "name": "src/services/alpaca.ts",
+        "start": 293,
+        "end": 301,
+        "startLoc": {
+          "line": 293,
+          "column": 85,
+          "position": 3004
+        },
+        "endLoc": {
+          "line": 301,
+          "column": 16,
+          "position": 3106
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 8,
+      "fragment": "// YYYY-MM-DD\n  ): Promise<{ timestamp: string; open: number; high: number; low: number; close: number; volume: number }[]> {\n    const creds = isPaper ? this.paperCreds : this.liveCreds;\n    if (!creds || !creds.keyId || !creds.secretKey) {\n      throw new Error(`Alpaca ${isPaper ? 'paper' : 'live'} credentials not configured`);\n    }\n\n    const",
+      "tokens": 125,
+      "firstFile": {
+        "name": "src/services/alpaca.ts",
+        "start": 471,
+        "end": 478,
+        "startLoc": {
+          "line": 471,
+          "column": 21,
+          "position": 4971
+        },
+        "endLoc": {
+          "line": 478,
+          "column": 10,
+          "position": 5096
+        }
+      },
+      "secondFile": {
+        "name": "src/services/alpaca.ts",
+        "start": 425,
+        "end": 432,
+        "startLoc": {
+          "line": 425,
+          "column": 21,
+          "position": 4488
+        },
+        "endLoc": {
+          "line": 432,
+          "column": 64,
+          "position": 4613
+        }
+      }
+    },
+    {
+      "format": "typescript",
+      "lines": 14,
+      "fragment": "\n    });\n\n    const url = `https://data.alpaca.markets/v2/stocks/${encodeURIComponent(symbol.toUpperCase())}/bars?${params}`;\n    const res = await fetch(url, {\n      headers: {\n        'APCA-API-KEY-ID': creds.keyId,\n        'APCA-API-SECRET-KEY': creds.secretKey,\n      },\n    });\n\n    if (!res.ok) {\n      const text = await res.text();\n      throw new Error(`Alpaca bars ",
+      "tokens": 117,
+      "firstFile": {
+        "name": "src/services/alpaca.ts",
+        "start": 483,
+        "end": 496,
+        "startLoc": {
+          "line": 483,
+          "column": 86,
+          "position": 5138
+        },
+        "endLoc": {
+          "line": 496,
+          "column": 36,
+          "position": 5255
+        }
+      },
+      "secondFile": {
+        "name": "src/services/alpaca.ts",
+        "start": 438,
+        "end": 451,
+        "startLoc": {
+          "line": 438,
+          "column": 20,
+          "position": 4674
+        },
+        "endLoc": {
+          "line": 451,
+          "column": 45,
+          "position": 4791
+        }
+      }
+    },
+    {
+      "format": "tsx",
+      "lines": 14,
+      "fragment": " ? (\n              <div className=\"flex gap-2\">\n                <button onClick={handleSync} disabled={syncing || tradingMode !== 'live'}\n                  className=\"px-3 py-1.5 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 disabled:cursor-not-allowed rounded-lg text-sm font-medium transition-colors\">\n                  {syncing ? 'Syncing...' : 'Sync'}\n                </button>\n                <button onClick={() => { disconnectAlpacaLive(); setLiveKeyId(''); if (user) saveAlpacaCredsToFirestore(user.uid, 'live', null); }}\n                  className=\"px-3 py-1.5 bg-slate-600 hover:bg-slate-500 rounded-lg text-sm font-medium transition-colors\">\n                  Disconnect\n                </button>\n              </div>\n            ) : (\n              <div className=\"space-y-2\">\n                <input type=\"text\" value={liveKeyId} onChange={(e) => setLiveKeyId(e.target.value.trim())} placeholder=\"Live Key ID (AK...)",
+      "tokens": 190,
+      "firstFile": {
+        "name": "src/pages/Settings.tsx",
+        "start": 212,
+        "end": 225,
+        "startLoc": {
+          "line": 212,
+          "column": 33,
+          "position": 2386
+        },
+        "endLoc": {
+          "line": 225,
+          "column": 140,
+          "position": 2576
+        }
+      },
+      "secondFile": {
+        "name": "src/pages/Settings.tsx",
+        "start": 173,
+        "end": 186,
+        "startLoc": {
+          "line": 173,
+          "column": 34,
+          "position": 1885
+        },
+        "endLoc": {
+          "line": 186,
+          "column": 143,
+          "position": 2075
+        }
+      }
+    }
+  ]
+}
