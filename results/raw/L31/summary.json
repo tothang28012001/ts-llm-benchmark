@@ -4,7 +4,7 @@
   "full_name": "przemekrudzki/Perch",
   "stars": "0",
   "created_at": "2026-04-23",
-  "pin": "HEAD",
+  "pin": "77ba1586c4bad0c31218e72eea464f0826c745ec",
   "fetch": {
     "sha": "77ba1586c4bad0c31218e72eea464f0826c745ec",
     "commit_date": "2026-11-19T11:43:24-06:00",
@@ -49,7 +49,7 @@
       {
         "cmd": "npm install",
         "exit": 0,
-        "seconds": 15.7
+        "seconds": 17.3
       }
     ],
     "static_only": false
@@ -62,13 +62,13 @@
         "tsconfig": "tsconfig.app.json",
         "exit": 0,
         "errors": 0,
-        "seconds": 3.855
+        "seconds": 5.631
       },
       {
         "tsconfig": "tsconfig.node.json",
         "exit": 0,
         "errors": 0,
-        "seconds": 0.711
+        "seconds": 0.982
       }
     ],
     "errors_total": 0,
@@ -85,7 +85,7 @@
     "exit": 0,
     "passed": true,
     "timed_out": false,
-    "seconds": 2.2
+    "seconds": 4.1
   },
   "mutation": {
     "sample_files": [
@@ -100,24 +100,32 @@
       "jest": null,
       "mocha": null
     },
-    "runner": null,
-    "status": "timeout",
+    "runner": "command",
+    "status": "ok",
+    "disable_type_checks": "default",
+    "coverage_analysis": "off",
+    "counts": {
+      "Survived": 411
+    },
+    "mutants_valid": 411,
+    "mutation_score": 0,
+    "mutation_score_covered": 0,
     "attempts": [
       {
         "runner": "vitest",
         "dtc": "default",
         "cov": "perTest",
         "exit": 1,
-        "seconds": 3.03,
+        "seconds": 4.135,
         "timed_out": false
       },
       {
         "runner": "command",
         "dtc": "default",
         "cov": "off",
-        "exit": 143,
-        "seconds": 1225.873,
-        "timed_out": true
+        "exit": 0,
+        "seconds": 1833.561,
+        "timed_out": false
       }
     ]
   }

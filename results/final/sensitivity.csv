@@ -1,0 +1,72 @@
+analysis,rq,metric,column,n_human,n_llm,median_human,median_llm,mwu_p,cliffs_delta,effect,holm_p,same_direction_as_primary,spearman_rho
+strict (>= 90% agent commits),RQ1,Lint violations / KLOC,lint_per_kloc,36.0,14,42.095,6.83,0.0,-0.937,large,0.0,True,
+strict (>= 90% agent commits),RQ1,Problem-type violations / KLOC,lint_problem_per_kloc,36.0,14,9.6,1.985,0.0,-0.758,large,0.0,True,
+strict (>= 90% agent commits),RQ1,Suggestion-type violations / KLOC,lint_suggestion_per_kloc,36.0,14,26.845,5.48,0.0,-0.849,large,0.0,True,
+strict (>= 90% agent commits),RQ1,Era-neutral violations / KLOC,lint_era_neutral_per_kloc,36.0,14,16.63,6.83,0.0032,-0.544,large,0.0384,True,
+strict (>= 90% agent commits),RQ1,Era-neutral problem violations / KLOC,lint_era_neutral_problem_per_kloc,36.0,14,5.79,1.985,0.0012,-0.595,large,0.018,True,
+strict (>= 90% agent commits),RQ1,Explicit `any` / KLOC,any_per_kloc,36.0,14,14.25,0.0,0.0,-0.909,large,0.0,True,
+strict (>= 90% agent commits),RQ2,Functions / KLOC,functions_per_kloc,36.0,14,97.0,79.45,0.315,-0.187,small,1.0,True,
+strict (>= 90% agent commits),RQ2,Mean cyclomatic complexity / function,cc_mean,36.0,14,1.759,2.778,0.0001,0.726,large,0.0017,True,
+strict (>= 90% agent commits),RQ2,% functions with CC > 10,cc_over10_pct,36.0,14,0.15,2.955,0.0,0.819,large,0.0,True,
+strict (>= 90% agent commits),RQ2,Mean cognitive complexity / function,cognitive_mean,36.0,14,0.744,1.465,0.0014,0.587,large,0.0196,True,
+strict (>= 90% agent commits),RQ2,% functions with cognitive > 15,cognitive_over15_pct,36.0,14,0.0,1.055,0.002,0.546,large,0.026,True,
+strict (>= 90% agent commits),RQ2,Duplicated lines (%),dup_pct,36.0,14,0.44,0.57,0.5892,-0.099,negligible,1.0,,
+strict (>= 90% agent commits),RQ2,Comment density,comment_density,36.0,14,0.086,0.108,0.2848,0.198,small,1.0,,
+strict (>= 90% agent commits),RQ2,Test-to-code LOC ratio,test_to_code,36.0,14,0.332,0.491,0.4558,0.139,negligible,1.0,True,
+strict (>= 90% agent commits),RQ2,Internal fan-out / module,fanout_mean,36.0,14,2.101,2.734,0.0531,0.357,medium,0.4779,True,
+strict (>= 90% agent commits),RQ2,External packages / module,ext_fanout_mean,36.0,14,1.254,0.898,0.0175,-0.438,medium,0.1925,True,
+strict (>= 90% agent commits),RQ2,% code imported directly by tests,direct_test_pct,36.0,14,22.1,28.8,0.1121,0.294,small,0.8968,True,
+strict (>= 90% agent commits),RQ2,% code reachable from tests,test_reach_pct,36.0,14,70.255,53.745,0.6257,0.091,negligible,1.0,,
+strict (>= 90% agent commits),RQ3,tsc errors in project files / KLOC,tsc_errors_per_kloc,36.0,14,0.0,0.0,0.2143,-0.155,small,1.0,,
+strict (>= 90% agent commits),RQ2,Test pass rate (Node 22),test_pass_rate,36.0,14,0.009,1.0,0.0007,0.554,large,0.0112,True,
+strict (>= 90% agent commits),RQ2,Mutation score,mutation_score,11.0,11,0.634,0.217,0.0416,-0.521,large,0.416,True,
+strict (>= 90% agent commits),RQ2,"Mutation score, covered code",mutation_score_covered,11.0,11,0.634,0.76,0.5989,0.14,negligible,1.0,,
+popular (>= 10 stars),RQ1,Lint violations / KLOC,lint_per_kloc,36.0,11,42.095,10.51,0.0,-0.879,large,0.0,True,
+popular (>= 10 stars),RQ1,Problem-type violations / KLOC,lint_problem_per_kloc,36.0,11,9.6,1.69,0.0003,-0.722,large,0.0045,True,
+popular (>= 10 stars),RQ1,Suggestion-type violations / KLOC,lint_suggestion_per_kloc,36.0,11,26.845,5.26,0.0001,-0.79,large,0.0017,True,
+popular (>= 10 stars),RQ1,Era-neutral violations / KLOC,lint_era_neutral_per_kloc,36.0,11,16.63,6.15,0.0176,-0.48,large,0.2112,True,
+popular (>= 10 stars),RQ1,Era-neutral problem violations / KLOC,lint_era_neutral_problem_per_kloc,36.0,11,5.79,1.69,0.0057,-0.558,large,0.0741,True,
+popular (>= 10 stars),RQ1,Explicit `any` / KLOC,any_per_kloc,36.0,11,14.25,0.82,0.0001,-0.788,large,0.0017,True,
+popular (>= 10 stars),RQ2,Functions / KLOC,functions_per_kloc,36.0,11,97.0,72.2,0.0612,-0.379,medium,0.4896,True,
+popular (>= 10 stars),RQ2,Mean cyclomatic complexity / function,cc_mean,36.0,11,1.759,2.859,0.0,0.894,large,0.0,True,
+popular (>= 10 stars),RQ2,% functions with CC > 10,cc_over10_pct,36.0,11,0.15,4.1,0.0,0.919,large,0.0,True,
+popular (>= 10 stars),RQ2,Mean cognitive complexity / function,cognitive_mean,36.0,11,0.744,1.84,0.0,0.823,large,0.0,True,
+popular (>= 10 stars),RQ2,% functions with cognitive > 15,cognitive_over15_pct,36.0,11,0.0,1.86,0.0,0.823,large,0.0,True,
+popular (>= 10 stars),RQ2,Duplicated lines (%),dup_pct,36.0,11,0.44,0.54,0.7599,0.063,negligible,1.0,,
+popular (>= 10 stars),RQ2,Comment density,comment_density,36.0,11,0.086,0.102,0.3999,0.172,small,1.0,,
+popular (>= 10 stars),RQ2,Test-to-code LOC ratio,test_to_code,36.0,11,0.332,0.736,0.0484,0.399,medium,0.4719,True,
+popular (>= 10 stars),RQ2,Internal fan-out / module,fanout_mean,36.0,11,2.101,2.765,0.1163,0.318,small,0.8141,True,
+popular (>= 10 stars),RQ2,External packages / module,ext_fanout_mean,36.0,11,1.254,0.927,0.0458,-0.404,medium,0.4719,True,
+popular (>= 10 stars),RQ2,% code imported directly by tests,direct_test_pct,36.0,11,22.1,66.84,0.0019,0.626,large,0.0266,True,
+popular (>= 10 stars),RQ2,% code reachable from tests,test_reach_pct,36.0,11,70.255,94.16,0.1215,0.313,small,0.8141,,
+popular (>= 10 stars),RQ3,tsc errors in project files / KLOC,tsc_errors_per_kloc,36.0,11,0.0,0.0,0.6107,-0.076,negligible,1.0,,
+popular (>= 10 stars),RQ2,Test pass rate (Node 22),test_pass_rate,36.0,11,0.009,1.0,0.0429,0.379,medium,0.4719,True,
+popular (>= 10 stars),RQ2,Mutation score,mutation_score,11.0,6,0.634,0.452,0.8075,-0.091,negligible,1.0,True,
+popular (>= 10 stars),RQ2,"Mutation score, covered code",mutation_score_covered,11.0,6,0.634,0.66,0.8836,0.061,negligible,1.0,,
+per-file normalisation,RQ1,Lint violations / file,lint_per_kloc,36.0,36,2.492,0.738,0.0,-0.599,large,0.0,True,
+per-file normalisation,RQ1,Problem-type violations / file,lint_problem_per_kloc,36.0,36,0.583,0.156,0.0002,-0.517,large,0.0006,True,
+per-file normalisation,RQ1,Era-neutral violations / file,lint_era_neutral_per_kloc,36.0,36,0.796,0.684,0.2821,-0.148,small,0.5642,True,
+per-file normalisation,RQ1,Explicit `any` / file,any_per_kloc,36.0,36,0.729,0.0,0.0,-0.778,large,0.0,True,
+per-file normalisation,RQ3,tsc errors in project files / file,tsc_errors_per_kloc,36.0,36,0.0,0.0,0.8224,-0.023,negligible,0.8224,,
+stars (within Claude Code),RQ1,Lint violations / KLOC,lint_per_kloc,,36,,,0.9902,,,1.0,,0.002
+stars (within Claude Code),RQ1,Problem-type violations / KLOC,lint_problem_per_kloc,,36,,,0.9911,,,1.0,,-0.002
+stars (within Claude Code),RQ1,Suggestion-type violations / KLOC,lint_suggestion_per_kloc,,36,,,0.8718,,,1.0,,0.028
+stars (within Claude Code),RQ1,Era-neutral violations / KLOC,lint_era_neutral_per_kloc,,36,,,0.8004,,,1.0,,-0.044
+stars (within Claude Code),RQ1,Era-neutral problem violations / KLOC,lint_era_neutral_problem_per_kloc,,36,,,0.9527,,,1.0,,0.01
+stars (within Claude Code),RQ1,Explicit `any` / KLOC,any_per_kloc,,36,,,0.3346,,,1.0,,0.166
+stars (within Claude Code),RQ2,Functions / KLOC,functions_per_kloc,,36,,,0.5331,,,1.0,,-0.107
+stars (within Claude Code),RQ2,Mean cyclomatic complexity / function,cc_mean,,36,,,0.3617,,,1.0,,0.157
+stars (within Claude Code),RQ2,% functions with CC > 10,cc_over10_pct,,36,,,0.4524,,,1.0,,0.129
+stars (within Claude Code),RQ2,Mean cognitive complexity / function,cognitive_mean,,36,,,0.2232,,,1.0,,0.208
+stars (within Claude Code),RQ2,% functions with cognitive > 15,cognitive_over15_pct,,36,,,0.2756,,,1.0,,0.187
+stars (within Claude Code),RQ2,Duplicated lines (%),dup_pct,,36,,,0.6865,,,1.0,,-0.07
+stars (within Claude Code),RQ2,Comment density,comment_density,,36,,,0.9549,,,1.0,,-0.01
+stars (within Claude Code),RQ2,Test-to-code LOC ratio,test_to_code,,36,,,0.0257,,,0.51,,0.372
+stars (within Claude Code),RQ2,Internal fan-out / module,fanout_mean,,36,,,0.9963,,,1.0,,-0.001
+stars (within Claude Code),RQ2,External packages / module,ext_fanout_mean,,36,,,0.8076,,,1.0,,-0.042
+stars (within Claude Code),RQ2,% code imported directly by tests,direct_test_pct,,36,,,0.0255,,,0.51,,0.372
+stars (within Claude Code),RQ2,% code reachable from tests,test_reach_pct,,36,,,0.0008,,,0.0176,,0.532
+stars (within Claude Code),RQ3,tsc errors in project files / KLOC,tsc_errors_per_kloc,,36,,,0.8624,,,1.0,,0.03
+stars (within Claude Code),RQ2,Test pass rate (Node 22),test_pass_rate,,36,,,0.2285,,,1.0,,-0.206
+stars (within Claude Code),RQ2,Mutation score,mutation_score,,26,,,0.0197,,,0.4137,,0.454
+stars (within Claude Code),RQ2,"Mutation score, covered code",mutation_score_covered,,25,,,0.6515,,,1.0,,0.095

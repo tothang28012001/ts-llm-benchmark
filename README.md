@@ -72,6 +72,32 @@ checkout is mounted read-only, and the container is deleted afterwards.
   * a rank regression on group and log size (size control)
   * human vs. all agent-built projects
   * a power simulation for the actual group sizes
+* `bench/sensitivity.py`: the sensitivity analyses promised in the milestone report:
+  * a stricter Claude Code sample (≥90% of commits agent-signed)
+  * only Claude Code projects with ≥10 stars
+  * lint, `any` and compiler errors per production file instead of per KLOC
+  * within Claude Code, the correlation of stars with every metric
+* `bench/classifier_sample.py`: manual check of the production/test file split. It draws a seeded
+  sample of 100 files; the verdict for each, judged by hand, is in `dataset/classifier_validation.csv`
+  (97/100 correct).
+
+### Mutation-testing fixes after the first run
+
+Every Stryker failure was traced to its log. Two problems in `tools/mutate.mjs` were fixed and the
+affected projects (H18, H19, H27) re-run:
+
+* For Jest versions too old for Stryker's Jest plugin, the command runner ran `npx jest --ci` and
+  dropped the project's own `--config`, so the initial test run failed. It now keeps the arguments
+  the project's `test` script passes to Jest.
+* TypeScript before 3.7 ignores the `// @ts-nocheck` that Stryker's `disableTypeChecks` adds, so
+  ts-jest type-checks the instrumented code. As a last attempt, after every other attempt failed
+  on TypeScript diagnostics, the runner wraps the project's Jest config with ts-jest diagnostics off.
+
+Neither change affects a project that was scored before: both only apply where earlier attempts failed.
+H18, H19 and H27, and every human or Claude Code project that had exceeded the 20-minute limit
+(H21, L17, L21, L22, L31, L32), were then re-run with `--mutate-minutes 60`. This added scores for
+H18, H21, H27, L21, L22 and L31 (11 human and 26 Claude Code projects are now scored); H19 and L17
+still time out, and L32 has a test that fails only under Stryker. No static measurement changed.
 
 ## Setup
 
@@ -94,6 +120,8 @@ python -m bench.testability      # import-graph testability (needs the clones in
 python -m bench.analyze          # results/metrics.csv, group_stats.csv, figures
 python -m bench.compare_agents   # results/agents/
 python -m bench.final_stats      # results/final/ (paired, pooled, size-adjusted, power)
+python -m bench.sensitivity      # results/final/sensitivity*.csv
+python -m bench.classifier_sample  # summary of the manual file-classifier check
 python -m report.paper           # report/CMPT479 - Final Paper.pdf and report/paper.tex
 ```
 
@@ -152,7 +180,8 @@ python -m explorer.server    # then open http://localhost:8479
 * `results/metrics.csv`, `results/group_stats.csv`: every metric per repository; group medians,
   Mann–Whitney U, Cliff's δ, Holm-adjusted p (human vs. Claude Code)
 * `results/agents/`: the same for all three groups, other agents vs. each group
-* `results/final/`: paired Wilcoxon, pooled, size-adjusted tests and the power estimate
+* `results/final/`: paired Wilcoxon, pooled, size-adjusted tests, the power estimate and the
+  sensitivity analyses (`sensitivity.csv`, `sensitivity_summary.csv`)
 * `results/testability.csv`, `results/agents/testability.csv`: structural testability per project
 * `results/top_rules.csv`, `results/tsc_codes.csv`: most frequent lint rules and compiler diagnostics
 * `results/figures/`: figures used in the paper; `report/slides/`: figures used in the presentation
@@ -162,7 +191,8 @@ python -m explorer.server    # then open http://localhost:8479
 
 ```
 bench/      Python orchestration (discover, screen, kind, select_repos, run, legacy_tests,
-            testability, analyze, compare_agents, final_stats, authorship)
+            testability, analyze, compare_agents, final_stats, sensitivity, classifier_sample,
+            authorship)
 tools/      pinned Node analysis toolchain + in-container stage scripts
 docker/     benchmark image
 dataset/    candidates, screening decisions, kinds, pairs, frozen datasets

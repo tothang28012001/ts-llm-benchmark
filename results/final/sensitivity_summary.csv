@@ -1,0 +1,5 @@
+analysis,n_human,n_llm,primary_significant_tested,same_direction,still_significant,new_significant,significant_correlations,max_abs_rho
+strict (>= 90% agent commits),36.0,14,13.0,13.0,11.0,0.0,,
+popular (>= 10 stars),36.0,11,13.0,13.0,9.0,0.0,,
+per-file normalisation,36.0,36,4.0,4.0,3.0,0.0,,
+stars (within Claude Code),,36,,,,,1.0,0.532

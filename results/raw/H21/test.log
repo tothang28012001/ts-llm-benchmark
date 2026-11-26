@@ -3,10 +3,10 @@
 > jest
 
 PASS src/__tests__/Contract-test.ts
-PASS src/__tests__/Credentials-test.ts (14.978 s)
+PASS src/__tests__/Credentials-test.ts (24.982 s)
 
 Test Suites: 2 passed, 2 total
 Tests:       71 passed, 71 total
 Snapshots:   38 passed, 38 total
-Time:        15.275 s
+Time:        25.56 s
 Ran all test suites.

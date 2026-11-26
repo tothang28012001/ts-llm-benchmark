@@ -51,7 +51,7 @@ def to_tex(s: str) -> str:
     s = _B.sub(r"\\textbf{\1}", s)
     s = _I.sub(r"\\emph{\1}", s)
     s = s.replace("\x01", "~").replace("\u2264", r"$\leq$").replace("\u2265", r"$\geq$").replace("\u00d7", r"$\times$")
-    s = s.replace("\u2192", r"$\rightarrow$").replace("\u2013", "--").replace("\u2014", "---").replace("\u03b4", r"$\delta$")
+    s = s.replace("\u2192", r"$\rightarrow$").replace("\u2013", "--").replace("\u2014", "---").replace("\u03b4", r"$\delta$").replace("\u03c1", r"$\rho$")
     for i, c in enumerate(codes):
         s = s.replace(f"\x00{i}\x00", r"\texttt{" + _esc(c) + "}")
     return s

@@ -6,60 +6,60 @@
 > vue-docgen-api@0.0.0-development unit
 > jest --config ./jest.unit.config.js
 
-PASS src/template-handlers/__tests__/slotHandler.ts (9.077s)
-PASS src/script-handlers/__tests__/componentHandler.ts (9.3s)
-PASS src/script-handlers/__tests__/classMethodHandler.ts (9.094s)
-PASS src/script-handlers/__tests__/eventHandler.ts (10.004s)
-PASS src/script-handlers/__tests__/methodHandler.ts (10.085s)
-PASS src/utils/__tests__/resolveExportedComponent.ts (9.112s)
-PASS src/utils/__tests__/getDoclets.ts
-PASS src/script-handlers/__tests__/propHandler.ts (10.402s)
+PASS src/template-handlers/__tests__/slotHandler.ts (10.472s)
+PASS src/script-handlers/__tests__/eventHandler.ts (10.436s)
+PASS src/script-handlers/__tests__/componentHandler.ts (10.649s)
+PASS src/utils/__tests__/resolveExportedComponent.ts (10.383s)
+PASS src/script-handlers/__tests__/classMethodHandler.ts (11.373s)
 PASS src/utils/__tests__/extractLeadingComment.ts
-PASS src/__tests__/babel-parser.ts
-PASS src/utils/__tests__/resolveImmediatelyExported.ts
-PASS src/script-handlers/__tests__/classDisplayNameHandler.ts
-PASS src/template-handlers/__tests__/propHandler.ts (10.603s)
+PASS src/utils/__tests__/getDoclets.ts
+PASS src/script-handlers/__tests__/classPropHandler.ts (10.861s)
+PASS src/script-handlers/__tests__/methodHandler.ts (11.235s)
+PASS src/script-handlers/__tests__/propHandler.ts (11.563s)
 PASS src/script-handlers/__tests__/displayNameHandler.ts
-PASS src/script-handlers/__tests__/classPropHandler.ts (10.024s)
+PASS src/__tests__/babel-parser.ts
+PASS src/script-handlers/__tests__/classDisplayNameHandler.ts
 PASS src/utils/__tests__/resolveRequired.ts
 PASS src/utils/__tests__/getDocblock.ts
-PASS src/utils/__tests__/resolveAliases.ts
 PASS src/utils/__tests__/adaptExportsToIEV.ts
+PASS src/utils/__tests__/resolveAliases.ts
+PASS src/utils/__tests__/resolveImmediatelyExported.ts
 PASS src/utils/__tests__/transformTagsIntoObject.ts
 PASS src/utils/__tests__/blockTags.ts
-PASS src/script-handlers/__tests__/slotHandler.ts (15.321s)
-PASS src/script-handlers/__tests__/mixinsHandler.ts (5.717s)
-PASS src/script-handlers/__tests__/extendsHandler.ts (15.834s)
-PASS src/__tests__/main.ts (5.06s)
+PASS src/template-handlers/__tests__/propHandler.ts (12.225s)
+PASS src/__tests__/main.ts (7.69s)
+PASS src/script-handlers/__tests__/extendsHandler.ts (20.005s)
+PASS src/script-handlers/__tests__/slotHandler.ts (19.899s)
+PASS src/script-handlers/__tests__/mixinsHandler.ts (9.955s)
 
 Test Suites: 25 passed, 25 total
 Tests:       115 passed, 115 total
 Snapshots:   0 total
-Time:        18.208s
+Time:        23.314s
 Ran all test suites.
 
 > vue-docgen-api@0.0.0-development e2e
 > jest --config ./jest.e2e.config.js
 
-PASS tests/components/extended/InputTextDocumented.test.ts (11.368s)
-PASS tests/components/vuex/example.test.ts (10.914s)
-PASS tests/components/button-typescript/button-ts.test.ts (10.5s)
-PASS tests/components/button-external/button-ext.test.ts (11.204s)
-PASS tests/components/button-functional/button-functional.test.ts (11.518s)
-PASS tests/components/mixin-resolved/resolved-mixin.test.ts (11.301s)
-PASS tests/components/extended/InputText.test.ts (11.023s)
-PASS tests/components/grid-jsx/grid-jsx.test.ts (11.099s)
-PASS tests/components/button/button.test.ts (11.466s)
-PASS tests/components/button-noscript/button-noscript.test.ts
+PASS tests/components/vuex/example.test.ts (10.645s)
+PASS tests/components/button-typescript/button-ts.test.ts (10.815s)
+PASS tests/components/mixin-resolved/resolved-mixin.test.ts (10.421s)
+PASS tests/components/extended/InputTextDocumented.test.ts (11.087s)
+PASS tests/components/extended/InputText.test.ts (10.954s)
+PASS tests/components/grid-jsx/grid-jsx.test.ts (11.47s)
 PASS tests/components/extended/Base.test.ts
-PASS tests/components/root-slot/root-slot.test.ts
+PASS tests/components/grid-typescript/grid-ts.test.ts (11.55s)
+PASS tests/components/button-external/button-ext.test.ts (11.689s)
+PASS tests/components/button-noscript/button-noscript.test.ts
 PASS tests/components/scoped-slot/scoped-slot.test.ts
+PASS tests/components/button-functional/button-functional.test.ts (11.382s)
+PASS tests/components/button/button.test.ts (11.595s)
+PASS tests/components/grid/grid.test.ts (11.75s)
+PASS tests/components/root-slot/root-slot.test.ts
 PASS tests/components/button-pug/button-pug.test.ts
-PASS tests/components/grid/grid.test.ts (12.051s)
-PASS tests/components/grid-typescript/grid-ts.test.ts (10.77s)
 
 Test Suites: 16 passed, 16 total
 Tests:       185 passed, 185 total
 Snapshots:   12 passed, 12 total
-Time:        14.232s
+Time:        15.529s
 Ran all test suites.

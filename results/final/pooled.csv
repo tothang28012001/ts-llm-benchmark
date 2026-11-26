@@ -19,5 +19,5 @@ RQ2,% code imported directly by tests,direct_test_pct,36,57,22.1,39.89,0.0165,0.
 RQ2,% code reachable from tests,test_reach_pct,36,57,70.255,60.86,0.8128,-0.03,negligible,1.0
 RQ3,tsc errors in project files / KLOC,tsc_errors_per_kloc,36,57,0.0,0.0,0.3384,0.096,negligible,1.0
 RQ2,Test pass rate (Node 22),test_pass_rate,36,57,0.009,1.0,0.0,0.446,medium,0.0
-RQ2,Mutation score,mutation_score,8,29,0.429,0.243,0.1392,-0.349,medium,1.0
-RQ2,"Mutation score, covered code",mutation_score_covered,8,27,0.429,0.645,0.7235,0.088,negligible,1.0
+RQ2,Mutation score,mutation_score,11,32,0.634,0.252,0.0306,-0.443,medium,0.2448
+RQ2,"Mutation score, covered code",mutation_score_covered,11,30,0.634,0.634,0.9179,-0.024,negligible,1.0

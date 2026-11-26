@@ -11,6 +11,7 @@ usage: python -m report.paper   (after bench.analyze, bench.compare_agents, benc
 from __future__ import annotations
 
 import json
+import math
 
 import numpy as np
 import pandas as pd
@@ -100,6 +101,23 @@ def compose(o: Out) -> None:
     n_sig_pool = int((po.holm_p < 0.05).sum())
     n_sig_size = int((sz.holm_p < 0.05).sum())
     md = pw["primary"]["cliffs_delta"]
+    sens = pd.read_csv(RES / "final" / "sensitivity_summary.csv").set_index("analysis")
+    sdet = pd.read_csv(RES / "final" / "sensitivity.csv")
+    s_strict = sens.loc[sens.index.str.startswith("strict")].iloc[0]
+    s_pop = sens.loc[sens.index.str.startswith("popular")].iloc[0]
+    s_stars = sdet[sdet.analysis.str.startswith("stars") & (sdet.holm_p < 0.05)]
+    s_pf = sdet[sdet.analysis.str.startswith("per-file")].set_index("column")
+    cval = pd.read_csv(ROOT / "dataset" / "classifier_validation.csv")
+    cls_ok = int((cval.verdict == "correct").sum())
+    from bench.classifier_sample import misplaced_share
+    msh = misplaced_share()
+    cls_pct = max(100 * h / t for h, t in msh.values())
+    rerun = m[m.repo_id.isin(["H18", "H19", "H21", "H27", "L17", "L21", "L22", "L31", "L32"])]
+    add_h = int((rerun.mutation_score.notna() & (rerun.group == "human")).sum())
+    add_l = int((rerun.mutation_score.notna() & (rerun.group == "llm")).sum())
+    fail_l = int(((m.group == "llm") & (m.mutation_status == "failed")).sum())
+    to_h = int(((m.group == "human") & (m.mutation_status == "timeout")).sum())
+    to_l = int(((m.group == "llm") & (m.mutation_status == "timeout")).sum())
     causes = pd.read_csv(ROOT / "dataset" / "test_failure_causes.csv")
     ch = causes[causes.repo_id.str.startswith("H")].cause_category
     cl = causes[causes.repo_id.str.startswith("L")].cause_category
@@ -223,12 +241,16 @@ def compose(o: Out) -> None:
         "the project's own `test` script (15-minute limit) and, where it passes, StrykerJS mutation testing on a "
         "seeded sample of up to 10 production files. Suites that fail are re-run on a Node version from the "
         "project's era; a suite that cannot run counts as 0% passing and gets no mutation score. All counts are "
-        "per KLOC of production code.")
+        "per KLOC of production code. Files are split into production and test code by name and directory; we "
+        f"checked this split by hand on a seeded sample of {len(cval)} files (`dataset/classifier_validation.csv`): "
+        f"{cls_ok} were correct, and the errors were Storybook stories and Cucumber step files counted as "
+        f"production code, which make up under {math.ceil(cls_pct)}% of production files in either group.")
     o.h2("Analysis plan")
     o.p(f"The primary test compares the human and Claude Code groups with two-sided Mann--Whitney U tests, Cliff's~δ "
         f"as effect size (magnitudes per [12]) and Holm correction [13] across the {n_tested} metrics. Robustness "
         f"checks are (i) Wilcoxon signed-rank tests over the matched pairs, (ii) a rank regression on group and "
-        f"log size, (iii) human vs. all {nL + nA} agent-built projects, and (iv) other agents vs. each group. With "
+        f"log size, (iii) human vs. all {nL + nA} agent-built projects, (iv) other agents vs. each group, and (v) the "
+        f"sensitivity analyses promised in our milestone report (`bench/sensitivity.py`). With "
         f"{nH} projects per group the test has 80% power for |δ|~≥~{fmt(md, 2)}, against "
         f"{fmt(pw['milestone_12']['cliffs_delta'], 2)} with the 12 per group of our milestone.")
 
@@ -315,9 +337,15 @@ def compose(o: Out) -> None:
         f"missing build output) and {genuine_h} fail on assertions, whereas {genuine_l} of {len(cl)} failing Claude "
         f"Code suites are genuine assertion failures. Mutation testing gave a valid score for {len(mut_h)} human and "
         f"{len(mut_l)} Claude Code projects (medians {fmt(mut_h.mutation_score.median(), 2)} vs. "
-        f"{fmt(mut_l.mutation_score.median(), 2)}, Holm *p*{hp('mutation_score')}); Stryker's instrumented code "
-        f"broke the old Jest set-up of {mut_fail_h} further human projects. Because mutation needs a passing suite, "
-        f"this comparison is small and descriptive.")
+        f"{fmt(mut_l.mutation_score.median(), 2)}, {d('mutation_score')}, Holm *p*{hp('mutation_score')}; on "
+        f"covered code {med('mutation_score_covered')}). We traced every Stryker failure to its log and fixed two "
+        f"problems in our runner: for Jest versions too old for Stryker's plugin it dropped the project's own "
+        f"`--config`, and TypeScript before 3.7 ignores the `@ts-nocheck` that Stryker relies on, so ts-jest "
+        f"type-checked the mutated code. We re-ran the affected projects, and every project that had exceeded the "
+        f"20-minute limit, with 60 minutes; this added {words(add_h)} human and {words(add_l)} Claude Code scores. "
+        f"{words(to_h).capitalize()} human and {words(to_l)} Claude Code project still time out, and {words(fail_l)} "
+        f"Claude Code suites fail only under Stryker. Because "
+        f"mutation needs a passing suite, this comparison is small and descriptive.")
 
     o.h2("RQ3: Compilation")
     o.p(f"Installation succeeded for {inst_h}/{nH} human and {inst_l}/{nL} Claude Code projects. With each project's "
@@ -337,7 +365,18 @@ def compose(o: Out) -> None:
         f"keep a significant group effect after Holm correction, including lint violations (*p*{peq(lsz.holm_p)}) "
         f"and mean cyclomatic complexity (*p*{peq(csz.holm_p)}). The paired test over matched projects agrees "
         f"({n_sig_pair} metrics), and so does pooling all {nL + nA} agent-built projects against the human group "
-        f"({n_sig_pool} metrics). The {nA} other-agent projects differ from human projects on {n_sig_oh} metrics "
+        f"({n_sig_pool} metrics). We also ran the sensitivity analyses promised in our milestone. Keeping only "
+        f"the {int(s_strict.n_llm)} Claude Code projects whose history is ≥90% agent-signed, all "
+        f"{int(s_strict.primary_significant_tested)} significant differences keep their direction and "
+        f"{int(s_strict.still_significant)} stay significant; keeping only the {int(s_pop.n_llm)} with ≥10 stars, "
+        f"{int(s_pop.still_significant)} stay significant. Counted per file instead of per KLOC, lint violations "
+        f"(*p*{peq(s_pf.loc['lint_per_kloc'].holm_p)}) and explicit `any` "
+        f"(*p*{peq(s_pf.loc['any_per_kloc'].holm_p)}) still differ"
+        f"{', era-neutral violations no longer do' if s_pf.loc['lint_era_neutral_per_kloc'].holm_p >= 0.05 else ''}. "
+        f"Within Claude Code, stars correlate with "
+        f"{'no metric' if s_stars.empty else ' and '.join(short.get(c, c).lower() for c in s_stars.column) + ' only'}"
+        f"{'' if s_stars.empty else f' (ρ~=~{s_stars.spearman_rho.iloc[0]:.2f})'}, not with quality or complexity. "
+        f"The {nA} other-agent projects differ from human projects on {n_sig_oh} metrics "
         f"and from Claude Code on {'none' if not oc_diff else words(len(oc_diff)) + ' (' + ', '.join(oc_diff) + ')'}; "
         f"{clean_a}/{nA} type-check cleanly (vs. Claude Code: Fisher *p*{peq(p_clean_ac)}). Their tests reach less "
         f"code (median {fmt(ags.loc['test_reach_pct'].median_other, 0)}%), and mutation testing scored only "

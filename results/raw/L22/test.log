@@ -6,1495 +6,1495 @@ TAP version 13
 # Subtest: listProjectKeys returns only directories that actually carry a profile
 ok 1 - listProjectKeys returns only directories that actually carry a profile
   ---
-  duration_ms: 14.184885
+  duration_ms: 24.684431
   type: 'test'
   ...
 # Subtest: listProjectKeys is empty when no projects exist
 ok 2 - listProjectKeys is empty when no projects exist
   ---
-  duration_ms: 0.271931
+  duration_ms: 0.262298
   type: 'test'
   ...
 # Subtest: an explicit key wins and is reported as explicit
 ok 3 - an explicit key wins and is reported as explicit
   ---
-  duration_ms: 2.232129
+  duration_ms: 1.637034
   type: 'test'
   ...
 # Subtest: an explicit key overrides the environment variable
 ok 4 - an explicit key overrides the environment variable
   ---
-  duration_ms: 2.139734
+  duration_ms: 1.137939
   type: 'test'
   ...
 # Subtest: the environment variable is used when no key is passed
 ok 5 - the environment variable is used when no key is passed
   ---
-  duration_ms: 1.752559
+  duration_ms: 1.394302
   type: 'test'
   ...
 # Subtest: AMBIGUOUS: several projects and no key named must stop, never guess
 ok 6 - AMBIGUOUS: several projects and no key named must stop, never guess
   ---
-  duration_ms: 4.02034
+  duration_ms: 1.686793
   type: 'test'
   ...
 # Subtest: a sole project is used without a key, because nothing is ambiguous
 ok 7 - a sole project is used without a key, because nothing is ambiguous
   ---
-  duration_ms: 1.421657
+  duration_ms: 1.15839
   type: 'test'
   ...
 # Subtest: adding a second project turns a previously-safe default into an error
 ok 8 - adding a second project turns a previously-safe default into an error
   ---
-  duration_ms: 1.994129
+  duration_ms: 4.711688
   type: 'test'
   ...
 # Subtest: a named project with no profile is an error, not a fallback to another
 ok 9 - a named project with no profile is an error, not a fallback to another
   ---
-  duration_ms: 2.877512
+  duration_ms: 1.28311
   type: 'test'
   ...
 # Subtest: no projects at all is an error rather than an empty default
 ok 10 - no projects at all is an error rather than an empty default
   ---
-  duration_ms: 0.96835
+  duration_ms: 0.744827
   type: 'test'
   ...
 # Subtest: a key containing path separators is rejected
 ok 11 - a key containing path separators is rejected
   ---
-  duration_ms: 1.126466
+  duration_ms: 0.969629
   type: 'test'
   ...
 # Subtest: artifact paths are scoped to the resolved project
 ok 12 - artifact paths are scoped to the resolved project
   ---
-  duration_ms: 1.212573
+  duration_ms: 1.746556
   type: 'test'
   ...
 # Subtest: readProfileSettings reads the settings table and ignores headers
 ok 13 - readProfileSettings reads the settings table and ignores headers
   ---
-  duration_ms: 1.152675
+  duration_ms: 1.196702
   type: 'test'
   ...
 # Subtest: describeActiveProject says how the project was chosen
 ok 14 - describeActiveProject says how the project was chosen
   ---
-  duration_ms: 1.228227
+  duration_ms: 11.430377
   type: 'test'
   ...
 # Subtest: 1. User Story only: API Not provided, UI Not performed — both recorded, nothing fails
 ok 15 - 1. User Story only: API Not provided, UI Not performed — both recorded, nothing fails
   ---
-  duration_ms: 5.348886
+  duration_ms: 12.81695
   type: 'test'
   ...
 # Subtest: 2. User Story + OpenAPI: the type, version, path and sha256 are recorded
 ok 16 - 2. User Story + OpenAPI: the type, version, path and sha256 are recorded
   ---
-  duration_ms: 0.326585
+  duration_ms: 0.368095
   type: 'test'
   ...
 # Subtest: 3. User Story + Postman Collection: identified as Postman and recorded
 ok 17 - 3. User Story + Postman Collection: identified as Postman and recorded
   ---
-  duration_ms: 0.188481
+  duration_ms: 1.170732
   type: 'test'
   ...
 # Subtest: 4. User Story + UI: exploration runs on the allowed label and host, as the account handle
 ok 18 - 4. User Story + UI: exploration runs on the allowed label and host, as the account handle
   ---
-  duration_ms: 2.060561
+  duration_ms: 14.550984
   type: 'test'
   ...
 # Subtest: 4b. UI without an account explores unauthenticated pages only
 ok 19 - 4b. UI without an account explores unauthenticated pages only
   ---
-  duration_ms: 1.175012
+  duration_ms: 2.059328
   type: 'test'
   ...
 # Subtest: 5. User Story + API + UI: both sources recorded together
 ok 20 - 5. User Story + API + UI: both sources recorded together
   ---
-  duration_ms: 1.122134
+  duration_ms: 5.485753
   type: 'test'
   ...
 # Subtest: 6. a missing or unusable API source is recorded, never thrown
 ok 21 - 6. a missing or unusable API source is recorded, never thrown
   ---
-  duration_ms: 1.010162
+  duration_ms: 0.733388
   type: 'test'
   ...
 # Subtest: 7. UI unavailable is a reason, never an error: no environment, no URL, PROD, unlisted label, credentials
 ok 22 - 7. UI unavailable is a reason, never an error: no environment, no URL, PROD, unlisted label, credentials
   ---
-  duration_ms: 1.38931
+  duration_ms: 1.409729
   type: 'test'
   ...
 # Subtest: a profile listing PROD still cannot make UI exploration reach PROD
 ok 23 - a profile listing PROD still cannot make UI exploration reach PROD
   ---
-  duration_ms: 1.27103
+  duration_ms: 12.480826
   type: 'test'
   ...
 # Subtest: the UI decision never exposes a credential value
 ok 24 - the UI decision never exposes a credential value
   ---
-  duration_ms: 1.466215
+  duration_ms: 1.576663
   type: 'test'
   ...
 # Subtest: provenance rows round-trip: what is written is what the next run reads
 ok 25 - provenance rows round-trip: what is written is what the next run reads
   ---
-  duration_ms: 0.668088
+  duration_ms: 0.599206
   type: 'test'
   ...
 # Subtest: 11. the story fingerprint is unchanged: same golden value, still blind to rev and state
 ok 26 - 11. the story fingerprint is unchanged: same golden value, still blind to rev and state
   ---
-  duration_ms: 0.358204
+  duration_ms: 0.258255
   type: 'test'
   ...
 # Subtest: 11b. an existing analysis written before API/UI provenance still parses, and its fingerprint still compares
 ok 27 - 11b. an existing analysis written before API/UI provenance still parses, and its fingerprint still compares
   ---
-  duration_ms: 6.604568
+  duration_ms: 0.427219
   type: 'test'
   ...
 # Subtest: an API specification that changed, or is newly supplied, asks for a refresh
 ok 28 - an API specification that changed, or is newly supplied, asks for a refresh
   ---
-  duration_ms: 0.647094
+  duration_ms: 0.337909
   type: 'test'
   ...
 # Subtest: an API analysed before but not supplied now is a note, not a refresh
 ok 29 - an API analysed before but not supplied now is a note, not a refresh
   ---
-  duration_ms: 4.851962
+  duration_ms: 0.139751
   type: 'test'
   ...
 # Subtest: UI exploration alone never triggers a refresh
 ok 30 - UI exploration alone never triggers a refresh
   ---
-  duration_ms: 0.226475
+  duration_ms: 0.105223
   type: 'test'
   ...
 # Subtest: an API spec on its own is read identically through loadApiSource and readApiSpec
 ok 31 - an API spec on its own is read identically through loadApiSource and readApiSpec
   ---
-  duration_ms: 0.907239
+  duration_ms: 0.495281
   type: 'test'
   ...
 # Subtest: the Skill declares its granted tools
 ok 32 - the Skill declares its granted tools
   ---
-  duration_ms: 1.684167
+  duration_ms: 1.557036
   type: 'test'
   ...
 # Subtest: 13. no Azure DevOps write, publish, automation or commit tool is granted
 ok 33 - 13. no Azure DevOps write, publish, automation or commit tool is granted
   ---
-  duration_ms: 0.615982
+  duration_ms: 0.484513
   type: 'test'
   ...
 # Subtest: UI exploration is granted only safe, in-session browser tools
 ok 34 - UI exploration is granted only safe, in-session browser tools
   ---
-  duration_ms: 0.291366
+  duration_ms: 0.225378
   type: 'test'
   ...
 # Subtest: the Skill states: the User Story is the only mandatory source
 ok 35 - the Skill states: the User Story is the only mandatory source
   ---
-  duration_ms: 0.210513
+  duration_ms: 0.278328
   type: 'test'
   ...
 # Subtest: the Skill states: 6. a missing optional source never blocks
 ok 36 - the Skill states: 6. a missing optional source never blocks
   ---
-  duration_ms: 0.140645
+  duration_ms: 0.172787
   type: 'test'
   ...
 # Subtest: the Skill states: API Source: Not provided is recorded
 ok 37 - the Skill states: API Source: Not provided is recorded
   ---
-  duration_ms: 0.133483
+  duration_ms: 0.138226
   type: 'test'
   ...
 # Subtest: the Skill states: 7. UI Exploration: Not performed — <reason> is recorded
 ok 38 - the Skill states: 7. UI Exploration: Not performed — <reason> is recorded
   ---
-  duration_ms: 1.572334
+  duration_ms: 0.227249
   type: 'test'
   ...
 # Subtest: the Skill states: UI exploration is opt-in
 ok 39 - the Skill states: UI exploration is opt-in
   ---
-  duration_ms: 0.149307
+  duration_ms: 0.100407
   type: 'test'
   ...
 # Subtest: the Skill states: 8/9. conflicting sources become an open question
 ok 40 - the Skill states: 8/9. conflicting sources become an open question
   ---
-  duration_ms: 2.744462
+  duration_ms: 0.336851
   type: 'test'
   ...
 # Subtest: the Skill states: 8/9. the example shows [E], [API] and [UI] with a [?] question
 ok 41 - the Skill states: 8/9. the example shows [E], [API] and [UI] with a [?] question
   ---
-  duration_ms: 1.923305
+  duration_ms: 3.280939
   type: 'test'
   ...
 # Subtest: the Skill states: 10. decisions are never overwritten by API or UI evidence
 ok 42 - the Skill states: 10. decisions are never overwritten by API or UI evidence
   ---
-  duration_ms: 0.404887
+  duration_ms: 0.170425
   type: 'test'
   ...
 # Subtest: the Skill states: 10. decisions outrank the API specification and the observed UI
 ok 43 - the Skill states: 10. decisions outrank the API specification and the observed UI
   ---
-  duration_ms: 0.231098
+  duration_ms: 0.065819
   type: 'test'
   ...
 # Subtest: the Skill states: observations never become requirements
 ok 44 - the Skill states: observations never become requirements
   ---
-  duration_ms: 0.200639
+  duration_ms: 0.108648
   type: 'test'
   ...
 # Subtest: the Skill states: API values are never invented
 ok 45 - the Skill states: API values are never invented
   ---
-  duration_ms: 0.120116
+  duration_ms: 0.081085
   type: 'test'
   ...
 # Subtest: the Skill states: the API specification is never copied into the repository
 ok 46 - the Skill states: the API specification is never copied into the repository
   ---
-  duration_ms: 0.048846
+  duration_ms: 0.042276
   type: 'test'
   ...
 # Subtest: the Skill states: 12. no Test Cases are generated
 ok 47 - the Skill states: 12. no Test Cases are generated
   ---
-  duration_ms: 0.038207
+  duration_ms: 0.041385
   type: 'test'
   ...
 # Subtest: the Skill states: PROD is never explored
 ok 48 - the Skill states: PROD is never explored
   ---
-  duration_ms: 0.042037
+  duration_ms: 0.043935
   type: 'test'
   ...
 # Subtest: the Skill states: no snapshot or screenshot is persisted
 ok 49 - the Skill states: no snapshot or screenshot is persisted
   ---
-  duration_ms: 0.100219
+  duration_ms: 0.041347
   type: 'test'
   ...
 # Subtest: the Skill states: UI exploration does not change business data
 ok 50 - the Skill states: UI exploration does not change business data
   ---
-  duration_ms: 0.05971
+  duration_ms: 0.04265
   type: 'test'
   ...
 # Subtest: the Skill states: the existing fingerprint rule is unchanged
 ok 51 - the Skill states: the existing fingerprint rule is unchanged
   ---
-  duration_ms: 0.043208
+  duration_ms: 0.040876
   type: 'test'
   ...
 # Subtest: the Skill states: backward-compatible invocation
 ok 52 - the Skill states: backward-compatible invocation
   ---
-  duration_ms: 0.038783
+  duration_ms: 0.043582
   type: 'test'
   ...
 # Subtest: 12/13. the analysis code is read-only: no file writes, no Azure DevOps write path, no Test Case write-back
 ok 53 - 12/13. the analysis code is read-only: no file writes, no Azure DevOps write path, no Test Case write-back
   ---
-  duration_ms: 1.212128
+  duration_ms: 1.098206
   type: 'test'
   ...
 # Subtest: 10. the analysis code never touches decisions.md
 ok 54 - 10. the analysis code never touches decisions.md
   ---
-  duration_ms: 0.509424
+  duration_ms: 0.439444
   type: 'test'
   ...
 # Subtest: the specification type is identified from content, and recorded with its version
 ok 55 - the specification type is identified from content, and recorded with its version
   ---
-  duration_ms: 11.931693
+  duration_ms: 2.426179
   type: 'test'
   ...
 # Subtest: the source fingerprint is the sha256 of the file, stable across reads and sensitive to change
 ok 56 - the source fingerprint is the sha256 of the file, stable across reads and sensitive to change
   ---
-  duration_ms: 1.246879
+  duration_ms: 0.861382
   type: 'test'
   ...
 # Subtest: OpenAPI: methods, paths, request body with required fields, constraints and $ref resolution
 ok 57 - OpenAPI: methods, paths, request body with required fields, constraints and $ref resolution
   ---
-  duration_ms: 0.415743
+  duration_ms: 0.398183
   type: 'test'
   ...
 # Subtest: OpenAPI: status codes, response fields, nested fields and enums
 ok 58 - OpenAPI: status codes, response fields, nested fields and enums
   ---
-  duration_ms: 0.269543
+  duration_ms: 0.273049
   type: 'test'
   ...
 # Subtest: OpenAPI: path-level and operation parameters, enum on a query parameter
 ok 59 - OpenAPI: path-level and operation parameters, enum on a query parameter
   ---
-  duration_ms: 0.182652
+  duration_ms: 0.19944
   type: 'test'
   ...
 # Subtest: OpenAPI: authentication — global scheme, explicit opt-out, scheme types
 ok 60 - OpenAPI: authentication — global scheme, explicit opt-out, scheme types
   ---
-  duration_ms: 0.151744
+  duration_ms: 0.151609
   type: 'test'
   ...
 # Subtest: OpenAPI: response links become dependencies between endpoints
 ok 61 - OpenAPI: response links become dependencies between endpoints
   ---
-  duration_ms: 0.51723
+  duration_ms: 1.608723
   type: 'test'
   ...
 # Subtest: Swagger 2: the in:body parameter becomes the request body; parameter-level enum kept
 ok 62 - Swagger 2: the in:body parameter becomes the request body; parameter-level enum kept
   ---
-  duration_ms: 0.256346
+  duration_ms: 0.261937
   type: 'test'
   ...
 # Subtest: Postman: requests in folders, methods, URLs, query, headers, body fields, example responses
 ok 63 - Postman: requests in folders, methods, URLs, query, headers, body fields, example responses
   ---
-  duration_ms: 0.48169
+  duration_ms: 0.44483
   type: 'test'
   ...
 # Subtest: Postman: auth inheritance — request override, collection default
 ok 64 - Postman: auth inheritance — request override, collection default
   ---
-  duration_ms: 0.454486
+  duration_ms: 0.432632
   type: 'test'
   ...
 # Subtest: Postman: variables set by one request and used by another become a dependency
 ok 65 - Postman: variables set by one request and used by another become a dependency
   ---
-  duration_ms: 0.603224
+  duration_ms: 0.49519
   type: 'test'
   ...
 # Subtest: no value ever leaves the reader: examples, header values, variables, auth, bodies, responses
 ok 66 - no value ever leaves the reader: examples, header values, variables, auth, bodies, responses
   ---
-  duration_ms: 0.247466
+  duration_ms: 0.198866
   type: 'test'
   ...
 # Subtest: filterOperations keeps only the operations relevant to the story
 ok 67 - filterOperations keeps only the operations relevant to the story
   ---
-  duration_ms: 0.334203
+  duration_ms: 3.721355
   type: 'test'
   ...
 # Subtest: unusable sources fail with a clear code — never a guess
 ok 68 - unusable sources fail with a clear code — never a guess
   ---
-  duration_ms: 7.43678
+  duration_ms: 0.791258
   type: 'test'
   ...
 # Subtest: artifactPathFor builds the per-story artifact path inside its project
 ok 69 - artifactPathFor builds the per-story artifact path inside its project
   ---
-  duration_ms: 1.299776
+  duration_ms: 1.373357
   type: 'test'
   ...
 # Subtest: artifactPathFor keeps two projects on separate paths for the same story ID
 ok 70 - artifactPathFor keeps two projects on separate paths for the same story ID
   ---
-  duration_ms: 0.233904
+  duration_ms: 0.273458
   type: 'test'
   ...
 # Subtest: parseArtifact reads provenance and every case in file order
 ok 71 - parseArtifact reads provenance and every case in file order
   ---
-  duration_ms: 5.274742
+  duration_ms: 6.924163
   type: 'test'
   ...
 # Subtest: parseArtifact maps every metadata field of a published case
 ok 72 - parseArtifact maps every metadata field of a published case
   ---
-  duration_ms: 0.719627
+  duration_ms: 0.629633
   type: 'test'
   ...
 # Subtest: parseArtifact reads an unpublished case as adoId null
 ok 73 - parseArtifact reads an unpublished case as adoId null
   ---
-  duration_ms: 2.760961
+  duration_ms: 4.906442
   type: 'test'
   ...
 # Subtest: parseArtifact reads an artifact without Need Automation as undecided, not as Yes or No
 ok 74 - parseArtifact reads an artifact without Need Automation as undecided, not as Yes or No
   ---
-  duration_ms: 1.799661
+  duration_ms: 1.394523
   type: 'test'
   ...
 # Subtest: parseArtifact rejects a Need Automation value other than Yes or No
 ok 75 - parseArtifact rejects a Need Automation value other than Yes or No
   ---
-  duration_ms: 8.616719
+  duration_ms: 7.313866
   type: 'test'
   ...
 # Subtest: parseArtifact accepts Need Automation regardless of Review/Lifecycle Status
 ok 76 - parseArtifact accepts Need Automation regardless of Review/Lifecycle Status
   ---
-  duration_ms: 7.429597
+  duration_ms: 11.382909
   type: 'test'
   ...
 # Subtest: parseArtifact captures precondition, test data, steps and notes
 ok 77 - parseArtifact captures precondition, test data, steps and notes
   ---
-  duration_ms: 1.253904
+  duration_ms: 0.865849
   type: 'test'
   ...
 # Subtest: parseArtifact records the heading line so rewriting stays precise
 ok 78 - parseArtifact records the heading line so rewriting stays precise
   ---
-  duration_ms: 1.142768
+  duration_ms: 0.662463
   type: 'test'
   ...
 # Subtest: parseArtifact reports a missing file as a generation instruction
 ok 79 - parseArtifact reports a missing file as a generation instruction
   ---
-  duration_ms: 5.326701
+  duration_ms: 0.379617
   type: 'test'
   ...
 # Subtest: parseArtifact rejects an unreadable Azure DevOps ID instead of assuming unpublished
 ok 80 - parseArtifact rejects an unreadable Azure DevOps ID instead of assuming unpublished
   ---
-  duration_ms: 1.406302
+  duration_ms: 0.903751
   type: 'test'
   ...
 # Subtest: parseArtifact rejects an unknown Review/Lifecycle Status
 ok 81 - parseArtifact rejects an unknown Review/Lifecycle Status
   ---
-  duration_ms: 0.928123
+  duration_ms: 0.884122
   type: 'test'
   ...
 # Subtest: parseArtifact rejects a Title that disagrees with its structured fields
 ok 82 - parseArtifact rejects a Title that disagrees with its structured fields
   ---
-  duration_ms: 0.933073
+  duration_ms: 0.897287
   type: 'test'
   ...
 # Subtest: parseArtifact rejects a scope that is not exactly three parts
 ok 83 - parseArtifact rejects a scope that is not exactly three parts
   ---
-  duration_ms: 1.025573
+  duration_ms: 0.647626
   type: 'test'
   ...
 # Subtest: parseArtifact rejects a step with no expected result
 ok 84 - parseArtifact rejects a step with no expected result
   ---
-  duration_ms: 0.888648
+  duration_ms: 0.740403
   type: 'test'
   ...
 # Subtest: parseArtifact keeps partially-bold metadata verbatim instead of stripping one end of it
 ok 85 - parseArtifact keeps partially-bold metadata verbatim instead of stripping one end of it
   ---
-  duration_ms: 0.868206
+  duration_ms: 0.794231
   type: 'test'
   ...
 # Subtest: parseArtifact reads the case heading summary and the section a case sits under
 ok 86 - parseArtifact reads the case heading summary and the section a case sits under
   ---
-  duration_ms: 0.339581
+  duration_ms: 0.920129
   type: 'test'
   ...
 # Subtest: parseArtifact rejects an ID that belongs to another User Story
 ok 87 - parseArtifact rejects an ID that belongs to another User Story
   ---
-  duration_ms: 0.329927
+  duration_ms: 0.345125
   type: 'test'
   ...
 # Subtest: a spec written to the conventions has no violations
 ok 88 - a spec written to the conventions has no violations
   ---
-  duration_ms: 5.486638
+  duration_ms: 10.780244
   type: 'test'
   ...
 # Subtest: page objects may import Playwright types
 ok 89 - page objects may import Playwright types
   ---
-  duration_ms: 0.334942
+  duration_ms: 0.631551
   type: 'test'
   ...
 # Subtest: forbidden: await expect(page.locator('form')).toMatchAriaSnapshot('- textbox');
 ok 90 - forbidden: await expect(page.locator('form')).toMatchAriaSnapshot('- textbox');
   ---
-  duration_ms: 0.381282
+  duration_ms: 1.049893
   type: 'test'
   ...
 # Subtest: forbidden: const tree = await page.locator('main').ariaSnapshot();
 ok 91 - forbidden: const tree = await page.locator('main').ariaSnapshot();
   ---
-  duration_ms: 0.161779
+  duration_ms: 0.551558
   type: 'test'
   ...
 # Subtest: forbidden: test.use({ trace: 'on' });
 ok 92 - forbidden: test.use({ trace: 'on' });
   ---
-  duration_ms: 0.132377
+  duration_ms: 0.580272
   type: 'test'
   ...
 # Subtest: forbidden: test.use({ video: 'retain-on-failure' });
 ok 93 - forbidden: test.use({ video: 'retain-on-failure' });
   ---
-  duration_ms: 0.716193
+  duration_ms: 0.16489
   type: 'test'
   ...
 # Subtest: forbidden: await context.tracing.start({ snapshots: true });
 ok 94 - forbidden: await context.tracing.start({ snapshots: true });
   ---
-  duration_ms: 0.407261
+  duration_ms: 0.12046
   type: 'test'
   ...
 # Subtest: forbidden: await context.storageState({ path: 'auth.json' });
 ok 95 - forbidden: await context.storageState({ path: 'auth.json' });
   ---
-  duration_ms: 0.224735
+  duration_ms: 0.11404
   type: 'test'
   ...
 # Subtest: forbidden: const password = process.env.ADMIN_VALID_PASSWORD;
 ok 96 - forbidden: const password = process.env.ADMIN_VALID_PASSWORD;
   ---
-  duration_ms: 0.860017
+  duration_ms: 0.300126
   type: 'test'
   ...
 # Subtest: forbidden: import { test, expect } from '@playwright/test';
 ok 97 - forbidden: import { test, expect } from '@playwright/test';
   ---
-  duration_ms: 0.548278
+  duration_ms: 0.393507
   type: 'test'
   ...
 # Subtest: forbidden: import { expect } from "@playwright/test";
 ok 98 - forbidden: import { expect } from "@playwright/test";
   ---
-  duration_ms: 1.327363
+  duration_ms: 0.182996
   type: 'test'
   ...
 # Subtest: comments explaining a rule do not trip it
 ok 99 - comments explaining a rule do not trip it
   ---
-  duration_ms: 0.286954
+  duration_ms: 0.95795
   type: 'test'
   ...
 # Subtest: violations report the line they are on
 ok 100 - violations report the line they are on
   ---
-  duration_ms: 0.133709
+  duration_ms: 0.404319
   type: 'test'
   ...
 # Subtest: every file under automation/ satisfies the code-safety rules
 ok 101 - every file under automation/ satisfies the code-safety rules
   ---
-  duration_ms: 29.486419
+  duration_ms: 62.446065
   type: 'test'
   ...
 # Subtest: resolves the environment from the explicit label and the profile-named URL variable
 ok 102 - resolves the environment from the explicit label and the profile-named URL variable
   ---
-  duration_ms: 16.748965
+  duration_ms: 12.385212
   type: 'test'
   ...
 # Subtest: {ENV} in the URL variable follows the label, so a label never pairs with another environment's host
 ok 103 - {ENV} in the URL variable follows the label, so a label never pairs with another environment's host
   ---
-  duration_ms: 4.850306
+  duration_ms: 1.335887
   type: 'test'
   ...
 # Subtest: PROD is refused even when the profile lists it as allowed
 ok 104 - PROD is refused even when the profile lists it as allowed
   ---
-  duration_ms: 8.367672
+  duration_ms: 6.995807
   type: 'test'
   ...
 # Subtest: a label not on the active project's allow-list is refused
 ok 105 - a label not on the active project's allow-list is refused
   ---
-  duration_ms: 1.494535
+  duration_ms: 1.300936
   type: 'test'
   ...
 # Subtest: a profile with no allowed environment refuses every label
 ok 106 - a profile with no allowed environment refuses every label
   ---
-  duration_ms: 1.433703
+  duration_ms: 1.328188
   type: 'test'
   ...
 # Subtest: a missing label stops the run instead of being inferred from the URL
 ok 107 - a missing label stops the run instead of being inferred from the URL
   ---
-  duration_ms: 1.453826
+  duration_ms: 0.996275
   type: 'test'
   ...
 # Subtest: the hostname carries no authority: an allowed label with an alarming host is still that label
 ok 108 - the hostname carries no authority: an allowed label with an alarming host is still that label
   ---
-  duration_ms: 4.06077
+  duration_ms: 1.125005
   type: 'test'
   ...
 # Subtest: an unset base URL variable, or a TBD setting, is not configured
 ok 109 - an unset base URL variable, or a TBD setting, is not configured
   ---
-  duration_ms: 7.897491
+  duration_ms: 13.123856
   type: 'test'
   ...
 # Subtest: a base URL that is not http(s) is refused
 ok 110 - a base URL that is not http(s) is refused
   ---
-  duration_ms: 2.20988
+  duration_ms: 2.765595
   type: 'test'
   ...
 # Subtest: parseAllowedEnvironments keeps labels and drops prose
 ok 111 - parseAllowedEnvironments keeps labels and drops prose
   ---
-  duration_ms: 0.593167
+  duration_ms: 0.592313
   type: 'test'
   ...
 # Subtest: an account handle resolves from <HANDLE>_USERNAME and <HANDLE>_PASSWORD
 ok 112 - an account handle resolves from <HANDLE>_USERNAME and <HANDLE>_PASSWORD
   ---
-  duration_ms: 1.505313
+  duration_ms: 10.86069
   type: 'test'
   ...
 # Subtest: a single-value handle resolves from <HANDLE>
 ok 113 - a single-value handle resolves from <HANDLE>
   ---
-  duration_ms: 1.080281
+  duration_ms: 1.146739
   type: 'test'
   ...
 # Subtest: a handle the profile does not declare is refused, even when its variables exist
 ok 114 - a handle the profile does not declare is refused, even when its variables exist
   ---
-  duration_ms: 1.054551
+  duration_ms: 1.31658
   type: 'test'
   ...
 # Subtest: a declared handle with unset variables is TEST_DATA_UNAVAILABLE, naming the variable and never a value
 ok 115 - a declared handle with unset variables is TEST_DATA_UNAVAILABLE, naming the variable and never a value
   ---
-  duration_ms: 11.172394
+  duration_ms: 1.214323
   type: 'test'
   ...
 # Subtest: resolved credentials are registered for redaction
 ok 116 - resolved credentials are registered for redaction
   ---
-  duration_ms: 1.277327
+  duration_ms: 1.187583
   type: 'test'
   ...
 # Subtest: registerEnvironmentSecrets registers every declared handle value and secret-named variable
 ok 117 - registerEnvironmentSecrets registers every declared handle value and secret-named variable
   ---
-  duration_ms: 1.533622
+  duration_ms: 5.34599
   type: 'test'
   ...
 # Subtest: a passed test appears as PASS, with every step passed against its Expected Result
 ok 118 - a passed test appears as PASS, with every step passed against its Expected Result
   ---
-  duration_ms: 18.164343
+  duration_ms: 7.529112
   type: 'test'
   ...
 # Subtest: a failed test appears as FAIL, with the failed step, Expected, Actual, reason and classification
 ok 119 - a failed test appears as FAIL, with the failed step, Expected, Actual, reason and classification
   ---
-  duration_ms: 1.314477
+  duration_ms: 3.17969
   type: 'test'
   ...
 # Subtest: mixed PASS/FAIL renders the right totals, verdict and failure list
 ok 120 - mixed PASS/FAIL renders the right totals, verdict and failure list
   ---
-  duration_ms: 1.432343
+  duration_ms: 1.299159
   type: 'test'
   ...
 # Subtest: an all-pass run shows a PASS verdict and no failure list
 ok 121 - an all-pass run shows a PASS verdict and no failure list
   ---
-  duration_ms: 0.513645
+  duration_ms: 0.454813
   type: 'test'
   ...
 # Subtest: a skipped test is NOT RUN with its reason, never FAIL
 ok 122 - a skipped test is NOT RUN with its reason, never FAIL
   ---
-  duration_ms: 3.727742
+  duration_ms: 0.374442
   type: 'test'
   ...
 # Subtest: traceability IDs are preserved from the spec annotations, never invented
 ok 123 - traceability IDs are preserved from the spec annotations, never invented
   ---
-  duration_ms: 5.358924
+  duration_ms: 1.365963
   type: 'test'
   ...
 # Subtest: a spec with no Test Case annotation is flagged as untraceable, not given an ID
 ok 124 - a spec with no Test Case annotation is flagged as untraceable, not given an ID
   ---
-  duration_ms: 0.497316
+  duration_ms: 0.326414
   type: 'test'
   ...
 # Subtest: an annotation naming a case the artifact lacks is reported, not silently accepted
 ok 125 - an annotation naming a case the artifact lacks is reported, not silently accepted
   ---
-  duration_ms: 0.331502
+  duration_ms: 0.26494
   type: 'test'
   ...
 # Subtest: a PRODUCT_BUG failure becomes a Draft Bug Candidate with every field
 ok 126 - a PRODUCT_BUG failure becomes a Draft Bug Candidate with every field
   ---
-  duration_ms: 1.106789
+  duration_ms: 1.139142
   type: 'test'
   ...
 # Subtest: the Bug Candidate Markdown carries what /publish-bug needs, as a Draft
 ok 127 - the Bug Candidate Markdown carries what /publish-bug needs, as a Draft
   ---
-  duration_ms: 1.035158
+  duration_ms: 1.724425
   type: 'test'
   ...
 # Subtest: the Bug Report section renders an explicit empty state
 ok 128 - the Bug Report section renders an explicit empty state
   ---
-  duration_ms: 0.478332
+  duration_ms: 0.435231
   type: 'test'
   ...
 # Subtest: only PRODUCT_BUG becomes a Bug Candidate — a script failure does not
 ok 129 - only PRODUCT_BUG becomes a Bug Candidate — a script failure does not
   ---
-  duration_ms: 0.516519
+  duration_ms: 3.049876
   type: 'test'
   ...
 # Subtest: a PASS test keeps its video, and no screenshot
 ok 130 - a PASS test keeps its video, and no screenshot
   ---
-  duration_ms: 0.339054
+  duration_ms: 0.416368
   type: 'test'
   ...
 # Subtest: a FAIL test keeps its failure screenshot AND its video, named for the Test Case
 ok 131 - a FAIL test keeps its failure screenshot AND its video, named for the Test Case
   ---
-  duration_ms: 0.2989
+  duration_ms: 0.345571
   type: 'test'
   ...
 # Subtest: the HTML links the screenshot preview and plays the right video for each Test Case
 ok 132 - the HTML links the screenshot preview and plays the right video for each Test Case
   ---
-  duration_ms: 1.512608
+  duration_ms: 1.668774
   type: 'test'
   ...
 # Subtest: a second video of the same test gets its own numbered file
 ok 133 - a second video of the same test gets its own numbered file
   ---
-  duration_ms: 0.335943
+  duration_ms: 0.218535
   type: 'test'
   ...
 # Subtest: error-context.md and traces are never copied into the report
 ok 134 - error-context.md and traces are never copied into the report
   ---
-  duration_ms: 3.058005
+  duration_ms: 0.319021
   type: 'test'
   ...
 # Subtest: no arbitrary file can be exposed as a video or screenshot
 ok 135 - no arbitrary file can be exposed as a video or screenshot
   ---
-  duration_ms: 20.324754
+  duration_ms: 0.16538
   type: 'test'
   ...
 # Subtest: insideAny accepts only paths strictly inside an output directory
 ok 136 - insideAny accepts only paths strictly inside an output directory
   ---
-  duration_ms: 0.256498
+  duration_ms: 0.137149
   type: 'test'
   ...
 # Subtest: signatureOfBytes recognises PNG and WebM by content, nothing else
 ok 137 - signatureOfBytes recognises PNG and WebM by content, nothing else
   ---
-  duration_ms: 0.200872
+  duration_ms: 0.196458
   type: 'test'
   ...
 # Subtest: no video is reported when the policy disallows it, or when no file exists
 ok 138 - no video is reported when the policy disallows it, or when no file exists
   ---
-  duration_ms: 0.592062
+  duration_ms: 0.694996
   type: 'test'
   ...
 # Subtest: an attachment whose file is missing is not referenced
 ok 139 - an attachment whose file is missing is not referenced
   ---
-  duration_ms: 0.206722
+  duration_ms: 0.234996
   type: 'test'
   ...
 # Subtest: the generator refuses to reference any path outside attachments/
 ok 140 - the generator refuses to reference any path outside attachments/
   ---
-  duration_ms: 0.451859
+  duration_ms: 0.562884
   type: 'test'
   ...
 # Subtest: credentials never reach the report: call logs, ARIA lines, registered secrets, titles
 ok 141 - credentials never reach the report: call logs, ARIA lines, registered secrets, titles
   ---
-  duration_ms: 0.885409
+  duration_ms: 0.832987
   type: 'test'
   ...
 # Subtest: an unregistered password typed by fill() is still removed from the report
 ok 142 - an unregistered password typed by fill() is still removed from the report
   ---
-  duration_ms: 0.255052
+  duration_ms: 0.293613
   type: 'test'
   ...
 # Subtest: report text is HTML-escaped, never interpreted
 ok 143 - report text is HTML-escaped, never interpreted
   ---
-  duration_ms: 0.406172
+  duration_ms: 0.666114
   type: 'test'
   ...
 # Subtest: sanitizeText removes text-entry arguments and ARIA input values
 ok 144 - sanitizeText removes text-entry arguments and ARIA input values
   ---
-  duration_ms: 0.12628
+  duration_ms: 0.150004
   type: 'test'
   ...
 # Subtest: sanitizeError drops the ARIA receiver snapshot and sanitises message, stack and cause
 ok 145 - sanitizeError drops the ARIA receiver snapshot and sanitises message, stack and cause
   ---
-  duration_ms: 0.284388
+  duration_ms: 0.205113
   type: 'test'
   ...
 # Subtest: stripAnsi removes terminal colour codes
 ok 146 - stripAnsi removes terminal colour codes
   ---
-  duration_ms: 0.094036
+  duration_ms: 0.145236
   type: 'test'
   ...
 # Subtest: classification follows §9 vocabulary and prefers keeping a human looking
 ok 147 - classification follows §9 vocabulary and prefers keeping a human looking
   ---
-  duration_ms: 0.272254
+  duration_ms: 0.275495
   type: 'test'
   ...
 # Subtest: extractActual reads Received, not-found, and diff forms
 ok 148 - extractActual reads Received, not-found, and diff forms
   ---
-  duration_ms: 0.232909
+  duration_ms: 1.510214
   type: 'test'
   ...
 # Subtest: NOT AUTOMATED: an in-scope case with no spec is reported with its plan reason
 ok 149 - NOT AUTOMATED: an in-scope case with no spec is reported with its plan reason
   ---
-  duration_ms: 0.968018
+  duration_ms: 1.078387
   type: 'test'
   ...
 # Subtest: NOT AUTOMATED excludes executed cases, cases with a spec, and Need Automation = No
 ok 150 - NOT AUTOMATED excludes executed cases, cases with a spec, and Need Automation = No
   ---
-  duration_ms: 0.383758
+  duration_ms: 0.341341
   type: 'test'
   ...
 # Subtest: writeReport writes an append-only run directory with only the planned attachments
 ok 151 - writeReport writes an append-only run directory with only the planned attachments
   ---
-  duration_ms: 10.853076
+  duration_ms: 5.061317
   type: 'test'
   ...
 # Subtest: an observation annotation is appended to its step Actual, sanitised, and changes no status
 ok 152 - an observation annotation is appended to its step Actual, sanitised, and changes no status
   ---
-  duration_ms: 1.335822
+  duration_ms: 0.625658
   type: 'test'
   ...
 # Subtest: a test whose worker died before it started is NOT RUN, not FAIL, and raises no Bug Candidate
 ok 153 - a test whose worker died before it started is NOT RUN, not FAIL, and raises no Bug Candidate
   ---
-  duration_ms: 0.330693
+  duration_ms: 0.361943
   type: 'test'
   ...
 # Subtest: an interrupted test is NOT RUN
 ok 154 - an interrupted test is NOT RUN
   ---
-  duration_ms: 0.186614
+  duration_ms: 0.203128
   type: 'test'
   ...
 # Subtest: a worker that died after a step had run is still a FAIL — the test did run
 ok 155 - a worker that died after a step had run is still a FAIL — the test did run
   ---
-  duration_ms: 0.198833
+  duration_ms: 0.209
   type: 'test'
   ...
 # Subtest: the Module directory of a run is the parent of its specs tests/ directory
 ok 156 - the Module directory of a run is the parent of its specs tests/ directory
   ---
-  duration_ms: 0.272061
+  duration_ms: 0.28264
   type: 'test'
   ...
 # Subtest: the Module report links the run directory attachments and copies none
 ok 157 - the Module report links the run directory attachments and copies none
   ---
-  duration_ms: 3.168748
+  duration_ms: 3.751849
   type: 'test'
   ...
 # Subtest: the Module report has the same results and totals as the run report
 ok 158 - the Module report has the same results and totals as the run report
   ---
-  duration_ms: 1.836134
+  duration_ms: 1.790637
   type: 'test'
   ...
 # Subtest: an attachment base that escapes outward unsafely is refused
 ok 159 - an attachment base that escapes outward unsafely is refused
   ---
-  duration_ms: 0.336316
+  duration_ms: 0.555408
   type: 'test'
   ...
 # Subtest: a Published case with Need Automation = Yes is in scope; No is excluded
 ok 160 - a Published case with Need Automation = Yes is in scope; No is excluded
   ---
-  duration_ms: 12.946532
+  duration_ms: 21.40978
   type: 'test'
   ...
 # Subtest: an Approved case with Need Automation = Yes is in scope
 ok 161 - an Approved case with Need Automation = Yes is in scope
   ---
-  duration_ms: 1.874371
+  duration_ms: 1.633836
   type: 'test'
   ...
 # Subtest: Need Automation = Yes does not approve: an unapproved Yes case is refused
 ok 162 - Need Automation = Yes does not approve: an unapproved Yes case is refused
   ---
-  duration_ms: 3.686107
+  duration_ms: 20.153394
   type: 'test'
   ...
 # Subtest: approval does not imply automation: an Approved No case stays excluded
 ok 163 - approval does not imply automation: an Approved No case stays excluded
   ---
-  duration_ms: 0.720562
+  duration_ms: 1.016744
   type: 'test'
   ...
 # Subtest: an undecided case (no Need Automation row) is excluded, never treated as Yes
 ok 164 - an undecided case (no Need Automation row) is excluded, never treated as Yes
   ---
-  duration_ms: 3.594105
+  duration_ms: 8.294721
   type: 'test'
   ...
 # Subtest: every case is accounted for: in scope plus excluded equals the artifact
 ok 165 - every case is accounted for: in scope plus excluded equals the artifact
   ---
-  duration_ms: 2.199867
+  duration_ms: 1.147296
   type: 'test'
   ...
 # Subtest: selection leaves every Need Automation value and status as the human set it
 ok 166 - selection leaves every Need Automation value and status as the human set it
   ---
-  duration_ms: 1.90506
+  duration_ms: 1.048289
   type: 'test'
   ...
 # Subtest: plan and spec paths are organised by Module, not by User Story
 ok 167 - plan and spec paths are organised by Module, not by User Story
   ---
-  duration_ms: 1.31495
+  duration_ms: 1.018842
   type: 'test'
   ...
 # Subtest: two modules in one story map to two plans
 ok 168 - two modules in one story map to two plans
   ---
-  duration_ms: 3.434969
+  duration_ms: 1.230594
   type: 'test'
   ...
 # Subtest: moduleDirName turns a Module into a stable directory name
 ok 169 - moduleDirName turns a Module into a stable directory name
   ---
-  duration_ms: 0.736408
+  duration_ms: 0.646302
   type: 'test'
   ...
 # Subtest: path helpers stay inside the active project
 ok 170 - path helpers stay inside the active project
   ---
-  duration_ms: 1.198064
+  duration_ms: 0.885947
   type: 'test'
   ...
 # Subtest: testCaseDetails tags a test with its Test Case and User Story, and annotates the ADO ID
 ok 171 - testCaseDetails tags a test with its Test Case and User Story, and annotates the ADO ID
   ---
-  duration_ms: 0.368312
+  duration_ms: 0.316093
   type: 'test'
   ...
 # Subtest: testCaseDetails omits the ADO annotation for an unpublished case
 ok 172 - testCaseDetails omits the ADO annotation for an unpublished case
   ---
-  duration_ms: 0.182823
+  duration_ms: 0.218647
   type: 'test'
   ...
 # Subtest: testCaseDetails refuses an ID that does not belong to the story, or is malformed
 ok 173 - testCaseDetails refuses an ID that does not belong to the story, or is malformed
   ---
-  duration_ms: 0.387861
+  duration_ms: 0.410802
   type: 'test'
   ...
 # Subtest: a declared sub-module places a case under <Module>/<Sub-Module> without changing its Module
 ok 174 - a declared sub-module places a case under <Module>/<Sub-Module> without changing its Module
   ---
-  duration_ms: 0.258007
+  duration_ms: 0.21197
   type: 'test'
   ...
 # Subtest: the longest matching phrase wins when two sub-modules could claim a case
 ok 175 - the longest matching phrase wins when two sub-modules could claim a case
   ---
-  duration_ms: 0.145016
+  duration_ms: 0.171365
   type: 'test'
   ...
 # Subtest: scope paths follow the sub-module, and the record keeps its Module
 ok 176 - scope paths follow the sub-module, and the record keeps its Module
   ---
-  duration_ms: 1.233114
+  duration_ms: 1.361049
   type: 'test'
   ...
 # Subtest: the profile sub-module table is parsed; any other table is ignored
 ok 177 - the profile sub-module table is parsed; any other table is ignored
   ---
-  duration_ms: 0.87147
+  duration_ms: 0.557523
   type: 'test'
   ...
 # Subtest: the logout request is the application contract: POST, headers, allSessions false, this session token
 ok 178 - the logout request is the application contract: POST, headers, allSessions false, this session token
   ---
-  duration_ms: 6.412401
+  duration_ms: 18.908284
   type: 'test'
   ...
 # Subtest: the token and backend come from the app requests; the logout call and non-bearer requests are ignored
 ok 179 - the token and backend come from the app requests; the logout call and non-bearer requests are ignored
   ---
-  duration_ms: 0.589184
+  duration_ms: 0.661177
   type: 'test'
   ...
 # Subtest: logout succeeds only when the server then rejects the old token
 ok 180 - logout succeeds only when the server then rejects the old token
   ---
-  duration_ms: 0.883759
+  duration_ms: 5.414279
   type: 'test'
   ...
 # Subtest: a refused logout, or a token that still works afterwards, is an error
 ok 181 - a refused logout, or a token that still works afterwards, is an error
   ---
-  duration_ms: 1.098458
+  duration_ms: 0.941342
   type: 'test'
   ...
 # Subtest: a session token is registered for redaction and never printed
 ok 182 - a session token is registered for redaction and never printed
   ---
-  duration_ms: 1.159179
+  duration_ms: 0.296038
   type: 'test'
   ...
 # Subtest: a passing test: teardown calls the logout API with its token and allSessions false
 ok 183 - a passing test: teardown calls the logout API with its token and allSessions false
   ---
-  duration_ms: 1.419463
+  duration_ms: 6.510739
   type: 'test'
   ...
 # Subtest: a failing test: teardown still calls the logout API — it does not depend on the result
 ok 184 - a failing test: teardown still calls the logout API — it does not depend on the result
   ---
-  duration_ms: 0.723528
+  duration_ms: 0.575545
   type: 'test'
   ...
 # Subtest: several accounts: each session is logged out with its own token — at the switch and at teardown
 ok 185 - several accounts: each session is logged out with its own token — at the switch and at teardown
   ---
-  duration_ms: 0.901258
+  duration_ms: 0.80485
   type: 'test'
   ...
 # Subtest: a test's teardown never ends another test's session
 ok 186 - a test's teardown never ends another test's session
   ---
-  duration_ms: 0.664413
+  duration_ms: 0.671499
   type: 'test'
   ...
 # Subtest: a failed logout is reported, never thrown, and the other sessions are still attempted
 ok 187 - a failed logout is reported, never thrown, and the other sessions are still attempted
   ---
-  duration_ms: 0.924269
+  duration_ms: 4.942023
   type: 'test'
   ...
 # Subtest: a failed logout at an account switch does not stop the test, and is reported at teardown
 ok 188 - a failed logout at an account switch does not stop the test, and is reported at teardown
   ---
-  duration_ms: 0.4446
+  duration_ms: 0.651858
   type: 'test'
   ...
 # Subtest: a login that never completed has nothing to end, and that is not a failure
 ok 189 - a login that never completed has nothing to end, and that is not a failure
   ---
-  duration_ms: 0.246503
+  duration_ms: 0.294968
   type: 'test'
   ...
 # Subtest: the shared fixtures end sessions automatically after the test, and never throw
 ok 190 - the shared fixtures end sessions automatically after the test, and never throw
   ---
-  duration_ms: 0.555899
+  duration_ms: 0.663581
   type: 'test'
   ...
 # Subtest: the NBO login ends sessions through the logout API, never by clearing the browser alone
 ok 191 - the NBO login ends sessions through the logout API, never by clearing the browser alone
   ---
-  duration_ms: 0.33135
+  duration_ms: 0.326856
   type: 'test'
   ...
 # Subtest: the shared section shows an empty state when a run has no Bug Candidates
 ok 192 - the shared section shows an empty state when a run has no Bug Candidates
   ---
-  duration_ms: 1.476544
+  duration_ms: 1.143834
   type: 'test'
   ...
 # Subtest: the shared section escapes every value and references only safe evidence paths
 ok 193 - the shared section escapes every value and references only safe evidence paths
   ---
-  duration_ms: 0.857357
+  duration_ms: 0.82703
   type: 'test'
   ...
 # Subtest: resolved NOT A BUG candidates are grouped and marked apart from open and confirmed bugs
 ok 194 - resolved NOT A BUG candidates are grouped and marked apart from open and confirmed bugs
   ---
-  duration_ms: 0.5511
+  duration_ms: 7.614575
   type: 'test'
   ...
 # Subtest: manual-report.html renders a Bug Report section with every Bug Candidate field
 ok 195 - manual-report.html renders a Bug Report section with every Bug Candidate field
   ---
-  duration_ms: 12.875438
+  duration_ms: 5.908762
   type: 'test'
   ...
 # Subtest: manual-report.html shows only its own run's Bug Candidates
 ok 196 - manual-report.html shows only its own run's Bug Candidates
   ---
-  duration_ms: 7.028073
+  duration_ms: 17.777184
   type: 'test'
   ...
 # Subtest: a manual Bug Candidate resolved as NOT A BUG keeps its observation and evidence, and the case stays FAIL
 ok 197 - a manual Bug Candidate resolved as NOT A BUG keeps its observation and evidence, and the case stays FAIL
   ---
-  duration_ms: 2.312923
+  duration_ms: 2.67374
   type: 'test'
   ...
 # Subtest: resolving a Bug Candidate never changes the execution totals or the Execution Summary
 ok 198 - resolving a Bug Candidate never changes the execution totals or the Execution Summary
   ---
-  duration_ms: 7.00294
+  duration_ms: 19.44011
   type: 'test'
   ...
 # Subtest: every Bug Report link in the manual report resolves relative to the report
 ok 199 - every Bug Report link in the manual report resolves relative to the report
   ---
-  duration_ms: 4.095144
+  duration_ms: 11.337649
   type: 'test'
   ...
 # Subtest: a manual run with no Bug Candidates shows the empty state
 ok 200 - a manual run with no Bug Candidates shows the empty state
   ---
-  duration_ms: 1.56715
+  duration_ms: 6.204916
   type: 'test'
   ...
 # Subtest: manual Bug Candidate text is escaped in the Bug Report
 ok 201 - manual Bug Candidate text is escaped in the Bug Report
   ---
-  duration_ms: 2.138605
+  duration_ms: 2.561587
   type: 'test'
   ...
 # Subtest: validation: only a human resolution moves a Bug Candidate off Draft, and status and disposition agree
 ok 202 - validation: only a human resolution moves a Bug Candidate off Draft, and status and disposition agree
   ---
-  duration_ms: 11.072735
+  duration_ms: 18.280913
   type: 'test'
   ...
 # Subtest: execution:report refuses a Bug Candidate holding a configured credential value, and writes nothing
 ok 203 - execution:report refuses a Bug Candidate holding a configured credential value, and writes nothing
   ---
-  duration_ms: 370.931675
+  duration_ms: 474.73892
   type: 'test'
   ...
 # Subtest: automation-report.html renders a Bug Report section with every Bug Candidate field
 ok 204 - automation-report.html renders a Bug Report section with every Bug Candidate field
   ---
-  duration_ms: 0.804068
+  duration_ms: 0.699224
   type: 'test'
   ...
 # Subtest: automation-report.html shows only its own run's Bug Candidates, and its links resolve
 ok 205 - automation-report.html shows only its own run's Bug Candidates, and its links resolve
   ---
-  duration_ms: 3.942362
+  duration_ms: 6.373627
   type: 'test'
   ...
 # Subtest: an automation Bug Candidate resolved as NOT A BUG is shown apart, and its Markdown records the resolution
 ok 206 - an automation Bug Candidate resolved as NOT A BUG is shown apart, and its Markdown records the resolution
   ---
-  duration_ms: 0.697683
+  duration_ms: 2.49696
   type: 'test'
   ...
 # Subtest: an automation run with no Bug Candidates shows the empty state
 ok 207 - an automation run with no Bug Candidates shows the empty state
   ---
-  duration_ms: 0.524904
+  duration_ms: 0.261514
   type: 'test'
   ...
 # Subtest: automation Bug Candidate text is escaped, and no credential reaches the Bug Report
 ok 208 - automation Bug Candidate text is escaped, and no credential reaches the Bug Report
   ---
-  duration_ms: 0.738771
+  duration_ms: 0.45327
   type: 'test'
   ...
 # Subtest: the Bug Report code is shared presentation: no report depends on the other's data or code
 ok 209 - the Bug Report code is shared presentation: no report depends on the other's data or code
   ---
-  duration_ms: 10.759947
+  duration_ms: 0.654177
   type: 'test'
   ...
 # Subtest: Description carries the description alone, with no section heading
 ok 210 - Description carries the description alone, with no section heading
   ---
-  duration_ms: 1.626364
+  duration_ms: 1.429279
   type: 'test'
   ...
 # Subtest: Repro Steps carries preconditions, steps, expected, actual, requirement and test case
 ok 211 - Repro Steps carries preconditions, steps, expected, actual, requirement and test case
   ---
-  duration_ms: 0.39403
+  duration_ms: 0.359551
   type: 'test'
   ...
 # Subtest: Repro Steps renders steps as an ordered list and preconditions as unordered
 ok 212 - Repro Steps renders steps as an ordered list and preconditions as unordered
   ---
-  duration_ms: 0.174
+  duration_ms: 0.15525
   type: 'test'
   ...
 # Subtest: System Info carries environment label AND host, classification and evidence
 ok 213 - System Info carries environment label AND host, classification and evidence
   ---
-  duration_ms: 0.179122
+  duration_ms: 0.185803
   type: 'test'
   ...
 # Subtest: the three fields are disjoint — no marker appears in more than one
 ok 214 - the three fields are disjoint — no marker appears in more than one
   ---
-  duration_ms: 1.89319
+  duration_ms: 6.153144
   type: 'test'
   ...
 # Subtest: empty precondition and step lists render as None rather than an empty list
 ok 215 - empty precondition and step lists render as None rather than an empty list
   ---
-  duration_ms: 1.105233
+  duration_ms: 0.225613
   type: 'test'
   ...
 # Subtest: user content is HTML-escaped, so markup in a candidate cannot break the field
 ok 216 - user content is HTML-escaped, so markup in a candidate cannot break the field
   ---
-  duration_ms: 0.33425
+  duration_ms: 1.64302
   type: 'test'
   ...
 # Subtest: buildCreateBugOperations writes Severity but never Priority
 ok 217 - buildCreateBugOperations writes Severity but never Priority
   ---
-  duration_ms: 0.285548
+  duration_ms: 0.337691
   type: 'test'
   ...
 # Subtest: buildCreateBugOperations writes Priority only when explicitly overridden
 ok 218 - buildCreateBugOperations writes Priority only when explicitly overridden
   ---
-  duration_ms: 0.489367
+  duration_ms: 0.486667
   type: 'test'
   ...
 # Subtest: buildCreateBugOperations omits the assignee when publishing unassigned
 ok 219 - buildCreateBugOperations omits the assignee when publishing unassigned
   ---
-  duration_ms: 0.486709
+  duration_ms: 0.550322
   type: 'test'
   ...
 # Subtest: buildCreateBugOperations maps each section onto its own field
 ok 220 - buildCreateBugOperations maps each section onto its own field
   ---
-  duration_ms: 0.375621
+  duration_ms: 0.32256
   type: 'test'
   ...
 # Subtest: a field holding a comma, a quote and line breaks survives a round trip
 ok 221 - a field holding a comma, a quote and line breaks survives a round trip
   ---
-  duration_ms: 3.174578
+  duration_ms: 3.245734
   type: 'test'
   ...
 # Subtest: only fields that need quoting are quoted, so diffs stay readable
 ok 222 - only fields that need quoting are quoted, so diffs stay readable
   ---
-  duration_ms: 0.528349
+  duration_ms: 0.403447
   type: 'test'
   ...
 # Subtest: the writer adds a UTF-8 BOM and the reader strips it
 ok 223 - the writer adds a UTF-8 BOM and the reader strips it
   ---
-  duration_ms: 0.547616
+  duration_ms: 0.366855
   type: 'test'
   ...
 # Subtest: CRLF row endings and CRLF inside a quoted field are read as LF
 ok 224 - CRLF row endings and CRLF inside a quoted field are read as LF
   ---
-  duration_ms: 0.369169
+  duration_ms: 0.262132
   type: 'test'
   ...
 # Subtest: a spreadsheet that quotes every field is read the same as a minimal one
 ok 225 - a spreadsheet that quotes every field is read the same as a minimal one
   ---
-  duration_ms: 4.506392
+  duration_ms: 4.098394
   type: 'test'
   ...
 # Subtest: empty fields and a missing final newline are handled
 ok 226 - empty fields and a missing final newline are handled
   ---
-  duration_ms: 0.238171
+  duration_ms: 0.189759
   type: 'test'
   ...
 # Subtest: a trailing newline does not add an empty row
 ok 227 - a trailing newline does not add an empty row
   ---
-  duration_ms: 0.288224
+  duration_ms: 0.222227
   type: 'test'
   ...
 # Subtest: a quoted field that is never closed is refused, naming the line it opened on
 ok 228 - a quoted field that is never closed is refused, naming the line it opened on
   ---
-  duration_ms: 0.574566
+  duration_ms: 0.522081
   type: 'test'
   ...
 # Subtest: a quote inside an unquoted field is refused instead of guessed
 ok 229 - a quote inside an unquoted field is refused instead of guessed
   ---
-  duration_ms: 0.365767
+  duration_ms: 0.407458
   type: 'test'
   ...
 # Subtest: text after a closing quote is refused instead of guessed
 ok 230 - text after a closing quote is refused instead of guessed
   ---
-  duration_ms: 0.386015
+  duration_ms: 0.462291
   type: 'test'
   ...
 # Subtest: commas are never split naively: a quoted comma stays in one field
 ok 231 - commas are never split naively: a quoted comma stays in one field
   ---
-  duration_ms: 0.18142
+  duration_ms: 0.208841
   type: 'test'
   ...
 # Subtest: a manual run writes manual-report.html into its own run directory — and only that file
 ok 232 - a manual run writes manual-report.html into its own run directory — and only that file
   ---
-  duration_ms: 32.020669
+  duration_ms: 26.479313
   type: 'test'
   ...
 # Subtest: an automation run writes automation-report.html
 ok 233 - an automation run writes automation-report.html
   ---
-  duration_ms: 12.354482
+  duration_ms: 10.047739
   type: 'test'
   ...
 # Subtest: a manual report cannot overwrite an automation report
 ok 234 - a manual report cannot overwrite an automation report
   ---
-  duration_ms: 3.149198
+  duration_ms: 3.920036
   type: 'test'
   ...
 # Subtest: an automation report cannot overwrite a manual report
 ok 235 - an automation report cannot overwrite a manual report
   ---
-  duration_ms: 19.603162
+  duration_ms: 2.29324
   type: 'test'
   ...
 # Subtest: reports stay isolated across run directories: a new run never touches an earlier one
 ok 236 - reports stay isolated across run directories: a new run never touches an earlier one
   ---
-  duration_ms: 11.354631
+  duration_ms: 21.696244
   type: 'test'
   ...
 # Subtest: each report states its own execution type, and never the other
 ok 237 - each report states its own execution type, and never the other
   ---
-  duration_ms: 44.383681
+  duration_ms: 3.091164
   type: 'test'
   ...
 # Subtest: manual report totals match the recorded results, and every executed case appears
 ok 238 - manual report totals match the recorded results, and every executed case appears
   ---
-  duration_ms: 3.663444
+  duration_ms: 2.723205
   type: 'test'
   ...
 # Subtest: the verdict is INCOMPLETE when nothing failed but a case was blocked
 ok 239 - the verdict is INCOMPLETE when nothing failed but a case was blocked
   ---
-  duration_ms: 0.396495
+  duration_ms: 0.204934
   type: 'test'
   ...
 # Subtest: every evidence and Bug Candidate link in the manual report resolves relative to the report
 ok 240 - every evidence and Bug Candidate link in the manual report resolves relative to the report
   ---
-  duration_ms: 14.758924
+  duration_ms: 17.957952
   type: 'test'
   ...
 # Subtest: the manual report is self-contained: no script and no external resource
 ok 241 - the manual report is self-contained: no script and no external resource
   ---
-  duration_ms: 5.091313
+  duration_ms: 6.811511
   type: 'test'
   ...
 # Subtest: report text is escaped, never interpreted as markup
 ok 242 - report text is escaped, never interpreted as markup
   ---
-  duration_ms: 9.895249
+  duration_ms: 2.554603
   type: 'test'
   ...
 # Subtest: a CSV changed since the run is flagged in the report
 ok 243 - a CSV changed since the run is flagged in the report
   ---
-  duration_ms: 2.420936
+  duration_ms: 10.541463
   type: 'test'
   ...
 # Subtest: validation refuses records that would mislead the report
 ok 244 - validation refuses records that would mislead the report
   ---
-  duration_ms: 44.144207
+  duration_ms: 46.332468
   type: 'test'
   ...
 # Subtest: execution:report writes manual-report.html for the latest manual run and leaves the CSV byte-identical
 ok 245 - execution:report writes manual-report.html for the latest manual run and leaves the CSV byte-identical
   ---
-  duration_ms: 420.649754
+  duration_ms: 479.939217
   type: 'test'
   ...
 # Subtest: execution:report refuses a record containing a configured handle value, and writes nothing
 ok 246 - execution:report refuses a record containing a configured handle value, and writes nothing
   ---
-  duration_ms: 362.341284
+  duration_ms: 284.945988
   type: 'test'
   ...
 # Subtest: the /execute-test-cases Skill makes manual-report.html a mandatory final step
 ok 247 - the /execute-test-cases Skill makes manual-report.html a mandatory final step
   ---
-  duration_ms: 0.509417
+  duration_ms: 0.469605
   type: 'test'
   ...
 # Subtest: the automation Skill names automation-report.html, never the manual report
 ok 248 - the automation Skill names automation-report.html, never the manual report
   ---
-  duration_ms: 0.263339
+  duration_ms: 0.275412
   type: 'test'
   ...
 # Subtest: the manual report code depends on no automation run and never writes Test Case files
 ok 249 - the manual report code depends on no automation run and never writes Test Case files
   ---
-  duration_ms: 0.648583
+  duration_ms: 0.647828
   type: 'test'
   ...
 #       note: NBO declares 1 handle(s) no Test Case references yet:
@@ -1502,415 +1502,415 @@ ok 249 - the manual report code depends on no automation run and never writes Te
 # Subtest: the repository has at least one project profile to validate
 ok 250 - the repository has at least one project profile to validate
   ---
-  duration_ms: 3.026906
+  duration_ms: 1.022216
   type: 'test'
   ...
 # Subtest: NBO: profile is readable and declares its settings
 ok 251 - NBO: profile is readable and declares its settings
   ---
-  duration_ms: 1.446436
+  duration_ms: 0.953908
   type: 'test'
   ...
 # Subtest: NBO: every handle used by a Test Case is declared in the profile
 ok 252 - NBO: every handle used by a Test Case is declared in the profile
   ---
-  duration_ms: 29.691178
+  duration_ms: 28.853075
   type: 'test'
   ...
 # Subtest: NBO: handles declared but not yet used are reported, not failed
 ok 253 - NBO: handles declared but not yet used are reported, not failed
   ---
-  duration_ms: 15.828122
+  duration_ms: 15.057828
   type: 'test'
   ...
 # Subtest: NBO: the profile declares no credential values
 ok 254 - NBO: the profile declares no credential values
   ---
-  duration_ms: 0.681616
+  duration_ms: 1.534523
   type: 'test'
   ...
 # Subtest: NDC-CORE: profile is readable and declares its settings
 ok 255 - NDC-CORE: profile is readable and declares its settings
   ---
-  duration_ms: 0.317727
+  duration_ms: 0.316302
   type: 'test'
   ...
 # Subtest: NDC-CORE: every handle used by a Test Case is declared in the profile
 ok 256 - NDC-CORE: every handle used by a Test Case is declared in the profile
   ---
-  duration_ms: 0.414481
+  duration_ms: 0.392597
   type: 'test'
   ...
 # Subtest: NDC-CORE: handles declared but not yet used are reported, not failed
 ok 257 - NDC-CORE: handles declared but not yet used are reported, not failed
   ---
-  duration_ms: 0.248172
+  duration_ms: 0.23711
   type: 'test'
   ...
 # Subtest: NDC-CORE: the profile declares no credential values
 ok 258 - NDC-CORE: the profile declares no credential values
   ---
-  duration_ms: 0.443355
+  duration_ms: 0.418075
   type: 'test'
   ...
 # Subtest: every case of the reference artifact carries a Need Automation decision
 ok 259 - every case of the reference artifact carries a Need Automation decision
   ---
-  duration_ms: 32.794564
+  duration_ms: 5.966028
   type: 'test'
   ...
 # Subtest: a case without Need Automation is reported as undecided
 ok 260 - a case without Need Automation is reported as undecided
   ---
-  duration_ms: 1.396328
+  duration_ms: 1.257969
   type: 'test'
   ...
 # Subtest: a regeneration that keeps every preserved value reports nothing
 ok 261 - a regeneration that keeps every preserved value reports nothing
   ---
-  duration_ms: 9.21261
+  duration_ms: 2.029368
   type: 'test'
   ...
 # Subtest: a human-edited Need Automation value survives regeneration
 ok 262 - a human-edited Need Automation value survives regeneration
   ---
-  duration_ms: 6.725292
+  duration_ms: 1.636985
   type: 'test'
   ...
 # Subtest: dropping a recorded Need Automation value is a loss
 ok 263 - dropping a recorded Need Automation value is a loss
   ---
-  duration_ms: 1.83108
+  duration_ms: 1.435788
   type: 'test'
   ...
 # Subtest: a legacy artifact with no decisions may gain fresh recommendations
 ok 264 - a legacy artifact with no decisions may gain fresh recommendations
   ---
-  duration_ms: 2.033194
+  duration_ms: 1.594904
   type: 'test'
   ...
 # Subtest: a removed Test Case ID is a loss
 ok 265 - a removed Test Case ID is a loss
   ---
-  duration_ms: 12.418651
+  duration_ms: 2.444039
   type: 'test'
   ...
 # Subtest: a changed or cleared Azure DevOps ID is a loss
 ok 266 - a changed or cleared Azure DevOps ID is a loss
   ---
-  duration_ms: 2.479291
+  duration_ms: 1.781282
   type: 'test'
   ...
 # Subtest: a human-set status reset by regeneration is a loss; an agent status is not
 ok 267 - a human-set status reset by regeneration is a loss; an agent status is not
   ---
-  duration_ms: 2.707048
+  duration_ms: 2.779412
   type: 'test'
   ...
 # Subtest: Need Automation and Review/Lifecycle Status are checked independently
 ok 268 - Need Automation and Review/Lifecycle Status are checked independently
   ---
-  duration_ms: 2.964408
+  duration_ms: 2.127472
   type: 'test'
   ...
 # Subtest: approving a case does not change its Need Automation decision, and Yes does not approve it
 ok 269 - approving a case does not change its Need Automation decision, and Yes does not approve it
   ---
-  duration_ms: 10.91886
+  duration_ms: 2.005416
   type: 'test'
   ...
 # Subtest: a PRODUCT_BUG never stops the run — the next case runs
 ok 270 - a PRODUCT_BUG never stops the run — the next case runs
   ---
-  duration_ms: 1.585262
+  duration_ms: 1.481623
   type: 'test'
   ...
 # Subtest: any number of PRODUCT_BUG failures in a row still continue
 ok 271 - any number of PRODUCT_BUG failures in a row still continue
   ---
-  duration_ms: 0.205707
+  duration_ms: 0.204759
   type: 'test'
   ...
 # Subtest: test-data, script and unknown failures continue too — they block or fail one case only
 ok 272 - test-data, script and unknown failures continue too — they block or fail one case only
   ---
-  duration_ms: 3.450192
+  duration_ms: 0.201074
   type: 'test'
   ...
 # Subtest: one transient environment or authentication failure continues; a consistent one stops
 ok 273 - one transient environment or authentication failure continues; a consistent one stops
   ---
-  duration_ms: 3.780432
+  duration_ms: 0.309555
   type: 'test'
   ...
 # Subtest: an explicit unsafe or impossible signal stops at once, destructive risk first
 ok 274 - an explicit unsafe or impossible signal stops at once, destructive risk first
   ---
-  duration_ms: 0.361763
+  duration_ms: 0.235509
   type: 'test'
   ...
 # Subtest: a PRODUCT_BUG in one case does not prevent the later independent cases from executing
 ok 275 - a PRODUCT_BUG in one case does not prevent the later independent cases from executing
   ---
-  duration_ms: 1.759875
+  duration_ms: 1.654345
   type: 'test'
   ...
 # Subtest: a legitimate stop condition still stops the run, keeping every result before it
 ok 276 - a legitimate stop condition still stops the run, keeping every result before it
   ---
-  duration_ms: 1.923425
+  duration_ms: 0.419374
   type: 'test'
   ...
 # Subtest: a completed run with a PRODUCT_BUG followed by executed cases is valid, and the report shows them all
 ok 277 - a completed run with a PRODUCT_BUG followed by executed cases is valid, and the report shows them all
   ---
-  duration_ms: 16.894067
+  duration_ms: 6.827613
   type: 'test'
   ...
 # Subtest: the report keeps confirmed observations apart from suspected root causes
 ok 278 - the report keeps confirmed observations apart from suspected root causes
   ---
-  duration_ms: 12.715666
+  duration_ms: 4.974496
   type: 'test'
   ...
 # Subtest: a legitimate stop is recorded: results up to it are kept, the rest are not reached, the verdict is INCOMPLETE
 ok 279 - a legitimate stop is recorded: results up to it are kept, the rest are not reached, the verdict is INCOMPLETE
   ---
-  duration_ms: 2.608131
+  duration_ms: 2.327501
   type: 'test'
   ...
 # Subtest: a product bug is never a stop condition
 ok 280 - a product bug is never a stop condition
   ---
-  duration_ms: 2.32702
+  duration_ms: 2.051352
   type: 'test'
   ...
 # Subtest: a case is never skipped because of a bug found in another case
 ok 281 - a case is never skipped because of a bug found in another case
   ---
-  duration_ms: 1.41726
+  duration_ms: 1.469481
   type: 'test'
   ...
 # Subtest: a stop must be consistent with the case it stopped after
 ok 282 - a stop must be consistent with the case it stopped after
   ---
-  duration_ms: 12.624566
+  duration_ms: 2.467034
   type: 'test'
   ...
 # Subtest: nothing executes after a stop, and a completed run has nothing unreached
 ok 283 - nothing executes after a stop, and a completed run has nothing unreached
   ---
-  duration_ms: 2.183701
+  duration_ms: 2.544283
   type: 'test'
   ...
 # Subtest: every PRODUCT_BUG failure is recorded as a Bug Candidate
 ok 284 - every PRODUCT_BUG failure is recorded as a Bug Candidate
   ---
-  duration_ms: 1.064654
+  duration_ms: 5.669564
   type: 'test'
   ...
 # Subtest: one underlying defect is one Bug Candidate linked to every case it failed
 ok 285 - one underlying defect is one Bug Candidate linked to every case it failed
   ---
-  duration_ms: 4.785089
+  duration_ms: 1.946506
   type: 'test'
   ...
 # Subtest: the same defect raised twice is refused as a duplicate Bug Candidate
 ok 286 - the same defect raised twice is refused as a duplicate Bug Candidate
   ---
-  duration_ms: 11.483064
+  duration_ms: 4.41927
   type: 'test'
   ...
 # Subtest: a Bug Candidate links both ways, and its file names the run and its Test Cases
 ok 287 - a Bug Candidate links both ways, and its file names the run and its Test Cases
   ---
-  duration_ms: 4.073142
+  duration_ms: 3.642102
   type: 'test'
   ...
 # Subtest: the /execute-test-cases Skill continues past a product bug and lists the stop conditions
 ok 288 - the /execute-test-cases Skill continues past a product bug and lists the stop conditions
   ---
-  duration_ms: 0.966429
+  duration_ms: 0.718839
   type: 'test'
   ...
 # Subtest: the CSV fixture and the Markdown fixture hold the same cases
 ok 289 - the CSV fixture and the Markdown fixture hold the same cases
   ---
-  duration_ms: 15.316122
+  duration_ms: 5.984179
   type: 'test'
   ...
 # Subtest: loadTestCases reads the CSV and ignores Markdown that disagrees with it — CSV wins
 ok 290 - loadTestCases reads the CSV and ignores Markdown that disagrees with it — CSV wins
   ---
-  duration_ms: 5.673826
+  duration_ms: 4.755133
   type: 'test'
   ...
 # Subtest: loadTestCases refuses a story that only has a legacy Markdown artifact, pointing at migration
 ok 291 - loadTestCases refuses a story that only has a legacy Markdown artifact, pointing at migration
   ---
-  duration_ms: 1.844299
+  duration_ms: 1.63085
   type: 'test'
   ...
 # Subtest: loadTestCases reports a missing story as a generation instruction
 ok 292 - loadTestCases reports a missing story as a generation instruction
   ---
-  duration_ms: 1.356452
+  duration_ms: 1.218493
   type: 'test'
   ...
 # Subtest: the provenance fingerprint comes from the Markdown header; cases come from the CSV
 ok 293 - the provenance fingerprint comes from the Markdown header; cases come from the CSV
   ---
-  duration_ms: 11.186102
+  duration_ms: 14.856288
   type: 'test'
   ...
 # Subtest: rendering Markdown from the CSV leaves the CSV byte-identical
 ok 294 - rendering Markdown from the CSV leaves the CSV byte-identical
   ---
-  duration_ms: 3.766294
+  duration_ms: 6.893949
   type: 'test'
   ...
 # Subtest: human CSV edits to title, steps, expected results and Need Automation appear in the re-rendered Markdown
 ok 295 - human CSV edits to title, steps, expected results and Need Automation appear in the re-rendered Markdown
   ---
-  duration_ms: 10.418109
+  duration_ms: 7.211572
   type: 'test'
   ...
 # Subtest: a CSV edit not yet rendered is reported as drift, and rendering clears it
 ok 296 - a CSV edit not yet rendered is reported as drift, and rendering clears it
   ---
-  duration_ms: 4.023721
+  duration_ms: 5.603607
   type: 'test'
   ...
 # Subtest: rendering keeps narrative outside the generated block verbatim
 ok 297 - rendering keeps narrative outside the generated block verbatim
   ---
-  duration_ms: 2.389126
+  duration_ms: 2.166496
   type: 'test'
   ...
 # Subtest: pipes and line breaks inside a step survive the CSV and the Markdown table
 ok 298 - pipes and line breaks inside a step survive the CSV and the Markdown table
   ---
-  duration_ms: 8.248505
+  duration_ms: 2.545004
   type: 'test'
   ...
 # Subtest: a Rejected case renders under "Rejected test cases" and still matches the CSV
 ok 299 - a Rejected case renders under "Rejected test cases" and still matches the CSV
   ---
-  duration_ms: 2.812298
+  duration_ms: 2.830443
   type: 'test'
   ...
 # Subtest: the CSV parser refuses duplicate, malformed and foreign Test Case IDs
 ok 300 - the CSV parser refuses duplicate, malformed and foreign Test Case IDs
   ---
-  duration_ms: 1.007398
+  duration_ms: 0.977695
   type: 'test'
   ...
 # Subtest: the CSV parser refuses a renamed, missing or reordered column
 ok 301 - the CSV parser refuses a renamed, missing or reordered column
   ---
-  duration_ms: 0.222345
+  duration_ms: 0.234124
   type: 'test'
   ...
 # Subtest: the CSV parser refuses Steps and Expected Results that are not numbered alike
 ok 302 - the CSV parser refuses Steps and Expected Results that are not numbered alike
   ---
-  duration_ms: 0.281483
+  duration_ms: 0.318213
   type: 'test'
   ...
 # Subtest: the CSV parser refuses an invalid Need Automation, reads an empty one as undecided
 ok 303 - the CSV parser refuses an invalid Need Automation, reads an empty one as undecided
   ---
-  duration_ms: 0.989548
+  duration_ms: 0.605444
   type: 'test'
   ...
 # Subtest: the CSV parser refuses an unreadable Azure DevOps ID instead of assuming unpublished
 ok 304 - the CSV parser refuses an unreadable Azure DevOps ID instead of assuming unpublished
   ---
-  duration_ms: 0.422915
+  duration_ms: 0.855632
   type: 'test'
   ...
 # Subtest: the CSV parser refuses a title that disagrees with Project, Module and Feature/Page
 ok 305 - the CSV parser refuses a title that disagrees with Project, Module and Feature/Page
   ---
-  duration_ms: 0.412841
+  duration_ms: 0.675546
   type: 'test'
   ...
 # Subtest: a row with the wrong field count is refused rather than shifted
 ok 306 - a row with the wrong field count is refused rather than shifted
   ---
-  duration_ms: 0.272043
+  duration_ms: 0.194218
   type: 'test'
   ...
 # Subtest: an unnumbered line in Steps continues the step above it
 ok 307 - an unnumbered line in Steps continues the step above it
   ---
-  duration_ms: 0.287618
+  duration_ms: 0.236078
   type: 'test'
   ...
 # Subtest: recordPublishedId changes only the ID and status cells, keeping every human edit
 ok 308 - recordPublishedId changes only the ID and status cells, keeping every human edit
   ---
-  duration_ms: 5.016955
+  duration_ms: 5.991476
   type: 'test'
   ...
 # Subtest: recordPublishedId for an unknown case says the work item WAS created
 ok 309 - recordPublishedId for an unknown case says the work item WAS created
   ---
-  duration_ms: 1.424852
+  duration_ms: 1.43747
   type: 'test'
   ...
 # Subtest: migration writes a CSV that reproduces every case and keeps the narrative
 ok 310 - migration writes a CSV that reproduces every case and keeps the narrative
   ---
-  duration_ms: 4.193753
+  duration_ms: 3.364927
   type: 'test'
   ...
 # Subtest: migration refuses to overwrite an existing CSV, which may hold human edits
 ok 311 - migration refuses to overwrite an existing CSV, which may hold human edits
   ---
-  duration_ms: 1.792655
+  duration_ms: 1.350548
   type: 'test'
   ...
 # Subtest: a rendered Markdown whose CSV is missing is not re-migrated
 ok 312 - a rendered Markdown whose CSV is missing is not re-migrated
   ---
-  duration_ms: 2.435261
+  duration_ms: 2.077377
   type: 'test'
   ...
 # Subtest: automation scope follows the latest CSV Need Automation and status, not the Markdown
 ok 313 - automation scope follows the latest CSV Need Automation and status, not the Markdown
   ---
-  duration_ms: 3.596563
+  duration_ms: 11.896197
   type: 'test'
   ...
 # Subtest: every consumer loads test cases through the CSV store, never by parsing the Markdown
 ok 314 - every consumer loads test cases through the CSV store, never by parsing the Markdown
   ---
-  duration_ms: 0.519104
+  duration_ms: 0.485966
   type: 'test'
   ...
 # Subtest: every Skill that consumes test cases names the CSV as its source, and none reads cases from the Markdown
 ok 315 - every Skill that consumes test cases names the CSV as its source, and none reads cases from the Markdown
   ---
-  duration_ms: 4.981634
+  duration_ms: 1.068892
   type: 'test'
   ...
 # Subtest: only the store and the Markdown reader call parseArtifact in src/
 ok 316 - only the store and the Markdown reader call parseArtifact in src/
   ---
-  duration_ms: 4.028189
+  duration_ms: 7.491478
   type: 'test'
   ...
 # Subtest: every story in the repository has both test-cases.csv and test-cases.md, and they match
 ok 317 - every story in the repository has both test-cases.csv and test-cases.md, and they match
   ---
-  duration_ms: 18.663586
+  duration_ms: 22.202285
   type: 'test'
   ...
 # Subtest: re-serialising each real CSV through the writer reproduces the same cases
 ok 318 - re-serialising each real CSV through the writer reproduces the same cases
   ---
-  duration_ms: 18.321133
+  duration_ms: 15.477273
   type: 'test'
   ...
 1..318
@@ -1921,4 +1921,4 @@ ok 318 - re-serialising each real CSV through the writer reproduces the same cas
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 2827.248086
+# duration_ms 3221.706018

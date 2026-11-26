@@ -14,10 +14,10 @@ RQ2,Duplicated lines (%),dup_pct,36,0.44,36,0.545,21,1.51,0.2623,1.0,0.177,small
 RQ2,Comment density,comment_density,36,0.086,36,0.109,21,0.023,0.0013,0.0156,-0.517,large,0.0001,0.0022,-0.631,large
 RQ2,Test-to-code LOC ratio,test_to_code,36,0.332,36,0.543,21,0.223,0.4664,1.0,-0.118,negligible,0.0106,0.2014,-0.41,medium
 RQ2,Internal fan-out / module,fanout_mean,36,2.101,36,2.533,21,2.1,0.7345,1.0,-0.056,negligible,0.0688,0.9632,-0.292,small
-RQ2,External packages / module,ext_fanout_mean,36,1.254,36,0.786,21,0.884,0.0981,0.7848,-0.266,small,0.2336,1.0,0.192,small
+RQ2,External packages / module,ext_fanout_mean,36,1.254,36,0.786,21,0.884,0.0981,0.6867,-0.266,small,0.2336,1.0,0.192,small
 RQ2,% code imported directly by tests,direct_test_pct,36,22.1,36,55.41,21,35.04,0.4269,1.0,0.128,negligible,0.0462,0.693,-0.32,small
-RQ2,% code reachable from tests,test_reach_pct,36,70.255,36,72.11,21,41.64,0.1276,0.7848,-0.245,small,0.0033,0.0693,-0.471,medium
+RQ2,% code reachable from tests,test_reach_pct,36,70.255,36,72.11,21,41.64,0.1276,0.7656,-0.245,small,0.0033,0.0693,-0.471,medium
 RQ3,tsc errors in project files / KLOC,tsc_errors_per_kloc,36,0.0,36,0.0,21,0.06,0.0215,0.1935,0.315,small,0.0047,0.094,0.386,medium
 RQ2,Test pass rate (Node 22),test_pass_rate,36,0.009,36,1.0,21,1.0,0.0062,0.062,0.396,medium,0.4177,1.0,-0.097,negligible
-RQ2,Mutation score,mutation_score,8,0.429,23,0.262,6,0.151,0.105,0.7848,-0.542,large,0.2246,1.0,-0.333,medium
-RQ2,"Mutation score, covered code",mutation_score_covered,8,0.429,22,0.682,5,0.438,0.7694,1.0,-0.125,negligible,0.2232,1.0,-0.364,medium
+RQ2,Mutation score,mutation_score,11,0.634,26,0.271,6,0.151,0.0303,0.2424,-0.667,large,0.1993,1.0,-0.346,medium
+RQ2,"Mutation score, covered code",mutation_score_covered,11,0.634,25,0.676,5,0.438,0.4612,1.0,-0.255,small,0.2534,1.0,-0.336,medium

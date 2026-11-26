@@ -46,7 +46,7 @@
       {
         "cmd": "npm ci",
         "exit": 0,
-        "seconds": 50.0
+        "seconds": 58.8
       }
     ],
     "static_only": false
@@ -59,7 +59,7 @@
         "tsconfig": "tsconfig.json",
         "exit": 0,
         "errors": 0,
-        "seconds": 1.509
+        "seconds": 3.461
       }
     ],
     "errors_total": 0,
@@ -76,7 +76,7 @@
     "exit": 0,
     "passed": true,
     "timed_out": false,
-    "seconds": 16.3
+    "seconds": 27.5
   },
   "mutation": {
     "sample_files": [
@@ -89,24 +89,33 @@
       "jest": "26.6.3",
       "mocha": null
     },
-    "runner": null,
-    "status": "timeout",
+    "runner": "command",
+    "status": "ok",
+    "disable_type_checks": "sample",
+    "coverage_analysis": "off",
+    "counts": {
+      "Survived": 61,
+      "Killed": 231
+    },
+    "mutants_valid": 292,
+    "mutation_score": 0.791095890410959,
+    "mutation_score_covered": 0.791095890410959,
     "attempts": [
       {
         "runner": "command",
         "dtc": "default",
         "cov": "off",
         "exit": 1,
-        "seconds": 21.437,
+        "seconds": 40.458,
         "timed_out": false
       },
       {
         "runner": "command",
         "dtc": "sample",
         "cov": "off",
-        "exit": 143,
-        "seconds": 1204.478,
-        "timed_out": true
+        "exit": 0,
+        "seconds": 3601.706,
+        "timed_out": false
       }
     ]
   }

@@ -6,36 +6,36 @@
 > ng-jhipster@0.16.0 lint
 > eslint . --ext .ts
 
-PASS tests/pipe/order-by.pipe.spec.ts (16.278 s)
-PASS tests/service/pagination-util.service.spec.ts (16.376 s)
+PASS tests/pipe/order-by.pipe.spec.ts (16.503 s)
+PASS tests/directive/sort.directive.spec.ts (17.096 s)
+PASS tests/directive/jhi-translate.directive.spec.ts (17.355 s)
+PASS tests/pipe/pure-filter.pipe.spec.ts (17.391 s)
+PASS tests/component/jhi-item-count.component.spec.ts (17.68 s)
 PASS tests/directive/max.directive.spec.ts
-PASS tests/directive/sort.directive.spec.ts (18.285 s)
+PASS tests/service/pagination-util.service.spec.ts (18.057 s)
+PASS tests/service/alert.service.spec.ts (18.123 s)
 PASS tests/directive/min.directive.spec.ts
-PASS tests/service/date-util.service.spec.ts (18.268 s)
-PASS tests/pipe/pure-filter.pipe.spec.ts (18.371 s)
+PASS tests/component/jhi-boolean.spec.ts (18.093 s)
 PASS tests/directive/minbytes.directive.spec.ts
 PASS tests/directive/maxbytes.directive.spec.ts
-PASS tests/directive/jhi-translate.directive.spec.ts (18.652 s)
-PASS tests/component/jhi-item-count.component.spec.ts (19.365 s)
-PASS tests/service/data-util.service.spec.ts (19.569 s)
+PASS tests/service/date-util.service.spec.ts (18.794 s)
 PASS tests/config-service.spec.ts
-PASS tests/service/parse-links.service.spec.ts
-PASS tests/service/event-manager.service.spec.ts
-PASS tests/service/resolve-paging-params.service.spec.ts
-PASS tests/component/jhi-boolean.spec.ts (19.97 s)
 PASS tests/pipe/capitalize.pipe.spec.ts
+PASS tests/service/parse-links.service.spec.ts
+PASS tests/service/resolve-paging-params.service.spec.ts
 PASS tests/language/language.service.spec.ts
+PASS tests/service/event-manager.service.spec.ts
 PASS tests/config.spec.ts
 PASS tests/service/base64.service.spec.ts
-PASS tests/pipe/keys.pipe.spec.ts
 PASS tests/pipe/truncate-words.pipe.spec.ts
-PASS tests/service/alert.service.spec.ts (20.491 s)
+PASS tests/pipe/keys.pipe.spec.ts
 PASS tests/directive/number-of-bytes.spec.ts
 PASS tests/pipe/truncate-characters.pipe.spec.ts
-PASS tests/directive/sort-by.directive.spec.ts (20.737 s)
+PASS tests/directive/sort-by.directive.spec.ts (19.511 s)
+PASS tests/service/data-util.service.spec.ts (19.46 s)
 
 Test Suites: 27 passed, 27 total
 Tests:       113 passed, 113 total
 Snapshots:   0 total
-Time:        23.745 s
+Time:        22.638 s
 Ran all test suites.

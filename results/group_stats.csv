@@ -5,7 +5,7 @@ RQ1,Suggestion-type violations / KLOC,lint_suggestion_per_kloc,36,36,26.845,4.70
 RQ1,Era-neutral violations / KLOC,lint_era_neutral_per_kloc,36,36,16.63,6.055,8.40-20.70,3.73-9.58,0.0,-0.586,large,0.0
 RQ1,Era-neutral problem violations / KLOC,lint_era_neutral_problem_per_kloc,36,36,5.79,1.795,3.62-14.63,0.72-3.50,0.0,-0.655,large,0.0
 RQ1,Explicit `any` / KLOC,any_per_kloc,36,36,14.25,0.0,6.00-21.43,0.00-0.63,0.0,-0.867,large,0.0
-RQ2,Functions / KLOC,functions_per_kloc,36,36,97.0,80.45,74.03-122.92,67.78-96.42,0.0839,-0.238,small,0.7551
+RQ2,Functions / KLOC,functions_per_kloc,36,36,97.0,80.45,74.03-122.92,67.78-96.42,0.0839,-0.238,small,0.6712
 RQ2,Mean cyclomatic complexity / function,cc_mean,36,36,1.759,2.826,1.46-2.19,2.37-3.22,0.0,0.767,large,0.0
 RQ2,% functions with CC > 10,cc_over10_pct,36,36,0.15,3.87,0.00-1.12,2.20-5.62,0.0,0.874,large,0.0
 RQ2,Mean cognitive complexity / function,cognitive_mean,36,36,0.744,1.619,0.39-1.26,1.20-2.03,0.0,0.63,large,0.0
@@ -13,11 +13,11 @@ RQ2,% functions with cognitive > 15,cognitive_over15_pct,36,36,0.0,1.425,0.00-0.
 RQ2,Duplicated lines (%),dup_pct,36,36,0.44,0.545,0.00-2.13,0.08-1.12,0.9773,-0.005,negligible,1.0
 RQ2,Comment density,comment_density,36,36,0.086,0.109,0.04-0.14,0.06-0.15,0.3499,0.129,negligible,1.0
 RQ2,Test-to-code LOC ratio,test_to_code,36,36,0.332,0.543,0.08-0.86,0.33-0.79,0.2259,0.167,small,1.0
-RQ2,Internal fan-out / module,fanout_mean,36,36,2.101,2.533,1.66-2.46,1.93-3.04,0.1188,0.215,small,0.9504
+RQ2,Internal fan-out / module,fanout_mean,36,36,2.101,2.533,1.66-2.46,1.93-3.04,0.1188,0.215,small,0.8316
 RQ2,External packages / module,ext_fanout_mean,36,36,1.254,0.786,0.88-1.77,0.31-1.11,0.0013,-0.442,medium,0.0143
 RQ2,% code imported directly by tests,direct_test_pct,36,36,22.1,55.41,6.23-61.28,26.40-72.05,0.004,0.395,medium,0.04
 RQ2,% code reachable from tests,test_reach_pct,36,36,70.255,72.11,17.96-96.33,47.97-96.33,0.4881,0.096,negligible,1.0
 RQ3,tsc errors in project files / KLOC,tsc_errors_per_kloc,36,36,0.0,0.0,0.00-0.00,0.00-0.00,0.7628,-0.031,negligible,1.0
 RQ2,Test pass rate (Node 22),test_pass_rate,36,36,0.009,1.0,0.00-1.00,1.00-1.00,0.0001,0.476,large,0.0012
-RQ2,Mutation score,mutation_score,8,23,0.429,0.262,0.30-0.74,0.14-0.48,0.2224,-0.299,small,1.0
-RQ2,"Mutation score, covered code",mutation_score_covered,8,22,0.429,0.682,0.30-0.74,0.36-0.77,0.5895,0.136,negligible,1.0
+RQ2,Mutation score,mutation_score,11,26,0.634,0.271,0.37-0.75,0.11-0.55,0.0648,-0.392,medium,0.5832
+RQ2,"Mutation score, covered code",mutation_score_covered,11,25,0.634,0.676,0.37-0.75,0.34-0.77,0.9315,0.022,negligible,1.0

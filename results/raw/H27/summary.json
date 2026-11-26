@@ -46,7 +46,7 @@
       {
         "cmd": "npm ci",
         "exit": 0,
-        "seconds": 13.9
+        "seconds": 17.4
       }
     ],
     "static_only": false
@@ -59,7 +59,7 @@
         "tsconfig": "tsconfig.json",
         "exit": 2,
         "errors": 7,
-        "seconds": 4.762
+        "seconds": 8.489
       }
     ],
     "errors_total": 7,
@@ -80,7 +80,7 @@
     "exit": 0,
     "passed": true,
     "timed_out": false,
-    "seconds": 34.2
+    "seconds": 41.9
   },
   "mutation": {
     "sample_files": [
@@ -96,15 +96,26 @@
       "jest": "24.1.0",
       "mocha": null
     },
-    "runner": null,
-    "status": "failed",
+    "runner": "command",
+    "status": "ok",
+    "ts_jest_diagnostics": "off",
+    "disable_type_checks": "sample",
+    "coverage_analysis": "off",
+    "counts": {
+      "Survived": 149,
+      "Killed": 257,
+      "Timeout": 1
+    },
+    "mutants_valid": 407,
+    "mutation_score": 0.6339066339066339,
+    "mutation_score_covered": 0.6339066339066339,
     "attempts": [
       {
         "runner": "command",
         "dtc": "default",
         "cov": "off",
         "exit": 1,
-        "seconds": 16.068,
+        "seconds": 20.931,
         "timed_out": false
       },
       {
@@ -112,7 +123,16 @@
         "dtc": "sample",
         "cov": "off",
         "exit": 1,
-        "seconds": 15.233,
+        "seconds": 20.564,
+        "timed_out": false
+      },
+      {
+        "runner": "command",
+        "dtc": "sample",
+        "cov": "off",
+        "ts_jest_diagnostics": "off",
+        "exit": 0,
+        "seconds": 3252.611,
         "timed_out": false
       }
     ]

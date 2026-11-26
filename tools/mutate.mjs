@@ -49,8 +49,60 @@ runners.push("command");
 
 // The command runner re-runs a command per mutant. When jest is installed, run jest itself: `test`
 // scripts that chain type-checking or linting (e.g. `run-s test:*`) fail on Stryker's instrumented code.
-const testCmd = jest ? "npx jest --ci"
+// Keep the arguments the project's own script passes to jest (above all `--config <file>`: without it jest
+// runs with defaults, cannot transform the TypeScript tests, and the initial test run fails). The jest call
+// is found in `test`, following `npm run` / `yarn` / `pnpm` references; coverage and watch flags are dropped.
+function projectJestArgs() {
+  let scripts = {};
+  try { scripts = JSON.parse(readFileSync("package.json", "utf8")).scripts || {}; } catch { return []; }
+  const seen = new Set();
+  const find = (name) => {
+    if (seen.has(name) || typeof scripts[name] !== "string") return null;
+    seen.add(name);
+    for (const part of scripts[name].split(/&&|\|\||;/)) {
+      const words = part.trim().split(/\s+/);
+      const i = words.findIndex((w) => w === "jest" || w.endsWith("/jest"));
+      if (i >= 0) return words.slice(i + 1);
+      const ref = part.trim().match(/^(?:npm run|yarn run|yarn|pnpm run|pnpm)\s+([\w:.-]+)/);
+      if (ref) { const r = find(ref[1]); if (r) return r; }
+    }
+    return null;
+  };
+  return (find("test") || []).filter((a) => a && !/^--(coverage|collectCoverage|watch|watchAll)(=|$)/.test(a));
+}
+const jestArgs = jest ? projectJestArgs() : [];
+const testCmd = jest ? ["npx jest --ci", ...jestArgs].join(" ")
   : ({ npm: "npm test", pnpm: "corepack pnpm test", yarn: "corepack yarn test" }[pm] || "npm test");
+
+// Last resort for ts-jest projects: TypeScript < 3.7 ignores the `// @ts-nocheck` that Stryker's
+// disableTypeChecks relies on, so ts-jest type-checks the instrumented code and every test fails. This
+// attempt wraps the project's own jest config and turns off ts-jest's type diagnostics, which is what
+// disableTypeChecks means to do. It runs only after every other attempt failed on TS diagnostics.
+const tsJest = pkgVersion("ts-jest");
+function noDiagCommand() {
+  let cfg = null;
+  const rest = [];
+  for (let i = 0; i < jestArgs.length; i++) {
+    const a = jestArgs[i];
+    if (a === "--config" || a === "-c") { cfg = jestArgs[++i]; continue; }
+    if (a.startsWith("--config=")) { cfg = a.slice(9); continue; }
+    rest.push(a);
+  }
+  if (!cfg) cfg = ["jest.config.js", "jest.config.cjs", "jest.config.json"].find((f) => existsSync(f)) || null;
+  if (cfg && !existsSync(cfg)) return null;
+  // jest < 27 accepts only .js / .json config files; newer versions also take .cjs (safe under "type": "module")
+  const wrapper = major(jest) < 27 ? "stryker.jest.config.js" : "stryker.jest.cjs";
+  writeFileSync(wrapper, [
+    'const path = require("path");',
+    `const cfg = ${JSON.stringify(cfg)};`,
+    'const base = cfg ? require(path.resolve(cfg)) : (require("./package.json").jest || {});',
+    "const dir = cfg ? path.dirname(path.resolve(cfg)) : __dirname;",
+    "const globals = { ...(base.globals || {}) };",
+    'globals["ts-jest"] = { ...(globals["ts-jest"] || {}), diagnostics: false };',
+    'module.exports = { ...base, rootDir: path.resolve(dir, base.rootDir || "."), globals };',
+  ].join("\n"));
+  return [`npx jest --ci --config ${wrapper}`, ...rest].join(" ");
+}
 
 const result = { sample_files: sample, sample_lines: budget, framework_versions: { vitest, jest, mocha },
                  attempts: [], runner: null, status: "not-run" };
@@ -83,11 +135,16 @@ if (inst.status !== 0) { result.status = "stryker-install-failed"; result.log = 
 const plan = runners.flatMap((runner) => runner === "command"
   ? [{ runner, dtc: "default", cov: "off" }, { runner, dtc: "sample", cov: "off" }]
   : [{ runner, dtc: "default", cov: "perTest" }, { runner, dtc: "sample", cov: "perTest" }, { runner, dtc: "default", cov: "off" }]);
+if (jest && tsJest) plan.push({ runner: "command", dtc: "sample", cov: "off", tsJestNoDiag: true });
 let lastCoverageFailure = false;
 let lastInitialFailure = false;
-for (const { runner, dtc, cov } of plan) {
+let lastTsDiagnostics = false;
+for (const { runner, dtc, cov, tsJestNoDiag } of plan) {
   if (dtc === "sample" && !lastInitialFailure) continue;
   if (cov === "off" && runner !== "command" && !lastCoverageFailure) continue;
+  if (tsJestNoDiag && !lastTsDiagnostics) continue;
+  const command = tsJestNoDiag ? noDiagCommand() : testCmd;
+  if (!command) continue;
   const report = `/out/mutation-${runner}-${dtc}-${cov}.json`;
   const conf = {
     testRunner: runner, mutate: sample, reporters: ["json"], jsonReporter: { fileName: report },
@@ -102,16 +159,17 @@ for (const { runner, dtc, cov } of plan) {
     ...(dtc === "sample" ? { disableTypeChecks: sample.length === 1 ? sample[0] : `{${sample.join(",")}}` } : {}),
     ...(cov === "perTest" ? { ignoreStatic: true } : {}),  // ignoreStatic requires perTest coverage
     ...(runner === "jest" && jestConfigFile ? { jest: { configFile: jestConfigFile } } : {}),
-    plugins: ["@stryker-mutator/*"], ...(runner === "command" ? { commandRunner: { command: testCmd } } : {}),
+    plugins: ["@stryker-mutator/*"], ...(runner === "command" ? { commandRunner: { command } } : {}),
   };
   writeFileSync("stryker.bench.json", JSON.stringify(conf, null, 2));
   const t0 = Date.now();
   const r = spawnSync("node", ["node_modules/@stryker-mutator/core/bin/stryker.js", "run", "stryker.bench.json", "--logLevel", "warn"],
     { cwd, encoding: "utf8", timeout: TIME_LIMIT_MIN * 60 * 1000, maxBuffer: 1 << 27, env: { ...process.env, CI: "true" } });
-  const attempt = { runner, dtc, cov, exit: r.status, seconds: (Date.now() - t0) / 1000, timed_out: r.error?.code === "ETIMEDOUT",
+  const attempt = { runner, dtc, cov, ...(tsJestNoDiag ? { ts_jest_diagnostics: "off" } : {}), exit: r.status, seconds: (Date.now() - t0) / 1000, timed_out: r.error?.code === "ETIMEDOUT",
                     log_tail: ((r.stdout || "") + (r.stderr || "")).replace(/^\s+at .*$/gm, "").slice(-2500) };
   result.attempts.push(attempt);
   lastInitialFailure = /failed tests in the initial test run/.test(attempt.log_tail);
+  lastTsDiagnostics = lastInitialFailure && /TS\d{4}/.test(attempt.log_tail);
   if (cov === "perTest") lastCoverageFailure = /coverage-analysis|Something went wrong in the initial test run/.test(attempt.log_tail);
   if (existsSync(report) && statSync(report).size > 0) {
     const rep = JSON.parse(readFileSync(report, "utf8"));
@@ -121,6 +179,7 @@ for (const { runner, dtc, cov } of plan) {
     const killed = (counts.Killed || 0) + (counts.Timeout || 0);
     const valid = killed + (counts.Survived || 0) + (counts.NoCoverage || 0);
     const covered = killed + (counts.Survived || 0);
+    if (tsJestNoDiag) result.ts_jest_diagnostics = "off";
     Object.assign(result, { runner, disable_type_checks: dtc, coverage_analysis: cov, status: "ok", counts, mutants_valid: valid,
       mutation_score: valid ? killed / valid : null, mutation_score_covered: covered ? killed / covered : null });
     break;

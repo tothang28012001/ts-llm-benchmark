@@ -46,17 +46,17 @@
       {
         "cmd": "npm install",
         "exit": 2,
-        "seconds": 25.6
+        "seconds": 26.1
       },
       {
         "cmd": "npm install --legacy-peer-deps",
         "exit": 2,
-        "seconds": 11.9
+        "seconds": 13.5
       },
       {
         "cmd": "npm install --legacy-peer-deps --ignore-scripts",
         "exit": 0,
-        "seconds": 7.5
+        "seconds": 10.0
       }
     ],
     "static_only": false
@@ -69,7 +69,7 @@
         "tsconfig": "tsconfig.json",
         "exit": 2,
         "errors": 40,
-        "seconds": 4.106
+        "seconds": 7.611
       }
     ],
     "errors_total": 40,
@@ -93,7 +93,7 @@
     "exit": 0,
     "passed": true,
     "timed_out": false,
-    "seconds": 39.0
+    "seconds": 27.1
   },
   "mutation": {
     "sample_files": [
@@ -106,23 +106,15 @@
       "mocha": null
     },
     "runner": null,
-    "status": "failed",
+    "status": "timeout",
     "attempts": [
       {
         "runner": "command",
         "dtc": "default",
         "cov": "off",
-        "exit": 1,
-        "seconds": 10.711,
-        "timed_out": false
-      },
-      {
-        "runner": "command",
-        "dtc": "sample",
-        "cov": "off",
-        "exit": 1,
-        "seconds": 8.528,
-        "timed_out": false
+        "exit": 143,
+        "seconds": 3616.239,
+        "timed_out": true
       }
     ]
   }

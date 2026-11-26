@@ -131,9 +131,10 @@ class Doc:
         self.story.append(KeepTogether([Paragraph(caption, S["tcaption"]), t, Spacer(1, 6)]))
 
     def references(self, refs: list[str]):
-        self.story.append(Paragraph(small_caps("References"), S["h1"]))
-        for i, r in enumerate(refs, 1):
-            self.story.append(Paragraph(f"[{i}]&nbsp;&nbsp;{r}", S["ref"]))
+        items = [Paragraph(f"[{i}]&nbsp;&nbsp;{r}", S["ref"]) for i, r in enumerate(refs, 1)]
+        # keep the heading with the first reference so it never sits alone at the foot of a column
+        self.story.append(KeepTogether([Paragraph(small_caps("References"), S["h1"]), items[0]]))
+        self.story.extend(items[1:])
 
     def build(self):
         self.doc.build(self.story)
